@@ -70,29 +70,29 @@ commit_country_code() {
 
 while [ $# -gt 0 ]; do
   case "$1" in
-	  -branch )
-	  [ $# -lt 2 ] && usage "Error: missing argument using -branch"
-	  BRANCH="$2"
-	  case "$BRANCH" in
-	    dev | rel )
-	    ;;
+    -branch )
+      [ $# -lt 2 ] && usage "Error: missing argument using -branch"
+      BRANCH="$2"
+      case "$BRANCH" in
+        dev | rel )
+        ;;
 	    
-	    * )
-	      usage "Error: -branch is valid only for dev|rel"
-	    ;;
-	  esac
-	shift
-	;;
+        * )
+          usage "Error: -branch is valid only for dev|rel"
+        ;;
+      esac
+      shift
+    ;;
 
-	-locale )
-	  [ $# -lt 2 ] && usage "Error: missing argument using -locale"
-	  LOCALES="$2"
-	  shift
-	;;
+    -locale )
+      [ $# -lt 2 ] && usage "Error: missing argument using -locale"
+      LOCALES="$2"
+      shift
+    ;;
 
-  -help | * )
-	  usage
-	;;
+    -help | * )
+      usage
+    ;;
   esac
   shift
 done
