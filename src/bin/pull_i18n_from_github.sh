@@ -1,6 +1,6 @@
 #!/bin/sh
 
-set -e
+set -ex
 
 usage() {
   echo "Usage: $0 -branch [dev|rel] -locale CODE"
@@ -55,7 +55,13 @@ git_commit() {
   /home/test/hudson/lib/ant/1.7.1/bin/ant commit -v -Di18n.lang=$MYLOCALE -Dsrc.dir=$WORKSPACE/i18n/$COUNTRY_CODE
   $GIT_HOME/git status
   $GIT_HOME/git add .
-  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge, $VERSION"
+  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge, $VERSION" | tee $WORKSPACE/commit.log
+  LINE_COUNT=`grep -v _$MY_LOCALE.properties | grep -v 'original line endings' | wc -l`
+  if [ $LINE_COUNT -gt 4 ] ; then
+    echo "There were $LINE_COUNT lines in the commit message that were not related to"
+    echo "the translation files. There should not be more than 4 so there could be a problem."
+    exit 1
+  fi
 }
 
 while [ $# -gt 0 ]; do
@@ -106,6 +112,7 @@ STAR_GIT=git@starcvs:star.git
 git_checkout_star
 
 # create .dev
+cd $WORKSPACE
 \rm -rf .dev
 ln -s "$STARMIRROR" .dev
 
