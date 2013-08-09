@@ -64,8 +64,8 @@ while [ $# -gt 0 ]; do
       if [ $# -lt 2 ] ; then
         usage "Error: missing argument using -branch"
       fi
-      BRANCH="$2"
-      case "$BRANCH" in
+      STREAM="$2"
+      case "$STREAM" in
         dev | rel | "dev,rel" | "rel,dev" )
         ;;
         
