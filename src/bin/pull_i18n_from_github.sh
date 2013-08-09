@@ -17,13 +17,13 @@ git_checkout_star() {
     \rm -rf $STAR_HOME
   fi
   cd $WORKSPACE
-  git clone $STAR_GIT
+  $GIT_HOME/git clone $STAR_GIT
   cd $STAR_HOME
- git pull origin master
+  $GIT_HOME/git pull origin master
 
   # set up some variables depending on release or development
   if [ "$STREAM" = "rel" ] ; then
-    MERGE_HEAD=`git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
+    MERGE_HEAD=`$GIT_HOME/git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
     STARMIRROR=/home/release/mirror
   else
     MERGE_HEAD=master
@@ -31,7 +31,7 @@ git_checkout_star() {
   fi
 
   # create new branch rel or dev based on $GIT_BRANCH
-  git checkout -b $STREAM $MERGE_HEAD
+  $GIT_HOME/git checkout -b $STREAM $MERGE_HEAD
   MERGE_HEAD=`echo $MERGE_HEAD | sed 's^origin/^^g'`
   cp ${WORKSPACE}/RELEASE_NOTES ${WORKSPACE}/star
   VERSION=`/home/test/hudson/tool/bin/get-bn $STAR_HOME/RELEASE_NOTES -bn`
@@ -53,9 +53,9 @@ git_commit() {
   # Start the committing process
   cd $STAR_HOME
   /home/test/hudson/lib/ant/1.7.1/bin/ant commit -v -Di18n.lang=$MYLOCALE -Dsrc.dir=$WORKSPACE/i18n/$COUNTRY_CODE
-  git status
-  git add .
-  git commit -m  "Updated $COUNTRY_CODE properties from sourceforge, $VERSION"
+  $GIT_HOME/git status
+  $GIT_HOME/git add .
+  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge, $VERSION"
 }
 
 while [ $# -gt 0 ]; do
@@ -92,6 +92,8 @@ done
 [ -z "$STREAM" ]  && usage "Error: -branch is not specified"
 [ -z "$LOCALES" ] && usage "Error: -locale is not specified"
 
+# not sure why, but when using sudo the path seems to screwed up and git cannot be found
+GIT_HOME=/home/star/mirror/git/latest/linux-x86_64/bin
 WORKING_BRANCH=$STREAM
 IFS=,
 if [ -z "$WORKSPACE" ] ; then
@@ -114,7 +116,7 @@ done
 
 # merge changes in the temporary branches dev or rel into the working branch
 cd $STAR_HOME
-git checkout $MERGE_HEAD
-git pull
-git merge $WORKING_BRANCH # into MERGE_HEAD
-#git push
+$GIT_HOME/git checkout $MERGE_HEAD
+$GIT_HOME/git pull
+$GIT_HOME/git merge $WORKING_BRANCH # into MERGE_HEAD
+#$GIT_HOME/git push
