@@ -126,4 +126,4 @@ cd $STAR_HOME
 $GIT_HOME/git checkout $MERGE_HEAD
 $GIT_HOME/git pull
 $GIT_HOME/git merge $WORKING_BRANCH # into MERGE_HEAD
-#$GIT_HOME/git push
+$GIT_HOME/git push
