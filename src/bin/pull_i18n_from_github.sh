@@ -107,8 +107,8 @@ if [ -z "$WORKSPACE" ] ; then
   WORKSPACE=`cd $BASEDIR/../../.. && pwd`
 fi
 
-STAR_HOME=$WORKSPACE/star
-STAR_GIT=git@starcvs:star.git
+#STAR_HOME=$WORKSPACE/star
+#STAR_GIT=git@starcvs:star.git
 git_checkout_star
 
 # create .dev

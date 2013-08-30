@@ -35,21 +35,31 @@ checkout_star() {
   cd $STAR_HOME
   git pull origin master
 
-  # set up some variables depending on release or development 
+  # set up some variables depending on release or development. If the VERSION
+  # variable has not been set then use stable in dev and latest release branch in release
   if [ "$STREAM" = "rel" ] ; then
-    SOURCE_TAG=`git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
+    if [ -z $VERSION ] ; then
+      STAR_TAG=`git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
+    else
+      RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
+      STAR_TAG=origin/release/$RELEASE
+    fi
     STARMIRROR=/home/release/mirror
   else
-    SOURCE_TAG=stable
+    if [ -z $VERSION ] ; then
+      STAR_TAG=stable
+    else
+      STAR_TAG=$VERSION
+    fi
     STARMIRROR=/home/star/mirror
   fi
 
   # get the correct tag
-  git checkout $SOURCE_TAG
+  git checkout $STAR_TAG
   git pull
-  SOURCE_TAG=`echo $SOURCE_TAG | sed 's^origin/^^g'`
+  STAR_TAG=`echo $STAR_TAG | sed 's^origin/^^g'`
 
-  # create .dev and build java which will include the English propery
+  # create .dev and build java which will include the English property
   # files in a jar file
   cd $STAR_HOME/..
   \rm -f .dev
@@ -57,7 +67,8 @@ checkout_star() {
   cd $STAR_HOME
   gmake java -j 4
   
-  # if we don't already have the release notes file, then generate it
+  # if we don't already have a release notes file from copying artifacts
+  # from an upstream job, then generate it
   if [ ! -f ${WORKSPACE}/RELEASE_NOTES ] ; then
     make version
   else
@@ -145,6 +156,9 @@ fi
 if [ -z "$WORKSPACE" ] ; then
   usage "Error: the WORKSPACE environment variable is not specified"
 fi
+if [ -z "$VERSION" ] ; then
+  . $WORKSPACE/version.properties
+fi
 
 # not sure why, but when using sudo the path seems to screwed up and git cannot be found
 GIT_HOME=/home/star/mirror/git/latest/linux-x86_64/bin
@@ -153,7 +167,7 @@ checkout_star
 
 IFS=,
 
-# create a branch to use for the changes
+# create a branch in the i18n workspace to use for the changes
 cd $I18N_HOME
 git checkout -b $STREAM
 
@@ -161,8 +175,15 @@ for COUNTRY_CODE in $LOCALES ; do
   commit_country
 done
 
+# merge and push the changes from all languages
 cd ${I18N_HOME}
-$GIT_HOME/git checkout $SOURCE_TAG
+if [ "$STREAM" = "dev" ] ; then
+  $GIT_HOME/git checkout master
+else
+  RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
+  $GIT_HOME/git checkout release/$RELEASE
+fi
+
 $GIT_HOME/git pull
-$GIT_HOME/git merge $STREAM # into SOURCE_TAG
-#$GIT_HOME/git push
+$GIT_HOME/git merge $STREAM # into HEAD of dev or rel streams
+$GIT_HOME/git push
