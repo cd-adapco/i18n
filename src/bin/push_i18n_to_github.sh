@@ -1,4 +1,6 @@
 #!/bin/sh
+set -e
+
 usage() {
   cat << END_HELP
   Usage: $0 -branch [dev|rel] -locale CODE
@@ -23,13 +25,13 @@ checkout_star() {
   I18N_HOME=${WORKSPACE}/i18n
 
   # there should not be a star directory in the workspace, but just in case
-  if [ -d "STAR_HOME" ] ; then
-    \rm -rf STAR_HOME
+  if [ -d "$STAR_HOME" ] ; then
+    \rm -rf $STAR_HOME
   fi
 
   # Clone star
   cd $WORKSPACE
-  git clone $GITROOT
+  git clone git@starcvs:star.git
   cd $STAR_HOME
   git pull origin master
 
@@ -42,11 +44,18 @@ checkout_star() {
     STARMIRROR=/home/star/mirror
   fi
 
-  # create new branch in ccm+ repository (rel or dev) based on $SOURCE_TAG (stable in dev or head in the release branch)
-  git checkout -b $STREAM $SOURCE_TAG
+  # get the correct tag
+  git checkout $SOURCE_TAG
   git pull
   SOURCE_TAG=`echo $SOURCE_TAG | sed 's^origin/^^g'`
-  make java
+
+  # create .dev and build java which will include the English propery
+  # files in a jar file
+  cd $STAR_HOME/..
+  \rm -f .dev
+  ln -s "$STARMIRROR" .dev
+  cd $STAR_HOME
+  gmake java -j 4
   
   # if we don't already have the release notes file, then generate it
   if [ ! -f ${WORKSPACE}/RELEASE_NOTES ] ; then
@@ -68,17 +77,13 @@ commit_country() {
 
   # generate the i18n properties files and get them into star/lib/i18n
   cd $STAR_HOME
-  ant i18n -Di18n.lang=$COUNTRY_CODE
-
-  # create a branch to use for the changes
-  cd $I18N_HOME
-  git checkout -b $VERSION
+  ../ant/bin/ant i18n -Di18n.lang=$COUNTRY_CODE
 
   # remove the english properties files from the working directory 
   # not sure why we should do this as the rsync will overwrite old files anyway  
-  if [ -d $I18N_HOME/$COUNTRY_CODE ] ; then
-    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rf {} \;
-  fi
+#  if [ -d $I18N_HOME/$COUNTRY_CODE ] ; then
+#    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rf {} \;
+#  fi
 
   # copy the english properties files from star/lib/i18n to the local i18n workspace 
   rsync -avz $STAR_HOME/lib/i18n/ $I18N_HOME/$COUNTRY_CODE/ \
@@ -147,6 +152,11 @@ GIT_HOME=/home/star/mirror/git/latest/linux-x86_64/bin
 checkout_star
 
 IFS=,
+
+# create a branch to use for the changes
+cd $I18N_HOME
+git checkout -b $STREAM
+
 for COUNTRY_CODE in $LOCALES ; do
   commit_country
 done
@@ -155,4 +165,4 @@ cd ${I18N_HOME}
 $GIT_HOME/git checkout $SOURCE_TAG
 $GIT_HOME/git pull
 $GIT_HOME/git merge $STREAM # into SOURCE_TAG
-$GIT_HOME/git push
+#$GIT_HOME/git push
