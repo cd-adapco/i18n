@@ -33,7 +33,7 @@ checkout_star() {
   cd $WORKSPACE
   git clone git@starcvs:star.git
   cd $STAR_HOME
-  git pull origin master
+  git pull 
 
   # set up some variables depending on release or development. If the VERSION
   # variable has not been set then use stable in dev and latest release branch in release
@@ -56,7 +56,6 @@ checkout_star() {
 
   # get the correct tag
   git checkout $STAR_TAG
-  git pull
   STAR_TAG=`echo $STAR_TAG | sed 's^origin/^^g'`
 
   # create .dev and build java which will include the English property
@@ -84,17 +83,22 @@ checkout_star() {
 #
 commit_country() {
   # should have started with a clean workspace, but just in case
+  # although this directory will be there from a previous language
   \rm -rf $STAR_HOME/lib/i18n
 
-  # generate the i18n properties files and get them into star/lib/i18n
+  # unpack the necessary jar files to get the english i18n properties files, 
+  # then get them into star/lib/i18n
   cd $STAR_HOME
   ../ant/bin/ant i18n -Di18n.lang=$COUNTRY_CODE
 
   # remove the english properties files from the working directory 
-  # not sure why we should do this as the rsync will overwrite old files anyway  
-#  if [ -d $I18N_HOME/$COUNTRY_CODE ] ; then
-#    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rf {} \;
-#  fi
+  # if an english file has been removed in the star repository, then this is 
+  # the only way to remove it in the i18n repository, we cannot use the
+  # --delete option on the rsync command as that would also delete the
+  # localized files since we are excluding those from the rsync
+  if [ -d $I18N_HOME/$COUNTRY_CODE ] ; then
+    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rf {} \;
+  fi
 
   # copy the english properties files from star/lib/i18n to the local i18n workspace 
   rsync -avz $STAR_HOME/lib/i18n/ $I18N_HOME/$COUNTRY_CODE/ \
@@ -110,8 +114,9 @@ commit_country() {
   # detect English files that were deleted and then delete the corresponding localized files
   git status | grep deleted | sed 's/#//g' | sed 's/deleted://g' | sed "s/.properties/_$MYLOCALE.properties/g" | xargs rm -f
 
+  cd $I18N_HOME
   git add .
-  git commit -m "Update English properties files in the $COUNTRY_CODE directory from the $STREAM branch,b version $VERSION" .
+  git commit -m "Update English properties files in the $COUNTRY_CODE directory from the $STREAM branch, version $VERSION" .
 }
 
 while [ $# -gt 0 ]; do
@@ -156,7 +161,7 @@ fi
 if [ -z "$WORKSPACE" ] ; then
   usage "Error: the WORKSPACE environment variable is not specified"
 fi
-if [ -z "$VERSION" ] ; then
+if [ -z "$VERSION" ] && [ -f . $WORKSPACE/version.properties ] ; then
   . $WORKSPACE/version.properties
 fi
 

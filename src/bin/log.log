@@ -1,0 +1,10 @@
+  Usage: ./push_i18n_to_github.sh -branch [dev|rel] -locale CODE
+  Error: the WORKSPACE environment variable is not specified
+  
+  Arguments 
+      CODE   one or more of ja, ru or zh, 
+             in a comma separated list if more than one is given 
+  Requirements
+      - The github i18n repository must be cloned
+      - The WORKSPACE environment variable is set to the 
+        directory where the i18n repository was cloned into
