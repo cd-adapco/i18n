@@ -1,5 +1,5 @@
 #!/bin/sh
-set -e
+set -ex
 
 usage() {
   cat << END_HELP
@@ -161,7 +161,7 @@ fi
 if [ -z "$WORKSPACE" ] ; then
   usage "Error: the WORKSPACE environment variable is not specified"
 fi
-if [ -z "$VERSION" ] && [ -f . $WORKSPACE/version.properties ] ; then
+if [ -z "$VERSION"  -a  -f . $WORKSPACE/version.properties ] ; then
   . $WORKSPACE/version.properties
 fi
 
