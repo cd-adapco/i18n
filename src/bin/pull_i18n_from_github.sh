@@ -43,19 +43,27 @@ git_checkout_star() {
 git_commit() {
   cd  $SWORKSPACE
 
-  # Organize the properties from sourceforge into starcvs
-  if [ "$COUNTRY_CODE" = "ru" ] ; then
-    MYLOCALE=ru_RU
-  else
-    MYLOCALE=$COUNTRY_CODE
-  fi
-
+  # add a suffix to the code where necessary and set up the jira ID for the commit message 
+  MYLOCALE=$COUNTRY_CODE
+  case $COUNTRY_CODE in
+    ja)
+      JIRA_ID="53364"
+    ;;
+    ru)
+      JIRA_ID="53365"
+      MYLOCALE=ru_RU
+    ;;
+    zh)
+      JIRA_ID="53366"
+    ;;
+  esac
+    
   # Start the committing process
   cd $STAR_HOME
   /home/test/hudson/lib/ant/1.7.1/bin/ant commit -v -Di18n.lang=$MYLOCALE -Dsrc.dir=$WORKSPACE/i18n/$COUNTRY_CODE
   $GIT_HOME/git status
   $GIT_HOME/git add .
-  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge, $VERSION" | tee $WORKSPACE/commit.log
+  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge - $VERSION - CCMP-$JIRA_ID" | tee $WORKSPACE/commit.log
   LINE_COUNT=`grep -v _${MYLOCALE}.properties $WORKSPACE/commit.log | grep -v 'original line endings' | wc -l`
   if [ $LINE_COUNT -gt 4 ] ; then
     echo "There were $LINE_COUNT lines in the commit message that were not related to"
@@ -116,10 +124,12 @@ cd $WORKSPACE
 \rm -rf .dev
 ln -s "$STARMIRROR" .dev
 
+$GIT_HOME/git config user.name "Peter Weatherdon - by Jenkins"
 for COUNTRY_CODE in $LOCALES ; do
   echo "Processing localized country: $COUNTRY_CODE"
   git_commit
 done
+$GIT_HOME/git config user.name "Peter Weatherdon"
 
 # merge changes in the temporary branches dev or rel into the working branch
 cd $STAR_HOME
