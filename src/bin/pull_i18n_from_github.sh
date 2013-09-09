@@ -124,12 +124,12 @@ cd $WORKSPACE
 \rm -rf .dev
 ln -s "$STARMIRROR" .dev
 
-$GIT_HOME/git config user.name "Peter Weatherdon - by Jenkins"
+$GIT_HOME/git config -f /home/pw/.gitconfig user.name "Peter Weatherdon - by Jenkins"
 for COUNTRY_CODE in $LOCALES ; do
   echo "Processing localized country: $COUNTRY_CODE"
   git_commit
 done
-$GIT_HOME/git config user.name "Peter Weatherdon"
+$GIT_HOME/git config -f /home/pw/.gitconfig user.name "Peter Weatherdon"
 
 # merge changes in the temporary branches dev or rel into the working branch
 cd $STAR_HOME
