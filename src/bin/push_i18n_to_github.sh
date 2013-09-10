@@ -18,12 +18,10 @@ END_HELP
 }
 
 #
-# To checkout star-ccm+ source files (release or development)
+# To checkout star-ccm+ source files (release/X.XX for release or stable for development) 
+# and make java to get the english property files
 #
 checkout_star() {
-  STAR_HOME=${WORKSPACE}/star
-  I18N_HOME=${WORKSPACE}/i18n
-
   # there should not be a star directory in the workspace, but just in case
   if [ -d "$STAR_HOME" ] ; then
     \rm -rf $STAR_HOME
@@ -66,6 +64,16 @@ checkout_star() {
   cd $STAR_HOME
   gmake java -j 4
   
+  # should have started with a clean workspace, but just in case
+  # although this directory will be there from a previous language
+  \rm -rf $STAR_HOME/lib/i18n
+
+  # unpack the NetBeans jar files and copy all english i18n properties files
+  # into star/lib/i18n. This also copies the files for a language even tho 
+  # this operation does not need them - did not want to edit the ant script
+  # and the language specific files are ignored in the copy to the i18n repository 
+  ../ant/bin/ant i18n -Di18n.lang=zh
+
   # if we don't already have a release notes file from copying artifacts
   # from an upstream job, then generate it
   if [ ! -f ${WORKSPACE}/RELEASE_NOTES ] ; then
@@ -79,28 +87,16 @@ checkout_star() {
 }
 
 #
-# To commit github sources into star-ccm+ git (release or development)
+# commit updated, new and deleted english property files from ccm+ to the i18n
+# repository for a particular language
 #
-commit_country() {
-  # should have started with a clean workspace, but just in case
-  # although this directory will be there from a previous language
-  \rm -rf $STAR_HOME/lib/i18n
-
-  # unpack the necessary jar files to get the english i18n properties files, 
-  # then get them into star/lib/i18n
-  cd $STAR_HOME
-  ../ant/bin/ant i18n -Di18n.lang=$COUNTRY_CODE
-
-  # remove the english properties files from the working directory 
-  # if an english file has been removed in the star repository, then this is 
-  # the only way to remove it in the i18n repository, we cannot use the
-  # --delete option on the rsync command as that would also delete the
-  # localized files since we are excluding those from the rsync
+copy_to_country() {
+  # remove the english properties files from the i18n working directory 
   if [ -d $I18N_HOME/$COUNTRY_CODE ] ; then
-    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rf {} \;
+    find $I18N_HOME/$COUNTRY_CODE -iname "*.properties" -not -iname "*$COUNTRY_CODE*properties" -exec \rm -rfv {} \;
   fi
 
-  # copy the english properties files from star/lib/i18n to the local i18n workspace 
+  # copy the english files only from star/lib/i18n to the language specific directory in the i18n workspace 
   rsync -avz $STAR_HOME/lib/i18n/ $I18N_HOME/$COUNTRY_CODE/ \
     --include="*/" --include="Bundle.properties" --include="Bundle_star.properties" --include="Star.properties" \
     --exclude="*"
@@ -111,10 +107,10 @@ commit_country() {
     MYLOCALE=$COUNTRY_CODE
   fi
 
-  # detect English files that were deleted and then delete the corresponding localized files
-  git status | grep deleted | sed 's/#//g' | sed 's/deleted://g' | sed "s/.properties/_$MYLOCALE.properties/g" | xargs rm -f
-
+  # in the i18n directory, detect English files that were deleted and then delete the corresponding localized files
   cd $I18N_HOME
+  git status | grep deleted | sed 's/#//g' | sed 's/deleted://g' | sed "s/.properties/_$MYLOCALE.properties/g" | xargs rmv -f
+
   git add .
   git commit -m "Update English properties files in the $COUNTRY_CODE directory from the $STREAM branch, version $VERSION" .
 }
@@ -161,26 +157,16 @@ fi
 if [ -z "$WORKSPACE" ] ; then
   usage "Error: the WORKSPACE environment variable is not specified"
 fi
-if [ -z "$VERSION"  -a  -f . $WORKSPACE/version.properties ] ; then
+if [ -z "$VERSION"  -a  -f $WORKSPACE/version.properties ] ; then
   . $WORKSPACE/version.properties
 fi
+STAR_HOME=${WORKSPACE}/star
+I18N_HOME=${WORKSPACE}/i18n
 
 # not sure why, but when using sudo the path seems to screwed up and git cannot be found
 GIT_HOME=/home/star/mirror/git/latest/linux-x86_64/bin
 
-checkout_star
-
-IFS=,
-
-# create a branch in the i18n workspace to use for the changes
-cd $I18N_HOME
-git checkout -b $STREAM
-
-for COUNTRY_CODE in $LOCALES ; do
-  commit_country
-done
-
-# merge and push the changes from all languages
+# check out the right i18n tag
 cd ${I18N_HOME}
 if [ "$STREAM" = "dev" ] ; then
   $GIT_HOME/git checkout master
@@ -189,6 +175,14 @@ else
   $GIT_HOME/git checkout release/$RELEASE
 fi
 
-$GIT_HOME/git pull
-$GIT_HOME/git merge $STREAM # into HEAD of dev or rel streams
+# get the english strings
+checkout_star
+
+# copy them to i18n and commit them
+IFS=,
+for COUNTRY_CODE in $LOCALES ; do
+  copy_to_country
+done
+
+# final push of all updated languages
 $GIT_HOME/git push
