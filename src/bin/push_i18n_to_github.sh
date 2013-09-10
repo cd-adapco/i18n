@@ -109,7 +109,7 @@ copy_to_country() {
 
   # in the i18n directory, detect English files that were deleted and then delete the corresponding localized files
   cd $I18N_HOME
-  git status | grep deleted | sed 's/#//g' | sed 's/deleted://g' | sed "s/.properties/_$MYLOCALE.properties/g" | xargs rmv -f
+  git status | grep deleted | sed 's/#//g' | sed 's/deleted://g' | sed "s/.properties/_$MYLOCALE.properties/g" | xargs rm -fv
 
   git add .
   git commit -m "Update English properties files in the $COUNTRY_CODE directory from the $STREAM branch, version $VERSION" .
