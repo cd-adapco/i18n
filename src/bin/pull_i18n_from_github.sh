@@ -58,11 +58,19 @@ git_commit() {
     ;;
   esac
     
-  # Start the committing process
+  # first we need to delete all the language files in the star repository in case any
+  # have been deleted in the i18n repository 
   cd $STAR_HOME
+  find . -name "*_${COUNTRY_CODE}.properties" | sort | xargs rm -fv  
+    
+  # The commit target of the ant script is a misnomer, it copies the translated files
+  # from the i18n workspace and maps them into the correct directories in the star workspace
   /home/test/hudson/lib/ant/1.7.1/bin/ant commit -v -Di18n.lang=$MYLOCALE -Dsrc.dir=$WORKSPACE/i18n/$COUNTRY_CODE
+  
+  # do a git status for the record and then add and commit changes. the -A makes sure any deleted files 
+  # are handled properly
   $GIT_HOME/git status
-  $GIT_HOME/git add .
+  $GIT_HOME/git add . -A
   $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge - $VERSION - CCMP-$JIRA_ID" | tee $WORKSPACE/commit.log
   LINE_COUNT=`grep -v _${MYLOCALE}.properties $WORKSPACE/commit.log | grep -v 'original line endings' | wc -l`
   if [ $LINE_COUNT -gt 4 ] ; then
