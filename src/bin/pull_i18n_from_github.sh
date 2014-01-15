@@ -23,7 +23,7 @@ git_checkout_star() {
 
   # set up some variables depending on release or development
   if [ "$STREAM" = "rel" ] ; then
-    MERGE_HEAD=`$GIT_HOME/git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
+    MERGE_HEAD=`$GIT_HOME/git branch -r | grep "origin/release/[0-9]\.[0-9][0-9]" | sort -r | head -1 | sed 's/ //g'`
     STARMIRROR=/home/release/mirror
   else
     MERGE_HEAD=master
