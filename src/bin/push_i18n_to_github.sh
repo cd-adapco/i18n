@@ -37,7 +37,7 @@ checkout_star() {
   # variable has not been set then use stable in dev and latest release branch in release
   if [ "$STREAM" = "rel" ] ; then
     if [ -z $VERSION ] ; then
-      STAR_TAG=`git branch -r | grep "origin/release" | sort -r | head -1 | sed 's/ //g'`
+      STAR_TAG=`git branch -r | grep "origin/release/[0-9]\.[0-9][0-9]" | sort -r | head -1 | sed 's/ //g'`
     else
       RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
       STAR_TAG=origin/release/$RELEASE
@@ -72,6 +72,7 @@ checkout_star() {
   # into star/lib/i18n. This also copies the files for a language even tho 
   # this operation does not need them - did not want to edit the ant script
   # and the language specific files are ignored in the copy to the i18n repository 
+  # TODO: check if this should be for loop or if ant script takes comma-separated lang list
   ../ant/bin/ant i18n -Di18n.lang=zh
 
   # if we don't already have a release notes file from copying artifacts
@@ -82,6 +83,8 @@ checkout_star() {
     cp ${WORKSPACE}/RELEASE_NOTES ${WORKSPACE}/star
   fi
   if [ -z "$VERSION" ] ; then
+    # TODO: Use a get-bn utility NOT in hudson/tool/bin
+    # Don't have top.git here yet
     VERSION=`/home/test/hudson/tool/bin/get-bn $STAR_HOME/RELEASE_NOTES -bn`
   fi
 }
@@ -163,16 +166,14 @@ fi
 STAR_HOME=${WORKSPACE}/star
 I18N_HOME=${WORKSPACE}/i18n
 
-# not sure why, but when using sudo the path seems to screwed up and git cannot be found
-GIT_HOME=/home/star/mirror/git/latest/linux-x86_64/bin
 
 # check out the right i18n tag
 cd ${I18N_HOME}
 if [ "$STREAM" = "dev" ] ; then
-  $GIT_HOME/git checkout master
+  git checkout master
 else
   RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
-  $GIT_HOME/git checkout release/$RELEASE
+  git checkout release/$RELEASE
 fi
 
 # get the english strings
@@ -185,4 +186,4 @@ for COUNTRY_CODE in $LOCALES ; do
 done
 
 # final push of all updated languages
-$GIT_HOME/git push
+git push
