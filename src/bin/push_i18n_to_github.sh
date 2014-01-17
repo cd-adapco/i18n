@@ -129,7 +129,7 @@ while [ $# -gt 0 ]; do
       else
         STREAM_GITHUB="$2"
       fi
-      case "$1" in
+      case "$2" in
         dev | rel )
         ;;
 	    
