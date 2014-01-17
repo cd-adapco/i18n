@@ -120,17 +120,21 @@ copy_to_country() {
 
 while [ $# -gt 0 ]; do
   case "$1" in
-    -branch )
+    -branch | -branch_github )
       if [ $# -lt 2 ] ; then 
         usage "Error: missing argument using -branch"
       fi
-      STREAM="$2"
-      case "$STREAM" in
+      if [ "$1" = "-branch" ] ; then
+        STREAM="$2"
+      else
+        STREAM_GITHUB="$2"
+      fi
+      case "$1" in
         dev | rel )
         ;;
 	    
         * )
-          usage "Error: -branch is valid only for dev|rel"
+          usage "Error: -branch and -branch_github is valid only for dev|rel"
         ;;
       esac
       shift
@@ -169,7 +173,7 @@ I18N_HOME=${WORKSPACE}/i18n
 
 # check out the right i18n tag
 cd ${I18N_HOME}
-if [ "$STREAM" = "dev" ] ; then
+if [ "$STREAM_GITHUB" = "dev" ] ; then
   git checkout master
 else
   RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
