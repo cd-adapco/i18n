@@ -25,9 +25,13 @@ git_checkout_star() {
   if [ "$STREAM" = "rel" ] ; then
     MERGE_HEAD=`$GIT_HOME/git branch -r | grep "origin/release/[0-9]\.[0-9][0-9]" | sort -r | head -1 | sed 's/ //g'`
     STARMIRROR=/home/release/mirror
+    GIT_CONFIG_FILE=/home/jec/.gitconfig
+    GIT_USER="Jeff Curran"
   else
     MERGE_HEAD=master
     STARMIRROR=/home/star/mirror
+    GIT_CONFIG_FILE=/home/pw/.gitconfig
+    GIT_USER="Peter Weatherdon"
   fi
 
   # create new branch rel or dev based on $GIT_BRANCH
@@ -132,12 +136,12 @@ cd $WORKSPACE
 \rm -rf .dev
 ln -s "$STARMIRROR" .dev
 
-$GIT_HOME/git config -f /home/jec/.gitconfig user.name "Jeff Curran - by Jenkins"
+$GIT_HOME/git config -f $GIT_CONFIG_FILE user.name "$GIT_USER - by Jenkins"
 for COUNTRY_CODE in $LOCALES ; do
   echo "Processing localized country: $COUNTRY_CODE"
   git_commit
 done
-$GIT_HOME/git config -f /home/jec/.gitconfig user.name "Jeff Curran"
+$GIT_HOME/git config -f $GIT_CONFIG_FILE user.name "$GIT_USER"
 
 # merge changes in the temporary branches dev or rel into the working branch
 cd $STAR_HOME
