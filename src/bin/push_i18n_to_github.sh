@@ -118,6 +118,10 @@ copy_to_country() {
   git commit -m "Update English properties files in the $COUNTRY_CODE directory from the $STREAM branch, version $VERSION" .
 }
 
+# initialize some default values
+STREAM_GITHUB=dev
+
+# parse the command line arguments 
 while [ $# -gt 0 ]; do
   case "$1" in
     -branch | -branch_github )
