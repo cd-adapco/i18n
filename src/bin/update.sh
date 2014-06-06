@@ -10,10 +10,10 @@ STAR_WORKSPACE=$WORKSPACE/tmp
 mkdir -p $STAR_WORKSPACE
 STAR_HOME=$STAR_WORKSPACE/star
 if [ "$CVS_BRANCH" = "rel" ] ; then
-CVSROOT=:pserver:test@relsrv.cdnorthamerica.com:/home/release/cvsroot
+CVSROOT=:pserver:test@relsrv.lebanon.cd-adapco.com:/home/release/cvsroot
 STARMIRROR=/home/release/cruise/dev
 else
-CVSROOT=:pserver:test@starcvs.cdnorthamerica.com:/home/dev/cvsroot
+CVSROOT=:pserver:test@starcvs.lebanon.cd-adapco.com:/home/dev/cvsroot
 STARMIRROR=/home/star/mirror
 fi
 echo "export CVSROOT=$CVSROOT"
