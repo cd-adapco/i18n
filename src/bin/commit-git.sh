@@ -105,9 +105,9 @@ if [ "$CVS_BRANCH" = "rel" ] ; then
     exit 1
 else
     \rm -rf $STAR_HOME/star
-    echo "git clone git@starcvs:star.git"
-          git clone git@starcvs:star.git
-fi
+    echo "git clone git@stash:ups/star.git"
+          git clone git@stash:ups/star.git
+          
 VERSION=`get-bn $STAR_HOME/RELEASE_NOTES -bn`
 
 # create .dev
