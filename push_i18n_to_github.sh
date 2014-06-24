@@ -32,7 +32,7 @@ checkout_star() {
 
   # Clone star
   cd $WORKSPACE
-  git clone git@starcvs:star.git
+  git clone git@stash:ups/star.git
   cd $STAR_HOME
   git pull 
 
