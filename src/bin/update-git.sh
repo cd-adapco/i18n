@@ -8,7 +8,7 @@ cvs_checkout() {
 STAR_WORKSPACE=$WORKSPACE/tmp
 mkdir -p $STAR_WORKSPACE
 STAR_HOME=$STAR_WORKSPACE/star
-GITROOT=git@starcvs:star.git
+GITROOT=git@stash:ups/star.git
 [ -d "$STAR_HOME" ] && \rm -rf "$STAR_HOME"
 echo "cd $STAR_WORKSPACE && git clone $GITROOT"
       cd $STAR_WORKSPACE && git clone $GITROOT
