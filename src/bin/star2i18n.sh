@@ -7,7 +7,7 @@ usage() {
 }
 
 setup_star() {
-  git clone git@starcvs:star.git
+  git clone git@stash:ups/star.git
 
   cd $STAR_HOME
   if [ $BRANCH = "rel" ] ; then
