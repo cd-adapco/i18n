@@ -13,7 +13,7 @@ git_checkout() {
   STAR_WORKSPACE=$WORKSPACE/tmp
   mkdir -p $STAR_WORKSPACE
   STAR_HOME=$STAR_WORKSPACE/star
-  GITROOT=git@starcvs:star.git
+  GITROOT=git@stash:ups/star.git
   if [ -d "$STAR_HOME" ] ; then
     \rm -rf "$STAR_HOME"
   fi
