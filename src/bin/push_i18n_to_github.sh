@@ -37,7 +37,7 @@ checkout_star() {
   # variable has not been set then use stable in dev and latest release branch in release
   if [ "$STREAM" = "rel" ] ; then
     if [ -z $VERSION ] ; then
-      STAR_TAG=`git branch -r | grep "origin/release/[0-9]\.[0-9][0-9]" | sort -r | head -1 | sed 's/ //g'`
+      STAR_TAG=`git branch -r | grep "origin/release/[0-9][0-9]\.[0-9][0-9]" | sort -r | head -1 | sed 's/ //g'`
     else
       RELEASE=`echo $VERSION | sed 's/\(.*\..*\)\..*/\1/'`
       STAR_TAG=origin/release/$RELEASE
