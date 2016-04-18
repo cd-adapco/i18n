@@ -73,7 +73,7 @@ checkout_star() {
   # this operation does not need them - did not want to edit the ant script
   # and the language specific files are ignored in the copy to the i18n repository 
   # TODO: check if this should be for loop or if ant script takes comma-separated lang list
-  ../ant/bin/ant i18n -Di18n.lang=zh
+  ../ant/latest/bin/ant i18n -Di18n.lang=zh
 
   # if we don't already have a release notes file from copying artifacts
   # from an upstream job, then generate it
