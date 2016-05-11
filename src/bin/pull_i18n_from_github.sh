@@ -51,14 +51,14 @@ git_commit() {
   MYLOCALE=$COUNTRY_CODE
   case $COUNTRY_CODE in
     ja)
-      JIRA_ID="53364"
+      JIRA_ID="1377"
     ;;
     ru)
-      JIRA_ID="53365"
+      JIRA_ID="1376"
       MYLOCALE=ru_RU
     ;;
     zh)
-      JIRA_ID="53366"
+      JIRA_ID="1378"
     ;;
   esac
     
@@ -75,7 +75,7 @@ git_commit() {
   # are handled properly
   $GIT_HOME/git status
   $GIT_HOME/git add . -A
-  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge - $VERSION - CCMP-$JIRA_ID" | tee $WORKSPACE/commit.log
+  $GIT_HOME/git commit -m  "Updated $COUNTRY_CODE properties from sourceforge - $VERSION - PRO-$JIRA_ID" | tee $WORKSPACE/commit.log
   LINE_COUNT=`grep -v _${MYLOCALE}.properties $WORKSPACE/commit.log | grep -v 'original line endings' | wc -l`
   if [ $LINE_COUNT -gt 4 ] ; then
     echo "There were $LINE_COUNT lines in the commit message that were not related to"
