@@ -1,0 +1,7 @@
+ThPlease note that this entry should not be translated:
+
+InstallUninstaller.85001a1b8498.destinationName=Uninstall
+InstallUninstaller.85001a1b8498.destinationName=Uninstall
+
+The above entry controls the name given to the "Uninstall.exe". Due to a bug in InstallAnywhere, if it is localised,
+the uninstaller will not execute properly.
