@@ -1,0 +1,2544 @@
+# InstallAnywhere Localization File
+#
+# External strings for locale: English (en)
+# See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
+#     regarding mappings between the properties shown below and your InstallAnywhere
+#     project.
+#
+# External/Locale property names can take one of three forms:
+#     <ActionName>.<ReferenceID>.<ActionProperty>          (e.g., Installer.858175031081.productName)
+#     <ActionName>.<ReferenceID>.<ActionProperty>.<Index>  (e.g., Installer.858175031081.installLabels.01)
+#         - where the <ActionProperty> is a Vector and the <Index> represents the place within the
+#           Vector where the value of the property should be inserted
+#     _ia.<SomeProperty>                                   (e.g., _ia.MyCustomCodePanelProperty)
+#         - where <SomeProperty> is used as an identifier for a localized value by custom code
+#
+# External/Locale property values should be plain text strings.  Special or i18n characters
+#     that cannot be represented by ASCII characters should be written using escaped unicode.
+#     - see the utility 'native2ascii' distributed with your JDK
+#
+# Product Name: STAR-CCM+$STARCCMPLUS_VERSION$
+# Project File: /u/xeon144/starusers/kevinm/installers/ccmp/windows/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
+# Generated:    Wed Oct 19 14:50:23 EDT 2016
+
+
+# ASCIIFileManipulator.47fe6ec5af90.additionalText=
+ASCIIFileManipulator.47fe6ec5af90.additionalText=
+
+# ASCIIFileManipulator.48e31cf08bb3.additionalText=
+ASCIIFileManipulator.48e31cf08bb3.additionalText=
+
+# ASCIIFileManipulator.48e493b28f57.additionalText=
+ASCIIFileManipulator.48e493b28f57.additionalText=
+
+# ASCIIFileManipulator.49b821459c81.additionalText=
+ASCIIFileManipulator.49b821459c81.additionalText=
+
+# ASCIIFileManipulator.c34ef1fd84f0.additionalText=
+ASCIIFileManipulator.c34ef1fd84f0.additionalText=
+
+# Billboard.850018f38468.imageName=billboard_default.png
+Billboard.850018f38468.imageName=billboard_default.png
+
+# Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+
+# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
+ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
+
+# ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
+ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
+
+# ChooseFile.257d8095925b.prompt=Please choose location of the license &File:
+ChooseFile.257d8095925b.prompt=Please choose location of the license &File:
+
+# ChooseFile.257d8095925b.stepTitle=Select license file
+ChooseFile.257d8095925b.stepTitle=Select license file
+
+# ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
+ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
+
+# ChooseFolder.20805f839cc0.defaultFile=
+ChooseFolder.20805f839cc0.defaultFile=
+
+# ChooseFolder.20805f839cc0.prompt=Please Locate STAR-CCM+ installation:
+ChooseFolder.20805f839cc0.prompt=Please Locate STAR-CCM+ installation:
+
+# ChooseFolder.20805f839cc0.stepTitle=Locate STAR-CCM+ installation 
+ChooseFolder.20805f839cc0.stepTitle=Locate STAR-CCM+ installation 
+
+# ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+
+# ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
+ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
+
+# ChooseFolder.26b422089f87.prompt=Please Choose a &Folder:
+ChooseFolder.26b422089f87.prompt=Please Choose a &Folder:
+
+# ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ Installation Directory
+ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ Installation Directory
+
+# ChooseFolder.3051e252be4c.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+ChooseFolder.3051e252be4c.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+
+# ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
+ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
+
+# ChooseFolder.3051e252be4c.prompt=Please Choose a &Folder:
+ChooseFolder.3051e252be4c.prompt=Please Choose a &Folder:
+
+# ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
+ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
+
+# ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
+ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
+
+# ChooseFolder.9d52df06814f.defaultFile=
+ChooseFolder.9d52df06814f.defaultFile=
+
+# ChooseFolder.9d52df06814f.prompt=Please Locate STAR-View+ installation:
+ChooseFolder.9d52df06814f.prompt=Please Locate STAR-View+ installation:
+
+# ChooseFolder.9d52df06814f.stepTitle=Locate STAR-View+ installation 
+ChooseFolder.9d52df06814f.stepTitle=Locate STAR-View+ installation 
+
+# CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
+CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
+
+# CreateDialog.29fccfaca483.title=Stop the Server
+CreateDialog.29fccfaca483.title=Stop the Server
+
+# CreateDialog.4a4d3175a822.prompt=Do you want to launch a web browser and access the License Server Management Interface to review license configuration ?
+CreateDialog.4a4d3175a822.prompt=Do you want to launch a web browser and access the License Server Management Interface to review license configuration ?
+
+# CreateDialog.4a4d3175a822.title=Start a browser
+CreateDialog.4a4d3175a822.title=Start a browser
+
+# CreateShortcut.01610b5380cd.args=http://localhost:$HTTP_PORT_NUMBER$/
+CreateShortcut.01610b5380cd.args=http://localhost:$HTTP_PORT_NUMBER$/
+
+# CreateShortcut.01610b5380cd.destinationName=FLEXnet License Administrator
+CreateShortcut.01610b5380cd.destinationName=FLEXnet License Administrator
+
+# CreateShortcut.01610b5380cd.workingDir=
+CreateShortcut.01610b5380cd.workingDir=
+
+# CreateShortcut.2dca96238e95.args=
+CreateShortcut.2dca96238e95.args=
+
+# CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.2dca96238e95.workingDir=
+CreateShortcut.2dca96238e95.workingDir=
+
+# CreateShortcut.2de0b8dc9238.args=
+CreateShortcut.2de0b8dc9238.args=
+
+# CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.2de0b8dc9238.workingDir=
+CreateShortcut.2de0b8dc9238.workingDir=
+
+# CreateShortcut.2de4337e8b03.args=
+CreateShortcut.2de4337e8b03.args=
+
+# CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.2de4337e8b03.workingDir=
+CreateShortcut.2de4337e8b03.workingDir=
+
+# CreateShortcut.5278af2aaead.args=
+CreateShortcut.5278af2aaead.args=
+
+# CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.5278af2aaead.workingDir=
+CreateShortcut.5278af2aaead.workingDir=
+
+# CreateShortcut.52790dd5b2ad.args=
+CreateShortcut.52790dd5b2ad.args=
+
+# CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.52790dd5b2ad.workingDir=
+CreateShortcut.52790dd5b2ad.workingDir=
+
+# CreateShortcut.99bc43ee8cd9.args=$USER_INSTALL_DIR$$/$doc$/$ja$/$ReleaseNotes_$PACKAGE_VERSION$.html
+CreateShortcut.99bc43ee8cd9.args=$USER_INSTALL_DIR$$/$doc$/$ja$/$ReleaseNotes_$PACKAGE_VERSION$.html
+
+# CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+
+# CreateShortcut.99bc43ee8cd9.workingDir=
+CreateShortcut.99bc43ee8cd9.workingDir=
+
+# CreateShortcut.9d61b24aac76.args=$USER_INSTALL_DIR$$/$doc$/$zh$/$ReleaseNotes_$PACKAGE_VERSION$.html
+CreateShortcut.9d61b24aac76.args=$USER_INSTALL_DIR$$/$doc$/$zh$/$ReleaseNotes_$PACKAGE_VERSION$.html
+
+# CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+
+# CreateShortcut.9d61b24aac76.workingDir=
+CreateShortcut.9d61b24aac76.workingDir=
+
+# CreateShortcut.9d83036eb16c.args=$USER_INSTALL_DIR$$/$doc$/$en$/$ReleaseNotes_$PACKAGE_VERSION$.html
+CreateShortcut.9d83036eb16c.args=$USER_INSTALL_DIR$$/$doc$/$en$/$ReleaseNotes_$PACKAGE_VERSION$.html
+
+# CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
+
+# CreateShortcut.9d83036eb16c.workingDir=
+CreateShortcut.9d83036eb16c.workingDir=
+
+# CreateShortcut.c046908089a4.args=
+CreateShortcut.c046908089a4.args=
+
+# CreateShortcut.c046908089a4.destinationName=FLEXnet License Administration Tools
+CreateShortcut.c046908089a4.destinationName=FLEXnet License Administration Tools
+
+# CreateShortcut.c046908089a4.workingDir=
+CreateShortcut.c046908089a4.workingDir=
+
+# CreateShortcut.caa364a8a2b0.args=
+CreateShortcut.caa364a8a2b0.args=
+
+# CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.caa364a8a2b0.workingDir=
+CreateShortcut.caa364a8a2b0.workingDir=
+
+# CreateShortcut.cb11e682a2c8.args=
+CreateShortcut.cb11e682a2c8.args=
+
+# CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.cb11e682a2c8.workingDir=
+CreateShortcut.cb11e682a2c8.workingDir=
+
+# CreateShortcut.cce9256a9c03.args=
+CreateShortcut.cce9256a9c03.args=
+
+# CreateShortcut.cce9256a9c03.destinationName=FLEXnet License Administration Guide
+CreateShortcut.cce9256a9c03.destinationName=FLEXnet License Administration Guide
+
+# CreateShortcut.cce9256a9c03.workingDir=
+CreateShortcut.cce9256a9c03.workingDir=
+
+# CreateShortcut.cd1330779add.args=
+CreateShortcut.cd1330779add.args=
+
+# CreateShortcut.cd1330779add.destinationName=FLEXnet License Administration Tools
+CreateShortcut.cd1330779add.destinationName=FLEXnet License Administration Tools
+
+# CreateShortcut.cd1330779add.workingDir=
+CreateShortcut.cd1330779add.workingDir=
+
+# CreateShortcut.cfc35baeb8f6.args=
+CreateShortcut.cfc35baeb8f6.args=
+
+# CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.cfc35baeb8f6.workingDir=
+CreateShortcut.cfc35baeb8f6.workingDir=
+
+# CreateShortcut.cfd2e50abbfc.args=
+CreateShortcut.cfd2e50abbfc.args=
+
+# CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.cfd2e50abbfc.workingDir=
+CreateShortcut.cfd2e50abbfc.workingDir=
+
+# CreateShortcut.d134e10a8433.args=
+CreateShortcut.d134e10a8433.args=
+
+# CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.d134e10a8433.workingDir=
+CreateShortcut.d134e10a8433.workingDir=
+
+# CreateShortcut.d138a370858c.args=
+CreateShortcut.d138a370858c.args=
+
+# CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+
+# CreateShortcut.d138a370858c.workingDir=
+CreateShortcut.d138a370858c.workingDir=
+
+# CreateShortcut.dba14ed6a2e9.args=
+CreateShortcut.dba14ed6a2e9.args=
+
+# CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+
+# CreateShortcut.dba14ed6a2e9.workingDir=
+CreateShortcut.dba14ed6a2e9.workingDir=
+
+# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+
+# DisplayMessage.731d4085b4cc.stepTitle=Install Complete
+DisplayMessage.731d4085b4cc.stepTitle=Install Complete
+
+# EditEnvironment.3348a4c09912.value=$USER_INSTALL_DIR$$/$..$/$jdk$/$$PORT_NAME$$/$$DEFAULT_JDK_DIR$
+EditEnvironment.3348a4c09912.value=$USER_INSTALL_DIR$$/$..$/$jdk$/$$PORT_NAME$$/$$DEFAULT_JDK_DIR$
+
+# EditEnvironment.3dce195db5da.value=$cdadapco_LICENSE_FILE$
+EditEnvironment.3dce195db5da.value=$cdadapco_LICENSE_FILE$
+
+# EditEnvironment.49b821379c50.value=$cdadapco_LICENSE_FILE$
+EditEnvironment.49b821379c50.value=$cdadapco_LICENSE_FILE$
+
+# EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
+EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
+
+# EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
+EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
+
+# EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+
+# EditEnvironment.79445504bf41.value=disable
+EditEnvironment.79445504bf41.value=disable
+
+# EditEnvironment.794eacecaa79.value=disable
+EditEnvironment.794eacecaa79.value=disable
+
+# EditEnvironment.81182cd6acc2.value=$USER_MAGIC_FOLDER_5$/bin
+EditEnvironment.81182cd6acc2.value=$USER_MAGIC_FOLDER_5$/bin
+
+# EditEnvironment.81182cd7acc3.value=$USER_MAGIC_FOLDER_5$/bin
+EditEnvironment.81182cd7acc3.value=$USER_MAGIC_FOLDER_5$/bin
+
+# EditEnvironment.9976cb178c8e.value=$USER_MAGIC_FOLDER_5$\\bin
+EditEnvironment.9976cb178c8e.value=$USER_MAGIC_FOLDER_5$\\bin
+
+# EditEnvironment.9976cb188c8f.value=$USER_MAGIC_FOLDER_5$\\bin
+EditEnvironment.9976cb188c8f.value=$USER_MAGIC_FOLDER_5$\\bin
+
+# EditEnvironment.9c3aa1af8d01.value=$USER_MAGIC_FOLDER_5$\\bin
+EditEnvironment.9c3aa1af8d01.value=$USER_MAGIC_FOLDER_5$\\bin
+
+# EditEnvironment.9c3c23a98d4a.value=$USER_MAGIC_FOLDER_5$\\bin
+EditEnvironment.9c3c23a98d4a.value=$USER_MAGIC_FOLDER_5$\\bin
+
+# EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
+EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
+
+# EditEnvironment.bbd4dea2b41c.value=$USER_INSTALL_DIR$/star/bin
+EditEnvironment.bbd4dea2b41c.value=$USER_INSTALL_DIR$/star/bin
+
+# EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
+EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
+
+# EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
+EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
+
+# EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
+EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
+
+# EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+
+# EntryAtomBiDi.4a50d1cdaa48.label=Start browser now
+EntryAtomBiDi.4a50d1cdaa48.label=Start browser now
+
+# EntryAtomBiDi.66117b82a1fc.label=Stop server now
+EntryAtomBiDi.66117b82a1fc.label=Stop server now
+
+# Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B22$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B22$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+
+# Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
+Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
+
+# Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbb8263be09.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B24$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.fdbb8263be09.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B24$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# ExecuteScript.06591fce9298.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.06591fce9298.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+
+# ExecuteScript.0940ccbdab96.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.0940ccbdab96.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+
+# ExecuteScript.11cba116b025.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+ExecuteScript.11cba116b025.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+
+# ExecuteScript.1d1bac78a9ab.dialogLabel=Installing release notes..Please wait a moment
+ExecuteScript.1d1bac78a9ab.dialogLabel=Installing release notes..Please wait a moment
+
+# ExecuteScript.1d24196b94d1.dialogLabel=Installing release notes..Please wait a moment
+ExecuteScript.1d24196b94d1.dialogLabel=Installing release notes..Please wait a moment
+
+# ExecuteScript.3c94df4cb29e.dialogLabel=Installing STAR-NX ..Please wait a moment
+ExecuteScript.3c94df4cb29e.dialogLabel=Installing STAR-NX ..Please wait a moment
+
+# ExecuteScript.49b821369c5f.dialogLabel=Validating License Servers...
+ExecuteScript.49b821369c5f.dialogLabel=Validating License Servers...
+
+# ExecuteScript.49b821379c56.dialogLabel=Validating License Servers...
+ExecuteScript.49b821379c56.dialogLabel=Validating License Servers...
+
+# ExecuteScript.49b821459c67.dialogLabel=Validating License Servers...
+ExecuteScript.49b821459c67.dialogLabel=Validating License Servers...
+
+# ExecuteScript.4ec4ab2091a5.dialogLabel=Installing Java JDK...Please wait
+ExecuteScript.4ec4ab2091a5.dialogLabel=Installing Java JDK...Please wait
+
+# ExecuteScript.89f929a3a979.dialogLabel=Installing documentation..Please wait a moment
+ExecuteScript.89f929a3a979.dialogLabel=Installing documentation..Please wait a moment
+
+# ExecuteScript.b417717d964e.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.b417717d964e.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+
+# ExecuteScript.c4f3cab68719.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+ExecuteScript.c4f3cab68719.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+
+# ExecuteScript.c4f3cab6871a.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+ExecuteScript.c4f3cab6871a.dialogLabel=Installing $SVRoot$ ..Please wait a moment
+
+# ExecuteScript.c586b070be28.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.c586b070be28.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+
+# ExecuteScript.c5a3999db1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+ExecuteScript.c5a3999db1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+
+# ExecuteScript.c5a49c27b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+ExecuteScript.c5a49c27b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+
+# ExecuteScript.c5a51be5b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+ExecuteScript.c5a51be5b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
+
+# ExecuteScript.c5b1aaf6ae34.dialogLabel=Installing STAR-PROE ..Please wait a moment
+ExecuteScript.c5b1aaf6ae34.dialogLabel=Installing STAR-PROE ..Please wait a moment
+
+# ExecuteScript.c5b8425c90b0.dialogLabel=Installing STAR-CREO ..Please wait a moment
+ExecuteScript.c5b8425c90b0.dialogLabel=Installing STAR-CREO ..Please wait a moment
+
+# ExecuteScript.c5cd9d13b825.dialogLabel=Installing STAR-INVENTOR ..Please wait a moment
+ExecuteScript.c5cd9d13b825.dialogLabel=Installing STAR-INVENTOR ..Please wait a moment
+
+# ExecuteScript.d5000815a40a.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.d5000815a40a.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+
+# ExecuteScript.ed0b047db27c.dialogLabel=Installing documentation..Please wait a moment
+ExecuteScript.ed0b047db27c.dialogLabel=Installing documentation..Please wait a moment
+
+# ExecuteScript.ed0b047fb27c.dialogLabel=Installing release notes..Please wait a moment
+ExecuteScript.ed0b047fb27c.dialogLabel=Installing release notes..Please wait a moment
+
+# ExecuteScript.faccc1009d21.dialogLabel=Installing documentation..Please wait a moment
+ExecuteScript.faccc1009d21.dialogLabel=Installing documentation..Please wait a moment
+
+# ExecuteScript.fdb96d13acca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.fdb96d13acca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+
+# ExecuteScript.fdb98cefacca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.fdb98cefacca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+
+# GetUserInput.000d921ba8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.000d921ba8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.000d921ba8ce.title=Select Additional Tasks
+GetUserInput.000d921ba8ce.title=Select Additional Tasks
+
+# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integration now?
+GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integration now?
+
+# GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
+GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
+
+# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.09531f37b189.title=Select Additional Tasks
+GetUserInput.09531f37b189.title=Select Additional Tasks
+
+# GetUserInput.0ac91ffdbe25.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.0ac91ffdbe25.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
+GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
+
+# GetUserInput.0acc6d3582ff.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.0acc6d3582ff.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.0acc6d3582ff.title=Select Additional Tasks
+GetUserInput.0acc6d3582ff.title=Select Additional Tasks
+
+# GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for a web interface to access the license manager is 8080 and the default port number for the FLEXNet license server (which CD-adapco applications communicate through) is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for a web interface to access the license manager is 8080 and the default port number for the FLEXNet license server (which CD-adapco applications communicate through) is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+
+# GetUserInput.115461c2a278.title=FlexNet License Server Configuration
+GetUserInput.115461c2a278.title=FlexNet License Server Configuration
+
+# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below. \n\nIf this service already exists then please modify the name below.\n\n
+GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below. \n\nIf this service already exists then please modify the name below.\n\n
+
+# GetUserInput.154a0b5aaa67.title=Service Configuration 
+GetUserInput.154a0b5aaa67.title=Service Configuration 
+
+# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.21099aa9bdbd.title=Select Additional Tasks
+GetUserInput.21099aa9bdbd.title=Select Additional Tasks
+
+# GetUserInput.3049b3d7bcfe.prompt=Enter the version number of STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
+GetUserInput.3049b3d7bcfe.prompt=Enter the version number of STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
+
+# GetUserInput.3049b3d7bcfe.title=STAR-CCM+ Installation Version
+GetUserInput.3049b3d7bcfe.title=STAR-CCM+ Installation Version
+
+# GetUserInput.3080440abdb8.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CAD Series, then click Next.
+GetUserInput.3080440abdb8.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CAD Series, then click Next.
+
+# GetUserInput.3080440abdb8.title=Select Additional Tasks
+GetUserInput.3080440abdb8.title=Select Additional Tasks
+
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the CD-adapco FLEXNet license server using the format: “port@host”.\nWhere port is the TCP/IP port of the license manager, and host is the hostname of the license server.  Normally only one license server is used.  In case of three-server redundancy please fill in the Optional fields.\n
+GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the CD-adapco FLEXNet license server using the format: “port@host”.\nWhere port is the TCP/IP port of the license manager, and host is the hostname of the license server.  Normally only one license server is used.  In case of three-server redundancy please fill in the Optional fields.\n
+
+# GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
+GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
+
+# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.3cd99868ae86.title=Select Additional Tasks
+GetUserInput.3cd99868ae86.title=Select Additional Tasks
+
+# GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
+GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
+
+# GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
+GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
+
+# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+
+# GetUserInput.4eb74413ba93.title=Select Additional Tasks
+GetUserInput.4eb74413ba93.title=Select Additional Tasks
+
+# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.5f8d10b48f40.title=Select Additional Tasks
+GetUserInput.5f8d10b48f40.title=Select Additional Tasks
+
+# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.8209d5e08fc6.title=Select Additional Tasks
+GetUserInput.8209d5e08fc6.title=Select Additional Tasks
+
+# GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
+GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
+
+# GetUserInput.a53ed862b666.title=Choose License Type
+GetUserInput.a53ed862b666.title=Choose License Type
+
+# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+
+# GetUserInput.c58f4202a8ce.title=Select Additional Tasks
+GetUserInput.c58f4202a8ce.title=Select Additional Tasks
+
+# GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:\n
+GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:\n
+
+# GetUserInput.e821a5059d90.title=Choose License Type
+GetUserInput.e821a5059d90.title=Choose License Type
+
+# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+
+# GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
+GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
+
+# GetUserInput.fbd6184ebccb.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+GetUserInput.fbd6184ebccb.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
+
+# GetUserInput.fbd6184ebccb.title=Select Additional Tasks
+GetUserInput.fbd6184ebccb.title=Select Additional Tasks
+
+# GUIComponentData.000d921ba8d1.defaultValue=Selected
+GUIComponentData.000d921ba8d1.defaultValue=Selected
+
+# GUIComponentData.000d921ba8d1.label=Update Windows firewall to allow STAR-CCM+ to run
+GUIComponentData.000d921ba8d1.label=Update Windows firewall to allow STAR-CCM+ to run
+
+# GUIComponentData.000d921ba8d3.defaultValue=Not Selected
+GUIComponentData.000d921ba8d3.defaultValue=Not Selected
+
+# GUIComponentData.000d921ba8d3.label=Create shortcuts for current user only
+GUIComponentData.000d921ba8d3.label=Create shortcuts for current user only
+
+# GUIComponentData.000d921ca8d1.defaultValue=Selected
+GUIComponentData.000d921ca8d1.defaultValue=Selected
+
+# GUIComponentData.000d921ca8d1.label=Share install directory
+GUIComponentData.000d921ca8d1.label=Share install directory
+
+# GUIComponentData.000d921ca8d2.defaultValue=Selected
+GUIComponentData.000d921ca8d2.defaultValue=Selected
+
+# GUIComponentData.000d921ca8d2.label=Create a desktop icon
+GUIComponentData.000d921ca8d2.label=Create a desktop icon
+
+# GUIComponentData.07ff15fd855d.defaultValue=Selected
+GUIComponentData.07ff15fd855d.defaultValue=Selected
+
+# GUIComponentData.07ff15fd855d.label=Yes
+GUIComponentData.07ff15fd855d.label=Yes
+
+# GUIComponentData.07ff15fe855d.defaultValue=Not Selected
+GUIComponentData.07ff15fe855d.defaultValue=Not Selected
+
+# GUIComponentData.07ff15fe855d.label=No
+GUIComponentData.07ff15fe855d.label=No
+
+# GUIComponentData.09531f37b18e.defaultValue=Selected
+GUIComponentData.09531f37b18e.defaultValue=Selected
+
+# GUIComponentData.09531f37b18e.label=Share install directory
+GUIComponentData.09531f37b18e.label=Share install directory
+
+# GUIComponentData.09531f37b18f.defaultValue=Selected
+GUIComponentData.09531f37b18f.defaultValue=Selected
+
+# GUIComponentData.09531f37b18f.label=Create a desktop icon
+GUIComponentData.09531f37b18f.label=Create a desktop icon
+
+# GUIComponentData.09531f38b18d.defaultValue=Selected
+GUIComponentData.09531f38b18d.defaultValue=Selected
+
+# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow STAR-CCM+ to run
+GUIComponentData.09531f38b18d.label=Update Windows firewall to allow STAR-CCM+ to run
+
+# GUIComponentData.09531f47b18f.defaultValue=Not Selected
+GUIComponentData.09531f47b18f.defaultValue=Not Selected
+
+# GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
+GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
+
+# GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
+GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
+
+# GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
+GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
+
+# GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
+GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
+
+# GUIComponentData.0ac91ffebe28.label=Create a desktop icon
+GUIComponentData.0ac91ffebe28.label=Create a desktop icon
+
+# GUIComponentData.0acc6d358303.defaultValue=Selected
+GUIComponentData.0acc6d358303.defaultValue=Selected
+
+# GUIComponentData.0acc6d358303.label=Update Windows firewall to allow STAR-CCM+ to run
+GUIComponentData.0acc6d358303.label=Update Windows firewall to allow STAR-CCM+ to run
+
+# GUIComponentData.0acc6d358305.defaultValue=Not Selected
+GUIComponentData.0acc6d358305.defaultValue=Not Selected
+
+# GUIComponentData.0acc6d358305.label=Create shortcuts for current user only
+GUIComponentData.0acc6d358305.label=Create shortcuts for current user only
+
+# GUIComponentData.0acc6d368303.defaultValue=Selected
+GUIComponentData.0acc6d368303.defaultValue=Selected
+
+# GUIComponentData.0acc6d368303.label=Share install directory
+GUIComponentData.0acc6d368303.label=Share install directory
+
+# GUIComponentData.0acc6d368304.defaultValue=Selected
+GUIComponentData.0acc6d368304.defaultValue=Selected
+
+# GUIComponentData.0acc6d368304.label=Create a desktop icon
+GUIComponentData.0acc6d368304.label=Create a desktop icon
+
+# GUIComponentData.115643e1a39b.defaultValue=
+GUIComponentData.115643e1a39b.defaultValue=
+
+# GUIComponentData.115643e1a39b.label=
+GUIComponentData.115643e1a39b.label=
+
+# GUIComponentData.11571701a39b.defaultValue=$HTTP_PORT_NUMBER$
+GUIComponentData.11571701a39b.defaultValue=$HTTP_PORT_NUMBER$
+
+# GUIComponentData.11571701a39b.label=Enter the Web Port Number:
+GUIComponentData.11571701a39b.label=Enter the Web Port Number:
+
+# GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
+GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
+
+# GUIComponentData.11571cbda39b.label=Enter the License port number:
+GUIComponentData.11571cbda39b.label=Enter the License port number:
+
+# GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
+GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
+
+# GUIComponentData.154af406aa76.label=Enter the service name
+GUIComponentData.154af406aa76.label=Enter the service name
+
+# GUIComponentData.229a23b6be60.defaultValue=Not Selected
+GUIComponentData.229a23b6be60.defaultValue=Not Selected
+
+# GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
+GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
+
+# GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
+GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
+
+# GUIComponentData.304ac509bd0d.label=STAR-CCM+ version number :
+GUIComponentData.304ac509bd0d.label=STAR-CCM+ version number :
+
+# GUIComponentData.3642fdbebce9.defaultValue=
+GUIComponentData.3642fdbebce9.defaultValue=
+
+# GUIComponentData.3642fdbebce9.label=
+GUIComponentData.3642fdbebce9.label=
+
+# GUIComponentData.3642fdbebcea.defaultValue=$DEF_SERVER1$
+GUIComponentData.3642fdbebcea.defaultValue=$DEF_SERVER1$
+
+# GUIComponentData.3642fdbebcea.label=License server 1 ( REQUIRED )
+GUIComponentData.3642fdbebcea.label=License server 1 ( REQUIRED )
+
+# GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
+GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
+
+# GUIComponentData.3642fdbebceb.label=Server 2
+GUIComponentData.3642fdbebceb.label=Server 2
+
+# GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
+GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
+
+# GUIComponentData.3642fdbebcec.label=Server 3
+GUIComponentData.3642fdbebcec.label=Server 3
+
+# GUIComponentData.3cd99868ae8a.defaultValue=Selected
+GUIComponentData.3cd99868ae8a.defaultValue=Selected
+
+# GUIComponentData.3cd99868ae8a.label=Share install directory
+GUIComponentData.3cd99868ae8a.label=Share install directory
+
+# GUIComponentData.3cd99868ae8b.defaultValue=Selected
+GUIComponentData.3cd99868ae8b.defaultValue=Selected
+
+# GUIComponentData.3cd99868ae8b.label=Create a desktop icon
+GUIComponentData.3cd99868ae8b.label=Create a desktop icon
+
+# GUIComponentData.3cd99869ae89.defaultValue=Selected
+GUIComponentData.3cd99869ae89.defaultValue=Selected
+
+# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
+GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
+
+# GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
+GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
+
+# GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
+GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
+
+# GUIComponentData.40171f80a405.defaultValue=Not Selected
+GUIComponentData.40171f80a405.defaultValue=Not Selected
+
+# GUIComponentData.40171f80a405.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.40171f80a405.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.40178416a40a.defaultValue=Not Selected
+GUIComponentData.40178416a40a.defaultValue=Not Selected
+
+# GUIComponentData.40178416a40a.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.40178416a40a.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.4017d1bda40b.defaultValue=Not Selected
+GUIComponentData.4017d1bda40b.defaultValue=Not Selected
+
+# GUIComponentData.4017d1bda40b.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.4017d1bda40b.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.40181019a40c.defaultValue=Not Selected
+GUIComponentData.40181019a40c.defaultValue=Not Selected
+
+# GUIComponentData.40181019a40c.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.40181019a40c.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.40183e6ca40d.defaultValue=Not Selected
+GUIComponentData.40183e6ca40d.defaultValue=Not Selected
+
+# GUIComponentData.40183e6ca40d.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.40183e6ca40d.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.40186c80a40e.defaultValue=Not Selected
+GUIComponentData.40186c80a40e.defaultValue=Not Selected
+
+# GUIComponentData.40186c80a40e.label=Integrate STAR-View+ with MS PowerPoint
+GUIComponentData.40186c80a40e.label=Integrate STAR-View+ with MS PowerPoint
+
+# GUIComponentData.4206afd79796.defaultValue=Selected
+GUIComponentData.4206afd79796.defaultValue=Selected
+
+# GUIComponentData.4206afd79796.label=Yes
+GUIComponentData.4206afd79796.label=Yes
+
+# GUIComponentData.4206afe69796.defaultValue=Not Selected
+GUIComponentData.4206afe69796.defaultValue=Not Selected
+
+# GUIComponentData.4206afe69796.label=No
+GUIComponentData.4206afe69796.label=No
+
+# GUIComponentData.4ebd89ffbaa5.defaultValue=Not Selected
+GUIComponentData.4ebd89ffbaa5.defaultValue=Not Selected
+
+# GUIComponentData.4ebd89ffbaa5.label=Add application directory to your system path
+GUIComponentData.4ebd89ffbaa5.label=Add application directory to your system path
+
+# GUIComponentData.5a15d3d6a615.defaultValue=Selected
+GUIComponentData.5a15d3d6a615.defaultValue=Selected
+
+# GUIComponentData.5a15d3d6a615.label=Network:  Configure this machine to access a network license server
+GUIComponentData.5a15d3d6a615.label=Network:  Configure this machine to access a network license server
+
+# GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
+GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
+
+# GUIComponentData.5a15d3d7a615.label=Local: Install and configure FlexNET Publisher on this machine 
+GUIComponentData.5a15d3d7a615.label=Local: Install and configure FlexNET Publisher on this machine 
+
+# GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
+GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
+
+# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
+GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
+
+# GUIComponentData.65d07a0498ce.defaultValue=Selected
+GUIComponentData.65d07a0498ce.defaultValue=Selected
+
+# GUIComponentData.65d07a0498ce.label=Start license server now 
+GUIComponentData.65d07a0498ce.label=Start license server now 
+
+# GUIComponentData.675decc6b717.defaultValue=Not Selected
+GUIComponentData.675decc6b717.defaultValue=Not Selected
+
+# GUIComponentData.675decc6b717.label=Create a desktop icon for STAR-CAT5
+GUIComponentData.675decc6b717.label=Create a desktop icon for STAR-CAT5
+
+# GUIComponentData.79ae52d48b3f.defaultValue=Selected
+GUIComponentData.79ae52d48b3f.defaultValue=Selected
+
+# GUIComponentData.79ae52d48b3f.label=Create a desktop icon
+GUIComponentData.79ae52d48b3f.label=Create a desktop icon
+
+# GUIComponentData.79bdef348e8b.defaultValue=Selected
+GUIComponentData.79bdef348e8b.defaultValue=Selected
+
+# GUIComponentData.79bdef348e8b.label=Create a desktop icon
+GUIComponentData.79bdef348e8b.label=Create a desktop icon
+
+# GUIComponentData.8209d5e08fca.defaultValue=Not Selected
+GUIComponentData.8209d5e08fca.defaultValue=Not Selected
+
+# GUIComponentData.8209d5e08fca.label=Create shortcuts for current user only
+GUIComponentData.8209d5e08fca.label=Create shortcuts for current user only
+
+# GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
+GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
+
+# GUIComponentData.8209d5e18fc9.label=Create a desktop icon
+GUIComponentData.8209d5e18fc9.label=Create a desktop icon
+
+# GUIComponentData.a541337987b0.defaultValue=Not Selected
+GUIComponentData.a541337987b0.defaultValue=Not Selected
+
+# GUIComponentData.a541337987b0.label=POD:  Configure this machine to access Power On Demand License Server
+GUIComponentData.a541337987b0.label=POD:  Configure this machine to access Power On Demand License Server
+
+# GUIComponentData.a542149287b0.defaultValue=Selected
+GUIComponentData.a542149287b0.defaultValue=Selected
+
+# GUIComponentData.a542149287b0.label=Local: Configure this machine to access local license server
+GUIComponentData.a542149287b0.label=Local: Configure this machine to access local license server
+
+# GUIComponentData.c58f4202a8d3.defaultValue=Selected
+GUIComponentData.c58f4202a8d3.defaultValue=Selected
+
+# GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
+GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
+
+# GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
+GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
+
+# GUIComponentData.fbd51d65bcc6.label=Create shortcuts for current user only
+GUIComponentData.fbd51d65bcc6.label=Create shortcuts for current user only
+
+# GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
+GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
+
+# GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
+GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
+
+# GUIComponentData.fbd6184ebcd0.defaultValue=Not Selected
+GUIComponentData.fbd6184ebcd0.defaultValue=Not Selected
+
+# GUIComponentData.fbd6184ebcd0.label=Create shortcuts for current user only
+GUIComponentData.fbd6184ebcd0.label=Create shortcuts for current user only
+
+# GUIComponentData.fbd6184fbccf.defaultValue=Not Selected
+GUIComponentData.fbd6184fbccf.defaultValue=Not Selected
+
+# GUIComponentData.fbd6184fbccf.label=Create a desktop icon
+GUIComponentData.fbd6184fbccf.label=Create a desktop icon
+
+# GUIGroupData.000d921ca8d0.caption=
+GUIGroupData.000d921ca8d0.caption=
+
+# GUIGroupData.07fbb89ebccf.caption=
+GUIGroupData.07fbb89ebccf.caption=
+
+# GUIGroupData.09531f37b18d.caption=
+GUIGroupData.09531f37b18d.caption=
+
+# GUIGroupData.0ac91ffebe27.caption=
+GUIGroupData.0ac91ffebe27.caption=
+
+# GUIGroupData.0acc6d368302.caption=
+GUIGroupData.0acc6d368302.caption=
+
+# GUIGroupData.115643e0a39b.caption=
+GUIGroupData.115643e0a39b.caption=
+
+# GUIGroupData.11571700a39b.caption=
+GUIGroupData.11571700a39b.caption=
+
+# GUIGroupData.11571cbca39b.caption=
+GUIGroupData.11571cbca39b.caption=
+
+# GUIGroupData.154af405aa76.caption=
+GUIGroupData.154af405aa76.caption=
+
+# GUIGroupData.154da76eaa76.caption=
+GUIGroupData.154da76eaa76.caption=
+
+# GUIGroupData.21099aaabdbd.caption=
+GUIGroupData.21099aaabdbd.caption=
+
+# GUIGroupData.304ac508bd0d.caption=
+GUIGroupData.304ac508bd0d.caption=
+
+# GUIGroupData.3080440bbdba.caption=
+GUIGroupData.3080440bbdba.caption=
+
+# GUIGroupData.3642fdbfbce8.caption=
+GUIGroupData.3642fdbfbce8.caption=
+
+# GUIGroupData.3642fdbfbce9.caption=
+GUIGroupData.3642fdbfbce9.caption=
+
+# GUIGroupData.3642fdbfbcea.caption=Redundant license servers ( optional )
+GUIGroupData.3642fdbfbcea.caption=Redundant license servers ( optional )
+
+# GUIGroupData.3642fdbfbceb.caption=
+GUIGroupData.3642fdbfbceb.caption=
+
+# GUIGroupData.3cd99868ae89.caption=
+GUIGroupData.3cd99868ae89.caption=
+
+# GUIGroupData.4202184d8cb5.caption=
+GUIGroupData.4202184d8cb5.caption=
+
+# GUIGroupData.4eb74413ba96.caption=
+GUIGroupData.4eb74413ba96.caption=
+
+# GUIGroupData.5f8d10b48f41.caption=
+GUIGroupData.5f8d10b48f41.caption=
+
+# GUIGroupData.8209d5e18fc7.caption=
+GUIGroupData.8209d5e18fc7.caption=
+
+# GUIGroupData.a5412c2687af.caption=
+GUIGroupData.a5412c2687af.caption=
+
+# GUIGroupData.c58f4203a8d1.caption=
+GUIGroupData.c58f4203a8d1.caption=
+
+# GUIGroupData.e82310a19e2b.caption=
+GUIGroupData.e82310a19e2b.caption=
+
+# GUIGroupData.fbd51d66bcc4.caption=
+GUIGroupData.fbd51d66bcc4.caption=
+
+# GUIGroupData.fbd6184fbcce.caption=
+GUIGroupData.fbd6184fbcce.caption=
+
+# InstallBundle.42b88820ae92.bundleName=Client
+InstallBundle.42b88820ae92.bundleName=Client
+
+# InstallBundle.42b88820ae92.description=Setup minimum files required for client install
+InstallBundle.42b88820ae92.description=Setup minimum files required for client install
+
+# InstallBundle.850018f38467.bundleName=Star-CCM+
+InstallBundle.850018f38467.bundleName=Star-CCM+
+
+# InstallBundle.850018f38467.description=This feature installs all files needed for running the STAR-CCM+ package.
+InstallBundle.850018f38467.description=This feature installs all files needed for running the STAR-CCM+ package.
+
+# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+
+# InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
+InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
+
+# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+
+# InstallCompleteActionConsole.bd89f531898a.title=Install Complete
+InstallCompleteActionConsole.bd89f531898a.title=Install Complete
+
+# InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+
+# InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
+InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
+
+# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+
+# InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
+InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
+
+# InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
+InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
+
+# InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
+InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
+
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local CD-adapco support office. \n\nThank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local CD-adapco support office. \n\nThank you for choosing CD-adapco, a Siemens Business, as your CAE provider.
+
+# InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
+InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
+
+# InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+
+# InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
+InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
+
+# InstallDirAction.13229f38a108.stepTitle=Select Install Location
+InstallDirAction.13229f38a108.stepTitle=Select Install Location
+
+# InstallDirAction.27fec67899f9.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.27fec67899f9.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+
+# InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+
+# InstallDirAction.27fec67899f9.stepTitle=Select Install Location
+InstallDirAction.27fec67899f9.stepTitle=Select Install Location
+
+# InstallDirAction.5030314b81d8.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.5030314b81d8.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+
+# InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+
+# InstallDirAction.5030314b81d8.stepTitle=Select Install Location
+InstallDirAction.5030314b81d8.stepTitle=Select Install Location
+
+# InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+
+# InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
+InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
+
+# InstallDirAction.850018e38429.stepTitle=Select Install Location
+InstallDirAction.850018e38429.stepTitle=Select Install Location
+
+# InstallDirActionConsole.b90620fd80f1.additionalText=
+InstallDirActionConsole.b90620fd80f1.additionalText=
+
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $PRODUCT_NAME$?
+
+# InstallDirActionConsole.b90620fd80f1.stepTitle=Select Install Location
+InstallDirActionConsole.b90620fd80f1.stepTitle=Select Install Location
+
+# Installer.850018e38424.installLabels.00=Select Install Location
+Installer.850018e38424.installLabels.00=Select Install Location
+
+# Installer.850018e38424.installLabels.01=Choose Install Method
+Installer.850018e38424.installLabels.01=Choose Install Method
+
+# Installer.850018e38424.installLabels.02=Installing...
+Installer.850018e38424.installLabels.02=Installing...
+
+# Installer.850018e38424.installLabels.04=Pre-Installation Summary
+Installer.850018e38424.installLabels.04=Pre-Installation Summary
+
+# Installer.850018e38424.installLabels.06=Install Complete
+Installer.850018e38424.installLabels.06=Install Complete
+
+# Installer.850018e38424.installLabels.07=Additional Tasks
+Installer.850018e38424.installLabels.07=Additional Tasks
+
+# Installer.850018e38424.installLabels.08=License Notice
+Installer.850018e38424.installLabels.08=License Notice
+
+# Installer.850018e38424.installLabels.09=Setup Licensing
+Installer.850018e38424.installLabels.09=Setup Licensing
+
+# Installer.850018e38424.installLabels.10=Choose Components
+Installer.850018e38424.installLabels.10=Choose Components
+
+# Installer.850018e38424.installProgressImageName=introImage.png
+Installer.850018e38424.installProgressImageName=introImage.png
+
+# Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+
+# Installer.850018e38424.panelImageName=introImage.png
+Installer.850018e38424.panelImageName=introImage.png
+
+# Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+
+# Installer.850018e38424.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
+Installer.850018e38424.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
+
+# Installer.850018e38424.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+Installer.850018e38424.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+
+# Installer.850018e38424.splashScreenConsoleTitle=Choose Locale...
+Installer.850018e38424.splashScreenConsoleTitle=Choose Locale...
+
+# Installer.850018e38424.splashScreenGUIConfirm=OK
+Installer.850018e38424.splashScreenGUIConfirm=OK
+
+# Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
+Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
+
+# Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+
+# Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
+Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
+
+# Installer.850018e38424.splashScreenGUITitle=STAR-CCM+$STARCCMPLUS_VERSION$
+Installer.850018e38424.splashScreenGUITitle=STAR-CCM+$STARCCMPLUS_VERSION$
+
+# InstallerInfoData.850018f28450.email=support@cd-adapco.com
+InstallerInfoData.850018f28450.email=support@cd-adapco.com
+
+# InstallerInfoData.850018f28450.installerName=STARCCMPLUS
+InstallerInfoData.850018f28450.installerName=STARCCMPLUS
+
+# InstallerInfoData.850018f28450.installerTitle=STAR-CCM+®$STARCCMPLUS_VERSION$
+InstallerInfoData.850018f28450.installerTitle=STAR-CCM+®$STARCCMPLUS_VERSION$
+
+# InstallerInfoData.850018f28450.productDescription=
+InstallerInfoData.850018f28450.productDescription=
+
+# InstallerInfoData.850018f28450.productName=STAR-CCM+$STARCCMPLUS_VERSION$
+InstallerInfoData.850018f28450.productName=STAR-CCM+$STARCCMPLUS_VERSION$
+
+# InstallerInfoData.850018f28450.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
+InstallerInfoData.850018f28450.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
+
+# InstallerInfoData.850018f28450.supportURL=http://cd-adapco.com/support
+InstallerInfoData.850018f28450.supportURL=http://cd-adapco.com/support
+
+# InstallerInfoData.850018f28450.vendorName=CD-adapco
+InstallerInfoData.850018f28450.vendorName=CD-adapco
+
+# InstallerInfoData.850018f28450.vendorURL=http://www.cd-adapco.com/
+InstallerInfoData.850018f28450.vendorURL=http://www.cd-adapco.com/
+
+# InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
+
+# InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
+InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
+
+# InstallFinishAction.12ff4db9947b.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.12ff4db9947b.rebootRecommendedMessage=You should restart the system to complete the installation.
+
+# InstallFinishAction.12ff4db9947b.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.12ff4db9947b.rebootRequiredMessage=You need to restart the system to complete the installation.
+
+# InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
+InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
+
+# InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+
+# InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
+InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
+
+# InstallFinishAction.31554a9699e3.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.31554a9699e3.rebootRecommendedMessage=You should restart the system to complete the installation.
+
+# InstallFinishAction.31554a9699e3.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.31554a9699e3.rebootRequiredMessage=You need to restart the system to complete the installation.
+
+# InstallFinishAction.31554a9699e3.windowTitle=Install Complete
+InstallFinishAction.31554a9699e3.windowTitle=Install Complete
+
+# InstallFinishAction.850018e3843a.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.850018e3843a.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.850018e3843a.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.850018e3843a.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® once you exit this installation tool. If you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+
+# InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.850018e3843a.rebootNotNeededMessage=
+InstallFinishAction.850018e3843a.rebootNotNeededMessage=
+
+# InstallFinishAction.850018e3843a.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.850018e3843a.rebootRecommendedMessage=You should restart the system to complete the installation.
+
+# InstallFinishAction.850018e3843a.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.850018e3843a.rebootRequiredMessage=You need to restart the system to complete the installation.
+
+# InstallFinishAction.850018e3843a.windowTitle=Install Complete
+InstallFinishAction.850018e3843a.windowTitle=Install Complete
+
+# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local CD-adapco support office. Thank you for choosing CD-adapco, a Siemens Business, as your CAE provider.\n\nPress \"Done\" to quit the installer.
+
+# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
+
+# InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
+InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
+
+# InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=You should restart the system to complete the installation.
+
+# InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=You need to restart the system to complete the installation.
+
+# InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
+InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
+
+# InstallFrameConfigurator.850018f38449.maintModeTitle=Configure $PRODUCT_NAME$
+InstallFrameConfigurator.850018f38449.maintModeTitle=Configure $PRODUCT_NAME$
+
+# InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall
+InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall
+
+# InstallMethod.Custom=Custom (Advanced)
+InstallMethod.Custom=Custom (Advanced)
+
+# InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
+InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
+
+# InstallMethod.Custom2=features and related components will be installed.This option will
+InstallMethod.Custom2=features and related components will be installed.This option will
+
+# InstallMethod.Custom3=also allow the user to configure and start the license manager.   
+InstallMethod.Custom3=also allow the user to configure and start the license manager.   
+
+# InstallMethod.Custom4=This is the recommended option for advanced users.
+InstallMethod.Custom4=This is the recommended option for advanced users.
+
+# InstallMethod.Express=Express (Recommended)
+InstallMethod.Express=Express (Recommended)
+
+# InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
+InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
+
+# InstallMethod.Express2=components.
+InstallMethod.Express2=components.
+
+# InstallMethod.Express3=It will also install the license manager using default settings.     
+InstallMethod.Express3=It will also install the license manager using default settings.     
+
+# InstallMethod.Express4=This is the recommended option for most users.
+InstallMethod.Express4=This is the recommended option for most users.
+
+# InstallMethod.Title=Choose Installation Method
+InstallMethod.Title=Choose Installation Method
+
+# InstallSet.42a8c30ea8a8.description=Choose this option to install a Cluster Node or create links on the local computer to an existing networked installation.\n
+InstallSet.42a8c30ea8a8.description=Choose this option to install a Cluster Node or create links on the local computer to an existing networked installation.\n
+
+# InstallSet.42a8c30ea8a8.imageName=typical.png
+InstallSet.42a8c30ea8a8.imageName=typical.png
+
+# InstallSet.42a8c30ea8a8.imagePath=com/zerog/ia/installer/images/
+InstallSet.42a8c30ea8a8.imagePath=com/zerog/ia/installer/images/
+
+# InstallSet.42a8c30ea8a8.installSetName=Client Installation
+InstallSet.42a8c30ea8a8.installSetName=Client Installation
+
+# InstallSet.4405b8b89114.description=Choose this option to customize the features to be installed.
+InstallSet.4405b8b89114.description=Choose this option to customize the features to be installed.
+
+# InstallSet.4405b8b89114.imageName=customIcon.png
+InstallSet.4405b8b89114.imageName=customIcon.png
+
+# InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
+InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
+
+# InstallSet.4405b8b89114.installSetName=Custom
+InstallSet.4405b8b89114.installSetName=Custom
+
+# InstallSet.850018f38466.description=Install STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+InstallSet.850018f38466.description=Install STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+
+# InstallSet.850018f38466.imageName=typical.png
+InstallSet.850018f38466.imageName=typical.png
+
+# InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+
+# InstallSet.850018f38466.installSetName=Product
+InstallSet.850018f38466.installSetName=Product
+
+# InstallSummary.1273c1489901.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.1273c1489901.stepPrompt=Please Review the Following Before Continuing:
+
+# InstallSummary.1273c1489901.title=Pre-Installation Summary
+InstallSummary.1273c1489901.title=Pre-Installation Summary
+
+# InstallSummary.2001b0af82ad.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.2001b0af82ad.stepPrompt=Please Review the Following Before Continuing:
+
+# InstallSummary.2001b0af82ad.title=Pre-Installation Summary
+InstallSummary.2001b0af82ad.title=Pre-Installation Summary
+
+# InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
+InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
+
+# InstallSummary.a132a7788325.title=Pre-Installation Summary
+InstallSummary.a132a7788325.title=Pre-Installation Summary
+
+# InstallType.Title=Choose Install Type
+InstallType.Title=Choose Install Type
+
+# InstallType.Type=Please select the type of installation you would like to perform:
+InstallType.Type=Please select the type of installation you would like to perform:
+
+# InstallType.Type1=STAR-CCM+ and related components
+InstallType.Type1=STAR-CCM+ and related components
+
+# InstallType.Type2=Install STAR-CCM+ on this machine or a network location.Typical Selection.
+InstallType.Type2=Install STAR-CCM+ on this machine or a network location.Typical Selection.
+
+# InstallType.Type3=Install STAR-CCM+ on local or NFS shared location.Typical Selection.
+InstallType.Type3=Install STAR-CCM+ on local or NFS shared location.Typical Selection.
+
+# InstallType.Type4=Configure this machine to use an existing STAR-CCM+ network installation.  
+InstallType.Type4=Configure this machine to use an existing STAR-CCM+ network installation.  
+
+# InstallType.Type5=FLEXNet License Manager
+InstallType.Type5=FLEXNet License Manager
+
+# InstallType.Type6=Configure Network or Local FLEXNet licensing.
+InstallType.Type6=Configure Network or Local FLEXNet licensing.
+
+# InstallType.Type7=Install and configure FLEXNet Manager to run.
+InstallType.Type7=Install and configure FLEXNet Manager to run.
+
+# InstallUninstaller.85001a1b8498.destinationName=Uninstall
+InstallUninstaller.85001a1b8498.destinationName=Uninstall
+
+# IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
+IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
+
+# IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+
+# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+
+# LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
+LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
+
+# LicenseAgrAction.43ff93b98f68.existingFilePath=
+LicenseAgrAction.43ff93b98f68.existingFilePath=
+
+# LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
+
+# LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
+LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
+
+# LicenseAgrAction.43ff93b98f68.stepPrompt=
+LicenseAgrAction.43ff93b98f68.stepPrompt=
+
+# LicenseAgrAction.43ff93b98f68.title=License Notice
+LicenseAgrAction.43ff93b98f68.title=License Notice
+
+# LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
+
+# LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
+LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
+
+# LicenseAgrActionConsole.b8adfe8d92f6.stepPrompt=
+LicenseAgrActionConsole.b8adfe8d92f6.stepPrompt=
+
+# LicenseAgrActionConsole.b8adfe8d92f6.title=
+LicenseAgrActionConsole.b8adfe8d92f6.title=
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.addDesc=Add features to the installed product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addDesc=Add features to the installed product
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImageName=addfeature.png
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImageName=addfeature.png
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImagePath=com/zerog/ia/installer/images/
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImagePath=com/zerog/ia/installer/images/
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.addLabel=Add Features
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addLabel=Add Features
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.defaultImagePath=com/zerog/ia/installer/images/
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.defaultImagePath=com/zerog/ia/installer/images/
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.instructions=Select one of the following options:
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.instructions=Select one of the following options:
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.panelTitle=Configure
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.panelTitle=Configure
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.remDesc=Remove features from the installed product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.remDesc=Remove features from the installed product
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.remImageName=removefeature.png
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.remImageName=removefeature.png
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.remLabel=Remove Features
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.remLabel=Remove Features
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.removeImagePath=com/zerog/ia/installer/images/
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.removeImagePath=com/zerog/ia/installer/images/
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.repairImagePath=com/zerog/ia/installer/images/
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repairImagePath=com/zerog/ia/installer/images/
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.repDesc=Repair the installed product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repDesc=Repair the installed product
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.repImageName=repairproduct.png
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repImageName=repairproduct.png
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.repLabel=Repair Product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repLabel=Repair Product
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.stepTitle=Maintenance Mode
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.stepTitle=Maintenance Mode
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstallImagePath=com/zerog/ia/installer/images/
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstallImagePath=com/zerog/ia/installer/images/
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstDesc=Uninstall the product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstDesc=Uninstall the product
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstImageName=uninstall.png
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstImageName=uninstall.png
+
+# MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=Uninstall Product
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=Uninstall Product
+
+# MakeRegEntry.121e55f3a6f4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 $CAD_VERSION$
+MakeRegEntry.121e55f3a6f4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 $CAD_VERSION$
+
+# MakeRegEntry.121e55f3a6f4.value=$USER_MAGIC_FOLDER_1$$/$STAR-CAT5
+MakeRegEntry.121e55f3a6f4.value=$USER_MAGIC_FOLDER_1$$/$STAR-CAT5
+
+# MakeRegEntry.121e55f3a6f4.valueName=$CAD_VERSION$
+MakeRegEntry.121e55f3a6f4.valueName=$CAD_VERSION$
+
+# MakeRegEntry.122777b5a8a0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 x64$CAD_VERSION$
+MakeRegEntry.122777b5a8a0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 x64$CAD_VERSION$
+
+# MakeRegEntry.122777b5a8a0.value=$USER_MAGIC_FOLDER_1$$/$STAR-CAT5
+MakeRegEntry.122777b5a8a0.value=$USER_MAGIC_FOLDER_1$$/$STAR-CAT5
+
+# MakeRegEntry.122777b5a8a0.valueName=$CAD_VERSION$
+MakeRegEntry.122777b5a8a0.valueName=$CAD_VERSION$
+
+# MakeRegEntry.122b28d9aaca.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-NX $CAD_VERSION$
+MakeRegEntry.122b28d9aaca.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-NX $CAD_VERSION$
+
+# MakeRegEntry.122b28d9aaca.value=$USER_MAGIC_FOLDER_1$$/$STAR-NX
+MakeRegEntry.122b28d9aaca.value=$USER_MAGIC_FOLDER_1$$/$STAR-NX
+
+# MakeRegEntry.122b28d9aaca.valueName=$CAD_VERSION$
+MakeRegEntry.122b28d9aaca.valueName=$CAD_VERSION$
+
+# MakeRegEntry.122b8611aacb.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-ProE $CAD_VERSION$
+MakeRegEntry.122b8611aacb.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-ProE $CAD_VERSION$
+
+# MakeRegEntry.122b8611aacb.value=$USER_MAGIC_FOLDER_1$$/$STAR-ProE
+MakeRegEntry.122b8611aacb.value=$USER_MAGIC_FOLDER_1$$/$STAR-ProE
+
+# MakeRegEntry.122b8611aacb.valueName=$CAD_VERSION$
+MakeRegEntry.122b8611aacb.valueName=$CAD_VERSION$
+
+# MakeRegEntry.122c45b2aace.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-NX x64$CAD_VERSION$
+MakeRegEntry.122c45b2aace.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-NX x64$CAD_VERSION$
+
+# MakeRegEntry.122c45b2aace.value=$USER_MAGIC_FOLDER_1$$/$STAR-NX
+MakeRegEntry.122c45b2aace.value=$USER_MAGIC_FOLDER_1$$/$STAR-NX
+
+# MakeRegEntry.122c45b2aace.valueName=$CAD_VERSION$
+MakeRegEntry.122c45b2aace.valueName=$CAD_VERSION$
+
+# MakeRegEntry.122c637daace.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-ProE x64$CAD_VERSION$
+MakeRegEntry.122c637daace.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-ProE x64$CAD_VERSION$
+
+# MakeRegEntry.122c637daace.value=$USER_MAGIC_FOLDER_1$$/$STAR-ProE
+MakeRegEntry.122c637daace.value=$USER_MAGIC_FOLDER_1$$/$STAR-ProE
+
+# MakeRegEntry.122c637daace.valueName=$CAD_VERSION$
+MakeRegEntry.122c637daace.valueName=$CAD_VERSION$
+
+# MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.2d92651f85b0.value=12.01.038
+MakeRegEntry.2d92651f85b0.value=12.01.038
+
+# MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
+MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
+
+# MakeRegEntry.2d9780258670.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.2d9780258670.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.2d9780258670.value=12.01.038
+MakeRegEntry.2d9780258670.value=12.01.038
+
+# MakeRegEntry.2d9780258670.valueName=DisplayVersion
+MakeRegEntry.2d9780258670.valueName=DisplayVersion
+
+# MakeRegEntry.36a88a82ba3d.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Creo $CAD_VERSION$
+MakeRegEntry.36a88a82ba3d.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Creo $CAD_VERSION$
+
+# MakeRegEntry.36a88a82ba3d.value=$USER_MAGIC_FOLDER_1$$/$STAR-Creo
+MakeRegEntry.36a88a82ba3d.value=$USER_MAGIC_FOLDER_1$$/$STAR-Creo
+
+# MakeRegEntry.36a88a82ba3d.valueName=$CAD_VERSION$
+MakeRegEntry.36a88a82ba3d.valueName=$CAD_VERSION$
+
+# MakeRegEntry.36a88a82ba3e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Creo x64$CAD_VERSION$
+MakeRegEntry.36a88a82ba3e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Creo x64$CAD_VERSION$
+
+# MakeRegEntry.36a88a82ba3e.value=$USER_MAGIC_FOLDER_1$$/$STAR-Creo
+MakeRegEntry.36a88a82ba3e.value=$USER_MAGIC_FOLDER_1$$/$STAR-Creo
+
+# MakeRegEntry.36a88a82ba3e.valueName=$CAD_VERSION$
+MakeRegEntry.36a88a82ba3e.valueName=$CAD_VERSION$
+
+# MakeRegEntry.7e1be79f8175.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR
+MakeRegEntry.7e1be79f8175.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR
+
+# MakeRegEntry.7e1be79f8175.value=$STAR_DIR$
+MakeRegEntry.7e1be79f8175.value=$STAR_DIR$
+
+# MakeRegEntry.7e1be79f8175.valueName=StarDir
+MakeRegEntry.7e1be79f8175.valueName=StarDir
+
+# MakeRegEntry.7e23d5728299.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR$STARCCMPLUS_LABEL$
+MakeRegEntry.7e23d5728299.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR$STARCCMPLUS_LABEL$
+
+# MakeRegEntry.7e23d5728299.value=$USER_INSTALL_DIR$
+MakeRegEntry.7e23d5728299.value=$USER_INSTALL_DIR$
+
+# MakeRegEntry.7e23d5728299.valueName=$STARCCMPLUS_VERSION$
+MakeRegEntry.7e23d5728299.valueName=$STARCCMPLUS_VERSION$
+
+# MakeRegEntry.7e286bd8854d.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR x64$STARCCMPLUS_LABEL$
+MakeRegEntry.7e286bd8854d.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR x64$STARCCMPLUS_LABEL$
+
+# MakeRegEntry.7e286bd8854d.value=$USER_INSTALL_DIR$
+MakeRegEntry.7e286bd8854d.value=$USER_INSTALL_DIR$
+
+# MakeRegEntry.7e286bd8854d.valueName=$STARCCMPLUS_VERSION$
+MakeRegEntry.7e286bd8854d.valueName=$STARCCMPLUS_VERSION$
+
+# MakeRegEntry.9976cb178c8a.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+MakeRegEntry.9976cb178c8a.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+
+# MakeRegEntry.9976cb178c8a.value=$USER_MAGIC_FOLDER_5$
+MakeRegEntry.9976cb178c8a.value=$USER_MAGIC_FOLDER_5$
+
+# MakeRegEntry.9976cb178c8a.valueName=$STARVIEW_VERSION$
+MakeRegEntry.9976cb178c8a.valueName=$STARVIEW_VERSION$
+
+# MakeRegEntry.a966f263aeac.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Inventor $CAD_VERSION$
+MakeRegEntry.a966f263aeac.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Inventor $CAD_VERSION$
+
+# MakeRegEntry.a966f263aeac.value=$USER_MAGIC_FOLDER_1$$/$STAR-Inventor
+MakeRegEntry.a966f263aeac.value=$USER_MAGIC_FOLDER_1$$/$STAR-Inventor
+
+# MakeRegEntry.a966f263aeac.valueName=$CAD_VERSION$
+MakeRegEntry.a966f263aeac.valueName=$CAD_VERSION$
+
+# MakeRegEntry.a966f263aead.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Inventor x64$CAD_VERSION$
+MakeRegEntry.a966f263aead.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-Inventor x64$CAD_VERSION$
+
+# MakeRegEntry.a966f263aead.value=$USER_MAGIC_FOLDER_1$$/$STAR-Inventor
+MakeRegEntry.a966f263aead.value=$USER_MAGIC_FOLDER_1$$/$STAR-Inventor
+
+# MakeRegEntry.a966f263aead.valueName=$CAD_VERSION$
+MakeRegEntry.a966f263aead.valueName=$CAD_VERSION$
+
+# MakeRegEntry.ad83ce39955e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+ x64$STARVIEW_VERSION$
+MakeRegEntry.ad83ce39955e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+ x64$STARVIEW_VERSION$
+
+# MakeRegEntry.ad83ce39955e.value=$USER_MAGIC_FOLDER_5$
+MakeRegEntry.ad83ce39955e.value=$USER_MAGIC_FOLDER_5$
+
+# MakeRegEntry.ad83ce39955e.valueName=$STARVIEW_VERSION$
+MakeRegEntry.ad83ce39955e.valueName=$STARVIEW_VERSION$
+
+# MakeRegEntry.ad83ce3a955c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+MakeRegEntry.ad83ce3a955c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+
+# MakeRegEntry.ad83ce3a955c.value=$USER_MAGIC_FOLDER_5$
+MakeRegEntry.ad83ce3a955c.value=$USER_MAGIC_FOLDER_5$
+
+# MakeRegEntry.ad83ce3a955c.valueName=$STARVIEW_VERSION$
+MakeRegEntry.ad83ce3a955c.valueName=$STARVIEW_VERSION$
+
+# MakeRegEntry.bce5dc0ea0d4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAD Series
+MakeRegEntry.bce5dc0ea0d4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAD Series
+
+# MakeRegEntry.bce5dc0ea0d4.value=$USER_INSTALL_DIR$
+MakeRegEntry.bce5dc0ea0d4.value=$USER_INSTALL_DIR$
+
+# MakeRegEntry.bce5dc0ea0d4.valueName=$CAD_VERSION$
+MakeRegEntry.bce5dc0ea0d4.valueName=$CAD_VERSION$
+
+# MakeRegEntry.bce6c49fa0d6.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAD Series x64
+MakeRegEntry.bce6c49fa0d6.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAD Series x64
+
+# MakeRegEntry.bce6c49fa0d6.value=$USER_INSTALL_DIR$
+MakeRegEntry.bce6c49fa0d6.value=$USER_INSTALL_DIR$
+
+# MakeRegEntry.bce6c49fa0d6.valueName=$CAD_VERSION$
+MakeRegEntry.bce6c49fa0d6.valueName=$CAD_VERSION$
+
+# MakeRegEntry.bfcb41e8ac5c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Command Processor
+MakeRegEntry.bfcb41e8ac5c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Command Processor
+
+# MakeRegEntry.bfcb41e8ac5c.value=1
+MakeRegEntry.bfcb41e8ac5c.value=1
+
+# MakeRegEntry.bfcb41e8ac5c.valueName=DisableUNCCheck
+MakeRegEntry.bfcb41e8ac5c.valueName=DisableUNCCheck
+
+# MakeRegEntry.bfcf367db837.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor
+MakeRegEntry.bfcf367db837.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Wow6432Node\\Microsoft\\Command Processor
+
+# MakeRegEntry.bfcf367db837.value=1
+MakeRegEntry.bfcf367db837.value=1
+
+# MakeRegEntry.bfcf367db837.valueName=DisableUNCCheck
+MakeRegEntry.bfcf367db837.valueName=DisableUNCCheck
+
+# MakeRegEntry.ecbd240f9d4f.key=HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\Environment
+MakeRegEntry.ecbd240f9d4f.key=HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Control\\Session Manager\\Environment
+
+# MakeRegEntry.ecbd240f9d4f.value=$USER_MAGIC_FOLDER_1$
+MakeRegEntry.ecbd240f9d4f.value=$USER_MAGIC_FOLDER_1$
+
+# MakeRegEntry.ecbd240f9d4f.valueName=$ScEnvVar$
+MakeRegEntry.ecbd240f9d4f.valueName=$ScEnvVar$
+
+# MakeRegEntry.f1c7a958b293.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+ x64$STARVIEW_VERSION$
+MakeRegEntry.f1c7a958b293.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+ x64$STARVIEW_VERSION$
+
+# MakeRegEntry.f1c7a958b293.value=$USER_MAGIC_FOLDER_5$
+MakeRegEntry.f1c7a958b293.value=$USER_MAGIC_FOLDER_5$
+
+# MakeRegEntry.f1c7a958b293.valueName=$STARVIEW_VERSION$
+MakeRegEntry.f1c7a958b293.valueName=$STARVIEW_VERSION$
+
+# PreInstall.Text=Please Review the Following Before Continuing:
+PreInstall.Text=Please Review the Following Before Continuing:
+
+# PreInstall.Text1=You are installing:
+PreInstall.Text1=You are installing:
+
+# PreInstall.Text2=Installation folder:
+PreInstall.Text2=Installation folder:
+
+# PreInstall.Text3=License information:
+PreInstall.Text3=License information:
+
+# PreInstall.Text4=Components to be installed:
+PreInstall.Text4=Components to be installed:
+
+# PreInstall.Text5=Disk Space Information:
+PreInstall.Text5=Disk Space Information:
+
+# PreInstall.Text6=Available: 
+PreInstall.Text6=Available: 
+
+# PreInstall.Text7=Required: 
+PreInstall.Text7=Required: 
+
+# PreInstall.Title=Pre-Installation Summary
+PreInstall.Title=Pre-Installation Summary
+
+# ProductDialog.Text=Please select the components you would like to install:
+ProductDialog.Text=Please select the components you would like to install:
+
+# ProductDialog.Title=Choose STAR-CAD components
+ProductDialog.Title=Choose STAR-CAD components
+
+# ProductDialog.Title1=Choose STAR-CCM+ components
+ProductDialog.Title1=Choose STAR-CCM+ components
+
+# PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
+PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
+
+# PromptUserConsole.066c0750bc6e.option0Label=OK
+PromptUserConsole.066c0750bc6e.option0Label=OK
+
+# PromptUserConsole.066c0750bc6e.option1Label=Cancel
+PromptUserConsole.066c0750bc6e.option1Label=Cancel
+
+# PromptUserConsole.066c0750bc6e.option2Label=Details...
+PromptUserConsole.066c0750bc6e.option2Label=Details...
+
+# PromptUserConsole.066c0750bc6e.title=Warning
+PromptUserConsole.066c0750bc6e.title=Warning
+
+# PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+
+# PromptUserConsole.2d6f494abb0c.option0Label=Continue
+PromptUserConsole.2d6f494abb0c.option0Label=Continue
+
+# PromptUserConsole.2d6f494abb0c.option1Label=Previous
+PromptUserConsole.2d6f494abb0c.option1Label=Previous
+
+# PromptUserConsole.2d6f494abb0c.option2Label=Cancel
+PromptUserConsole.2d6f494abb0c.option2Label=Cancel
+
+# PromptUserConsole.2d6f494abb0c.title=Warning
+PromptUserConsole.2d6f494abb0c.title=Warning
+
+# PromptUserConsole.400bef7fa3fa.message=Integration of the STAR-View+ plugin for MS PowerPoint is not possible at this time.\n\nThis computer needs to have Microsoft .NET Framework v4.5 or newer.\n\nFor newer versions of .NET Framework, check with Microsoft to verify compatibility with CLR 4.
+PromptUserConsole.400bef7fa3fa.message=Integration of the STAR-View+ plugin for MS PowerPoint is not possible at this time.\n\nThis computer needs to have Microsoft .NET Framework v4.5 or newer.\n\nFor newer versions of .NET Framework, check with Microsoft to verify compatibility with CLR 4.
+
+# PromptUserConsole.400bef7fa3fa.option0Label=OK
+PromptUserConsole.400bef7fa3fa.option0Label=OK
+
+# PromptUserConsole.400bef7fa3fa.option1Label=Cancel
+PromptUserConsole.400bef7fa3fa.option1Label=Cancel
+
+# PromptUserConsole.400bef7fa3fa.option2Label=Details...
+PromptUserConsole.400bef7fa3fa.option2Label=Details...
+
+# PromptUserConsole.400bef7fa3fa.title=Warning: .NET Framework
+PromptUserConsole.400bef7fa3fa.title=Warning: .NET Framework
+
+# ShowDialogAction.01bcc0c99bea.buttonLabel=OK
+ShowDialogAction.01bcc0c99bea.buttonLabel=OK
+
+# ShowDialogAction.01bcc0c99bea.cancelButtonLabel=Cancel
+ShowDialogAction.01bcc0c99bea.cancelButtonLabel=Cancel
+
+# ShowDialogAction.01bcc0c99bea.detailsButtonLabel=Details...
+ShowDialogAction.01bcc0c99bea.detailsButtonLabel=Details...
+
+# ShowDialogAction.01bcc0c99bea.label=Visual Studio Tools for Office Runtime 2010 install failed.\n\nPlease install manually before rerunning the STAR-View+ installation
+ShowDialogAction.01bcc0c99bea.label=Visual Studio Tools for Office Runtime 2010 install failed.\n\nPlease install manually before rerunning the STAR-View+ installation
+
+# ShowDialogAction.01bcc0c99bea.narrative=$EXECUTE_STDOUT$\n$EXECUTE_STDERR$
+ShowDialogAction.01bcc0c99bea.narrative=$EXECUTE_STDOUT$\n$EXECUTE_STDERR$
+
+# ShowDialogAction.01bcc0c99bea.title=Error
+ShowDialogAction.01bcc0c99bea.title=Error
+
+# ShowDialogAction.064a5d7084f3.buttonLabel=OK
+ShowDialogAction.064a5d7084f3.buttonLabel=OK
+
+# ShowDialogAction.064a5d7084f3.cancelButtonLabel=Cancel
+ShowDialogAction.064a5d7084f3.cancelButtonLabel=Cancel
+
+# ShowDialogAction.064a5d7084f3.detailsButtonLabel=Details...
+ShowDialogAction.064a5d7084f3.detailsButtonLabel=Details...
+
+# ShowDialogAction.064a5d7084f3.label=Insufficient Disk Space Available
+ShowDialogAction.064a5d7084f3.label=Insufficient Disk Space Available
+
+# ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
+ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
+
+# ShowDialogAction.064a5d7084f3.title=Warning
+ShowDialogAction.064a5d7084f3.title=Warning
+
+# ShowDialogAction.114a717da032.buttonLabel=OK
+ShowDialogAction.114a717da032.buttonLabel=OK
+
+# ShowDialogAction.114a717da032.cancelButtonLabel=Cancel
+ShowDialogAction.114a717da032.cancelButtonLabel=Cancel
+
+# ShowDialogAction.114a717da032.detailsButtonLabel=Details...
+ShowDialogAction.114a717da032.detailsButtonLabel=Details...
+
+# ShowDialogAction.114a717da032.label=No Administrative Privileges
+ShowDialogAction.114a717da032.label=No Administrative Privileges
+
+# ShowDialogAction.114a717da032.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.114a717da032.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+
+# ShowDialogAction.114a717da032.title=Error
+ShowDialogAction.114a717da032.title=Error
+
+# ShowDialogAction.1fad6a0ea842.buttonLabel=OK
+ShowDialogAction.1fad6a0ea842.buttonLabel=OK
+
+# ShowDialogAction.1fad6a0ea842.cancelButtonLabel=Cancel
+ShowDialogAction.1fad6a0ea842.cancelButtonLabel=Cancel
+
+# ShowDialogAction.1fad6a0ea842.detailsButtonLabel=Details...
+ShowDialogAction.1fad6a0ea842.detailsButtonLabel=Details...
+
+# ShowDialogAction.1fad6a0ea842.label=You need to have admin privilages to share an install directory. Please deselect the share option, or run this installer with admin privileges 
+ShowDialogAction.1fad6a0ea842.label=You need to have admin privilages to share an install directory. Please deselect the share option, or run this installer with admin privileges 
+
+# ShowDialogAction.1fad6a0ea842.narrative=
+ShowDialogAction.1fad6a0ea842.narrative=
+
+# ShowDialogAction.1fad6a0ea842.title=Error
+ShowDialogAction.1fad6a0ea842.title=Error
+
+# ShowDialogAction.25820b1c92f3.buttonLabel=Next
+ShowDialogAction.25820b1c92f3.buttonLabel=Next
+
+# ShowDialogAction.25820b1c92f3.cancelButtonLabel=Previous
+ShowDialogAction.25820b1c92f3.cancelButtonLabel=Previous
+
+# ShowDialogAction.25820b1c92f3.detailsButtonLabel=Details...
+ShowDialogAction.25820b1c92f3.detailsButtonLabel=Details...
+
+# ShowDialogAction.25820b1c92f3.label=Invalid license file.
+ShowDialogAction.25820b1c92f3.label=Invalid license file.
+
+# ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+
+# ShowDialogAction.25820b1c92f3.title=ERROR
+ShowDialogAction.25820b1c92f3.title=ERROR
+
+# ShowDialogAction.2d6e902bbb0c.buttonLabel=Continue
+ShowDialogAction.2d6e902bbb0c.buttonLabel=Continue
+
+# ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=Previous
+ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=Previous
+
+# ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=Cancel
+ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=Cancel
+
+# ShowDialogAction.2d6e902bbb0c.label=Insufficient Disk Space Available
+ShowDialogAction.2d6e902bbb0c.label=Insufficient Disk Space Available
+
+# ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+
+# ShowDialogAction.2d6e902bbb0c.title=Warning
+ShowDialogAction.2d6e902bbb0c.title=Warning
+
+# ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
+ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
+
+# ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=Cancel
+ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=Cancel
+
+# ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=Details...
+ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=Details...
+
+# ShowDialogAction.3bf5bd2883d0.label=Invalid Port@Host Entered
+ShowDialogAction.3bf5bd2883d0.label=Invalid Port@Host Entered
+
+# ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
+ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.3bf5bd2883d0.title=Invalid Input
+ShowDialogAction.3bf5bd2883d0.title=Invalid Input
+
+# ShowDialogAction.49b821379c58.buttonLabel=OK
+ShowDialogAction.49b821379c58.buttonLabel=OK
+
+# ShowDialogAction.49b821379c58.cancelButtonLabel=Cancel
+ShowDialogAction.49b821379c58.cancelButtonLabel=Cancel
+
+# ShowDialogAction.49b821379c58.detailsButtonLabel=Details...
+ShowDialogAction.49b821379c58.detailsButtonLabel=Details...
+
+# ShowDialogAction.49b821379c58.label=Invalid license server: $SERVER1$ no CDLMD vendor daemon found.
+ShowDialogAction.49b821379c58.label=Invalid license server: $SERVER1$ no CDLMD vendor daemon found.
+
+# ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+
+# ShowDialogAction.49b821379c58.title=Invalid license server
+ShowDialogAction.49b821379c58.title=Invalid license server
+
+# ShowDialogAction.49b821459c60.buttonLabel=OK
+ShowDialogAction.49b821459c60.buttonLabel=OK
+
+# ShowDialogAction.49b821459c60.cancelButtonLabel=Cancel
+ShowDialogAction.49b821459c60.cancelButtonLabel=Cancel
+
+# ShowDialogAction.49b821459c60.detailsButtonLabel=Details...
+ShowDialogAction.49b821459c60.detailsButtonLabel=Details...
+
+# ShowDialogAction.49b821459c60.label=Invalid license server: $SERVER2$ no CDLMD vendor daemon found.
+ShowDialogAction.49b821459c60.label=Invalid license server: $SERVER2$ no CDLMD vendor daemon found.
+
+# ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+
+# ShowDialogAction.49b821459c60.title=Invalid license server
+ShowDialogAction.49b821459c60.title=Invalid license server
+
+# ShowDialogAction.49b821459c69.buttonLabel=OK
+ShowDialogAction.49b821459c69.buttonLabel=OK
+
+# ShowDialogAction.49b821459c69.cancelButtonLabel=Cancel
+ShowDialogAction.49b821459c69.cancelButtonLabel=Cancel
+
+# ShowDialogAction.49b821459c69.detailsButtonLabel=Details...
+ShowDialogAction.49b821459c69.detailsButtonLabel=Details...
+
+# ShowDialogAction.49b821459c69.label=Invalid license server: $SERVER3$ no CDLMD vendor daemon found.
+ShowDialogAction.49b821459c69.label=Invalid license server: $SERVER3$ no CDLMD vendor daemon found.
+
+# ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+
+# ShowDialogAction.49b821459c69.title=Invalid license server
+ShowDialogAction.49b821459c69.title=Invalid license server
+
+# ShowDialogAction.49b821469c9f.buttonLabel=OK
+ShowDialogAction.49b821469c9f.buttonLabel=OK
+
+# ShowDialogAction.49b821469c9f.cancelButtonLabel=Cancel
+ShowDialogAction.49b821469c9f.cancelButtonLabel=Cancel
+
+# ShowDialogAction.49b821469c9f.detailsButtonLabel=Details...
+ShowDialogAction.49b821469c9f.detailsButtonLabel=Details...
+
+# ShowDialogAction.49b821469c9f.label=Invalid local license server: $HOSTNAME$ no CDLMD vendor daemon found.\n\nPlease start/restart license server before running STAR-CCM+ 
+ShowDialogAction.49b821469c9f.label=Invalid local license server: $HOSTNAME$ no CDLMD vendor daemon found.\n\nPlease start/restart license server before running STAR-CCM+ 
+
+# ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
+
+# ShowDialogAction.49b821469c9f.title=Invalid license server
+ShowDialogAction.49b821469c9f.title=Invalid license server
+
+# ShowDialogAction.5ef28303abd8.buttonLabel=OK
+ShowDialogAction.5ef28303abd8.buttonLabel=OK
+
+# ShowDialogAction.5ef28303abd8.cancelButtonLabel=No
+ShowDialogAction.5ef28303abd8.cancelButtonLabel=No
+
+# ShowDialogAction.5ef28303abd8.detailsButtonLabel=Details...
+ShowDialogAction.5ef28303abd8.detailsButtonLabel=Details...
+
+# ShowDialogAction.5ef28303abd8.label=Warning
+ShowDialogAction.5ef28303abd8.label=Warning
+
+# ShowDialogAction.5ef28303abd8.narrative=To configure the selected STAR-CAD clients, the $ScEnvVar$ environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_STAR_CAD_FILE$\n\nYou can retrieve the previous STAR-CAD clients by changing the $ScEnvVar$ environment variable back to the value shown above.
+ShowDialogAction.5ef28303abd8.narrative=To configure the selected STAR-CAD clients, the $ScEnvVar$ environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_STAR_CAD_FILE$\n\nYou can retrieve the previous STAR-CAD clients by changing the $ScEnvVar$ environment variable back to the value shown above.
+
+# ShowDialogAction.5ef28303abd8.title=STAR-CAD configuration
+ShowDialogAction.5ef28303abd8.title=STAR-CAD configuration
+
+# ShowDialogAction.5f17661a83c5.buttonLabel=Yes
+ShowDialogAction.5f17661a83c5.buttonLabel=Yes
+
+# ShowDialogAction.5f17661a83c5.cancelButtonLabel=No
+ShowDialogAction.5f17661a83c5.cancelButtonLabel=No
+
+# ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
+ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
+
+# ShowDialogAction.5f17661a83c5.label=STAR-CCM+ Installation Found
+ShowDialogAction.5f17661a83c5.label=STAR-CCM+ Installation Found
+
+# ShowDialogAction.5f17661a83c5.narrative=The solver component  (STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the STAR-CCM+ component again?
+ShowDialogAction.5f17661a83c5.narrative=The solver component  (STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the STAR-CCM+ component again?
+
+# ShowDialogAction.5f17661a83c5.title=Warning
+ShowDialogAction.5f17661a83c5.title=Warning
+
+# ShowDialogAction.5f7c94b68adf.buttonLabel=OK
+ShowDialogAction.5f7c94b68adf.buttonLabel=OK
+
+# ShowDialogAction.5f7c94b68adf.cancelButtonLabel=Cancel
+ShowDialogAction.5f7c94b68adf.cancelButtonLabel=Cancel
+
+# ShowDialogAction.5f7c94b68adf.detailsButtonLabel=Details...
+ShowDialogAction.5f7c94b68adf.detailsButtonLabel=Details...
+
+# ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
+ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
+
+# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+.\n\nThese libraries are not installed, please re-run the STAR-CCM+ installer with administrator privileges 
+ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+.\n\nThese libraries are not installed, please re-run the STAR-CCM+ installer with administrator privileges 
+
+# ShowDialogAction.5f7c94b68adf.title=Error
+ShowDialogAction.5f7c94b68adf.title=Error
+
+# ShowDialogAction.653ab69e9640.buttonLabel=Next
+ShowDialogAction.653ab69e9640.buttonLabel=Next
+
+# ShowDialogAction.653ab69e9640.cancelButtonLabel=Previous
+ShowDialogAction.653ab69e9640.cancelButtonLabel=Previous
+
+# ShowDialogAction.653ab69e9640.detailsButtonLabel=Details...
+ShowDialogAction.653ab69e9640.detailsButtonLabel=Details...
+
+# ShowDialogAction.653ab69e9640.label=Invalid license file.
+ShowDialogAction.653ab69e9640.label=Invalid license file.
+
+# ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+
+# ShowDialogAction.653ab69e9640.title=ERROR
+ShowDialogAction.653ab69e9640.title=ERROR
+
+# ShowDialogAction.653c263b9ee1.buttonLabel=Next
+ShowDialogAction.653c263b9ee1.buttonLabel=Next
+
+# ShowDialogAction.653c263b9ee1.cancelButtonLabel=Previous
+ShowDialogAction.653c263b9ee1.cancelButtonLabel=Previous
+
+# ShowDialogAction.653c263b9ee1.detailsButtonLabel=Details...
+ShowDialogAction.653c263b9ee1.detailsButtonLabel=Details...
+
+# ShowDialogAction.653c263b9ee1.label=Invalid license file.
+ShowDialogAction.653c263b9ee1.label=Invalid license file.
+
+# ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+
+# ShowDialogAction.653c263b9ee1.title=ERROR
+ShowDialogAction.653c263b9ee1.title=ERROR
+
+# ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
+ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
+
+# ShowDialogAction.7dc4c98fb7ea.cancelButtonLabel=Cancel
+ShowDialogAction.7dc4c98fb7ea.cancelButtonLabel=Cancel
+
+# ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=Details...
+ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=Details...
+
+# ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ runtime libraries
+ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ runtime libraries
+
+# ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
+ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
+
+# ShowDialogAction.7dc4c98fb7ea.title=Warning
+ShowDialogAction.7dc4c98fb7ea.title=Warning
+
+# ShowDialogAction.7e4d4aee9257.buttonLabel=Yes
+ShowDialogAction.7e4d4aee9257.buttonLabel=Yes
+
+# ShowDialogAction.7e4d4aee9257.cancelButtonLabel=No
+ShowDialogAction.7e4d4aee9257.cancelButtonLabel=No
+
+# ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
+ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
+
+# ShowDialogAction.7e4d4aee9257.label=STAR-VIEW+ Installation Found
+ShowDialogAction.7e4d4aee9257.label=STAR-VIEW+ Installation Found
+
+# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (STAR-VIEW+ $STARVIEW_VERSION$) appears to have been previously installed on this machine in:\n$SVPREINST_VER$\nDo you want to install the STAR-VIEW+ component again?
+ShowDialogAction.7e4d4aee9257.narrative=The solver component  (STAR-VIEW+ $STARVIEW_VERSION$) appears to have been previously installed on this machine in:\n$SVPREINST_VER$\nDo you want to install the STAR-VIEW+ component again?
+
+# ShowDialogAction.7e4d4aee9257.title=Warning
+ShowDialogAction.7e4d4aee9257.title=Warning
+
+# ShowDialogAction.7e56ee2dbf97.buttonLabel=OK
+ShowDialogAction.7e56ee2dbf97.buttonLabel=OK
+
+# ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=Cancel
+ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=Cancel
+
+# ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=Details...
+ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=Details...
+
+# ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+ executable not found.
+ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+ executable not found.
+
+# ShowDialogAction.7e56ee2dbf97.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
+ShowDialogAction.7e56ee2dbf97.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
+
+# ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ Installation Not Found
+ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ Installation Not Found
+
+# ShowDialogAction.7e598f94bfa1.buttonLabel=OK
+ShowDialogAction.7e598f94bfa1.buttonLabel=OK
+
+# ShowDialogAction.7e598f94bfa1.cancelButtonLabel=Cancel
+ShowDialogAction.7e598f94bfa1.cancelButtonLabel=Cancel
+
+# ShowDialogAction.7e598f94bfa1.detailsButtonLabel=Details...
+ShowDialogAction.7e598f94bfa1.detailsButtonLabel=Details...
+
+# ShowDialogAction.7e598f94bfa1.label=STAR-View+ executable not found.
+ShowDialogAction.7e598f94bfa1.label=STAR-View+ executable not found.
+
+# ShowDialogAction.7e598f94bfa1.narrative=Please reselect location where  bin\\$SVRoot$is installed.
+ShowDialogAction.7e598f94bfa1.narrative=Please reselect location where  bin\\$SVRoot$is installed.
+
+# ShowDialogAction.7e598f94bfa1.title=STAR-View+ Installation Not Found
+ShowDialogAction.7e598f94bfa1.title=STAR-View+ Installation Not Found
+
+# ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
+ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
+
+# ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=Cancel
+ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=Cancel
+
+# ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
+ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
+
+# ShowDialogAction.7e8620e4a2ee.label=No Component Selected
+ShowDialogAction.7e8620e4a2ee.label=No Component Selected
+
+# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+
+# ShowDialogAction.7e8620e4a2ee.title=Warning
+ShowDialogAction.7e8620e4a2ee.title=Warning
+
+# ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
+ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
+
+# ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=Cancel
+ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=Cancel
+
+# ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=Details...
+ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=Details...
+
+# ShowDialogAction.8137d5c3bb5b.label=
+ShowDialogAction.8137d5c3bb5b.label=
+
+# ShowDialogAction.8137d5c3bb5b.narrative=No Installation action selection, please make a selection!
+ShowDialogAction.8137d5c3bb5b.narrative=No Installation action selection, please make a selection!
+
+# ShowDialogAction.8137d5c3bb5b.title=Choose Install Method Problem
+ShowDialogAction.8137d5c3bb5b.title=Choose Install Method Problem
+
+# ShowDialogAction.89a741e4b760.buttonLabel=OK
+ShowDialogAction.89a741e4b760.buttonLabel=OK
+
+# ShowDialogAction.89a741e4b760.cancelButtonLabel=Cancel
+ShowDialogAction.89a741e4b760.cancelButtonLabel=Cancel
+
+# ShowDialogAction.89a741e4b760.detailsButtonLabel=Details...
+ShowDialogAction.89a741e4b760.detailsButtonLabel=Details...
+
+# ShowDialogAction.89a741e4b760.label=Required Service  Pack not found
+ShowDialogAction.89a741e4b760.label=Required Service  Pack not found
+
+# ShowDialogAction.89a741e4b760.narrative=Windows XP 32 bit Service Pack 3 or greater is a requirement for STAR-CCM+.\nPlease update your Windows installation.
+ShowDialogAction.89a741e4b760.narrative=Windows XP 32 bit Service Pack 3 or greater is a requirement for STAR-CCM+.\nPlease update your Windows installation.
+
+# ShowDialogAction.89a741e4b760.title=Error
+ShowDialogAction.89a741e4b760.title=Error
+
+# ShowDialogAction.935897e9965b.buttonLabel=Next
+ShowDialogAction.935897e9965b.buttonLabel=Next
+
+# ShowDialogAction.935897e9965b.cancelButtonLabel=Previous
+ShowDialogAction.935897e9965b.cancelButtonLabel=Previous
+
+# ShowDialogAction.935897e9965b.detailsButtonLabel=Details...
+ShowDialogAction.935897e9965b.detailsButtonLabel=Details...
+
+# ShowDialogAction.935897e9965b.label=Invalid license file.
+ShowDialogAction.935897e9965b.label=Invalid license file.
+
+# ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+
+# ShowDialogAction.935897e9965b.title=ERROR
+ShowDialogAction.935897e9965b.title=ERROR
+
+# ShowDialogAction.9c21daa6b290.buttonLabel=OK
+ShowDialogAction.9c21daa6b290.buttonLabel=OK
+
+# ShowDialogAction.9c21daa6b290.cancelButtonLabel=Cancel
+ShowDialogAction.9c21daa6b290.cancelButtonLabel=Cancel
+
+# ShowDialogAction.9c21daa6b290.detailsButtonLabel=Details...
+ShowDialogAction.9c21daa6b290.detailsButtonLabel=Details...
+
+# ShowDialogAction.9c21daa6b290.label=Requires Microsoft .NET Framework 4.5 runtime.
+ShowDialogAction.9c21daa6b290.label=Requires Microsoft .NET Framework 4.5 runtime.
+
+# ShowDialogAction.9c21daa6b290.narrative=Integration of the STAR-View+ plugin for MS PowerPoint is not possible at this time.\n\nThis computer needs to have Microsoft .NET Framework v4.5 or newer.\n\nFor newer versions of .NET Framework, check with Microsoft to verify compatibility with CLR 4.
+ShowDialogAction.9c21daa6b290.narrative=Integration of the STAR-View+ plugin for MS PowerPoint is not possible at this time.\n\nThis computer needs to have Microsoft .NET Framework v4.5 or newer.\n\nFor newer versions of .NET Framework, check with Microsoft to verify compatibility with CLR 4.
+
+# ShowDialogAction.9c21daa6b290.title=Warning: .NET Framework
+ShowDialogAction.9c21daa6b290.title=Warning: .NET Framework
+
+# ShowDialogAction.a9b1812d954e.buttonLabel=OK
+ShowDialogAction.a9b1812d954e.buttonLabel=OK
+
+# ShowDialogAction.a9b1812d954e.cancelButtonLabel=Cancel
+ShowDialogAction.a9b1812d954e.cancelButtonLabel=Cancel
+
+# ShowDialogAction.a9b1812d954e.detailsButtonLabel=Details...
+ShowDialogAction.a9b1812d954e.detailsButtonLabel=Details...
+
+# ShowDialogAction.a9b1812d954e.label=File not found.
+ShowDialogAction.a9b1812d954e.label=File not found.
+
+# ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
+ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
+
+# ShowDialogAction.a9b1812d954e.title=STAR-Inventor
+ShowDialogAction.a9b1812d954e.title=STAR-Inventor
+
+# ShowDialogAction.a9b1812e9550.buttonLabel=OK
+ShowDialogAction.a9b1812e9550.buttonLabel=OK
+
+# ShowDialogAction.a9b1812e9550.cancelButtonLabel=Cancel
+ShowDialogAction.a9b1812e9550.cancelButtonLabel=Cancel
+
+# ShowDialogAction.a9b1812e9550.detailsButtonLabel=Details...
+ShowDialogAction.a9b1812e9550.detailsButtonLabel=Details...
+
+# ShowDialogAction.a9b1812e9550.label=File not found.\n
+ShowDialogAction.a9b1812e9550.label=File not found.\n
+
+# ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx not found.\n\nPlease find this file and register it manually.
+ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx not found.\n\nPlease find this file and register it manually.
+
+# ShowDialogAction.a9b1812e9550.title=STAR-Inventor
+ShowDialogAction.a9b1812e9550.title=STAR-Inventor
+
+# ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
+ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
+
+# ShowDialogAction.c21a9a0faaeb.cancelButtonLabel=No
+ShowDialogAction.c21a9a0faaeb.cancelButtonLabel=No
+
+# ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=Details...
+ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=Details...
+
+# ShowDialogAction.c21a9a0faaeb.label=Warning
+ShowDialogAction.c21a9a0faaeb.label=Warning
+
+# ShowDialogAction.c21a9a0faaeb.narrative=To configure STAR-NX, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous STAR-NX version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+ShowDialogAction.c21a9a0faaeb.narrative=To configure STAR-NX, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous STAR-NX version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+
+# ShowDialogAction.c21a9a0faaeb.title=STAR-NX configuration
+ShowDialogAction.c21a9a0faaeb.title=STAR-NX configuration
+
+# ShowDialogAction.c2960d279578.buttonLabel=OK
+ShowDialogAction.c2960d279578.buttonLabel=OK
+
+# ShowDialogAction.c2960d279578.cancelButtonLabel=Cancel
+ShowDialogAction.c2960d279578.cancelButtonLabel=Cancel
+
+# ShowDialogAction.c2960d279578.detailsButtonLabel=Details...
+ShowDialogAction.c2960d279578.detailsButtonLabel=Details...
+
+# ShowDialogAction.c2960d279578.label=STAR-CCM+ installation directory not found. 
+ShowDialogAction.c2960d279578.label=STAR-CCM+ installation directory not found. 
+
+# ShowDialogAction.c2960d279578.narrative=Please reselect STAR-CCM+ Installation Directory.
+ShowDialogAction.c2960d279578.narrative=Please reselect STAR-CCM+ Installation Directory.
+
+# ShowDialogAction.c2960d279578.title=Directory not found
+ShowDialogAction.c2960d279578.title=Directory not found
+
+# ShowDialogAction.e261f38cb277.buttonLabel=OK
+ShowDialogAction.e261f38cb277.buttonLabel=OK
+
+# ShowDialogAction.e261f38cb277.cancelButtonLabel=Cancel
+ShowDialogAction.e261f38cb277.cancelButtonLabel=Cancel
+
+# ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
+ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
+
+# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install STAR-CCM+
+ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install STAR-CCM+
+
+# ShowDialogAction.e261f38cb277.narrative=Please re-run the STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
+ShowDialogAction.e261f38cb277.narrative=Please re-run the STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
+
+# ShowDialogAction.e261f38cb277.title=Error
+ShowDialogAction.e261f38cb277.title=Error
+
+# ShowDialogAction.f388bcb88e95.buttonLabel=OK
+ShowDialogAction.f388bcb88e95.buttonLabel=OK
+
+# ShowDialogAction.f388bcb88e95.cancelButtonLabel=Cancel
+ShowDialogAction.f388bcb88e95.cancelButtonLabel=Cancel
+
+# ShowDialogAction.f388bcb88e95.detailsButtonLabel=Details...
+ShowDialogAction.f388bcb88e95.detailsButtonLabel=Details...
+
+# ShowDialogAction.f388bcb88e95.label=Very long path detected 
+ShowDialogAction.f388bcb88e95.label=Very long path detected 
+
+# ShowDialogAction.f388bcb88e95.narrative=Please review the contents of your PATH environment variable.\n\nPath lengths greater than 2000 characters can cause unexpected behaviour.
+ShowDialogAction.f388bcb88e95.narrative=Please review the contents of your PATH environment variable.\n\nPath lengths greater than 2000 characters can cause unexpected behaviour.
+
+# ShowDialogAction.f388bcb88e95.title=Warning
+ShowDialogAction.f388bcb88e95.title=Warning
+
+# ShowDialogAction.f71886e6923d.buttonLabel=OK
+ShowDialogAction.f71886e6923d.buttonLabel=OK
+
+# ShowDialogAction.f71886e6923d.cancelButtonLabel=Cancel
+ShowDialogAction.f71886e6923d.cancelButtonLabel=Cancel
+
+# ShowDialogAction.f71886e6923d.detailsButtonLabel=Details...
+ShowDialogAction.f71886e6923d.detailsButtonLabel=Details...
+
+# ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
+ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
+
+# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, STAR-CAT5 integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, STAR-CAT5 integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+
+# ShowDialogAction.f71886e6923d.title=Invalid Action
+ShowDialogAction.f71886e6923d.title=Invalid Action
+
+# ShowDialogAction.fc266f0ba2cc.buttonLabel=OK
+ShowDialogAction.fc266f0ba2cc.buttonLabel=OK
+
+# ShowDialogAction.fc266f0ba2cc.cancelButtonLabel=Cancel
+ShowDialogAction.fc266f0ba2cc.cancelButtonLabel=Cancel
+
+# ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=Details...
+ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=Details...
+
+# ShowDialogAction.fc266f0ba2cc.label=No Administrative Privileges
+ShowDialogAction.fc266f0ba2cc.label=No Administrative Privileges
+
+# ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+
+# ShowDialogAction.fc266f0ba2cc.title=Error
+ShowDialogAction.fc266f0ba2cc.title=Error
+
+# UninstallCategory.a887e233a9fd.categoryName=Files
+UninstallCategory.a887e233a9fd.categoryName=Files
+
+# UninstallCategory.a887e233a9fe.categoryName=Shortcuts/Links/Aliases
+UninstallCategory.a887e233a9fe.categoryName=Shortcuts/Links/Aliases
+
+# UninstallCategory.a887e233a9ff.categoryName=Native Packages
+UninstallCategory.a887e233a9ff.categoryName=Native Packages
+
+# UninstallCategory.a887e233aa00.categoryName=Others Category
+UninstallCategory.a887e233aa00.categoryName=Others Category
+
+# UninstallCategory.a887e234a9fd.categoryName=LaunchAnywheres
+UninstallCategory.a887e234a9fd.categoryName=LaunchAnywheres
+
+# UninstallCategory.a887e234a9fe.categoryName=Registry Entries
+UninstallCategory.a887e234a9fe.categoryName=Registry Entries
+
+# UninstallCategory.a887e234a9ff.categoryName=Folders
+UninstallCategory.a887e234a9ff.categoryName=Folders
+
+# UninstallCompleteAction.850018f38458.rebootNotNeededMessage=
+UninstallCompleteAction.850018f38458.rebootNotNeededMessage=
+
+# UninstallCompleteAction.850018f38458.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+UninstallCompleteAction.850018f38458.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.850018f38458.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.850018f38458.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.850018f38458.stepTitle=Uninstall Complete
+UninstallCompleteAction.850018f38458.stepTitle=Uninstall Complete
+
+# UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=The following items could not be removed:
+UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=The following items could not be removed:
+
+# UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+
+# UninstallCompleteAction.850018f38458.uninstallSuccessMessage=All items were successfully uninstalled.
+UninstallCompleteAction.850018f38458.uninstallSuccessMessage=All items were successfully uninstalled.
+
+# UninstallCompleteAction.fbc110b185a8.rebootNotNeededMessage=
+UninstallCompleteAction.fbc110b185a8.rebootNotNeededMessage=
+
+# UninstallCompleteAction.fbc110b185a8.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+UninstallCompleteAction.fbc110b185a8.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+
+# UninstallCompleteAction.fbc110b185a8.stepTitle=Uninstall Complete
+UninstallCompleteAction.fbc110b185a8.stepTitle=Uninstall Complete
+
+# UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
+UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
+
+# UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+
+# UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=All items were successfully uninstalled.
+UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=All items were successfully uninstalled.
+
+# UninstallCompleteActionConsole.c7e377749840.incompleteMessage=Some items could not be removed.
+UninstallCompleteActionConsole.c7e377749840.incompleteMessage=Some items could not be removed.
+
+# UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
+UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
+
+# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
+
+# UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
+UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
+
+# UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
+UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
+
+# UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+
+# UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+
+# UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
+
+# VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
+VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
+
+# VariablePropertyDataBiDi.127a86b89bbb.propertyValue=FLEXNet $FLEXlmVERSION$
+VariablePropertyDataBiDi.127a86b89bbb.propertyValue=FLEXNet $FLEXlmVERSION$
+
+# VariablePropertyDataBiDi.12d8571c9d5d.propertyName=License servers:
+VariablePropertyDataBiDi.12d8571c9d5d.propertyName=License servers:
+
+# VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
+VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
+
+# VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
+VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
+
+# VariablePropertyDataBiDi.2001b0af82af.propertyValue=$cdadapco_LICENSE_FILE$
+VariablePropertyDataBiDi.2001b0af82af.propertyValue=$cdadapco_LICENSE_FILE$
+
+# VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
+VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
+
+# VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
+VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
+
+# VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ Installation directory:
+VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ Installation directory:
+
+# VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.5894afd0865b.propertyName=STAR-View+ Installation directory:
+VariablePropertyDataBiDi.5894afd0865b.propertyName=STAR-View+ Installation directory:
+
+# VariablePropertyDataBiDi.5894afd0865b.propertyValue=$STARVIEW_DIR$
+VariablePropertyDataBiDi.5894afd0865b.propertyValue=$STARVIEW_DIR$
+
+# VariablePropertyDataBiDi.a133e9478327.propertyName=Product name:
+VariablePropertyDataBiDi.a133e9478327.propertyName=Product name:
+
+# VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
+VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
+
