@@ -596,37 +596,37 @@ GetUserInput.fbd6184ebccb.prompt=STAR-View+のインストール時に実行す�
 GetUserInput.fbd6184ebccb.title=追加タスクの選択
 
 # GUIComponentData.000d921ba8d1.defaultValue=Selected
-GUIComponentData.000d921ba8d1.defaultValue=選択
+GUIComponentData.000d921ba8d1.defaultValue=Selected
 
 # GUIComponentData.000d921ba8d1.label=Update Windows firewall to allow STAR-CCM+ to run
 GUIComponentData.000d921ba8d1.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
 
 # GUIComponentData.000d921ba8d3.defaultValue=Not Selected
-GUIComponentData.000d921ba8d3.defaultValue=未選択
+GUIComponentData.000d921ba8d3.defaultValue=Not Selected
 
 # GUIComponentData.000d921ba8d3.label=Create shortcuts for current user only
 GUIComponentData.000d921ba8d3.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.000d921ca8d1.defaultValue=Selected
-GUIComponentData.000d921ca8d1.defaultValue=選択
+GUIComponentData.000d921ca8d1.defaultValue=Selected
 
 # GUIComponentData.000d921ca8d1.label=Share install directory
 GUIComponentData.000d921ca8d1.label=インストールディレクトリを共有する
 
 # GUIComponentData.000d921ca8d2.defaultValue=Selected
-GUIComponentData.000d921ca8d2.defaultValue=選択
+GUIComponentData.000d921ca8d2.defaultValue=Selected
 
 # GUIComponentData.000d921ca8d2.label=Create a desktop icon
 GUIComponentData.000d921ca8d2.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.07ff15fd855d.defaultValue=Selected
-GUIComponentData.07ff15fd855d.defaultValue=選択
+GUIComponentData.07ff15fd855d.defaultValue=Selected
 
 # GUIComponentData.07ff15fd855d.label=Yes
 GUIComponentData.07ff15fd855d.label=はい
 
 # GUIComponentData.07ff15fe855d.defaultValue=Not Selected
-GUIComponentData.07ff15fe855d.defaultValue=未選択
+GUIComponentData.07ff15fe855d.defaultValue=Not Selected
 
 # GUIComponentData.07ff15fe855d.label=No
 GUIComponentData.07ff15fe855d.label=いいえ
@@ -656,37 +656,37 @@ GUIComponentData.09531f47b18f.defaultValue=
 GUIComponentData.09531f47b18f.label=
 
 # GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
-GUIComponentData.0ac91ffdbe29.defaultValue=未選択
+GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
 
 # GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
 GUIComponentData.0ac91ffdbe29.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
-GUIComponentData.0ac91ffebe28.defaultValue=未選択
+GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
 
 # GUIComponentData.0ac91ffebe28.label=Create a desktop icon
 GUIComponentData.0ac91ffebe28.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.0acc6d358303.defaultValue=Selected
-GUIComponentData.0acc6d358303.defaultValue=選択
+GUIComponentData.0acc6d358303.defaultValue=Selected
 
 # GUIComponentData.0acc6d358303.label=Update Windows firewall to allow STAR-CCM+ to run
 GUIComponentData.0acc6d358303.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
 
 # GUIComponentData.0acc6d358305.defaultValue=Not Selected
-GUIComponentData.0acc6d358305.defaultValue=未選択
+GUIComponentData.0acc6d358305.defaultValue=Not Selected
 
 # GUIComponentData.0acc6d358305.label=Create shortcuts for current user only
 GUIComponentData.0acc6d358305.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.0acc6d368303.defaultValue=Selected
-GUIComponentData.0acc6d368303.defaultValue=選択
+GUIComponentData.0acc6d368303.defaultValue=Selected
 
 # GUIComponentData.0acc6d368303.label=Share install directory
 GUIComponentData.0acc6d368303.label=インストールディレクトリを共有する
 
 # GUIComponentData.0acc6d368304.defaultValue=Selected
-GUIComponentData.0acc6d368304.defaultValue=選択
+GUIComponentData.0acc6d368304.defaultValue=Selected
 
 # GUIComponentData.0acc6d368304.label=Create a desktop icon
 GUIComponentData.0acc6d368304.label=デスクトップ上にアイコンを作成する
@@ -716,7 +716,7 @@ GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 GUIComponentData.154af406aa76.label=サービス名を入力:
 
 # GUIComponentData.229a23b6be60.defaultValue=Not Selected
-GUIComponentData.229a23b6be60.defaultValue=未選択
+GUIComponentData.229a23b6be60.defaultValue=Not Selected
 
 # GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
 GUIComponentData.229a23b6be60.label=現在のユーザーのみショートカットを作成する
@@ -752,25 +752,25 @@ GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 GUIComponentData.3642fdbebcec.label=サーバー3
 
 # GUIComponentData.3cd99868ae8a.defaultValue=Selected
-GUIComponentData.3cd99868ae8a.defaultValue=選択
+GUIComponentData.3cd99868ae8a.defaultValue=Selected
 
 # GUIComponentData.3cd99868ae8a.label=Share install directory
 GUIComponentData.3cd99868ae8a.label=インストールディレクトリを共有する
 
 # GUIComponentData.3cd99868ae8b.defaultValue=Selected
-GUIComponentData.3cd99868ae8b.defaultValue=選択
+GUIComponentData.3cd99868ae8b.defaultValue=Selected
 
 # GUIComponentData.3cd99868ae8b.label=Create a desktop icon
 GUIComponentData.3cd99868ae8b.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
-GUIComponentData.3cd99869ae89.defaultValue=選択
+GUIComponentData.3cd99869ae89.defaultValue=Selected
 
 # GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
 GUIComponentData.3cd99869ae89.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
-GUIComponentData.3cd99869ae8b.defaultValue=未選択
+GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 
 # GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
 GUIComponentData.3cd99869ae8b.label=現在のユーザーのみショートカットを作成する
@@ -812,13 +812,13 @@ GUIComponentData.40186c80a40e.defaultValue=
 GUIComponentData.40186c80a40e.label=
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
-GUIComponentData.4206afd79796.defaultValue=選択
+GUIComponentData.4206afd79796.defaultValue=Selected
 
 # GUIComponentData.4206afd79796.label=Yes
 GUIComponentData.4206afd79796.label=はい
 
 # GUIComponentData.4206afe69796.defaultValue=Not Selected
-GUIComponentData.4206afe69796.defaultValue=未選択
+GUIComponentData.4206afe69796.defaultValue=Not Selected
 
 # GUIComponentData.4206afe69796.label=No
 GUIComponentData.4206afe69796.label=いいえ
@@ -830,97 +830,97 @@ GUIComponentData.4ebd89ffbaa5.defaultValue=
 GUIComponentData.4ebd89ffbaa5.label=
 
 # GUIComponentData.5a15d3d6a615.defaultValue=Selected
-GUIComponentData.5a15d3d6a615.defaultValue=選択
+GUIComponentData.5a15d3d6a615.defaultValue=Selected
 
 # GUIComponentData.5a15d3d6a615.label=Network:  Configure this machine to access a network license server
 GUIComponentData.5a15d3d6a615.label=ネットワーク: ライセンスサーバーにアクセスできるように構成する
 
 # GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
-GUIComponentData.5a15d3d7a615.defaultValue=未選択
+GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 
 # GUIComponentData.5a15d3d7a615.label=Local: Install and configure FlexNET Publisher on this machine 
 GUIComponentData.5a15d3d7a615.label=ローカル: FlexNET Publisherをこのマシンにインストールして構成する 
 
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
-GUIComponentData.5f8bc9ab8e25.defaultValue=選択
+GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
 # GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
 GUIComponentData.5f8bc9ab8e25.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
 
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
-GUIComponentData.65d07a0498ce.defaultValue=選択
+GUIComponentData.65d07a0498ce.defaultValue=Selected
 
 # GUIComponentData.65d07a0498ce.label=Start license server now 
 GUIComponentData.65d07a0498ce.label=ライセンスサーバーを今すぐ開始する 
 
 # GUIComponentData.675decc6b717.defaultValue=Not Selected
-GUIComponentData.675decc6b717.defaultValue=未選択
+GUIComponentData.675decc6b717.defaultValue=Not Selected
 
 # GUIComponentData.675decc6b717.label=Create a desktop icon for STAR-CAT5
 GUIComponentData.675decc6b717.label=デスクトップ上にSTAR-CAT5のアイコンを作成する
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
-GUIComponentData.79ae52d48b3f.defaultValue=選択
+GUIComponentData.79ae52d48b3f.defaultValue=Selected
 
 # GUIComponentData.79ae52d48b3f.label=Create a desktop icon
 GUIComponentData.79ae52d48b3f.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.79bdef348e8b.defaultValue=Selected
-GUIComponentData.79bdef348e8b.defaultValue=選択
+GUIComponentData.79bdef348e8b.defaultValue=Selected
 
 # GUIComponentData.79bdef348e8b.label=Create a desktop icon
 GUIComponentData.79bdef348e8b.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.8209d5e08fca.defaultValue=Not Selected
-GUIComponentData.8209d5e08fca.defaultValue=未選択
+GUIComponentData.8209d5e08fca.defaultValue=Not Selected
 
 # GUIComponentData.8209d5e08fca.label=Create shortcuts for current user only
 GUIComponentData.8209d5e08fca.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
-GUIComponentData.8209d5e18fc9.defaultValue=未選択
+GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
 
 # GUIComponentData.8209d5e18fc9.label=Create a desktop icon
 GUIComponentData.8209d5e18fc9.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.a541337987b0.defaultValue=Not Selected
-GUIComponentData.a541337987b0.defaultValue=未選択
+GUIComponentData.a541337987b0.defaultValue=Not Selected
 
 # GUIComponentData.a541337987b0.label=POD:  Configure this machine to access Power On Demand License Server
 GUIComponentData.a541337987b0.label=PoD: パワーオンデマンドサーバーにアクセスできるように構成する
 
 # GUIComponentData.a542149287b0.defaultValue=Selected
-GUIComponentData.a542149287b0.defaultValue=選択
+GUIComponentData.a542149287b0.defaultValue=Selected
 
 # GUIComponentData.a542149287b0.label=Local: Configure this machine to access local license server
 GUIComponentData.a542149287b0.label=ローカル: ローカルサーバーにアクセスできるように構成する
 
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
-GUIComponentData.c58f4202a8d3.defaultValue=選択
+GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=システムパスにアプリケーションのディレクトリを追加する
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
-GUIComponentData.fbd51d65bcc6.defaultValue=未選択
+GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 
 # GUIComponentData.fbd51d65bcc6.label=Create shortcuts for current user only
 GUIComponentData.fbd51d65bcc6.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
-GUIComponentData.fbd51d66bcc5.defaultValue=未選択
+GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
 
 # GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
 GUIComponentData.fbd51d66bcc5.label=デスクトップ上にアイコンを作成する
 
 # GUIComponentData.fbd6184ebcd0.defaultValue=Not Selected
-GUIComponentData.fbd6184ebcd0.defaultValue=未選択
+GUIComponentData.fbd6184ebcd0.defaultValue=Not Selected
 
 # GUIComponentData.fbd6184ebcd0.label=Create shortcuts for current user only
 GUIComponentData.fbd6184ebcd0.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.fbd6184fbccf.defaultValue=Not Selected
-GUIComponentData.fbd6184fbccf.defaultValue=未選択
+GUIComponentData.fbd6184fbccf.defaultValue=Not Selected
 
 # GUIComponentData.fbd6184fbccf.label=Create a desktop icon
 GUIComponentData.fbd6184fbccf.label=デスクトップ上にアイコンを作成する
