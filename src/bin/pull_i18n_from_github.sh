@@ -149,3 +149,7 @@ $GIT_HOME/git checkout $MERGE_HEAD
 $GIT_HOME/git pull
 $GIT_HOME/git merge $WORKING_BRANCH # into MERGE_HEAD
 $GIT_HOME/git push
+
+# delete directories in workspace that are owned by pw so jenkins/test can delete the rest of the workspace
+cd $WORKSPACE
+\rm -rf .dev commit.log star
