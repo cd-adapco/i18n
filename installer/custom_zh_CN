@@ -19,7 +19,7 @@
 #
 # Product Name: STAR-CCM+$STARCCMPLUS_VERSION$
 # Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
-# Generated:    Fri Apr 28 09:59:47 EDT 2017
+# Generated:    Fri Apr 28 10:45:07 EDT 2017
 
 
 # ASCIIFileManipulator.47fe6ec5af90.additionalText=
@@ -287,7 +287,7 @@ CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于
 CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+®。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=安装完成
@@ -305,7 +305,7 @@ EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
 
 # EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.5438312691c0.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EditEnvironment.79445504bf41.value=disable
 EditEnvironment.79445504bf41.value=disable
@@ -347,7 +347,7 @@ EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
 EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
 
 # EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.d80266fa8281.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EntryAtomBiDi.4a50d1cdaa48.label=Start browser now
 EntryAtomBiDi.4a50d1cdaa48.label=立即启动浏览器
@@ -362,7 +362,7 @@ Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=正在卸载远程启动服务...
@@ -374,10 +374,10 @@ Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.db61a982adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B26$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.db61a982adce.commandLineArgs=
+Exec.db61a982adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B26$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.db620149adce.commandLineArgs=
+Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -452,13 +452,13 @@ ExecuteScript.c5b8425c90b0.dialogLabel=正在安装 STAR-CREO...请等待片刻
 ExecuteScript.c5cd9d13b825.dialogLabel=正在安装 STAR-INVENTOR...请等待片刻
 
 # ExecuteScript.cedf361bade9.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.cedf361bade9.dialogLabel=
+ExecuteScript.cedf361bade9.dialogLabel=正在安装 STAR-NX...请等待片刻
 
 # ExecuteScript.d5000815a40a.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.d5000815a40a.dialogLabel=正在安装 STAR-CAT5...请等待片刻
 
 # ExecuteScript.db61093cadce.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.db61093cadce.dialogLabel=
+ExecuteScript.db61093cadce.dialogLabel=正在安装 STAR-CAT5...请等待片刻
 
 # ExecuteScript.ed0b047db27c.dialogLabel=Installing documentation..Please wait a moment
 ExecuteScript.ed0b047db27c.dialogLabel=正在安装文档...请等待片刻
@@ -902,25 +902,25 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=此功能安装运行 STAR-CCM+ 软件包需要的所有文件。
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+®。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。
+InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=安装完成
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+®。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。
+InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=安装完成
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=恭喜：\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ 安装已成功完成。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n
+InstallCompleteActionConsole.bd8dd38c946b.message=恭喜：\n\nSTAR-CAD $CAD_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
 InstallCompleteActionConsole.bd8dd38c946b.title=安装完成
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n\n
+InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n\n
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=安装完成
@@ -932,7 +932,7 @@ InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVE
 InstallCompleteActionConsole.bd93643ba2ed.title=安装完成
 
 # InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参阅 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的 CD-adapco 支持办公室。\n\n感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。
+InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ 软件 $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参阅 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
@@ -1103,7 +1103,7 @@ InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$ 安装已完
 InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=恭喜：\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$ 安装已经成功完成。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.31554a9699e3.installSuccessMessage=恭喜：\n\nSTAR-CAD $CAD_VERSION$ 软件 $WINDOWS_TYPE$ 安装已经成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
@@ -1127,7 +1127,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$ 安装已完
 InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+®。如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
@@ -1151,7 +1151,7 @@ InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$ 安装已完
 InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$ 已经成功安装至:\n\n$USER_INSTALL_DIR$:\n\n\n如需更多帮助，请联系当地的 CD-adapco 支持办公室。感谢您选择西门子企业 CD-adapco 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已经成功安装至:\n\n$USER_INSTALL_DIR$:\n\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
@@ -1262,7 +1262,7 @@ InstallSummary.a132a7788325.stepPrompt=配置客户端节点。请预览以下�
 InstallSummary.a132a7788325.title=预安装摘要
 
 # InstallSummary.c2186e8f8907.stepPrompt=Please Review the Following Before Continuing:
-InstallSummary.c2186e8f8907.stepPrompt=继续安装前，请先复审下列信息：
+InstallSummary.c2186e8f8907.stepPrompt=请首先预览以下内容，然后继续：
 
 # InstallSummary.c2186e8f8907.title=Pre-Installation Summary
 InstallSummary.c2186e8f8907.title=预安装摘要
@@ -1304,7 +1304,7 @@ IntroActionConsole.c7dc1e698d4b.message=正要卸载...\n\nFLEXNet $FLEXlmVERSIO
 IntroActionConsole.c7dc1e698d4b.title=卸载 FLEXNet
 
 # IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dee180948f.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+IntroActionConsole.c7dee180948f.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7dee180948f.title=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
@@ -1322,7 +1322,7 @@ LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Chi.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1334,7 +1334,7 @@ LicenseAgrAction.43ff93b98f68.stepPrompt=
 LicenseAgrAction.43ff93b98f68.title=许可证通知
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Chi.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1463,7 +1463,7 @@ MakeRegEntry.122c637daace.valueName=$CAD_VERSION$
 MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.2d92651f85b0.value=12.05.003
-MakeRegEntry.2d92651f85b0.value=12.01.038
+MakeRegEntry.2d92651f85b0.value=12.05.003
 
 # MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
 MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
@@ -1472,7 +1472,7 @@ MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
 MakeRegEntry.2d9780258670.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.2d9780258670.value=12.05.003
-MakeRegEntry.2d9780258670.value=12.01.038
+MakeRegEntry.2d9780258670.value=12.05.003
 
 # MakeRegEntry.2d9780258670.valueName=DisplayVersion
 MakeRegEntry.2d9780258670.valueName=DisplayVersion
@@ -1523,7 +1523,7 @@ MakeRegEntry.7e286bd8854d.value=$USER_INSTALL_DIR$
 MakeRegEntry.7e286bd8854d.valueName=$STARCCMPLUS_VERSION$
 
 # MakeRegEntry.9976cb178c8a.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$$STARVIEW_VERSION$
-MakeRegEntry.9976cb178c8a.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+MakeRegEntry.9976cb178c8a.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$$STARVIEW_VERSION$
 
 # MakeRegEntry.9976cb178c8a.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.9976cb178c8a.value=$USER_MAGIC_FOLDER_5$
@@ -1532,7 +1532,7 @@ MakeRegEntry.9976cb178c8a.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.9976cb178c8a.valueName=$STARVIEW_VERSION$
 
 # MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-MakeRegEntry.9976cb178c8c.key=
+MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
 
 # MakeRegEntry.9976cb178c8c.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.9976cb178c8c.value=$USER_MAGIC_FOLDER_5$
@@ -1559,7 +1559,7 @@ MakeRegEntry.a966f263aead.value=$USER_MAGIC_FOLDER_1$$/$STAR-Inventor
 MakeRegEntry.a966f263aead.valueName=$CAD_VERSION$
 
 # MakeRegEntry.ad83ce39955e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-MakeRegEntry.ad83ce39955e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+ x64$STARVIEW_VERSION$
+MakeRegEntry.ad83ce39955e.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
 
 # MakeRegEntry.ad83ce39955e.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.ad83ce39955e.value=$USER_MAGIC_FOLDER_5$
@@ -1568,7 +1568,7 @@ MakeRegEntry.ad83ce39955e.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.ad83ce39955e.valueName=$STARVIEW_VERSION$
 
 # MakeRegEntry.ad83ce3a955c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$$STARVIEW_VERSION$
-MakeRegEntry.ad83ce3a955c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-View+$STARVIEW_VERSION$
+MakeRegEntry.ad83ce3a955c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$$STARVIEW_VERSION$
 
 # MakeRegEntry.ad83ce3a955c.value=$USER_MAGIC_FOLDER_5$
 MakeRegEntry.ad83ce3a955c.value=$USER_MAGIC_FOLDER_5$
@@ -2291,16 +2291,16 @@ UninstallCompleteAction.850018f38458.uninstallSuccessMessage=已成功卸载所�
 UninstallCompleteAction.f37da0eca99c.rebootNotNeededMessage=
 
 # UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
-UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=请重新启动系统，以完成本次卸载。
+UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=应重启系统以完成卸载。
 
 # UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
-UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=必须重新启动系统，以完成本次卸载。
+UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=需要重启系统才能完成卸载。
 
 # UninstallCompleteAction.f37da0eca99c.stepTitle=Uninstall Complete
 UninstallCompleteAction.f37da0eca99c.stepTitle=卸载完成
 
 # UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=The following items could not be removed:
-UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=无法删除下列项：
+UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=无法移除以下项目：
 
 # UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
 UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=无法卸载 $PRODUCT_NAME$。
@@ -2348,7 +2348,7 @@ UninstallIntroAction.13b8c9d9a9bf.message=正要卸载...\n\nFLEXNet $FLEXlmVERS
 UninstallIntroAction.13b8c9d9a9bf.stepTitle=卸载 FLEXNet
 
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.31662af6a601.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+UninstallIntroAction.31662af6a601.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 UninstallIntroAction.31662af6a601.stepTitle=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
@@ -2402,19 +2402,19 @@ VariablePropertyDataBiDi.a133e9478327.propertyName=产品名称：
 VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ 可再发行版本
 
 # VariablePropertyDataBiDi.c2186e908908.propertyName=Product name:
-VariablePropertyDataBiDi.c2186e908908.propertyName=
+VariablePropertyDataBiDi.c2186e908908.propertyName=产品名称：
 
 # VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
-VariablePropertyDataBiDi.c2186e908908.propertyValue=
+VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
 
 # VariablePropertyDataBiDi.c2186e908909.propertyName=License servers:
-VariablePropertyDataBiDi.c2186e908909.propertyName=
+VariablePropertyDataBiDi.c2186e908909.propertyName=许可证服务器：
 
 # VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
 VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
 
 # VariablePropertyDataBiDi.c218af608909.propertyName=Installation directory:
-VariablePropertyDataBiDi.c218af608909.propertyName=
+VariablePropertyDataBiDi.c218af608909.propertyName=安装目录：
 
 # VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
