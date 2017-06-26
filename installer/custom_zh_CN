@@ -1322,7 +1322,7 @@ LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Chi.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1334,7 +1334,7 @@ LicenseAgrAction.43ff93b98f68.stepPrompt=
 LicenseAgrAction.43ff93b98f68.title=许可证通知
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Chi.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
