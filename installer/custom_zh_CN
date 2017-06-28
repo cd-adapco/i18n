@@ -1001,7 +1001,7 @@ Installer.850018e38424.installLabels.06=安装完成
 Installer.850018e38424.installLabels.07=更多任务
 
 # Installer.850018e38424.installLabels.08=License Notice
-Installer.850018e38424.installLabels.08=许可证通知
+Installer.850018e38424.installLabels.08=许可证声明
 
 # Installer.850018e38424.installLabels.09=Setup Licensing
 Installer.850018e38424.installLabels.09=安装许可
@@ -1331,7 +1331,7 @@ LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.stepPrompt=
 
 # LicenseAgrAction.43ff93b98f68.title=License Notice
-LicenseAgrAction.43ff93b98f68.title=许可证通知
+LicenseAgrAction.43ff93b98f68.title=许可证声明
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Chi.html
