@@ -19,7 +19,7 @@
 #
 # Product Name: STAR-CCM+$STARCCMPLUS_VERSION$
 # Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
-# Generated:    Fri Apr 28 10:45:07 EDT 2017
+# Generated:    Thu Jul 27 15:09:11 EDT 2017
 
 
 # ASCIIFileManipulator.47fe6ec5af90.additionalText=
@@ -43,7 +43,7 @@ Billboard.850018f38468.imageName=billboard_default.png
 # Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
-# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
+# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
 ChooseFile.257d8095925b.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 CD-adapco 获得并已下载至电脑。确定许可证文件位置后，突出显示此文件并单击查询框的“打开”。如果尚未收到许可证文件或是“按需授权”用户，则依然可以通过单击“下一步”继续此安装流程，但是需要再次运行此安装工具，才能结束完整的 STAR-CCM+ 安装。
 
 # ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
@@ -108,21 +108,6 @@ CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$ 许�
 
 # CreateDialog.29fccfaca483.title=Stop the Server
 CreateDialog.29fccfaca483.title=停止服务器
-
-# CreateDialog.4a4d3175a822.prompt=Do you want to launch a web browser and access the License Server Management Interface to review license configuration ?
-CreateDialog.4a4d3175a822.prompt=想要启动网络浏览器并访问许可证服务器管理界面，以检查许可证配置？
-
-# CreateDialog.4a4d3175a822.title=Start a browser
-CreateDialog.4a4d3175a822.title=启动浏览器
-
-# CreateShortcut.01610b5380cd.args=http://localhost:$HTTP_PORT_NUMBER$/
-CreateShortcut.01610b5380cd.args=http://localhost:$HTTP_PORT_NUMBER$/
-
-# CreateShortcut.01610b5380cd.destinationName=FLEXnet License Administrator
-CreateShortcut.01610b5380cd.destinationName=FLEXNet 许可证管理员
-
-# CreateShortcut.01610b5380cd.workingDir=
-CreateShortcut.01610b5380cd.workingDir=
 
 # CreateShortcut.2dca96238e95.args=
 CreateShortcut.2dca96238e95.args=
@@ -305,7 +290,7 @@ EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
 
 # EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EditEnvironment.79445504bf41.value=disable
 EditEnvironment.79445504bf41.value=disable
@@ -347,10 +332,7 @@ EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
 EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
 
 # EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-
-# EntryAtomBiDi.4a50d1cdaa48.label=Start browser now
-EntryAtomBiDi.4a50d1cdaa48.label=立即启动浏览器
+EditEnvironment.d80266fa8281.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EntryAtomBiDi.66117b82a1fc.label=Stop server now
 EntryAtomBiDi.66117b82a1fc.label=立即停止服务器
@@ -361,8 +343,11 @@ Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
+# Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
+Exec.3cae6520be5f.commandLineArgs=
+
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=正在卸载远程启动服务...
@@ -433,12 +418,6 @@ ExecuteScript.c4f3cab6871a.dialogLabel=正在安装 $SVRoot$...请等待片刻
 # ExecuteScript.c586b070be28.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.c586b070be28.dialogLabel=正在安装 STAR-CAT5...请等待片刻
 
-# ExecuteScript.c5a3999db1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.c5a3999db1e2.dialogLabel=正在安装 STAR-NX...请等待片刻
-
-# ExecuteScript.c5a49c27b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.c5a49c27b1e2.dialogLabel=正在安装 STAR-NX...请等待片刻
-
 # ExecuteScript.c5a51be5b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.c5a51be5b1e2.dialogLabel=正在安装 STAR-NX...请等待片刻
 
@@ -493,13 +472,13 @@ GetUserInput.0ac91ffdbe25.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 # GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
 GetUserInput.0ac91ffdbe25.title=选择更多任务
 
-# GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for a web interface to access the license manager is 8080 and the default port number for the FLEXNet license server (which CD-adapco applications communicate through) is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+# GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
 GetUserInput.115461c2a278.prompt=要访问许可证服务器软件，电脑的通信信道或端口必须可用。访问许可证管理器的网络接口默认端口号是 8080，而 FLEXNet 许可证服务器（供 CD-adapco 应用程序通信使用）的默认端口号为 1999。这些默认值如下所列，但如果需要，还可以改为其他端口号，以反映电脑的设置。
 
 # GetUserInput.115461c2a278.title=FlexNet License Server Configuration
 GetUserInput.115461c2a278.title=FlexNet 许可证服务器配置
 
-# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below. \n\nIf this service already exists then please modify the name below.\n\n
+# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.154a0b5aaa67.prompt=现已准备好设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n\n如果已存在此服务，则请修改下面的名称。\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
@@ -523,7 +502,7 @@ GetUserInput.3080440abdb8.prompt=选择安装 STAR-CAD 系列时想要安装程�
 # GetUserInput.3080440abdb8.title=Select Additional Tasks
 GetUserInput.3080440abdb8.title=选择更多任务
 
-# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the CD-adapco FLEXNet license server using the format: “port@host”.\nWhere port is the TCP/IP port of the license manager, and host is the hostname of the license server.  Normally only one license server is used.  In case of three-server redundancy please fill in the Optional fields.\n
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 GetUserInput.3642fdbebce8.prompt=请使用“端口@主机”格式输入 TCP/IP 端口和 CD-adapco FLEXNet 许可证服务器主机名。\n其中端口是许可证管理器的 TCP/IP 端口，主机是许可证服务器的主机名。通常只使用一个许可证服务器。如果是三台服务器冗余，请填入可选字段。\n
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
@@ -553,6 +532,12 @@ GetUserInput.5f8d10b48f40.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=选择更多任务
 
+# GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
+GetUserInput.61df1e08b39a.prompt=
+
+# GetUserInput.61df1e08b39a.title=Service Configuration 
+GetUserInput.61df1e08b39a.title=
+
 # GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
 GetUserInput.8209d5e08fc6.prompt=选择安装 STAR-CCM+ 时想要安装程序执行的更多任务，然后单击“下一步”。
 
@@ -571,7 +556,7 @@ GetUserInput.c58f4202a8ce.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=选择更多任务
 
-# GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:\n
+# GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:\n\n
 GetUserInput.e821a5059d90.prompt=CD-adapco 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n请选择想要使用的许可方法：\n
 
 # GetUserInput.e821a5059d90.title=Choose License Type
@@ -637,12 +622,6 @@ GUIComponentData.115643e1a39b.defaultValue=
 # GUIComponentData.115643e1a39b.label=
 GUIComponentData.115643e1a39b.label=
 
-# GUIComponentData.11571701a39b.defaultValue=$HTTP_PORT_NUMBER$
-GUIComponentData.11571701a39b.defaultValue=$HTTP_PORT_NUMBER$
-
-# GUIComponentData.11571701a39b.label=Enter the Web Port Number:
-GUIComponentData.11571701a39b.label=输入网络端口号：
-
 # GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
 GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
 
@@ -660,6 +639,12 @@ GUIComponentData.229a23b6be60.defaultValue=Not Selected
 
 # GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
 GUIComponentData.229a23b6be60.label=仅为当前用户创建快捷方式
+
+# GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
+GUIComponentData.2d3e5e7fad37.defaultValue=
+
+# GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
+GUIComponentData.2d3e5e7fad37.label=
 
 # GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
@@ -682,13 +667,13 @@ GUIComponentData.3642fdbebcea.label=许可证服务器 1（必需）
 # GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 
-# GUIComponentData.3642fdbebceb.label=Server 2
+# GUIComponentData.3642fdbebceb.label=License server 2
 GUIComponentData.3642fdbebceb.label=服务器 2
 
 # GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 
-# GUIComponentData.3642fdbebcec.label=Server 3
+# GUIComponentData.3642fdbebcec.label=License server 3
 GUIComponentData.3642fdbebcec.label=服务器 3
 
 # GUIComponentData.3cd99868ae8a.defaultValue=Selected
@@ -714,6 +699,12 @@ GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 
 # GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
 GUIComponentData.3cd99869ae8b.label=仅为当前用户创建快捷方式
+
+# GUIComponentData.41b411f0b48d.defaultValue=Not Selected
+GUIComponentData.41b411f0b48d.defaultValue=
+
+# GUIComponentData.41b411f0b48d.label=POD:Configure this machine to access Power On Demand License Server
+GUIComponentData.41b411f0b48d.label=
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -750,6 +741,18 @@ GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
 # GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
 GUIComponentData.5f8bc9ab8e25.label=更新 Windows 防火墙以允许 STAR-CCM+ 运行
+
+# GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
+GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
+
+# GUIComponentData.61df1e09b39b.label=Enter the service name
+GUIComponentData.61df1e09b39b.label=
+
+# GUIComponentData.61df1e09b39c.defaultValue=Selected
+GUIComponentData.61df1e09b39c.defaultValue=
+
+# GUIComponentData.61df1e09b39c.label=Start license server now 
+GUIComponentData.61df1e09b39c.label=
 
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
 GUIComponentData.65d07a0498ce.defaultValue=Selected
@@ -829,9 +832,6 @@ GUIGroupData.0ac91ffebe27.caption=
 # GUIGroupData.115643e0a39b.caption=
 GUIGroupData.115643e0a39b.caption=
 
-# GUIGroupData.11571700a39b.caption=
-GUIGroupData.11571700a39b.caption=
-
 # GUIGroupData.11571cbca39b.caption=
 GUIGroupData.11571cbca39b.caption=
 
@@ -843,6 +843,9 @@ GUIGroupData.154da76eaa76.caption=
 
 # GUIGroupData.21099aaabdbd.caption=
 GUIGroupData.21099aaabdbd.caption=
+
+# GUIGroupData.2d3e5676ad37.caption=
+GUIGroupData.2d3e5676ad37.caption=
 
 # GUIGroupData.304ac508bd0d.caption=
 GUIGroupData.304ac508bd0d.caption=
@@ -856,7 +859,7 @@ GUIGroupData.3642fdbfbce8.caption=
 # GUIGroupData.3642fdbfbce9.caption=
 GUIGroupData.3642fdbfbce9.caption=
 
-# GUIGroupData.3642fdbfbcea.caption=Redundant license servers ( optional )
+# GUIGroupData.3642fdbfbcea.caption=
 GUIGroupData.3642fdbfbcea.caption=冗余许可证服务器（可选）
 
 # GUIGroupData.3642fdbfbceb.caption=
@@ -864,6 +867,9 @@ GUIGroupData.3642fdbfbceb.caption=
 
 # GUIGroupData.3cd99868ae89.caption=
 GUIGroupData.3cd99868ae89.caption=
+
+# GUIGroupData.41b402bfb48d.caption=
+GUIGroupData.41b402bfb48d.caption=
 
 # GUIGroupData.4202184d8cb5.caption=
 GUIGroupData.4202184d8cb5.caption=
@@ -873,6 +879,12 @@ GUIGroupData.4eb74413ba96.caption=
 
 # GUIGroupData.5f8d10b48f41.caption=
 GUIGroupData.5f8d10b48f41.caption=
+
+# GUIGroupData.61df1e0ab39a.caption=
+GUIGroupData.61df1e0ab39a.caption=
+
+# GUIGroupData.61df1e0ab39b.caption=
+GUIGroupData.61df1e0ab39b.caption=
 
 # GUIGroupData.8209d5e18fc7.caption=
 GUIGroupData.8209d5e18fc7.caption=
@@ -1001,7 +1013,7 @@ Installer.850018e38424.installLabels.06=安装完成
 Installer.850018e38424.installLabels.07=更多任务
 
 # Installer.850018e38424.installLabels.08=License Notice
-Installer.850018e38424.installLabels.08=许可证声明
+Installer.850018e38424.installLabels.08=许可证通知
 
 # Installer.850018e38424.installLabels.09=Setup Licensing
 Installer.850018e38424.installLabels.09=安装许可
@@ -1315,9 +1327,6 @@ IntroActionConsole.c7e016579491.message=正要卸载...\n\n$PRODUCT_NAME$ $WINDO
 # IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7e016579491.title=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
 
-# LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
-LaunchDefaultBrowser.c9455e39a4f2.urlPath=http://localhost:$HTTP_PORT_NUMBER$/
-
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
@@ -1331,7 +1340,7 @@ LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.stepPrompt=
 
 # LicenseAgrAction.43ff93b98f68.title=License Notice
-LicenseAgrAction.43ff93b98f68.title=许可证声明
+LicenseAgrAction.43ff93b98f68.title=许可证通知
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Chi.html
@@ -1777,6 +1786,78 @@ ShowDialogAction.2d6e902bbb0c.narrative=可用磁盘空间不足，需要  $requ
 # ShowDialogAction.2d6e902bbb0c.title=Warning
 ShowDialogAction.2d6e902bbb0c.title=警告
 
+# ShowDialogAction.386900b8be43.buttonLabel=OK
+ShowDialogAction.386900b8be43.buttonLabel=
+
+# ShowDialogAction.386900b8be43.cancelButtonLabel=Cancel
+ShowDialogAction.386900b8be43.cancelButtonLabel=
+
+# ShowDialogAction.386900b8be43.detailsButtonLabel=Details...
+ShowDialogAction.386900b8be43.detailsButtonLabel=
+
+# ShowDialogAction.386900b8be43.label=Outdated license server detected on this machine
+ShowDialogAction.386900b8be43.label=
+
+# ShowDialogAction.386900b8be43.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
+ShowDialogAction.386900b8be43.narrative=
+
+# ShowDialogAction.386900b8be43.title=Warning: License server
+ShowDialogAction.386900b8be43.title=
+
+# ShowDialogAction.38795ea3be4b.buttonLabel=Upgrade
+ShowDialogAction.38795ea3be4b.buttonLabel=
+
+# ShowDialogAction.38795ea3be4b.cancelButtonLabel=Keep
+ShowDialogAction.38795ea3be4b.cancelButtonLabel=
+
+# ShowDialogAction.38795ea3be4b.detailsButtonLabel=Details...
+ShowDialogAction.38795ea3be4b.detailsButtonLabel=
+
+# ShowDialogAction.38795ea3be4b.label=Outdated license server detected on this machine
+ShowDialogAction.38795ea3be4b.label=
+
+# ShowDialogAction.38795ea3be4b.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
+ShowDialogAction.38795ea3be4b.narrative=
+
+# ShowDialogAction.38795ea3be4b.title=Warning: License server
+ShowDialogAction.38795ea3be4b.title=
+
+# ShowDialogAction.38a209debe57.buttonLabel=OK
+ShowDialogAction.38a209debe57.buttonLabel=
+
+# ShowDialogAction.38a209debe57.cancelButtonLabel=
+ShowDialogAction.38a209debe57.cancelButtonLabel=
+
+# ShowDialogAction.38a209debe57.detailsButtonLabel=Details...
+ShowDialogAction.38a209debe57.detailsButtonLabel=
+
+# ShowDialogAction.38a209debe57.label=Outdated license server based on lmadmin detected on this machine
+ShowDialogAction.38a209debe57.label=
+
+# ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
+ShowDialogAction.38a209debe57.narrative=
+
+# ShowDialogAction.38a209debe57.title=Warning: License server
+ShowDialogAction.38a209debe57.title=
+
+# ShowDialogAction.3a2299d587bc.buttonLabel=OK
+ShowDialogAction.3a2299d587bc.buttonLabel=
+
+# ShowDialogAction.3a2299d587bc.cancelButtonLabel=Cancel
+ShowDialogAction.3a2299d587bc.cancelButtonLabel=
+
+# ShowDialogAction.3a2299d587bc.detailsButtonLabel=Details...
+ShowDialogAction.3a2299d587bc.detailsButtonLabel=
+
+# ShowDialogAction.3a2299d587bc.label=License server upgrade failed
+ShowDialogAction.3a2299d587bc.label=
+
+# ShowDialogAction.3a2299d587bc.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
+ShowDialogAction.3a2299d587bc.narrative=
+
+# ShowDialogAction.3a2299d587bc.title=Warning: License Server
+ShowDialogAction.3a2299d587bc.title=
+
 # ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
 ShowDialogAction.3bf5bd2883d0.buttonLabel=确定
 
@@ -2100,6 +2181,24 @@ ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 
 
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=错误
+
+# ShowDialogAction.93e20f13bdfc.buttonLabel=Next
+ShowDialogAction.93e20f13bdfc.buttonLabel=
+
+# ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
+ShowDialogAction.93e20f13bdfc.cancelButtonLabel=
+
+# ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
+ShowDialogAction.93e20f13bdfc.detailsButtonLabel=
+
+# ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
+ShowDialogAction.93e20f13bdfc.label=
+
+# ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+
+# ShowDialogAction.93e20f13bdfc.title=License server problem
+ShowDialogAction.93e20f13bdfc.title=
 
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=确定
