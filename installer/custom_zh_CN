@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Chinese (China) (zh_CN)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -44,7 +44,7 @@ Billboard.850018f38468.imageName=billboard_default.png
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.257d8095925b.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 CD-adapco 获得并已下载至电脑。确定许可证文件位置后，突出显示此文件并单击查询框的“打开”。如果尚未收到许可证文件或是“按需授权”用户，则依然可以通过单击“下一步”继续此安装流程，但是需要再次运行此安装工具，才能结束完整的 STAR-CCM+ 安装。
+ChooseFile.257d8095925b.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 Siemens PLM Software 获得并已下载至电脑。确定许可证文件位置后，突出显示此文件并单击查询框的“打开”。如果尚未收到许可证文件或是“按需授权”用户，则依然可以通过单击“下一步”继续此安装流程，但是需要再次运行此安装工具，才能结束完整的 STAR-CCM+ 安装。
 
 # ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
@@ -56,7 +56,7 @@ ChooseFile.257d8095925b.prompt=请选择许可证文件位置 (&F) ：
 ChooseFile.257d8095925b.stepTitle=选择许可证文件
 
 # ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
-ChooseFolder.20805f839cc0.additionalText=请确定 $PRODUCT_NAME$ 安装位置。
+ChooseFolder.20805f839cc0.additionalText=请确定 $PRODUCT_NAME$安装位置。
 
 # ChooseFolder.20805f839cc0.defaultFile=
 ChooseFolder.20805f839cc0.defaultFile=
@@ -92,7 +92,7 @@ ChooseFolder.3051e252be4c.prompt=请选择文件夹（&F)：
 ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ 安装目录
 
 # ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
-ChooseFolder.9d52df06814f.additionalText=请确定 $SVRoot$ 安装位置。
+ChooseFolder.9d52df06814f.additionalText=请确定 $SVRoot$安装位置。
 
 # ChooseFolder.9d52df06814f.defaultFile=
 ChooseFolder.9d52df06814f.defaultFile=
@@ -104,7 +104,7 @@ ChooseFolder.9d52df06814f.prompt=请确定 STAR-View+ 安装位置：
 ChooseFolder.9d52df06814f.stepTitle=确定 STAR-View+ 安装位置 
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$ 许可证服务器管理器？
+CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$许可证服务器管理器？
 
 # CreateDialog.29fccfaca483.title=Stop the Server
 CreateDialog.29fccfaca483.title=停止服务器
@@ -113,7 +113,7 @@ CreateDialog.29fccfaca483.title=停止服务器
 CreateShortcut.2dca96238e95.args=
 
 # CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2dca96238e95.workingDir=
@@ -122,7 +122,7 @@ CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -131,7 +131,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -140,7 +140,7 @@ CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.5278af2aaead.args=
 
 # CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.5278af2aaead.workingDir=
@@ -149,7 +149,7 @@ CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.52790dd5b2ad.args=
 
 # CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.52790dd5b2ad.workingDir=
 CreateShortcut.52790dd5b2ad.workingDir=
@@ -194,7 +194,7 @@ CreateShortcut.c046908089a4.workingDir=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -203,7 +203,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -230,7 +230,7 @@ CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cfc35baeb8f6.args=
 
 # CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfc35baeb8f6.workingDir=
@@ -239,7 +239,7 @@ CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -248,7 +248,7 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.d134e10a8433.args=
 
 # CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d134e10a8433.workingDir=
@@ -257,7 +257,7 @@ CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -266,13 +266,13 @@ CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.dba14ed6a2e9.args=
 
 # CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows
+CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
 
 # CreateShortcut.dba14ed6a2e9.workingDir=
 CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=安装完成
@@ -290,7 +290,7 @@ EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
 
 # EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.5438312691c0.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EditEnvironment.79445504bf41.value=disable
 EditEnvironment.79445504bf41.value=disable
@@ -332,7 +332,7 @@ EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
 EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
 
 # EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.d80266fa8281.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EntryAtomBiDi.66117b82a1fc.label=Stop server now
 EntryAtomBiDi.66117b82a1fc.label=立即停止服务器
@@ -344,10 +344,10 @@ Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
-Exec.3cae6520be5f.commandLineArgs=
+Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=正在卸载远程启动服务...
@@ -473,13 +473,13 @@ GetUserInput.0ac91ffdbe25.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 GetUserInput.0ac91ffdbe25.title=选择更多任务
 
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
-GetUserInput.115461c2a278.prompt=要访问许可证服务器软件，电脑的通信信道或端口必须可用。访问许可证管理器的网络接口默认端口号是 8080，而 FLEXNet 许可证服务器（供 CD-adapco 应用程序通信使用）的默认端口号为 1999。这些默认值如下所列，但如果需要，还可以改为其他端口号，以反映电脑的设置。
+GetUserInput.115461c2a278.prompt=要访问许可证服务器软件，您的电脑上要有可用的通信通道或端口。FLEXNet 许可证服务器的默认端口号是 1999。这些默认值如下所列，但可根据需要更改为与您的电脑设置相对应的其他端口号。
 
 # GetUserInput.115461c2a278.title=FlexNet License Server Configuration
 GetUserInput.115461c2a278.title=FlexNet 许可证服务器配置
 
 # GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
-GetUserInput.154a0b5aaa67.prompt=现已准备好设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n\n如果已存在此服务，则请修改下面的名称。\n\n
+GetUserInput.154a0b5aaa67.prompt=您现在可以设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=服务配置
@@ -503,7 +503,7 @@ GetUserInput.3080440abdb8.prompt=选择安装 STAR-CAD 系列时想要安装程�
 GetUserInput.3080440abdb8.title=选择更多任务
 
 # GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=请使用“端口@主机”格式输入 TCP/IP 端口和 CD-adapco FLEXNet 许可证服务器主机名。\n其中端口是许可证管理器的 TCP/IP 端口，主机是许可证服务器的主机名。通常只使用一个许可证服务器。如果是三台服务器冗余，请填入可选字段。\n
+GetUserInput.3642fdbebce8.prompt=请输入 TCP/IP 端口和 FLEXNet 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet 客户端配置
@@ -533,10 +533,10 @@ GetUserInput.5f8d10b48f40.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 GetUserInput.5f8d10b48f40.title=选择更多任务
 
 # GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
-GetUserInput.61df1e08b39a.prompt=
+GetUserInput.61df1e08b39a.prompt=您现在可以设置许可证管理器服务。\n\n当前的服务名称如下所示。\n如果您想将服务名称更改为其他名称，请修改提供的名称。
 
 # GetUserInput.61df1e08b39a.title=Service Configuration 
-GetUserInput.61df1e08b39a.title=
+GetUserInput.61df1e08b39a.title=服务配置
 
 # GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
 GetUserInput.8209d5e08fc6.prompt=选择安装 STAR-CCM+ 时想要安装程序执行的更多任务，然后单击“下一步”。
@@ -557,7 +557,7 @@ GetUserInput.c58f4202a8ce.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 GetUserInput.c58f4202a8ce.title=选择更多任务
 
 # GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:\n\n
-GetUserInput.e821a5059d90.prompt=CD-adapco 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n请选择想要使用的许可方法：\n
+GetUserInput.e821a5059d90.prompt=CD-adapco 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。如果需要，我们的“按需授权”服务器可配置为您的许可证服务器。\n\n请选择想要使用的许可方法：\n
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=选择许可证类型
@@ -641,10 +641,10 @@ GUIComponentData.229a23b6be60.defaultValue=Not Selected
 GUIComponentData.229a23b6be60.label=仅为当前用户创建快捷方式
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
-GUIComponentData.2d3e5e7fad37.defaultValue=
+GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
-GUIComponentData.2d3e5e7fad37.label=
+GUIComponentData.2d3e5e7fad37.label=三机冗余许可证服务器
 
 # GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
@@ -668,13 +668,13 @@ GUIComponentData.3642fdbebcea.label=许可证服务器 1（必需）
 GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 
 # GUIComponentData.3642fdbebceb.label=License server 2
-GUIComponentData.3642fdbebceb.label=服务器 2
+GUIComponentData.3642fdbebceb.label=许可证服务器 2
 
 # GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 
 # GUIComponentData.3642fdbebcec.label=License server 3
-GUIComponentData.3642fdbebcec.label=服务器 3
+GUIComponentData.3642fdbebcec.label=许可证服务器 3
 
 # GUIComponentData.3cd99868ae8a.defaultValue=Selected
 GUIComponentData.3cd99868ae8a.defaultValue=Selected
@@ -701,10 +701,10 @@ GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.label=仅为当前用户创建快捷方式
 
 # GUIComponentData.41b411f0b48d.defaultValue=Not Selected
-GUIComponentData.41b411f0b48d.defaultValue=
+GUIComponentData.41b411f0b48d.defaultValue=Not Selected
 
 # GUIComponentData.41b411f0b48d.label=POD:Configure this machine to access Power On Demand License Server
-GUIComponentData.41b411f0b48d.label=
+GUIComponentData.41b411f0b48d.label=POD：将此电脑配置为可以访问“按需授权”许可证服务器
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -746,13 +746,13 @@ GUIComponentData.5f8bc9ab8e25.label=更新 Windows 防火墙以允许 STAR-CCM+ 
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.61df1e09b39b.label=Enter the service name
-GUIComponentData.61df1e09b39b.label=
+GUIComponentData.61df1e09b39b.label=输入服务名称
 
 # GUIComponentData.61df1e09b39c.defaultValue=Selected
-GUIComponentData.61df1e09b39c.defaultValue=
+GUIComponentData.61df1e09b39c.defaultValue=Selected
 
 # GUIComponentData.61df1e09b39c.label=Start license server now 
-GUIComponentData.61df1e09b39c.label=
+GUIComponentData.61df1e09b39c.label=立即启动许可证服务器
 
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
 GUIComponentData.65d07a0498ce.defaultValue=Selected
@@ -860,7 +860,7 @@ GUIGroupData.3642fdbfbce8.caption=
 GUIGroupData.3642fdbfbce9.caption=
 
 # GUIGroupData.3642fdbfbcea.caption=
-GUIGroupData.3642fdbfbcea.caption=冗余许可证服务器（可选）
+GUIGroupData.3642fdbfbcea.caption=
 
 # GUIGroupData.3642fdbfbceb.caption=
 GUIGroupData.3642fdbfbceb.caption=
@@ -914,43 +914,43 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=此功能安装运行 STAR-CCM+ 软件包需要的所有文件。
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=安装完成
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=安装完成
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=恭喜：\n\nSTAR-CAD $CAD_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n
+InstallCompleteActionConsole.bd8dd38c946b.message=恭喜：\n\nSTAR-CAD $CAD_VERSION$软件 $WINDOWS_TYPE$ 安装已成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
 InstallCompleteActionConsole.bd8dd38c946b.title=安装完成
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n\n
+InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n\n
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=安装完成
 
 # InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
-InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVERSION$ 安装已成功完成。\n\n\n
+InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVERSION$安装已成功完成。\n\n\n
 
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=安装完成
 
 # InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ 软件 $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参阅 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$软件 $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参阅 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
 
 # InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.13229f38a108.additionalText=安装程序将把 FLEXNet $FLEXlmVERSION$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
+InstallDirAction.13229f38a108.additionalText=安装程序将把 FLEXNet $FLEXlmVERSION$安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
 InstallDirAction.13229f38a108.prompt=想要在哪里安装 FLEXNet？
@@ -959,7 +959,7 @@ InstallDirAction.13229f38a108.prompt=想要在哪里安装 FLEXNet？
 InstallDirAction.13229f38a108.stepTitle=选择安装位置
 
 # InstallDirAction.27fec67899f9.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.27fec67899f9.additionalText=安装程序将把 $PRODUCT_NAME$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
+InstallDirAction.27fec67899f9.additionalText=安装程序将把 $PRODUCT_NAME$安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $PRODUCT_NAME$?
 InstallDirAction.27fec67899f9.prompt=想要在哪里安装 $PRODUCT_NAME$？
@@ -968,7 +968,7 @@ InstallDirAction.27fec67899f9.prompt=想要在哪里安装 $PRODUCT_NAME$？
 InstallDirAction.27fec67899f9.stepTitle=选择安装位置
 
 # InstallDirAction.5030314b81d8.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.5030314b81d8.additionalText=安装程序将把 $PRODUCT_NAME$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
+InstallDirAction.5030314b81d8.additionalText=安装程序将把 $PRODUCT_NAME$安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $PRODUCT_NAME$?
 InstallDirAction.5030314b81d8.prompt=想要在哪里安装 $PRODUCT_NAME$？
@@ -977,7 +977,7 @@ InstallDirAction.5030314b81d8.prompt=想要在哪里安装 $PRODUCT_NAME$？
 InstallDirAction.5030314b81d8.stepTitle=选择安装位置
 
 # InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.850018e38429.additionalText=安装程序将把 STAR-CAD $CAD_VERSION$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
+InstallDirAction.850018e38429.additionalText=安装程序将把 STAR-CAD $CAD_VERSION$安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
 InstallDirAction.850018e38429.prompt=想要在哪里安装 STAR-CAD $CAD_VERSION$？
@@ -1013,7 +1013,7 @@ Installer.850018e38424.installLabels.06=安装完成
 Installer.850018e38424.installLabels.07=更多任务
 
 # Installer.850018e38424.installLabels.08=License Notice
-Installer.850018e38424.installLabels.08=许可证通知
+Installer.850018e38424.installLabels.08=许可证声明
 
 # Installer.850018e38424.installLabels.09=Setup Licensing
 Installer.850018e38424.installLabels.09=安装许可
@@ -1085,16 +1085,16 @@ InstallerInfoData.850018f28450.vendorName=CD-adapco
 InstallerInfoData.850018f28450.vendorURL=http://www.cd-adapco.com/
 
 # InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installErrorMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.12ff4db9947b.installErrorMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.12ff4db9947b.installFatalMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
-InstallFinishAction.12ff4db9947b.installSuccessMessage=恭喜：\n\nFLEXNet $FLEXlmVERSION$ 安装已经成功完成。\n\n按已完成退出安装程序。
+InstallFinishAction.12ff4db9947b.installSuccessMessage=恭喜：\n\nFLEXNet $FLEXlmVERSION$安装已经成功完成。\n\n按已完成退出安装程序。
 
 # InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
 InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
@@ -1109,16 +1109,16 @@ InstallFinishAction.12ff4db9947b.rebootRequiredMessage=需要重启系统以完�
 InstallFinishAction.12ff4db9947b.windowTitle=安装完成
 
 # InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=恭喜：\n\nSTAR-CAD $CAD_VERSION$ 软件 $WINDOWS_TYPE$ 安装已经成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.31554a9699e3.installSuccessMessage=恭喜：\n\nSTAR-CAD $CAD_VERSION$软件 $WINDOWS_TYPE$ 安装已经成功完成。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
 InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
@@ -1133,16 +1133,16 @@ InstallFinishAction.31554a9699e3.rebootRequiredMessage=需要重启系统以完�
 InstallFinishAction.31554a9699e3.windowTitle=安装完成
 
 # InstallFinishAction.850018e3843a.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.850018e3843a.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.850018e3843a.rebootNotNeededMessage=
 InstallFinishAction.850018e3843a.rebootNotNeededMessage=
@@ -1157,16 +1157,16 @@ InstallFinishAction.850018e3843a.rebootRequiredMessage=需要重启系统以完�
 InstallFinishAction.850018e3843a.windowTitle=安装完成
 
 # InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已经成功安装至:\n\n$USER_INSTALL_DIR$:\n\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至:\n\n$USER_INSTALL_DIR$:\n\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
 # InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
 InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
@@ -1250,7 +1250,7 @@ InstallSet.850018f38466.description=安装 STAR-CCM+ 软件包，这通常是大
 InstallSet.850018f38466.imageName=typical.png
 
 # InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
-InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # InstallSet.850018f38466.installSetName=Product
 InstallSet.850018f38466.installSetName=产品
@@ -1316,16 +1316,16 @@ IntroActionConsole.c7dc1e698d4b.message=正要卸载...\n\nFLEXNet $FLEXlmVERSIO
 IntroActionConsole.c7dc1e698d4b.title=卸载 FLEXNet
 
 # IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dee180948f.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+IntroActionConsole.c7dee180948f.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-IntroActionConsole.c7dee180948f.title=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
+IntroActionConsole.c7dee180948f.title=卸载 $PRODUCT_NAME$$WINDOWS_TYPE$
 
 # IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=正要卸载...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+IntroActionConsole.c7e016579491.message=正要卸载...\n\n$PRODUCT_NAME$$WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-IntroActionConsole.c7e016579491.title=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
+IntroActionConsole.c7e016579491.title=卸载 $PRODUCT_NAME$$WINDOWS_TYPE$
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
@@ -1340,7 +1340,7 @@ LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.stepPrompt=
 
 # LicenseAgrAction.43ff93b98f68.title=License Notice
-LicenseAgrAction.43ff93b98f68.title=许可证通知
+LicenseAgrAction.43ff93b98f68.title=许可证声明
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Chi.html
@@ -1667,7 +1667,7 @@ ProductDialog.Title=选择 STAR-CAD 组件
 ProductDialog.Title1=选择 STAR-CCM+ 组件
 
 # PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.066c0750bc6e.message=可用磁盘空间不足\n\n可用磁盘空间不足，需要 $REQUIRED_DISK_SPACE_MEGABYTES$ MB 空间，\n但只有$FREE_DISK_SPACE_MEGABYTES$ MB 可用。\n\n请释放一些磁盘空间或选择另一个安装位置。
+PromptUserConsole.066c0750bc6e.message=可用磁盘空间不足\n\n可用磁盘空间不足，需要 $REQUIRED_DISK_SPACE_MEGABYTES$MB 空间，\n但只有$FREE_DISK_SPACE_MEGABYTES$ MB 可用。\n\n请释放一些磁盘空间或选择另一个安装位置。
 
 # PromptUserConsole.066c0750bc6e.option0Label=OK
 PromptUserConsole.066c0750bc6e.option0Label=确定
@@ -1709,7 +1709,7 @@ ShowDialogAction.064a5d7084f3.detailsButtonLabel=详情...
 ShowDialogAction.064a5d7084f3.label=可用磁盘空间不足
 
 # ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.064a5d7084f3.narrative=可用磁盘空间不足，需要 $REQUIRED_DISK_SPACE_MEGABYTES$ MB 空间，\n但只有 $FREE_DISK_SPACE_MEGABYTES$ MB 可用。\n\n请释放一些磁盘空间或选择另一个安装位置。
+ShowDialogAction.064a5d7084f3.narrative=可用磁盘空间不足，需要 $REQUIRED_DISK_SPACE_MEGABYTES$MB 空间，\n但只有 $FREE_DISK_SPACE_MEGABYTES$ MB 可用。\n\n请释放一些磁盘空间或选择另一个安装位置。
 
 # ShowDialogAction.064a5d7084f3.title=Warning
 ShowDialogAction.064a5d7084f3.title=警告
@@ -1763,7 +1763,7 @@ ShowDialogAction.25820b1c92f3.detailsButtonLabel=详情...
 ShowDialogAction.25820b1c92f3.label=许可证文件无效。
 
 # ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
-ShowDialogAction.25820b1c92f3.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
+ShowDialogAction.25820b1c92f3.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
 
 # ShowDialogAction.25820b1c92f3.title=ERROR
 ShowDialogAction.25820b1c92f3.title=错误
@@ -1787,76 +1787,76 @@ ShowDialogAction.2d6e902bbb0c.narrative=可用磁盘空间不足，需要  $requ
 ShowDialogAction.2d6e902bbb0c.title=警告
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
-ShowDialogAction.386900b8be43.buttonLabel=
+ShowDialogAction.386900b8be43.buttonLabel=确定
 
 # ShowDialogAction.386900b8be43.cancelButtonLabel=Cancel
-ShowDialogAction.386900b8be43.cancelButtonLabel=
+ShowDialogAction.386900b8be43.cancelButtonLabel=取消
 
 # ShowDialogAction.386900b8be43.detailsButtonLabel=Details...
-ShowDialogAction.386900b8be43.detailsButtonLabel=
+ShowDialogAction.386900b8be43.detailsButtonLabel=详情...
 
 # ShowDialogAction.386900b8be43.label=Outdated license server detected on this machine
-ShowDialogAction.386900b8be43.label=
+ShowDialogAction.386900b8be43.label=在本机上检测到过期许可证服务器
 
 # ShowDialogAction.386900b8be43.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-ShowDialogAction.386900b8be43.narrative=
+ShowDialogAction.386900b8be43.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n在运行软件之前，需要更新许可证服务器。
 
 # ShowDialogAction.386900b8be43.title=Warning: License server
-ShowDialogAction.386900b8be43.title=
+ShowDialogAction.386900b8be43.title=警告：许可证服务器
 
 # ShowDialogAction.38795ea3be4b.buttonLabel=Upgrade
-ShowDialogAction.38795ea3be4b.buttonLabel=
+ShowDialogAction.38795ea3be4b.buttonLabel=升级
 
 # ShowDialogAction.38795ea3be4b.cancelButtonLabel=Keep
-ShowDialogAction.38795ea3be4b.cancelButtonLabel=
+ShowDialogAction.38795ea3be4b.cancelButtonLabel=保留
 
 # ShowDialogAction.38795ea3be4b.detailsButtonLabel=Details...
-ShowDialogAction.38795ea3be4b.detailsButtonLabel=
+ShowDialogAction.38795ea3be4b.detailsButtonLabel=详情...
 
 # ShowDialogAction.38795ea3be4b.label=Outdated license server detected on this machine
-ShowDialogAction.38795ea3be4b.label=
+ShowDialogAction.38795ea3be4b.label=在本机上检测到过期许可证服务器
 
 # ShowDialogAction.38795ea3be4b.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.38795ea3be4b.narrative=
+ShowDialogAction.38795ea3be4b.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n请选择“保留”以保留现有许可证服务器或选择“升级”，以允许安装程序更新许可证服务器服务。\n\n如果选择“保留”，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.38795ea3be4b.title=Warning: License server
-ShowDialogAction.38795ea3be4b.title=
+ShowDialogAction.38795ea3be4b.title=警告：许可证服务器
 
 # ShowDialogAction.38a209debe57.buttonLabel=OK
-ShowDialogAction.38a209debe57.buttonLabel=
+ShowDialogAction.38a209debe57.buttonLabel=确定
 
 # ShowDialogAction.38a209debe57.cancelButtonLabel=
 ShowDialogAction.38a209debe57.cancelButtonLabel=
 
 # ShowDialogAction.38a209debe57.detailsButtonLabel=Details...
-ShowDialogAction.38a209debe57.detailsButtonLabel=
+ShowDialogAction.38a209debe57.detailsButtonLabel=详情...
 
 # ShowDialogAction.38a209debe57.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.38a209debe57.label=
+ShowDialogAction.38a209debe57.label=在本机上检测到基于 lmadmin 的过时的许可证服务器
 
 # ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.38a209debe57.narrative=
+ShowDialogAction.38a209debe57.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.38a209debe57.title=Warning: License server
-ShowDialogAction.38a209debe57.title=
+ShowDialogAction.38a209debe57.title=警告：许可证服务器
 
 # ShowDialogAction.3a2299d587bc.buttonLabel=OK
-ShowDialogAction.3a2299d587bc.buttonLabel=
+ShowDialogAction.3a2299d587bc.buttonLabel=确定
 
 # ShowDialogAction.3a2299d587bc.cancelButtonLabel=Cancel
-ShowDialogAction.3a2299d587bc.cancelButtonLabel=
+ShowDialogAction.3a2299d587bc.cancelButtonLabel=取消
 
 # ShowDialogAction.3a2299d587bc.detailsButtonLabel=Details...
-ShowDialogAction.3a2299d587bc.detailsButtonLabel=
+ShowDialogAction.3a2299d587bc.detailsButtonLabel=详情...
 
 # ShowDialogAction.3a2299d587bc.label=License server upgrade failed
-ShowDialogAction.3a2299d587bc.label=
+ShowDialogAction.3a2299d587bc.label=许可证服务器升级失败
 
 # ShowDialogAction.3a2299d587bc.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
-ShowDialogAction.3a2299d587bc.narrative=
+ShowDialogAction.3a2299d587bc.narrative=安装程序无法升级许可证服务器服务。您以前的许可证服务器服务已恢复。请手动执行升级。
 
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
-ShowDialogAction.3a2299d587bc.title=
+ShowDialogAction.3a2299d587bc.title=警告：许可证服务器
 
 # ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
 ShowDialogAction.3bf5bd2883d0.buttonLabel=确定
@@ -1886,7 +1886,7 @@ ShowDialogAction.49b821379c58.cancelButtonLabel=取消
 ShowDialogAction.49b821379c58.detailsButtonLabel=详情...
 
 # ShowDialogAction.49b821379c58.label=Invalid license server: $SERVER1$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821379c58.label=许可证服务器无效：$SERVER1$ 上未找到 CDLMD 销售商守护程序。
+ShowDialogAction.49b821379c58.label=许可证服务器无效：$SERVER1$上未找到 CDLMD 销售商守护程序。
 
 # ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
@@ -1904,7 +1904,7 @@ ShowDialogAction.49b821459c60.cancelButtonLabel=取消
 ShowDialogAction.49b821459c60.detailsButtonLabel=详情...
 
 # ShowDialogAction.49b821459c60.label=Invalid license server: $SERVER2$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821459c60.label=许可证服务器无效：$SERVER2$ 上未找到 CDLMD 销售商守护程序。
+ShowDialogAction.49b821459c60.label=许可证服务器无效：$SERVER2$上未找到 CDLMD 销售商守护程序。
 
 # ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
@@ -1922,7 +1922,7 @@ ShowDialogAction.49b821459c69.cancelButtonLabel=取消
 ShowDialogAction.49b821459c69.detailsButtonLabel=详情...
 
 # ShowDialogAction.49b821459c69.label=Invalid license server: $SERVER3$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821459c69.label=许可证服务器无效：$SERVER3$ 上未找到 CDLMD 销售商守护程序。
+ShowDialogAction.49b821459c69.label=许可证服务器无效：$SERVER3$上未找到 CDLMD 销售商守护程序。
 
 # ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
@@ -1940,7 +1940,7 @@ ShowDialogAction.49b821469c9f.cancelButtonLabel=取消
 ShowDialogAction.49b821469c9f.detailsButtonLabel=详情...
 
 # ShowDialogAction.49b821469c9f.label=Invalid local license server: $HOSTNAME$ no CDLMD vendor daemon found.\n\nPlease start/restart license server before running STAR-CCM+ 
-ShowDialogAction.49b821469c9f.label=本地许可证服务器无效：$HOSTNAME$ 上未找到 CDLMD 销售商守护程序。\n\n请启动/重启许可证服务器，然后运行 STAR-CCM+ 
+ShowDialogAction.49b821469c9f.label=本地许可证服务器无效：$HOSTNAME$上未找到 CDLMD 销售商守护程序。\n\n请启动/重启许可证服务器，然后运行 STAR-CCM+ 
 
 # ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
@@ -1961,7 +1961,7 @@ ShowDialogAction.5ef28303abd8.detailsButtonLabel=详情...
 ShowDialogAction.5ef28303abd8.label=警告
 
 # ShowDialogAction.5ef28303abd8.narrative=To configure the selected STAR-CAD clients, the $ScEnvVar$ environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_STAR_CAD_FILE$\n\nYou can retrieve the previous STAR-CAD clients by changing the $ScEnvVar$ environment variable back to the value shown above.
-ShowDialogAction.5ef28303abd8.narrative=要配置选定的 STAR-CAD 客户端，$ScEnvVar$ 环境变量将会更新。\n\n环境变量目前设置为：\n$OLD_STAR_CAD_FILE$\n\n将 $ScEnvVar$ 环境变量改回上述值，就可以恢复以前的 STAR-CAD 客户端。
+ShowDialogAction.5ef28303abd8.narrative=要配置选定的 STAR-CAD 客户端，$ScEnvVar$环境变量将会更新。\n\n环境变量目前设置为：\n$OLD_STAR_CAD_FILE$\n\n将 $ScEnvVar$ 环境变量改回上述值，就可以恢复以前的 STAR-CAD 客户端。
 
 # ShowDialogAction.5ef28303abd8.title=STAR-CAD configuration
 ShowDialogAction.5ef28303abd8.title=STAR-CAD 配置
@@ -2015,7 +2015,7 @@ ShowDialogAction.653ab69e9640.detailsButtonLabel=详情...
 ShowDialogAction.653ab69e9640.label=许可证文件无效。
 
 # ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.653ab69e9640.narrative=未针对服务器 $LICHOSTNAMEFOUND$ 配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
+ShowDialogAction.653ab69e9640.narrative=未针对服务器 $LICHOSTNAMEFOUND$配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.653ab69e9640.title=ERROR
 ShowDialogAction.653ab69e9640.title=错误
@@ -2033,7 +2033,7 @@ ShowDialogAction.653c263b9ee1.detailsButtonLabel=详情...
 ShowDialogAction.653c263b9ee1.label=许可证文件无效。
 
 # ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.653c263b9ee1.narrative=未针对具有当前 mac 地址的服务器配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ \n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
+ShowDialogAction.653c263b9ee1.narrative=未针对具有当前 mac 地址的服务器配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.653c263b9ee1.title=ERROR
 ShowDialogAction.653c263b9ee1.title=错误
@@ -2087,7 +2087,7 @@ ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=详情...
 ShowDialogAction.7e56ee2dbf97.label=未找到 STAR-CCM+ 可执行程序。
 
 # ShowDialogAction.7e56ee2dbf97.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
-ShowDialogAction.7e56ee2dbf97.narrative=请重新选择安装 $PRODUCT_NAME$ 的位置。
+ShowDialogAction.7e56ee2dbf97.narrative=请重新选择安装 $PRODUCT_NAME$的位置。
 
 # ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ Installation Not Found
 ShowDialogAction.7e56ee2dbf97.title=未找到 STAR-CCM+ 安装
@@ -2177,28 +2177,28 @@ ShowDialogAction.935897e9965b.detailsButtonLabel=详情...
 ShowDialogAction.935897e9965b.label=许可证文件无效。
 
 # ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 已被修改，请将端口号设置为 1999。\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
+ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$已被修改，请将端口号设置为 1999。\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=错误
 
 # ShowDialogAction.93e20f13bdfc.buttonLabel=Next
-ShowDialogAction.93e20f13bdfc.buttonLabel=
+ShowDialogAction.93e20f13bdfc.buttonLabel=下一步
 
 # ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
-ShowDialogAction.93e20f13bdfc.cancelButtonLabel=
+ShowDialogAction.93e20f13bdfc.cancelButtonLabel=上一步
 
 # ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
-ShowDialogAction.93e20f13bdfc.detailsButtonLabel=
+ShowDialogAction.93e20f13bdfc.detailsButtonLabel=详情...
 
 # ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
-ShowDialogAction.93e20f13bdfc.label=
+ShowDialogAction.93e20f13bdfc.label=安装程序发现指定许可证服务器存在问题。
 
 # ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 
 # ShowDialogAction.93e20f13bdfc.title=License server problem
-ShowDialogAction.93e20f13bdfc.title=
+ShowDialogAction.93e20f13bdfc.title=许可证服务器问题
 
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=确定
@@ -2447,16 +2447,16 @@ UninstallIntroAction.13b8c9d9a9bf.message=正要卸载...\n\nFLEXNet $FLEXlmVERS
 UninstallIntroAction.13b8c9d9a9bf.stepTitle=卸载 FLEXNet
 
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.31662af6a601.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+UninstallIntroAction.31662af6a601.message=正要卸载...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-UninstallIntroAction.31662af6a601.stepTitle=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
+UninstallIntroAction.31662af6a601.stepTitle=卸载 $PRODUCT_NAME$$WINDOWS_TYPE$
 
 # UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.850018f38454.message=正要卸载...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+UninstallIntroAction.850018f38454.message=正要卸载...\n\n$PRODUCT_NAME$$WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-UninstallIntroAction.850018f38454.stepTitle=卸载 $PRODUCT_NAME$ $WINDOWS_TYPE$
+UninstallIntroAction.850018f38454.stepTitle=卸载 $PRODUCT_NAME$$WINDOWS_TYPE$
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
 VariablePropertyDataBiDi.127a86b89bbb.propertyName=产品名称：
