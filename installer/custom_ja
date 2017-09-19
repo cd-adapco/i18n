@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -44,7 +44,7 @@ Billboard.850018f38468.imageName=billboard_default.png
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.257d8095925b.additionalText=CD-adapcoから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、STAR-CCM+のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
+ChooseFile.257d8095925b.additionalText=シーメンスPLMソフトウェアから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、STAR-CCM+のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
 
 # ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
@@ -113,7 +113,7 @@ CreateDialog.29fccfaca483.title=サーバーを停止
 CreateShortcut.2dca96238e95.args=
 
 # CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2dca96238e95.workingDir=
@@ -122,7 +122,7 @@ CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -131,7 +131,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -140,7 +140,7 @@ CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.5278af2aaead.args=
 
 # CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.5278af2aaead.workingDir=
@@ -149,7 +149,7 @@ CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.52790dd5b2ad.args=
 
 # CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.52790dd5b2ad.workingDir=
 CreateShortcut.52790dd5b2ad.workingDir=
@@ -194,7 +194,7 @@ CreateShortcut.c046908089a4.workingDir=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -203,7 +203,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -230,7 +230,7 @@ CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cfc35baeb8f6.args=
 
 # CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfc35baeb8f6.workingDir=
@@ -239,7 +239,7 @@ CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -248,7 +248,7 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.d134e10a8433.args=
 
 # CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d134e10a8433.workingDir=
@@ -257,7 +257,7 @@ CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -266,13 +266,13 @@ CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.dba14ed6a2e9.args=
 
 # CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.dba14ed6a2e9.workingDir=
 CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=インストール完了
@@ -290,7 +290,7 @@ EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
 
 # EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.5438312691c0.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EditEnvironment.79445504bf41.value=disable
 EditEnvironment.79445504bf41.value=disable
@@ -332,7 +332,7 @@ EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
 EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
 
 # EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.d80266fa8281.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EntryAtomBiDi.66117b82a1fc.label=Stop server now
 EntryAtomBiDi.66117b82a1fc.label=サーバーを今すぐ停止する
@@ -344,10 +344,10 @@ Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
-Exec.3cae6520be5f.commandLineArgs=
+Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=リモートからの起動サービスをアンインストールしています...
@@ -473,13 +473,13 @@ GetUserInput.0ac91ffdbe25.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.0ac91ffdbe25.title=追加タスクの選択
 
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
-GetUserInput.115461c2a278.prompt=ライセンスサーバーソフトウェアにアクセスするには、コンピュータの通信チャンネル（ポート）を割り当てる必要があります。Webインターフェースからライセンスマネージャーにアクセスするためのデフォルトのポート番号は8080で、FLEXNetライセンスサーバーの（CD-adapcoのアプリケーションが通信に使う）デフォルトのポート番号は1999です。ボックスにはこれらの値が既に挿入されていますが、ご使用のコンピュータの設定に応じて、他の番号に変更することができます。
+GetUserInput.115461c2a278.prompt=ライセンスサーバーソフトウェアにアクセスするには、通信チャネルまたはポートが、ご使用のコンピュータで使用できる必要があります。FLEXNetライセンスサーバーのデフォルトポート番号は1999です。これらのデフォルトを以下に示しますが、必要であればコンピュータの設定に合わせて他のポート番号に変更できます。
 
 # GetUserInput.115461c2a278.title=FlexNet License Server Configuration
 GetUserInput.115461c2a278.title=FlexNetライセンスサーバー構成
 
 # GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
-GetUserInput.154a0b5aaa67.prompt=ライセンスマネージャーサービスの設定を行います。\n\nこのサービスには名前を付ける必要があり、下のテキスト\nボックスには既にデフォルト名が表示されています。\n\nこの名前のサービスが既に存在する場合は、適切な名前に\n変更してください。\n
+GetUserInput.154a0b5aaa67.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=サービス構成 
@@ -503,7 +503,7 @@ GetUserInput.3080440abdb8.prompt=STAR-CAD Seriesのインストール時に実�
 GetUserInput.3080440abdb8.title=追加タスクの選択
 
 # GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=CD-adapco FLEXNetライセンスサーバーのTCP/IPポートとホスト名を、port@host形式で入力してください。\n「port」はライセンスマネージャーのTCP/IPポート、「host」はライセンスサーバーのホスト名です。通常はライセンスサーバーを1つだけ使用しますが、サーバー3台による冗長構成の場合は、オプションのフィールドにも入力してください。\n
+GetUserInput.3642fdbebce8.prompt=FLEXNetライセンスサーバーのTCP/IPポートとホスト名を、「port@host」の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNetクライアント構成 
@@ -533,10 +533,10 @@ GetUserInput.5f8d10b48f40.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.5f8d10b48f40.title=追加タスクの選択
 
 # GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
-GetUserInput.61df1e08b39a.prompt=
+GetUserInput.61df1e08b39a.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。\n\n
 
 # GetUserInput.61df1e08b39a.title=Service Configuration 
-GetUserInput.61df1e08b39a.title=
+GetUserInput.61df1e08b39a.title=サービス構成 
 
 # GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
 GetUserInput.8209d5e08fc6.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
@@ -557,7 +557,7 @@ GetUserInput.c58f4202a8ce.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.c58f4202a8ce.title=追加タスクの選択
 
 # GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:\n\n
-GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。\n\n使用するライセンシング方法を選択してください。\n
+GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。必要であれば、弊社のPoD(パワーオンデマンド)サーバーをライセンスサーバーとして構成できます。\n\n使用するライセンシング方法を選択してください。\n
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=ライセンスタイプの選択
@@ -641,10 +641,10 @@ GUIComponentData.229a23b6be60.defaultValue=Not Selected
 GUIComponentData.229a23b6be60.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
-GUIComponentData.2d3e5e7fad37.defaultValue=
+GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
-GUIComponentData.2d3e5e7fad37.label=
+GUIComponentData.2d3e5e7fad37.label=3台のマシンによる冗長ライセンスサーバー
 
 # GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
@@ -668,13 +668,13 @@ GUIComponentData.3642fdbebcea.label=ライセンスサーバー1 (必須)
 GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 
 # GUIComponentData.3642fdbebceb.label=License server 2
-GUIComponentData.3642fdbebceb.label=サーバー2
+GUIComponentData.3642fdbebceb.label=ライセンスサーバー2
 
 # GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 
 # GUIComponentData.3642fdbebcec.label=License server 3
-GUIComponentData.3642fdbebcec.label=サーバー3
+GUIComponentData.3642fdbebcec.label=ライセンスサーバー3
 
 # GUIComponentData.3cd99868ae8a.defaultValue=Selected
 GUIComponentData.3cd99868ae8a.defaultValue=Selected
@@ -701,10 +701,10 @@ GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.label=現在のユーザーのみショートカットを作成する
 
 # GUIComponentData.41b411f0b48d.defaultValue=Not Selected
-GUIComponentData.41b411f0b48d.defaultValue=
+GUIComponentData.41b411f0b48d.defaultValue=Not Selected
 
 # GUIComponentData.41b411f0b48d.label=POD:Configure this machine to access Power On Demand License Server
-GUIComponentData.41b411f0b48d.label=
+GUIComponentData.41b411f0b48d.label=PoD: パワーオンデマンドライセンスサーバーにアクセスできるように構成する
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -746,13 +746,13 @@ GUIComponentData.5f8bc9ab8e25.label=STAR-CCM+を実行できるようにWindows�
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.61df1e09b39b.label=Enter the service name
-GUIComponentData.61df1e09b39b.label=
+GUIComponentData.61df1e09b39b.label=サービス名を入力:
 
 # GUIComponentData.61df1e09b39c.defaultValue=Selected
-GUIComponentData.61df1e09b39c.defaultValue=
+GUIComponentData.61df1e09b39c.defaultValue=Selected
 
 # GUIComponentData.61df1e09b39c.label=Start license server now 
-GUIComponentData.61df1e09b39c.label=
+GUIComponentData.61df1e09b39c.label=ライセンスサーバーを今すぐ開始する 
 
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
 GUIComponentData.65d07a0498ce.defaultValue=Selected
@@ -860,7 +860,7 @@ GUIGroupData.3642fdbfbce8.caption=
 GUIGroupData.3642fdbfbce9.caption=
 
 # GUIGroupData.3642fdbfbcea.caption=
-GUIGroupData.3642fdbfbcea.caption=冗長ライセンスサーバー(オプション)
+GUIGroupData.3642fdbfbcea.caption=
 
 # GUIGroupData.3642fdbfbceb.caption=
 GUIGroupData.3642fdbfbceb.caption=
@@ -914,25 +914,25 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=STAR-CCM+パッケージの実行に必要なすべてのファイルをインストールします。
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.7317fed1a37e.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=インストール完了
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd89f531898a.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=インストール完了
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n
+InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
 InstallCompleteActionConsole.bd8dd38c946b.title=インストール完了
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=インストール完了
@@ -944,7 +944,7 @@ InstallCompleteActionConsole.bd93643ba2ed.message=\n\nFLEXNet $FLEXlmVERSION$が
 InstallCompleteActionConsole.bd93643ba2ed.title=インストール完了
 
 # InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ $WINDOWS_TYPE$のインストールは終了しましたが、インストール中に警告またはエラーが発生しました。\n\n詳細は$USER_INSTALL_LOG_LOCATION$を確認してください。\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。\n\nCAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$$WINDOWS_TYPE$のインストールは終了しましたが、インストール中に警告またはエラーが発生しました。\n\n詳細は$USER_INSTALL_LOG_LOCATION$を確認してください。\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。\n\nCAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=インストール失敗
@@ -1115,7 +1115,7 @@ InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
+InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -1139,7 +1139,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -1163,7 +1163,7 @@ InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -1250,7 +1250,7 @@ InstallSet.850018f38466.description=STAR-CCM+パッケージをインストー�
 InstallSet.850018f38466.imageName=typical.png
 
 # InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
-InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # InstallSet.850018f38466.installSetName=Product
 InstallSet.850018f38466.installSetName=標準
@@ -1316,13 +1316,13 @@ IntroActionConsole.c7dc1e698d4b.message=次の製品をアンインストール�
 IntroActionConsole.c7dc1e698d4b.title=FLEXNetをアンインストール
 
 # IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dee180948f.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+IntroActionConsole.c7dee180948f.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
 
 # IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7dee180948f.title=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
 
 # IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+IntroActionConsole.c7e016579491.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$$WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
 
 # IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
@@ -1667,7 +1667,7 @@ ProductDialog.Title=STAR-CADコンポーネントを選択
 ProductDialog.Title1=STAR-CCM+コンポーネントを選択
 
 # PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.066c0750bc6e.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$ MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+PromptUserConsole.066c0750bc6e.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
 
 # PromptUserConsole.066c0750bc6e.option0Label=OK
 PromptUserConsole.066c0750bc6e.option0Label=OK
@@ -1682,7 +1682,7 @@ PromptUserConsole.066c0750bc6e.option2Label=詳細...
 PromptUserConsole.066c0750bc6e.title=警告
 
 # PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.2d6f494abb0c.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $required_Dspace$ ですが、\n$ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+PromptUserConsole.2d6f494abb0c.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $required_Dspace$ですが、\n$ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
 
 # PromptUserConsole.2d6f494abb0c.option0Label=Continue
 PromptUserConsole.2d6f494abb0c.option0Label=続行
@@ -1709,7 +1709,7 @@ ShowDialogAction.064a5d7084f3.detailsButtonLabel=詳細...
 ShowDialogAction.064a5d7084f3.label=ディスクの空き容量が不足しています
 
 # ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.064a5d7084f3.narrative=ディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$ MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+ShowDialogAction.064a5d7084f3.narrative=ディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
 
 # ShowDialogAction.064a5d7084f3.title=Warning
 ShowDialogAction.064a5d7084f3.title=警告
@@ -1781,82 +1781,82 @@ ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=キャンセル
 ShowDialogAction.2d6e902bbb0c.label=ディスクの空き容量が不足しています
 
 # ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.2d6e902bbb0c.narrative=ディスクの空き容量が不足しています。必要な容量は $required_Dspace$ ですが、\n $ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+ShowDialogAction.2d6e902bbb0c.narrative=ディスクの空き容量が不足しています。必要な容量は $required_Dspace$ですが、\n $ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
 
 # ShowDialogAction.2d6e902bbb0c.title=Warning
 ShowDialogAction.2d6e902bbb0c.title=警告
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
-ShowDialogAction.386900b8be43.buttonLabel=
+ShowDialogAction.386900b8be43.buttonLabel=OK
 
 # ShowDialogAction.386900b8be43.cancelButtonLabel=Cancel
-ShowDialogAction.386900b8be43.cancelButtonLabel=
+ShowDialogAction.386900b8be43.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.386900b8be43.detailsButtonLabel=Details...
-ShowDialogAction.386900b8be43.detailsButtonLabel=
+ShowDialogAction.386900b8be43.detailsButtonLabel=詳細...
 
 # ShowDialogAction.386900b8be43.label=Outdated license server detected on this machine
-ShowDialogAction.386900b8be43.label=
+ShowDialogAction.386900b8be43.label=このマシンに古いライセンスサーバーが検出されました
 
 # ShowDialogAction.386900b8be43.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-ShowDialogAction.386900b8be43.narrative=
+ShowDialogAction.386900b8be43.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\nソフトウェアを実行するには、ライセンスサーバーの更新が必要です。
 
 # ShowDialogAction.386900b8be43.title=Warning: License server
-ShowDialogAction.386900b8be43.title=
+ShowDialogAction.386900b8be43.title=警告: ライセンスサーバー
 
 # ShowDialogAction.38795ea3be4b.buttonLabel=Upgrade
-ShowDialogAction.38795ea3be4b.buttonLabel=
+ShowDialogAction.38795ea3be4b.buttonLabel=アップグレード
 
 # ShowDialogAction.38795ea3be4b.cancelButtonLabel=Keep
-ShowDialogAction.38795ea3be4b.cancelButtonLabel=
+ShowDialogAction.38795ea3be4b.cancelButtonLabel=維持
 
 # ShowDialogAction.38795ea3be4b.detailsButtonLabel=Details...
-ShowDialogAction.38795ea3be4b.detailsButtonLabel=
+ShowDialogAction.38795ea3be4b.detailsButtonLabel=詳細...
 
 # ShowDialogAction.38795ea3be4b.label=Outdated license server detected on this machine
-ShowDialogAction.38795ea3be4b.label=
+ShowDialogAction.38795ea3be4b.label=このマシンに古いライセンスサーバーが検出されました
 
 # ShowDialogAction.38795ea3be4b.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.38795ea3be4b.narrative=
+ShowDialogAction.38795ea3be4b.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n[維持]を選択すると、既存のライセンスサーバーが維持され、[アップグレード]を選択するとインストーラがライセンスサーバーサービスを更新します。\n\n[維持]を選択した場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.38795ea3be4b.title=Warning: License server
-ShowDialogAction.38795ea3be4b.title=
+ShowDialogAction.38795ea3be4b.title=警告: ライセンスサーバー
 
 # ShowDialogAction.38a209debe57.buttonLabel=OK
-ShowDialogAction.38a209debe57.buttonLabel=
+ShowDialogAction.38a209debe57.buttonLabel=OK
 
 # ShowDialogAction.38a209debe57.cancelButtonLabel=
 ShowDialogAction.38a209debe57.cancelButtonLabel=
 
 # ShowDialogAction.38a209debe57.detailsButtonLabel=Details...
-ShowDialogAction.38a209debe57.detailsButtonLabel=
+ShowDialogAction.38a209debe57.detailsButtonLabel=詳細...
 
 # ShowDialogAction.38a209debe57.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.38a209debe57.label=
+ShowDialogAction.38a209debe57.label=lmadminに基づく古いライセンスサーバーがこのマシンに検出されました
 
 # ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.38a209debe57.narrative=
+ShowDialogAction.38a209debe57.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n現在のライセンスサーバーはlmadminのようです。このインストーラはlmadmin構成を自動的にアップグレードできません。ライセンスサーバーを停止して、サービスを削除してから続行してください。\n\nライセンスサーバーの実行を続ける場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.38a209debe57.title=Warning: License server
-ShowDialogAction.38a209debe57.title=
+ShowDialogAction.38a209debe57.title=警告: ライセンスサーバー
 
 # ShowDialogAction.3a2299d587bc.buttonLabel=OK
-ShowDialogAction.3a2299d587bc.buttonLabel=
+ShowDialogAction.3a2299d587bc.buttonLabel=OK
 
 # ShowDialogAction.3a2299d587bc.cancelButtonLabel=Cancel
-ShowDialogAction.3a2299d587bc.cancelButtonLabel=
+ShowDialogAction.3a2299d587bc.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.3a2299d587bc.detailsButtonLabel=Details...
-ShowDialogAction.3a2299d587bc.detailsButtonLabel=
+ShowDialogAction.3a2299d587bc.detailsButtonLabel=詳細...
 
 # ShowDialogAction.3a2299d587bc.label=License server upgrade failed
-ShowDialogAction.3a2299d587bc.label=
+ShowDialogAction.3a2299d587bc.label=ライセンスサーバーのアップグレードに失敗しました
 
 # ShowDialogAction.3a2299d587bc.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
-ShowDialogAction.3a2299d587bc.narrative=
+ShowDialogAction.3a2299d587bc.narrative=インストーラがライセンスサーバーサービスをアップグレードできませんでした。以前のライセンスサーバーサービスが復元されています。手動でアップグレードしてください。
 
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
-ShowDialogAction.3a2299d587bc.title=
+ShowDialogAction.3a2299d587bc.title=警告: ライセンスサーバー
 
 # ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
 ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
@@ -2183,22 +2183,22 @@ ShowDialogAction.935897e9965b.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_F
 ShowDialogAction.935897e9965b.title=エラー
 
 # ShowDialogAction.93e20f13bdfc.buttonLabel=Next
-ShowDialogAction.93e20f13bdfc.buttonLabel=
+ShowDialogAction.93e20f13bdfc.buttonLabel=次へ
 
 # ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
-ShowDialogAction.93e20f13bdfc.cancelButtonLabel=
+ShowDialogAction.93e20f13bdfc.cancelButtonLabel=戻る
 
 # ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
-ShowDialogAction.93e20f13bdfc.detailsButtonLabel=
+ShowDialogAction.93e20f13bdfc.detailsButtonLabel=詳細...
 
 # ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
-ShowDialogAction.93e20f13bdfc.label=
+ShowDialogAction.93e20f13bdfc.label=インストーラが、指定されたライセンスサーバーの問題を検出しました。
 
 # ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 
 # ShowDialogAction.93e20f13bdfc.title=License server problem
-ShowDialogAction.93e20f13bdfc.title=
+ShowDialogAction.93e20f13bdfc.title=ライセンスサーバーの問題
 
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=OK
@@ -2447,13 +2447,13 @@ UninstallIntroAction.13b8c9d9a9bf.message=次の製品をアンインストー�
 UninstallIntroAction.13b8c9d9a9bf.stepTitle=FLEXNetをアンインストール
 
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.31662af6a601.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+UninstallIntroAction.31662af6a601.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
 
 # UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 UninstallIntroAction.31662af6a601.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
 
 # UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.850018f38454.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+UninstallIntroAction.850018f38454.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$$WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 UninstallIntroAction.850018f38454.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
