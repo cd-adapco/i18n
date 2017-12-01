@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -44,70 +44,70 @@ Billboard.850018f38468.imageName=billboard_default.png
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.257d8095925b.additionalText=CD-adapcoから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、STAR-CCM+のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
+ChooseFile.257d8095925b.additionalText=이메일을 통해 이전에 Siemens PLM Software에서 받은 라이선스 파일의 위치를 찾아 컴퓨터로 다운로드하십시오. 라이선스 파일을 찾았으면 파일을 강조표시하고 쿼리 상자에서 \"열기\"를 클릭하십시오. 아직 라이선스 파일을 받지 못했거나 Power on Demand 사용자가 있는 경우 \"다음\"을 클릭하여 이 설치 프로세스를 계속할 수 있지만 이 설치 도구를 다시 실행해야 완전한 STAR-CCM+ 설치를 마무리할 수 있습니다.
 
 # ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$NEW_LIC_FILE$
 
 # ChooseFile.257d8095925b.prompt=Please choose location of the license &File:
-ChooseFile.257d8095925b.prompt=ライセンスファイルの場所を選択してください(&F):
+ChooseFile.257d8095925b.prompt=라이선스 파일(&F)의 위치를 선택하십시오.
 
 # ChooseFile.257d8095925b.stepTitle=Select license file
-ChooseFile.257d8095925b.stepTitle=ライセンスファイルを選択
+ChooseFile.257d8095925b.stepTitle=라이선스 파일 선택
 
 # ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
-ChooseFolder.20805f839cc0.additionalText=$PRODUCT_NAME$をインストールする場所を選択してください。
+ChooseFolder.20805f839cc0.additionalText=$PRODUCT_NAME$이(가) 설치된 위치를 찾으십시오.
 
 # ChooseFolder.20805f839cc0.defaultFile=
 ChooseFolder.20805f839cc0.defaultFile=
 
 # ChooseFolder.20805f839cc0.prompt=Please Locate STAR-CCM+ installation:
-ChooseFolder.20805f839cc0.prompt=STAR-CCM+のインストールフォルダを選択してください:
+ChooseFolder.20805f839cc0.prompt=STAR-CCM+ 설치 위치를 찾으십시오.
 
 # ChooseFolder.20805f839cc0.stepTitle=Locate STAR-CCM+ installation 
-ChooseFolder.20805f839cc0.stepTitle=STAR-CCM+のインストールフォルダを選択 
+ChooseFolder.20805f839cc0.stepTitle=STAR-CCM+ 설치 찾기 
 
 # ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
-ChooseFolder.26b422089f87.additionalText=現在インストールされているSTAR-CCM+のフォルダを選択します。この情報はSTAR-CAD Series構成ファイル(config.xml)を更新するのに使われます。\n\n続行するには［次へ］をクリックしてください。
+ChooseFolder.26b422089f87.additionalText=STAR-CCM+가 설치된 폴더를 선택하십시오. 이 정보는 STAR-CAD 시리즈 구성 파일(config.xml)을 업데이트하는 데 사용됩니다.\n\n계속하려면 다음을 클릭하십시오.
 
 # ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
 ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
 
 # ChooseFolder.26b422089f87.prompt=Please Choose a &Folder:
-ChooseFolder.26b422089f87.prompt=フォルダを選択してください(&F):
+ChooseFolder.26b422089f87.prompt=폴더(&F)를 선택하십시오.
 
 # ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ Installation Directory
-ChooseFolder.26b422089f87.stepTitle=STAR-CCM+のインストールディレクトリ
+ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ 설치 디렉터리
 
 # ChooseFolder.3051e252be4c.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
-ChooseFolder.3051e252be4c.additionalText=現在インストールされているSTAR-CCM+のフォルダを選択します。この情報はSTAR-CAD Series構成ファイル(config.xml)を更新するのに使われます。\n\n続行するには［次へ］をクリックしてください。
+ChooseFolder.3051e252be4c.additionalText=STAR-CCM+가 설치된 폴더를 선택하십시오. 이 정보는 STAR-CAD 시리즈 구성 파일(config.xml)을 업데이트하는 데 사용됩니다.\n\n계속하려면 다음을 클릭하십시오.
 
 # ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
 ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
 
 # ChooseFolder.3051e252be4c.prompt=Please Choose a &Folder:
-ChooseFolder.3051e252be4c.prompt=フォルダを選択してください(&F):
+ChooseFolder.3051e252be4c.prompt=폴더(&F)를 선택하십시오.
 
 # ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
-ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+のインストールディレクトリ
+ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ 설치 디렉터리
 
 # ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
-ChooseFolder.9d52df06814f.additionalText=$SVRoot$をインストールする場所を選択してください。
+ChooseFolder.9d52df06814f.additionalText=$SVRoot$이(가) 설치된 위치를 찾으십시오.
 
 # ChooseFolder.9d52df06814f.defaultFile=
 ChooseFolder.9d52df06814f.defaultFile=
 
 # ChooseFolder.9d52df06814f.prompt=Please Locate STAR-View+ installation:
-ChooseFolder.9d52df06814f.prompt=STAR-View+のインストールフォルダを選択してください:
+ChooseFolder.9d52df06814f.prompt=STAR-View+ 설치 위치를 찾으십시오.
 
 # ChooseFolder.9d52df06814f.stepTitle=Locate STAR-View+ installation 
-ChooseFolder.9d52df06814f.stepTitle=STAR-View+のインストール先を選択 
+ChooseFolder.9d52df06814f.stepTitle=STAR-View+ 설치 찾기 
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
+CreateDialog.29fccfaca483.prompt=지금 $SERVICE_NAME$ License Server Manager를 중지하고 제거하시겠습니까?
 
 # CreateDialog.29fccfaca483.title=Stop the Server
-CreateDialog.29fccfaca483.title=サーバーを停止
+CreateDialog.29fccfaca483.title=서버 중지
 
 # CreateShortcut.2dca96238e95.args=
 CreateShortcut.2dca96238e95.args=
@@ -158,7 +158,7 @@ CreateShortcut.52790dd5b2ad.workingDir=
 CreateShortcut.99bc43ee8cd9.args=$USER_INSTALL_DIR$$/$doc$/$ja$/$ReleaseNotes_$PACKAGE_VERSION$.html
 
 # CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
-CreateShortcut.99bc43ee8cd9.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
+CreateShortcut.99bc43ee8cd9.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.99bc43ee8cd9.workingDir=
 CreateShortcut.99bc43ee8cd9.workingDir=
@@ -167,7 +167,7 @@ CreateShortcut.99bc43ee8cd9.workingDir=
 CreateShortcut.9d61b24aac76.args=$USER_INSTALL_DIR$$/$doc$/$zh$/$ReleaseNotes_$PACKAGE_VERSION$.html
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
-CreateShortcut.9d61b24aac76.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
@@ -176,7 +176,7 @@ CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d83036eb16c.args=$USER_INSTALL_DIR$$/$doc$/$en$/$ReleaseNotes_$PACKAGE_VERSION$.html
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
-CreateShortcut.9d83036eb16c.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.9d83036eb16c.workingDir=
@@ -185,7 +185,7 @@ CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.c046908089a4.args=
 
 # CreateShortcut.c046908089a4.destinationName=FLEXnet License Administration Tools
-CreateShortcut.c046908089a4.destinationName=FLEXnetライセンス管理ツール
+CreateShortcut.c046908089a4.destinationName=FLEXnet 라이선스 관리 도구
 
 # CreateShortcut.c046908089a4.workingDir=
 CreateShortcut.c046908089a4.workingDir=
@@ -212,7 +212,7 @@ CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cce9256a9c03.args=
 
 # CreateShortcut.cce9256a9c03.destinationName=FLEXnet License Administration Guide
-CreateShortcut.cce9256a9c03.destinationName=FLEXnetライセンス管理ガイド
+CreateShortcut.cce9256a9c03.destinationName=FLEXnet 라이선스 관리 가이드
 
 # CreateShortcut.cce9256a9c03.workingDir=
 CreateShortcut.cce9256a9c03.workingDir=
@@ -221,7 +221,7 @@ CreateShortcut.cce9256a9c03.workingDir=
 CreateShortcut.cd1330779add.args=
 
 # CreateShortcut.cd1330779add.destinationName=FLEXnet License Administration Tools
-CreateShortcut.cd1330779add.destinationName=FLEXnetライセンス管理ツール
+CreateShortcut.cd1330779add.destinationName=FLEXnet 라이선스 관리 도구
 
 # CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cd1330779add.workingDir=
@@ -272,10 +272,10 @@ CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Wi
 CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+DisplayMessage.731d4085b4cc.message=축하합니다.\n\n$INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 바탕 화면에 STAR-CCM+® 소프트웨어를 시작하는 데 사용할 수 있는 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
-DisplayMessage.731d4085b4cc.stepTitle=インストール完了
+DisplayMessage.731d4085b4cc.stepTitle=설치 완료
 
 # EditEnvironment.3dce195db5da.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.3dce195db5da.value=$cdadapco_LICENSE_FILE$
@@ -290,7 +290,7 @@ EditEnvironment.49b821459c9a.value=$cdadapco_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$cdadapco_LICENSE_FILE$
 
 # EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.5438312691c0.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.5438312691c0.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EditEnvironment.79445504bf41.value=disable
 EditEnvironment.79445504bf41.value=disable
@@ -332,10 +332,10 @@ EditEnvironment.cfb5511cb414.value=$USER_INSTALL_DIR$\\star\\bin
 EditEnvironment.cfb71a60b55c.value=$USER_INSTALL_DIR$\\star\\bin
 
 # EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
-EditEnvironment.d80266fa8281.value=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
+EditEnvironment.d80266fa8281.value= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows
 
 # EntryAtomBiDi.66117b82a1fc.label=Stop server now
-EntryAtomBiDi.66117b82a1fc.label=サーバーを今すぐ停止する
+EntryAtomBiDi.66117b82a1fc.label=지금 서버 중지
 
 # Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B22$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B22$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -344,13 +344,13 @@ Exec.0b70b0fab1e6.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.0b735fdfba92.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B22$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
-Exec.3cae6520be5f.commandLineArgs=
+Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
-Exec.545df2008320.dialogLabel=リモートからの起動サービスをアンインストールしています...
+Exec.545df2008320.dialogLabel=원격 실행 서비스 제거 중...
 
 # Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -377,244 +377,244 @@ Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # ExecuteScript.06591fce9298.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.06591fce9298.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$をインストールしています... しばらくお待ちください
+ExecuteScript.06591fce9298.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$ 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.0940ccbdab96.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.0940ccbdab96.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$をインストールしています... しばらくお待ちください
+ExecuteScript.0940ccbdab96.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$ 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.1d1bac78a9ab.dialogLabel=Installing release notes..Please wait a moment
-ExecuteScript.1d1bac78a9ab.dialogLabel=リリースノートをインストールしています... しばらくお待ちください
+ExecuteScript.1d1bac78a9ab.dialogLabel=릴리스 노트 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.1d24196b94d1.dialogLabel=Installing release notes..Please wait a moment
-ExecuteScript.1d24196b94d1.dialogLabel=リリースノートをインストールしています... しばらくお待ちください
+ExecuteScript.1d24196b94d1.dialogLabel=릴리스 노트 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.3c94df4cb29e.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.3c94df4cb29e.dialogLabel=STAR-NXをインストールしています... しばらくお待ちください
+ExecuteScript.3c94df4cb29e.dialogLabel=STAR-NX 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.49b821369c5f.dialogLabel=Validating License Servers...
-ExecuteScript.49b821369c5f.dialogLabel=ライセンスサーバーを検証しています...
+ExecuteScript.49b821369c5f.dialogLabel=라이선스 서버 확인 중...
 
 # ExecuteScript.49b821379c56.dialogLabel=Validating License Servers...
-ExecuteScript.49b821379c56.dialogLabel=ライセンスサーバーを検証しています...
+ExecuteScript.49b821379c56.dialogLabel=라이선스 서버 확인 중...
 
 # ExecuteScript.49b821459c67.dialogLabel=Validating License Servers...
-ExecuteScript.49b821459c67.dialogLabel=ライセンスサーバーを検証しています...
+ExecuteScript.49b821459c67.dialogLabel=라이선스 서버 확인 중...
 
 # ExecuteScript.4ec4ab2091a5.dialogLabel=Installing Java JDK...Please wait
-ExecuteScript.4ec4ab2091a5.dialogLabel=Java JDKのインストール中...しばらくお待ちください
+ExecuteScript.4ec4ab2091a5.dialogLabel=Java JDK 설치 중...기다려 주십시오.
 
 # ExecuteScript.89f929a3a979.dialogLabel=Installing documentation..Please wait a moment
-ExecuteScript.89f929a3a979.dialogLabel=ドキュメンテーションをインストールしています... しばらくお待ちください
+ExecuteScript.89f929a3a979.dialogLabel=문서 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.b417717d964e.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.b417717d964e.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$をインストールしています... しばらくお待ちください
+ExecuteScript.b417717d964e.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$ 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.c4f3cab68719.dialogLabel=Installing $SVRoot$ ..Please wait a moment
-ExecuteScript.c4f3cab68719.dialogLabel=$SVRoot$をインストールしています... しばらくお待ちください
+ExecuteScript.c4f3cab68719.dialogLabel=$SVRoot$ 설치 중 ..잠시 기다려 주십시오.
 
 # ExecuteScript.c4f3cab6871a.dialogLabel=Installing $SVRoot$ ..Please wait a moment
-ExecuteScript.c4f3cab6871a.dialogLabel=$SVRoot$をインストールしています... しばらくお待ちください
+ExecuteScript.c4f3cab6871a.dialogLabel=$SVRoot$ 설치 중 ..잠시 기다려 주십시오.
 
 # ExecuteScript.c586b070be28.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.c586b070be28.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
+ExecuteScript.c586b070be28.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.c5a51be5b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.c5a51be5b1e2.dialogLabel=STAR-NXをインストールしています... しばらくお待ちください
+ExecuteScript.c5a51be5b1e2.dialogLabel=STAR-NX 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.c5b1aaf6ae34.dialogLabel=Installing STAR-PROE ..Please wait a moment
-ExecuteScript.c5b1aaf6ae34.dialogLabel=STAR-PROEをインストールしています... しばらくお待ちください
+ExecuteScript.c5b1aaf6ae34.dialogLabel=STAR-PROE 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.c5b8425c90b0.dialogLabel=Installing STAR-CREO ..Please wait a moment
-ExecuteScript.c5b8425c90b0.dialogLabel=STAR-CREOをインストールしています... しばらくお待ちください
+ExecuteScript.c5b8425c90b0.dialogLabel=STAR-CREO 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.c5cd9d13b825.dialogLabel=Installing STAR-INVENTOR ..Please wait a moment
-ExecuteScript.c5cd9d13b825.dialogLabel=STAR-INVENTORをインストールしています... しばらくお待ちください
+ExecuteScript.c5cd9d13b825.dialogLabel=STAR-INVENTOR 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.cedf361bade9.dialogLabel=Installing STAR-NX ..Please wait a moment
-ExecuteScript.cedf361bade9.dialogLabel=STAR-NXをインストールしています... しばらくお待ちください
+ExecuteScript.cedf361bade9.dialogLabel=STAR-NX 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.d5000815a40a.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.d5000815a40a.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
+ExecuteScript.d5000815a40a.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.db61093cadce.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.db61093cadce.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
+ExecuteScript.db61093cadce.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.ed0b047db27c.dialogLabel=Installing documentation..Please wait a moment
-ExecuteScript.ed0b047db27c.dialogLabel=ドキュメンテーションをインストールしています... しばらくお待ちください
+ExecuteScript.ed0b047db27c.dialogLabel=문서 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.ed0b047fb27c.dialogLabel=Installing release notes..Please wait a moment
-ExecuteScript.ed0b047fb27c.dialogLabel=リリースノートをインストールしています... しばらくお待ちください
+ExecuteScript.ed0b047fb27c.dialogLabel=릴리스 노트 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.faccc1009d21.dialogLabel=Installing documentation..Please wait a moment
-ExecuteScript.faccc1009d21.dialogLabel=ドキュメンテーションをインストールしています... しばらくお待ちください
+ExecuteScript.faccc1009d21.dialogLabel=문서 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.fdb96d13acca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.fdb96d13acca.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
+ExecuteScript.fdb96d13acca.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.fdb98cefacca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.fdb98cefacca.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
+ExecuteScript.fdb98cefacca.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integration now?
-GetUserInput.07fbb89ebccd.prompt=STAR-NX Integrationを今すぐアンインストールしますか?
+GetUserInput.07fbb89ebccd.prompt=지금 STAR-NX 통합을 제거하시겠습니까?
 
 # GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
-GetUserInput.07fbb89ebccd.title=STAR-NX Integrationのアンインストール
+GetUserInput.07fbb89ebccd.title=STAR-NX 통합 제거
 
 # GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.09531f37b189.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.09531f37b189.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.09531f37b189.title=Select Additional Tasks
-GetUserInput.09531f37b189.title=追加タスクの選択
+GetUserInput.09531f37b189.title=추가 작업 선택
 
 # GetUserInput.0ac91ffdbe25.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.0ac91ffdbe25.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.0ac91ffdbe25.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
-GetUserInput.0ac91ffdbe25.title=追加タスクの選択
+GetUserInput.0ac91ffdbe25.title=추가 작업 선택
 
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
-GetUserInput.115461c2a278.prompt=ライセンスサーバーソフトウェアにアクセスするには、コンピュータの通信チャンネル（ポート）を割り当てる必要があります。Webインターフェースからライセンスマネージャーにアクセスするためのデフォルトのポート番号は8080で、FLEXNetライセンスサーバーの（CD-adapcoのアプリケーションが通信に使う）デフォルトのポート番号は1999です。ボックスにはこれらの値が既に挿入されていますが、ご使用のコンピュータの設定に応じて、他の番号に変更することができます。
+GetUserInput.115461c2a278.prompt=라이선스 서버 소프트웨어에 액세스하려면 통신 채널 또는 포트를 컴퓨터에서 사용할 수 있어야 합니다. FLEXNet 라이선스 서버의 기본 포트 번호는 1999입니다. 이러한 기본값은 아래에 나열되어 있지만 필요한 경우 컴퓨터 설정을 반영하기 위해 다른 포트 번호로 변경할 수 있습니다.
 
 # GetUserInput.115461c2a278.title=FlexNet License Server Configuration
-GetUserInput.115461c2a278.title=FlexNetライセンスサーバー構成
+GetUserInput.115461c2a278.title=FlexNet 라이선스 서버 구성
 
 # GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
-GetUserInput.154a0b5aaa67.prompt=ライセンスマネージャーサービスの設定を行います。\n\nこのサービスには名前を付ける必要があり、下のテキスト\nボックスには既にデフォルト名が表示されています。\n\nこの名前のサービスが既に存在する場合は、適切な名前に\n変更してください。\n
+GetUserInput.154a0b5aaa67.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되어 있습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열되어 있습니다.\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
-GetUserInput.154a0b5aaa67.title=サービス構成 
+GetUserInput.154a0b5aaa67.title=서비스 구성 
 
 # GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.21099aa9bdbd.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.21099aa9bdbd.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
-GetUserInput.21099aa9bdbd.title=追加タスクの選択
+GetUserInput.21099aa9bdbd.title=추가 작업 선택
 
 # GetUserInput.3049b3d7bcfe.prompt=Enter the version number of STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
-GetUserInput.3049b3d7bcfe.prompt=インストールされているStar-CCM+のバージョン番号を入力してください。\nこの情報は、次のパネルでインストールディレクトリの候補に使われます。\n\n続行するには[次へ]をクリックしてください。
+GetUserInput.3049b3d7bcfe.prompt=설치된 STAR-CCM+의 버전 번호를 입력하십시오.\n이 정보는 다음 패널에 설치 디렉터리를 제안하는 데 사용됩니다.\n\n계속하려면 다음을 클릭하십시오.
 
 # GetUserInput.3049b3d7bcfe.title=STAR-CCM+ Installation Version
-GetUserInput.3049b3d7bcfe.title=STAR-CCM+のインストールバージョン
+GetUserInput.3049b3d7bcfe.title=STAR-CCM+ 설치 버전
 
 # GetUserInput.3080440abdb8.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CAD Series, then click Next.
-GetUserInput.3080440abdb8.prompt=STAR-CAD Seriesのインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.3080440abdb8.prompt=STAR-CAD 시리즈를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.3080440abdb8.title=Select Additional Tasks
-GetUserInput.3080440abdb8.title=追加タスクの選択
+GetUserInput.3080440abdb8.title=추가 작업 선택
 
 # GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=CD-adapco FLEXNetライセンスサーバーのTCP/IPポートとホスト名を、port@host形式で入力してください。\n「port」はライセンスマネージャーのTCP/IPポート、「host」はライセンスサーバーのホスト名です。通常はライセンスサーバーを1つだけ使用しますが、サーバー3台による冗長構成の場合は、オプションのフィールドにも入力してください。\n
+GetUserInput.3642fdbebce8.prompt=다음 형식을 사용하여 FLEXNet 라이선스 서버의 TCP/IP 포트와 호스트 이름을 입력하십시오. \"port@host\".\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 3대의 컴퓨터 중복 라이선스 서버를 설치하려면 적절한 선택을 하십시오.
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
-GetUserInput.3642fdbebce8.title=FlexNetクライアント構成 
+GetUserInput.3642fdbebce8.title=FlexNet 클라이언트 구성 
 
 # GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.3cd99868ae86.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.3cd99868ae86.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
-GetUserInput.3cd99868ae86.title=追加タスクの選択
+GetUserInput.3cd99868ae86.title=추가 작업 선택
 
 # GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
-GetUserInput.4202184d8cb4.prompt=FLEXlmライセンスマネージャーを今すぐアンインストールしますか?
+GetUserInput.4202184d8cb4.prompt=지금 FLEXlm 라이선스 관리자를 제거하시겠습니까?
 
 # GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
-GetUserInput.4202184d8cb4.title=FLEXライセンスマネージャーをアンインストール
+GetUserInput.4202184d8cb4.title=FLEX 라이선스 관리자 제거
 
 # GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
-GetUserInput.4eb74413ba93.prompt=STAR-View+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.4eb74413ba93.prompt=STAR-View+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
-GetUserInput.4eb74413ba93.title=追加タスクの選択
+GetUserInput.4eb74413ba93.title=추가 작업 선택
 
 # GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.5f8d10b48f40.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.5f8d10b48f40.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
-GetUserInput.5f8d10b48f40.title=追加タスクの選択
+GetUserInput.5f8d10b48f40.title=추가 작업 선택
 
 # GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
-GetUserInput.61df1e08b39a.prompt=
+GetUserInput.61df1e08b39a.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되었습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 다른 것으로 변경하려면 제공된 이름을 수정하십시오.\n\n
 
 # GetUserInput.61df1e08b39a.title=Service Configuration 
-GetUserInput.61df1e08b39a.title=
+GetUserInput.61df1e08b39a.title=서비스 구성 
 
 # GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.8209d5e08fc6.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.8209d5e08fc6.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
-GetUserInput.8209d5e08fc6.title=追加タスクの選択
+GetUserInput.8209d5e08fc6.title=추가 작업 선택
 
 # GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
-GetUserInput.a53ed862b666.prompt=CD adapcoは、弊社のPoDサーバーまたは\nローカルライセンスサーバーによるライセンシングを提供しています。\n \nご使用になるライセンス方法を選択してください。
+GetUserInput.a53ed862b666.prompt=CD-adapco는 Power on Demand 서버 또는 로컬 라이선스 서버를 통해 \n라이선스를 제공합니다. \n\n사용하고자 하는 라이선스 방법을 선택하십시오.
 
 # GetUserInput.a53ed862b666.title=Choose License Type
-GetUserInput.a53ed862b666.title=ライセンスタイプの選択
+GetUserInput.a53ed862b666.title=라이선스 유형 선택
 
 # GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.c58f4202a8ce.prompt=STAR-CCM+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.c58f4202a8ce.prompt=STAR-CCM+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
-GetUserInput.c58f4202a8ce.title=追加タスクの選択
+GetUserInput.c58f4202a8ce.title=추가 작업 선택
 
 # GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:\n\n
-GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。\n\n使用するライセンシング方法を選択してください。\n
+GetUserInput.e821a5059d90.prompt=CD-adapco 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$을(를) 사용하여 제품의 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어가 로컬(이 컴퓨터) 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다. 필요한 경우 Power on Demand 서버를 라이선스 서버로 구성할 수도 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.\n\n
 
 # GetUserInput.e821a5059d90.title=Choose License Type
-GetUserInput.e821a5059d90.title=ライセンスタイプの選択
+GetUserInput.e821a5059d90.title=라이선스 유형 선택
 
 # GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing STAR-View+, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=STAR-View+のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.fbd51d65bcc1.prompt=STAR-View+를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
-GetUserInput.fbd51d65bcc1.title=追加タスクの選択
+GetUserInput.fbd51d65bcc1.title=추가 작업 선택
 
 # GUIComponentData.07ff15fd855d.defaultValue=Selected
 GUIComponentData.07ff15fd855d.defaultValue=Selected
 
 # GUIComponentData.07ff15fd855d.label=Yes
-GUIComponentData.07ff15fd855d.label=はい
+GUIComponentData.07ff15fd855d.label=예
 
 # GUIComponentData.07ff15fe855d.defaultValue=Not Selected
 GUIComponentData.07ff15fe855d.defaultValue=Not Selected
 
 # GUIComponentData.07ff15fe855d.label=No
-GUIComponentData.07ff15fe855d.label=いいえ
+GUIComponentData.07ff15fe855d.label=아니요
 
 # GUIComponentData.09531f37b18e.defaultValue=Selected
 GUIComponentData.09531f37b18e.defaultValue=Selected
 
 # GUIComponentData.09531f37b18e.label=Share install directory
-GUIComponentData.09531f37b18e.label=インストールディレクトリを共有する
+GUIComponentData.09531f37b18e.label=설치 디렉터리 공유
 
 # GUIComponentData.09531f37b18f.defaultValue=Selected
 GUIComponentData.09531f37b18f.defaultValue=Selected
 
 # GUIComponentData.09531f37b18f.label=Create a desktop icon
-GUIComponentData.09531f37b18f.label=デスクトップ上にアイコンを作成する
+GUIComponentData.09531f37b18f.label=데스크탑 아이콘 생성
 
 # GUIComponentData.09531f38b18d.defaultValue=Selected
 GUIComponentData.09531f38b18d.defaultValue=Selected
 
 # GUIComponentData.09531f38b18d.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.09531f38b18d.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+GUIComponentData.09531f38b18d.label=STAR-CCM+ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.09531f47b18f.defaultValue=Not Selected
 GUIComponentData.09531f47b18f.defaultValue=Not Selected
 
 # GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
-GUIComponentData.09531f47b18f.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.09531f47b18f.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
 GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
 
 # GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
-GUIComponentData.0ac91ffdbe29.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.0ac91ffdbe29.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
 GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
 
 # GUIComponentData.0ac91ffebe28.label=Create a desktop icon
-GUIComponentData.0ac91ffebe28.label=デスクトップ上にアイコンを作成する
+GUIComponentData.0ac91ffebe28.label=데스크탑 아이콘 생성
 
 # GUIComponentData.115643e1a39b.defaultValue=
 GUIComponentData.115643e1a39b.defaultValue=
@@ -626,31 +626,31 @@ GUIComponentData.115643e1a39b.label=
 GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
 
 # GUIComponentData.11571cbda39b.label=Enter the License port number:
-GUIComponentData.11571cbda39b.label=ライセンスポート番号を入力:
+GUIComponentData.11571cbda39b.label=라이선스 포트 번호 입력:
 
 # GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.154af406aa76.label=Enter the service name
-GUIComponentData.154af406aa76.label=サービス名を入力:
+GUIComponentData.154af406aa76.label=서비스 이름 입력
 
 # GUIComponentData.229a23b6be60.defaultValue=Not Selected
 GUIComponentData.229a23b6be60.defaultValue=Not Selected
 
 # GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
-GUIComponentData.229a23b6be60.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.229a23b6be60.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
-GUIComponentData.2d3e5e7fad37.defaultValue=
+GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
-GUIComponentData.2d3e5e7fad37.label=
+GUIComponentData.2d3e5e7fad37.label=3대의 컴퓨터 중복 라이선스 서버
 
 # GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 
 # GUIComponentData.304ac509bd0d.label=STAR-CCM+ version number :
-GUIComponentData.304ac509bd0d.label=STAR-CCM+バージョン番号 :
+GUIComponentData.304ac509bd0d.label=STAR-CCM+ 버전 번호:
 
 # GUIComponentData.3642fdbebce9.defaultValue=
 GUIComponentData.3642fdbebce9.defaultValue=
@@ -662,163 +662,163 @@ GUIComponentData.3642fdbebce9.label=
 GUIComponentData.3642fdbebcea.defaultValue=$DEF_SERVER1$
 
 # GUIComponentData.3642fdbebcea.label=License server 1 ( REQUIRED )
-GUIComponentData.3642fdbebcea.label=ライセンスサーバー1 (必須)
+GUIComponentData.3642fdbebcea.label=라이선스 서버 1(필요)
 
 # GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 GUIComponentData.3642fdbebceb.defaultValue=$DEF_SERVER2$
 
 # GUIComponentData.3642fdbebceb.label=License server 2
-GUIComponentData.3642fdbebceb.label=サーバー2
+GUIComponentData.3642fdbebceb.label=라이선스 서버 2
 
 # GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 GUIComponentData.3642fdbebcec.defaultValue=$DEF_SERVER3$
 
 # GUIComponentData.3642fdbebcec.label=License server 3
-GUIComponentData.3642fdbebcec.label=サーバー3
+GUIComponentData.3642fdbebcec.label=라이선스 서버 3
 
 # GUIComponentData.3cd99868ae8a.defaultValue=Selected
 GUIComponentData.3cd99868ae8a.defaultValue=Selected
 
 # GUIComponentData.3cd99868ae8a.label=Share install directory
-GUIComponentData.3cd99868ae8a.label=インストールディレクトリを共有する
+GUIComponentData.3cd99868ae8a.label=설치 디렉터리 공유
 
 # GUIComponentData.3cd99868ae8b.defaultValue=Selected
 GUIComponentData.3cd99868ae8b.defaultValue=Selected
 
 # GUIComponentData.3cd99868ae8b.label=Create a desktop icon
-GUIComponentData.3cd99868ae8b.label=デスクトップ上にアイコンを作成する
+GUIComponentData.3cd99868ae8b.label=데스크탑 아이콘 생성
 
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
 GUIComponentData.3cd99869ae89.defaultValue=Selected
 
 # GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.3cd99869ae89.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+GUIComponentData.3cd99869ae89.label=STAR-CCM+ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 
 # GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
-GUIComponentData.3cd99869ae8b.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.3cd99869ae8b.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.41b411f0b48d.defaultValue=Not Selected
-GUIComponentData.41b411f0b48d.defaultValue=
+GUIComponentData.41b411f0b48d.defaultValue=Not Selected
 
 # GUIComponentData.41b411f0b48d.label=POD:Configure this machine to access Power On Demand License Server
-GUIComponentData.41b411f0b48d.label=
+GUIComponentData.41b411f0b48d.label=POD : Power On Demand 라이선스 서버에 액세스하도록 이 시스템 구성
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
 
 # GUIComponentData.4206afd79796.label=Yes
-GUIComponentData.4206afd79796.label=はい
+GUIComponentData.4206afd79796.label=예
 
 # GUIComponentData.4206afe69796.defaultValue=Not Selected
 GUIComponentData.4206afe69796.defaultValue=Not Selected
 
 # GUIComponentData.4206afe69796.label=No
-GUIComponentData.4206afe69796.label=いいえ
+GUIComponentData.4206afe69796.label=아니요
 
 # GUIComponentData.4ebd89ffbaa5.defaultValue=Not Selected
 GUIComponentData.4ebd89ffbaa5.defaultValue=Not Selected
 
 # GUIComponentData.4ebd89ffbaa5.label=Add application directory to your system path
-GUIComponentData.4ebd89ffbaa5.label=システムパスにアプリケーションのディレクトリを追加する
+GUIComponentData.4ebd89ffbaa5.label=응용 프로그램 디렉터리를 시스템 경로에 추가
 
 # GUIComponentData.5a15d3d6a615.defaultValue=Selected
 GUIComponentData.5a15d3d6a615.defaultValue=Selected
 
 # GUIComponentData.5a15d3d6a615.label=Network:  Configure this machine to access a network license server
-GUIComponentData.5a15d3d6a615.label=ネットワーク: ライセンスサーバーにアクセスできるように構成する
+GUIComponentData.5a15d3d6a615.label=네트워크 : 네트워크 라이선스 서버에 액세스하도록 이 시스템 구성
 
 # GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 
 # GUIComponentData.5a15d3d7a615.label=Local: Install and configure FlexNET Publisher on this machine 
-GUIComponentData.5a15d3d7a615.label=ローカル: FlexNET Publisherをこのマシンにインストールして構成する 
+GUIComponentData.5a15d3d7a615.label=로컬 :이 컴퓨터에 FlexNET Publisher 설치 및 구성 
 
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
 # GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.5f8bc9ab8e25.label=STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+GUIComponentData.5f8bc9ab8e25.label=STAR-CCM+ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.61df1e09b39b.label=Enter the service name
-GUIComponentData.61df1e09b39b.label=
+GUIComponentData.61df1e09b39b.label=서비스 이름 입력
 
 # GUIComponentData.61df1e09b39c.defaultValue=Selected
-GUIComponentData.61df1e09b39c.defaultValue=
+GUIComponentData.61df1e09b39c.defaultValue=Selected
 
 # GUIComponentData.61df1e09b39c.label=Start license server now 
-GUIComponentData.61df1e09b39c.label=
+GUIComponentData.61df1e09b39c.label=지금 라이선스 서버 시작 
 
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
 GUIComponentData.65d07a0498ce.defaultValue=Selected
 
 # GUIComponentData.65d07a0498ce.label=Start license server now 
-GUIComponentData.65d07a0498ce.label=ライセンスサーバーを今すぐ開始する 
+GUIComponentData.65d07a0498ce.label=지금 라이선스 서버 시작 
 
 # GUIComponentData.675decc6b717.defaultValue=Not Selected
 GUIComponentData.675decc6b717.defaultValue=Not Selected
 
 # GUIComponentData.675decc6b717.label=Create a desktop icon for STAR-CAT5
-GUIComponentData.675decc6b717.label=デスクトップ上にSTAR-CAT5のアイコンを作成する
+GUIComponentData.675decc6b717.label=STAR-CAT5용 데스크탑 아이콘 생성
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
 GUIComponentData.79ae52d48b3f.defaultValue=Selected
 
 # GUIComponentData.79ae52d48b3f.label=Create a desktop icon
-GUIComponentData.79ae52d48b3f.label=デスクトップ上にアイコンを作成する
+GUIComponentData.79ae52d48b3f.label=데스크탑 아이콘 생성
 
 # GUIComponentData.79bdef348e8b.defaultValue=Selected
 GUIComponentData.79bdef348e8b.defaultValue=Selected
 
 # GUIComponentData.79bdef348e8b.label=Create a desktop icon
-GUIComponentData.79bdef348e8b.label=デスクトップ上にアイコンを作成する
+GUIComponentData.79bdef348e8b.label=데스크탑 아이콘 생성
 
 # GUIComponentData.8209d5e08fca.defaultValue=Not Selected
 GUIComponentData.8209d5e08fca.defaultValue=Not Selected
 
 # GUIComponentData.8209d5e08fca.label=Create shortcuts for current user only
-GUIComponentData.8209d5e08fca.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.8209d5e08fca.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
 GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
 
 # GUIComponentData.8209d5e18fc9.label=Create a desktop icon
-GUIComponentData.8209d5e18fc9.label=デスクトップ上にアイコンを作成する
+GUIComponentData.8209d5e18fc9.label=데스크탑 아이콘 생성
 
 # GUIComponentData.a541337987b0.defaultValue=Not Selected
 GUIComponentData.a541337987b0.defaultValue=Not Selected
 
 # GUIComponentData.a541337987b0.label=POD:  Configure this machine to access Power On Demand License Server
-GUIComponentData.a541337987b0.label=PoD: パワーオンデマンドライセンスサーバーにアクセスできるように構成する
+GUIComponentData.a541337987b0.label=POD: Power On Demand 라이선스 서버에 액세스하도록 이 시스템 구성
 
 # GUIComponentData.a542149287b0.defaultValue=Selected
 GUIComponentData.a542149287b0.defaultValue=Selected
 
 # GUIComponentData.a542149287b0.label=Local: Configure this machine to access local license server
-GUIComponentData.a542149287b0.label=ローカル: ローカルライセンスサーバーにアクセスできるように構成する
+GUIComponentData.a542149287b0.label=로컬: 로컬 라이선스 서버에 액세스하도록 이 시스템 구성
 
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
 GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
-GUIComponentData.c58f4202a8d3.label=システムパスにアプリケーションのディレクトリを追加する
+GUIComponentData.c58f4202a8d3.label=응용 프로그램 디렉터리를 시스템 경로에 추가
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 
 # GUIComponentData.fbd51d65bcc6.label=Create shortcuts for current user only
-GUIComponentData.fbd51d65bcc6.label=現在のユーザーのみショートカットを作成する
+GUIComponentData.fbd51d65bcc6.label=현재 사용자 전용 바로 가기 만들기
 
 # GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
 GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
 
 # GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
-GUIComponentData.fbd51d66bcc5.label=デスクトップ上にアイコンを作成する
+GUIComponentData.fbd51d66bcc5.label=데스크탑 아이콘 생성
 
 # GUIGroupData.07fbb89ebccf.caption=
 GUIGroupData.07fbb89ebccf.caption=
@@ -860,7 +860,7 @@ GUIGroupData.3642fdbfbce8.caption=
 GUIGroupData.3642fdbfbce9.caption=
 
 # GUIGroupData.3642fdbfbcea.caption=
-GUIGroupData.3642fdbfbcea.caption=冗長ライセンスサーバー(オプション)
+GUIGroupData.3642fdbfbcea.caption=
 
 # GUIGroupData.3642fdbfbceb.caption=
 GUIGroupData.3642fdbfbceb.caption=
@@ -902,124 +902,124 @@ GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.fbd51d66bcc4.caption=
 
 # InstallBundle.42b88820ae92.bundleName=Client
-InstallBundle.42b88820ae92.bundleName=クライアント
+InstallBundle.42b88820ae92.bundleName=클라이언트
 
 # InstallBundle.42b88820ae92.description=Setup minimum files required for client install
-InstallBundle.42b88820ae92.description=クライアントのインストールに必要な最小ファイルを設定します
+InstallBundle.42b88820ae92.description=클라이언트 설치에 필요한 최소 파일 설치
 
 # InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.bundleName=Star-CCM+
 
 # InstallBundle.850018f38467.description=This feature installs all files needed for running the STAR-CCM+ package.
-InstallBundle.850018f38467.description=STAR-CCM+パッケージの実行に必要なすべてのファイルをインストールします。
+InstallBundle.850018f38467.description=이 기능은 STAR-CCM+ 패키지 실행에 필요한 모든 파일을 설치합니다.
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.7317fed1a37e.message=축하합니다.\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
-InstallCompleteActionConsole.7317fed1a37e.title=インストール完了
+InstallCompleteActionConsole.7317fed1a37e.title=설치 완료
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of STAR-CCM+(R)$STARCCMPLUS_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd89f531898a.message=축하합니다.\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
-InstallCompleteActionConsole.bd89f531898a.title=インストール完了
+InstallCompleteActionConsole.bd89f531898a.title=설치 완료
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n
+InstallCompleteActionConsole.bd8dd38c946b.message=축하합니다.\n\nSTAR-CAD $CAD_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치가 성공적으로 완료되었습니다. 추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
-InstallCompleteActionConsole.bd8dd38c946b.title=インストール完了
+InstallCompleteActionConsole.bd8dd38c946b.title=설치 완료
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd8f22d0980e.message=축하합니다.\n\nSTAR-CAD $INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치가 성공적으로 완료되었습니다.\n\n$USER_INSTALL_DIR$\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
-InstallCompleteActionConsole.bd8f22d0980e.title=インストール完了
+InstallCompleteActionConsole.bd8f22d0980e.title=설치 완료
 
 # InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
-InstallCompleteActionConsole.bd93643ba2ed.message=\n\nFLEXNet $FLEXlmVERSION$が正常にインストールされました。\n\n\n
+InstallCompleteActionConsole.bd93643ba2ed.message=축하합니다.\n\nFLEXNet $FLEXlmVERSION$의 설치가 성공적으로 완료되었습니다.\n\n\n
 
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
-InstallCompleteActionConsole.bd93643ba2ed.title=インストール完了
+InstallCompleteActionConsole.bd93643ba2ed.title=설치 완료
 
 # InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ $WINDOWS_TYPE$のインストールは終了しましたが、インストール中に警告またはエラーが発生しました。\n\n詳細は$USER_INSTALL_LOG_LOCATION$を確認してください。\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。\n\nCAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.c7d43b9c899d.message=\n$PRODUCT_NAME$ 소프트웨어 $WINDOWS_TYPE$ 설치가 완료되었지만 설치 중에 경고 또는 오류가 발생했습니다.\n\n자세한 내용은 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.\n\n도움이 더 필요하면 현지 지원 사무소에 연락하십시오. \n\nSiemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
-InstallCompleteActionConsole.c7d43b9c899d.title=インストール失敗
+InstallCompleteActionConsole.c7d43b9c899d.title=설치 실패
 
 # InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.13229f38a108.additionalText=FLEXNet $FLEXlmVERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
+InstallDirAction.13229f38a108.additionalText=설치 프로그램이 FLEXNet $FLEXlmVERSION$을(를) 다음 폴더에 설치합니다.\n\n계속하려면 다음을 클릭하십시오. 다른 폴더를 선택하려면 선택을 클릭하십시오.
 
 # InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
-InstallDirAction.13229f38a108.prompt=FLEXNetをインストールする場所を選択してください。
+InstallDirAction.13229f38a108.prompt=FLEXNet을 어디에 설치하시겠습니까?
 
 # InstallDirAction.13229f38a108.stepTitle=Select Install Location
-InstallDirAction.13229f38a108.stepTitle=インストールフォルダを選択
+InstallDirAction.13229f38a108.stepTitle=설치 위치 선택
 
 # InstallDirAction.27fec67899f9.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.27fec67899f9.additionalText=$PRODUCT_NAME$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
+InstallDirAction.27fec67899f9.additionalText=설치 프로그램이 $PRODUCT_NAME$을(를) 다음 폴더에 설치합니다.\n\n계속하려면 다음을 클릭하십시오. 다른 폴더를 선택하려면 선택을 클릭하십시오.
 
 # InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $PRODUCT_NAME$?
-InstallDirAction.27fec67899f9.prompt=$PRODUCT_NAME$をインストールする場所を選択してください。
+InstallDirAction.27fec67899f9.prompt=$PRODUCT_NAME$을(를) 어디에 설치하시겠습니까?
 
 # InstallDirAction.27fec67899f9.stepTitle=Select Install Location
-InstallDirAction.27fec67899f9.stepTitle=インストールフォルダを選択
+InstallDirAction.27fec67899f9.stepTitle=설치 위치 선택
 
 # InstallDirAction.5030314b81d8.additionalText=Setup will install $PRODUCT_NAME$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.5030314b81d8.additionalText=$PRODUCT_NAME$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
+InstallDirAction.5030314b81d8.additionalText=설치 프로그램이 $PRODUCT_NAME$을(를) 다음 폴더에 설치합니다.\n\n계속하려면 다음을 클릭하십시오. 다른 폴더를 선택하려면 선택을 클릭하십시오.
 
 # InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $PRODUCT_NAME$?
-InstallDirAction.5030314b81d8.prompt=$PRODUCT_NAME$をインストールする場所を選択してください。
+InstallDirAction.5030314b81d8.prompt=$PRODUCT_NAME$을(를) 어디에 설치하시겠습니까?
 
 # InstallDirAction.5030314b81d8.stepTitle=Select Install Location
-InstallDirAction.5030314b81d8.stepTitle=インストールフォルダを選択
+InstallDirAction.5030314b81d8.stepTitle=설치 위치 선택
 
 # InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.850018e38429.additionalText=STAR-CAD $CAD_VERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
+InstallDirAction.850018e38429.additionalText=설치 프로그램이 STAR-CAD $CAD_VERSION$을(를) 다음 폴더에 설치합니다.\n\n계속하려면 다음을 클릭하십시오. 다른 폴더를 선택하려면 선택을 클릭하십시오.
 
 # InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
-InstallDirAction.850018e38429.prompt=STAR-CAD $CAD_VERSION$をインストールする場所を選択してください。
+InstallDirAction.850018e38429.prompt=STAR-CAD $CAD_VERSION$을(를) 어디에 설치하시겠습니까?
 
 # InstallDirAction.850018e38429.stepTitle=Select Install Location
-InstallDirAction.850018e38429.stepTitle=インストールフォルダを選択
+InstallDirAction.850018e38429.stepTitle=설치 위치 선택
 
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
 # InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $PRODUCT_NAME$?
-InstallDirActionConsole.b90620fd80f1.prompt=$PRODUCT_NAME$をインストールする場所を選択してください。
+InstallDirActionConsole.b90620fd80f1.prompt=$PRODUCT_NAME$을(를) 어디에 설치하시겠습니까?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Install Location
-InstallDirActionConsole.b90620fd80f1.stepTitle=インストールフォルダを選択
+InstallDirActionConsole.b90620fd80f1.stepTitle=설치 위치 선택
 
 # Installer.850018e38424.installLabels.00=Select Install Location
-Installer.850018e38424.installLabels.00=インストールフォルダを選択
+Installer.850018e38424.installLabels.00=설치 위치 선택
 
 # Installer.850018e38424.installLabels.01=Choose Install Method
-Installer.850018e38424.installLabels.01=インストール方法を選択
+Installer.850018e38424.installLabels.01=설치 방법 선택
 
 # Installer.850018e38424.installLabels.02=Installing...
-Installer.850018e38424.installLabels.02=インストール中...
+Installer.850018e38424.installLabels.02=설치 중...
 
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
-Installer.850018e38424.installLabels.04=プリインストールの要約
+Installer.850018e38424.installLabels.04=사전 설치 요약
 
 # Installer.850018e38424.installLabels.06=Install Complete
-Installer.850018e38424.installLabels.06=インストール完了
+Installer.850018e38424.installLabels.06=설치 완료
 
 # Installer.850018e38424.installLabels.07=Additional Tasks
-Installer.850018e38424.installLabels.07=追加タスク
+Installer.850018e38424.installLabels.07=추가 작업
 
 # Installer.850018e38424.installLabels.08=License Notice
-Installer.850018e38424.installLabels.08=使用許諾契約
+Installer.850018e38424.installLabels.08=라이선스 참고사항
 
 # Installer.850018e38424.installLabels.09=Setup Licensing
-Installer.850018e38424.installLabels.09=ライセンシングを設定
+Installer.850018e38424.installLabels.09=라이선스 설정
 
 # Installer.850018e38424.installLabels.10=Choose Components
-Installer.850018e38424.installLabels.10=コンポーネントを選択
+Installer.850018e38424.installLabels.10=구성 요소 선택
 
 # Installer.850018e38424.installProgressImageName=introImage.png
 Installer.850018e38424.installProgressImageName=introImage.png
@@ -1034,16 +1034,16 @@ Installer.850018e38424.panelImageName=introImage.png
 Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # Installer.850018e38424.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
-Installer.850018e38424.rulesFailedMessage=この構成でインストーラを実行することはできません。インストーラを終了します。
+Installer.850018e38424.rulesFailedMessage=현재 사용자 구성에서 설치 프로그램을 실행할 수 없습니다. 설치 프로그램을 종료합니다.
 
 # Installer.850018e38424.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
-Installer.850018e38424.splashScreenConsolePrompt=言語番号を選択してください
+Installer.850018e38424.splashScreenConsolePrompt=숫자로 로케일 선택
 
 # Installer.850018e38424.splashScreenConsoleTitle=Choose Locale...
-Installer.850018e38424.splashScreenConsoleTitle=言語を選択...
+Installer.850018e38424.splashScreenConsoleTitle=로케일 선택...
 
 # Installer.850018e38424.splashScreenGUIConfirm=OK
-Installer.850018e38424.splashScreenGUIConfirm=OK
+Installer.850018e38424.splashScreenGUIConfirm=확인
 
 # Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
@@ -1052,7 +1052,7 @@ Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
 # Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
-Installer.850018e38424.splashScreenGUIInstructions=インストール中に使用する言語を選択:
+Installer.850018e38424.splashScreenGUIInstructions=설치 중에 사용할 언어 선택
 
 # Installer.850018e38424.splashScreenGUITitle=STAR-CCM+$STARCCMPLUS_VERSION$
 Installer.850018e38424.splashScreenGUITitle=STAR-CCM+$STARCCMPLUS_VERSION$
@@ -1085,142 +1085,142 @@ InstallerInfoData.850018f28450.vendorName=CD-adapco
 InstallerInfoData.850018f28450.vendorURL=http://www.cd-adapco.com/
 
 # InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installErrorMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.12ff4db9947b.installErrorMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.12ff4db9947b.installFatalMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
-InstallFinishAction.12ff4db9947b.installSuccessMessage=\n\nFLEXNet $FLEXlmVERSION$が正常にインストールされました。\n\n［完了］をクリックするとインストーラは終了します。
+InstallFinishAction.12ff4db9947b.installSuccessMessage=축하합니다.\n\nFLEXNet $FLEXlmVERSION$ 설치가 성공적으로 완료되었습니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
 InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
 
 # InstallFinishAction.12ff4db9947b.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.12ff4db9947b.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.12ff4db9947b.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.12ff4db9947b.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.12ff4db9947b.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.12ff4db9947b.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
-InstallFinishAction.12ff4db9947b.windowTitle=インストール完了
+InstallFinishAction.12ff4db9947b.windowTitle=설치 완료
 
 # InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
+InstallFinishAction.31554a9699e3.installSuccessMessage=축하합니다.\n\nSTAR-CAD $CAD_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치가 성공적으로 완료되었습니다. 추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공 업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
 InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
 
 # InstallFinishAction.31554a9699e3.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.31554a9699e3.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.31554a9699e3.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.31554a9699e3.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.31554a9699e3.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.31554a9699e3.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.31554a9699e3.windowTitle=Install Complete
-InstallFinishAction.31554a9699e3.windowTitle=インストール完了
+InstallFinishAction.31554a9699e3.windowTitle=설치 완료
 
 # InstallFinishAction.850018e3843a.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.850018e3843a.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+InstallFinishAction.850018e3843a.installSuccessMessage=축하합니다.\n\n$INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 바탕 화면에 STAR-CCM+® 소프트웨어를 시작하는 데 사용할 수 있는 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.850018e3843a.rebootNotNeededMessage=
 InstallFinishAction.850018e3843a.rebootNotNeededMessage=
 
 # InstallFinishAction.850018e3843a.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.850018e3843a.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.850018e3843a.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.850018e3843a.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.850018e3843a.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.850018e3843a.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.850018e3843a.windowTitle=Install Complete
-InstallFinishAction.850018e3843a.windowTitle=インストール完了
+InstallFinishAction.850018e3843a.windowTitle=설치 완료
 
 # InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=축하합니다.\n\n$INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치가 성공적으로 완료되었습니다.\n\n$USER_INSTALL_DIR$\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공 업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log를 참조하십시오.
 
 # InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
 InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
 
 # InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
-InstallFinishAction.bbeaa35cb859.windowTitle=インストール完了
+InstallFinishAction.bbeaa35cb859.windowTitle=설치 완료
 
 # InstallFrameConfigurator.850018f38449.maintModeTitle=Configure $PRODUCT_NAME$
-InstallFrameConfigurator.850018f38449.maintModeTitle=$PRODUCT_NAME$を構成
+InstallFrameConfigurator.850018f38449.maintModeTitle=$PRODUCT_NAME$ 구성
 
 # InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall
-InstallFrameConfigurator.850018f38449.uninstallerTitle=アンインストール
+InstallFrameConfigurator.850018f38449.uninstallerTitle=제거
 
 # InstallMethod.Custom=Custom (Advanced)
-InstallMethod.Custom=カスタム(上級ユーザー向け)
+InstallMethod.Custom=사용자 지정(고급)
 
 # InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
-InstallMethod.Custom1=このオプションを選択すると、インストールするSTAR-CCM+の機能と
+InstallMethod.Custom1=이 옵션을 선택하면 사용자가 어떤 STAR-CCM+   
 
 # InstallMethod.Custom2=features and related components will be installed.This option will
-InstallMethod.Custom2=関連コンポーネントを任意に選択し、ライセンスマネージャーを
+InstallMethod.Custom2=기능 및 관련 구성 요소를 설치할 것인지를 선택할 수 있습니다.이 옵션은
 
 # InstallMethod.Custom3=also allow the user to configure and start the license manager.   
-InstallMethod.Custom3=構成して開始することができます。
+InstallMethod.Custom3=또한 사용자가 라이선스 관리자를 구성 및 시작할 수 있게 합니다.   
 
 # InstallMethod.Custom4=This is the recommended option for advanced users.
-InstallMethod.Custom4=上級ユーザーにはこちらのオプションをお勧めします。
+InstallMethod.Custom4=이것은 고급 사용자를 위해 권장되는 옵션입니다.
 
 # InstallMethod.Express=Express (Recommended)
-InstallMethod.Express=エクスプレス(推奨)
+InstallMethod.Express=Express(권장됨)
 
 # InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
-InstallMethod.Express1=このオプションを選択すると、STAR-CCM+のすべての機能と関連
+InstallMethod.Express1=이 옵션을 선택하면 모든 STAR-CCM+ 기능 및 관련
 
 # InstallMethod.Express2=components.
-InstallMethod.Express2=コンポーネントがインストールされます。ライセンスマネージャーも
+InstallMethod.Express2=구성 요소가 설치됩니다.
 
 # InstallMethod.Express3=It will also install the license manager using default settings.     
-InstallMethod.Express3=インストールされ、デフォルト設定が適用されます。 
+InstallMethod.Express3=또한 기본 설정을 사용하여 라이선스 관리자를 설치합니다.     
 
 # InstallMethod.Express4=This is the recommended option for most users.
-InstallMethod.Express4=ほとんどのユーザーにはこちらのオプションをお勧めします。
+InstallMethod.Express4=이것은 대부분의 사용자를 위해 권장되는 옵션입니다.
 
 # InstallMethod.Title=Choose Installation Method
-InstallMethod.Title=インストール方法を選択
+InstallMethod.Title=설치 방식 선택
 
 # InstallSet.42a8c30ea8a8.description=Choose this option to install a Cluster Node or create links on the local computer to an existing networked installation.\n
-InstallSet.42a8c30ea8a8.description=クラスターノードをインストールする場合、または既存のネットワークインストール先へのリンクをローカルに作成する場合にこのオプションを選択します。\n
+InstallSet.42a8c30ea8a8.description=클러스터 노드를 설치하거나 기존 네트워크 설치에 대한 로컬 컴퓨터의 링크를 만들려면 이 옵션을 선택하십시오.\n
 
 # InstallSet.42a8c30ea8a8.imageName=typical.png
 InstallSet.42a8c30ea8a8.imageName=typical.png
@@ -1229,10 +1229,10 @@ InstallSet.42a8c30ea8a8.imageName=typical.png
 InstallSet.42a8c30ea8a8.imagePath=com/zerog/ia/installer/images/
 
 # InstallSet.42a8c30ea8a8.installSetName=Client Installation
-InstallSet.42a8c30ea8a8.installSetName=クライアントのインストール
+InstallSet.42a8c30ea8a8.installSetName=클라이언트 설치
 
 # InstallSet.4405b8b89114.description=Choose this option to customize the features to be installed.
-InstallSet.4405b8b89114.description=このオプションを選択すると、インストールする機能をカスタマイズできます。
+InstallSet.4405b8b89114.description=설치할 기능을 사용자 지정하려면 이 옵션을 선택합니다.
 
 # InstallSet.4405b8b89114.imageName=customIcon.png
 InstallSet.4405b8b89114.imageName=customIcon.png
@@ -1241,97 +1241,97 @@ InstallSet.4405b8b89114.imageName=customIcon.png
 InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
 
 # InstallSet.4405b8b89114.installSetName=Custom
-InstallSet.4405b8b89114.installSetName=カスタム
+InstallSet.4405b8b89114.installSetName=사용자 지정
 
 # InstallSet.850018f38466.description=Install STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
-InstallSet.850018f38466.description=STAR-CCM+パッケージをインストールします。ほとんどのユーザーに適したオプションです。ローカルまたはリモートのFLEXNetライセンスサーバーに関するオプションも含まれています。
+InstallSet.850018f38466.description=대부분의 사용자에게 일반적인 선택인 STAR-CCM+ 패키지를 설치하십시오. 여기에는 로컬 또는 원격 FLEXNet 라이선스 서버에 대한 옵션이 포함됩니다.
 
 # InstallSet.850018f38466.imageName=typical.png
 InstallSet.850018f38466.imageName=typical.png
 
 # InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
-InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$\\resources\\254563a034ed41e4e80b453700885aba
+InstallSet.850018f38466.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # InstallSet.850018f38466.installSetName=Product
-InstallSet.850018f38466.installSetName=標準
+InstallSet.850018f38466.installSetName=제품
 
 # InstallSummary.1273c1489901.stepPrompt=Please Review the Following Before Continuing:
-InstallSummary.1273c1489901.stepPrompt=操作を続ける前に、以下の内容を確認してください。
+InstallSummary.1273c1489901.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
 
 # InstallSummary.1273c1489901.title=Pre-Installation Summary
-InstallSummary.1273c1489901.title=プリインストールの要約
+InstallSummary.1273c1489901.title=사전 설치 요약
 
 # InstallSummary.2001b0af82ad.stepPrompt=Please Review the Following Before Continuing:
-InstallSummary.2001b0af82ad.stepPrompt=操作を続ける前に、以下の内容を確認してください。
+InstallSummary.2001b0af82ad.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
 
 # InstallSummary.2001b0af82ad.title=Pre-Installation Summary
-InstallSummary.2001b0af82ad.title=プリインストールの要約
+InstallSummary.2001b0af82ad.title=사전 설치 요약
 
 # InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
-InstallSummary.a132a7788325.stepPrompt=クライアントノードの構成 - 操作を続ける前に、以下の内容を確認してください。
+InstallSummary.a132a7788325.stepPrompt=클라이언트 노드 구성을 계속하기 전에 다음 사항을 검토하십시오.
 
 # InstallSummary.a132a7788325.title=Pre-Installation Summary
-InstallSummary.a132a7788325.title=プリインストールの要約
+InstallSummary.a132a7788325.title=사전 설치 요약
 
 # InstallSummary.c2186e8f8907.stepPrompt=Please Review the Following Before Continuing:
-InstallSummary.c2186e8f8907.stepPrompt=操作を続ける前に、以下の内容を確認してください。
+InstallSummary.c2186e8f8907.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
 
 # InstallSummary.c2186e8f8907.title=Pre-Installation Summary
-InstallSummary.c2186e8f8907.title=プリインストールの要約
+InstallSummary.c2186e8f8907.title=사전 설치 요약
 
 # InstallType.Title=Choose Install Type
-InstallType.Title=インストールタイプを選択
+InstallType.Title=설치 유형 선택
 
 # InstallType.Type=Please select the type of installation you would like to perform:
-InstallType.Type=実行するインストールタイプを選択してください。
+InstallType.Type=수행할 설치 유형을 선택하십시오.
 
 # InstallType.Type1=STAR-CCM+ and related components
-InstallType.Type1=STAR-CCM+と関連コンポーネント
+InstallType.Type1=STAR-CCM+ 및 관련 구성 요소
 
 # InstallType.Type2=Install STAR-CCM+ on this machine or a network location.Typical Selection.
-InstallType.Type2=このマシンかネットワーク上の場所にインストール(通常はこちらを選択)
+InstallType.Type2=이 컴퓨터 또는 네트워크 위치에 STAR-CCM+를 설치하십시오. 일반 선택.
 
 # InstallType.Type3=Install STAR-CCM+ on local or NFS shared location.Typical Selection.
-InstallType.Type3=ローカルまたはNFS共有の場所にインストール(通常はこちらを選択)
+InstallType.Type3=로컬 또는 NFS 공유 위치에 STAR-CCM+을 설치하십시오. 일반 선택.
 
 # InstallType.Type4=Configure this machine to use an existing STAR-CCM+ network installation.  
-InstallType.Type4=このマシンがネットワーク上の既存のSTAR-CCM+を使用するよう構成  
+InstallType.Type4=이 컴퓨터가 기존 STAR-CCM+ 네트워크 설치를 사용하도록 구성하십시오.  
 
 # InstallType.Type5=FLEXNet License Manager
-InstallType.Type5=FLEXNetライセンスマネージャー
+InstallType.Type5=FLEXNet 라이선스 관리자
 
 # InstallType.Type6=Configure Network or Local FLEXNet licensing.
-InstallType.Type6=ネットワーク/ローカル上でFLEXNetライセンシングを構成する
+InstallType.Type6=네트워크 또는 로컬 FLEXNet 라이선스를 구성하십시오.
 
 # InstallType.Type7=Install and configure FLEXNet Manager to run.
-InstallType.Type7=FLEXNetマネージャーをインストールして構成する
+InstallType.Type7=실행할 FLEXNet 관리자를 설치 및 구성하십시오.
 
 # InstallUninstaller.85001a1b8498.destinationName=Uninstall
 InstallUninstaller.85001a1b8498.destinationName=Uninstall
 
 # IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dc1e698d4b.message=次の製品をアンインストールします...\n\nFLEXNet $FLEXlmVERSION$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+IntroActionConsole.c7dc1e698d4b.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
-IntroActionConsole.c7dc1e698d4b.title=FLEXNetをアンインストール
+IntroActionConsole.c7dc1e698d4b.title=FLEXNet 제거
 
 # IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dee180948f.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+IntroActionConsole.c7dee180948f.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-IntroActionConsole.c7dee180948f.title=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
+IntroActionConsole.c7dee180948f.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 
 # IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+IntroActionConsole.c7e016579491.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
+IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Jap.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1340,10 +1340,10 @@ LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.stepPrompt=
 
 # LicenseAgrAction.43ff93b98f68.title=License Notice
-LicenseAgrAction.43ff93b98f68.title=使用許諾契約
+LicenseAgrAction.43ff93b98f68.title=라이선스 참고사항
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Jap.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1355,7 +1355,7 @@ LicenseAgrActionConsole.b8adfe8d92f6.stepPrompt=
 LicenseAgrActionConsole.b8adfe8d92f6.title=
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.addDesc=Add features to the installed product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.addDesc=インストールされている製品に機能を追加します
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addDesc=설치된 제품에 기능 추가
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImageName=addfeature.png
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImageName=addfeature.png
@@ -1364,25 +1364,25 @@ MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImageName=addfeature.png
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.addImagePath=com/zerog/ia/installer/images/
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.addLabel=Add Features
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.addLabel=機能を追加
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.addLabel=기능 추가
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.defaultImagePath=com/zerog/ia/installer/images/
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.defaultImagePath=com/zerog/ia/installer/images/
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.instructions=Select one of the following options:
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.instructions=以下のオプションから 1つ選択してください。
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.instructions=다음 옵션 중 하나를 선택하십시오.
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.panelTitle=Configure
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.panelTitle=構成
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.panelTitle=구성
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.remDesc=Remove features from the installed product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.remDesc=インストールされている製品から機能を除外します
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.remDesc=설치된 제품에서 기능 제거
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.remImageName=removefeature.png
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.remImageName=removefeature.png
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.remLabel=Remove Features
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.remLabel=機能を除外
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.remLabel=기능 제거
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.removeImagePath=com/zerog/ia/installer/images/
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.removeImagePath=com/zerog/ia/installer/images/
@@ -1391,28 +1391,28 @@ MaintenenceModeRuntimePanelSettings.2aae34a681b0.removeImagePath=com/zerog/ia/in
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.repairImagePath=com/zerog/ia/installer/images/
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.repDesc=Repair the installed product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.repDesc=インストールされている製品を修復します
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repDesc=설치된 제품 복구
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.repImageName=repairproduct.png
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.repImageName=repairproduct.png
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.repLabel=Repair Product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.repLabel=製品を修復
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.repLabel=제품 복구
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.stepTitle=Maintenance Mode
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.stepTitle=保守モード
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.stepTitle=유지보수 모드
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstallImagePath=com/zerog/ia/installer/images/
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstallImagePath=com/zerog/ia/installer/images/
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstDesc=Uninstall the product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstDesc=製品をアンインストールします
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstDesc=제품 제거
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstImageName=uninstall.png
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstImageName=uninstall.png
 
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=Uninstall Product
-MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=製品をアンインストール
+MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=제품 제거
 
 # MakeRegEntry.121e55f3a6f4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 $CAD_VERSION$
 MakeRegEntry.121e55f3a6f4.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\CD-adapco\\STAR-CAT5 $CAD_VERSION$
@@ -1631,889 +1631,889 @@ MakeRegEntry.ecbd240f9d4f.value=$USER_MAGIC_FOLDER_1$
 MakeRegEntry.ecbd240f9d4f.valueName=$ScEnvVar$
 
 # PreInstall.Text=Please Review the Following Before Continuing:
-PreInstall.Text=操作を続ける前に、以下の内容を確認してください。
+PreInstall.Text=계속하기 전에 다음 사항을 검토하십시오.
 
 # PreInstall.Text1=You are installing:
-PreInstall.Text1=インストールされるコードシステム:
+PreInstall.Text1=다음을 설치합니다.
 
 # PreInstall.Text2=Installation folder:
-PreInstall.Text2=インストールフォルダ:
+PreInstall.Text2=설치 폴더:
 
 # PreInstall.Text3=License information:
-PreInstall.Text3=ライセンス情報:
+PreInstall.Text3=라이선스 정보:
 
 # PreInstall.Text4=Components to be installed:
-PreInstall.Text4=インストールされるコンポーネント:
+PreInstall.Text4=설치할 구성 요소:
 
 # PreInstall.Text5=Disk Space Information:
-PreInstall.Text5=ディスク容量:
+PreInstall.Text5=디스크 공간 정보:
 
 # PreInstall.Text6=Available: 
-PreInstall.Text6=空き容量: 
+PreInstall.Text6=사용 가능: 
 
 # PreInstall.Text7=Required: 
-PreInstall.Text7=必要な容量: 
+PreInstall.Text7=필수: 
 
 # PreInstall.Title=Pre-Installation Summary
-PreInstall.Title=プリインストールの要約
+PreInstall.Title=사전 설치 요약
 
 # ProductDialog.Text=Please select the components you would like to install:
-ProductDialog.Text=インストールするコンポーネントを選択してください。
+ProductDialog.Text=설치하고자 하는 구성 요소를 선택하십시오.
 
 # ProductDialog.Title=Choose STAR-CAD components
-ProductDialog.Title=STAR-CADコンポーネントを選択
+ProductDialog.Title=STAR-CAD 구성 요소 선택
 
 # ProductDialog.Title1=Choose STAR-CCM+ components
-ProductDialog.Title1=STAR-CCM+コンポーネントを選択
+ProductDialog.Title1=STAR-CCM+ 구성 요소 선택
 
 # PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.066c0750bc6e.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$ MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+PromptUserConsole.066c0750bc6e.message=디스크 공간 부족\n\n디스크 공간이 충분하지 않습니다. $REQUIRED_DISK_SPACE_MEGABYTES$MB가 필요하지만 \n$FREE_DISK_SPACE_MEGABYTES$MB만 사용할 수 있습니다.\n\n디스크 공간을 비우거나 다른 설치 위치를 선택하십시오.
 
 # PromptUserConsole.066c0750bc6e.option0Label=OK
-PromptUserConsole.066c0750bc6e.option0Label=OK
+PromptUserConsole.066c0750bc6e.option0Label=확인
 
 # PromptUserConsole.066c0750bc6e.option1Label=Cancel
-PromptUserConsole.066c0750bc6e.option1Label=キャンセル
+PromptUserConsole.066c0750bc6e.option1Label=취소
 
 # PromptUserConsole.066c0750bc6e.option2Label=Details...
-PromptUserConsole.066c0750bc6e.option2Label=詳細...
+PromptUserConsole.066c0750bc6e.option2Label=세부 정보...
 
 # PromptUserConsole.066c0750bc6e.title=Warning
-PromptUserConsole.066c0750bc6e.title=警告
+PromptUserConsole.066c0750bc6e.title=경고
 
 # PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.2d6f494abb0c.message=ディスクの空き容量不足\n\nディスクの空き容量が不足しています。必要な容量は $required_Dspace$ ですが、\n$ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+PromptUserConsole.2d6f494abb0c.message=디스크 공간 부족\n\n디스크 공간이 충분하지 않습니다. $required_Dspace$이(가) 필요하지만 \n$ava_Dspace$만 사용할 수 있습니다.\n\n디스크 공간을 비우거나 다른 설치 위치를 선택하십시오.
 
 # PromptUserConsole.2d6f494abb0c.option0Label=Continue
-PromptUserConsole.2d6f494abb0c.option0Label=続行
+PromptUserConsole.2d6f494abb0c.option0Label=계속
 
 # PromptUserConsole.2d6f494abb0c.option1Label=Previous
-PromptUserConsole.2d6f494abb0c.option1Label=戻る
+PromptUserConsole.2d6f494abb0c.option1Label=이전
 
 # PromptUserConsole.2d6f494abb0c.option2Label=Cancel
-PromptUserConsole.2d6f494abb0c.option2Label=キャンセル
+PromptUserConsole.2d6f494abb0c.option2Label=취소
 
 # PromptUserConsole.2d6f494abb0c.title=Warning
-PromptUserConsole.2d6f494abb0c.title=警告
+PromptUserConsole.2d6f494abb0c.title=경고
 
 # ShowDialogAction.064a5d7084f3.buttonLabel=OK
-ShowDialogAction.064a5d7084f3.buttonLabel=OK
+ShowDialogAction.064a5d7084f3.buttonLabel=확인
 
 # ShowDialogAction.064a5d7084f3.cancelButtonLabel=Cancel
-ShowDialogAction.064a5d7084f3.cancelButtonLabel=キャンセル
+ShowDialogAction.064a5d7084f3.cancelButtonLabel=취소
 
 # ShowDialogAction.064a5d7084f3.detailsButtonLabel=Details...
-ShowDialogAction.064a5d7084f3.detailsButtonLabel=詳細...
+ShowDialogAction.064a5d7084f3.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.064a5d7084f3.label=Insufficient Disk Space Available
-ShowDialogAction.064a5d7084f3.label=ディスクの空き容量が不足しています
+ShowDialogAction.064a5d7084f3.label=디스크 공간이 부족합니다.
 
 # ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.064a5d7084f3.narrative=ディスクの空き容量が不足しています。必要な容量は $REQUIRED_DISK_SPACE_MEGABYTES$ MB ですが、\n $FREE_DISK_SPACE_MEGABYTES$ MB しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+ShowDialogAction.064a5d7084f3.narrative=디스크 공간이 충분하지 않습니다. $REQUIRED_DISK_SPACE_MEGABYTES$MB가 필요하지만\n$FREE_DISK_SPACE_MEGABYTES$MB만 사용할 수 있습니다.\n\n디스크 공간을 비우거나 다른 설치 위치를 선택하십시오.
 
 # ShowDialogAction.064a5d7084f3.title=Warning
-ShowDialogAction.064a5d7084f3.title=警告
+ShowDialogAction.064a5d7084f3.title=경고
 
 # ShowDialogAction.114a717da032.buttonLabel=OK
-ShowDialogAction.114a717da032.buttonLabel=OK
+ShowDialogAction.114a717da032.buttonLabel=확인
 
 # ShowDialogAction.114a717da032.cancelButtonLabel=Cancel
-ShowDialogAction.114a717da032.cancelButtonLabel=キャンセル
+ShowDialogAction.114a717da032.cancelButtonLabel=취소
 
 # ShowDialogAction.114a717da032.detailsButtonLabel=Details...
-ShowDialogAction.114a717da032.detailsButtonLabel=詳細...
+ShowDialogAction.114a717da032.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.114a717da032.label=No Administrative Privileges
-ShowDialogAction.114a717da032.label=管理者権限がありません
+ShowDialogAction.114a717da032.label=관리 권한 없음
 
 # ShowDialogAction.114a717da032.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
-ShowDialogAction.114a717da032.narrative=ライセンスサーバーを構成するには管理者権限が必要です。このインストーラは管理者権限を使って実行してください。
+ShowDialogAction.114a717da032.narrative=라이선스 서버를 구성하려면 관리자 권한이 있어야 합니다. 관리자 권한으로 이 설치 프로그램을 실행하십시오.
 
 # ShowDialogAction.114a717da032.title=Error
-ShowDialogAction.114a717da032.title=エラー
+ShowDialogAction.114a717da032.title=오류
 
 # ShowDialogAction.1fad6a0ea842.buttonLabel=OK
-ShowDialogAction.1fad6a0ea842.buttonLabel=OK
+ShowDialogAction.1fad6a0ea842.buttonLabel=확인
 
 # ShowDialogAction.1fad6a0ea842.cancelButtonLabel=Cancel
-ShowDialogAction.1fad6a0ea842.cancelButtonLabel=キャンセル
+ShowDialogAction.1fad6a0ea842.cancelButtonLabel=취소
 
 # ShowDialogAction.1fad6a0ea842.detailsButtonLabel=Details...
-ShowDialogAction.1fad6a0ea842.detailsButtonLabel=詳細...
+ShowDialogAction.1fad6a0ea842.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.1fad6a0ea842.label=You need to have admin privilages to share an install directory. Please deselect the share option, or run this installer with admin privileges 
-ShowDialogAction.1fad6a0ea842.label=インストールディレクトリを共有するには管理者権限が必要です。共有オプションを選択解除するか、または管理者権限を使ってこのインストーラを実行してください。
+ShowDialogAction.1fad6a0ea842.label=설치 디렉터리를 공유하려면 관리자 권한이 있어야 합니다. 공유 옵션의 선택을 취소하거나 관리자 권한으로 이 설치 프로그램을 실행하십시오. 
 
 # ShowDialogAction.1fad6a0ea842.narrative=
 ShowDialogAction.1fad6a0ea842.narrative=
 
 # ShowDialogAction.1fad6a0ea842.title=Error
-ShowDialogAction.1fad6a0ea842.title=エラー
+ShowDialogAction.1fad6a0ea842.title=오류
 
 # ShowDialogAction.25820b1c92f3.buttonLabel=Next
-ShowDialogAction.25820b1c92f3.buttonLabel=次へ
+ShowDialogAction.25820b1c92f3.buttonLabel=다음
 
 # ShowDialogAction.25820b1c92f3.cancelButtonLabel=Previous
-ShowDialogAction.25820b1c92f3.cancelButtonLabel=戻る
+ShowDialogAction.25820b1c92f3.cancelButtonLabel=이전
 
 # ShowDialogAction.25820b1c92f3.detailsButtonLabel=Details...
-ShowDialogAction.25820b1c92f3.detailsButtonLabel=詳細...
+ShowDialogAction.25820b1c92f3.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.25820b1c92f3.label=Invalid license file.
-ShowDialogAction.25820b1c92f3.label=無効なライセンスファイルです。
+ShowDialogAction.25820b1c92f3.label=잘못된 라이선스 파일입니다.
 
 # ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
-ShowDialogAction.25820b1c92f3.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は存在しません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
+ShowDialogAction.25820b1c92f3.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
 
 # ShowDialogAction.25820b1c92f3.title=ERROR
-ShowDialogAction.25820b1c92f3.title=エラー
+ShowDialogAction.25820b1c92f3.title=오류
 
 # ShowDialogAction.2d6e902bbb0c.buttonLabel=Continue
-ShowDialogAction.2d6e902bbb0c.buttonLabel=続行
+ShowDialogAction.2d6e902bbb0c.buttonLabel=계속
 
 # ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=Previous
-ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=戻る
+ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=이전
 
 # ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=Cancel
-ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=キャンセル
+ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=취소
 
 # ShowDialogAction.2d6e902bbb0c.label=Insufficient Disk Space Available
-ShowDialogAction.2d6e902bbb0c.label=ディスクの空き容量が不足しています
+ShowDialogAction.2d6e902bbb0c.label=디스크 공간이 부족합니다.
 
 # ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.2d6e902bbb0c.narrative=ディスクの空き容量が不足しています。必要な容量は $required_Dspace$ ですが、\n $ava_Dspace$ しかありません。\n\nディスク容量を解放するか、別のインストール先を選択してください。
+ShowDialogAction.2d6e902bbb0c.narrative=디스크 공간이 충분하지 않습니다. $required_Dspace$이(가) 필요하지만\n$ava_Dspace$만 사용할 수 있습니다.\n\n디스크 공간을 비우거나 다른 설치 위치를 선택하십시오.
 
 # ShowDialogAction.2d6e902bbb0c.title=Warning
-ShowDialogAction.2d6e902bbb0c.title=警告
+ShowDialogAction.2d6e902bbb0c.title=경고
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
-ShowDialogAction.386900b8be43.buttonLabel=
+ShowDialogAction.386900b8be43.buttonLabel=확인
 
 # ShowDialogAction.386900b8be43.cancelButtonLabel=Cancel
-ShowDialogAction.386900b8be43.cancelButtonLabel=
+ShowDialogAction.386900b8be43.cancelButtonLabel=취소
 
 # ShowDialogAction.386900b8be43.detailsButtonLabel=Details...
-ShowDialogAction.386900b8be43.detailsButtonLabel=
+ShowDialogAction.386900b8be43.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.386900b8be43.label=Outdated license server detected on this machine
-ShowDialogAction.386900b8be43.label=
+ShowDialogAction.386900b8be43.label=이 컴퓨터에서 구형 라이선스 서버가 감지됨
 
 # ShowDialogAction.386900b8be43.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-ShowDialogAction.386900b8be43.narrative=
+ShowDialogAction.386900b8be43.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n라이선스 서버는 소프트웨어 실행 전에 업데이트해야 합니다.
 
 # ShowDialogAction.386900b8be43.title=Warning: License server
-ShowDialogAction.386900b8be43.title=
+ShowDialogAction.386900b8be43.title=경고: 라이선스 서버
 
 # ShowDialogAction.38795ea3be4b.buttonLabel=Upgrade
-ShowDialogAction.38795ea3be4b.buttonLabel=
+ShowDialogAction.38795ea3be4b.buttonLabel=업그레이드
 
 # ShowDialogAction.38795ea3be4b.cancelButtonLabel=Keep
-ShowDialogAction.38795ea3be4b.cancelButtonLabel=
+ShowDialogAction.38795ea3be4b.cancelButtonLabel=유지
 
 # ShowDialogAction.38795ea3be4b.detailsButtonLabel=Details...
-ShowDialogAction.38795ea3be4b.detailsButtonLabel=
+ShowDialogAction.38795ea3be4b.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.38795ea3be4b.label=Outdated license server detected on this machine
-ShowDialogAction.38795ea3be4b.label=
+ShowDialogAction.38795ea3be4b.label=이 컴퓨터에서 구형 라이선스 서버가 감지됨
 
 # ShowDialogAction.38795ea3be4b.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.38795ea3be4b.narrative=
+ShowDialogAction.38795ea3be4b.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n기존 라이선스 서버를 유지하려면 \"유지\"를 선택하고 설치 프로그램이 라이선스 서버 서비스를 업데이트할 수 있게 허용하려면 \"업그레이드\"를 선택하십시오.\n\n\"유지\"를 선택하면 소프트웨어를 실행하기 전에 라이선스 서버의 수동 업그레이드를 수행해야 합니다.
 
 # ShowDialogAction.38795ea3be4b.title=Warning: License server
-ShowDialogAction.38795ea3be4b.title=
+ShowDialogAction.38795ea3be4b.title=경고: 라이선스 서버
 
 # ShowDialogAction.38a209debe57.buttonLabel=OK
-ShowDialogAction.38a209debe57.buttonLabel=
+ShowDialogAction.38a209debe57.buttonLabel=확인
 
 # ShowDialogAction.38a209debe57.cancelButtonLabel=
 ShowDialogAction.38a209debe57.cancelButtonLabel=
 
 # ShowDialogAction.38a209debe57.detailsButtonLabel=Details...
-ShowDialogAction.38a209debe57.detailsButtonLabel=
+ShowDialogAction.38a209debe57.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.38a209debe57.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.38a209debe57.label=
+ShowDialogAction.38a209debe57.label=이 컴퓨터에서 lmadmin 기반의 구형 라이선스 서버가 감지됨
 
 # ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.38a209debe57.narrative=
+ShowDialogAction.38a209debe57.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n현재 라이선스 서버는 lmadmin으로 보입니다. 이 설치 프로그램은 lmadmin 구성을 자동으로 업그레이드할 수 없습니다. 계속하기 전에 라이선스 서버를 중지하고 서비스를 제거하십시오.\n\n라이선스 서버가 계속 실행 중이면 소프트웨어 실행 전에 라이선스 서버를 수동으로 업그레이드해야 합니다.
 
 # ShowDialogAction.38a209debe57.title=Warning: License server
-ShowDialogAction.38a209debe57.title=
+ShowDialogAction.38a209debe57.title=경고: 라이선스 서버
 
 # ShowDialogAction.3a2299d587bc.buttonLabel=OK
-ShowDialogAction.3a2299d587bc.buttonLabel=
+ShowDialogAction.3a2299d587bc.buttonLabel=확인
 
 # ShowDialogAction.3a2299d587bc.cancelButtonLabel=Cancel
-ShowDialogAction.3a2299d587bc.cancelButtonLabel=
+ShowDialogAction.3a2299d587bc.cancelButtonLabel=취소
 
 # ShowDialogAction.3a2299d587bc.detailsButtonLabel=Details...
-ShowDialogAction.3a2299d587bc.detailsButtonLabel=
+ShowDialogAction.3a2299d587bc.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.3a2299d587bc.label=License server upgrade failed
-ShowDialogAction.3a2299d587bc.label=
+ShowDialogAction.3a2299d587bc.label=라이선스 서버 업그레이드 실패
 
 # ShowDialogAction.3a2299d587bc.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
-ShowDialogAction.3a2299d587bc.narrative=
+ShowDialogAction.3a2299d587bc.narrative=설치 프로그램이 라이선스 서버 서비스를 업그레이드할 수 없습니다. 이전 라이선스 서버 서비스가 복원되었습니다. 업그레이드를 수동으로 수행하십시오.
 
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
-ShowDialogAction.3a2299d587bc.title=
+ShowDialogAction.3a2299d587bc.title=경고: 라이선스 서버
 
 # ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
-ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
+ShowDialogAction.3bf5bd2883d0.buttonLabel=확인
 
 # ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=Cancel
-ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=キャンセル
+ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=취소
 
 # ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=Details...
-ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=詳細...
+ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.3bf5bd2883d0.label=Invalid Port@Host Entered
-ShowDialogAction.3bf5bd2883d0.label=無効な「ポート@ホスト」値が入力されました
+ShowDialogAction.3bf5bd2883d0.label=잘못된 Port@Host 입력됨
 
 # ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
 ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
 
 # ShowDialogAction.3bf5bd2883d0.title=Invalid Input
-ShowDialogAction.3bf5bd2883d0.title=無効な入力
+ShowDialogAction.3bf5bd2883d0.title=잘못된 입력
 
 # ShowDialogAction.49b821379c58.buttonLabel=OK
-ShowDialogAction.49b821379c58.buttonLabel=OK
+ShowDialogAction.49b821379c58.buttonLabel=확인
 
 # ShowDialogAction.49b821379c58.cancelButtonLabel=Cancel
-ShowDialogAction.49b821379c58.cancelButtonLabel=キャンセル
+ShowDialogAction.49b821379c58.cancelButtonLabel=취소
 
 # ShowDialogAction.49b821379c58.detailsButtonLabel=Details...
-ShowDialogAction.49b821379c58.detailsButtonLabel=詳細...
+ShowDialogAction.49b821379c58.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.49b821379c58.label=Invalid license server: $SERVER1$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821379c58.label=無効なライセンスサーバー: $SERVER1$。CDLMDベンダーデーモンが見つかりません。
+ShowDialogAction.49b821379c58.label=잘못된 라이선스 서버: $SERVER1$ CDLMD 벤더 데몬을 찾을 수 없습니다.
 
 # ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821379c58.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 
 # ShowDialogAction.49b821379c58.title=Invalid license server
-ShowDialogAction.49b821379c58.title=無効なライセンスサーバー
+ShowDialogAction.49b821379c58.title=잘못된 라이선스 서버
 
 # ShowDialogAction.49b821459c60.buttonLabel=OK
-ShowDialogAction.49b821459c60.buttonLabel=OK
+ShowDialogAction.49b821459c60.buttonLabel=확인
 
 # ShowDialogAction.49b821459c60.cancelButtonLabel=Cancel
-ShowDialogAction.49b821459c60.cancelButtonLabel=キャンセル
+ShowDialogAction.49b821459c60.cancelButtonLabel=취소
 
 # ShowDialogAction.49b821459c60.detailsButtonLabel=Details...
-ShowDialogAction.49b821459c60.detailsButtonLabel=詳細...
+ShowDialogAction.49b821459c60.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.49b821459c60.label=Invalid license server: $SERVER2$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821459c60.label=無効なライセンスサーバー: $SERVER2$。CDLMDベンダーデーモンが見つかりません。
+ShowDialogAction.49b821459c60.label=잘못된 라이선스 서버: $SERVER2$ CDLMD 벤더 데몬을 찾을 수 없습니다.
 
 # ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821459c60.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 
 # ShowDialogAction.49b821459c60.title=Invalid license server
-ShowDialogAction.49b821459c60.title=無効なライセンスサーバー
+ShowDialogAction.49b821459c60.title=잘못된 라이선스 서버
 
 # ShowDialogAction.49b821459c69.buttonLabel=OK
-ShowDialogAction.49b821459c69.buttonLabel=OK
+ShowDialogAction.49b821459c69.buttonLabel=확인
 
 # ShowDialogAction.49b821459c69.cancelButtonLabel=Cancel
-ShowDialogAction.49b821459c69.cancelButtonLabel=キャンセル
+ShowDialogAction.49b821459c69.cancelButtonLabel=취소
 
 # ShowDialogAction.49b821459c69.detailsButtonLabel=Details...
-ShowDialogAction.49b821459c69.detailsButtonLabel=詳細...
+ShowDialogAction.49b821459c69.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.49b821459c69.label=Invalid license server: $SERVER3$ no CDLMD vendor daemon found.
-ShowDialogAction.49b821459c69.label=無効なライセンスサーバー: $SERVER3$。CDLMDベンダーデーモンが見つかりません。
+ShowDialogAction.49b821459c69.label=잘못된 라이선스 서버: $SERVER3$ CDLMD 벤더 데몬을 찾을 수 없습니다.
 
 # ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821459c69.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 
 # ShowDialogAction.49b821459c69.title=Invalid license server
-ShowDialogAction.49b821459c69.title=無効なライセンスサーバー
+ShowDialogAction.49b821459c69.title=잘못된 라이선스 서버
 
 # ShowDialogAction.49b821469c9f.buttonLabel=OK
-ShowDialogAction.49b821469c9f.buttonLabel=OK
+ShowDialogAction.49b821469c9f.buttonLabel=확인
 
 # ShowDialogAction.49b821469c9f.cancelButtonLabel=Cancel
-ShowDialogAction.49b821469c9f.cancelButtonLabel=キャンセル
+ShowDialogAction.49b821469c9f.cancelButtonLabel=취소
 
 # ShowDialogAction.49b821469c9f.detailsButtonLabel=Details...
-ShowDialogAction.49b821469c9f.detailsButtonLabel=詳細...
+ShowDialogAction.49b821469c9f.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.49b821469c9f.label=Invalid local license server: $HOSTNAME$ no CDLMD vendor daemon found.\n\nPlease start/restart license server before running STAR-CCM+ 
-ShowDialogAction.49b821469c9f.label=無効なローカルライセンスサーバー: $HOSTNAME$。CDLMDベンダーデーモンが見つかりません。\n\nライセンスサーバーを開始/再開してから、STAR-CCM+を再度実行してください 
+ShowDialogAction.49b821469c9f.label=잘못된 로컬 라이선스 서버: $HOSTNAME$ CDLMD 벤더 데몬을 찾을 수 없습니다.\n\nSTAR-CCM+를 실행하기 전에 라이선스 서버를 시작/재시작하십시오. 
 
 # ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 ShowDialogAction.49b821469c9f.narrative=$LMSTAT_STDOUT$\n$LMSTAT_STDERR$
 
 # ShowDialogAction.49b821469c9f.title=Invalid license server
-ShowDialogAction.49b821469c9f.title=無効なライセンスサーバー
+ShowDialogAction.49b821469c9f.title=잘못된 라이선스 서버
 
 # ShowDialogAction.5ef28303abd8.buttonLabel=OK
-ShowDialogAction.5ef28303abd8.buttonLabel=OK
+ShowDialogAction.5ef28303abd8.buttonLabel=확인
 
 # ShowDialogAction.5ef28303abd8.cancelButtonLabel=No
-ShowDialogAction.5ef28303abd8.cancelButtonLabel=いいえ
+ShowDialogAction.5ef28303abd8.cancelButtonLabel=아니요
 
 # ShowDialogAction.5ef28303abd8.detailsButtonLabel=Details...
-ShowDialogAction.5ef28303abd8.detailsButtonLabel=詳細...
+ShowDialogAction.5ef28303abd8.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.5ef28303abd8.label=Warning
-ShowDialogAction.5ef28303abd8.label=警告
+ShowDialogAction.5ef28303abd8.label=경고
 
 # ShowDialogAction.5ef28303abd8.narrative=To configure the selected STAR-CAD clients, the $ScEnvVar$ environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_STAR_CAD_FILE$\n\nYou can retrieve the previous STAR-CAD clients by changing the $ScEnvVar$ environment variable back to the value shown above.
-ShowDialogAction.5ef28303abd8.narrative=選択されたSTAR-CADクライアントを構成するために、$ScEnvVar$環境変数を更新します。\n\nこの環境変数は現在次のように設定されています。\n$OLD_STAR_CAD_FILE$\n\n旧バージョンのSTAR-CADクライアントを呼び出すには、$ScEnvVar$環境変数をこの値に戻してください。
+ShowDialogAction.5ef28303abd8.narrative=선택한 STAR-CAD 클라이언트를 구성하기 위해 $ScEnvVar$ 환경 변수가 업데이트됩니다. \n\n환경 변수가 현재 다음으로 설정되어 있습니다.\n$OLD_STAR_CAD_FILE$\n\n$ScEnvVar$ 환경 변수를 위에 표시된 값으로 변경하여 이전 STAR-CAD 클라이언트를 가져올 수 있습니다.
 
 # ShowDialogAction.5ef28303abd8.title=STAR-CAD configuration
-ShowDialogAction.5ef28303abd8.title=STAR-CADの構成
+ShowDialogAction.5ef28303abd8.title=STAR-CAD 구성
 
 # ShowDialogAction.5f17661a83c5.buttonLabel=Yes
-ShowDialogAction.5f17661a83c5.buttonLabel=はい
+ShowDialogAction.5f17661a83c5.buttonLabel=예
 
 # ShowDialogAction.5f17661a83c5.cancelButtonLabel=No
-ShowDialogAction.5f17661a83c5.cancelButtonLabel=いいえ
+ShowDialogAction.5f17661a83c5.cancelButtonLabel=아니요
 
 # ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
-ShowDialogAction.5f17661a83c5.detailsButtonLabel=詳細...
+ShowDialogAction.5f17661a83c5.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.5f17661a83c5.label=STAR-CCM+ Installation Found
-ShowDialogAction.5f17661a83c5.label=インストールされているSTAR-CCM+バージョンが見つかりました
+ShowDialogAction.5f17661a83c5.label=STAR-CCM+ 설치 찾음
 
 # ShowDialogAction.5f17661a83c5.narrative=The solver component  (STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the STAR-CCM+ component again?
-ShowDialogAction.5f17661a83c5.narrative=このマシンには、次のバージョンのソルバーコンポーネント(STAR-CCM+ $STARCCMPLUS_VERSION$)が既にインストールされています。\n $PREINST_VER$\nSTAR-CCM+コンポーネントをもう一度インストールしますか?
+ShowDialogAction.5f17661a83c5.narrative=솔버 구성 요소(STAR-CCM+ $STARCCMPLUS_VERSION$)가 이 컴퓨터에 이전에 설치된 것으로 보입니다.\n $PREINST_VER$\nSTAR-CCM+ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.5f17661a83c5.title=Warning
-ShowDialogAction.5f17661a83c5.title=警告
+ShowDialogAction.5f17661a83c5.title=경고
 
 # ShowDialogAction.5f7c94b68adf.buttonLabel=OK
-ShowDialogAction.5f7c94b68adf.buttonLabel=OK
+ShowDialogAction.5f7c94b68adf.buttonLabel=확인
 
 # ShowDialogAction.5f7c94b68adf.cancelButtonLabel=Cancel
-ShowDialogAction.5f7c94b68adf.cancelButtonLabel=キャンセル
+ShowDialogAction.5f7c94b68adf.cancelButtonLabel=취소
 
 # ShowDialogAction.5f7c94b68adf.detailsButtonLabel=Details...
-ShowDialogAction.5f7c94b68adf.detailsButtonLabel=詳細...
+ShowDialogAction.5f7c94b68adf.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
-ShowDialogAction.5f7c94b68adf.label=Microsoft Visual C++ランタイムライブラリをインストールするには、管理者権限が必要です
+ShowDialogAction.5f7c94b68adf.label=Microsoft Visual C ++ 런타임 라이브러리를 설치하려면 관리자 권한이 필요합니다.
 
 # ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+.\n\nThese libraries are not installed, please re-run the STAR-CCM+ installer with administrator privileges 
-ShowDialogAction.5f7c94b68adf.narrative=STAR-CCM+を実行するには、Microsoft Visual C++\nランタイムライブラリが必要です。\n\nこれらのライブラリはまだインストールされていません。管理者権限を\n使ってSTAR-CCM+インストーラを再度実行してください。
+ShowDialogAction.5f7c94b68adf.narrative=Microsoft Visual C ++ 런타임 라이브러리는 STAR-CCM+를 실행해야 합니다.\n\n이들 라이브러리는 설치되어 있지 않으므로 관리자 권한으로 STAR-CCM+ 설치 프로그램을 다시 실행하십시오. 
 
 # ShowDialogAction.5f7c94b68adf.title=Error
-ShowDialogAction.5f7c94b68adf.title=エラー
+ShowDialogAction.5f7c94b68adf.title=오류
 
 # ShowDialogAction.653ab69e9640.buttonLabel=Next
-ShowDialogAction.653ab69e9640.buttonLabel=次へ
+ShowDialogAction.653ab69e9640.buttonLabel=다음
 
 # ShowDialogAction.653ab69e9640.cancelButtonLabel=Previous
-ShowDialogAction.653ab69e9640.cancelButtonLabel=戻る
+ShowDialogAction.653ab69e9640.cancelButtonLabel=이전
 
 # ShowDialogAction.653ab69e9640.detailsButtonLabel=Details...
-ShowDialogAction.653ab69e9640.detailsButtonLabel=詳細...
+ShowDialogAction.653ab69e9640.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.653ab69e9640.label=Invalid license file.
-ShowDialogAction.653ab69e9640.label=無効なライセンスファイルです
+ShowDialogAction.653ab69e9640.label=잘못된 라이선스 파일입니다.
 
 # ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.653ab69e9640.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
+ShowDialogAction.653ab69e9640.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.653ab69e9640.title=ERROR
-ShowDialogAction.653ab69e9640.title=エラー
+ShowDialogAction.653ab69e9640.title=오류
 
 # ShowDialogAction.653c263b9ee1.buttonLabel=Next
-ShowDialogAction.653c263b9ee1.buttonLabel=次へ
+ShowDialogAction.653c263b9ee1.buttonLabel=다음
 
 # ShowDialogAction.653c263b9ee1.cancelButtonLabel=Previous
-ShowDialogAction.653c263b9ee1.cancelButtonLabel=戻る
+ShowDialogAction.653c263b9ee1.cancelButtonLabel=이전
 
 # ShowDialogAction.653c263b9ee1.detailsButtonLabel=Details...
-ShowDialogAction.653c263b9ee1.detailsButtonLabel=詳細...
+ShowDialogAction.653c263b9ee1.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.653c263b9ee1.label=Invalid license file.
-ShowDialogAction.653c263b9ee1.label=無効なライセンスファイルです
+ShowDialogAction.653c263b9ee1.label=잘못된 라이선스 파일입니다.
 
 # ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.653c263b9ee1.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
+ShowDialogAction.653c263b9ee1.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.653c263b9ee1.title=ERROR
-ShowDialogAction.653c263b9ee1.title=エラー
+ShowDialogAction.653c263b9ee1.title=오류
 
 # ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
-ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
+ShowDialogAction.7dc4c98fb7ea.buttonLabel=확인
 
 # ShowDialogAction.7dc4c98fb7ea.cancelButtonLabel=Cancel
-ShowDialogAction.7dc4c98fb7ea.cancelButtonLabel=キャンセル
+ShowDialogAction.7dc4c98fb7ea.cancelButtonLabel=취소
 
 # ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=Details...
-ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=詳細...
+ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ runtime libraries
-ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ランタイムライブラリ
+ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ 런타임 라이브러리
 
 # ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
-ShowDialogAction.7dc4c98fb7ea.narrative=STAR-CCM+を実行するには、Microsoft Visual C++\nランタイムライブラリが必要ですが、このライブラリはご使用のシステムに\nまだインストールされていません。\n\nこのホストにランタイムがインストールされていることを確認してから、\nSTAR-CCM+を実行してください。
+ShowDialogAction.7dc4c98fb7ea.narrative=Microsoft Visual C++ 런타임 라이브러리는 STAR-CCM+를 실행해야 합니다.\n이들은 현재 시스템에 설치되어 있지 않습니다.\n\n이 호스트에서 실행하기 전에 런타임이 설치되어 있는지\n확인하십시오.
 
 # ShowDialogAction.7dc4c98fb7ea.title=Warning
-ShowDialogAction.7dc4c98fb7ea.title=警告
+ShowDialogAction.7dc4c98fb7ea.title=경고
 
 # ShowDialogAction.7e4d4aee9257.buttonLabel=Yes
-ShowDialogAction.7e4d4aee9257.buttonLabel=はい
+ShowDialogAction.7e4d4aee9257.buttonLabel=예
 
 # ShowDialogAction.7e4d4aee9257.cancelButtonLabel=No
-ShowDialogAction.7e4d4aee9257.cancelButtonLabel=いいえ
+ShowDialogAction.7e4d4aee9257.cancelButtonLabel=아니요
 
 # ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
-ShowDialogAction.7e4d4aee9257.detailsButtonLabel=詳細...
+ShowDialogAction.7e4d4aee9257.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7e4d4aee9257.label=STAR-VIEW+ Installation Found
-ShowDialogAction.7e4d4aee9257.label=インストールされているSTAR-VIEW+バージョンが見つかりました
+ShowDialogAction.7e4d4aee9257.label=STAR-VIEW+ 설치 찾음
 
 # ShowDialogAction.7e4d4aee9257.narrative=The solver component  (STAR-VIEW+ $STARVIEW_VERSION$) appears to have been previously installed on this machine in:\n$SVPREINST_VER$\nDo you want to install the STAR-VIEW+ component again?
-ShowDialogAction.7e4d4aee9257.narrative=このマシンには、次のバージョンのソルバーコンポーネント(STAR-VIEW+ $STARVIEW_VERSION$)が既にインストールされています。\n$SVPREINST_VER$\nSTAR-VIEW+コンポーネントをもう一度インストールしますか?
+ShowDialogAction.7e4d4aee9257.narrative=솔버 구성 요소(STAR-VIEW+ $STARVIEW_VERSION$)가 이 컴퓨터에 이전에 설치된 것으로 보입니다.\n$SVPREINST_VER$\nSTAR-CCM+ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
-ShowDialogAction.7e4d4aee9257.title=警告
+ShowDialogAction.7e4d4aee9257.title=경고
 
 # ShowDialogAction.7e56ee2dbf97.buttonLabel=OK
-ShowDialogAction.7e56ee2dbf97.buttonLabel=OK
+ShowDialogAction.7e56ee2dbf97.buttonLabel=확인
 
 # ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=Cancel
-ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=キャンセル
+ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=취소
 
 # ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=Details...
-ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=詳細...
+ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+ executable not found.
-ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+の実行ファイルが見つかりません
+ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+ 실행 파일을 찾을 수 없습니다.
 
 # ShowDialogAction.7e56ee2dbf97.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
-ShowDialogAction.7e56ee2dbf97.narrative=$PRODUCT_NAME$がインストールされている場所を選択し直してください。
+ShowDialogAction.7e56ee2dbf97.narrative=$PRODUCT_NAME$이(가) 설치되어 있는 위치를 다시 선택하십시오.
 
 # ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ Installation Not Found
-ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+のインストールディレクトリが見つかりません
+ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ 설치를 찾지 못함
 
 # ShowDialogAction.7e598f94bfa1.buttonLabel=OK
-ShowDialogAction.7e598f94bfa1.buttonLabel=OK
+ShowDialogAction.7e598f94bfa1.buttonLabel=확인
 
 # ShowDialogAction.7e598f94bfa1.cancelButtonLabel=Cancel
-ShowDialogAction.7e598f94bfa1.cancelButtonLabel=キャンセル
+ShowDialogAction.7e598f94bfa1.cancelButtonLabel=취소
 
 # ShowDialogAction.7e598f94bfa1.detailsButtonLabel=Details...
-ShowDialogAction.7e598f94bfa1.detailsButtonLabel=詳細...
+ShowDialogAction.7e598f94bfa1.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7e598f94bfa1.label=STAR-View+ executable not found.
-ShowDialogAction.7e598f94bfa1.label=STAR-View+の実行ファイルが見つかりません
+ShowDialogAction.7e598f94bfa1.label=STAR-View+ 실행 파일을 찾을 수 없습니다.
 
 # ShowDialogAction.7e598f94bfa1.narrative=Please reselect location where  bin\\$SVRoot$is installed.
-ShowDialogAction.7e598f94bfa1.narrative=bin\\$SVRoot$がインストールされている場所を選択し直してください。
+ShowDialogAction.7e598f94bfa1.narrative=bin\\$SVRoot$이(가) 설치되어 있는 위치를 다시 선택하십시오.
 
 # ShowDialogAction.7e598f94bfa1.title=STAR-View+ Installation Not Found
-ShowDialogAction.7e598f94bfa1.title=STAR-View+インストールディレクトリが見つかりません
+ShowDialogAction.7e598f94bfa1.title=STAR-View+ 설치를 찾을 수 없음
 
 # ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
-ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
+ShowDialogAction.7e8620e4a2ee.buttonLabel=확인
 
 # ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=Cancel
-ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=キャンセル
+ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=취소
 
 # ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
-ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=詳細...
+ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7e8620e4a2ee.label=No Component Selected
-ShowDialogAction.7e8620e4a2ee.label=コンポーネントが選択されていません
+ShowDialogAction.7e8620e4a2ee.label=선택된 구성 요소 없음
 
 # ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=STAR-CCM+のすべてのコンポーネントが選択解除されています。\n［OK］を押して［コンポーネントの選択］ダイアログに戻ってください。\n
+ShowDialogAction.7e8620e4a2ee.narrative=모든 STAR-CCM+ 구성 요소의 선택을 취소했습니다. \n확인을 누르면 구성 요소 선택 다이얼로그로 돌아갑니다.\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
-ShowDialogAction.7e8620e4a2ee.title=警告
+ShowDialogAction.7e8620e4a2ee.title=경고
 
 # ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
-ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
+ShowDialogAction.8137d5c3bb5b.buttonLabel=확인
 
 # ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=Cancel
-ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=キャンセル
+ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=취소
 
 # ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=Details...
-ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=詳細...
+ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.8137d5c3bb5b.label=
 ShowDialogAction.8137d5c3bb5b.label=
 
 # ShowDialogAction.8137d5c3bb5b.narrative=No Installation action selection, please make a selection!
-ShowDialogAction.8137d5c3bb5b.narrative=インストールアクションが選択されていません。アクションを選択してください。
+ShowDialogAction.8137d5c3bb5b.narrative=설치 작업을 선택하지 않았으므로 선택하십시오!
 
 # ShowDialogAction.8137d5c3bb5b.title=Choose Install Method Problem
-ShowDialogAction.8137d5c3bb5b.title=インストール方法の選択に関する問題
+ShowDialogAction.8137d5c3bb5b.title=설치 방법 선택 문제
 
 # ShowDialogAction.89a741e4b760.buttonLabel=OK
-ShowDialogAction.89a741e4b760.buttonLabel=OK
+ShowDialogAction.89a741e4b760.buttonLabel=확인
 
 # ShowDialogAction.89a741e4b760.cancelButtonLabel=Cancel
-ShowDialogAction.89a741e4b760.cancelButtonLabel=キャンセル
+ShowDialogAction.89a741e4b760.cancelButtonLabel=취소
 
 # ShowDialogAction.89a741e4b760.detailsButtonLabel=Details...
-ShowDialogAction.89a741e4b760.detailsButtonLabel=詳細...
+ShowDialogAction.89a741e4b760.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.89a741e4b760.label=Required Service  Pack not found
-ShowDialogAction.89a741e4b760.label=必要なサービスパックが見つかりません
+ShowDialogAction.89a741e4b760.label=필요 서비스 팩을 찾을 수 없음
 
 # ShowDialogAction.89a741e4b760.narrative=Windows XP 32 bit Service Pack 3 or greater is a requirement for STAR-CCM+.\nPlease update your Windows installation.
-ShowDialogAction.89a741e4b760.narrative=STAR-CCM+には、32ビット版Windows XP Service Pack 3またはそれ以降が必要です。\nご使用のWindowsインストール環境をアップデートしてください。
+ShowDialogAction.89a741e4b760.narrative=STAR-CCM+ 을 위해서 Windows XP 32비트 서비스 팩 3 이상이 필요합니다.\nWindows 설치를 업데이트하십시오.
 
 # ShowDialogAction.89a741e4b760.title=Error
-ShowDialogAction.89a741e4b760.title=エラー
+ShowDialogAction.89a741e4b760.title=오류
 
 # ShowDialogAction.935897e9965b.buttonLabel=Next
-ShowDialogAction.935897e9965b.buttonLabel=次へ
+ShowDialogAction.935897e9965b.buttonLabel=다음
 
 # ShowDialogAction.935897e9965b.cancelButtonLabel=Previous
-ShowDialogAction.935897e9965b.cancelButtonLabel=戻る
+ShowDialogAction.935897e9965b.cancelButtonLabel=이전
 
 # ShowDialogAction.935897e9965b.detailsButtonLabel=Details...
-ShowDialogAction.935897e9965b.detailsButtonLabel=詳細...
+ShowDialogAction.935897e9965b.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.935897e9965b.label=Invalid license file.
-ShowDialogAction.935897e9965b.label=無効なライセンスファイルです
+ShowDialogAction.935897e9965b.label=잘못된 라이선스 파일입니다.
 
 # ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.935897e9965b.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$が変更されています。ポート番号を1999に設定してください。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
+ShowDialogAction.935897e9965b.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 수정되었습니다. 포트 번호를 1999로 설정하십시오.\n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.935897e9965b.title=ERROR
-ShowDialogAction.935897e9965b.title=エラー
+ShowDialogAction.935897e9965b.title=오류
 
 # ShowDialogAction.93e20f13bdfc.buttonLabel=Next
-ShowDialogAction.93e20f13bdfc.buttonLabel=
+ShowDialogAction.93e20f13bdfc.buttonLabel=다음
 
 # ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
-ShowDialogAction.93e20f13bdfc.cancelButtonLabel=
+ShowDialogAction.93e20f13bdfc.cancelButtonLabel=이전
 
 # ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
-ShowDialogAction.93e20f13bdfc.detailsButtonLabel=
+ShowDialogAction.93e20f13bdfc.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
-ShowDialogAction.93e20f13bdfc.label=
+ShowDialogAction.93e20f13bdfc.label=설치 프로그램에서 지정된 라이선스 서버의 문제점을 발견했습니다.
 
 # ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_LMUTIL_NOTFOUND$\n$SERVER2_LMUTIL_NOTFOUND$\n$SERVER3_LMUTIL_NOTFOUND$\n\n$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
 
 # ShowDialogAction.93e20f13bdfc.title=License server problem
-ShowDialogAction.93e20f13bdfc.title=
+ShowDialogAction.93e20f13bdfc.title=라이선스 서버 문제
 
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
-ShowDialogAction.a9b1812d954e.buttonLabel=OK
+ShowDialogAction.a9b1812d954e.buttonLabel=확인
 
 # ShowDialogAction.a9b1812d954e.cancelButtonLabel=Cancel
-ShowDialogAction.a9b1812d954e.cancelButtonLabel=キャンセル
+ShowDialogAction.a9b1812d954e.cancelButtonLabel=취소
 
 # ShowDialogAction.a9b1812d954e.detailsButtonLabel=Details...
-ShowDialogAction.a9b1812d954e.detailsButtonLabel=詳細...
+ShowDialogAction.a9b1812d954e.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.a9b1812d954e.label=File not found.
-ShowDialogAction.a9b1812d954e.label=ファイルが見つかりません。
+ShowDialogAction.a9b1812d954e.label=파일을 찾을 수 없음.
 
 # ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
-ShowDialogAction.a9b1812d954e.narrative=star-inventor.dllが見つかりません。\n\nこのファイルを見つけて、手動で登録してください。
+ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll을 찾을 수 없습니다.\n\n이 파일을 찾아 수동으로 등록하십시오.
 
 # ShowDialogAction.a9b1812d954e.title=STAR-Inventor
 ShowDialogAction.a9b1812d954e.title=STAR-Inventor
 
 # ShowDialogAction.a9b1812e9550.buttonLabel=OK
-ShowDialogAction.a9b1812e9550.buttonLabel=OK
+ShowDialogAction.a9b1812e9550.buttonLabel=확인
 
 # ShowDialogAction.a9b1812e9550.cancelButtonLabel=Cancel
-ShowDialogAction.a9b1812e9550.cancelButtonLabel=キャンセル
+ShowDialogAction.a9b1812e9550.cancelButtonLabel=취소
 
 # ShowDialogAction.a9b1812e9550.detailsButtonLabel=Details...
-ShowDialogAction.a9b1812e9550.detailsButtonLabel=詳細...
+ShowDialogAction.a9b1812e9550.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.a9b1812e9550.label=File not found.\n
-ShowDialogAction.a9b1812e9550.label=ファイルが見つかりません。\n
+ShowDialogAction.a9b1812e9550.label=파일을 찾을 수 없음.\n
 
 # ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx not found.\n\nPlease find this file and register it manually.
-ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocxが見つかりません。\n\nこのファイルを見つけて、手動で登録してください。
+ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx를 찾을 수 없습니다.\n\n이 파일을 찾아서 수동으로 등록하십시오.
 
 # ShowDialogAction.a9b1812e9550.title=STAR-Inventor
 ShowDialogAction.a9b1812e9550.title=STAR-Inventor
 
 # ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
-ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
+ShowDialogAction.c21a9a0faaeb.buttonLabel=확인
 
 # ShowDialogAction.c21a9a0faaeb.cancelButtonLabel=No
-ShowDialogAction.c21a9a0faaeb.cancelButtonLabel=いいえ
+ShowDialogAction.c21a9a0faaeb.cancelButtonLabel=아니요
 
 # ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=Details...
-ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=詳細...
+ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.c21a9a0faaeb.label=Warning
-ShowDialogAction.c21a9a0faaeb.label=警告
+ShowDialogAction.c21a9a0faaeb.label=경고
 
 # ShowDialogAction.c21a9a0faaeb.narrative=To configure STAR-NX, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous STAR-NX version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
-ShowDialogAction.c21a9a0faaeb.narrative=STAR-NXを構成するために、UGII_CUSTOM_DIRECTORY_FILE環境変数を更新します。\n\nこの環境変数は現在次のように設定されています。\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n旧バージョンのSTAR-NXを呼び出すには、UGII_CUSTOM_DIRECTORY_FILE環境変数をこの値に戻してください。
+ShowDialogAction.c21a9a0faaeb.narrative=STAR-NX를 구성하기 위해 UGII_CUSTOM_DIRECTORY_FILE 환경 변수가 업데이트됩니다. \n\n환경 변수가 현재 다음으로 설정되어 있습니다.\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nUGII_CUSTOM_DIRECTORY_FILE 환경 변수를 위에 표시된 값으로 다시 변경하여 이전 STAR-NX 버전을 가져올 수 있습니다.
 
 # ShowDialogAction.c21a9a0faaeb.title=STAR-NX configuration
-ShowDialogAction.c21a9a0faaeb.title=STAR-NXの構成
+ShowDialogAction.c21a9a0faaeb.title=STAR-NX 구성
 
 # ShowDialogAction.c2960d279578.buttonLabel=OK
-ShowDialogAction.c2960d279578.buttonLabel=OK
+ShowDialogAction.c2960d279578.buttonLabel=확인
 
 # ShowDialogAction.c2960d279578.cancelButtonLabel=Cancel
-ShowDialogAction.c2960d279578.cancelButtonLabel=キャンセル
+ShowDialogAction.c2960d279578.cancelButtonLabel=취소
 
 # ShowDialogAction.c2960d279578.detailsButtonLabel=Details...
-ShowDialogAction.c2960d279578.detailsButtonLabel=詳細...
+ShowDialogAction.c2960d279578.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.c2960d279578.label=STAR-CCM+ installation directory not found. 
-ShowDialogAction.c2960d279578.label=STAR-CCM+のインストールディレクトリが見つかりません 
+ShowDialogAction.c2960d279578.label=STAR-CCM+ 설치 디렉터리를 찾지 못함 
 
 # ShowDialogAction.c2960d279578.narrative=Please reselect STAR-CCM+ Installation Directory.
-ShowDialogAction.c2960d279578.narrative=STAR-CCM+のインストールディレクトリを選択し直してください。
+ShowDialogAction.c2960d279578.narrative=STAR-CCM+ 설치 디렉터리를 다시 선택하십시오.
 
 # ShowDialogAction.c2960d279578.title=Directory not found
-ShowDialogAction.c2960d279578.title=ディレクトリが見つかりません
+ShowDialogAction.c2960d279578.title=디렉터리를 찾을 수 없음
 
 # ShowDialogAction.e261f38cb277.buttonLabel=OK
-ShowDialogAction.e261f38cb277.buttonLabel=OK
+ShowDialogAction.e261f38cb277.buttonLabel=확인
 
 # ShowDialogAction.e261f38cb277.cancelButtonLabel=Cancel
-ShowDialogAction.e261f38cb277.cancelButtonLabel=キャンセル
+ShowDialogAction.e261f38cb277.cancelButtonLabel=취소
 
 # ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
-ShowDialogAction.e261f38cb277.detailsButtonLabel=詳細...
+ShowDialogAction.e261f38cb277.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install STAR-CCM+
-ShowDialogAction.e261f38cb277.label=Star-CCM+をインストールするには管理者権限が必要です
+ShowDialogAction.e261f38cb277.label=관리 권한이 있어야 STAR-CCM+를 설치할 수 있습니다.
 
 # ShowDialogAction.e261f38cb277.narrative=Please re-run the STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
-ShowDialogAction.e261f38cb277.narrative=STAR-CCM+インストーラを管理者特権で再度実行するか、NOADMIN=trueオプションを指定してください。
+ShowDialogAction.e261f38cb277.narrative=관리자 권한으로 STAR-CCM+ 설치 프로그램을 다시 실행하거나 NOADMIN=true 옵션을 지정하십시오.
 
 # ShowDialogAction.e261f38cb277.title=Error
-ShowDialogAction.e261f38cb277.title=エラー
+ShowDialogAction.e261f38cb277.title=오류
 
 # ShowDialogAction.f388bcb88e95.buttonLabel=OK
-ShowDialogAction.f388bcb88e95.buttonLabel=OK
+ShowDialogAction.f388bcb88e95.buttonLabel=확인
 
 # ShowDialogAction.f388bcb88e95.cancelButtonLabel=Cancel
-ShowDialogAction.f388bcb88e95.cancelButtonLabel=キャンセル
+ShowDialogAction.f388bcb88e95.cancelButtonLabel=취소
 
 # ShowDialogAction.f388bcb88e95.detailsButtonLabel=Details...
-ShowDialogAction.f388bcb88e95.detailsButtonLabel=詳細...
+ShowDialogAction.f388bcb88e95.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.f388bcb88e95.label=Very long path detected 
-ShowDialogAction.f388bcb88e95.label=非常に長いパスが検出されました
+ShowDialogAction.f388bcb88e95.label=너무 긴 경로가 감지됨 
 
 # ShowDialogAction.f388bcb88e95.narrative=Please review the contents of your PATH environment variable.\n\nPath lengths greater than 2000 characters can cause unexpected behaviour.
-ShowDialogAction.f388bcb88e95.narrative=PATH環境変数の内容を確認してください。\n \nパスの長さが2000文字を超えると、予期せぬ動作を引き起こす可能性があります。
+ShowDialogAction.f388bcb88e95.narrative=PATH 환경 변수의 내용을 검토하십시오.\n\n경로 길이가 2000자를 초과하면 예기치 않은 동작이 발생할 수 있습니다.
 
 # ShowDialogAction.f388bcb88e95.title=Warning
-ShowDialogAction.f388bcb88e95.title=警告
+ShowDialogAction.f388bcb88e95.title=경고
 
 # ShowDialogAction.f71886e6923d.buttonLabel=OK
-ShowDialogAction.f71886e6923d.buttonLabel=OK
+ShowDialogAction.f71886e6923d.buttonLabel=확인
 
 # ShowDialogAction.f71886e6923d.cancelButtonLabel=Cancel
-ShowDialogAction.f71886e6923d.cancelButtonLabel=キャンセル
+ShowDialogAction.f71886e6923d.cancelButtonLabel=취소
 
 # ShowDialogAction.f71886e6923d.detailsButtonLabel=Details...
-ShowDialogAction.f71886e6923d.detailsButtonLabel=詳細...
+ShowDialogAction.f71886e6923d.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
-ShowDialogAction.f71886e6923d.label=Windows修正プログラム(Hotfix)がインストールされていません
+ShowDialogAction.f71886e6923d.label=Windows 핫픽스 설치 안 됨
 
 # ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, STAR-CAT5 integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
-ShowDialogAction.f71886e6923d.narrative=Windows上でWindowsによるCatia統合を可能にするには、Microsoftの修正プログラムが必要です。インストーラによるSTAR-CAT5の統合は行われません。\n \nインストーラによる統合が必要な場合は、インストーラを再度実行する前に次のリンクの指示に従ってください。\n \nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
+ShowDialogAction.f71886e6923d.narrative=Windows에서 Windows를 사용하여 Catia를 통합하려면 Microsoft 핫픽스가 필요하며 설치 프로그램은 STAR-CAT5 통합을 수행하지 않습니다. \n\n설치 프로그램 통합이 필요한 경우 설치 프로그램을 다시 실행하기 전에 아래 링크를 따르십시오. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
-ShowDialogAction.f71886e6923d.title=無効なアクション
+ShowDialogAction.f71886e6923d.title=잘못된 작업
 
 # ShowDialogAction.fc266f0ba2cc.buttonLabel=OK
-ShowDialogAction.fc266f0ba2cc.buttonLabel=OK
+ShowDialogAction.fc266f0ba2cc.buttonLabel=확인
 
 # ShowDialogAction.fc266f0ba2cc.cancelButtonLabel=Cancel
-ShowDialogAction.fc266f0ba2cc.cancelButtonLabel=キャンセル
+ShowDialogAction.fc266f0ba2cc.cancelButtonLabel=취소
 
 # ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=Details...
-ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=詳細...
+ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.fc266f0ba2cc.label=No Administrative Privileges
-ShowDialogAction.fc266f0ba2cc.label=管理者権限がありません
+ShowDialogAction.fc266f0ba2cc.label=관리 권한 없음
 
 # ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
-ShowDialogAction.fc266f0ba2cc.narrative=管理者以外のアカウントでアンインストールを実行することはできません。アンインストールプロセスを中断します。\n管理者権限を持つアカウントでアンインストーラを実行してください
+ShowDialogAction.fc266f0ba2cc.narrative=관리자가 아닌 계정에서 제거를 수행할 수 없으며, 제거 프로세스가 중단됩니다. \n관리자 권한으로 제거 프로그램을 실행하십시오.
 
 # ShowDialogAction.fc266f0ba2cc.title=Error
-ShowDialogAction.fc266f0ba2cc.title=エラー
+ShowDialogAction.fc266f0ba2cc.title=오류
 
 # UninstallCategory.a887e233a9fd.categoryName=Files
-UninstallCategory.a887e233a9fd.categoryName=ファイル
+UninstallCategory.a887e233a9fd.categoryName=파일
 
 # UninstallCategory.a887e233a9fe.categoryName=Shortcuts/Links/Aliases
-UninstallCategory.a887e233a9fe.categoryName=ショートカット/リンク/エイリアス
+UninstallCategory.a887e233a9fe.categoryName=바로 가기/링크/별칭
 
 # UninstallCategory.a887e233a9ff.categoryName=Native Packages
-UninstallCategory.a887e233a9ff.categoryName=ネイティブパッケージ
+UninstallCategory.a887e233a9ff.categoryName=기본 패키지
 
 # UninstallCategory.a887e233aa00.categoryName=Others Category
-UninstallCategory.a887e233aa00.categoryName=その他のカテゴリー
+UninstallCategory.a887e233aa00.categoryName=기타 카테고리
 
 # UninstallCategory.a887e234a9fd.categoryName=LaunchAnywheres
 UninstallCategory.a887e234a9fd.categoryName=LaunchAnywheres
 
 # UninstallCategory.a887e234a9fe.categoryName=Registry Entries
-UninstallCategory.a887e234a9fe.categoryName=レジストリのエントリ
+UninstallCategory.a887e234a9fe.categoryName=레지스트리 항목
 
 # UninstallCategory.a887e234a9ff.categoryName=Folders
-UninstallCategory.a887e234a9ff.categoryName=フォルダ
+UninstallCategory.a887e234a9ff.categoryName=폴더
 
 # UninstallCompleteAction.850018f38458.rebootNotNeededMessage=
 UninstallCompleteAction.850018f38458.rebootNotNeededMessage=
 
 # UninstallCompleteAction.850018f38458.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
-UninstallCompleteAction.850018f38458.rebootRecommendedMessage=アンインストールを完了するにはシステムを再起動する必要があります。
+UninstallCompleteAction.850018f38458.rebootRecommendedMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.850018f38458.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
-UninstallCompleteAction.850018f38458.rebootRequiredMessage=アンインストールを完了するには、システムを再起動する必要があります。
+UninstallCompleteAction.850018f38458.rebootRequiredMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.850018f38458.stepTitle=Uninstall Complete
-UninstallCompleteAction.850018f38458.stepTitle=アンインストール完了
+UninstallCompleteAction.850018f38458.stepTitle=제거 완료
 
 # UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=The following items could not be removed:
-UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=以下の項目は削除できませんでした:
+UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=다음 아이템은 제거하지 못했습니다:
 
 # UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteAction.850018f38458.uninstallSkippedMessage=$PRODUCT_NAME$をアンインストールできません。
+UninstallCompleteAction.850018f38458.uninstallSkippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
 
 # UninstallCompleteAction.850018f38458.uninstallSuccessMessage=All items were successfully uninstalled.
-UninstallCompleteAction.850018f38458.uninstallSuccessMessage=すべての項目が正常にアンインストールされました。
+UninstallCompleteAction.850018f38458.uninstallSuccessMessage=모든 아이템을 성공적으로 제거했습니다.
 
 # UninstallCompleteAction.f37da0eca99c.rebootNotNeededMessage=
 UninstallCompleteAction.f37da0eca99c.rebootNotNeededMessage=
 
 # UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
-UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=アンインストールを完了するにはシステムを再起動する必要があります。
+UninstallCompleteAction.f37da0eca99c.rebootRecommendedMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
-UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=アンインストールを完了するには、システムを再起動する必要があります。
+UninstallCompleteAction.f37da0eca99c.rebootRequiredMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.f37da0eca99c.stepTitle=Uninstall Complete
-UninstallCompleteAction.f37da0eca99c.stepTitle=アンインストール完了
+UninstallCompleteAction.f37da0eca99c.stepTitle=제거 완료
 
 # UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=The following items could not be removed:
-UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=以下の項目は削除できませんでした:
+UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=다음 아이템은 제거하지 못했습니다:
 
 # UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=$PRODUCT_NAME$をアンインストールできません。
+UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
 
 # UninstallCompleteAction.f37da0eca99c.uninstallSuccessMessage=All items were successfully uninstalled.
-UninstallCompleteAction.f37da0eca99c.uninstallSuccessMessage=すべての項目が正常にアンインストールされました。
+UninstallCompleteAction.f37da0eca99c.uninstallSuccessMessage=모든 아이템을 성공적으로 제거했습니다.
 
 # UninstallCompleteAction.fbc110b185a8.rebootNotNeededMessage=
 UninstallCompleteAction.fbc110b185a8.rebootNotNeededMessage=
 
 # UninstallCompleteAction.fbc110b185a8.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
-UninstallCompleteAction.fbc110b185a8.rebootRecommendedMessage=アンインストールを完了するにはシステムを再起動する必要があります。
+UninstallCompleteAction.fbc110b185a8.rebootRecommendedMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
-UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=アンインストールを完了するには、システムを再起動する必要があります。
+UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
 
 # UninstallCompleteAction.fbc110b185a8.stepTitle=Uninstall Complete
-UninstallCompleteAction.fbc110b185a8.stepTitle=アンインストール完了
+UninstallCompleteAction.fbc110b185a8.stepTitle=제거 완료
 
 # UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
-UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=アンインストールを終了しました。\n\n要求に従って、いくつかのファイルは削除されていません。
+UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=제거가 완료되었습니다.\n\n요청한 대로 일부 파일은 제거되지 않았습니다.\n
 
 # UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=$PRODUCT_NAME$をアンインストールできません。
+UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
 
 # UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=All items were successfully uninstalled.
-UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=すべての項目が正常にアンインストールされました。
+UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=모든 아이템을 성공적으로 제거했습니다.
 
 # UninstallCompleteActionConsole.c7e377749840.incompleteMessage=Some items could not be removed.
-UninstallCompleteActionConsole.c7e377749840.incompleteMessage=いくつかの項目は削除できませんでした。
+UninstallCompleteActionConsole.c7e377749840.incompleteMessage=일부 항목은 제거될 수 없었습니다.
 
 # UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
-UninstallCompleteActionConsole.c7e377749840.message=すべての項目が正常にアンインストールされました。
+UninstallCompleteActionConsole.c7e377749840.message=모든 아이템을 성공적으로 제거했습니다.
 
 # UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteActionConsole.c7e377749840.skippedMessage=$PRODUCT_NAME$をアンインストールできません。
+UninstallCompleteActionConsole.c7e377749840.skippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
 
 # UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
-UninstallCompleteActionConsole.c7e377749840.title=アンインストール完了
+UninstallCompleteActionConsole.c7e377749840.title=제거 완료
 
 # UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.13b8c9d9a9bf.message=次の製品をアンインストールします...\n\nFLEXNet $FLEXlmVERSION$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+UninstallIntroAction.13b8c9d9a9bf.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
-UninstallIntroAction.13b8c9d9a9bf.stepTitle=FLEXNetをアンインストール
+UninstallIntroAction.13b8c9d9a9bf.stepTitle=FLEXNet 제거
 
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.31662af6a601.message=次の製品をアンインストールします...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+UninstallIntroAction.31662af6a601.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-UninstallIntroAction.31662af6a601.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
+UninstallIntroAction.31662af6a601.stepTitle=제거 $PRODUCT_NAME$ $WINDOWS_TYPE$
 
 # UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.850018f38454.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+UninstallIntroAction.850018f38454.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-UninstallIntroAction.850018f38454.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$をアンインストール
+UninstallIntroAction.850018f38454.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
-VariablePropertyDataBiDi.127a86b89bbb.propertyName=製品名:
+VariablePropertyDataBiDi.127a86b89bbb.propertyName=제품 이름:
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyValue=FLEXNet $FLEXlmVERSION$
 VariablePropertyDataBiDi.127a86b89bbb.propertyValue=FLEXNet $FLEXlmVERSION$
 
 # VariablePropertyDataBiDi.12d8571c9d5d.propertyName=License servers:
-VariablePropertyDataBiDi.12d8571c9d5d.propertyName=ライセンスサーバー:
+VariablePropertyDataBiDi.12d8571c9d5d.propertyName=라이선스 서버:
 
 # VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
 VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
 
 # VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
-VariablePropertyDataBiDi.2001b0af82af.propertyName=ライセンスサーバー:
+VariablePropertyDataBiDi.2001b0af82af.propertyName=라이선스 서버:
 
 # VariablePropertyDataBiDi.2001b0af82af.propertyValue=$cdadapco_LICENSE_FILE$
 VariablePropertyDataBiDi.2001b0af82af.propertyValue=$cdadapco_LICENSE_FILE$
 
 # VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
-VariablePropertyDataBiDi.2661463ca41b.propertyName=インストールディレクトリ:
+VariablePropertyDataBiDi.2661463ca41b.propertyName=설치 디렉터리:
 
 # VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 
 # VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+のインストールディレクトリ:
+VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ 설치 디렉터리:
 
 # VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 
 # VariablePropertyDataBiDi.5894afd0865b.propertyName=STAR-View+ Installation directory:
-VariablePropertyDataBiDi.5894afd0865b.propertyName=STAR-View+のインストールディレクトリ:
+VariablePropertyDataBiDi.5894afd0865b.propertyName=STAR-View+ 설치 디렉터리:
 
 # VariablePropertyDataBiDi.5894afd0865b.propertyValue=$STARVIEW_DIR$
 VariablePropertyDataBiDi.5894afd0865b.propertyValue=$STARVIEW_DIR$
 
 # VariablePropertyDataBiDi.a133e9478327.propertyName=Product name:
-VariablePropertyDataBiDi.a133e9478327.propertyName=製品名:
+VariablePropertyDataBiDi.a133e9478327.propertyName=제품 이름:
 
 # VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
-VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ 再頒布可能パッケージ
+VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
 
 # VariablePropertyDataBiDi.c2186e908908.propertyName=Product name:
-VariablePropertyDataBiDi.c2186e908908.propertyName=製品名:
+VariablePropertyDataBiDi.c2186e908908.propertyName=제품 이름:
 
 # VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
 VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
 
 # VariablePropertyDataBiDi.c2186e908909.propertyName=License servers:
-VariablePropertyDataBiDi.c2186e908909.propertyName=ライセンスサーバー:
+VariablePropertyDataBiDi.c2186e908909.propertyName=라이선스 서버:
 
 # VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
 VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
 
 # VariablePropertyDataBiDi.c218af608909.propertyName=Installation directory:
-VariablePropertyDataBiDi.c218af608909.propertyName=インストールディレクトリ:
+VariablePropertyDataBiDi.c218af608909.propertyName=설치 디렉터리:
 
 # VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
