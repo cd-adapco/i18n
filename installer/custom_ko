@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Korean (ko)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -56,16 +56,16 @@ ChooseFile.257d8095925b.prompt=라이선스 파일(&F)의 위치를 선택하십
 ChooseFile.257d8095925b.stepTitle=라이선스 파일 선택
 
 # ChooseFile.8571f4d08c44.additionalText=The database file is used by the Resource Server's administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=파일을 선택하십시오.
+ChooseFile.8571f4d08c44.additionalText=데이터베이스 파일은 리소스 서버의 관리자가 시스템 템플릿 및 사용자 인증 데이터(필요한 경우)와 같은 데이터를 저장하는 데 사용됩니다.\n\n생성하고자 하는 데이터베이스 파일의 이름을 입력하십시오.\n\n
 
 # ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
 ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
 
 # ChooseFile.8571f4d08c44.prompt=Please enter the name of the database file
-ChooseFile.8571f4d08c44.prompt=파일 선택(&F):
+ChooseFile.8571f4d08c44.prompt=데이터베이스 파일의 이름을 입력하십시오.
 
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
-ChooseFile.8571f4d08c44.stepTitle=파일 선택
+ChooseFile.8571f4d08c44.stepTitle=데이터베이스 파일 생성
 
 # ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
 ChooseFolder.20805f839cc0.additionalText=$PRODUCT_NAME$이(가) 설치된 위치를 찾으십시오.
@@ -104,16 +104,16 @@ ChooseFolder.3051e252be4c.prompt=폴더(&F)를 선택하십시오.
 ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ 설치 디렉터리
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Resource Server instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=폴더를 선택하십시오.
+ChooseFolder.85678ebc8c0d.additionalText=업그레이드를 위한 소스 역할을 할 기존 리소스 서버 인스턴스를 찾으십시오. 일반적으로 기존의 STAR-CCM+ 설치 디렉터리에서 star/bin 폴더 안에 있습니다.
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
-ChooseFolder.85678ebc8c0d.defaultFile=$DEFAULT_RS_LOC$
+ChooseFolder.85678ebc8c0d.defaultFile=
 
 # ChooseFolder.85678ebc8c0d.prompt=Please Choose a &Folder:
-ChooseFolder.85678ebc8c0d.prompt=폴더 선택(&F):
+ChooseFolder.85678ebc8c0d.prompt=폴더(&F)를 선택하십시오.
 
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing Resource Server location
-ChooseFolder.85678ebc8c0d.stepTitle=폴더 선택
+ChooseFolder.85678ebc8c0d.stepTitle=기존 리소스 서버 위치 선택
 
 # ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
 ChooseFolder.9d52df06814f.additionalText=$SVRoot$이(가) 설치된 위치를 찾으십시오.
@@ -122,7 +122,7 @@ ChooseFolder.9d52df06814f.additionalText=$SVRoot$이(가) 설치된 위치를 �
 ChooseFolder.9d52df06814f.defaultFile=
 
 # ChooseFolder.9d52df06814f.prompt=Please Locate $REGISTRY_SV_NAME$ installation:
-ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$ 설치 위치를 찾으십시오.
+ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$ 설치를 찾으십시오.
 
 # ChooseFolder.9d52df06814f.stepTitle=Locate $REGISTRY_SV_NAME$ installation 
 ChooseFolder.9d52df06814f.stepTitle=$REGISTRY_SV_NAME$ 설치 찾기 
@@ -179,7 +179,7 @@ CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Wi
 CreateShortcut.52790dd5b2ad.workingDir=
 
 # CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
-CreateShortcut.99bc43ee8cd9.args=
+CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
 
 # CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.99bc43ee8cd9.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
@@ -188,7 +188,7 @@ CreateShortcut.99bc43ee8cd9.destinationName=릴리스 노트 ($STARCCMPLUS_VERSI
 CreateShortcut.99bc43ee8cd9.workingDir=
 
 # CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
-CreateShortcut.9d61b24aac76.args=
+CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
@@ -197,7 +197,7 @@ CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 ($STARCCMPLUS_VERSI
 CreateShortcut.9d61b24aac76.workingDir=
 
 # CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
-CreateShortcut.9d83036eb16c.args=
+CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
@@ -206,7 +206,7 @@ CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 ($STARCCMPLUS_VERSI
 CreateShortcut.9d83036eb16c.workingDir=
 
 # CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
-CreateShortcut.aaff513c82ba.args=
+CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
 
 # CreateShortcut.aaff513c82ba.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.aaff513c82ba.destinationName=릴리스 노트 ($STARCCMPLUS_VERSION$)
@@ -341,7 +341,7 @@ EntryAtomBiDi.66117b82a1fc.label=지금 서버 중지
 Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=원격 실행 서비스 제거 중...
@@ -377,7 +377,7 @@ ExecuteScript.06591fce9298.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$ 설치 중
 ExecuteScript.0940ccbdab96.dialogLabel=STAR-CCM+$STARCCMPLUS_VERSION$ 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.21134412bda6.dialogLabel=Installing $SVR_Root$ ..Please wait a moment
-ExecuteScript.21134412bda6.dialogLabel=$SVR_Root$ 설치 중..잠시 기다려 주십시오.
+ExecuteScript.21134412bda6.dialogLabel=$SVR_Root$ 설치 중 ..잠시 기다려 주십시오.
 
 # ExecuteScript.3c94df4cb29e.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.3c94df4cb29e.dialogLabel=STAR-NX 설치 중..잠시 기다려 주십시오.
@@ -434,7 +434,7 @@ ExecuteScript.fdb96d13acca.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 �
 ExecuteScript.fdb98cefacca.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.07762bd5ba98.prompt=$REGISTRY_SVR_NAME$를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
+GetUserInput.07762bd5ba98.prompt=$REGISTRY_SVR_NAME$을(를) 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=추가 작업 선택
@@ -506,7 +506,7 @@ GetUserInput.4202184d8cb4.prompt=지금 FLEXlm 라이선스 관리자를 제거�
 GetUserInput.4202184d8cb4.title=FLEX 라이선스 관리자 제거
 
 # GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.4eb74413ba93.prompt=$REGISTRY_SV_NAME$를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
+GetUserInput.4eb74413ba93.prompt=$REGISTRY_SV_NAME$을(를) 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=추가 작업 선택
@@ -530,34 +530,34 @@ GetUserInput.8209d5e08fc6.prompt=STAR-CCM+를 설치하는 동안 설치 프로�
 GetUserInput.8209d5e08fc6.title=추가 작업 선택
 
 # GetUserInput.856fd80c8c32.prompt=Users of Resource Server must have an account on the operating system. Resource Server is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=요청된 정보 입력
+GetUserInput.856fd80c8c32.prompt=리소스 서버 사용자는 운영 체제에 계정이 있어야 합니다. 리소스 서버는 자체 데이터베이스에서 사용자들에 대해 저장된 암호를 사용하여 인증할 수 있습니다. 또는 운영 체제에 인증을 위임할 수 있습니다. \n\n어떤 방법을 사용하겠습니까?
 
 # GetUserInput.856fd80c8c32.title=Resource Server Configuration
-GetUserInput.856fd80c8c32.title=사용자 입력 가져오기
+GetUserInput.856fd80c8c32.title=리소스 서버 구성
 
 # GetUserInput.8575cd2c96c8.prompt=Please enter information about where the Resource Server will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the Resource Server. \n\n
-GetUserInput.8575cd2c96c8.prompt=요청된 정보 입력
+GetUserInput.8575cd2c96c8.prompt=리소스 서버가 실행될 위치에 대한 정보를 입력하십시오.\n\n리소스 서버에 연결하려는 클라이언트에서 호스트 이름을 확인할 수 있어야합니다. \n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
-GetUserInput.8575cd2c96c8.title=사용자 입력 가져오기
+GetUserInput.8575cd2c96c8.title=서버 선택
 
 # GetUserInput.85775f8d96d5.prompt=Please enter the Login Node and the Resource Group Name
-GetUserInput.85775f8d96d5.prompt=요청된 정보 입력
+GetUserInput.85775f8d96d5.prompt=로그인 노드 및 리소스 그룹 이름을 입력하십시오.
 
 # GetUserInput.85775f8d96d5.title=Login Node Name
-GetUserInput.85775f8d96d5.title=사용자 입력 가져오기
+GetUserInput.85775f8d96d5.title=로그인 노드 이름
 
 # GetUserInput.8578411b96e0.prompt=Please select the SSL Certificate and Private Key to be used by Resource Server
-GetUserInput.8578411b96e0.prompt=요청된 정보 입력
+GetUserInput.8578411b96e0.prompt=리소스 서버에서 사용할 SSL 인증서와 개인 키를 선택하십시오.
 
 # GetUserInput.8578411b96e0.title=SSL certificate selection
-GetUserInput.8578411b96e0.title=사용자 입력 가져오기
+GetUserInput.8578411b96e0.title=SSL 인증서 선택
 
 # GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer Resource Server:
-GetUserInput.8fe4e9e8b4a1.prompt=요청된 정보 입력
+GetUserInput.8fe4e9e8b4a1.prompt=리소스 서버를 관리할 계정의 사용자 이름을 입력하십시오.
 
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
-GetUserInput.8fe4e9e8b4a1.title=사용자 입력 가져오기
+GetUserInput.8fe4e9e8b4a1.title=관리 사용자 이름
 
 # GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=CD-adapco는 Power on Demand 서버 또는 로컬 라이선스 서버를 통해 \n라이선스를 제공합니다. \n\n사용하고자 하는 라이선스 방법을 선택하십시오.
@@ -571,14 +571,14 @@ GetUserInput.c58f4202a8ce.prompt=STAR-CCM+를 설치하는 동안 설치 프로�
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=추가 작업 선택
 
-# GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:\n\n
-GetUserInput.e821a5059d90.prompt=CD-adapco 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$을(를) 사용하여 제품의 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어가 로컬(이 컴퓨터) 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다. 필요한 경우 Power on Demand 서버를 라이선스 서버로 구성할 수도 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.\n\n
+# GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e821a5059d90.prompt=CD-adapco 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$을(를) 사용하여 제품의 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어가 로컬(이 컴퓨터) 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다.  필요한 경우 Power on Demand 서버를 라이선스 서버로 구성할 수도 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=라이선스 유형 선택
 
 # GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$를 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
+GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$을(를) 설치하는 동안 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=추가 작업 선택
@@ -671,7 +671,7 @@ GUIComponentData.229a23b6be60.label=현재 사용자 전용 바로 가기 만들
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
 # GUIComponentData.2469fbd4a625.label=Create file associations for STAR-CCM+ VR file
-GUIComponentData.2469fbd4a625.label=
+GUIComponentData.2469fbd4a625.label=STAR-CCM+ VR 파일에 대한 파일 연결 생성
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
@@ -823,65 +823,65 @@ GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
 # GUIComponentData.8209d5e18fc9.label=Create a desktop icon
 GUIComponentData.8209d5e18fc9.label=데스크탑 아이콘 생성
 
-# GUIComponentData.a541337987b0.defaultValue=Selected
-GUIComponentData.a541337987b0.defaultValue=Selected
+# GUIComponentData.857693fb96d1.defaultValue=
+GUIComponentData.857693fb96d1.defaultValue=
 
 # GUIComponentData.857693fb96d1.label=Hostname
-GUIComponentData.857693fb96d1.label=
+GUIComponentData.857693fb96d1.label=호스트 이름
 
 # GUIComponentData.8576994396d1.defaultValue=8085
 GUIComponentData.8576994396d1.defaultValue=8085
 
 # GUIComponentData.8576994396d1.label=Port Number
-GUIComponentData.8576994396d1.label=
+GUIComponentData.8576994396d1.label=포트 번호
 
 # GUIComponentData.8578c06b96e9.defaultValue=cert.pem
-GUIComponentData.8578c06b96e9.defaultValue=
+GUIComponentData.8578c06b96e9.defaultValue=cert.pem
 
 # GUIComponentData.8578c06b96e9.label=SSL Certificate
-GUIComponentData.8578c06b96e9.label=
+GUIComponentData.8578c06b96e9.label=SSL 인증서
 
 # GUIComponentData.8578c23396e9.defaultValue=key.pem
-GUIComponentData.8578c23396e9.defaultValue=
+GUIComponentData.8578c23396e9.defaultValue=key.pem
 
 # GUIComponentData.8578c23396e9.label=SSL Private Key
-GUIComponentData.8578c23396e9.label=
+GUIComponentData.8578c23396e9.label=SSL 개인 키
 
 # GUIComponentData.857a41eba144.defaultValue=
 GUIComponentData.857a41eba144.defaultValue=
 
 # GUIComponentData.857a41eba144.label=Resource Group Name
-GUIComponentData.857a41eba144.label=
+GUIComponentData.857a41eba144.label=리소스 그룹 이름
 
 # GUIComponentData.8fe1749ab49d.defaultValue=Selected
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
 # GUIComponentData.8fe1749ab49d.label=Configure new Resource Server
-GUIComponentData.8fe1749ab49d.label=
+GUIComponentData.8fe1749ab49d.label=새 리소스 서버 구성
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe180d9b49d.label=Upgrade existing Resource Server
-GUIComponentData.8fe180d9b49d.label=
+GUIComponentData.8fe180d9b49d.label=기존 리소스 서버 업그레이드
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 
 # GUIComponentData.8fe1ee61b49d.label=Using operating system authentication
-GUIComponentData.8fe1ee61b49d.label=
+GUIComponentData.8fe1ee61b49d.label=운영 체제 인증 사용
 
 # GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
 GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe24b41b49d.label=Using internal authentication
-GUIComponentData.8fe24b41b49d.label=
+GUIComponentData.8fe24b41b49d.label=내부 인증 사용
 
 # GUIComponentData.8fe4e9eab4a2.defaultValue=
 GUIComponentData.8fe4e9eab4a2.defaultValue=
 
 # GUIComponentData.8fe4e9eab4a2.label=Admin User Name
-GUIComponentData.8fe4e9eab4a2.label=
+GUIComponentData.8fe4e9eab4a2.label=관리 사용자 이름
 
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
@@ -889,17 +889,17 @@ GUIComponentData.b80bfad59d4c.defaultValue=Selected
 # GUIComponentData.b80bfad59d4c.label=Local: Configure this machine to access local license server
 GUIComponentData.b80bfad59d4c.label=로컬: 로컬 라이선스 서버에 액세스하도록 이 시스템 구성
 
+# GUIComponentData.c2e945c0810a.defaultValue=$HOST$
+GUIComponentData.c2e945c0810a.defaultValue=$HOST$
+
+# GUIComponentData.c2e945c0810a.label=Login Node
+GUIComponentData.c2e945c0810a.label=로그인 노드
+
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
 GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=응용 프로그램 디렉터리를 시스템 경로에 추가
-
-# GUIComponentData.e6e769628c38.defaultValue=$HOST$
-GUIComponentData.e6e769628c38.defaultValue=$HOST$
-
-# GUIComponentData.e6e769628c38.label=Login Node
-GUIComponentData.e6e769628c38.label=
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
@@ -1012,11 +1012,11 @@ GUIGroupData.8fe4e9e9b4a2.caption=
 # GUIGroupData.a5412c2687af.caption=
 GUIGroupData.a5412c2687af.caption=
 
+# GUIGroupData.c2e945bf810a.caption=
+GUIGroupData.c2e945bf810a.caption=
+
 # GUIGroupData.c58f4203a8d1.caption=
 GUIGroupData.c58f4203a8d1.caption=
-
-# GUIGroupData.e6e769618c38.caption=
-GUIGroupData.e6e769618c38.caption=
 
 # GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.e82310a19e2b.caption=
@@ -1037,13 +1037,13 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=이 기능은 STAR-CCM+ 패키지 실행에 필요한 모든 파일을 설치합니다.
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=축하합니다.\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
+InstallCompleteActionConsole.7317fed1a37e.message=축하합니다.\n\n$PRODUCT_NAME$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=설치 완료
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=축하합니다.\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
+InstallCompleteActionConsole.bd89f531898a.message=축하합니다.\n\n$PRODUCT_NAME$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 STAR-CCM+(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=설치 완료
@@ -1127,13 +1127,13 @@ Installer.850018e38424.installLabels.01=설치 방법 선택
 Installer.850018e38424.installLabels.02=설치 중...
 
 # Installer.850018e38424.installLabels.03=Configure Components
-Installer.850018e38424.installLabels.03=사전 설치 요약
+Installer.850018e38424.installLabels.03=구성 요소 구성
 
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=사전 설치 요약
 
 # Installer.850018e38424.installLabels.05=Choose License Type
-Installer.850018e38424.installLabels.05=사용자 입력 가져오기
+Installer.850018e38424.installLabels.05=라이선스 유형 선택
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=설치 완료
@@ -1151,52 +1151,52 @@ Installer.850018e38424.installLabels.09=라이선스 설정
 Installer.850018e38424.installLabels.10=구성 요소 선택
 
 # Installer.850018e38424.installLabels.11=Create database file
-Installer.850018e38424.installLabels.11=파일 선택
+Installer.850018e38424.installLabels.11=데이터베이스 파일 생성
 
 # Installer.850018e38424.installLabels.12=Server selection
-Installer.850018e38424.installLabels.12=사용자 입력 가져오기
+Installer.850018e38424.installLabels.12=서버 선택
 
 # Installer.850018e38424.installLabels.13=Admin user name
-Installer.850018e38424.installLabels.13=사용자 입력 가져오기
+Installer.850018e38424.installLabels.13=관리 사용자 이름
 
 # Installer.850018e38424.installLabels.14=Resource Group Name
-Installer.850018e38424.installLabels.14=사용자 입력 가져오기
+Installer.850018e38424.installLabels.14=리소스 그룹 이름
 
 # Installer.850018e38424.installLabels.15=SSL certificate selection
-Installer.850018e38424.installLabels.15=사용자 입력 가져오기
+Installer.850018e38424.installLabels.15=SSL 인증서 선택
 
 # Installer.850018e38424.installLabels.16=FlexNet client Configuration 
-Installer.850018e38424.installLabels.16=사용자 입력 가져오기
+Installer.850018e38424.installLabels.16=FlexNet 클라이언트 구성 
 
 # Installer.850018e38424.installLabels.17=Locate $REGISTRY_SV_NAME$ installation 
-Installer.850018e38424.installLabels.17=폴더 선택
+Installer.850018e38424.installLabels.17=$REGISTRY_SV_NAME$ 설치 찾기 
 
 # Installer.850018e38424.installLabels.18=FlexNet License Server Configuration
-Installer.850018e38424.installLabels.18=사용자 입력 가져오기
+Installer.850018e38424.installLabels.18=FlexNet 라이선스 서버 구성
 
 # Installer.850018e38424.installLabels.19=Select license file
-Installer.850018e38424.installLabels.19=파일 선택
+Installer.850018e38424.installLabels.19=라이선스 파일 선택
 
 # Installer.850018e38424.installLabels.20=Service Configuration 
-Installer.850018e38424.installLabels.20=사용자 입력 가져오기
+Installer.850018e38424.installLabels.20=서비스 구성 
 
 # Installer.850018e38424.installLabels.21=Select Install Location
-Installer.850018e38424.installLabels.21=설치 폴더 선택
+Installer.850018e38424.installLabels.21=설치 위치 선택
 
 # Installer.850018e38424.installLabels.22=Select Installation Location
-Installer.850018e38424.installLabels.22=설치 폴더 선택
+Installer.850018e38424.installLabels.22=설치 위치 선택
 
 # Installer.850018e38424.installLabels.23=Select existing Resource Server location
-Installer.850018e38424.installLabels.23=폴더 선택
+Installer.850018e38424.installLabels.23=기존 리소스 서버 위치 선택
 
 # Installer.850018e38424.installLabels.24=Select Installation Location
-Installer.850018e38424.installLabels.24=설치 폴더 선택
+Installer.850018e38424.installLabels.24=설치 위치 선택
 
 # Installer.850018e38424.installLabels.25=STAR-CCM+ Installation Version
-Installer.850018e38424.installLabels.25=사용자 입력 가져오기
+Installer.850018e38424.installLabels.25=STAR-CCM+ 설치 버전
 
 # Installer.850018e38424.installLabels.26=STAR-CCM+ Installation Directory
-Installer.850018e38424.installLabels.26=폴더 선택
+Installer.850018e38424.installLabels.26=STAR-CCM+ 설치 디렉터리
 
 # Installer.850018e38424.installProgressImageName=introImage.png
 Installer.850018e38424.installProgressImageName=introImage.png
@@ -1388,7 +1388,7 @@ InstallMethod.Express1=이 옵션을 선택하면 모든 STAR-CCM+ 기능 및 �
 InstallMethod.Express2=구성 요소가 설치됩니다.
 
 # InstallMethod.Express3=It will also install the license manager using default settings.     
-InstallMethod.Express3=또한 기본 설정을 사용하여 라이선스 관리자를 설치합니다.                        
+InstallMethod.Express3=또한 기본 설정을 사용하여 라이선스 관리자를 설치합니다.     
 
 # InstallMethod.Express4=This is the recommended option for most users.
 InstallMethod.Express4=이것은 대부분의 사용자를 위해 권장되는 옵션입니다.
@@ -1502,7 +1502,7 @@ IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Ko.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1514,7 +1514,7 @@ LicenseAgrAction.43ff93b98f68.stepPrompt=
 LicenseAgrAction.43ff93b98f68.title=라이선스 참고사항
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Ko.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -1876,6 +1876,24 @@ ShowDialogAction.064a5d7084f3.narrative=디스크 공간이 충분하지 않습�
 # ShowDialogAction.064a5d7084f3.title=Warning
 ShowDialogAction.064a5d7084f3.title=경고
 
+# ShowDialogAction.0be7f1f1a400.buttonLabel=Next
+ShowDialogAction.0be7f1f1a400.buttonLabel=다음
+
+# ShowDialogAction.0be7f1f1a400.cancelButtonLabel=Previous
+ShowDialogAction.0be7f1f1a400.cancelButtonLabel=이전
+
+# ShowDialogAction.0be7f1f1a400.detailsButtonLabel=Details...
+ShowDialogAction.0be7f1f1a400.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.0be7f1f1a400.label=The installer discovered problems with the specified license servers.
+ShowDialogAction.0be7f1f1a400.label=설치 프로그램에서 지정된 라이선스 서버의 문제점을 발견했습니다.
+
+# ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+
+# ShowDialogAction.0be7f1f1a400.title=License server problem
+ShowDialogAction.0be7f1f1a400.title=라이선스 서버 문제
+
 # ShowDialogAction.114a717da032.buttonLabel=OK
 ShowDialogAction.114a717da032.buttonLabel=확인
 
@@ -1904,10 +1922,10 @@ ShowDialogAction.160d0e4ab6a5.cancelButtonLabel=아니요
 ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.160d0e4ab6a5.label=$REGISTRY_SVR_NAME$ Installation Found
-ShowDialogAction.160d0e4ab6a5.label=$REGISTRY_SVR_NAME$ 설치 찾음
+ShowDialogAction.160d0e4ab6a5.label=$REGISTRY_SVR_NAME$ 설치 발견
 
 # ShowDialogAction.160d0e4ab6a5.narrative=The solver component  ($REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine in:\n$SVR_PREINST_VER$\nDo you want to install the $REGISTRY_SVR_NAME$ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=
+ShowDialogAction.160d0e4ab6a5.narrative=솔버 구성 요소($REGISTRY_SVR_NAME$$STARVR_VERSION$)가 이 컴퓨터에 이전에 설치된 것으로 보입니다.\n$SVR_PREINST_VER$\n$REGISTRY_SVR_NAME$ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=경고
@@ -2038,24 +2056,6 @@ ShowDialogAction.3a2299d587bc.narrative=설치 프로그램이 라이선스 서�
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
 ShowDialogAction.3a2299d587bc.title=경고: 라이선스 서버
 
-# ShowDialogAction.3bf5bd2883d0.buttonLabel=OK
-ShowDialogAction.3bf5bd2883d0.buttonLabel=확인
-
-# ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=Cancel
-ShowDialogAction.3bf5bd2883d0.cancelButtonLabel=취소
-
-# ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=Details...
-ShowDialogAction.3bf5bd2883d0.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.3bf5bd2883d0.label=Invalid Port@Host Entered
-ShowDialogAction.3bf5bd2883d0.label=잘못된 Port@Host 입력됨
-
-# ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
-ShowDialogAction.3bf5bd2883d0.narrative=$ERR_OUT_STRING$
-
-# ShowDialogAction.3bf5bd2883d0.title=Invalid Input
-ShowDialogAction.3bf5bd2883d0.title=잘못된 입력
-
 # ShowDialogAction.5f17661a83c5.buttonLabel=Yes
 ShowDialogAction.5f17661a83c5.buttonLabel=예
 
@@ -2128,6 +2128,24 @@ ShowDialogAction.653c263b9ee1.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$�
 # ShowDialogAction.653c263b9ee1.title=ERROR
 ShowDialogAction.653c263b9ee1.title=오류
 
+# ShowDialogAction.684ff5beac22.buttonLabel=OK
+ShowDialogAction.684ff5beac22.buttonLabel=확인
+
+# ShowDialogAction.684ff5beac22.cancelButtonLabel=Cancel
+ShowDialogAction.684ff5beac22.cancelButtonLabel=취소
+
+# ShowDialogAction.684ff5beac22.detailsButtonLabel=Details...
+ShowDialogAction.684ff5beac22.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.684ff5beac22.label=Invalid Port@Host Entered
+ShowDialogAction.684ff5beac22.label=잘못된 Port@Host 입력됨
+
+# ShowDialogAction.684ff5beac22.narrative=$ERR_OUT_STRING$
+ShowDialogAction.684ff5beac22.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.684ff5beac22.title=Invalid Input
+ShowDialogAction.684ff5beac22.title=잘못된 입력
+
 # ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
 ShowDialogAction.7dc4c98fb7ea.buttonLabel=확인
 
@@ -2156,10 +2174,10 @@ ShowDialogAction.7e4d4aee9257.cancelButtonLabel=아니요
 ShowDialogAction.7e4d4aee9257.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.7e4d4aee9257.label=$REGISTRY_SV_NAME$ Installation Found
-ShowDialogAction.7e4d4aee9257.label=$REGISTRY_SV_NAME$ 설치 찾음
+ShowDialogAction.7e4d4aee9257.label=$REGISTRY_SV_NAME$ 설치 발견
 
 # ShowDialogAction.7e4d4aee9257.narrative=The solver component  ($REGISTRY_SV_NAME$ $STARVIEW_VERSION$) appears to have been previously installed on this machine in:\n$SVPREINST_VER$\nDo you want to install the $REGISTRY_SV_NAME$ component again?
-ShowDialogAction.7e4d4aee9257.narrative=솔버 구성 요소($REGISTRY_SV_NAME$ $STARVIEW_VERSION$)가 이 컴퓨터에 이전에 설치된 것으로 보입니다.\n$SVPREINST_VER$\n$REGISTRY_SV_NAME$ 구성 요소를 다시 설치하시겠습니까?
+ShowDialogAction.7e4d4aee9257.narrative=솔버 구성 요소($REGISTRY_SV_NAME$$STARVIEW_VERSION$)가 이 컴퓨터에 이전에 설치된 것으로 보입니다.\n$SVPREINST_VER$\n$REGISTRY_SV_NAME$ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=경고
@@ -2237,7 +2255,7 @@ ShowDialogAction.8137d5c3bb5b.narrative=설치 작업을 선택하지 않았으�
 ShowDialogAction.8137d5c3bb5b.title=설치 방법 선택 문제
 
 # ShowDialogAction.85b5743ab480.buttonLabel=OK
-ShowDialogAction.85b5743ab480.buttonLabel=OK
+ShowDialogAction.85b5743ab480.buttonLabel=확인
 
 # ShowDialogAction.85b5743ab480.cancelButtonLabel=Cancel
 ShowDialogAction.85b5743ab480.cancelButtonLabel=취소
@@ -2249,7 +2267,7 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=세부 정보...
 ShowDialogAction.85b5743ab480.label=선택된 구성 요소 없음
 
 # ShowDialogAction.85b5743ab480.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=
+ShowDialogAction.85b5743ab480.narrative=모든 STAR-CCM+ 구성 요소의 선택을 취소했습니다. \n확인을 누르면 구성 요소 선택 다이얼로그로 돌아갑니다.\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=경고
@@ -2289,24 +2307,6 @@ ShowDialogAction.935897e9965b.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$�
 
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=오류
-
-# ShowDialogAction.93e20f13bdfc.buttonLabel=Next
-ShowDialogAction.93e20f13bdfc.buttonLabel=다음
-
-# ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
-ShowDialogAction.93e20f13bdfc.cancelButtonLabel=이전
-
-# ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
-ShowDialogAction.93e20f13bdfc.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
-ShowDialogAction.93e20f13bdfc.label=설치 프로그램에서 지정된 라이선스 서버의 문제점을 발견했습니다.
-
-# ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
-ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
-
-# ShowDialogAction.93e20f13bdfc.title=License server problem
-ShowDialogAction.93e20f13bdfc.title=라이선스 서버 문제
 
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=확인
@@ -2399,7 +2399,7 @@ ShowDialogAction.e261f38cb277.narrative=관리자 권한으로 STAR-CCM+ 설치 
 ShowDialogAction.e261f38cb277.title=오류
 
 # ShowDialogAction.eeefa11b9c37.buttonLabel=OK
-ShowDialogAction.eeefa11b9c37.buttonLabel=OK
+ShowDialogAction.eeefa11b9c37.buttonLabel=확인
 
 # ShowDialogAction.eeefa11b9c37.cancelButtonLabel=Cancel
 ShowDialogAction.eeefa11b9c37.cancelButtonLabel=취소
@@ -2408,7 +2408,7 @@ ShowDialogAction.eeefa11b9c37.cancelButtonLabel=취소
 ShowDialogAction.eeefa11b9c37.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.eeefa11b9c37.label=<Enter the dialog label here>
-ShowDialogAction.eeefa11b9c37.label=
+ShowDialogAction.eeefa11b9c37.label=<여기에 다이얼로그 레이블 입력>
 
 # ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
 ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
@@ -2622,22 +2622,3 @@ VariablePropertyDataBiDi.a133e9478327.propertyName=제품 이름:
 
 # VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
 VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
-
-# VariablePropertyDataBiDi.c2186e908908.propertyName=Product name:
-VariablePropertyDataBiDi.c2186e908908.propertyName=제품 이름:
-
-# VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
-VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
-
-# VariablePropertyDataBiDi.c2186e908909.propertyName=License servers:
-VariablePropertyDataBiDi.c2186e908909.propertyName=라이선스 서버:
-
-# VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
-VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
-
-# VariablePropertyDataBiDi.c218af608909.propertyName=Installation directory:
-VariablePropertyDataBiDi.c218af608909.propertyName=설치 디렉터리:
-
-# VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-
