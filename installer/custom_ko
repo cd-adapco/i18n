@@ -122,7 +122,7 @@ ChooseFolder.9d52df06814f.additionalText=$SVRoot$이(가) 설치된 위치를 �
 ChooseFolder.9d52df06814f.defaultFile=
 
 # ChooseFolder.9d52df06814f.prompt=Please Locate $REGISTRY_SV_NAME$ installation:
-ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$ 설치를 찾으십시오.
+ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$ 설치 확인하세요
 
 # ChooseFolder.9d52df06814f.stepTitle=Locate $REGISTRY_SV_NAME$ installation 
 ChooseFolder.9d52df06814f.stepTitle=$REGISTRY_SV_NAME$ 설치 찾기 
@@ -137,7 +137,7 @@ CreateDialog.29fccfaca483.title=서버 중지
 CreateShortcut.2dca96238e95.args=
 
 # CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.2dca96238e95.destinationName=윈도우용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2dca96238e95.workingDir=
@@ -146,7 +146,7 @@ CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -155,7 +155,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de4337e8b03.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -1367,7 +1367,7 @@ InstallFrameConfigurator.850018f38449.uninstallerTitle=제거
 InstallMethod.Custom=사용자 지정(고급)
 
 # InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
-InstallMethod.Custom1=이 옵션을 선택하면 사용자가 어떤 STAR-CCM+   
+InstallMethod.Custom1=이 옵션을 선택하면 사용자가 어떤 STAR-CCM+을 고를 수 있다.   
 
 # InstallMethod.Custom2=features and related components will be installed.This option will
 InstallMethod.Custom2=기능 및 관련 구성 요소를 설치할 것인지를 선택할 수 있습니다.이 옵션은
@@ -1382,7 +1382,7 @@ InstallMethod.Custom4=이것은 고급 사용자를 위해 권장되는 옵션�
 InstallMethod.Express=Express(권장됨)
 
 # InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
-InstallMethod.Express1=이 옵션을 선택하면 모든 STAR-CCM+ 기능 및 관련
+InstallMethod.Express1=이 옵션을 선택하면 모든 STAR-CCM+ 기능을 설치할 수 있다.
 
 # InstallMethod.Express2=components.
 InstallMethod.Express2=구성 요소가 설치됩니다.
@@ -1481,19 +1481,19 @@ InstallType.Type7=실행할 FLEXNet 관리자를 설치 및 구성하십시오.
 InstallUninstaller.85001a1b8498.destinationName=Uninstall
 
 # IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dc1e698d4b.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+IntroActionConsole.c7dc1e698d4b.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
 IntroActionConsole.c7dc1e698d4b.title=FLEXNet 제거
 
 # IntroActionConsole.c7dee180948f.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7dee180948f.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+IntroActionConsole.c7dee180948f.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # IntroActionConsole.c7dee180948f.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7dee180948f.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 
 # IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+IntroActionConsole.c7e016579491.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # IntroActionConsole.c7e016579491.title=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
@@ -2564,19 +2564,19 @@ UninstallCompleteActionConsole.c7e377749840.skippedMessage=$PRODUCT_NAME$을(를
 UninstallCompleteActionConsole.c7e377749840.title=제거 완료
 
 # UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.13b8c9d9a9bf.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+UninstallIntroAction.13b8c9d9a9bf.message=곧 제거합니다...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
 UninstallIntroAction.13b8c9d9a9bf.stepTitle=FLEXNet 제거
 
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.31662af6a601.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+UninstallIntroAction.31662af6a601.message=곧 제거합니다...\n\nSTAR-CAD $CAD_VERSION$  $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # UninstallIntroAction.31662af6a601.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
-UninstallIntroAction.31662af6a601.stepTitle=제거 $PRODUCT_NAME$ $WINDOWS_TYPE$
+UninstallIntroAction.31662af6a601.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 
 # UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.850018f38454.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다.취소를 선택하여 제거를 종료합니다.
+UninstallIntroAction.850018f38454.message=곧 제거합니다...\n\n$PRODUCT_NAME$ $WINDOWS_TYPE$\n\nInstallAnywhere에 의해 설치된 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $PRODUCT_NAME$ $WINDOWS_TYPE$
 UninstallIntroAction.850018f38454.stepTitle=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
