@@ -296,7 +296,7 @@ CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Win
 CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=インストール完了
@@ -1316,7 +1316,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
