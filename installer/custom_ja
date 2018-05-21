@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -56,16 +56,16 @@ ChooseFile.257d8095925b.prompt=ライセンスファイルの場所を選択し�
 ChooseFile.257d8095925b.stepTitle=ライセンスファイルを選択
 
 # ChooseFile.8571f4d08c44.additionalText=The database file is used by the Resource Server's administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=ファイルを選択してください。
+ChooseFile.8571f4d08c44.additionalText=データベースファイルは、(必要に応じて)システムテンプレートやユーザー認証データなどのデータを保存するために、Resource Serverの管理者によって使用されます。\n\n作成するデータベースファイルの名前を入力してください。\n\n
 
 # ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
 ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
 
 # ChooseFile.8571f4d08c44.prompt=Please enter the name of the database file
-ChooseFile.8571f4d08c44.prompt=ファイルを選択してください(&F):
+ChooseFile.8571f4d08c44.prompt=データベースファイルの名前を入力してください
 
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
-ChooseFile.8571f4d08c44.stepTitle=ファイルを選択
+ChooseFile.8571f4d08c44.stepTitle=データベースファイルを作成
 
 # ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
 ChooseFolder.20805f839cc0.additionalText=$PRODUCT_NAME$をインストールする場所を選択してください。
@@ -104,16 +104,16 @@ ChooseFolder.3051e252be4c.prompt=フォルダを選択してください(&F):
 ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+のインストールディレクトリ
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Resource Server instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=フォルダーを選択してください。
+ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存のResource Serverインスタンスを選択してください。通常は、star/binフォルダにある既存のSTAR-CCM+インストールディレクトリにあります。
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
-ChooseFolder.85678ebc8c0d.defaultFile=$DEFAULT_RS_LOC$
+ChooseFolder.85678ebc8c0d.defaultFile=
 
 # ChooseFolder.85678ebc8c0d.prompt=Please Choose a &Folder:
-ChooseFolder.85678ebc8c0d.prompt=フォルダーを選択してください (&F):
+ChooseFolder.85678ebc8c0d.prompt=フォルダを選択してください(&F):
 
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing Resource Server location
-ChooseFolder.85678ebc8c0d.stepTitle=フォルダーを選択
+ChooseFolder.85678ebc8c0d.stepTitle=既存のResource Serverの場所を選択します
 
 # ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
 ChooseFolder.9d52df06814f.additionalText=$SVRoot$をインストールする場所を選択してください。
@@ -122,10 +122,10 @@ ChooseFolder.9d52df06814f.additionalText=$SVRoot$をインストールする場�
 ChooseFolder.9d52df06814f.defaultFile=
 
 # ChooseFolder.9d52df06814f.prompt=Please Locate $REGISTRY_SV_NAME$ installation:
-ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$のインストールフォルダを選択してください:
+ChooseFolder.9d52df06814f.prompt=$REGISTRY_SV_NAME$インストールの場所を選択してください:
 
 # ChooseFolder.9d52df06814f.stepTitle=Locate $REGISTRY_SV_NAME$ installation 
-ChooseFolder.9d52df06814f.stepTitle=$REGISTRY_SV_NAME$のインストール先を選択 
+ChooseFolder.9d52df06814f.stepTitle=$REGISTRY_SV_NAME$インストールの場所を選択します
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
 CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
@@ -137,7 +137,7 @@ CreateDialog.29fccfaca483.title=サーバーを停止
 CreateShortcut.2dca96238e95.args=
 
 # CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2dca96238e95.workingDir=
@@ -146,7 +146,7 @@ CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -155,7 +155,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -164,7 +164,7 @@ CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.5278af2aaead.args=
 
 # CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.5278af2aaead.workingDir=
@@ -173,13 +173,13 @@ CreateShortcut.5278af2aaead.workingDir=
 CreateShortcut.52790dd5b2ad.args=
 
 # CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.52790dd5b2ad.workingDir=
 CreateShortcut.52790dd5b2ad.workingDir=
 
 # CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
-CreateShortcut.99bc43ee8cd9.args=
+CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
 
 # CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.99bc43ee8cd9.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -188,7 +188,7 @@ CreateShortcut.99bc43ee8cd9.destinationName=リリースノート ($STARCCMPLUS
 CreateShortcut.99bc43ee8cd9.workingDir=
 
 # CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
-CreateShortcut.9d61b24aac76.args=
+CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -197,7 +197,7 @@ CreateShortcut.9d61b24aac76.destinationName=リリースノート ($STARCCMPLUS
 CreateShortcut.9d61b24aac76.workingDir=
 
 # CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
-CreateShortcut.9d83036eb16c.args=
+CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -206,7 +206,7 @@ CreateShortcut.9d83036eb16c.destinationName=リリースノート ($STARCCMPLUS
 CreateShortcut.9d83036eb16c.workingDir=
 
 # CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
-CreateShortcut.aaff513c82ba.args=
+CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
 
 # CreateShortcut.aaff513c82ba.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.aaff513c82ba.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -218,7 +218,7 @@ CreateShortcut.aaff513c82ba.workingDir=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -227,7 +227,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -254,7 +254,7 @@ CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cfc35baeb8f6.args=
 
 # CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfc35baeb8f6.workingDir=
@@ -263,7 +263,7 @@ CreateShortcut.cfc35baeb8f6.workingDir=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -272,7 +272,7 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.d134e10a8433.args=
 
 # CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d134e10a8433.workingDir=
@@ -281,7 +281,7 @@ CreateShortcut.d134e10a8433.workingDir=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -290,7 +290,7 @@ CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.dba14ed6a2e9.args=
 
 # CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
+CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows
 
 # CreateShortcut.dba14ed6a2e9.workingDir=
 CreateShortcut.dba14ed6a2e9.workingDir=
@@ -341,7 +341,7 @@ EntryAtomBiDi.66117b82a1fc.label=サーバーを今すぐ停止する
 Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=リモートからの起動サービスをアンインストールしています...
@@ -434,7 +434,7 @@ ExecuteScript.fdb96d13acca.dialogLabel=STAR-CAT5をインストールしてい�
 ExecuteScript.fdb98cefacca.dialogLabel=STAR-CAT5をインストールしています... しばらくお待ちください
 
 # GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.07762bd5ba98.prompt=$REGISTRY_SVR_NAME$のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.07762bd5ba98.prompt=$REGISTRY_SVR_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=追加タスクの選択
@@ -506,7 +506,7 @@ GetUserInput.4202184d8cb4.prompt=FLEXlmライセンスマネージャーを今�
 GetUserInput.4202184d8cb4.title=FLEXライセンスマネージャーをアンインストール
 
 # GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.4eb74413ba93.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.4eb74413ba93.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=追加タスクの選択
@@ -530,34 +530,34 @@ GetUserInput.8209d5e08fc6.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.8209d5e08fc6.title=追加タスクの選択
 
 # GetUserInput.856fd80c8c32.prompt=Users of Resource Server must have an account on the operating system. Resource Server is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=必要な情報を入力
+GetUserInput.856fd80c8c32.prompt=Resource Serverのユーザーには、オペレーティングシステムのアカウントが必要です。Resource Serverは、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか？
 
 # GetUserInput.856fd80c8c32.title=Resource Server Configuration
-GetUserInput.856fd80c8c32.title=ユーザー入力を取得
+GetUserInput.856fd80c8c32.title=Resource Server構成
 
 # GetUserInput.8575cd2c96c8.prompt=Please enter information about where the Resource Server will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the Resource Server. \n\n
-GetUserInput.8575cd2c96c8.prompt=必要な情報を入力
+GetUserInput.8575cd2c96c8.prompt=Resource Serverの実行先の情報を入力してください。\n\nホスト名は、Resource Serverへの接続が想定されている任意のクライアントで解決される必要があります。\n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
-GetUserInput.8575cd2c96c8.title=ユーザー入力を取得
+GetUserInput.8575cd2c96c8.title=サーバーの選択
 
 # GetUserInput.85775f8d96d5.prompt=Please enter the Login Node and the Resource Group Name
-GetUserInput.85775f8d96d5.prompt=必要な情報を入力
+GetUserInput.85775f8d96d5.prompt=ログイン項目とリソースグループ名を入力してください
 
 # GetUserInput.85775f8d96d5.title=Login Node Name
-GetUserInput.85775f8d96d5.title=ユーザー入力を取得
+GetUserInput.85775f8d96d5.title=ログイン項目の名前
 
 # GetUserInput.8578411b96e0.prompt=Please select the SSL Certificate and Private Key to be used by Resource Server
-GetUserInput.8578411b96e0.prompt=必要な情報を入力
+GetUserInput.8578411b96e0.prompt=Resource Serverで使用するSSL証明書と秘密鍵を選択してください
 
 # GetUserInput.8578411b96e0.title=SSL certificate selection
-GetUserInput.8578411b96e0.title=ユーザー入力を取得
+GetUserInput.8578411b96e0.title=SSL証明書の選択
 
 # GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer Resource Server:
-GetUserInput.8fe4e9e8b4a1.prompt=必要な情報を入力
+GetUserInput.8fe4e9e8b4a1.prompt=Resource Serverを管理するアカウントのユーザー名を入力してください。
 
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
-GetUserInput.8fe4e9e8b4a1.title=ユーザー入力を取得
+GetUserInput.8fe4e9e8b4a1.title=管理者ユーザー名
 
 # GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=CD adapcoは、弊社のPoDサーバーまたは\nローカルライセンスサーバーによるライセンシングを提供しています。\n \nご使用になるライセンス方法を選択してください。
@@ -572,13 +572,13 @@ GetUserInput.c58f4202a8ce.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.c58f4202a8ce.title=追加タスクの選択
 
 # GetUserInput.e821a5059d90.prompt=CD-adapco products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
-GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。必要であれば、弊社のPoD(パワーオンデマンド)サーバーをライセンスサーバーとして構成できます。\n\n使用するライセンシング方法を選択してください。\n
+GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。必要であれば、弊社のPoD(パワーオンデマンド)サーバーをライセンスサーバーとして構成できます。\n\n使用するライセンシング方法を選択してください。
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=ライセンスタイプの選択
 
 # GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、［次へ］をクリックしてください。
+GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=追加タスクの選択
@@ -671,7 +671,7 @@ GUIComponentData.229a23b6be60.label=現在のユーザーのみショートカ�
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
 # GUIComponentData.2469fbd4a625.label=Create file associations for STAR-CCM+ VR file
-GUIComponentData.2469fbd4a625.label=
+GUIComponentData.2469fbd4a625.label=STAR-CCM+ VRファイルのファイルの関連付けを作成します
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
@@ -755,13 +755,13 @@ GUIComponentData.4ebd89ffbaa5.label=システムパスにアプリケーショ�
 GUIComponentData.519a56e0b819.defaultValue=Not Selected
 
 # GUIComponentData.519a56e0b819.label=Configure this machine to access Power-On-Demand License Server
-GUIComponentData.519a56e0b819.label=パワーオンデマンドライセンスサーバーにアクセスできるように構成する
+GUIComponentData.519a56e0b819.label=PoDセッションのライセンスサーバーにアクセスできるようにこのマシンを構成する
 
 # GUIComponentData.519ab87cb81b.defaultValue=Not Selected
 GUIComponentData.519ab87cb81b.defaultValue=Not Selected
 
 # GUIComponentData.519ab87cb81b.label=Configure this machine to access Power-On-Demand License Server
-GUIComponentData.519ab87cb81b.label=パワーオンデマンドライセンスサーバーにアクセスできるように構成する
+GUIComponentData.519ab87cb81b.label=PoDセッションのライセンスサーバーにアクセスできるようにこのマシンを構成する
 
 # GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
@@ -827,61 +827,61 @@ GUIComponentData.8209d5e18fc9.label=デスクトップ上にアイコンを作�
 GUIComponentData.857693fb96d1.defaultValue=
 
 # GUIComponentData.857693fb96d1.label=Hostname
-GUIComponentData.857693fb96d1.label=
+GUIComponentData.857693fb96d1.label=ホスト名
 
 # GUIComponentData.8576994396d1.defaultValue=8085
 GUIComponentData.8576994396d1.defaultValue=8085
 
 # GUIComponentData.8576994396d1.label=Port Number
-GUIComponentData.8576994396d1.label=
+GUIComponentData.8576994396d1.label=ポート番号
 
 # GUIComponentData.8578c06b96e9.defaultValue=cert.pem
-GUIComponentData.8578c06b96e9.defaultValue=
+GUIComponentData.8578c06b96e9.defaultValue=cert.pem
 
 # GUIComponentData.8578c06b96e9.label=SSL Certificate
-GUIComponentData.8578c06b96e9.label=
+GUIComponentData.8578c06b96e9.label=SSL証明書
 
 # GUIComponentData.8578c23396e9.defaultValue=key.pem
-GUIComponentData.8578c23396e9.defaultValue=
+GUIComponentData.8578c23396e9.defaultValue=key.pem
 
 # GUIComponentData.8578c23396e9.label=SSL Private Key
-GUIComponentData.8578c23396e9.label=
+GUIComponentData.8578c23396e9.label=SSL秘密鍵
 
 # GUIComponentData.857a41eba144.defaultValue=
 GUIComponentData.857a41eba144.defaultValue=
 
 # GUIComponentData.857a41eba144.label=Resource Group Name
-GUIComponentData.857a41eba144.label=
+GUIComponentData.857a41eba144.label=リソースグループの名前
 
 # GUIComponentData.8fe1749ab49d.defaultValue=Selected
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
 # GUIComponentData.8fe1749ab49d.label=Configure new Resource Server
-GUIComponentData.8fe1749ab49d.label=
+GUIComponentData.8fe1749ab49d.label=新しいResource Serverの構成
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe180d9b49d.label=Upgrade existing Resource Server
-GUIComponentData.8fe180d9b49d.label=
+GUIComponentData.8fe180d9b49d.label=既存のResource Serverのアップグレード
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 
 # GUIComponentData.8fe1ee61b49d.label=Using operating system authentication
-GUIComponentData.8fe1ee61b49d.label=
+GUIComponentData.8fe1ee61b49d.label=オペレーティングシステム認証を使用
 
 # GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
 GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe24b41b49d.label=Using internal authentication
-GUIComponentData.8fe24b41b49d.label=
+GUIComponentData.8fe24b41b49d.label=内部認証を使用
 
 # GUIComponentData.8fe4e9eab4a2.defaultValue=
 GUIComponentData.8fe4e9eab4a2.defaultValue=
 
 # GUIComponentData.8fe4e9eab4a2.label=Admin User Name
-GUIComponentData.8fe4e9eab4a2.label=
+GUIComponentData.8fe4e9eab4a2.label=管理者ユーザー名
 
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
@@ -889,17 +889,17 @@ GUIComponentData.b80bfad59d4c.defaultValue=Selected
 # GUIComponentData.b80bfad59d4c.label=Local: Configure this machine to access local license server
 GUIComponentData.b80bfad59d4c.label=ローカル: ローカルライセンスサーバーにアクセスできるように構成する
 
+# GUIComponentData.c2e945c0810a.defaultValue=$HOST$
+GUIComponentData.c2e945c0810a.defaultValue=$HOST$
+
+# GUIComponentData.c2e945c0810a.label=Login Node
+GUIComponentData.c2e945c0810a.label=ログイン項目
+
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
 GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=システムパスにアプリケーションのディレクトリを追加する
-
-# GUIComponentData.e6e769628c38.defaultValue=$HOST$
-GUIComponentData.e6e769628c38.defaultValue=$HOST$
-
-# GUIComponentData.e6e769628c38.label=Login Node
-GUIComponentData.e6e769628c38.label=
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
@@ -1012,11 +1012,11 @@ GUIGroupData.8fe4e9e9b4a2.caption=
 # GUIGroupData.a5412c2687af.caption=
 GUIGroupData.a5412c2687af.caption=
 
+# GUIGroupData.c2e945bf810a.caption=
+GUIGroupData.c2e945bf810a.caption=
+
 # GUIGroupData.c58f4203a8d1.caption=
 GUIGroupData.c58f4203a8d1.caption=
-
-# GUIGroupData.e6e769618c38.caption=
-GUIGroupData.e6e769618c38.caption=
 
 # GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.e82310a19e2b.caption=
@@ -1037,13 +1037,13 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=STAR-CCM+パッケージの実行に必要なすべてのファイルをインストールします。
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.7317fed1a37e.message=\n\n$PRODUCT_NAME$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=インストール完了
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=\n\nSTAR-CCM+(R)$STARCCMPLUS_VERSION$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd89f531898a.message=\n\n$PRODUCT_NAME$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=インストール完了
@@ -1127,13 +1127,13 @@ Installer.850018e38424.installLabels.01=インストール方法を選択
 Installer.850018e38424.installLabels.02=インストール中...
 
 # Installer.850018e38424.installLabels.03=Configure Components
-Installer.850018e38424.installLabels.03=インストール前の要約
+Installer.850018e38424.installLabels.03=成分を構成
 
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=プリインストールの要約
 
 # Installer.850018e38424.installLabels.05=Choose License Type
-Installer.850018e38424.installLabels.05=インストール完了
+Installer.850018e38424.installLabels.05=ライセンスタイプの選択
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=インストール完了
@@ -1151,52 +1151,52 @@ Installer.850018e38424.installLabels.09=ライセンシングを設定
 Installer.850018e38424.installLabels.10=コンポーネントを選択
 
 # Installer.850018e38424.installLabels.11=Create database file
-Installer.850018e38424.installLabels.11=ファイルを選択
+Installer.850018e38424.installLabels.11=データベースファイルを作成
 
 # Installer.850018e38424.installLabels.12=Server selection
-Installer.850018e38424.installLabels.12=ユーザー入力を取得
+Installer.850018e38424.installLabels.12=サーバーの選択
 
 # Installer.850018e38424.installLabels.13=Admin user name
-Installer.850018e38424.installLabels.13=ユーザー入力を取得
+Installer.850018e38424.installLabels.13=管理者ユーザー名
 
 # Installer.850018e38424.installLabels.14=Resource Group Name
-Installer.850018e38424.installLabels.14=ユーザー入力を取得
+Installer.850018e38424.installLabels.14=リソースグループの名前
 
 # Installer.850018e38424.installLabels.15=SSL certificate selection
-Installer.850018e38424.installLabels.15=ユーザー入力を取得
+Installer.850018e38424.installLabels.15=SSL証明書の選択
 
 # Installer.850018e38424.installLabels.16=FlexNet client Configuration 
-Installer.850018e38424.installLabels.16=ユーザー入力を取得
+Installer.850018e38424.installLabels.16=FlexNetクライアント構成 
 
 # Installer.850018e38424.installLabels.17=Locate $REGISTRY_SV_NAME$ installation 
-Installer.850018e38424.installLabels.17=フォルダーを選択
+Installer.850018e38424.installLabels.17=$REGISTRY_SV_NAME$インストールの場所を選択します
 
 # Installer.850018e38424.installLabels.18=FlexNet License Server Configuration
-Installer.850018e38424.installLabels.18=ユーザー入力を取得
+Installer.850018e38424.installLabels.18=FlexNetライセンスサーバー構成
 
 # Installer.850018e38424.installLabels.19=Select license file
-Installer.850018e38424.installLabels.19=ファイルを選択
+Installer.850018e38424.installLabels.19=ライセンスファイルを選択
 
 # Installer.850018e38424.installLabels.20=Service Configuration 
-Installer.850018e38424.installLabels.20=ユーザー入力を取得
+Installer.850018e38424.installLabels.20=サービス構成 
 
 # Installer.850018e38424.installLabels.21=Select Install Location
-Installer.850018e38424.installLabels.21=インストール フォルダーを選択
+Installer.850018e38424.installLabels.21=インストールフォルダを選択
 
 # Installer.850018e38424.installLabels.22=Select Installation Location
-Installer.850018e38424.installLabels.22=インストール フォルダーを選択
+Installer.850018e38424.installLabels.22=インストールフォルダを選択
 
 # Installer.850018e38424.installLabels.23=Select existing Resource Server location
-Installer.850018e38424.installLabels.23=フォルダーを選択
+Installer.850018e38424.installLabels.23=既存のResource Serverの場所を選択します
 
 # Installer.850018e38424.installLabels.24=Select Installation Location
-Installer.850018e38424.installLabels.24=インストール フォルダーを選択
+Installer.850018e38424.installLabels.24=インストールフォルダを選択
 
 # Installer.850018e38424.installLabels.25=STAR-CCM+ Installation Version
-Installer.850018e38424.installLabels.25=ユーザー入力を取得
+Installer.850018e38424.installLabels.25=STAR-CCM+のインストールバージョン
 
 # Installer.850018e38424.installLabels.26=STAR-CCM+ Installation Directory
-Installer.850018e38424.installLabels.26=フォルダーを選択
+Installer.850018e38424.installLabels.26=STAR-CCM+のインストールディレクトリ
 
 # Installer.850018e38424.installProgressImageName=introImage.png
 Installer.850018e38424.installProgressImageName=introImage.png
@@ -1876,6 +1876,24 @@ ShowDialogAction.064a5d7084f3.narrative=ディスクの空き容量が不足し�
 # ShowDialogAction.064a5d7084f3.title=Warning
 ShowDialogAction.064a5d7084f3.title=警告
 
+# ShowDialogAction.0be7f1f1a400.buttonLabel=Next
+ShowDialogAction.0be7f1f1a400.buttonLabel=次へ
+
+# ShowDialogAction.0be7f1f1a400.cancelButtonLabel=Previous
+ShowDialogAction.0be7f1f1a400.cancelButtonLabel=戻る
+
+# ShowDialogAction.0be7f1f1a400.detailsButtonLabel=Details...
+ShowDialogAction.0be7f1f1a400.detailsButtonLabel=詳細...
+
+# ShowDialogAction.0be7f1f1a400.label=The installer discovered problems with the specified license servers.
+ShowDialogAction.0be7f1f1a400.label=インストーラが、指定されたライセンスサーバーの問題を検出しました。
+
+# ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+
+# ShowDialogAction.0be7f1f1a400.title=License server problem
+ShowDialogAction.0be7f1f1a400.title=ライセンスサーバーの問題
+
 # ShowDialogAction.114a717da032.buttonLabel=OK
 ShowDialogAction.114a717da032.buttonLabel=OK
 
@@ -1904,10 +1922,10 @@ ShowDialogAction.160d0e4ab6a5.cancelButtonLabel=いいえ
 ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=詳細...
 
 # ShowDialogAction.160d0e4ab6a5.label=$REGISTRY_SVR_NAME$ Installation Found
-ShowDialogAction.160d0e4ab6a5.label=インストールされている$REGISTRY_SVR_NAME$バージョンが見つかりました
+ShowDialogAction.160d0e4ab6a5.label=$REGISTRY_SVR_NAME$インストールが見つかりました
 
-# ShowDialogAction.160d0e4ab6a5.narrative=The solver component ($REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine in:\n$SVR_PREINST_VER$\nDo you want to install the $REGISTRY_SVR_NAME$ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=
+# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  ($REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine in:\n$SVR_PREINST_VER$\nDo you want to install the $REGISTRY_SVR_NAME$ component again?
+ShowDialogAction.160d0e4ab6a5.narrative=このマシンには、次のバージョンのソルバーコンポーネント($REGISTRY_SVR_NAME$ $STARVR_VERSION$)が既にインストールされています：\n$SVR_PREINST_VER$。\n$REGISTRY_SVR_NAME$コンポーネントをもう一度インストールしますか?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=警告
@@ -2111,22 +2129,22 @@ ShowDialogAction.653c263b9ee1.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_F
 ShowDialogAction.653c263b9ee1.title=エラー
 
 # ShowDialogAction.684ff5beac22.buttonLabel=OK
-ShowDialogAction.684ff5beac22.buttonLabel=
+ShowDialogAction.684ff5beac22.buttonLabel=OK
 
 # ShowDialogAction.684ff5beac22.cancelButtonLabel=Cancel
-ShowDialogAction.684ff5beac22.cancelButtonLabel=
+ShowDialogAction.684ff5beac22.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.684ff5beac22.detailsButtonLabel=Details...
-ShowDialogAction.684ff5beac22.detailsButtonLabel=
+ShowDialogAction.684ff5beac22.detailsButtonLabel=詳細...
 
 # ShowDialogAction.684ff5beac22.label=Invalid Port@Host Entered
-ShowDialogAction.684ff5beac22.label=
+ShowDialogAction.684ff5beac22.label=無効な「ポート@ホスト」値が入力されました
 
 # ShowDialogAction.684ff5beac22.narrative=$ERR_OUT_STRING$
 ShowDialogAction.684ff5beac22.narrative=$ERR_OUT_STRING$
 
 # ShowDialogAction.684ff5beac22.title=Invalid Input
-ShowDialogAction.684ff5beac22.title=
+ShowDialogAction.684ff5beac22.title=無効な入力
 
 # ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
 ShowDialogAction.7dc4c98fb7ea.buttonLabel=OK
@@ -2156,10 +2174,10 @@ ShowDialogAction.7e4d4aee9257.cancelButtonLabel=いいえ
 ShowDialogAction.7e4d4aee9257.detailsButtonLabel=詳細...
 
 # ShowDialogAction.7e4d4aee9257.label=$REGISTRY_SV_NAME$ Installation Found
-ShowDialogAction.7e4d4aee9257.label=インストールされている$REGISTRY_SV_NAME$バージョンが見つかりました
+ShowDialogAction.7e4d4aee9257.label=$REGISTRY_SV_NAME$インストールが見つかりました
 
 # ShowDialogAction.7e4d4aee9257.narrative=The solver component  ($REGISTRY_SV_NAME$ $STARVIEW_VERSION$) appears to have been previously installed on this machine in:\n$SVPREINST_VER$\nDo you want to install the $REGISTRY_SV_NAME$ component again?
-ShowDialogAction.7e4d4aee9257.narrative=このマシンには、次のバージョンのソルバーコンポーネント($REGISTRY_SV_NAME$ $STARVIEW_VERSION$)が既にインストールされています。\n$SVPREINST_VER$\n$REGISTRY_SV_NAME$コンポーネントをもう一度インストールしますか?
+ShowDialogAction.7e4d4aee9257.narrative=このマシンには、次のバージョンのソルバーコンポーネント($REGISTRY_SV_NAME$ $STARVIEW_VERSION$)が既にインストールされています：\n$SVPREINST_VER$。\n$REGISTRY_SV_NAME$コンポーネントをもう一度インストールしますか?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
@@ -2192,13 +2210,13 @@ ShowDialogAction.7e598f94bfa1.cancelButtonLabel=キャンセル
 ShowDialogAction.7e598f94bfa1.detailsButtonLabel=詳細...
 
 # ShowDialogAction.7e598f94bfa1.label=$REGISTRY_SV_NAME$ executable not found.
-ShowDialogAction.7e598f94bfa1.label=$REGISTRY_SV_NAME$の実行ファイルが見つかりません
+ShowDialogAction.7e598f94bfa1.label=$REGISTRY_SV_NAME$実行ファイルが見つかりませんでした。
 
 # ShowDialogAction.7e598f94bfa1.narrative=Please reselect location where bin\\$SVRoot$ is installed.
 ShowDialogAction.7e598f94bfa1.narrative=bin\\$SVRoot$がインストールされている場所を選択し直してください。
 
 # ShowDialogAction.7e598f94bfa1.title=$REGISTRY_SV_NAME$ Installation Not Found
-ShowDialogAction.7e598f94bfa1.title=$REGISTRY_SV_NAME$インストールディレクトリが見つかりません
+ShowDialogAction.7e598f94bfa1.title=$REGISTRY_SV_NAME$インストールが見つかりませんでした
 
 # ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
 ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
@@ -2249,7 +2267,7 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=詳細...
 ShowDialogAction.85b5743ab480.label=コンポーネントが選択されていません
 
 # ShowDialogAction.85b5743ab480.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=
+ShowDialogAction.85b5743ab480.narrative=STAR-CCM+のすべてのコンポーネントが選択解除されています。\n［OK］を押して［コンポーネントの選択］ダイアログに戻ってください。\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=警告
@@ -2290,24 +2308,6 @@ ShowDialogAction.935897e9965b.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_F
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=エラー
 
-# ShowDialogAction.93e20f13bdfc.buttonLabel=Next
-ShowDialogAction.93e20f13bdfc.buttonLabel=次へ
-
-# ShowDialogAction.93e20f13bdfc.cancelButtonLabel=Previous
-ShowDialogAction.93e20f13bdfc.cancelButtonLabel=戻る
-
-# ShowDialogAction.93e20f13bdfc.detailsButtonLabel=Details...
-ShowDialogAction.93e20f13bdfc.detailsButtonLabel=詳細...
-
-# ShowDialogAction.93e20f13bdfc.label=The installer discovered problems with the specified license servers.
-ShowDialogAction.93e20f13bdfc.label=インストーラが、指定されたライセンスサーバーの問題を検出しました。
-
-# ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
-ShowDialogAction.93e20f13bdfc.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
-
-# ShowDialogAction.93e20f13bdfc.title=License server problem
-ShowDialogAction.93e20f13bdfc.title=ライセンスサーバーの問題
-
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=OK
 
@@ -2343,24 +2343,6 @@ ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocxが見つかりま
 
 # ShowDialogAction.a9b1812e9550.title=STAR-Inventor
 ShowDialogAction.a9b1812e9550.title=STAR-Inventor
-
-# ShowDialogAction.af25de8482c7.buttonLabel=OK
-ShowDialogAction.af25de8482c7.buttonLabel=
-
-# ShowDialogAction.af25de8482c7.cancelButtonLabel=Cancel
-ShowDialogAction.af25de8482c7.cancelButtonLabel=
-
-# ShowDialogAction.af25de8482c7.detailsButtonLabel=Details...
-ShowDialogAction.af25de8482c7.detailsButtonLabel=
-
-# ShowDialogAction.af25de8482c7.label=<Enter the dialog label here>
-ShowDialogAction.af25de8482c7.label=
-
-# ShowDialogAction.af25de8482c7.narrative=CDLMD1_VERSION=$CDLMD1_VERSION$\nINSTALLER_CDLMD_VERSION=$INSTALLER_CDLMD_VERSION$\n\n
-ShowDialogAction.af25de8482c7.narrative=
-
-# ShowDialogAction.af25de8482c7.title=<Enter the dialog title here>
-ShowDialogAction.af25de8482c7.title=
 
 # ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
 ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
@@ -2398,24 +2380,6 @@ ShowDialogAction.c2960d279578.narrative=STAR-CCM+のインストールディレ�
 # ShowDialogAction.c2960d279578.title=Directory not found
 ShowDialogAction.c2960d279578.title=ディレクトリが見つかりません
 
-# ShowDialogAction.c3b74b5996e1.buttonLabel=OK
-ShowDialogAction.c3b74b5996e1.buttonLabel=
-
-# ShowDialogAction.c3b74b5996e1.cancelButtonLabel=Cancel
-ShowDialogAction.c3b74b5996e1.cancelButtonLabel=
-
-# ShowDialogAction.c3b74b5996e1.detailsButtonLabel=Details...
-ShowDialogAction.c3b74b5996e1.detailsButtonLabel=
-
-# ShowDialogAction.c3b74b5996e1.label=<Enter the dialog label here>
-ShowDialogAction.c3b74b5996e1.label=
-
-# ShowDialogAction.c3b74b5996e1.narrative=ccmp=$CDLMD1_CCMPSUITE_EXISTS$\n
-ShowDialogAction.c3b74b5996e1.narrative=
-
-# ShowDialogAction.c3b74b5996e1.title=<Enter the dialog title here>
-ShowDialogAction.c3b74b5996e1.title=
-
 # ShowDialogAction.e261f38cb277.buttonLabel=OK
 ShowDialogAction.e261f38cb277.buttonLabel=OK
 
@@ -2444,7 +2408,7 @@ ShowDialogAction.eeefa11b9c37.cancelButtonLabel=キャンセル
 ShowDialogAction.eeefa11b9c37.detailsButtonLabel=詳細...
 
 # ShowDialogAction.eeefa11b9c37.label=<Enter the dialog label here>
-ShowDialogAction.eeefa11b9c37.label=
+ShowDialogAction.eeefa11b9c37.label=<ここにダイアログボックス名を入力> 
 
 # ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
 ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
@@ -2630,7 +2594,7 @@ VariablePropertyDataBiDi.12d8571c9d5d.propertyName=ライセンスサーバー:
 VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
 
 # VariablePropertyDataBiDi.1ae2401f82f0.propertyName=$REGISTRY_SV_NAME$ Installation directory:
-VariablePropertyDataBiDi.1ae2401f82f0.propertyName=$REGISTRY_SV_NAME$のインストールディレクトリ:
+VariablePropertyDataBiDi.1ae2401f82f0.propertyName=$REGISTRY_SV_NAME$ インストールディレクトリ:
 
 # VariablePropertyDataBiDi.1ae2401f82f0.propertyValue=$STARVIEW_DIR$
 VariablePropertyDataBiDi.1ae2401f82f0.propertyValue=$STARVIEW_DIR$
@@ -2658,22 +2622,3 @@ VariablePropertyDataBiDi.a133e9478327.propertyName=製品名:
 
 # VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
 VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ 再頒布可能パッケージ
-
-# VariablePropertyDataBiDi.c2186e908908.propertyName=Product name:
-VariablePropertyDataBiDi.c2186e908908.propertyName=製品名:
-
-# VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
-VariablePropertyDataBiDi.c2186e908908.propertyValue=FLEXNet $FLEXlmVERSION$
-
-# VariablePropertyDataBiDi.c2186e908909.propertyName=License servers:
-VariablePropertyDataBiDi.c2186e908909.propertyName=ライセンスサーバー:
-
-# VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
-VariablePropertyDataBiDi.c2186e908909.propertyValue=$cdadapco_LICENSE_FILE$
-
-# VariablePropertyDataBiDi.c218af608909.propertyName=Installation directory:
-VariablePropertyDataBiDi.c218af608909.propertyName=インストールディレクトリ:
-
-# VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-VariablePropertyDataBiDi.c218af608909.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-
