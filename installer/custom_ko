@@ -137,7 +137,7 @@ CreateDialog.29fccfaca483.title=서버 중지
 CreateShortcut.2dca96238e95.args=
 
 # CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=윈도우용 STAR-CCM+ $STARCCMPLUS_LABEL$
+CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
 
 # CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2dca96238e95.workingDir=
@@ -146,7 +146,7 @@ CreateShortcut.2dca96238e95.workingDir=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -155,7 +155,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
