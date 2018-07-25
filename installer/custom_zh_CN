@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: English (en)
+# External strings for locale: Chinese (China) (zh_CN)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -19,7 +19,7 @@
 #
 # Product Name: STAR-CCM+$STARCCMPLUS_VERSION$
 # Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
-# Generated:    Thu Jul 27 15:09:11 EDT 2017
+# Generated:    Wed Jul 11 13:45:45 EDT 2018
 
 
 # ASCIIFileManipulator.47fe6ec5af90.additionalText=
@@ -33,6 +33,9 @@ ASCIIFileManipulator.48e493b28f57.additionalText=
 
 # ASCIIFileManipulator.49b821459c81.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
+
+# ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$
+ASCIIFileManipulator.7bb72e2999c6.additionalText=
 
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
@@ -67,18 +70,6 @@ ChooseFile.8571f4d08c44.prompt=请输入数据库文件的名称
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
 ChooseFile.8571f4d08c44.stepTitle=创建数据库文件
 
-# ChooseFolder.20805f839cc0.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
-ChooseFolder.20805f839cc0.additionalText=请确定 $PRODUCT_NAME$安装位置。
-
-# ChooseFolder.20805f839cc0.defaultFile=
-ChooseFolder.20805f839cc0.defaultFile=
-
-# ChooseFolder.20805f839cc0.prompt=Please Locate STAR-CCM+ installation:
-ChooseFolder.20805f839cc0.prompt=请确定 STAR-CCM+ 安装位置：
-
-# ChooseFolder.20805f839cc0.stepTitle=Locate STAR-CCM+ installation 
-ChooseFolder.20805f839cc0.stepTitle=确定 STAR-CCM+ 安装位置
-
 # ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
 ChooseFolder.26b422089f87.additionalText=选择已经安装 STAR-CCM+ 的文件夹。此信息用于更新 STAR-CAD 系列配置文件 (config.xml)。\n\n要继续，请单击“下一步”。
 
@@ -103,6 +94,18 @@ ChooseFolder.3051e252be4c.prompt=请选择文件夹（&F)：
 # ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
 ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ 安装目录
 
+# ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
+ChooseFolder.59b3a9e8ae16.additionalText=请选择一个文件夹。
+
+# ChooseFolder.59b3a9e8ae16.defaultFile=
+ChooseFolder.59b3a9e8ae16.defaultFile=
+
+# ChooseFolder.59b3a9e8ae16.prompt=Please Locate STAR-CCM+ installation:
+ChooseFolder.59b3a9e8ae16.prompt=请选择一个文件夹(&F)：
+
+# ChooseFolder.59b3a9e8ae16.stepTitle=Locate STAR-CCM+ installation 
+ChooseFolder.59b3a9e8ae16.stepTitle=选择文件夹
+
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Resource Server instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
 ChooseFolder.85678ebc8c0d.additionalText=请找到将充当升级源的现有资源服务器实例。它通常可以在 star/bin 文件夹下的预先存在的 STAR-CCM + 安装目录中找到。
 
@@ -115,38 +118,23 @@ ChooseFolder.85678ebc8c0d.prompt=请选择文件夹(&F)：
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing Resource Server location
 ChooseFolder.85678ebc8c0d.stepTitle=选择现有资源服务器位置
 
-# ChooseFolder.9d52df06814f.additionalText=Please Locate where $SVRoot$ is installed.
-ChooseFolder.9d52df06814f.additionalText=请确定 $SVRoot$安装位置。
-
-# ChooseFolder.9d52df06814f.defaultFile=
-ChooseFolder.9d52df06814f.defaultFile=
-
-# ChooseFolder.9d52df06814f.prompt=Please Locate $REGISTRY_SV_NAME$ installation:
-ChooseFolder.9d52df06814f.prompt=请确定 $REGISTRY_SV_NAME$ 安装的位置：
-
-# ChooseFolder.9d52df06814f.stepTitle=Locate $REGISTRY_SV_NAME$ installation 
-ChooseFolder.9d52df06814f.stepTitle=确定$REGISTRY_SV_NAME$ 安装的位置
-
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
 CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$许可证服务器管理器？
 
 # CreateDialog.29fccfaca483.title=Stop the Server
 CreateDialog.29fccfaca483.title=停止服务器
 
-# CreateShortcut.2dca96238e95.args=
-CreateShortcut.2dca96238e95.args=
+# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the sitesettings.prop file to ProductExcellenceProgram=0.
+CreateDialog.757df82f97fd.prompt=输入请求信息
 
-# CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.2dca96238e95.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
-
-# CreateShortcut.2dca96238e95.workingDir=
-CreateShortcut.2dca96238e95.workingDir=
+# CreateDialog.757df82f97fd.title=Product Excellence Program
+CreateDialog.757df82f97fd.title=获取用户输入
 
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -155,40 +143,139 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
 
-# CreateShortcut.5278af2aaead.args=
-CreateShortcut.5278af2aaead.args=
+# CreateShortcut.94113b058204.args=
+CreateShortcut.94113b058204.args=
 
-# CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.5278af2aaead.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
+# CreateShortcut.94113b058204.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.94113b058204.destinationName=
 
-# CreateShortcut.5278af2aaead.workingDir=
-CreateShortcut.5278af2aaead.workingDir=
+# CreateShortcut.94113b058204.workingDir=
+CreateShortcut.94113b058204.workingDir=
 
-# CreateShortcut.52790dd5b2ad.args=
-CreateShortcut.52790dd5b2ad.args=
+# CreateShortcut.9413496e8208.args=
+CreateShortcut.9413496e8208.args=
 
-# CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.52790dd5b2ad.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
+# CreateShortcut.9413496e8208.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.9413496e8208.destinationName=
 
-# CreateShortcut.52790dd5b2ad.workingDir=
-CreateShortcut.52790dd5b2ad.workingDir=
+# CreateShortcut.9413496e8208.workingDir=
+CreateShortcut.9413496e8208.workingDir=
 
-# CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
-CreateShortcut.99bc43ee8cd9.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ja/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ja=.html#
+# CreateShortcut.9416ec508215.args=
+CreateShortcut.9416ec508215.args=
 
-# CreateShortcut.99bc43ee8cd9.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
-CreateShortcut.99bc43ee8cd9.destinationName=发行说明（$STARCCMPLUS_VERSION$）
+# CreateShortcut.9416ec508215.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.9416ec508215.destinationName=
 
-# CreateShortcut.99bc43ee8cd9.workingDir=
-CreateShortcut.99bc43ee8cd9.workingDir=
+# CreateShortcut.9416ec508215.workingDir=
+CreateShortcut.9416ec508215.workingDir=
 
-# CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
-CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__zh/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=zh=.html#
+# CreateShortcut.9417923b821a.args=
+CreateShortcut.9417923b821a.args=
+
+# CreateShortcut.9417923b821a.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.9417923b821a.destinationName=
+
+# CreateShortcut.9417923b821a.workingDir=
+CreateShortcut.9417923b821a.workingDir=
+
+# CreateShortcut.9418dab08a79.args=
+CreateShortcut.9418dab08a79.args=
+
+# CreateShortcut.9418dab08a79.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
+CreateShortcut.9418dab08a79.destinationName=
+
+# CreateShortcut.9418dab08a79.workingDir=
+CreateShortcut.9418dab08a79.workingDir=
+
+# CreateShortcut.941a08878a7d.args=
+CreateShortcut.941a08878a7d.args=
+
+# CreateShortcut.941a08878a7d.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
+CreateShortcut.941a08878a7d.destinationName=
+
+# CreateShortcut.941a08878a7d.workingDir=
+CreateShortcut.941a08878a7d.workingDir=
+
+# CreateShortcut.941af5b78a81.args=
+CreateShortcut.941af5b78a81.args=
+
+# CreateShortcut.941af5b78a81.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
+CreateShortcut.941af5b78a81.destinationName=
+
+# CreateShortcut.941af5b78a81.workingDir=
+CreateShortcut.941af5b78a81.workingDir=
+
+# CreateShortcut.941b0edf8a86.args=
+CreateShortcut.941b0edf8a86.args=
+
+# CreateShortcut.941b0edf8a86.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
+CreateShortcut.941b0edf8a86.destinationName=
+
+# CreateShortcut.941b0edf8a86.workingDir=
+CreateShortcut.941b0edf8a86.workingDir=
+
+# CreateShortcut.94640642bd9f.args=
+CreateShortcut.94640642bd9f.args=
+
+# CreateShortcut.94640642bd9f.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.94640642bd9f.destinationName=
+
+# CreateShortcut.94640642bd9f.workingDir=
+CreateShortcut.94640642bd9f.workingDir=
+
+# CreateShortcut.94649fda9fe1.args=
+CreateShortcut.94649fda9fe1.args=
+
+# CreateShortcut.94649fda9fe1.destinationName=View Sample Scene
+CreateShortcut.94649fda9fe1.destinationName=
+
+# CreateShortcut.94649fda9fe1.workingDir=
+CreateShortcut.94649fda9fe1.workingDir=
+
+# CreateShortcut.9465295a8118.args=
+CreateShortcut.9465295a8118.args=
+
+# CreateShortcut.9465295a8118.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 6
+CreateShortcut.9465295a8118.destinationName=
+
+# CreateShortcut.9465295a8118.workingDir=
+CreateShortcut.9465295a8118.workingDir=
+
+# CreateShortcut.9465c552a258.args=
+CreateShortcut.9465c552a258.args=
+
+# CreateShortcut.9465c552a258.destinationName=View Sample Scene
+CreateShortcut.9465c552a258.destinationName=
+
+# CreateShortcut.9465c552a258.workingDir=
+CreateShortcut.9465c552a258.workingDir=
+
+# CreateShortcut.9466c0598c7d.args=
+CreateShortcut.9466c0598c7d.args=
+
+# CreateShortcut.9466c0598c7d.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.9466c0598c7d.destinationName=
+
+# CreateShortcut.9466c0598c7d.workingDir=
+CreateShortcut.9466c0598c7d.workingDir=
+
+# CreateShortcut.946795c9ade2.args=
+CreateShortcut.946795c9ade2.args=
+
+# CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 6
+CreateShortcut.946795c9ade2.destinationName=
+
+# CreateShortcut.946795c9ade2.workingDir=
+CreateShortcut.946795c9ade2.workingDir=
+
+# CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+CreateShortcut.9d61b24aac76.args=
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=发行说明（$STARCCMPLUS_VERSION$）
@@ -196,8 +283,8 @@ CreateShortcut.9d61b24aac76.destinationName=发行说明（$STARCCMPLUS_VERSION$
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
 
-# CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
-CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__en/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=en=.html#
+# CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+CreateShortcut.9d83036eb16c.args=
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=发行说明（$STARCCMPLUS_VERSION$）
@@ -205,20 +292,11 @@ CreateShortcut.9d83036eb16c.destinationName=发行说明（$STARCCMPLUS_VERSION$
 # CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.9d83036eb16c.workingDir=
 
-# CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
-CreateShortcut.aaff513c82ba.args=_ONLINE_DOC_ROOT_URL_/starccmplus__ONLINE_DOC_VERSION__ko/RELEASENOTES/GUID-_ONLINE_DOC_RELNOTES_GUID_=ko=.html#
-
-# CreateShortcut.aaff513c82ba.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
-CreateShortcut.aaff513c82ba.destinationName=发行说明（$STARCCMPLUS_VERSION$）
-
-# CreateShortcut.aaff513c82ba.workingDir=
-CreateShortcut.aaff513c82ba.workingDir=
-
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -227,7 +305,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -250,50 +328,23 @@ CreateShortcut.cd1330779add.destinationName=FLEXNet 许可证管理工具
 # CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cd1330779add.workingDir=
 
-# CreateShortcut.cfc35baeb8f6.args=
-CreateShortcut.cfc35baeb8f6.args=
-
-# CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.cfc35baeb8f6.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
-
-# CreateShortcut.cfc35baeb8f6.workingDir=
-CreateShortcut.cfc35baeb8f6.workingDir=
-
 # CreateShortcut.cfd2e50abbfc.args=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
-
-# CreateShortcut.d134e10a8433.args=
-CreateShortcut.d134e10a8433.args=
-
-# CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.d134e10a8433.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
-
-# CreateShortcut.d134e10a8433.workingDir=
-CreateShortcut.d134e10a8433.workingDir=
 
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ 用于 Windows 64
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
-
-# CreateShortcut.dba14ed6a2e9.args=
-CreateShortcut.dba14ed6a2e9.args=
-
-# CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows
-CreateShortcut.dba14ed6a2e9.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$用于 Windows
-
-# CreateShortcut.dba14ed6a2e9.workingDir=
-CreateShortcut.dba14ed6a2e9.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 STAR-CCM+® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
@@ -337,101 +388,683 @@ EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.d
 # EntryAtomBiDi.66117b82a1fc.label=Stop server now
 EntryAtomBiDi.66117b82a1fc.label=立即停止服务器
 
+# EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
+EntryAtomBiDi.757df83097fd.label=
+
+# EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
+EntryAtomNonBiDi.757df83097fe.defaultValue=
+
+# EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
+EntryAtomNonBiDi.757df83097fe.label=
+
+# Exec.13619cd5b669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B27$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.13619cd5b669.commandLineArgs=
+
+# Exec.13619cd5b669.title=
+Exec.13619cd5b669.title=
+
+# Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.1361c07eb669.commandLineArgs=
+
+# Exec.1361c07eb669.title=
+Exec.1361c07eb669.title=
+
+# Exec.30fd751694e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B28$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.30fd751694e9.commandLineArgs=
+
+# Exec.30fd751694e9.title=
+Exec.30fd751694e9.title=
+
+# Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.30fdba8e94e9.commandLineArgs=
+
+# Exec.30fdba8e94e9.title=
+Exec.30fdba8e94e9.title=
+
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh
 Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh
 
+# Exec.3cae6520be5f.title=
+Exec.3cae6520be5f.title=
+
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=正在卸载远程启动服务...
 
+# Exec.545df2008320.title=
+Exec.545df2008320.title=
+
 # Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.d500ec27a40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B25$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.d500ec27a40a.title=
+Exec.d500ec27a40a.title=
 
 # Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
+# Exec.d5019cafa40a.title=
+Exec.d5019cafa40a.title=
+
 # Exec.db61a982adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B26$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.db61a982adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B26$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.db61a982adce.title=
+Exec.db61a982adce.title=
 
 # Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
+# Exec.db620149adce.title=
+Exec.db620149adce.title=
+
 # Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbb45d7be08.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B23$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbb45d7be08.title=
+Exec.fdbb45d7be08.title=
 
 # Exec.fdbb8263be09.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B24$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbb8263be09.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B24$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 
+# Exec.fdbb8263be09.title=
+Exec.fdbb8263be09.title=
+
 # Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.fdbc7954be0a.title=
+Exec.fdbc7954be0a.title=
 
 # Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
+# Exec.fdbca601be0a.title=
+Exec.fdbca601be0a.title=
+
+# ExecuteScript.0488ae86a57c.title=
+ExecuteScript.0488ae86a57c.title=
+
+# ExecuteScript.0489de5aa5bd.title=
+ExecuteScript.0489de5aa5bd.title=
+
 # ExecuteScript.06591fce9298.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.06591fce9298.dialogLabel=正在安装 STAR-CCM+$STARCCMPLUS_VERSION$...请等待片刻
 
-# ExecuteScript.0940ccbdab96.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.0940ccbdab96.dialogLabel=正在安装 STAR-CCM+$STARCCMPLUS_VERSION$...请等待片刻
+# ExecuteScript.06591fce9298.title=
+ExecuteScript.06591fce9298.title=
+
+# ExecuteScript.09082b168cd8.title=
+ExecuteScript.09082b168cd8.title=
+
+# ExecuteScript.0be7f1eca3d1.title=
+ExecuteScript.0be7f1eca3d1.title=
+
+# ExecuteScript.0be7f1eca3d2.title=
+ExecuteScript.0be7f1eca3d2.title=
+
+# ExecuteScript.0be7f1eca3d3.title=
+ExecuteScript.0be7f1eca3d3.title=
+
+# ExecuteScript.0be7f1eea3d9.title=
+ExecuteScript.0be7f1eea3d9.title=
+
+# ExecuteScript.0be7f1eea3da.title=
+ExecuteScript.0be7f1eea3da.title=
+
+# ExecuteScript.0be7f1eea3db.title=
+ExecuteScript.0be7f1eea3db.title=
+
+# ExecuteScript.0be7f1eea3dc.title=
+ExecuteScript.0be7f1eea3dc.title=
+
+# ExecuteScript.0be7f1eea3dd.title=
+ExecuteScript.0be7f1eea3dd.title=
+
+# ExecuteScript.0be7f1eea3de.title=
+ExecuteScript.0be7f1eea3de.title=
+
+# ExecuteScript.0be7f1eea3df.title=
+ExecuteScript.0be7f1eea3df.title=
+
+# ExecuteScript.0be7f1eea3e0.title=
+ExecuteScript.0be7f1eea3e0.title=
+
+# ExecuteScript.0be7f1eea3e9.title=
+ExecuteScript.0be7f1eea3e9.title=
+
+# ExecuteScript.0be7f1eea3ea.title=
+ExecuteScript.0be7f1eea3ea.title=
+
+# ExecuteScript.0be7f1eea3eb.title=
+ExecuteScript.0be7f1eea3eb.title=
+
+# ExecuteScript.0be7f1efa3d8.title=
+ExecuteScript.0be7f1efa3d8.title=
+
+# ExecuteScript.0be7f1f0a3f0.title=
+ExecuteScript.0be7f1f0a3f0.title=
+
+# ExecuteScript.0be7f1f0a3f1.title=
+ExecuteScript.0be7f1f0a3f1.title=
+
+# ExecuteScript.0be7f1f0a3f2.title=
+ExecuteScript.0be7f1f0a3f2.title=
+
+# ExecuteScript.0be7f1f0a3f3.title=
+ExecuteScript.0be7f1f0a3f3.title=
+
+# ExecuteScript.0be7f1f0a3f4.title=
+ExecuteScript.0be7f1f0a3f4.title=
+
+# ExecuteScript.0be7f1f0a3f5.title=
+ExecuteScript.0be7f1f0a3f5.title=
+
+# ExecuteScript.0be7f1f0a3f6.title=
+ExecuteScript.0be7f1f0a3f6.title=
+
+# ExecuteScript.0be7f1f0a3f7.title=
+ExecuteScript.0be7f1f0a3f7.title=
+
+# ExecuteScript.0be7f1f0a3f8.title=
+ExecuteScript.0be7f1f0a3f8.title=
+
+# ExecuteScript.0dc86234891d.title=
+ExecuteScript.0dc86234891d.title=
+
+# ExecuteScript.0fae5f3192b2.title=
+ExecuteScript.0fae5f3192b2.title=
+
+# ExecuteScript.13611b75b669.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.13611b75b669.dialogLabel=
+
+# ExecuteScript.13611b75b669.title=
+ExecuteScript.13611b75b669.title=
+
+# ExecuteScript.14b03569831d.title=
+ExecuteScript.14b03569831d.title=
+
+# ExecuteScript.1809f32d9ca7.title=
+ExecuteScript.1809f32d9ca7.title=
+
+# ExecuteScript.180c0df0a709.title=
+ExecuteScript.180c0df0a709.title=
+
+# ExecuteScript.180e17dab16a.title=
+ExecuteScript.180e17dab16a.title=
+
+# ExecuteScript.1810e0b0bbd6.title=
+ExecuteScript.1810e0b0bbd6.title=
+
+# ExecuteScript.1a2ea0b99156.title=
+ExecuteScript.1a2ea0b99156.title=
+
+# ExecuteScript.1d6403f68b3f.title=
+ExecuteScript.1d6403f68b3f.title=
+
+# ExecuteScript.1d9439d39990.title=
+ExecuteScript.1d9439d39990.title=
 
 # ExecuteScript.21134412bda6.dialogLabel=Installing $SVR_Root$ ..Please wait a moment
 ExecuteScript.21134412bda6.dialogLabel=正在安装 $SVR_Root$...请等待片刻
 
+# ExecuteScript.21134412bda6.title=
+ExecuteScript.21134412bda6.title=
+
+# ExecuteScript.23a9f8e1a5fe.title=
+ExecuteScript.23a9f8e1a5fe.title=
+
+# ExecuteScript.23aa19eda600.title=
+ExecuteScript.23aa19eda600.title=
+
+# ExecuteScript.27684533a61f.title=
+ExecuteScript.27684533a61f.title=
+
+# ExecuteScript.29fb7235a3f7.title=
+ExecuteScript.29fb7235a3f7.title=
+
+# ExecuteScript.30fcc1db94e9.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
+ExecuteScript.30fcc1db94e9.dialogLabel=
+
+# ExecuteScript.30fcc1db94e9.title=
+ExecuteScript.30fcc1db94e9.title=
+
+# ExecuteScript.315f785c9ff6.title=
+ExecuteScript.315f785c9ff6.title=
+
+# ExecuteScript.33e242b5b716.title=
+ExecuteScript.33e242b5b716.title=
+
+# ExecuteScript.35d6cc20bebd.title=
+ExecuteScript.35d6cc20bebd.title=
+
+# ExecuteScript.35e15706bec6.title=
+ExecuteScript.35e15706bec6.title=
+
+# ExecuteScript.36252dedbf0d.title=
+ExecuteScript.36252dedbf0d.title=
+
+# ExecuteScript.363e4de0bf0d.title=
+ExecuteScript.363e4de0bf0d.title=
+
+# ExecuteScript.3644b3a0bf2b.title=
+ExecuteScript.3644b3a0bf2b.title=
+
+# ExecuteScript.36aa5c9eb19f.title=
+ExecuteScript.36aa5c9eb19f.title=
+
+# ExecuteScript.36abef4db1a0.title=
+ExecuteScript.36abef4db1a0.title=
+
+# ExecuteScript.36cac8278b76.title=
+ExecuteScript.36cac8278b76.title=
+
+# ExecuteScript.36cac8278b77.title=
+ExecuteScript.36cac8278b77.title=
+
+# ExecuteScript.36cac8288b76.title=
+ExecuteScript.36cac8288b76.title=
+
+# ExecuteScript.373c24f2b4af.title=
+ExecuteScript.373c24f2b4af.title=
+
+# ExecuteScript.373c24f2b4b2.title=
+ExecuteScript.373c24f2b4b2.title=
+
+# ExecuteScript.373c24f3b4b0.title=
+ExecuteScript.373c24f3b4b0.title=
+
+# ExecuteScript.3850987fbe34.title=
+ExecuteScript.3850987fbe34.title=
+
+# ExecuteScript.385ee55fbe43.title=
+ExecuteScript.385ee55fbe43.title=
+
+# ExecuteScript.38b3393abe58.title=
+ExecuteScript.38b3393abe58.title=
+
+# ExecuteScript.39bdae3fbe67.title=
+ExecuteScript.39bdae3fbe67.title=
+
+# ExecuteScript.3a0ee555be6f.title=
+ExecuteScript.3a0ee555be6f.title=
+
+# ExecuteScript.3a0f5353be6f.title=
+ExecuteScript.3a0f5353be6f.title=
+
+# ExecuteScript.3a10617ebe6f.title=
+ExecuteScript.3a10617ebe6f.title=
+
+# ExecuteScript.3a16a300bec9.title=
+ExecuteScript.3a16a300bec9.title=
+
+# ExecuteScript.3a1c9ff4becd.title=
+ExecuteScript.3a1c9ff4becd.title=
+
+# ExecuteScript.3b6e9ae9bdfb.title=
+ExecuteScript.3b6e9ae9bdfb.title=
+
+# ExecuteScript.3bffb0a7af65.title=
+ExecuteScript.3bffb0a7af65.title=
+
 # ExecuteScript.3c94df4cb29e.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.3c94df4cb29e.dialogLabel=正在安装 STAR-NX...请等待片刻
+
+# ExecuteScript.3c94df4cb29e.title=
+ExecuteScript.3c94df4cb29e.title=
+
+# ExecuteScript.3c980762b2a4.title=
+ExecuteScript.3c980762b2a4.title=
+
+# ExecuteScript.3d386786ae93.title=
+ExecuteScript.3d386786ae93.title=
+
+# ExecuteScript.3dac852cae9c.title=
+ExecuteScript.3dac852cae9c.title=
+
+# ExecuteScript.41fcc8debe2f.title=
+ExecuteScript.41fcc8debe2f.title=
+
+# ExecuteScript.420284278cb9.title=
+ExecuteScript.420284278cb9.title=
+
+# ExecuteScript.49b821379c52.title=
+ExecuteScript.49b821379c52.title=
+
+# ExecuteScript.49b821459c9c.title=
+ExecuteScript.49b821459c9c.title=
+
+# ExecuteScript.49b821469c79.title=
+ExecuteScript.49b821469c79.title=
+
+# ExecuteScript.49b821469c8b.title=
+ExecuteScript.49b821469c8b.title=
+
+# ExecuteScript.49b821469c8e.title=
+ExecuteScript.49b821469c8e.title=
+
+# ExecuteScript.4b9dc9f1b241.title=
+ExecuteScript.4b9dc9f1b241.title=
+
+# ExecuteScript.4b9dc9f1b242.title=
+ExecuteScript.4b9dc9f1b242.title=
+
+# ExecuteScript.4b9dc9f1b244.title=
+ExecuteScript.4b9dc9f1b244.title=
+
+# ExecuteScript.4b9dc9f2b248.title=
+ExecuteScript.4b9dc9f2b248.title=
+
+# ExecuteScript.4b9dc9f2b249.title=
+ExecuteScript.4b9dc9f2b249.title=
+
+# ExecuteScript.4b9dc9f2b24b.title=
+ExecuteScript.4b9dc9f2b24b.title=
+
+# ExecuteScript.4b9dc9f2b24d.title=
+ExecuteScript.4b9dc9f2b24d.title=
+
+# ExecuteScript.4b9dc9f2b24e.title=
+ExecuteScript.4b9dc9f2b24e.title=
+
+# ExecuteScript.4b9dc9f2b24f.title=
+ExecuteScript.4b9dc9f2b24f.title=
+
+# ExecuteScript.4b9dca01b259.title=
+ExecuteScript.4b9dca01b259.title=
+
+# ExecuteScript.4b9dca01b25a.title=
+ExecuteScript.4b9dca01b25a.title=
+
+# ExecuteScript.4b9dca01b25b.title=
+ExecuteScript.4b9dca01b25b.title=
+
+# ExecuteScript.4b9dca01b25f.title=
+ExecuteScript.4b9dca01b25f.title=
+
+# ExecuteScript.4b9dca01b260.title=
+ExecuteScript.4b9dca01b260.title=
+
+# ExecuteScript.4b9dca01b261.title=
+ExecuteScript.4b9dca01b261.title=
+
+# ExecuteScript.4b9dca01b262.title=
+ExecuteScript.4b9dca01b262.title=
+
+# ExecuteScript.4b9dca01b264.title=
+ExecuteScript.4b9dca01b264.title=
+
+# ExecuteScript.4b9dca01b265.title=
+ExecuteScript.4b9dca01b265.title=
 
 # ExecuteScript.4ec4ab2091a5.dialogLabel=Installing Java JDK...Please wait
 ExecuteScript.4ec4ab2091a5.dialogLabel=正在安装 Java JDK...请等待
 
+# ExecuteScript.4ec4ab2091a5.title=
+ExecuteScript.4ec4ab2091a5.title=
+
+# ExecuteScript.537e5abea963.title=
+ExecuteScript.537e5abea963.title=
+
+# ExecuteScript.5388b2febaa3.title=
+ExecuteScript.5388b2febaa3.title=
+
+# ExecuteScript.55afe3f096d1.title=
+ExecuteScript.55afe3f096d1.title=
+
+# ExecuteScript.5aac78558549.title=
+ExecuteScript.5aac78558549.title=
+
+# ExecuteScript.5d804ae2b93a.title=
+ExecuteScript.5d804ae2b93a.title=
+
+# ExecuteScript.5d811c7ab93c.title=
+ExecuteScript.5d811c7ab93c.title=
+
+# ExecuteScript.5f5a0ee5a428.title=
+ExecuteScript.5f5a0ee5a428.title=
+
+# ExecuteScript.699c2366be5e.title=
+ExecuteScript.699c2366be5e.title=
+
+# ExecuteScript.6a0e8f769640.title=
+ExecuteScript.6a0e8f769640.title=
+
+# ExecuteScript.6c6dd8e28506.title=
+ExecuteScript.6c6dd8e28506.title=
+
+# ExecuteScript.6d1b9101b4b5.title=
+ExecuteScript.6d1b9101b4b5.title=
+
 # ExecuteScript.73803ae8bd3a.dialogLabel=Installing documentation..Please wait a moment
 ExecuteScript.73803ae8bd3a.dialogLabel=正在安装文档...请等待片刻
+
+# ExecuteScript.73803ae8bd3a.title=
+ExecuteScript.73803ae8bd3a.title=
+
+# ExecuteScript.7c69be3d8d4f.title=
+ExecuteScript.7c69be3d8d4f.title=
+
+# ExecuteScript.7c9569ecb719.title=
+ExecuteScript.7c9569ecb719.title=
+
+# ExecuteScript.854c9db7b5ab.title=
+ExecuteScript.854c9db7b5ab.title=
+
+# ExecuteScript.854f0fd0b645.title=
+ExecuteScript.854f0fd0b645.title=
+
+# ExecuteScript.854f8a30b6da.title=
+ExecuteScript.854f8a30b6da.title=
+
+# ExecuteScript.8572fc4196af.title=
+ExecuteScript.8572fc4196af.title=
 
 # ExecuteScript.89f929a3a979.dialogLabel=Installing documentation..Please wait a moment
 ExecuteScript.89f929a3a979.dialogLabel=正在安装文档...请等待片刻
 
+# ExecuteScript.89f929a3a979.title=
+ExecuteScript.89f929a3a979.title=
+
+# ExecuteScript.9469fbb0ba58.title=
+ExecuteScript.9469fbb0ba58.title=
+
+# ExecuteScript.946b6329bb04.title=
+ExecuteScript.946b6329bb04.title=
+
+# ExecuteScript.946b87d1bb54.title=
+ExecuteScript.946b87d1bb54.title=
+
+# ExecuteScript.9c4626dc93c4.title=
+ExecuteScript.9c4626dc93c4.title=
+
+# ExecuteScript.9c473d84b662.title=
+ExecuteScript.9c473d84b662.title=
+
+# ExecuteScript.9c47e5cf9937.title=
+ExecuteScript.9c47e5cf9937.title=
+
+# ExecuteScript.9c48bc38bc54.title=
+ExecuteScript.9c48bc38bc54.title=
+
+# ExecuteScript.9e1c458baa86.title=
+ExecuteScript.9e1c458baa86.title=
+
+# ExecuteScript.9e399d10a6f2.title=
+ExecuteScript.9e399d10a6f2.title=
+
+# ExecuteScript.9e4a02a28975.title=
+ExecuteScript.9e4a02a28975.title=
+
+# ExecuteScript.9e6a8fdf9720.title=
+ExecuteScript.9e6a8fdf9720.title=
+
+# ExecuteScript.a9b1812d954f.title=
+ExecuteScript.a9b1812d954f.title=
+
+# ExecuteScript.a9b1812d9552.title=
+ExecuteScript.a9b1812d9552.title=
+
+# ExecuteScript.aa090b60ab1f.title=
+ExecuteScript.aa090b60ab1f.title=
+
+# ExecuteScript.aa090b61ab20.title=
+ExecuteScript.aa090b61ab20.title=
+
 # ExecuteScript.b417717d964e.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.b417717d964e.dialogLabel=正在安装 STAR-CCM+$STARCCMPLUS_VERSION$...请等待片刻
+
+# ExecuteScript.b417717d964e.title=
+ExecuteScript.b417717d964e.title=
+
+# ExecuteScript.b4cb727a9721.title=
+ExecuteScript.b4cb727a9721.title=
+
+# ExecuteScript.b4cb88b19730.title=
+ExecuteScript.b4cb88b19730.title=
+
+# ExecuteScript.b75735028bf8.title=
+ExecuteScript.b75735028bf8.title=
+
+# ExecuteScript.b759e7808dd0.title=
+ExecuteScript.b759e7808dd0.title=
+
+# ExecuteScript.b9b5b08a8686.title=
+ExecuteScript.b9b5b08a8686.title=
 
 # ExecuteScript.c4f3cab68719.dialogLabel=Installing $SVRoot$ ..Please wait a moment
 ExecuteScript.c4f3cab68719.dialogLabel=正在安装 $SVRoot$...请等待片刻
 
+# ExecuteScript.c4f3cab68719.title=
+ExecuteScript.c4f3cab68719.title=
+
 # ExecuteScript.c4f3cab6871a.dialogLabel=Installing $SVRoot$ ..Please wait a moment
 ExecuteScript.c4f3cab6871a.dialogLabel=正在安装 $SVRoot$...请等待片刻
+
+# ExecuteScript.c4f3cab6871a.title=
+ExecuteScript.c4f3cab6871a.title=
 
 # ExecuteScript.c5a51be5b1e2.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.c5a51be5b1e2.dialogLabel=正在安装 STAR-NX...请等待片刻
 
+# ExecuteScript.c5a51be5b1e2.title=
+ExecuteScript.c5a51be5b1e2.title=
+
 # ExecuteScript.c5b8425c90b0.dialogLabel=Installing STAR-CREO ..Please wait a moment
 ExecuteScript.c5b8425c90b0.dialogLabel=正在安装 STAR-CREO...请等待片刻
+
+# ExecuteScript.c5b8425c90b0.title=
+ExecuteScript.c5b8425c90b0.title=
+
+# ExecuteScript.c5c2e0999553.title=
+ExecuteScript.c5c2e0999553.title=
 
 # ExecuteScript.c5cd9d13b825.dialogLabel=Installing STAR-INVENTOR ..Please wait a moment
 ExecuteScript.c5cd9d13b825.dialogLabel=正在安装 STAR-INVENTOR...请等待片刻
 
+# ExecuteScript.c5cd9d13b825.title=
+ExecuteScript.c5cd9d13b825.title=
+
+# ExecuteScript.cc881ed790de.title=
+ExecuteScript.cc881ed790de.title=
+
 # ExecuteScript.cd8d8dee9b21.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.cd8d8dee9b21.dialogLabel=正在安装 STAR-NX...请等待片刻
+
+# ExecuteScript.cd8d8dee9b21.title=
+ExecuteScript.cd8d8dee9b21.title=
+
+# ExecuteScript.cd91bbdaa4cc.title=
+ExecuteScript.cd91bbdaa4cc.title=
+
+# ExecuteScript.cd954092ae6e.title=
+ExecuteScript.cd954092ae6e.title=
 
 # ExecuteScript.cedf361bade9.dialogLabel=Installing STAR-NX ..Please wait a moment
 ExecuteScript.cedf361bade9.dialogLabel=正在安装 STAR-NX...请等待片刻
 
+# ExecuteScript.cedf361bade9.title=
+ExecuteScript.cedf361bade9.title=
+
+# ExecuteScript.cee16638adee.title=
+ExecuteScript.cee16638adee.title=
+
+# ExecuteScript.d1bb62389aed.title=
+ExecuteScript.d1bb62389aed.title=
+
 # ExecuteScript.d5000815a40a.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.d5000815a40a.dialogLabel=正在安装 STAR-CAT5...请等待片刻
+
+# ExecuteScript.d5000815a40a.title=
+ExecuteScript.d5000815a40a.title=
+
+# ExecuteScript.d7f98b358281.title=
+ExecuteScript.d7f98b358281.title=
+
+# ExecuteScript.d7fac3568281.title=
+ExecuteScript.d7fac3568281.title=
+
+# ExecuteScript.d8005aa48281.title=
+ExecuteScript.d8005aa48281.title=
+
+# ExecuteScript.d804a4248286.title=
+ExecuteScript.d804a4248286.title=
 
 # ExecuteScript.db61093cadce.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.db61093cadce.dialogLabel=正在安装 STAR-CAT5...请等待片刻
 
+# ExecuteScript.db61093cadce.title=
+ExecuteScript.db61093cadce.title=
+
+# ExecuteScript.e13f0215879a.title=
+ExecuteScript.e13f0215879a.title=
+
+# ExecuteScript.e49815f0a2e3.title=
+ExecuteScript.e49815f0a2e3.title=
+
+# ExecuteScript.e6e988288c39.title=
+ExecuteScript.e6e988288c39.title=
+
+# ExecuteScript.e6ea96d58c3b.title=
+ExecuteScript.e6ea96d58c3b.title=
+
+# ExecuteScript.eab32fc2b934.title=
+ExecuteScript.eab32fc2b934.title=
+
 # ExecuteScript.ed0b047db27c.dialogLabel=Installing documentation..Please wait a moment
 ExecuteScript.ed0b047db27c.dialogLabel=正在安装文档...请等待片刻
+
+# ExecuteScript.ed0b047db27c.title=
+ExecuteScript.ed0b047db27c.title=
+
+# ExecuteScript.f46c355fa1ce.dialogLabel=Installing STAR-CREO ..Please wait a moment
+ExecuteScript.f46c355fa1ce.dialogLabel=
+
+# ExecuteScript.f46c355fa1ce.title=
+ExecuteScript.f46c355fa1ce.title=
+
+# ExecuteScript.f7ce86aba575.title=
+ExecuteScript.f7ce86aba575.title=
 
 # ExecuteScript.faccc1009d21.dialogLabel=Installing documentation..Please wait a moment
 ExecuteScript.faccc1009d21.dialogLabel=正在安装文档...请等待片刻
 
+# ExecuteScript.faccc1009d21.title=
+ExecuteScript.faccc1009d21.title=
+
 # ExecuteScript.fdb96d13acca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.fdb96d13acca.dialogLabel=正在安装 STAR-CAT5...请等待片刻
 
+# ExecuteScript.fdb96d13acca.title=
+ExecuteScript.fdb96d13acca.title=
+
 # ExecuteScript.fdb98cefacca.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
 ExecuteScript.fdb98cefacca.dialogLabel=正在安装 STAR-CAT5...请等待片刻
+
+# ExecuteScript.fdb98cefacca.title=
+ExecuteScript.fdb98cefacca.title=
 
 # GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SVR_NAME$, then click Next.
 GetUserInput.07762bd5ba98.prompt=选择安装 $REGISTRY_SVR_NAME$ 时想要安装程序执行的更多任务，然后单击“下一步”。
@@ -499,6 +1132,9 @@ GetUserInput.3cd99868ae86.prompt=选择安装 STAR-CCM+ 时想要安装程序执
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
 GetUserInput.3cd99868ae86.title=选择更多任务
 
+# GetUserInput.4202184d8cb4.defaultValue=Selected
+GetUserInput.4202184d8cb4.defaultValue=
+
 # GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
 GetUserInput.4202184d8cb4.prompt=想要立即卸载 FLEXlm 许可证管理器？
 
@@ -559,6 +1195,18 @@ GetUserInput.8fe4e9e8b4a1.prompt=请输入将管理资源服务器的帐户的�
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
 GetUserInput.8fe4e9e8b4a1.title=管理员用户名
 
+# GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
+GetUserInput.9c427d388ef4.prompt=输入请求信息
+
+# GetUserInput.9c427d388ef4.title=Email specification
+GetUserInput.9c427d388ef4.title=获取用户输入
+
+# GetUserInput.9c455b20b168.prompt=Please select the port number for the SMTP connection.\n\nYou should change the port number if TLS is enabled\n\n
+GetUserInput.9c455b20b168.prompt=输入请求信息
+
+# GetUserInput.9c455b20b168.title=SMTP port number
+GetUserInput.9c455b20b168.title=获取用户输入
+
 # GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=CD-adapco 通过“按需授权”服务器或\n本地许可证服务器提供许可。\n\n请选择想使用的许可方法：
 
@@ -582,6 +1230,12 @@ GetUserInput.fbd51d65bcc1.prompt=选择安装 $REGISTRY_SV_NAME$ 时想要安装
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=选择更多任务
+
+# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the sitesettings.prop file to ProductExcellenceProgram=0.
+GetUserInputConsole.757df82f97fe.prompt=输入请求信息
+
+# GetUserInputConsole.757df82f97fe.title=Product Excellence Program
+GetUserInputConsole.757df82f97fe.title=获取用户输入
 
 # GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
 GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
@@ -697,8 +1351,14 @@ GUIComponentData.3642fdbebcea.defaultValue=$DEF_SERVER1$
 # GUIComponentData.3642fdbebcea.label=License server 1 ( REQUIRED )
 GUIComponentData.3642fdbebcea.label=许可证服务器 1（必需）
 
+# GUIComponentData.3642fdbebceb.defaultValue=
+GUIComponentData.3642fdbebceb.defaultValue=
+
 # GUIComponentData.3642fdbebceb.label=License server 2
 GUIComponentData.3642fdbebceb.label=许可证服务器 2
+
+# GUIComponentData.3642fdbebcec.defaultValue=
+GUIComponentData.3642fdbebcec.defaultValue=
 
 # GUIComponentData.3642fdbebcec.label=License server 3
 GUIComponentData.3642fdbebcec.label=许可证服务器 3
@@ -883,23 +1543,71 @@ GUIComponentData.8fe4e9eab4a2.defaultValue=
 # GUIComponentData.8fe4e9eab4a2.label=Admin User Name
 GUIComponentData.8fe4e9eab4a2.label=管理员用户名
 
+# GUIComponentData.9c427d388ef6.defaultValue=
+GUIComponentData.9c427d388ef6.defaultValue=
+
+# GUIComponentData.9c427d388ef6.label=Display Name
+GUIComponentData.9c427d388ef6.label=
+
+# GUIComponentData.9c427d3a8ef7.defaultValue=
+GUIComponentData.9c427d3a8ef7.defaultValue=
+
+# GUIComponentData.9c427d3a8ef7.label=SMTP server
+GUIComponentData.9c427d3a8ef7.label=
+
+# GUIComponentData.9c427d3a8ef8.defaultValue=
+GUIComponentData.9c427d3a8ef8.defaultValue=
+
+# GUIComponentData.9c427d3a8ef8.label=Username
+GUIComponentData.9c427d3a8ef8.label=
+
+# GUIComponentData.9c427d3a8ef9.defaultValue=
+GUIComponentData.9c427d3a8ef9.defaultValue=
+
+# GUIComponentData.9c427d3a8ef9.label=Password
+GUIComponentData.9c427d3a8ef9.label=
+
+# GUIComponentData.9c427d3b8ef6.defaultValue=
+GUIComponentData.9c427d3b8ef6.defaultValue=
+
+# GUIComponentData.9c427d3b8ef6.label=Email address
+GUIComponentData.9c427d3b8ef6.label=
+
+# GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
+GUIComponentData.9c43d5ae9b6c.defaultValue=
+
+# GUIComponentData.9c43d5ae9b6c.label=Configure email server
+GUIComponentData.9c43d5ae9b6c.label=
+
+# GUIComponentData.9c455b20b16a.defaultValue=587
+GUIComponentData.9c455b20b16a.defaultValue=
+
+# GUIComponentData.9c455b20b16a.label=SMTP Port number
+GUIComponentData.9c455b20b16a.label=
+
+# GUIComponentData.9c455b20b16b.defaultValue=Not Selected
+GUIComponentData.9c455b20b16b.defaultValue=
+
+# GUIComponentData.9c455b20b16b.label=TLS
+GUIComponentData.9c455b20b16b.label=
+
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
 
 # GUIComponentData.b80bfad59d4c.label=Local: Configure this machine to access local license server
 GUIComponentData.b80bfad59d4c.label=本地：将此电脑配置为可以访问本地许可证服务器
 
-# GUIComponentData.c2e945c0810a.defaultValue=$HOST$
-GUIComponentData.c2e945c0810a.defaultValue=$HOST$
-
-# GUIComponentData.c2e945c0810a.label=Login Node
-GUIComponentData.c2e945c0810a.label=登录节点
-
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
 GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=将应用程序目录添加至系统路径
+
+# GUIComponentData.e6e769628c38.defaultValue=$HOST$
+GUIComponentData.e6e769628c38.defaultValue=$HOST$
+
+# GUIComponentData.e6e769628c38.label=Login Node
+GUIComponentData.e6e769628c38.label=
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
@@ -1009,14 +1717,38 @@ GUIGroupData.85932125bfca.caption=
 # GUIGroupData.8fe4e9e9b4a2.caption=
 GUIGroupData.8fe4e9e9b4a2.caption=
 
+# GUIGroupData.9c427d398ef5.caption=
+GUIGroupData.9c427d398ef5.caption=
+
+# GUIGroupData.9c427d398ef6.caption=
+GUIGroupData.9c427d398ef6.caption=
+
+# GUIGroupData.9c427d398ef7.caption=
+GUIGroupData.9c427d398ef7.caption=
+
+# GUIGroupData.9c427d398ef8.caption=
+GUIGroupData.9c427d398ef8.caption=
+
+# GUIGroupData.9c427d398ef9.caption=
+GUIGroupData.9c427d398ef9.caption=
+
+# GUIGroupData.9c43d23e9b6c.caption=
+GUIGroupData.9c43d23e9b6c.caption=
+
+# GUIGroupData.9c455b21b169.caption=
+GUIGroupData.9c455b21b169.caption=
+
+# GUIGroupData.9c455b21b16a.caption=
+GUIGroupData.9c455b21b16a.caption=
+
 # GUIGroupData.a5412c2687af.caption=
 GUIGroupData.a5412c2687af.caption=
 
-# GUIGroupData.c2e945bf810a.caption=
-GUIGroupData.c2e945bf810a.caption=
-
 # GUIGroupData.c58f4203a8d1.caption=
 GUIGroupData.c58f4203a8d1.caption=
+
+# GUIGroupData.e6e769618c38.caption=
+GUIGroupData.e6e769618c38.caption=
 
 # GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.e82310a19e2b.caption=
@@ -1099,13 +1831,22 @@ InstallDirAction.5030314b81d8.prompt=想要在哪里安装 $PRODUCT_NAME$？
 # InstallDirAction.5030314b81d8.stepTitle=Select Installation Location
 InstallDirAction.5030314b81d8.stepTitle=选择安装位置
 
+# InstallDirAction.59b3a9e8ae1b.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.59b3a9e8ae1b.additionalText=请为本次安装选择一个目标文件夹。
+
+# InstallDirAction.59b3a9e8ae1b.prompt=Where Would You Like to Install FLEXNet ?
+InstallDirAction.59b3a9e8ae1b.prompt=您想在哪一位置安装(&W)？
+
+# InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
+InstallDirAction.59b3a9e8ae1b.stepTitle=选择安装文件夹
+
 # InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
 InstallDirAction.850018e38429.additionalText=安装程序将把 STAR-CAD $CAD_VERSION$安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
 InstallDirAction.850018e38429.prompt=想要在哪里安装 STAR-CAD $CAD_VERSION$？
 
-# InstallDirAction.850018e38429.stepTitle=Select Installation Location
+# InstallDirAction.850018e38429.stepTitle=Select Install Location
 InstallDirAction.850018e38429.stepTitle=选择安装位置
 
 # InstallDirActionConsole.b90620fd80f1.additionalText=
@@ -1201,13 +1942,13 @@ Installer.850018e38424.installLabels.26=STAR-CCM+ 安装目录
 # Installer.850018e38424.installProgressImageName=introImage.png
 Installer.850018e38424.installProgressImageName=introImage.png
 
-# Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+# Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
 Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # Installer.850018e38424.panelImageName=introImage.png
 Installer.850018e38424.panelImageName=introImage.png
 
-# Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+# Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
 Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # Installer.850018e38424.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
@@ -1225,8 +1966,20 @@ Installer.850018e38424.splashScreenGUIConfirm=确定
 # Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 
+# Installer.850018e38424.splashScreenGUIImageName1=SplashNew.png
+Installer.850018e38424.splashScreenGUIImageName1=
+
+# Installer.850018e38424.splashScreenGUIImageName2=SplashNew.png
+Installer.850018e38424.splashScreenGUIImageName2=
+
 # Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+
+# Installer.850018e38424.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
+Installer.850018e38424.splashScreenGUIImagePath1=
+
+# Installer.850018e38424.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
+Installer.850018e38424.splashScreenGUIImagePath2=
 
 # Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
 Installer.850018e38424.splashScreenGUIInstructions=在安装过程中选择要使用的语言
@@ -1273,6 +2026,9 @@ InstallFinishAction.12ff4db9947b.installSuccessMessage=恭喜：\n\nFLEXNet $FLE
 # InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
+# InstallFinishAction.12ff4db9947b.launchText=
+InstallFinishAction.12ff4db9947b.launchText=
+
 # InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
 InstallFinishAction.12ff4db9947b.rebootNotNeededMessage=
 
@@ -1296,6 +2052,9 @@ InstallFinishAction.31554a9699e3.installSuccessMessage=恭喜：\n\nSTAR-CAD $CA
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+
+# InstallFinishAction.31554a9699e3.launchText=
+InstallFinishAction.31554a9699e3.launchText=
 
 # InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
 InstallFinishAction.31554a9699e3.rebootNotNeededMessage=
@@ -1321,6 +2080,9 @@ InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_T
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
 
+# InstallFinishAction.850018e3843a.launchText=
+InstallFinishAction.850018e3843a.launchText=
+
 # InstallFinishAction.850018e3843a.rebootNotNeededMessage=
 InstallFinishAction.850018e3843a.rebootNotNeededMessage=
 
@@ -1344,6 +2106,9 @@ InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_T
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log。
+
+# InstallFinishAction.bbeaa35cb859.launchText=
+InstallFinishAction.bbeaa35cb859.launchText=
 
 # InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
 InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
@@ -1443,6 +2208,12 @@ InstallSummary.2001b0af82ad.stepPrompt=请首先预览以下内容，然后继�
 
 # InstallSummary.2001b0af82ad.title=Pre-Installation Summary
 InstallSummary.2001b0af82ad.title=预安装摘要
+
+# InstallSummary.59b76fa79fb5.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.59b76fa79fb5.stepPrompt=继续安装前，请先复审下列信息：
+
+# InstallSummary.59b76fa79fb5.title=Pre-Installation Summary
+InstallSummary.59b76fa79fb5.title=预安装摘要
 
 # InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
 InstallSummary.a132a7788325.stepPrompt=配置客户端节点。请预览以下内容，然后继续：
@@ -1816,6 +2587,15 @@ PreInstall.Text6=可用：
 # PreInstall.Text7=Required: 
 PreInstall.Text7=必需：
 
+# PreInstall.Text8=Participation in Product Excellence Program:
+PreInstall.Text8=Participation in Product Excellence Program:
+
+# PreInstall.Text8No=No
+PreInstall.Text8No=No
+
+# PreInstall.Text8Yes=Yes
+PreInstall.Text8Yes=Yes
+
 # PreInstall.Title=Pre-Installation Summary
 PreInstall.Title=预安装摘要
 
@@ -2056,6 +2836,24 @@ ShowDialogAction.3a2299d587bc.narrative=安装程序无法升级许可证服务�
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
 ShowDialogAction.3a2299d587bc.title=警告：许可证服务器
 
+# ShowDialogAction.59b3a9e8ae17.buttonLabel=OK
+ShowDialogAction.59b3a9e8ae17.buttonLabel=
+
+# ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
+ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=
+
+# ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
+ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=
+
+# ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+ executable not found.
+ShowDialogAction.59b3a9e8ae17.label=
+
+# ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
+ShowDialogAction.59b3a9e8ae17.narrative=
+
+# ShowDialogAction.59b3a9e8ae17.title=STAR-CCM+ Installation Not Found
+ShowDialogAction.59b3a9e8ae17.title=
+
 # ShowDialogAction.5f17661a83c5.buttonLabel=Yes
 ShowDialogAction.5f17661a83c5.buttonLabel=是
 
@@ -2182,42 +2980,6 @@ ShowDialogAction.7e4d4aee9257.narrative=求解器组件 ($REGISTRY_SV_NAME$ $STA
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
 
-# ShowDialogAction.7e56ee2dbf97.buttonLabel=OK
-ShowDialogAction.7e56ee2dbf97.buttonLabel=确定
-
-# ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=Cancel
-ShowDialogAction.7e56ee2dbf97.cancelButtonLabel=取消
-
-# ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=Details...
-ShowDialogAction.7e56ee2dbf97.detailsButtonLabel=详情...
-
-# ShowDialogAction.7e56ee2dbf97.label=STAR-CCM+ executable not found.
-ShowDialogAction.7e56ee2dbf97.label=未找到 STAR-CCM+ 可执行程序。
-
-# ShowDialogAction.7e56ee2dbf97.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
-ShowDialogAction.7e56ee2dbf97.narrative=请重新选择安装 $PRODUCT_NAME$的位置。
-
-# ShowDialogAction.7e56ee2dbf97.title=STAR-CCM+ Installation Not Found
-ShowDialogAction.7e56ee2dbf97.title=未找到 STAR-CCM+ 安装
-
-# ShowDialogAction.7e598f94bfa1.buttonLabel=OK
-ShowDialogAction.7e598f94bfa1.buttonLabel=确定
-
-# ShowDialogAction.7e598f94bfa1.cancelButtonLabel=Cancel
-ShowDialogAction.7e598f94bfa1.cancelButtonLabel=取消
-
-# ShowDialogAction.7e598f94bfa1.detailsButtonLabel=Details...
-ShowDialogAction.7e598f94bfa1.detailsButtonLabel=详情...
-
-# ShowDialogAction.7e598f94bfa1.label=$REGISTRY_SV_NAME$ executable not found.
-ShowDialogAction.7e598f94bfa1.label=未找到 $REGISTRY_SV_NAME$ 可执行文件。
-
-# ShowDialogAction.7e598f94bfa1.narrative=Please reselect location where bin\\$SVRoot$ is installed.
-ShowDialogAction.7e598f94bfa1.narrative=请重新选择安装 bin\\$SVRoot$is 的位置。
-
-# ShowDialogAction.7e598f94bfa1.title=$REGISTRY_SV_NAME$ Installation Not Found
-ShowDialogAction.7e598f94bfa1.title=未找到 $REGISTRY_SV_NAME$ 安装
-
 # ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
 ShowDialogAction.7e8620e4a2ee.buttonLabel=确定
 
@@ -2271,24 +3033,6 @@ ShowDialogAction.85b5743ab480.narrative=已取消选中所有 STAR-CCM+ 组件�
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=警告
-
-# ShowDialogAction.89a741e4b760.buttonLabel=OK
-ShowDialogAction.89a741e4b760.buttonLabel=确定
-
-# ShowDialogAction.89a741e4b760.cancelButtonLabel=Cancel
-ShowDialogAction.89a741e4b760.cancelButtonLabel=取消
-
-# ShowDialogAction.89a741e4b760.detailsButtonLabel=Details...
-ShowDialogAction.89a741e4b760.detailsButtonLabel=详情...
-
-# ShowDialogAction.89a741e4b760.label=Required Service  Pack not found
-ShowDialogAction.89a741e4b760.label=未找到所需的服务包
-
-# ShowDialogAction.89a741e4b760.narrative=Windows XP 32 bit Service Pack 3 or greater is a requirement for STAR-CCM+.\nPlease update your Windows installation.
-ShowDialogAction.89a741e4b760.narrative=STAR-CCM+ 需要安装 Windows XP 32 bit Service Pack 3 或更高版本。\n请更新 Windows 安装。
-
-# ShowDialogAction.89a741e4b760.title=Error
-ShowDialogAction.89a741e4b760.title=错误
 
 # ShowDialogAction.935897e9965b.buttonLabel=Next
 ShowDialogAction.935897e9965b.buttonLabel=下一步
@@ -2397,21 +3141,6 @@ ShowDialogAction.e261f38cb277.narrative=请使用管理员权限重新运行 STA
 
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=错误
-
-# ShowDialogAction.eeefa11b9c37.buttonLabel=OK
-ShowDialogAction.eeefa11b9c37.buttonLabel=确定
-
-# ShowDialogAction.eeefa11b9c37.cancelButtonLabel=Cancel
-ShowDialogAction.eeefa11b9c37.cancelButtonLabel=取消
-
-# ShowDialogAction.eeefa11b9c37.detailsButtonLabel=Details...
-ShowDialogAction.eeefa11b9c37.detailsButtonLabel=详情...
-
-# ShowDialogAction.eeefa11b9c37.label=<Enter the dialog label here>
-ShowDialogAction.eeefa11b9c37.label=<在此输入对话框标签>
-
-# ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
-ShowDialogAction.eeefa11b9c37.narrative=$STARDOC_CHECK$\n$FLEXSOFTWARE_SELECTED$\ninstallflex=$INSTALLFLEX$\nnodoc=$NODOC$\nui=$INSTALLER_UI$\nnode=$COMPUTE_NODE$\nrunning=$RUNNING_CDLMD_EXISTS$\nold=$RUNNING_CDLMD_IS_OLD$
 
 # ShowDialogAction.f388bcb88e95.buttonLabel=OK
 ShowDialogAction.f388bcb88e95.buttonLabel=确定
@@ -2593,12 +3322,6 @@ VariablePropertyDataBiDi.12d8571c9d5d.propertyName=许可证服务器：
 # VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
 VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$cdadapco_LICENSE_FILE$
 
-# VariablePropertyDataBiDi.1ae2401f82f0.propertyName=$REGISTRY_SV_NAME$ Installation directory:
-VariablePropertyDataBiDi.1ae2401f82f0.propertyName=$REGISTRY_SV_NAME$安装目录：
-
-# VariablePropertyDataBiDi.1ae2401f82f0.propertyValue=$STARVIEW_DIR$
-VariablePropertyDataBiDi.1ae2401f82f0.propertyValue=$STARVIEW_DIR$
-
 # VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
 VariablePropertyDataBiDi.2001b0af82af.propertyName=许可证服务器：
 
@@ -2617,8 +3340,90 @@ VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ 安装路径：
 # VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 
+# VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
+VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
+
+# VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
+
 # VariablePropertyDataBiDi.a133e9478327.propertyName=Product name:
 VariablePropertyDataBiDi.a133e9478327.propertyName=产品名称：
 
 # VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ Redistributables
 VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ 可再发行版本
+
+# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
+VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=
+
+# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
+VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
+
+# _ia.validateFlex.LicSrv1=License server 1 port@host \n
+_ia.validateFlex.LicSrv1=License server 1 port@host \n
+
+# _ia.validateFlex.LicSrv2=License server 2 port@host \n
+_ia.validateFlex.LicSrv2=License server 2 port@host \n
+
+# _ia.validateFlex.LicSrv3=License server 3 port@host \n
+_ia.validateFlex.LicSrv3=License server 3 port@host \n
+
+# _ia.validateFlex.LicSrvGeneric=License server port@host \n
+_ia.validateFlex.LicSrvGeneric=License server port@host \n
+
+# _ia.validateFlex.Lic1NeedSet=License server 1 must be set.
+_ia.validateFlex.Lic1NeedSet=License server 1 must be set.
+
+# _ia.validateFlex.Lic2NeedSet=License server 2 must be set.
+_ia.validateFlex.Lic2NeedSet=License server 2 must be set.
+
+# _ia.validateFlex.Lic3NeedSet=License server 3 must be set.
+_ia.validateFlex.Lic3NeedSet=License server 3 must be set.
+
+# _ia.validateFlex.Lic23NeedSet=License server 2 and server 3 must be set.
+_ia.validateFlex.Lic23NeedSet=License server 2 and server 3 must be set.
+
+# _ia.validateFlex.LicSrvNotFound=License server can not be found.
+_ia.validateFlex.LicSrvNotFound=License server can not be found.
+
+# _ia.validateFlex.LicSrv12Diff=License server 1 must be different than server 2.
+_ia.validateFlex.LicSrv12Diff=License server 1 must be different than server 2.
+
+# _ia.validateFlex.LicSrv13Diff=License server 1 must be different than server 3.
+_ia.validateFlex.LicSrv13Diff=License server 1 must be different than server 3.
+
+# _ia.validateFlex.LicSrv23Diff=License server 2 must be different than server 3.
+_ia.validateFlex.LicSrv23Diff=License server 2 must be different than server 3.
+
+# _ia.validateFlex.LicSrv123Diff=License server 1 must be different than server 2 and server 3.
+_ia.validateFlex.LicSrv123Diff=License server 1 must be different than server 2 and server 3.
+
+# _ia.validateFlex.HostLookupError=Hostname lookup error: \n
+_ia.validateFlex.HostLookupError=Hostname lookup error: \n
+
+# _ia.validateFlex.LicSrv=License server: 
+_ia.validateFlex.LicSrv=License server: 
+
+# _ia.validateFlex.PortHostSep=Port and host must be separated by a __VALID_CHARACTER__ character.
+_ia.validateFlex.PortHostSep=Port and host must be separated by a __VALID_CHARACTER__ character.
+
+# _ia.validateFlex.ThereCanOnlyBeOne=There can only be one __VALID_CHARACTER__ character.
+_ia.validateFlex.ThereCanOnlyBeOne=There can only be one __VALID_CHARACTER__ character.
+
+# _ia.validateFlex.CorrectFormat=The correct format is port@host.
+_ia.validateFlex.CorrectFormat=The correct format is port@host.
+
+# _ia.validateFlex.NoWhitespace=There can not be any whitespace character.
+_ia.validateFlex.NoWhitespace=There can not be any whitespace character.
+
+# _ia.validateFlex.TcpipValidRange=Valid TCP/IP port range is 1 - 65535.
+_ia.validateFlex.TcpipValidRange=Valid TCP/IP port range is 1 - 65535.
+
+# _ia.validateFlex.TcpipNumber=TCP/IP port must be a number.
+_ia.validateFlex.TcpipNumber=TCP/IP port must be a number.
+
+# _ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
+_ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
+
+# _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
+_ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
+

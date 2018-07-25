@@ -1,0 +1,1314 @@
+# InstallAnywhere Localization File
+#
+# External strings for locale: Korean (ko)
+# See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
+#     regarding mappings between the properties shown below and your InstallAnywhere
+#     project.
+#
+# External/Locale property names can take one of three forms:
+#     <ActionName>.<ReferenceID>.<ActionProperty>          (e.g., Installer.858175031081.productName)
+#     <ActionName>.<ReferenceID>.<ActionProperty>.<Index>  (e.g., Installer.858175031081.installLabels.01)
+#         - where the <ActionProperty> is a Vector and the <Index> represents the place within the
+#           Vector where the value of the property should be inserted
+#     _ia.<SomeProperty>                                   (e.g., _ia.MyCustomCodePanelProperty)
+#         - where <SomeProperty> is used as an identifier for a localized value by custom code
+#
+# External/Locale property values should be plain text strings.  Special or i18n characters
+#     that cannot be represented by ASCII characters should be written using escaped unicode.
+#     - see the utility 'native2ascii' distributed with your JDK
+#
+# Product Name: FlexNet License Server
+# Project File: /u/xeon144/starusers/kevinm/installers/flexlm/windows/workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
+# Generated:    Sun Jul 08 22:12:39 EDT 2018
+
+
+# ASCIIFileManipulator.1faba93ebf1e.additionalText=
+ASCIIFileManipulator.1faba93ebf1e.additionalText=
+
+# Billboard.ad1a6043b854.imageName=billboard_default.png
+Billboard.ad1a6043b854.imageName=billboard_default.png
+
+# Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
+Billboard.ad1a6043b854.imagePath=
+
+# ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
+ChooseFile.2077f0c888a3.additionalText=이메일을 통해 이전에 Siemens PLM Software에서 받은 라이선스 파일의 위치를 찾아 컴퓨터로 다운로드하십시오. 라이선스 파일을 찾았으면 파일을 강조표시하고 쿼리 상자에서 \"열기\"를 클릭하십시오. 아직 라이선스 파일을 받지 못했거나 Power on Demand 사용자가 있는 경우 \"다음\"을 클릭하여 이 설치 프로세스를 계속할 수 있지만 이 설치 도구를 다시 실행해야 완전한 STAR-CCM+ 설치를 마무리할 수 있습니다.
+
+# ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
+ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
+
+# ChooseFile.2077f0c888a3.prompt=Please choose location of the license &File:
+ChooseFile.2077f0c888a3.prompt=라이선스 파일(&F)의 위치를 선택하십시오.
+
+# ChooseFile.2077f0c888a3.stepTitle=Select license file
+ChooseFile.2077f0c888a3.stepTitle=라이선스 파일 선택
+
+# CreateDialog.20452174b524.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
+CreateDialog.20452174b524.prompt=지금 $SERVICE_NAME$ License Server Manager를 중지하고 제거하시겠습니까?
+
+# CreateDialog.20452174b524.title=Stop the Server
+CreateDialog.20452174b524.title=서버 중지
+
+# CreateShortcut.33e0c07bb75c.args=
+CreateShortcut.33e0c07bb75c.args=
+
+# CreateShortcut.33e0c07bb75c.destinationName=FlexNet License Administration Guide
+CreateShortcut.33e0c07bb75c.destinationName=FLEXnet 라이선스 관리 가이드
+
+# CreateShortcut.33e0c07bb75c.workingDir=
+CreateShortcut.33e0c07bb75c.workingDir=
+
+# CreateShortcut.63475501aee6.args=
+CreateShortcut.63475501aee6.args=
+
+# CreateShortcut.63475501aee6.destinationName=FLEXnet License Administration Tools
+CreateShortcut.63475501aee6.destinationName=FLEXnet 라이선스 관리 도구
+
+# CreateShortcut.63475501aee6.workingDir=
+CreateShortcut.63475501aee6.workingDir=
+
+# EditEnvironment.1faba940bf1a.value=$cdadapco_LICENSE_FILE$
+EditEnvironment.1faba940bf1a.value=$cdadapco_LICENSE_FILE$
+
+# EntryAtomBiDi.20452175b525.label=Stop server now
+EntryAtomBiDi.20452175b525.label=지금 서버 중지
+
+# EntryAtomNonBiDi.3476a6ae92bb.defaultValue=$USER_HOME$
+EntryAtomNonBiDi.3476a6ae92bb.defaultValue=$USER_HOME$
+
+# EntryAtomNonBiDi.3476a6ae92bb.label=License File directory:
+EntryAtomNonBiDi.3476a6ae92bb.label=
+
+# EntryAtomNonBiDi.3479ecd29ef9.defaultValue=$NEW_LIC_FILE$
+EntryAtomNonBiDi.3479ecd29ef9.defaultValue=$NEW_LIC_FILE$
+
+# EntryAtomNonBiDi.3479ecd29ef9.label=License Filename:
+EntryAtomNonBiDi.3479ecd29ef9.label=
+
+# EntryAtomNonBiDi.34a73bdf9025.defaultValue=$SERVICE_NAME$
+EntryAtomNonBiDi.34a73bdf9025.defaultValue=$SERVICE_NAME$
+
+# EntryAtomNonBiDi.34a73bdf9025.label=Enter the service name
+EntryAtomNonBiDi.34a73bdf9025.label=서비스 이름 입력
+
+# EntryAtomNonBiDi.34b7925f9b97.defaultValue=$LIC_PORT_NUMBER$
+EntryAtomNonBiDi.34b7925f9b97.defaultValue=$LIC_PORT_NUMBER$
+
+# EntryAtomNonBiDi.34b7925f9b97.label=Enter the License  Port Number
+EntryAtomNonBiDi.34b7925f9b97.label=라이선스 포트 번호 입력
+
+# EntryAtomNonBiDi.397431c298cb.label=Start server now
+EntryAtomNonBiDi.397431c298cb.label=
+
+# EntryAtomNonBiDi.397431c398cb.label=Do not start server
+EntryAtomNonBiDi.397431c398cb.label=
+
+# EntryAtomNonBiDi.39bffdb39e9b.defaultValue=$STOP_SERVER$
+EntryAtomNonBiDi.39bffdb39e9b.defaultValue=$STOP_SERVER$
+
+# EntryAtomNonBiDi.39bffdb39e9b.label=Stop server now
+EntryAtomNonBiDi.39bffdb39e9b.label=지금 서버 중지
+
+# EntryAtomNonBiDi.39dc75c38e79.defaultValue=$SERVICE_NAME$
+EntryAtomNonBiDi.39dc75c38e79.defaultValue=$SERVICE_NAME$
+
+# EntryAtomNonBiDi.39dc75c38e79.label=Enter the service name
+EntryAtomNonBiDi.39dc75c38e79.label=서비스 이름 입력
+
+# EntryAtomNonBiDi.7c5d2416bc5e.label=Update license server
+EntryAtomNonBiDi.7c5d2416bc5e.label=
+
+# EntryAtomNonBiDi.ad1a5f0ab712.defaultValue=/
+EntryAtomNonBiDi.ad1a5f0ab712.defaultValue=
+
+# EntryAtomNonBiDi.ad1a5f0ab712.label=Previous Installation Path
+EntryAtomNonBiDi.ad1a5f0ab712.label=
+
+# Exec.2f67f2ceabe8.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
+Exec.2f67f2ceabe8.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
+
+# Exec.2f67f2ceabe8.title=
+Exec.2f67f2ceabe8.title=
+
+# ExecuteScript.0cbd9d5bbed2.title=
+ExecuteScript.0cbd9d5bbed2.title=
+
+# ExecuteScript.1faba93ebf21.title=
+ExecuteScript.1faba93ebf21.title=
+
+# ExecuteScript.1faba93fbf1b.title=
+ExecuteScript.1faba93fbf1b.title=
+
+# ExecuteScript.1faba93fbf20.title=
+ExecuteScript.1faba93fbf20.title=
+
+# ExecuteScript.1faba93fbf21.title=
+ExecuteScript.1faba93fbf21.title=
+
+# ExecuteScript.1faba93fbf2f.title=
+ExecuteScript.1faba93fbf2f.title=
+
+# ExecuteScript.1faba940bf23.title=
+ExecuteScript.1faba940bf23.title=
+
+# ExecuteScript.1faba940bf26.title=
+ExecuteScript.1faba940bf26.title=
+
+# ExecuteScript.1faba940bf28.title=
+ExecuteScript.1faba940bf28.title=
+
+# ExecuteScript.1faba940bf2c.title=
+ExecuteScript.1faba940bf2c.title=
+
+# ExecuteScript.1faba940bf39.title=
+ExecuteScript.1faba940bf39.title=
+
+# ExecuteScript.1faba941bf3a.title=
+ExecuteScript.1faba941bf3a.title=
+
+# ExecuteScript.2077f0c5887a.title=
+ExecuteScript.2077f0c5887a.title=
+
+# ExecuteScript.2077f0c5887d.title=
+ExecuteScript.2077f0c5887d.title=
+
+# ExecuteScript.2f66492d9b93.title=
+ExecuteScript.2f66492d9b93.title=
+
+# ExecuteScript.2f66492d9b96.title=
+ExecuteScript.2f66492d9b96.title=
+
+# ExecuteScript.2f66492e9b94.title=
+ExecuteScript.2f66492e9b94.title=
+
+# ExecuteScript.2f66492e9b9b.title=
+ExecuteScript.2f66492e9b9b.title=
+
+# ExecuteScript.2f66492f9b97.title=
+ExecuteScript.2f66492f9b97.title=
+
+# ExecuteScript.2f66492f9b9c.title=
+ExecuteScript.2f66492f9b9c.title=
+
+# ExecuteScript.2f66492f9b9e.title=
+ExecuteScript.2f66492f9b9e.title=
+
+# ExecuteScript.2f66492f9ba1.title=
+ExecuteScript.2f66492f9ba1.title=
+
+# ExecuteScript.2f66492f9ba4.title=
+ExecuteScript.2f66492f9ba4.title=
+
+# ExecuteScript.2f6649309ba5.title=
+ExecuteScript.2f6649309ba5.title=
+
+# ExecuteScript.2f6649319ba6.title=
+ExecuteScript.2f6649319ba6.title=
+
+# ExecuteScript.2f6649319ba8.title=
+ExecuteScript.2f6649319ba8.title=
+
+# ExecuteScript.34aa2a9091ec.dialogLabel=Checking for License Service...
+ExecuteScript.34aa2a9091ec.dialogLabel=
+
+# ExecuteScript.34aa2a9091ec.title=
+ExecuteScript.34aa2a9091ec.title=
+
+# ExecuteScript.3991a198b9b5.title=
+ExecuteScript.3991a198b9b5.title=
+
+# ExecuteScript.39af73db90dc.title=
+ExecuteScript.39af73db90dc.title=
+
+# ExecuteScript.ad1a5f0ab718.title=
+ExecuteScript.ad1a5f0ab718.title=
+
+# ExecuteScript.ad1a5f1bb722.title=
+ExecuteScript.ad1a5f1bb722.title=
+
+# ExecuteScript.ad1a6033b82f.dialogLabel=Executing Installation Script...
+ExecuteScript.ad1a6033b82f.dialogLabel=
+
+# ExecuteScript.ad1a6033b82f.title=
+ExecuteScript.ad1a6033b82f.title=
+
+# GetUserInput.2077f0c7889e.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.2077f0c7889e.prompt=라이선스 서버 소프트웨어에 액세스하려면 통신 채널 또는 포트를 컴퓨터에서 사용할 수 있어야 합니다. FLEXNet 라이선스 서버의 기본 포트 번호는 1999입니다. 이러한 기본값은 아래에 나열되어 있지만 필요한 경우 컴퓨터 설정을 반영하기 위해 다른 포트 번호로 변경할 수 있습니다.
+
+# GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
+GetUserInput.2077f0c7889e.title=FlexNet 라이선스 서버 구성
+
+# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+GetUserInput.2077f0c888b2.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되었습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 다른 것으로 변경하려면 제공된 이름을 수정하십시오.\n\n
+
+# GetUserInput.2077f0c888b2.title=Service Configuration 
+GetUserInput.2077f0c888b2.title=서비스 구성
+
+# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+GetUserInput.39b459359a2b.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되어 있습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열되어 있습니다.\n\n
+
+# GetUserInput.39b459359a2b.title=Service Configuration 
+GetUserInput.39b459359a2b.title=서비스 구성
+
+# GetUserInput.ad1a5f0ab70b.prompt=To update a previous FlexNet License Server , please select the checkbox below and provide the path to the previous cdlmd installation?  (By default updating is disabled)\n
+GetUserInput.ad1a5f0ab70b.prompt=요청된 정보 입력
+
+# GetUserInput.ad1a5f0ab70b.title=Update License Server 
+GetUserInput.ad1a5f0ab70b.title=사용자 입력 가져오기
+
+# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
+GetUserInputConsole.3476a6ad92bb.prompt=요청된 정보 입력
+
+# GetUserInputConsole.3476a6ad92bb.title=Select license file directory
+GetUserInputConsole.3476a6ad92bb.title=사용자 입력 가져오기
+
+# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
+GetUserInputConsole.3479ecd19ef9.prompt=요청된 정보 입력
+
+# GetUserInputConsole.3479ecd19ef9.title=Select license filename
+GetUserInputConsole.3479ecd19ef9.title=사용자 입력 가져오기
+
+# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+GetUserInputConsole.34a73bdd9025.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되었습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 다른 것으로 변경하려면 제공된 이름을 수정하십시오.\n\n
+
+# GetUserInputConsole.34a73bdd9025.title=Service Name Configuration
+GetUserInputConsole.34a73bdd9025.title=사용자 입력 가져오기
+
+# GetUserInputConsole.34b7925f9b96.prompt=Configure the License port number at which licensing application will communicate with the License Server Manager
+GetUserInputConsole.34b7925f9b96.prompt=요청된 정보 입력
+
+# GetUserInputConsole.34b7925f9b96.title=FlexNet License Server Configuration
+GetUserInputConsole.34b7925f9b96.title=사용자 입력 가져오기
+
+# GetUserInputConsole.397431c298ca.prompt=Do you want to launch the License Server Manager now and access the License Server Management Interface via a web browser? (By default License Server Manager is not started)
+GetUserInputConsole.397431c298ca.prompt=요청된 정보 입력
+
+# GetUserInputConsole.397431c298ca.title=Start the Server
+GetUserInputConsole.397431c298ca.title=사용자 입력 가져오기
+
+# GetUserInputConsole.39bf55a39e93.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
+GetUserInputConsole.39bf55a39e93.prompt=지금 $SERVICE_NAME$ License Server Manager를 중지하고 제거하시겠습니까?
+
+# GetUserInputConsole.39bf55a39e93.title=Stop the Server
+GetUserInputConsole.39bf55a39e93.title=서버 중지
+
+# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n
+GetUserInputConsole.39dc75c28e78.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되어 있습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열되어 있습니다.\n\n
+
+# GetUserInputConsole.39dc75c28e78.title=Service Name Configuration
+GetUserInputConsole.39dc75c28e78.title=사용자 입력 가져오기
+
+# GetUserInputConsole.ad1a5f0ab711.prompt=Please provide the path to the previous cdlmd installation? 
+GetUserInputConsole.ad1a5f0ab711.prompt=요청된 정보 입력
+
+# GetUserInputConsole.ad1a5f0ab711.title=Update License Server 
+GetUserInputConsole.ad1a5f0ab711.title=사용자 입력 가져오기
+
+# GetUserInputConsole.ad1a5f0bb708.prompt=Do you want to update a previous FlexNet license server installation? (By default updating is disabled)\n\n
+GetUserInputConsole.ad1a5f0bb708.prompt=요청된 정보 입력
+
+# GetUserInputConsole.ad1a5f0bb708.title=Update License Server 
+GetUserInputConsole.ad1a5f0bb708.title=사용자 입력 가져오기
+
+# GUIComponentData.2077f0c788a0.defaultValue=
+GUIComponentData.2077f0c788a0.defaultValue=
+
+# GUIComponentData.2077f0c788a0.label=
+GUIComponentData.2077f0c788a0.label=
+
+# GUIComponentData.2077f0c788a1.defaultValue=$LIC_PORT_NUMBER$
+GUIComponentData.2077f0c788a1.defaultValue=$LIC_PORT_NUMBER$
+
+# GUIComponentData.2077f0c788a1.label=Enter the License port number:
+GUIComponentData.2077f0c788a1.label=라이선스 포트 번호 입력:
+
+# GUIComponentData.2077f0c888b4.defaultValue=$SERVICE_NAME$
+GUIComponentData.2077f0c888b4.defaultValue=$SERVICE_NAME$
+
+# GUIComponentData.2077f0c888b4.label=Enter the service name
+GUIComponentData.2077f0c888b4.label=서비스 이름 입력
+
+# GUIComponentData.2077f0c888b5.defaultValue=Selected
+GUIComponentData.2077f0c888b5.defaultValue=Selected
+
+# GUIComponentData.2077f0c888b5.label=Start license server now 
+GUIComponentData.2077f0c888b5.label=지금 라이선스 서버 시작 
+
+# GUIComponentData.39b459379a2d.defaultValue=Selected
+GUIComponentData.39b459379a2d.defaultValue=Selected
+
+# GUIComponentData.39b459379a2d.label=Start license server now 
+GUIComponentData.39b459379a2d.label=지금 라이선스 서버 시작 
+
+# GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
+GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
+
+# GUIComponentData.39b459389a2c.label=Enter the service name
+GUIComponentData.39b459389a2c.label=서비스 이름 입력
+
+# GUIComponentData.7c5df734bc5f.defaultValue=Not Selected
+GUIComponentData.7c5df734bc5f.defaultValue=Not Selected
+
+# GUIComponentData.7c5df734bc5f.label=Yes Update
+GUIComponentData.7c5df734bc5f.label=
+
+# GUIComponentData.ad1a5f0ab70d.defaultValue=
+GUIComponentData.ad1a5f0ab70d.defaultValue=
+
+# GUIComponentData.ad1a5f0ab70d.label=Previous Installation path
+GUIComponentData.ad1a5f0ab70d.label=
+
+# GUIGroupData.2077f0c8889f.caption=
+GUIGroupData.2077f0c8889f.caption=
+
+# GUIGroupData.2077f0c888a0.caption=
+GUIGroupData.2077f0c888a0.caption=
+
+# GUIGroupData.2077f0c988b3.caption=
+GUIGroupData.2077f0c988b3.caption=
+
+# GUIGroupData.2077f0c988b4.caption=
+GUIGroupData.2077f0c988b4.caption=
+
+# GUIGroupData.39b459369a2c.caption=
+GUIGroupData.39b459369a2c.caption=
+
+# GUIGroupData.39b459369a2d.caption=
+GUIGroupData.39b459369a2d.caption=
+
+# GUIGroupData.ad1a5f0ab70c.caption=
+GUIGroupData.ad1a5f0ab70c.caption=
+
+# GUIGroupData.ad1a5f0ab70e.caption=
+GUIGroupData.ad1a5f0ab70e.caption=
+
+# Help.ad1a5eecb6e6.helpText=\n\n
+Help.ad1a5eecb6e6.helpText=
+
+# Help.ad1a5eecb6e6.title=
+Help.ad1a5eecb6e6.title=
+
+# InstallBundle.ad1a6043b853.bundleName=License Server
+InstallBundle.ad1a6043b853.bundleName=라이선스 서버
+
+# InstallBundle.ad1a6043b853.description=This installs the license server feature.
+InstallBundle.ad1a6043b853.description=응용프로그램 기능을 설치합니다.
+
+# InstallCompleteActionConsole.ad1a5fe5b791.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.ad1a5fe5b791.message=축하합니다. $PRODUCT_NAME$이(가) 다음 위치에 성공적으로 설치되었습니다.\n\n   $USER_INSTALL_DIR$
+
+# InstallCompleteActionConsole.ad1a5fe5b791.title=Installation Complete
+InstallCompleteActionConsole.ad1a5fe5b791.title=설치 완료
+
+# InstallDirAction.ad1a5efab6fa.additionalText=
+InstallDirAction.ad1a5efab6fa.additionalText=이 설치에 사용할 대상 폴더를 선택하십시오.
+
+# InstallDirAction.ad1a5efab6fa.prompt=&Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
+InstallDirAction.ad1a5efab6fa.prompt=$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$을(를) 어디에 설치하시겠습니까?
+
+# InstallDirAction.ad1a5efab6fa.stepTitle=Select Install Location
+InstallDirAction.ad1a5efab6fa.stepTitle=설치 위치 선택
+
+# InstallDirActionConsole.ad1a5efab6fc.additionalText=
+InstallDirActionConsole.ad1a5efab6fc.additionalText=
+
+# InstallDirActionConsole.ad1a5efab6fc.prompt=Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
+InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$을(를) 어디에 설치하시겠습니까?
+
+# InstallDirActionConsole.ad1a5efab6fc.stepTitle=Select Install Location
+InstallDirActionConsole.ad1a5efab6fc.stepTitle=설치 위치 선택
+
+# Installer.ad1a5eebb6d5.installLabels.00=Select license file
+Installer.ad1a5eebb6d5.installLabels.00=파일 선택
+
+# Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
+Installer.ad1a5eebb6d5.installLabels.01=사용자 입력 가져오기
+
+# Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
+Installer.ad1a5eebb6d5.installLabels.02=사용자 입력 가져오기
+
+# Installer.ad1a5eebb6d5.installLabels.03=Pre-Installation Summary
+Installer.ad1a5eebb6d5.installLabels.03=사전 설치 요약
+
+# Installer.ad1a5eebb6d5.installLabels.04=Installing...
+Installer.ad1a5eebb6d5.installLabels.04=설치 중...
+
+# Installer.ad1a5eebb6d5.installLabels.05=Install Complete
+Installer.ad1a5eebb6d5.installLabels.05=설치 완료
+
+# Installer.ad1a5eebb6d5.installLabels.06=Introduction
+Installer.ad1a5eebb6d5.installLabels.06=소개
+
+# Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
+Installer.ad1a5eebb6d5.installLabels.07=사용자 입력 가져오기
+
+# Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
+Installer.ad1a5eebb6d5.installLabels.08=사용자 입력 가져오기
+
+# Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
+Installer.ad1a5eebb6d5.installLabels.09=설치 폴더 선택
+
+# Installer.ad1a5eebb6d5.installLabels.10=Select license file
+Installer.ad1a5eebb6d5.installLabels.10=파일 선택
+
+# Installer.ad1a5eebb6d5.installProgressImageName=introImage.png
+Installer.ad1a5eebb6d5.installProgressImageName=introImage.png
+
+# Installer.ad1a5eebb6d5.installProgressImagePath=com/zerog/ia/installer/images/
+Installer.ad1a5eebb6d5.installProgressImagePath=com/zerog/ia/installer/images/
+
+# Installer.ad1a5eebb6d5.panelImageName=introImage.png
+Installer.ad1a5eebb6d5.panelImageName=introImage.png
+
+# Installer.ad1a5eebb6d5.panelImagePath=com/zerog/ia/installer/images/
+Installer.ad1a5eebb6d5.panelImagePath=com/zerog/ia/installer/images/
+
+# Installer.ad1a5eebb6d5.rulesFailedMessage=There is already an installation of  FlexNet License Server Manager. Please chose different location.\n
+Installer.ad1a5eebb6d5.rulesFailedMessage=설치 프로그램을 설정된 구성에서 실행할 수 없습니다. 종료합니다.
+
+# Installer.ad1a5eebb6d5.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+Installer.ad1a5eebb6d5.splashScreenConsolePrompt=숫자로 로케일 선택
+
+# Installer.ad1a5eebb6d5.splashScreenConsoleTitle=Choose Locale...
+Installer.ad1a5eebb6d5.splashScreenConsoleTitle=로케일 선택...
+
+# Installer.ad1a5eebb6d5.splashScreenGUIConfirm=OK
+Installer.ad1a5eebb6d5.splashScreenGUIConfirm=확인
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImageName=starccm-splash.png
+Installer.ad1a5eebb6d5.splashScreenGUIImageName=starccm-splash.png
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImageName1=SplashNew.png
+Installer.ad1a5eebb6d5.splashScreenGUIImageName1=
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImageName2=SplashNew.png
+Installer.ad1a5eebb6d5.splashScreenGUIImageName2=
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath1=
+
+# Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=
+
+# Installer.ad1a5eebb6d5.splashScreenGUIInstructions=Select the language to use during installation
+Installer.ad1a5eebb6d5.splashScreenGUIInstructions=설치 중에 사용할 언어 선택
+
+# Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet License Server
+Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet 라이선스 서버 구성
+
+# InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
+InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
+
+# InstallerInfoData.ad1a6005b7f8.installerName=FlexNet License Server
+InstallerInfoData.ad1a6005b7f8.installerName=FlexNet 라이선스 서버 구성
+
+# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server
+InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet 라이선스 서버 구성
+
+# InstallerInfoData.ad1a6005b7f8.productDescription=
+InstallerInfoData.ad1a6005b7f8.productDescription=
+
+# InstallerInfoData.ad1a6005b7f8.productName=FlexNet License Server
+InstallerInfoData.ad1a6005b7f8.productName=FlexNet 라이선스 서버 구성
+
+# InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
+InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
+
+# InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
+InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
+
+# InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
+InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
+
+# InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
+InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
+
+# InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 를 참조하십시오.
+
+# InstallFinishAction.ad1a5fe5b78f.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 를 참조하십시오.
+
+# InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
+InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=축하합니다! $PRODUCT_NAME$(은)는 다음 위치에 성공적으로 설치되었습니다.\n\n     $USER_INSTALL_DIR$\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
+
+# InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$PRODUCT_NAME$의 설치가 완료되었지만 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 를 참조하십시오.
+
+# InstallFinishAction.ad1a5fe5b78f.launchText=
+InstallFinishAction.ad1a5fe5b78f.launchText=
+
+# InstallFinishAction.ad1a5fe5b78f.rebootNotNeededMessage=
+InstallFinishAction.ad1a5fe5b78f.rebootNotNeededMessage=
+
+# InstallFinishAction.ad1a5fe5b78f.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.ad1a5fe5b78f.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# InstallFinishAction.ad1a5fe5b78f.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.ad1a5fe5b78f.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# InstallFinishAction.ad1a5fe5b78f.windowTitle=Install Complete
+InstallFinishAction.ad1a5fe5b78f.windowTitle=설치 완료
+
+# InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=Configure $PRODUCT_NAME$
+InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=$PRODUCT_NAME$ 구성
+
+# InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=Uninstall $PRODUCT_NAME$
+InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=$PRODUCT_NAME$제거
+
+# InstallSet.ad1a6004b7f4.description=Choose this option to customize the features to be installed.
+InstallSet.ad1a6004b7f4.description=설치할 기능을 사용자 지정하려면 이 옵션을 선택합니다.
+
+# InstallSet.ad1a6004b7f4.imageName=customIcon.png
+InstallSet.ad1a6004b7f4.imageName=customIcon.png
+
+# InstallSet.ad1a6004b7f4.imagePath=com/zerog/ia/installer/images/
+InstallSet.ad1a6004b7f4.imagePath=com/zerog/ia/installer/images/
+
+# InstallSet.ad1a6004b7f4.installSetName=Custom
+InstallSet.ad1a6004b7f4.installSetName=사용자 지정
+
+# InstallSet.ad1a6043b852.description=The most common application features will be installed.  This option is recommended for most users.
+InstallSet.ad1a6043b852.description=가장 일반적인 응용프로그램 기능이 설치됩니다. 이 옵션은 대부분의 사용자에게 권장됩니다.
+
+# InstallSet.ad1a6043b852.imageName=typical.png
+InstallSet.ad1a6043b852.imageName=typical.png
+
+# InstallSet.ad1a6043b852.imagePath=com/zerog/ia/installer/images/
+InstallSet.ad1a6043b852.imagePath=com/zerog/ia/installer/images/
+
+# InstallSet.ad1a6043b852.installSetName=Typical
+InstallSet.ad1a6043b852.installSetName=일반
+
+# InstallSummary.ad1a5fa6b729.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.ad1a5fa6b729.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
+
+# InstallSummary.ad1a5fa6b729.title=Pre-Installation Summary
+InstallSummary.ad1a5fa6b729.title=사전 설치 요약
+
+# InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=Please Review the Following Before Continuing:
+InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
+
+# InstallSummaryConsole.ad1a5fa6b72b.title=Pre-Installation Summary
+InstallSummaryConsole.ad1a5fa6b72b.title=사전 설치 요약
+
+# InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
+InstallUninstaller.ad1a6042b859.destinationName=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
+
+# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.102ce4b4ba3c.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \n\n이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \n\n'다음'을 눌러 다음 화면으로 이동하십시오. 이전 화면에서 어떤 사항을 변경하기 원하면 '이전' 버튼을 누르십시오. \n\n'취소' 버튼을 눌러 언제라도 이 설치를 취소할 수 있습니다.
+
+# IntroAction.102ce4b4ba3c.stepTitle=Introduction
+IntroAction.102ce4b4ba3c.stepTitle=소개
+
+# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
+IntroAction.ad1a5eecb6e5.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \n\n이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \n\n'다음'을 눌러 다음 화면으로 이동하십시오. 이전 화면에서 어떤 사항을 변경하기 원하면 '이전' 버튼을 누르십시오. \n\n'취소' 버튼을 눌러 언제라도 이 설치를 취소할 수 있습니다.
+
+# IntroAction.ad1a5eecb6e5.stepTitle=Introduction
+IntroAction.ad1a5eecb6e5.stepTitle=소개
+
+# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.1033584988cf.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \n\n이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \n\n설치 중에 각각의 물음에 대답하여 다음 단계로 이동하십시오. 이전 단계의 어떤 것을 변경하기 원하면 'back'을 입력하십시오. \n\n'quit'을 입력하여 언제라도 설치를 취소할 수 있습니다.
+
+# IntroActionConsole.1033584988cf.title=Introduction
+IntroActionConsole.1033584988cf.title=소개
+
+# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.ad1a5eecb6e8.message=InstallAnywhere가 $PRODUCT_NAME$의 설치를 안내해 줍니다. \n\n이 설치를 계속하기 전에 모든 프로그램을 반드시 종료할 것을 권장합니다. \n\n설치 중에 각각의 물음에 대답하여 다음 단계로 이동하십시오. 이전 단계의 어떤 것을 변경하기 원하면 'back'을 입력하십시오. \n\n'quit'을 입력하여 언제라도 설치를 취소할 수 있습니다.
+
+# IntroActionConsole.ad1a5eecb6e8.title=Introduction
+IntroActionConsole.ad1a5eecb6e8.title=소개
+
+# MakeRegEntry.31a26847bf41.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.31a26847bf41.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.31a26847bf41.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_._SOFTWARE_SUBPATCH_VERSION_NUMBER_
+MakeRegEntry.31a26847bf41.value=
+
+# MakeRegEntry.31a26847bf41.valueName=DisplayVersion
+MakeRegEntry.31a26847bf41.valueName=DisplayVersion
+
+# PromptUserConsole.1059980780b1.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
+PromptUserConsole.1059980780b1.message=
+
+# PromptUserConsole.1059980780b1.option0Label=YES
+PromptUserConsole.1059980780b1.option0Label=확인
+
+# PromptUserConsole.1059980780b1.option1Label=NO
+PromptUserConsole.1059980780b1.option1Label=취소
+
+# PromptUserConsole.1059980780b1.option2Label=Details...
+PromptUserConsole.1059980780b1.option2Label=세부 정보...
+
+# PromptUserConsole.1059980780b1.title=Error
+PromptUserConsole.1059980780b1.title=오류
+
+# PromptUserConsole.1059efcb80b7.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
+PromptUserConsole.1059efcb80b7.message=
+
+# PromptUserConsole.1059efcb80b7.option0Label=YES
+PromptUserConsole.1059efcb80b7.option0Label=확인
+
+# PromptUserConsole.1059efcb80b7.option1Label=NO
+PromptUserConsole.1059efcb80b7.option1Label=취소
+
+# PromptUserConsole.1059efcb80b7.option2Label=Details...
+PromptUserConsole.1059efcb80b7.option2Label=자세히...
+
+# PromptUserConsole.1059efcb80b7.title=Error
+PromptUserConsole.1059efcb80b7.title=오류
+
+# PromptUserConsole.3478cd8998db.message=The  directory $NEW_LIC_FILE_DIR$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+PromptUserConsole.3478cd8998db.message=
+
+# PromptUserConsole.3478cd8998db.option0Label=Next
+PromptUserConsole.3478cd8998db.option0Label=다음
+
+# PromptUserConsole.3478cd8998db.option1Label=Previous
+PromptUserConsole.3478cd8998db.option1Label=이전
+
+# PromptUserConsole.3478cd8998db.option2Label=Details...
+PromptUserConsole.3478cd8998db.option2Label=자세히...
+
+# PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
+PromptUserConsole.3478cd8998db.title=오류: 잘못된 라이선스 파일입니다.
+
+# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+PromptUserConsole.347acbcaa515.message=
+
+# PromptUserConsole.347acbcaa515.option0Label=Next
+PromptUserConsole.347acbcaa515.option0Label=다음
+
+# PromptUserConsole.347acbcaa515.option1Label=Previous
+PromptUserConsole.347acbcaa515.option1Label=이전
+
+# PromptUserConsole.347acbcaa515.option2Label=Details...
+PromptUserConsole.347acbcaa515.option2Label=자세히...
+
+# PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
+PromptUserConsole.347acbcaa515.title=오류: 잘못된 라이선스 파일입니다.
+
+# PromptUserConsole.347b73c3ab4b.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+PromptUserConsole.347b73c3ab4b.message=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# PromptUserConsole.347b73c3ab4b.option0Label=Next
+PromptUserConsole.347b73c3ab4b.option0Label=다음
+
+# PromptUserConsole.347b73c3ab4b.option1Label=Previous
+PromptUserConsole.347b73c3ab4b.option1Label=이전
+
+# PromptUserConsole.347b73c3ab4b.option2Label=Details...
+PromptUserConsole.347b73c3ab4b.option2Label=자세히...
+
+# PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
+PromptUserConsole.347b73c3ab4b.title=오류: 잘못된 라이선스 파일입니다.
+
+# PromptUserConsole.347bf180b183.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+PromptUserConsole.347bf180b183.message=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# PromptUserConsole.347bf180b183.option0Label=Next
+PromptUserConsole.347bf180b183.option0Label=다음
+
+# PromptUserConsole.347bf180b183.option1Label=Previous
+PromptUserConsole.347bf180b183.option1Label=이전
+
+# PromptUserConsole.347bf180b183.option2Label=Details...
+PromptUserConsole.347bf180b183.option2Label=자세히...
+
+# PromptUserConsole.347bf180b183.title=ERROR : Invalid license file.
+PromptUserConsole.347bf180b183.title=오류: 잘못된 라이선스 파일입니다.
+
+# PromptUserConsole.347c8d30b7b7.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+PromptUserConsole.347c8d30b7b7.message=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 수정되었습니다. 포트 번호를 1999로 설정하십시오.\n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# PromptUserConsole.347c8d30b7b7.option0Label=Next
+PromptUserConsole.347c8d30b7b7.option0Label=다음
+
+# PromptUserConsole.347c8d30b7b7.option1Label=Previous
+PromptUserConsole.347c8d30b7b7.option1Label=이전
+
+# PromptUserConsole.347c8d30b7b7.option2Label=Details...
+PromptUserConsole.347c8d30b7b7.option2Label=자세히...
+
+# PromptUserConsole.347c8d30b7b7.title=ERROR : Invalid license file.
+PromptUserConsole.347c8d30b7b7.title=오류: 잘못된 라이선스 파일입니다.
+
+# PromptUserConsole.34ac379a91fc.message=Unavailable license service name supplied.\n\n$SERVICE_NAME$ already exists.
+PromptUserConsole.34ac379a91fc.message=
+
+# PromptUserConsole.34ac379a91fc.option0Label=OK
+PromptUserConsole.34ac379a91fc.option0Label=확인
+
+# PromptUserConsole.34ac379a91fc.option1Label=Cancel
+PromptUserConsole.34ac379a91fc.option1Label=취소
+
+# PromptUserConsole.34ac379a91fc.option2Label=Details...
+PromptUserConsole.34ac379a91fc.option2Label=자세히...
+
+# PromptUserConsole.34ac379a91fc.title=Invalid license service name
+PromptUserConsole.34ac379a91fc.title=
+
+# PromptUserConsole.34b1ad319499.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
+PromptUserConsole.34b1ad319499.message=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n라이선스 서버는 소프트웨어 실행 전에 업데이트해야 합니다.
+
+# PromptUserConsole.34b1ad319499.option0Label=Next
+PromptUserConsole.34b1ad319499.option0Label=다음
+
+# PromptUserConsole.34b1ad319499.option1Label=Previous
+PromptUserConsole.34b1ad319499.option1Label=이전
+
+# PromptUserConsole.34b1ad319499.option2Label=Details...
+PromptUserConsole.34b1ad319499.option2Label=자세히...
+
+# PromptUserConsole.34b1ad319499.title=Warning: Outdated license server detected on this machine
+PromptUserConsole.34b1ad319499.title=
+
+# PromptUserConsole.34b3805a9735.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
+PromptUserConsole.34b3805a9735.message=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n기존 라이선스 서버를 유지하려면 \"유지\"를 선택하고 설치 프로그램이 라이선스 서버 서비스를 업데이트할 수 있게 허용하려면 \"업그레이드\"를 선택하십시오.\n\n\"유지\"를 선택하면 소프트웨어를 실행하기 전에 라이선스 서버의 수동 업그레이드를 수행해야 합니다.
+
+# PromptUserConsole.34b3805a9735.option0Label=Next
+PromptUserConsole.34b3805a9735.option0Label=다음
+
+# PromptUserConsole.34b3805a9735.option1Label=Previous
+PromptUserConsole.34b3805a9735.option1Label=이전
+
+# PromptUserConsole.34b3805a9735.option2Label=Details...
+PromptUserConsole.34b3805a9735.option2Label=자세히...
+
+# PromptUserConsole.34b3805a9735.title=Warning: Outdated license server detected on this machine
+PromptUserConsole.34b3805a9735.title=
+
+# PromptUserConsole.34b4ce729738.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
+PromptUserConsole.34b4ce729738.message=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n현재 라이선스 서버는 lmadmin으로 보입니다. 이 설치 프로그램은 lmadmin 구성을 자동으로 업그레이드할 수 없습니다. 계속하기 전에 라이선스 서버를 중지하고 서비스를 제거하십시오.\n\n라이선스 서버가 계속 실행 중이면 소프트웨어 실행 전에 라이선스 서버를 수동으로 업그레이드해야 합니다.
+
+# PromptUserConsole.34b4ce729738.option0Label=Next
+PromptUserConsole.34b4ce729738.option0Label=다음
+
+# PromptUserConsole.34b4ce729738.option1Label=Previous
+PromptUserConsole.34b4ce729738.option1Label=취소
+
+# PromptUserConsole.34b4ce729738.option2Label=Details...
+PromptUserConsole.34b4ce729738.option2Label=세부 정보...
+
+# PromptUserConsole.34b4ce729738.title=Warning: Outdated license server based on lmadmin detected on this machine
+PromptUserConsole.34b4ce729738.title=
+
+# PromptUserConsole.34bc8b0a9d6a.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
+PromptUserConsole.34bc8b0a9d6a.message=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n기존 라이선스 서버를 유지하려면 \"유지\"를 선택하고 설치 프로그램이 라이선스 서버 서비스를 업데이트할 수 있게 허용하려면 \"업그레이드\"를 선택하십시오.\n\n\"유지\"를 선택하면 소프트웨어를 실행하기 전에 라이선스 서버의 수동 업그레이드를 수행해야 합니다.
+
+# PromptUserConsole.34bc8b0a9d6a.option0Label=Next
+PromptUserConsole.34bc8b0a9d6a.option0Label=다음
+
+# PromptUserConsole.34bc8b0a9d6a.option1Label=Previous
+PromptUserConsole.34bc8b0a9d6a.option1Label=취소
+
+# PromptUserConsole.34bc8b0a9d6a.option2Label=Details...
+PromptUserConsole.34bc8b0a9d6a.option2Label=세부 정보...
+
+# PromptUserConsole.34bc8b0a9d6a.title=Warning: Outdated license server detected on this machine
+PromptUserConsole.34bc8b0a9d6a.title=
+
+# PromptUserConsole.34bd6f509d6c.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
+PromptUserConsole.34bd6f509d6c.message=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n현재 라이선스 서버는 lmadmin으로 보입니다. 이 설치 프로그램은 lmadmin 구성을 자동으로 업그레이드할 수 없습니다. 계속하기 전에 라이선스 서버를 중지하고 서비스를 제거하십시오.\n\n라이선스 서버가 계속 실행 중이면 소프트웨어 실행 전에 라이선스 서버를 수동으로 업그레이드해야 합니다.
+
+# PromptUserConsole.34bd6f509d6c.option0Label=Next
+PromptUserConsole.34bd6f509d6c.option0Label=다음
+
+# PromptUserConsole.34bd6f509d6c.option1Label=Previous
+PromptUserConsole.34bd6f509d6c.option1Label=취소
+
+# PromptUserConsole.34bd6f509d6c.option2Label=Details...
+PromptUserConsole.34bd6f509d6c.option2Label=세부 정보...
+
+# PromptUserConsole.34bd6f509d6c.title=Warning: Outdated license server based on lmadmin detected on this machine
+PromptUserConsole.34bd6f509d6c.title=
+
+# PromptUserConsole.ad1a5efbb6f6.message=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+PromptUserConsole.ad1a5efbb6f6.message=라이선스 서버를 구성하려면 관리자 권한이 있어야 합니다. 관리자 권한으로 이 설치 프로그램을 실행하십시오.
+
+# PromptUserConsole.ad1a5efbb6f6.option0Label=OK
+PromptUserConsole.ad1a5efbb6f6.option0Label=확인
+
+# PromptUserConsole.ad1a5efbb6f6.option1Label=Cancel
+PromptUserConsole.ad1a5efbb6f6.option1Label=취소
+
+# PromptUserConsole.ad1a5efbb6f6.option2Label=Details...
+PromptUserConsole.ad1a5efbb6f6.option2Label=세부 정보...
+
+# PromptUserConsole.ad1a5efbb6f6.title=Error
+PromptUserConsole.ad1a5efbb6f6.title=오류
+
+# PromptUserConsole.ad1a5f0ab71b.message=The previous Installation path $PREVIOUS_INSTALLATION_PATH$\\conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons from previous installation. (By default return to the step to get new previous installation path)
+PromptUserConsole.ad1a5f0ab71b.message=
+
+# PromptUserConsole.ad1a5f0ab71b.option0Label=OK
+PromptUserConsole.ad1a5f0ab71b.option0Label=확인
+
+# PromptUserConsole.ad1a5f0ab71b.option1Label=Cancel and Exit
+PromptUserConsole.ad1a5f0ab71b.option1Label=취소
+
+# PromptUserConsole.ad1a5f0ab71b.option2Label=Details...
+PromptUserConsole.ad1a5f0ab71b.option2Label=세부 정보...
+
+# PromptUserConsole.ad1a5f0ab71b.title=Windows Error
+PromptUserConsole.ad1a5f0ab71b.title=
+
+# PromptUserConsole.ad1a5fa7b724.message=The previous Installation path $PREVIOUS_INSTALLATION_PATH$/conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons  from previous installation. (By default return to the step to get the new previous installation path)
+PromptUserConsole.ad1a5fa7b724.message=
+
+# PromptUserConsole.ad1a5fa7b724.option0Label=OK
+PromptUserConsole.ad1a5fa7b724.option0Label=확인
+
+# PromptUserConsole.ad1a5fa7b724.option1Label=Cancel and Exit
+PromptUserConsole.ad1a5fa7b724.option1Label=취소
+
+# PromptUserConsole.ad1a5fa7b724.option2Label=Details...
+PromptUserConsole.ad1a5fa7b724.option2Label=세부 정보...
+
+# PromptUserConsole.ad1a5fa7b724.title=Error
+PromptUserConsole.ad1a5fa7b724.title=오류
+
+# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+PromptUserConsole.ad1a6014b809.message=관리자가 아닌 계정에서 제거를 수행할 수 없으며, 제거 프로세스가 중단됩니다. \n관리자 권한으로 제거 프로그램을 실행하십시오.
+
+# PromptUserConsole.ad1a6014b809.option0Label=OK
+PromptUserConsole.ad1a6014b809.option0Label=확인
+
+# PromptUserConsole.ad1a6014b809.option1Label=Cancel
+PromptUserConsole.ad1a6014b809.option1Label=취소
+
+# PromptUserConsole.ad1a6014b809.option2Label=Details...
+PromptUserConsole.ad1a6014b809.option2Label=세부 정보...
+
+# PromptUserConsole.ad1a6014b809.title=Error
+PromptUserConsole.ad1a6014b809.title=오류
+
+# ShowDialogAction.109444a18da8.buttonLabel=YES
+ShowDialogAction.109444a18da8.buttonLabel=예
+
+# ShowDialogAction.109444a18da8.cancelButtonLabel=NO
+ShowDialogAction.109444a18da8.cancelButtonLabel=아니요
+
+# ShowDialogAction.109444a18da8.detailsButtonLabel=Details...
+ShowDialogAction.109444a18da8.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.109444a18da8.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? 
+ShowDialogAction.109444a18da8.label=
+
+# ShowDialogAction.109444a18da8.narrative= 
+ShowDialogAction.109444a18da8.narrative=
+
+# ShowDialogAction.109444a18da8.title=Error
+ShowDialogAction.109444a18da8.title=오류
+
+# ShowDialogAction.1094478f8dad.buttonLabel=YES
+ShowDialogAction.1094478f8dad.buttonLabel=예
+
+# ShowDialogAction.1094478f8dad.cancelButtonLabel=NO
+ShowDialogAction.1094478f8dad.cancelButtonLabel=아니요
+
+# ShowDialogAction.1094478f8dad.detailsButtonLabel=Details...
+ShowDialogAction.1094478f8dad.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.1094478f8dad.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite?
+ShowDialogAction.1094478f8dad.label=
+
+# ShowDialogAction.1094478f8dad.narrative= 
+ShowDialogAction.1094478f8dad.narrative=
+
+# ShowDialogAction.1094478f8dad.title=Error
+ShowDialogAction.1094478f8dad.title=오류
+
+# ShowDialogAction.1faba940bf32.buttonLabel=OK
+ShowDialogAction.1faba940bf32.buttonLabel=확인
+
+# ShowDialogAction.1faba940bf32.cancelButtonLabel=Cancel
+ShowDialogAction.1faba940bf32.cancelButtonLabel=취소
+
+# ShowDialogAction.1faba940bf32.detailsButtonLabel=Details...
+ShowDialogAction.1faba940bf32.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.1faba940bf32.label=License server upgrade failed
+ShowDialogAction.1faba940bf32.label=라이선스 서버 업그레이드 실패
+
+# ShowDialogAction.1faba940bf32.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
+ShowDialogAction.1faba940bf32.narrative=설치 프로그램이 라이선스 서버 서비스를 업그레이드할 수 없습니다. 이전 라이선스 서버 서비스가 복원되었습니다. 업그레이드를 수동으로 수행하십시오.
+
+# ShowDialogAction.1faba940bf32.title=Warning: License Server
+ShowDialogAction.1faba940bf32.title=경고: 라이선스 서버
+
+# ShowDialogAction.2077f0c78893.buttonLabel=OK
+ShowDialogAction.2077f0c78893.buttonLabel=확인
+
+# ShowDialogAction.2077f0c78893.cancelButtonLabel=Cancel
+ShowDialogAction.2077f0c78893.cancelButtonLabel=취소
+
+# ShowDialogAction.2077f0c78893.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c78893.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c78893.label=No Administrative Privileges
+ShowDialogAction.2077f0c78893.label=관리 권한 없음
+
+# ShowDialogAction.2077f0c78893.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.2077f0c78893.narrative=라이선스 서버를 구성하려면 관리자 권한이 있어야 합니다. 관리자 권한으로 이 설치 프로그램을 실행하십시오.
+
+# ShowDialogAction.2077f0c78893.title=Error
+ShowDialogAction.2077f0c78893.title=오류
+
+# ShowDialogAction.2077f0c788a4.buttonLabel=Next
+ShowDialogAction.2077f0c788a4.buttonLabel=다음
+
+# ShowDialogAction.2077f0c788a4.cancelButtonLabel=Previous
+ShowDialogAction.2077f0c788a4.cancelButtonLabel=이전
+
+# ShowDialogAction.2077f0c788a4.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c788a4.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c788a4.label=Invalid license file.
+ShowDialogAction.2077f0c788a4.label=잘못된 라이선스 파일입니다.
+
+# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+ShowDialogAction.2077f0c788a4.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
+
+# ShowDialogAction.2077f0c788a4.title=ERROR
+ShowDialogAction.2077f0c788a4.title=오류
+
+# ShowDialogAction.2077f0c888a6.buttonLabel=Next
+ShowDialogAction.2077f0c888a6.buttonLabel=다음
+
+# ShowDialogAction.2077f0c888a6.cancelButtonLabel=Previous
+ShowDialogAction.2077f0c888a6.cancelButtonLabel=이전
+
+# ShowDialogAction.2077f0c888a6.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c888a6.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c888a6.label=Invalid license file.
+ShowDialogAction.2077f0c888a6.label=잘못된 라이선스 파일입니다.
+
+# ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+ShowDialogAction.2077f0c888a6.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# ShowDialogAction.2077f0c888a6.title=ERROR
+ShowDialogAction.2077f0c888a6.title=오류
+
+# ShowDialogAction.2077f0c888a7.buttonLabel=Next
+ShowDialogAction.2077f0c888a7.buttonLabel=다음
+
+# ShowDialogAction.2077f0c888a7.cancelButtonLabel=Previous
+ShowDialogAction.2077f0c888a7.cancelButtonLabel=이전
+
+# ShowDialogAction.2077f0c888a7.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c888a7.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c888a7.label=Invalid license file.
+ShowDialogAction.2077f0c888a7.label=잘못된 라이선스 파일입니다.
+
+# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+ShowDialogAction.2077f0c888a7.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# ShowDialogAction.2077f0c888a7.title=ERROR
+ShowDialogAction.2077f0c888a7.title=오류
+
+# ShowDialogAction.2077f0c888a8.buttonLabel=Next
+ShowDialogAction.2077f0c888a8.buttonLabel=다음
+
+# ShowDialogAction.2077f0c888a8.cancelButtonLabel=Previous
+ShowDialogAction.2077f0c888a8.cancelButtonLabel=이전
+
+# ShowDialogAction.2077f0c888a8.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c888a8.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c888a8.label=Invalid license file.
+ShowDialogAction.2077f0c888a8.label=세부 정보...
+
+# ShowDialogAction.2077f0c888a8.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+ShowDialogAction.2077f0c888a8.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 수정되었습니다. 포트 번호를 1999로 설정하십시오.\n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+
+# ShowDialogAction.2077f0c888a8.title=ERROR
+ShowDialogAction.2077f0c888a8.title=오류
+
+# ShowDialogAction.2077f0c888aa.buttonLabel=OK
+ShowDialogAction.2077f0c888aa.buttonLabel=확인
+
+# ShowDialogAction.2077f0c888aa.cancelButtonLabel=Cancel
+ShowDialogAction.2077f0c888aa.cancelButtonLabel=취소
+
+# ShowDialogAction.2077f0c888aa.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c888aa.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c888aa.label=Outdated license server detected on this machine
+ShowDialogAction.2077f0c888aa.label=이 컴퓨터에서 구형 라이선스 서버가 감지됨
+
+# ShowDialogAction.2077f0c888aa.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
+ShowDialogAction.2077f0c888aa.narrative=
+
+# ShowDialogAction.2077f0c888aa.title=Warning: License server
+ShowDialogAction.2077f0c888aa.title=경고: 라이선스 서버
+
+# ShowDialogAction.2077f0c888ae.buttonLabel=OK
+ShowDialogAction.2077f0c888ae.buttonLabel=확인
+
+# ShowDialogAction.2077f0c888ae.cancelButtonLabel=
+ShowDialogAction.2077f0c888ae.cancelButtonLabel=
+
+# ShowDialogAction.2077f0c888ae.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c888ae.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c888ae.label=Outdated license server based on lmadmin detected on this machine
+ShowDialogAction.2077f0c888ae.label=이 컴퓨터에서 lmadmin 기반의 구형 라이선스 서버가 감지됨
+
+# ShowDialogAction.2077f0c888ae.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
+ShowDialogAction.2077f0c888ae.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n현재 라이선스 서버는 lmadmin으로 보입니다. 이 설치 프로그램은 lmadmin 구성을 자동으로 업그레이드할 수 없습니다. 계속하기 전에 라이선스 서버를 중지하고 서비스를 제거하십시오.\n\n라이선스 서버가 계속 실행 중이면 소프트웨어 실행 전에 라이선스 서버를 수동으로 업그레이드해야 합니다.
+
+# ShowDialogAction.2077f0c888ae.title=Warning: License server
+ShowDialogAction.2077f0c888ae.title=경고: 라이선스 서버
+
+# ShowDialogAction.2077f0c988ab.buttonLabel=Upgrade
+ShowDialogAction.2077f0c988ab.buttonLabel=업그레이드
+
+# ShowDialogAction.2077f0c988ab.cancelButtonLabel=Keep
+ShowDialogAction.2077f0c988ab.cancelButtonLabel=
+
+# ShowDialogAction.2077f0c988ab.detailsButtonLabel=Details...
+ShowDialogAction.2077f0c988ab.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.2077f0c988ab.label=Outdated license server detected on this machine
+ShowDialogAction.2077f0c988ab.label=
+
+# ShowDialogAction.2077f0c988ab.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
+ShowDialogAction.2077f0c988ab.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n기존 라이선스 서버를 유지하려면 \"유지\"를 선택하고 설치 프로그램이 라이선스 서버 서비스를 업데이트할 수 있게 허용하려면 \"업그레이드\"를 선택하십시오.\n\n\"유지\"를 선택하면 소프트웨어를 실행하기 전에 라이선스 서버의 수동 업그레이드를 수행해야 합니다.
+
+# ShowDialogAction.2077f0c988ab.title=Warning: License server
+ShowDialogAction.2077f0c988ab.title=경고: 라이선스 서버
+
+# ShowDialogAction.34545c2196a8.buttonLabel=Upgrade
+ShowDialogAction.34545c2196a8.buttonLabel=업그레이드
+
+# ShowDialogAction.34545c2196a8.cancelButtonLabel=Keep
+ShowDialogAction.34545c2196a8.cancelButtonLabel=유지
+
+# ShowDialogAction.34545c2196a8.detailsButtonLabel=Details...
+ShowDialogAction.34545c2196a8.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.34545c2196a8.label=Outdated license server detected on this machine
+ShowDialogAction.34545c2196a8.label=이 컴퓨터에서 구형 라이선스 서버가 감지됨
+
+# ShowDialogAction.34545c2196a8.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
+ShowDialogAction.34545c2196a8.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n기존 라이선스 서버를 유지하려면 \"유지\"를 선택하고 설치 프로그램이 라이선스 서버 서비스를 업데이트할 수 있게 허용하려면 \"업그레이드\"를 선택하십시오.\n\n\"유지\"를 선택하면 소프트웨어를 실행하기 전에 라이선스 서버의 수동 업그레이드를 수행해야 합니다.
+
+# ShowDialogAction.34545c2196a8.title=Warning: License server
+ShowDialogAction.34545c2196a8.title=경고: 라이선스 서버
+
+# ShowDialogAction.34551595a0b2.buttonLabel=OK
+ShowDialogAction.34551595a0b2.buttonLabel=확인
+
+# ShowDialogAction.34551595a0b2.cancelButtonLabel=Keep
+ShowDialogAction.34551595a0b2.cancelButtonLabel=유지
+
+# ShowDialogAction.34551595a0b2.detailsButtonLabel=Details...
+ShowDialogAction.34551595a0b2.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.34551595a0b2.label=Outdated license server based on lmadmin detected on this machine
+ShowDialogAction.34551595a0b2.label=이 컴퓨터에서 구형 라이선스 서버가 감지됨
+
+# ShowDialogAction.34551595a0b2.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
+ShowDialogAction.34551595a0b2.narrative=이 컴퓨터에서 v$RUNNING_CDLMD_VERSION$ 라이선스 서버가 감지되었습니다.  이 소프트웨어는 최소 v$INSTALLER_CDLMD_VERSION$의 라이선스 서버가 필요합니다.\n\n현재 라이선스 서버는 lmadmin으로 보입니다. 이 설치 프로그램은 lmadmin 구성을 자동으로 업그레이드할 수 없습니다. 계속하기 전에 라이선스 서버를 중지하고 서비스를 제거하십시오.\n\n라이선스 서버가 계속 실행 중이면 소프트웨어 실행 전에 라이선스 서버를 수동으로 업그레이드해야 합니다.
+
+# ShowDialogAction.34551595a0b2.title=Warning: License server
+ShowDialogAction.34551595a0b2.title=경고: 라이선스 서버
+
+# ShowDialogAction.34aac81b91f4.buttonLabel=OK
+ShowDialogAction.34aac81b91f4.buttonLabel=확인
+
+# ShowDialogAction.34aac81b91f4.cancelButtonLabel=Cancel
+ShowDialogAction.34aac81b91f4.cancelButtonLabel=취소
+
+# ShowDialogAction.34aac81b91f4.detailsButtonLabel=Details...
+ShowDialogAction.34aac81b91f4.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.34aac81b91f4.label=Unavailable license service name supplied.
+ShowDialogAction.34aac81b91f4.label=
+
+# ShowDialogAction.34aac81b91f4.narrative=$SERVICE_NAME$ already exists.
+ShowDialogAction.34aac81b91f4.narrative=
+
+# ShowDialogAction.34aac81b91f4.title=Invalid license service name
+ShowDialogAction.34aac81b91f4.title=
+
+# ShowDialogAction.ad1a5efbb6f3.buttonLabel=OK
+ShowDialogAction.ad1a5efbb6f3.buttonLabel=확인
+
+# ShowDialogAction.ad1a5efbb6f3.cancelButtonLabel=Cancel
+ShowDialogAction.ad1a5efbb6f3.cancelButtonLabel=취소
+
+# ShowDialogAction.ad1a5efbb6f3.detailsButtonLabel=Details...
+ShowDialogAction.ad1a5efbb6f3.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ad1a5efbb6f3.label=No Administrative Privileges
+ShowDialogAction.ad1a5efbb6f3.label=관리 권한 없음
+
+# ShowDialogAction.ad1a5efbb6f3.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.ad1a5efbb6f3.narrative=라이선스 서버를 구성하려면 관리자 권한이 있어야 합니다. 관리자 권한으로 이 설치 프로그램을 실행하십시오.
+
+# ShowDialogAction.ad1a5efbb6f3.title=Error
+ShowDialogAction.ad1a5efbb6f3.title=오류
+
+# ShowDialogAction.ad1a5f0ab714.buttonLabel=OK
+ShowDialogAction.ad1a5f0ab714.buttonLabel=확인
+
+# ShowDialogAction.ad1a5f0ab714.cancelButtonLabel=Cancel
+ShowDialogAction.ad1a5f0ab714.cancelButtonLabel=취소
+
+# ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=Details...
+ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ad1a5f0ab714.label=The previous Installation path $PREVIOUS_INSTALLATION_PATH$\\conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons  from previous installation.
+ShowDialogAction.ad1a5f0ab714.label=
+
+# ShowDialogAction.ad1a5f0ab714.narrative= 
+ShowDialogAction.ad1a5f0ab714.narrative=
+
+# ShowDialogAction.ad1a5f0ab714.title=Windows Error
+ShowDialogAction.ad1a5f0ab714.title=
+
+# ShowDialogAction.ad1a5f1bb71e.buttonLabel=OK
+ShowDialogAction.ad1a5f1bb71e.buttonLabel=확인
+
+# ShowDialogAction.ad1a5f1bb71e.cancelButtonLabel=Cancel
+ShowDialogAction.ad1a5f1bb71e.cancelButtonLabel=취소
+
+# ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=Details...
+ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ad1a5f1bb71e.label=The previous Installation path $PREVIOUS_INSTALLATION_PATH$/conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons from previous installation.
+ShowDialogAction.ad1a5f1bb71e.label=
+
+# ShowDialogAction.ad1a5f1bb71e.narrative= 
+ShowDialogAction.ad1a5f1bb71e.narrative=
+
+# ShowDialogAction.ad1a5f1bb71e.title=Error
+ShowDialogAction.ad1a5f1bb71e.title=오류
+
+# ShowDialogAction.ad1a6014b806.buttonLabel=OK
+ShowDialogAction.ad1a6014b806.buttonLabel=확인
+
+# ShowDialogAction.ad1a6014b806.cancelButtonLabel=Cancel
+ShowDialogAction.ad1a6014b806.cancelButtonLabel=취소
+
+# ShowDialogAction.ad1a6014b806.detailsButtonLabel=Details...
+ShowDialogAction.ad1a6014b806.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ad1a6014b806.label=No Administrative Privileges
+ShowDialogAction.ad1a6014b806.label=관리 권한 없음
+
+# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+ShowDialogAction.ad1a6014b806.narrative=관리자가 아닌 계정에서 제거를 수행할 수 없으며, 제거 프로세스가 중단됩니다. \n관리자 권한으로 제거 프로그램을 실행하십시오.
+
+# ShowDialogAction.ad1a6014b806.title=Error
+ShowDialogAction.ad1a6014b806.title=오류
+
+# UninstallCategory.ad1a6034b835.categoryName=Files
+UninstallCategory.ad1a6034b835.categoryName=파일
+
+# UninstallCategory.ad1a6034b837.categoryName=LaunchAnywheres
+UninstallCategory.ad1a6034b837.categoryName=
+
+# UninstallCategory.ad1a6034b839.categoryName=Shortcuts/Links/Aliases
+UninstallCategory.ad1a6034b839.categoryName=바로 가기/링크/별칭
+
+# UninstallCategory.ad1a6034b83b.categoryName=Registry Entries
+UninstallCategory.ad1a6034b83b.categoryName=레지스트리 항목
+
+# UninstallCategory.ad1a6034b83d.categoryName=Native Packages
+UninstallCategory.ad1a6034b83d.categoryName=기본 패키지
+
+# UninstallCategory.ad1a6034b841.categoryName=Folders
+UninstallCategory.ad1a6034b841.categoryName=폴더
+
+# UninstallCategory.ad1a6034b843.categoryName=Others Category
+UninstallCategory.ad1a6034b843.categoryName=기타 카테고리
+
+# UninstallCompleteAction.ad1a6034b833.rebootNotNeededMessage=
+UninstallCompleteAction.ad1a6034b833.rebootNotNeededMessage=
+
+# UninstallCompleteAction.ad1a6034b833.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
+UninstallCompleteAction.ad1a6034b833.rebootRecommendedMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# UninstallCompleteAction.ad1a6034b833.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
+UninstallCompleteAction.ad1a6034b833.rebootRequiredMessage=설치 제거를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# UninstallCompleteAction.ad1a6034b833.stepTitle=Uninstall Complete
+UninstallCompleteAction.ad1a6034b833.stepTitle=제거 완료
+
+# UninstallCompleteAction.ad1a6034b833.uninstallIncompleteMessage=The following items could not be removed:
+UninstallCompleteAction.ad1a6034b833.uninstallIncompleteMessage=다음 아이템은 제거하지 못했습니다:
+
+# UninstallCompleteAction.ad1a6034b833.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteAction.ad1a6034b833.uninstallSkippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
+
+# UninstallCompleteAction.ad1a6034b833.uninstallSuccessMessage=All items were successfully uninstalled.
+UninstallCompleteAction.ad1a6034b833.uninstallSuccessMessage=모든 아이템을 성공적으로 제거했습니다.
+
+# UninstallCompleteActionConsole.ad1a6034b834.incompleteMessage=Some items could not be removed.
+UninstallCompleteActionConsole.ad1a6034b834.incompleteMessage=일부 항목은 제거될 수 없었습니다.
+
+# UninstallCompleteActionConsole.ad1a6034b834.message=All items were successfully uninstalled.
+UninstallCompleteActionConsole.ad1a6034b834.message=모든 아이템을 성공적으로 제거했습니다.
+
+# UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
+UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$을(를) 제거할 수 없습니다.
+
+# UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
+UninstallCompleteActionConsole.ad1a6034b834.title=제거 완료
+
+# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
+UninstallIntroAction.ad1a6014b7ff.message=설치 제거 중... \n\n$PRODUCT_NAME$\n\nInstallAnywhere로 설치한 모든 기능이 완전히 제거됩니다. 설치 후에 작성된 파일과 폴더는 제거되지 않습니다.
+
+# UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $PRODUCT_NAME$
+UninstallIntroAction.ad1a6014b7ff.stepTitle=$PRODUCT_NAME$을(를) 설치 제거
+
+# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
+UninstallIntroActionConsole.ad1a6014b801.message=설치 제거 중... \n\n$PRODUCT_NAME$\n\nInstallAnywhere로 설치한 모든 기능이 완전히 제거됩니다. 설치 후에 작성된 파일과 폴더는 제거되지 않습니다.
+
+# UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
+UninstallIntroActionConsole.ad1a6014b801.stepTitle=$$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
+
+# VariablePropertyDataBiDi.074b4517ba31.propertyName=Installation directory:
+VariablePropertyDataBiDi.074b4517ba31.propertyName=
+
+# VariablePropertyDataBiDi.074b4517ba31.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataBiDi.074b4517ba31.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.074df9a6bcc1.propertyName=License server:
+VariablePropertyDataBiDi.074df9a6bcc1.propertyName=라이선스 서버:
+
+# VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
+VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
+
+# VariablePropertyDataBiDi.0755afcb8d2d.propertyName=Product name:
+VariablePropertyDataBiDi.0755afcb8d2d.propertyName=제품 이름:
+
+# VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
+VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
+
+# VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=Product name:
+VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=제품 이름:
+
+# VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
+VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
+
+# VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=Installation directory:
+VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=설치 디렉터리:
+
+# VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=License server:
+VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=라이선스 서버:
+
+# VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
+VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
+

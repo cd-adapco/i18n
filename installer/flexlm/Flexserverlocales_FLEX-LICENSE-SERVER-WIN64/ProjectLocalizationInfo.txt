@@ -1,0 +1,388 @@
+# InstallAnywhere Localization Information and Mapping File
+#
+# This file provides information for the mappings of localization properties
+#     to the action for which the localization is provided.  This file is meant
+#     to be used in conjunction with the custom_xx files found in the same
+#     directory.
+#
+# Notes on the conventions used in this file:
+#     '+--'  denotes a data object that belongs to another given object (it
+#            defines some portion of the properties of its owner object).  This
+#            data object possesses one or more properties that are localizable
+#     '|--'  denotes a parent-child relationship between two objects (typically,
+#            this relationship is represented visually as a hierarchy or nesting
+#            in the Install task of InstallAnywhere's Advanced Designer)
+#     'NoEP' denotes an object that exists in the tree, but does not possess any
+#            externalizable/localizable properties
+#
+#     The relationships described above can be used to help identify the correct
+#     property to configure an object when working with the custom_xx files.
+#
+# Product Name: FlexNet License Server
+# Project File: /u/xeon144/starusers/kevinm/installers/flexlm/windows/workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
+# Generated:    Sun Jul 08 22:12:39 EDT 2018
+
+
+---- PRE-INSTALL ACTIONS ----
+-- ActionGroup.2f67f2cdabe5 (NoEP)
+   |-- ActionGroup.2f67f2ceabe5 (NoEP)
+   |   |-- PlugInAction.2f67f2cdabe6 (NoEP)
+   |   |-- PlugInAction.2f67f2ceabe6 (NoEP)
+   |   |-- PlugInAction.2f67f2cdabe7 (NoEP)
+   |   |-- Exec.2f67f2ceabe8
+   |-- ActionGroup.2f67f2cdabe9 (NoEP)
+       |-- PlugInAction.2f67f2ceabe9 (NoEP)
+       |-- PlugInAction.2f67f2cdabea (NoEP)
+       |-- PlugInAction.2f67f2ceabea (NoEP)
+       |-- PlugInAction.2f67f2cdabeb (NoEP)
+       |-- PlugInAction.2f67f2ceabeb (NoEP)
+-- ActionGroup.0f0a8094967e (NoEP)
+   |-- EditVariableTable.04c09d34b903 (NoEP)
+   |-- EditVariableTable.0623482cbc97 (NoEP)
+   |-- EditVariableTable.0acca0d88dfb (NoEP)
+   |-- EditVariableTable.0b244415b84d (NoEP)
+-- ActionGroup.0f0ba24f9912 (NoEP)
+   |-- CustomAction.06209ebabc8e (NoEP)
+   |-- ShowDialogAction.ad1a5efbb6f3
+   |-- PromptUserConsole.ad1a5efbb6f6
+-- ActionGroup.2f66492d9b92 (NoEP)
+   |-- ActionGroup.2f66492e9b92 (NoEP)
+   |   |-- ExecuteScript.2f66492d9b93
+   |-- ActionGroup.2f66492e9b93 (NoEP)
+       |-- ActionGroup.2f66492d9b94 (NoEP)
+       |   |-- ExecuteScript.2f66492e9b94
+       |   |-- EditVariableTable.2f66492d9b95 (NoEP)
+       |   |-- ExecuteScript.2f66492d9b96
+       |   |-- CustomAction.2f6649309b96 (NoEP)
+       |   |-- EditVariableTable.2f66492e9b97 (NoEP)
+       |   |-- ExecuteScript.2f66492f9b97
+       |   |-- CustomAction.2f66492e9b98 (NoEP)
+       |   |-- EditVariableTable.2f66492f9b98 (NoEP)
+       |   |-- EditVariableTable.2f66492e9b99 (NoEP)
+       |-- ActionGroup.2f66492f9b9a (NoEP)
+           |-- ExecuteScript.2f66492e9b9b
+           |-- EditVariableTable.2f66492f9b9b (NoEP)
+           |-- ExecuteScript.2f66492f9b9c
+           |-- CustomAction.2f66492f9b9d (NoEP)
+           |-- EditVariableTable.2f66492e9b9e (NoEP)
+           |-- ExecuteScript.2f66492f9b9e
+           |-- CustomAction.2f6649309b9e (NoEP)
+           |-- EditVariableTable.2f66492f9b9f (NoEP)
+           |-- EditVariableTable.2f6649309b9f (NoEP)
+           |-- ExecuteScript.2f66492f9ba1
+           |-- CustomAction.2f6649309ba1 (NoEP)
+           |-- EditVariableTable.2f66492f9ba2 (NoEP)
+           |-- EditVariableTable.2f6649309ba2 (NoEP)
+           |-- EditVariableTable.2f66492f9ba3 (NoEP)
+           |-- ExecuteScript.2f66492f9ba4
+           |-- CustomAction.2f6649309ba4 (NoEP)
+           |-- EditVariableTable.2f66492f9ba5 (NoEP)
+           |-- ExecuteScript.2f6649309ba5
+           |-- CustomAction.2f6649319ba5 (NoEP)
+           |-- EditVariableTable.2f6649309ba6 (NoEP)
+           |-- ExecuteScript.2f6649319ba6
+           |-- CustomAction.2f6649309ba7 (NoEP)
+           |-- EditVariableTable.2f6649319ba7 (NoEP)
+           |-- Comment.2f6649309ba8 (NoEP)
+           |-- ExecuteScript.2f6649319ba8
+           |-- EditVariableTable.2f6649309ba9 (NoEP)
+-- ActionGroup.0f10f16a9e32 (NoEP)
+   |-- EditVariableTable.393ac3fe8299 (NoEP)
+   |-- EditVariableTable.0f1a66f0a5ec (NoEP)
+   |-- EditVariableTable.0f5e0d938258 (NoEP)
+   |-- IntroAction.102ce4b4ba3c
+   |   +-- Help.102ce4b5ba3c
+   |-- IntroActionConsole.1033584988cf
+   |-- IntroAction.ad1a5eecb6e5
+   |   +-- Help.ad1a5eecb6e6
+   |-- IntroActionConsole.ad1a5eecb6e8
+   |-- EditVariableTable.0f180fb4a358 (NoEP)
+   |-- JumpLabel.1071d9fe9d4f (NoEP)
+   |-- InstallDirAction.ad1a5efab6fa
+   |   +-- Help.ad1a5efab6fb
+   |-- InstallDirActionConsole.ad1a5efab6fc
+   |-- EditMultipleVariables.55c69392bafa (NoEP)
+   |-- EditVariableTable.060fe457a9df (NoEP)
+   |-- EditVariableTable.0f19de38a5eb (NoEP)
+   |-- ShowDialogAction.109444a18da8
+   |-- PromptUserConsole.1059980780b1
+   |-- ShowDialogAction.1094478f8dad
+   |-- PromptUserConsole.1059efcb80b7
+   |-- ShowDialogAction.34545c2196a8
+   |-- PromptUserConsole.34bc8b0a9d6a
+   |-- ShowDialogAction.34551595a0b2
+   |-- PromptUserConsole.34bd6f509d6c
+   |-- ActionGroup.7dbf805c9947 (NoEP)
+       |-- GetUserInput.ad1a5f0ab70b
+       |   +-- GUIGroupData.ad1a5f0ab70c
+       |       +-- GUIComponentData.ad1a5f0ab70d
+       |   +-- Help.ad1a5f0ab710
+       |-- GetUserInputConsole.ad1a5f0bb708
+       |   +-- EntryAtomNonBiDi.7c5d2416bc5e
+       |-- GetUserInputConsole.ad1a5f0ab711
+       |   +-- EntryAtomNonBiDi.ad1a5f0ab712
+       |-- ShowDialogAction.ad1a5f0ab714
+       |-- ExecuteScript.ad1a5f0ab718
+       |-- PromptUserConsole.ad1a5f0ab71b
+       |-- ShowDialogAction.ad1a5f1bb71e
+       |-- ExecuteScript.ad1a5f1bb722
+       |-- PromptUserConsole.ad1a5fa7b724
+-- ActionGroup.2077f0c48877 (NoEP)
+   |-- EditVariableTable.2077f0c58878 (NoEP)
+   |-- EditVariableTable.2077f0c68878 (NoEP)
+   |-- ExecuteScript.2077f0c5887a
+   |-- EditVariableTable.2077f0c6887b (NoEP)
+   |-- ExecuteScript.2077f0c5887d
+   |-- GetRegEntry.2077f0c6887e (NoEP)
+   |-- GetRegEntry.2077f0c6887f (NoEP)
+   |-- EditVariableTable.2077f0c58881 (NoEP)
+   |-- EditVariableTable.2077f0c58882 (NoEP)
+   |-- EditVariableTable.2077f0c78887 (NoEP)
+   |-- EditVariableTable.2077f0c7888a (NoEP)
+   |-- EditVariableTable.2077f0c6888c (NoEP)
+   |-- EditVariableTable.2077f0c7888d (NoEP)
+   |-- JumpLabel.2077f0c7888e (NoEP)
+   |-- ActionGroup.2077f0c6888f (NoEP)
+   |   |-- EditVariableTable.2077f0c68892 (NoEP)
+   |   |-- ShowDialogAction.2077f0c78893
+   |   |-- JumpAction.2077f0c68895 (NoEP)
+   |   |-- GetRegEntry.2077f0c78896 (NoEP)
+   |   |-- EditVariableTable.2077f0c78897 (NoEP)
+   |   |-- EditMultipleVariables.2077f0c78898 (NoEP)
+   |   |-- EditMultipleVariables.2077f0c7889b (NoEP)
+   |   |-- JumpLabel.2077f0c8889d (NoEP)
+   |   |-- GetUserInput.2077f0c7889e
+   |   |   +-- GUIGroupData.2077f0c8889f
+   |   |       +-- GUIComponentData.2077f0c788a0
+   |   |   +-- Help.3453fa948eb2
+   |   |-- GetUserInputConsole.34b7925f9b96
+   |   |   +-- EntryAtomNonBiDi.34b7925f9b97
+   |   |-- EditVariableTable.2077f0c888a1 (NoEP)
+   |   |-- JumpLabel.2077f0c788a3 (NoEP)
+   |   |-- ChooseFile.2077f0c888a3
+   |   |   +-- Help.3453fa968eb2
+   |   |-- ShowDialogAction.2077f0c788a4
+   |   |-- GetUserInputConsole.3476a6ad92bb
+   |   |   +-- EntryAtomNonBiDi.3476a6ae92bb
+   |   |-- PromptUserConsole.3478cd8998db
+   |   |-- GetUserInputConsole.3479ecd19ef9
+   |   |   +-- EntryAtomNonBiDi.3479ecd29ef9
+   |   |-- PromptUserConsole.347acbcaa515
+   |   |-- JumpAction.2077f0c788a5 (NoEP)
+   |   |-- CustomAction.2077f0c988a5 (NoEP)
+   |   |-- ShowDialogAction.2077f0c888a6
+   |   |-- PromptUserConsole.347b73c3ab4b
+   |   |-- ShowDialogAction.2077f0c888a7
+   |   |-- PromptUserConsole.347bf180b183
+   |   |-- ShowDialogAction.2077f0c888a8
+   |   |-- PromptUserConsole.347c8d30b7b7
+   |   |-- JumpLabel.2077f0c888a9 (NoEP)
+   |   |-- JumpLabel.2077f0c988a9 (NoEP)
+   |   |-- ShowDialogAction.2077f0c888aa
+   |   |-- PromptUserConsole.34b1ad319499
+   |   |-- ShowDialogAction.2077f0c988ab
+   |   |-- PromptUserConsole.34b3805a9735
+   |   |-- ShowDialogAction.2077f0c888ae
+   |   |-- PromptUserConsole.34b4ce729738
+   |   |-- EditVariableTable.2077f0c888b0 (NoEP)
+   |   |-- EditVariableTable.2077f0c888b1 (NoEP)
+   |   |-- GetUserInput.39b459359a2b
+   |   |   +-- GUIGroupData.39b459369a2c
+   |   |       +-- GUIComponentData.39b459389a2c
+   |   |   +-- Help.154a0b5baa67
+   |   |-- GetUserInput.2077f0c888b2
+   |   |   +-- GUIGroupData.2077f0c988b3
+   |   |       +-- GUIComponentData.2077f0c888b4
+   |   |   +-- Help.3453fa9d8eb2
+   |   |-- GetUserInputConsole.39dc75c28e78
+   |   |   +-- EntryAtomNonBiDi.39dc75c38e79
+   |   |-- GetUserInputConsole.34a73bdd9025
+   |   |   +-- EntryAtomNonBiDi.34a73bdf9025
+   |   |-- ExecuteScript.34aa2a9091ec
+   |   |-- ShowDialogAction.34aac81b91f4
+   |   |-- PromptUserConsole.34ac379a91fc
+   |   |-- GetUserInputConsole.397431c298ca
+   |   |   +-- EntryAtomNonBiDi.397431c298cb
+   |   |-- Comment.397489c89f02 (NoEP)
+   |   |-- EditMultipleVariables.2077f0ca88b8 (NoEP)
+   |-- CustomAction.2077f0ca88ba (NoEP)
+-- EditVariableTable.6b113d59baf2 (NoEP)
+-- InstallSummary.ad1a5fa6b729
+   +-- VariablePropertyDataBiDi.0755afcb8d2d
+   +-- Help.ad1a5fa6b72a
+-- InstallSummaryConsole.ad1a5fa6b72b
+   +-- VariablePropertyDataNonBiDi.07575a6c8fc1
+-- EditVariableTable.06109602a9e8 (NoEP)
+
+
+---- POST-INSTALL ACTIONS ----
+-- InstallFinishAction.ad1a5fe5b78f
+   +-- Help.ad1a5fe5b790
+-- InstallCompleteActionConsole.ad1a5fe5b791
+-- ActionGroup.3991a198b9b4 (NoEP)
+   |-- ExecuteScript.3991a198b9b5
+   |-- ExecuteScript.39af73db90dc
+
+
+---- PRE-UNINSTALL ACTIONS ----
+-- ActionGroup.0c9cd43a808a (NoEP)
+   |-- UCustomAction.0c97448eb8de (NoEP)
+   |-- ShowDialogAction.ad1a6014b806
+   |-- PromptUserConsole.ad1a6014b809
+-- ActionGroup.0ca6d22497f8 (NoEP)
+   |-- CreateDialog.20452174b524
+   |   +-- EntryAtomBiDi.20452175b525
+   |   +-- Help.29fe1c2ca484
+   |-- GetUserInputConsole.39bf55a39e93
+   |   +-- EntryAtomNonBiDi.39bffdb39e9b
+   |-- UninstallIntroAction.ad1a6014b7ff
+   |   +-- Help.ad1a6014b800
+   |-- UninstallIntroActionConsole.ad1a6014b801
+-- ActionGroup.0ca9dea59a8e (NoEP)
+   |-- NTServiceController.ad1a6024b82b
+   |-- ExecuteScript.ad1a6033b82f
+   |-- ExecuteScript.0cbd9d5bbed2
+
+
+---- POST-UNINSTALL ACTIONS ----
+-- UninstallCompleteAction.ad1a6034b833
+-- UninstallCompleteActionConsole.ad1a6034b834
+
+
+---- EXTERNAL ID TREE ----
+-- Installer.ad1a5eebb6d5
+   +-- Help.ad1a6015b7fd
+   +-- InstallFrameConfigurator.ad1a6004b7f1
+   +-- InstallerInfoData.ad1a6005b7f8
+   |-- InstallSet.ad1a6043b852
+   |-- InstallBundle.ad1a6043b853
+   |-- OSHost.ad1a6063b8ad (NoEP)
+   |   |-- GhostDirectory.ad1a6063b8ae (NoEP)
+   |   |   |-- ActionGroup.0ac1d8578451 (NoEP)
+   |   |       |-- ActionGroup.1faba93dbf1a (NoEP)
+   |   |           |-- EditEnvironment.1faba940bf1a
+   |   |           |-- ExecuteScript.1faba93fbf1b
+   |   |           |-- ASCIIFileManipulator.1faba93ebf1e
+   |   |           |-- ActionGroup.1faba93ebf20 (NoEP)
+   |   |           |   |-- ExecuteScript.1faba93fbf20
+   |   |           |   |-- ExecuteScript.1faba93ebf21
+   |   |           |-- ExecuteScript.1faba93fbf21
+   |   |           |-- ExecuteScript.1faba940bf23
+   |   |           |-- ExecuteScript.1faba940bf26
+   |   |           |-- ExecuteScript.1faba940bf28
+   |   |           |-- NTServiceController.1faba93fbf2a
+   |   |           |-- ExecuteScript.1faba940bf2c
+   |   |           |-- ExecuteScript.1faba93fbf2f
+   |   |           |-- ShowDialogAction.1faba940bf32
+   |   |           |-- ExecuteScript.1faba940bf39
+   |   |           |-- ExecuteScript.1faba941bf3a
+   |   |-- GhostDirectory.33dbfcd6acfd (NoEP)
+   |   |   |-- CreateShortcut.33e0c07bb75c
+   |   |   |-- CreateShortcut.63475501aee6
+   |   |-- GhostDirectory.3d9a87b6afb3 (NoEP)
+   |   |   |-- InstallUninstaller.ad1a6042b859
+   |   |   |-- ActionGroup.31a0c733beb5 (NoEP)
+   |   |       |-- MakeRegEntry.31a26847bf41
+   |-- UninstallCategory.ad1a6034b835
+   |-- UninstallCategory.ad1a6034b837
+   |-- UninstallCategory.ad1a6034b839
+   |-- UninstallCategory.ad1a6034b83b
+   |-- UninstallCategory.ad1a6034b83d
+   |-- UninstallCategory.ad1a6034b841
+   |-- UninstallCategory.ad1a6034b843
+   |-- Billboard.ad1a6043b854
+
+
+---- LEGEND ----
+AllOrFeaturesActionConsole              ==>      Console: Choose Uninstall Type
+ASCIIFileManipulator                    ==>      Modify Text File - Single File
+ASCIIFileManipulatorZip                 ==>      Modify Text File - In Archive
+Billboard                               ==>      Billboard
+BuildTimeMergeModule                    ==>      Import Merge Module
+ChooseDBConnectionAction                ==>      Panel: Choose Database Connection
+ChooseDBConnectionActionConsole         ==>      Console: Choose Database Connection
+ChooseFile                              ==>      Panel: Choose File
+ChooseFolder                            ==>      Panel: Choose Folder
+ChooseInstallSetAction                  ==>      Panel: Choose Install Sets
+ChooseInstallSetActionConsole           ==>      Console: Choose Install Sets
+ChooseJavaVMAction                      ==>      Panel: Choose Java VM
+ChooseJavaVMActionConsole               ==>      Console: Choose Java VM
+CompareRegExpression                    ==>      Match Regular Expression
+CompareVariable                         ==>      Compare InstallAnywhere Variables
+CompareVariableNumerically              ==>      Compare InstallAnywhere Variables Numerically
+CompareVersions                         ==>      Compare Versions
+CreateDialog                            ==>      Panel: Get User Input - Simple
+CreateDIMFileShortcut                   ==>      Create Alias, Link, Shortcut to DIM file
+CreateShortcut                          ==>      Create Alias, Link, Shortcut
+CustomizeBundles                        ==>      Panel: Choose Features to Uninstall
+CustomizeBundlesConsole                 ==>      Console: Choose Features to Uninstall
+DisplayMessage                          ==>      Panel: Display Message
+DisplayMessageConsole                   ==>      Console: Display Message
+DisplayScrollingMessage                 ==>      Panel: Scrolling Message
+EditEnvironment                         ==>      Set System Environment Variable
+Exec                                    ==>      Execute Command
+ExecuteScript                           ==>      Execute Script/Batch file
+FindFileOrFolder                        ==>      Panel: Find File/Folder
+GetPassword                             ==>      Panel: Get Password
+GetPasswordConsole                      ==>      Console: Get Password
+GetUserInput                            ==>      Panel: Get User Input - Advanced
+GetUserInputConsole                     ==>      Console: Get User Input
+HTMLPanelAction                         ==>      Panel: Display HTML
+i5OSLibraryOverrideConsole              ==>      Console: System i (i5/OS) Override Library Console
+i5OSLibraryOverridePanel                ==>      Panel: System i (i5/OS) Override Library Panel
+i5OSLoginCredential                     ==>      Panel: Get System i (i5/OS) Login Credential
+ImportantNoteAction                     ==>      Panel: Important Note
+ImportantNoteActionConsole              ==>      Console: Important Note
+InstallBundle                           ==>      Product Feature
+InstallCompleteAction                   ==>      Panel: Install Complete
+InstallCompleteActionConsole            ==>      Console: Install Complete
+InstallDirAction                        ==>      Panel: Choose Install Folder
+InstallDirActionConsole                 ==>      Console: Choose Install Folder
+InstallFailedAction                     ==>      Panel: Install Failed
+InstallFailedActionConsole              ==>      Console: Install Failed
+InstallFinishAction                     ==>      Panel: Install Complete
+InstallIFSAction                        ==>      Panel: Choose Remote System i (i5/OS) Install Folder
+InstallPanelAction                      ==>      Panel: Custom Code
+InstallProgressAction                   ==>      Install Progress
+InstallSet                              ==>      Install Set
+InstallSummary                          ==>      Panel: Pre-Install Summary
+InstallSummaryConsole                   ==>      Console: Pre-Install Summary
+InstallUninstaller                      ==>      Create Uninstaller
+IntroAction                             ==>      Panel: Introduction
+IntroActionAddFeature                   ==>      Panel: Add Features Introduction
+IntroActionAddFeatureConsole            ==>      Console: Add Features Introduction
+IntroActionConsole                      ==>      Console: Introduction
+IntroActionRemoveFeature                ==>      Panel: Remove Features Introduction
+IntroActionRemoveFeatureConsole         ==>      Console: Remove Features Introduction
+IntroActionRepairFeature                ==>      Panel: Repair Installation Introduction
+IntroActionRepairFeatureConsole         ==>      Console: Repair Installation Introduction
+LaunchDefaultBrowser                    ==>      Launch Default Browser
+LicenseAgrAction                        ==>      Panel: License Agreement
+LicenseAgrActionConsole                 ==>      Console: License Agreement
+MakeExecutable                          ==>      Create LaunchAnywhere for Java Application
+MakeRegEntry                            ==>      Set Windows Registry - Single Entry
+MinimalUIAction                         ==>      Panel: Minimal UI
+NTServiceController                     ==>      Start, Stop, Pause Windows Service
+PlugInPanelAction                       ==>      Plug-in
+PrintToConsole                          ==>      Output Text to Console
+PromptUserConsole                       ==>      Console: Show Message Console 'Dialog'
+ReadyToInstallActionConsole             ==>      Console: Ready To Install
+SetSerialNumber                         ==>      Panel: Get Serial Number
+SetSerialNumberConsole                  ==>      Console: Get Serial Number
+ShortcutLocAction                       ==>      Panel: Choose Alias, Link, Shortcut Folder
+ShortcutLocActionConsole                ==>      Console: Choose Link Folder
+ShowDialogAction                        ==>      Show Message Dialog
+SpeedASCIIFileManipulator               ==>      Modify Text File - Multiple Files
+Subuninstaller                          ==>      Execute Uninstaller:
+TomcatDeploymentOptionsAction           ==>      Panel: Tomcat Runtime Deployment
+TomcatDeploymentOptionsActionConsole    ==>      Console: Tomcat Runtime Deployment
+UninstallAllOrFeaturesAction            ==>      Panel: Choose Uninstall Type
+UninstallCategory                       ==>      Uninstall  Category
+UninstallCompleteAction                 ==>      Panel: Uninstall Complete
+UninstallCompleteActionConsole          ==>      Console: Uninstall Complete
+UninstallIntroAction                    ==>      Panel: Uninstaller Introduction
+UninstallIntroActionConsole             ==>      Console: Uninstaller Introduction
+UninstallIsmpSoftware                   ==>      Uninstall InstallShield Universal Software
+UninstallProgressAction                 ==>      Uninstall Progress
+WebsphereDeploymentOptionsAction        ==>      Panel: WebSphere Runtime Deployment
+WebsphereDeploymentOptionsActionConsole ==>      Console: WebSphere Runtime Deployment
