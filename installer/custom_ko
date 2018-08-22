@@ -241,7 +241,7 @@ CreateShortcut.94649fda9fe1.workingDir=
 # CreateShortcut.9465295a8118.args=
 CreateShortcut.9465295a8118.args=
 
-# CreateShortcut.9465295a8118.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 6
+# CreateShortcut.9465295a8118.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
 CreateShortcut.9465295a8118.destinationName=
 
 # CreateShortcut.9465295a8118.workingDir=
@@ -268,7 +268,7 @@ CreateShortcut.9466c0598c7d.workingDir=
 # CreateShortcut.946795c9ade2.args=
 CreateShortcut.946795c9ade2.args=
 
-# CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 6
+# CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$ for Windows 64
 CreateShortcut.946795c9ade2.destinationName=
 
 # CreateShortcut.946795c9ade2.workingDir=
@@ -296,7 +296,7 @@ CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -305,7 +305,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -332,7 +332,7 @@ CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -341,10 +341,64 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.d138a370858c.destinationName=윈도우 64비트용 STAR-CCM+ $STARCCMPLUS_LABEL$
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
+
+# CreateShortcut.eb99cf1b90cb.args=
+CreateShortcut.eb99cf1b90cb.args=
+
+# CreateShortcut.eb99cf1b90cb.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.eb99cf1b90cb.destinationName=
+
+# CreateShortcut.eb99cf1b90cb.workingDir=
+CreateShortcut.eb99cf1b90cb.workingDir=
+
+# CreateShortcut.eb9ba32a90d0.args=
+CreateShortcut.eb9ba32a90d0.args=
+
+# CreateShortcut.eb9ba32a90d0.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.eb9ba32a90d0.destinationName=
+
+# CreateShortcut.eb9ba32a90d0.workingDir=
+CreateShortcut.eb9ba32a90d0.workingDir=
+
+# CreateShortcut.eb9fc19aa18e.args=
+CreateShortcut.eb9fc19aa18e.args=
+
+# CreateShortcut.eb9fc19aa18e.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.eb9fc19aa18e.destinationName=
+
+# CreateShortcut.eb9fc19aa18e.workingDir=
+CreateShortcut.eb9fc19aa18e.workingDir=
+
+# CreateShortcut.eba29649a3bb.args=
+CreateShortcut.eba29649a3bb.args=
+
+# CreateShortcut.eba29649a3bb.destinationName=$REGISTRY_SV_NAME$ $STARVIEW_VERSION$ for Windows 64
+CreateShortcut.eba29649a3bb.destinationName=
+
+# CreateShortcut.eba29649a3bb.workingDir=
+CreateShortcut.eba29649a3bb.workingDir=
+
+# CreateShortcut.eba4a8e4a4bc.args=
+CreateShortcut.eba4a8e4a4bc.args=
+
+# CreateShortcut.eba4a8e4a4bc.destinationName=View Sample Scene
+CreateShortcut.eba4a8e4a4bc.destinationName=
+
+# CreateShortcut.eba4a8e4a4bc.workingDir=
+CreateShortcut.eba4a8e4a4bc.workingDir=
+
+# CreateShortcut.eba4b7c1a520.args=
+CreateShortcut.eba4b7c1a520.args=
+
+# CreateShortcut.eba4b7c1a520.destinationName=View Sample Scene
+CreateShortcut.eba4b7c1a520.destinationName=
+
+# CreateShortcut.eba4b7c1a520.workingDir=
+CreateShortcut.eba4b7c1a520.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 DisplayMessage.731d4085b4cc.message=축하합니다.\n\n$INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 바탕 화면에 STAR-CCM+® 소프트웨어를 시작하는 데 사용할 수 있는 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. Siemens Product Lifecycle Management Software Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
@@ -484,6 +538,12 @@ Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.fdbca601be0a.title=
 Exec.fdbca601be0a.title=
 
+# ExecuteScript.00c21a869971.title=
+ExecuteScript.00c21a869971.title=
+
+# ExecuteScript.00cab266a1e7.title=
+ExecuteScript.00cab266a1e7.title=
+
 # ExecuteScript.0488ae86a57c.title=
 ExecuteScript.0488ae86a57c.title=
 
@@ -578,7 +638,7 @@ ExecuteScript.0dc86234891d.title=
 ExecuteScript.0fae5f3192b2.title=
 
 # ExecuteScript.13611b75b669.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.13611b75b669.dialogLabel=
+ExecuteScript.13611b75b669.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.13611b75b669.title=
 ExecuteScript.13611b75b669.title=
@@ -626,7 +686,7 @@ ExecuteScript.27684533a61f.title=
 ExecuteScript.29fb7235a3f7.title=
 
 # ExecuteScript.30fcc1db94e9.dialogLabel=Installing STAR-CAT5 ..Please wait a moment
-ExecuteScript.30fcc1db94e9.dialogLabel=
+ExecuteScript.30fcc1db94e9.dialogLabel=STAR-CAT5 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.30fcc1db94e9.title=
 ExecuteScript.30fcc1db94e9.title=
@@ -901,6 +961,24 @@ ExecuteScript.9e4a02a28975.title=
 # ExecuteScript.9e6a8fdf9720.title=
 ExecuteScript.9e6a8fdf9720.title=
 
+# ExecuteScript.a80ae0d0818b.title=
+ExecuteScript.a80ae0d0818b.title=
+
+# ExecuteScript.a80ae0d0818c.title=
+ExecuteScript.a80ae0d0818c.title=
+
+# ExecuteScript.a80ae0d1818a.title=
+ExecuteScript.a80ae0d1818a.title=
+
+# ExecuteScript.a80c38ba8192.title=
+ExecuteScript.a80c38ba8192.title=
+
+# ExecuteScript.a80c38ba8193.title=
+ExecuteScript.a80c38ba8193.title=
+
+# ExecuteScript.a80c38ba8196.title=
+ExecuteScript.a80c38ba8196.title=
+
 # ExecuteScript.a9b1812d954f.title=
 ExecuteScript.a9b1812d954f.title=
 
@@ -1040,7 +1118,7 @@ ExecuteScript.ed0b047db27c.dialogLabel=문서 설치 중..잠시 기다려 주�
 ExecuteScript.ed0b047db27c.title=
 
 # ExecuteScript.f46c355fa1ce.dialogLabel=Installing STAR-CREO ..Please wait a moment
-ExecuteScript.f46c355fa1ce.dialogLabel=
+ExecuteScript.f46c355fa1ce.dialogLabel=STAR-CREO 설치 중..잠시 기다려 주십시오.
 
 # ExecuteScript.f46c355fa1ce.title=
 ExecuteScript.f46c355fa1ce.title=
@@ -1133,7 +1211,7 @@ GetUserInput.3cd99868ae86.prompt=STAR-CCM+를 설치하는 동안 설치 프로�
 GetUserInput.3cd99868ae86.title=추가 작업 선택
 
 # GetUserInput.4202184d8cb4.defaultValue=Selected
-GetUserInput.4202184d8cb4.defaultValue=
+GetUserInput.4202184d8cb4.defaultValue=Selected
 
 # GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
 GetUserInput.4202184d8cb4.prompt=지금 FLEXlm 라이선스 관리자를 제거하시겠습니까?
@@ -1574,13 +1652,13 @@ GUIComponentData.9c427d3b8ef6.defaultValue=
 GUIComponentData.9c427d3b8ef6.label=
 
 # GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
-GUIComponentData.9c43d5ae9b6c.defaultValue=
+GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
 
 # GUIComponentData.9c43d5ae9b6c.label=Configure email server
 GUIComponentData.9c43d5ae9b6c.label=
 
 # GUIComponentData.9c455b20b16a.defaultValue=587
-GUIComponentData.9c455b20b16a.defaultValue=
+GUIComponentData.9c455b20b16a.defaultValue=587
 
 # GUIComponentData.9c455b20b16a.label=SMTP Port number
 GUIComponentData.9c455b20b16a.label=
@@ -1589,7 +1667,7 @@ GUIComponentData.9c455b20b16a.label=
 GUIComponentData.9c455b20b16b.defaultValue=
 
 # GUIComponentData.9c455b20b16b.label=TLS
-GUIComponentData.9c455b20b16b.label=
+GUIComponentData.9c455b20b16b.label=TLS
 
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
@@ -1608,6 +1686,12 @@ GUIComponentData.e6e769628c38.defaultValue=$HOST$
 
 # GUIComponentData.e6e769628c38.label=Login Node
 GUIComponentData.e6e769628c38.label=
+
+# GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
+GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
+
+# GUIComponentData.ebfc5e7990d5.label=Create a desktop icon
+GUIComponentData.ebfc5e7990d5.label=데스크탑 아이콘 생성
 
 # GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
 GUIComponentData.fbd51d65bcc6.defaultValue=Not Selected
@@ -1752,6 +1836,9 @@ GUIGroupData.e6e769618c38.caption=
 
 # GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.e82310a19e2b.caption=
+
+# GUIGroupData.ebfc5e7890d5.caption=
+GUIGroupData.ebfc5e7890d5.caption=
 
 # GUIGroupData.fbd51d66bcc4.caption=
 GUIGroupData.fbd51d66bcc4.caption=
@@ -2273,7 +2360,7 @@ IntroActionConsole.c7e016579491.title=$PRODUCT_NAME$ $WINDOWS_TYPE$ 제거
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Ko.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -2285,7 +2372,7 @@ LicenseAgrAction.43ff93b98f68.stepPrompt=
 LicenseAgrAction.43ff93b98f68.title=라이선스 참고사항
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Ko.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -2563,6 +2650,69 @@ MakeRegEntry.bfcf367db837.value=1
 # MakeRegEntry.bfcf367db837.valueName=DisableUNCCheck
 MakeRegEntry.bfcf367db837.valueName=DisableUNCCheck
 
+# MakeRegEntry.eb9467cd90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.eb9467cd90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.eb9467cd90c9.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
+MakeRegEntry.eb9467cd90c9.value=
+
+# MakeRegEntry.eb9467cd90c9.valueName=DisplayVersion
+MakeRegEntry.eb9467cd90c9.valueName=
+
+# MakeRegEntry.eb9637ba90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.eb9637ba90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.eb9637ba90c9.value=$USER_INSTALL_DIR$\\bin\\starview+.exe
+MakeRegEntry.eb9637ba90c9.value=
+
+# MakeRegEntry.eb9637ba90c9.valueName=DisplayIcon
+MakeRegEntry.eb9637ba90c9.valueName=
+
+# MakeRegEntry.eb96a0d790c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.eb96a0d790c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.eb96a0d790c9.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
+MakeRegEntry.eb96a0d790c9.value=
+
+# MakeRegEntry.eb96a0d790c9.valueName=DisplayName
+MakeRegEntry.eb96a0d790c9.valueName=
+
+# MakeRegEntry.ec274f9790f0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec274f9790f0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.ec274f9790f0.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
+MakeRegEntry.ec274f9790f0.value=
+
+# MakeRegEntry.ec274f9790f0.valueName=DisplayName
+MakeRegEntry.ec274f9790f0.valueName=
+
+# MakeRegEntry.ec53371b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec53371b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.ec53371b90cd.value=$USER_INSTALL_DIR$\\bin\\starview+.exe
+MakeRegEntry.ec53371b90cd.value=
+
+# MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
+MakeRegEntry.ec53371b90cd.valueName=
+
+# MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.ec562b3b90cd.value=$USER_INSTALL_DIR$\\star\\bin\\win32\\StarCCM\\starfish.ico
+MakeRegEntry.ec562b3b90cd.value=$USER_INSTALL_DIR$\\star\\bin\\win32\\StarCCM\\starfish.ico
+
+# MakeRegEntry.ec562b3b90cd.valueName=DisplayIcon
+MakeRegEntry.ec562b3b90cd.valueName=
+
+# MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
+MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
+
+# MakeRegEntry.ec6452bb90ce.value=$USER_MAGIC_FOLDER_5$
+MakeRegEntry.ec6452bb90ce.value=$USER_MAGIC_FOLDER_5$
+
+# MakeRegEntry.ec6452bb90ce.valueName=$STARVIEW_VERSION$
+MakeRegEntry.ec6452bb90ce.valueName=$STARVIEW_VERSION$
+
 # PreInstall.Text=Please Review the Following Before Continuing:
 PreInstall.Text=계속하기 전에 다음 사항을 검토하십시오.
 
@@ -2637,6 +2787,222 @@ PromptUserConsole.2d6f494abb0c.option2Label=취소
 
 # PromptUserConsole.2d6f494abb0c.title=Warning
 PromptUserConsole.2d6f494abb0c.title=경고
+
+# ShowDialogAction.00ba7f0290e5.buttonLabel=OK
+ShowDialogAction.00ba7f0290e5.buttonLabel=확인
+
+# ShowDialogAction.00ba7f0290e5.cancelButtonLabel=Cancel
+ShowDialogAction.00ba7f0290e5.cancelButtonLabel=취소
+
+# ShowDialogAction.00ba7f0290e5.detailsButtonLabel=Details...
+ShowDialogAction.00ba7f0290e5.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00ba7f0290e5.label=Resource Server Installation Not Found
+ShowDialogAction.00ba7f0290e5.label=
+
+# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where Resource Server is installed.
+ShowDialogAction.00ba7f0290e5.narrative=
+
+# ShowDialogAction.00ba7f0290e5.title=Resource Server Installation Not Found
+ShowDialogAction.00ba7f0290e5.title=
+
+# ShowDialogAction.00be631590fb.buttonLabel=OK
+ShowDialogAction.00be631590fb.buttonLabel=확인
+
+# ShowDialogAction.00be631590fb.cancelButtonLabel=Cancel
+ShowDialogAction.00be631590fb.cancelButtonLabel=취소
+
+# ShowDialogAction.00be631590fb.detailsButtonLabel=Details...
+ShowDialogAction.00be631590fb.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00be631590fb.label=SMTP Port number cannot be $SMTP_PORT$
+ShowDialogAction.00be631590fb.label=
+
+# ShowDialogAction.00be631590fb.narrative=Please provide the correct SMTP Port number 
+ShowDialogAction.00be631590fb.narrative=
+
+# ShowDialogAction.00be631590fb.title=Warning
+ShowDialogAction.00be631590fb.title=경고
+
+# ShowDialogAction.00c0b1bd9968.buttonLabel=OK
+ShowDialogAction.00c0b1bd9968.buttonLabel=확인
+
+# ShowDialogAction.00c0b1bd9968.cancelButtonLabel=Cancel
+ShowDialogAction.00c0b1bd9968.cancelButtonLabel=취소
+
+# ShowDialogAction.00c0b1bd9968.detailsButtonLabel=Details...
+ShowDialogAction.00c0b1bd9968.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c0b1bd9968.label=Hostname and Port Number cannot be emtpy.
+ShowDialogAction.00c0b1bd9968.label=
+
+# ShowDialogAction.00c0b1bd9968.narrative=Press enter valid hostname and Port Number to proceed.
+ShowDialogAction.00c0b1bd9968.narrative=
+
+# ShowDialogAction.00c0b1bd9968.title=Warning
+ShowDialogAction.00c0b1bd9968.title=경고
+
+# ShowDialogAction.00c313aa997a.buttonLabel=OK
+ShowDialogAction.00c313aa997a.buttonLabel=확인
+
+# ShowDialogAction.00c313aa997a.cancelButtonLabel=Cancel
+ShowDialogAction.00c313aa997a.cancelButtonLabel=취소
+
+# ShowDialogAction.00c313aa997a.detailsButtonLabel=Details...
+ShowDialogAction.00c313aa997a.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c313aa997a.label=Hostname can't be found.
+ShowDialogAction.00c313aa997a.label=
+
+# ShowDialogAction.00c313aa997a.narrative=Press enter valid Hostname to proceed.
+ShowDialogAction.00c313aa997a.narrative=
+
+# ShowDialogAction.00c313aa997a.title=Warning
+ShowDialogAction.00c313aa997a.title=경고
+
+# ShowDialogAction.00c4b058a1e0.buttonLabel=OK
+ShowDialogAction.00c4b058a1e0.buttonLabel=확인
+
+# ShowDialogAction.00c4b058a1e0.cancelButtonLabel=Cancel
+ShowDialogAction.00c4b058a1e0.cancelButtonLabel=취소
+
+# ShowDialogAction.00c4b058a1e0.detailsButtonLabel=Details...
+ShowDialogAction.00c4b058a1e0.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c4b058a1e0.label=Admin user name cannot be emtpy.
+ShowDialogAction.00c4b058a1e0.label=
+
+# ShowDialogAction.00c4b058a1e0.narrative=Press enter a valid admin user name to proceed.
+ShowDialogAction.00c4b058a1e0.narrative=
+
+# ShowDialogAction.00c4b058a1e0.title=Warning
+ShowDialogAction.00c4b058a1e0.title=경고
+
+# ShowDialogAction.00c59e7fa1e2.buttonLabel=OK
+ShowDialogAction.00c59e7fa1e2.buttonLabel=확인
+
+# ShowDialogAction.00c59e7fa1e2.cancelButtonLabel=Cancel
+ShowDialogAction.00c59e7fa1e2.cancelButtonLabel=취소
+
+# ShowDialogAction.00c59e7fa1e2.detailsButtonLabel=Details...
+ShowDialogAction.00c59e7fa1e2.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c59e7fa1e2.label=Login Node and Resource Group Name cannot be emtpy.
+ShowDialogAction.00c59e7fa1e2.label=
+
+# ShowDialogAction.00c59e7fa1e2.narrative=Press enter valid Login Node and Resource Group Name to proceed.
+ShowDialogAction.00c59e7fa1e2.narrative=
+
+# ShowDialogAction.00c59e7fa1e2.title=Warning
+ShowDialogAction.00c59e7fa1e2.title=경고
+
+# ShowDialogAction.00c67e1fa1e4.buttonLabel=OK
+ShowDialogAction.00c67e1fa1e4.buttonLabel=확인
+
+# ShowDialogAction.00c67e1fa1e4.cancelButtonLabel=Cancel
+ShowDialogAction.00c67e1fa1e4.cancelButtonLabel=취소
+
+# ShowDialogAction.00c67e1fa1e4.detailsButtonLabel=Details...
+ShowDialogAction.00c67e1fa1e4.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c67e1fa1e4.label=Display name cannot be emtpy.
+ShowDialogAction.00c67e1fa1e4.label=
+
+# ShowDialogAction.00c67e1fa1e4.narrative=Press enter valid Display name to proceed.
+ShowDialogAction.00c67e1fa1e4.narrative=
+
+# ShowDialogAction.00c67e1fa1e4.title=Warning
+ShowDialogAction.00c67e1fa1e4.title=경고
+
+# ShowDialogAction.00c71b56a1e5.buttonLabel=OK
+ShowDialogAction.00c71b56a1e5.buttonLabel=확인
+
+# ShowDialogAction.00c71b56a1e5.cancelButtonLabel=Cancel
+ShowDialogAction.00c71b56a1e5.cancelButtonLabel=취소
+
+# ShowDialogAction.00c71b56a1e5.detailsButtonLabel=Details...
+ShowDialogAction.00c71b56a1e5.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c71b56a1e5.label=Email address is not valid.
+ShowDialogAction.00c71b56a1e5.label=
+
+# ShowDialogAction.00c71b56a1e5.narrative=Press enter valid email address to proceed.
+ShowDialogAction.00c71b56a1e5.narrative=
+
+# ShowDialogAction.00c71b56a1e5.title=Warning
+ShowDialogAction.00c71b56a1e5.title=경고
+
+# ShowDialogAction.00c8ab0ea1e5.buttonLabel=OK
+ShowDialogAction.00c8ab0ea1e5.buttonLabel=확인
+
+# ShowDialogAction.00c8ab0ea1e5.cancelButtonLabel=Cancel
+ShowDialogAction.00c8ab0ea1e5.cancelButtonLabel=취소
+
+# ShowDialogAction.00c8ab0ea1e5.detailsButtonLabel=Details...
+ShowDialogAction.00c8ab0ea1e5.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c8ab0ea1e5.label=Email address cannot be emtpy.
+ShowDialogAction.00c8ab0ea1e5.label=
+
+# ShowDialogAction.00c8ab0ea1e5.narrative=Press enter valid Email address to proceed.
+ShowDialogAction.00c8ab0ea1e5.narrative=
+
+# ShowDialogAction.00c8ab0ea1e5.title=Warning
+ShowDialogAction.00c8ab0ea1e5.title=경고
+
+# ShowDialogAction.00c9a3b6a1e6.buttonLabel=OK
+ShowDialogAction.00c9a3b6a1e6.buttonLabel=확인
+
+# ShowDialogAction.00c9a3b6a1e6.cancelButtonLabel=Cancel
+ShowDialogAction.00c9a3b6a1e6.cancelButtonLabel=취소
+
+# ShowDialogAction.00c9a3b6a1e6.detailsButtonLabel=Details...
+ShowDialogAction.00c9a3b6a1e6.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00c9a3b6a1e6.label=SMTP server cannot be emtpy.
+ShowDialogAction.00c9a3b6a1e6.label=
+
+# ShowDialogAction.00c9a3b6a1e6.narrative=Press enter valid SMTP server to proceed.
+ShowDialogAction.00c9a3b6a1e6.narrative=
+
+# ShowDialogAction.00c9a3b6a1e6.title=Warning
+ShowDialogAction.00c9a3b6a1e6.title=경고
+
+# ShowDialogAction.00cb845ea1e9.buttonLabel=OK
+ShowDialogAction.00cb845ea1e9.buttonLabel=확인
+
+# ShowDialogAction.00cb845ea1e9.cancelButtonLabel=Cancel
+ShowDialogAction.00cb845ea1e9.cancelButtonLabel=취소
+
+# ShowDialogAction.00cb845ea1e9.detailsButtonLabel=Details...
+ShowDialogAction.00cb845ea1e9.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00cb845ea1e9.label=SMTP server can't be found.
+ShowDialogAction.00cb845ea1e9.label=
+
+# ShowDialogAction.00cb845ea1e9.narrative=Press enter valid SMTP server to proceed.
+ShowDialogAction.00cb845ea1e9.narrative=
+
+# ShowDialogAction.00cb845ea1e9.title=Warning
+ShowDialogAction.00cb845ea1e9.title=경고
+
+# ShowDialogAction.00cc6ab6a1eb.buttonLabel=OK
+ShowDialogAction.00cc6ab6a1eb.buttonLabel=확인
+
+# ShowDialogAction.00cc6ab6a1eb.cancelButtonLabel=Cancel
+ShowDialogAction.00cc6ab6a1eb.cancelButtonLabel=취소
+
+# ShowDialogAction.00cc6ab6a1eb.detailsButtonLabel=Details...
+ShowDialogAction.00cc6ab6a1eb.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.00cc6ab6a1eb.label=Username and Password cannot be emtpy.
+ShowDialogAction.00cc6ab6a1eb.label=
+
+# ShowDialogAction.00cc6ab6a1eb.narrative=Press enter valid Username and Password to proceed.
+ShowDialogAction.00cc6ab6a1eb.narrative=
+
+# ShowDialogAction.00cc6ab6a1eb.title=Warning
+ShowDialogAction.00cc6ab6a1eb.title=경고
 
 # ShowDialogAction.064a5d7084f3.buttonLabel=OK
 ShowDialogAction.064a5d7084f3.buttonLabel=확인
@@ -2837,13 +3203,13 @@ ShowDialogAction.3a2299d587bc.narrative=설치 프로그램이 라이선스 서�
 ShowDialogAction.3a2299d587bc.title=경고: 라이선스 서버
 
 # ShowDialogAction.59b3a9e8ae17.buttonLabel=OK
-ShowDialogAction.59b3a9e8ae17.buttonLabel=
+ShowDialogAction.59b3a9e8ae17.buttonLabel=확인
 
 # ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
-ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=
+ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=취소
 
 # ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
-ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=
+ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=세부 정보...
 
 # ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+ executable not found.
 ShowDialogAction.59b3a9e8ae17.label=

@@ -18,8 +18,8 @@
 #     - see the utility 'native2ascii' distributed with your JDK
 #
 # Product Name: FlexNet License Server
-# Project File: /u/xeon144/starusers/kevinm/installers/flexlm/windows/workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Sun Jul 08 22:12:39 EDT 2018
+# Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
+# Generated:    Tue Jul 24 15:20:00 PDT 2018
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -661,8 +661,8 @@ PromptUserConsole.1059efcb80b7.option2Label=Details...
 # PromptUserConsole.1059efcb80b7.title=Error
 PromptUserConsole.1059efcb80b7.title=Error
 
-# PromptUserConsole.3478cd8998db.message=The  directory $NEW_LIC_FILE_DIR$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
-PromptUserConsole.3478cd8998db.message=The  directory $NEW_LIC_FILE_DIR$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
 
 # PromptUserConsole.3478cd8998db.option0Label=Next
 PromptUserConsole.3478cd8998db.option0Label=Next
@@ -676,8 +676,8 @@ PromptUserConsole.3478cd8998db.option2Label=Details...
 # PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
 PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
 
-# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
-PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
 
 # PromptUserConsole.347acbcaa515.option0Label=Next
 PromptUserConsole.347acbcaa515.option0Label=Next
@@ -691,8 +691,8 @@ PromptUserConsole.347acbcaa515.option2Label=Details...
 # PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
 PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
 
-# PromptUserConsole.347b73c3ab4b.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-PromptUserConsole.347b73c3ab4b.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+# PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
 
 # PromptUserConsole.347b73c3ab4b.option0Label=Next
 PromptUserConsole.347b73c3ab4b.option0Label=Next
@@ -706,8 +706,8 @@ PromptUserConsole.347b73c3ab4b.option2Label=Details...
 # PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
 PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
 
-# PromptUserConsole.347bf180b183.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-PromptUserConsole.347bf180b183.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
 
 # PromptUserConsole.347bf180b183.option0Label=Next
 PromptUserConsole.347bf180b183.option0Label=Next
@@ -721,8 +721,8 @@ PromptUserConsole.347bf180b183.option2Label=Details...
 # PromptUserConsole.347bf180b183.title=ERROR : Invalid license file.
 PromptUserConsole.347bf180b183.title=ERROR : Invalid license file.
 
-# PromptUserConsole.347c8d30b7b7.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-PromptUserConsole.347c8d30b7b7.message=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+# PromptUserConsole.347c8d30b7b7.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
+PromptUserConsole.347c8d30b7b7.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
 
 # PromptUserConsole.347c8d30b7b7.option0Label=Next
 PromptUserConsole.347c8d30b7b7.option0Label=Next
