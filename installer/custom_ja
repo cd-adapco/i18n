@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -35,7 +35,7 @@ ASCIIFileManipulator.48e493b28f57.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
 
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$
-ASCIIFileManipulator.7bb72e2999c6.additionalText=
+ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$
 
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
@@ -95,16 +95,16 @@ ChooseFolder.3051e252be4c.prompt=フォルダを選択してください(&F):
 ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+のインストールディレクトリ
 
 # ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $PRODUCT_NAME$ is installed.
-ChooseFolder.59b3a9e8ae16.additionalText=フォルダーを選択してください。
+ChooseFolder.59b3a9e8ae16.additionalText=$PRODUCT_NAME$をインストールする場所を選択してください。
 
 # ChooseFolder.59b3a9e8ae16.defaultFile=
 ChooseFolder.59b3a9e8ae16.defaultFile=
 
 # ChooseFolder.59b3a9e8ae16.prompt=Please Locate STAR-CCM+ installation:
-ChooseFolder.59b3a9e8ae16.prompt=フォルダーを選択してください (&F):
+ChooseFolder.59b3a9e8ae16.prompt=STAR-CCM+のインストールフォルダを選択してください:
 
 # ChooseFolder.59b3a9e8ae16.stepTitle=Locate STAR-CCM+ installation 
-ChooseFolder.59b3a9e8ae16.stepTitle=フォルダーを選択
+ChooseFolder.59b3a9e8ae16.stepTitle=STAR-CCM+のインストールフォルダを選択
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Resource Server instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
 ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存のResource Serverインスタンスを選択してください。通常は、star/binフォルダにある既存のSTAR-CCM+インストールディレクトリにあります。
@@ -125,16 +125,16 @@ CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマ
 CreateDialog.29fccfaca483.title=サーバーを停止
 
 # CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the sitesettings.prop file to ProductExcellenceProgram=0.
-CreateDialog.757df82f97fd.prompt=必要な情報を入力
+CreateDialog.757df82f97fd.prompt=Product Excellence Programはお客様がシーメンスPLMソフトウェアを使用する方法に関する情報を収集します。この情報は、お客様のニーズに合わせて弊社製品の機能や性能を向上させるのに役立ちます。個人情報や知的財産情報は収集または共有されません。製品の性能への影響はなく、プログラムへの参加は任意です。Product Excellence Programをオフにするには、ProductExcellenceProgram=0になるようにsitesettings.propファイルを編集してください。
 
 # CreateDialog.757df82f97fd.title=Product Excellence Program
-CreateDialog.757df82f97fd.title=ユーザー入力を取得
+CreateDialog.757df82f97fd.title=Product Excellence Program
 
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
 # CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de0b8dc9238.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -143,7 +143,7 @@ CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de4337e8b03.args=
 
 # CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.2de4337e8b03.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -233,7 +233,7 @@ CreateShortcut.94640642bd9f.workingDir=
 CreateShortcut.94649fda9fe1.args=
 
 # CreateShortcut.94649fda9fe1.destinationName=View Sample Scene
-CreateShortcut.94649fda9fe1.destinationName=
+CreateShortcut.94649fda9fe1.destinationName=サンプルシーンの表示
 
 # CreateShortcut.94649fda9fe1.workingDir=
 CreateShortcut.94649fda9fe1.workingDir=
@@ -251,7 +251,7 @@ CreateShortcut.9465295a8118.workingDir=
 CreateShortcut.9465c552a258.args=
 
 # CreateShortcut.9465c552a258.destinationName=View Sample Scene
-CreateShortcut.9465c552a258.destinationName=
+CreateShortcut.9465c552a258.destinationName=サンプルシーンの表示
 
 # CreateShortcut.9465c552a258.workingDir=
 CreateShortcut.9465c552a258.workingDir=
@@ -275,7 +275,7 @@ CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $STARVR_VERSION$
 CreateShortcut.946795c9ade2.workingDir=
 
 # CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d61b24aac76.args=
+CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -284,7 +284,7 @@ CreateShortcut.9d61b24aac76.destinationName=リリースノート ($STARCCMPLUS
 CreateShortcut.9d61b24aac76.workingDir=
 
 # CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d83036eb16c.args=
+CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=リリースノート ($STARCCMPLUS_VERSION$)
@@ -296,7 +296,7 @@ CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.caa364a8a2b0.args=
 
 # CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.caa364a8a2b0.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -305,7 +305,7 @@ CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.cb11e682a2c8.args=
 
 # CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cb11e682a2c8.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -332,7 +332,7 @@ CreateShortcut.cd1330779add.workingDir=
 CreateShortcut.cfd2e50abbfc.args=
 
 # CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.cfd2e50abbfc.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -341,7 +341,7 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.d138a370858c.args=
 
 # CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
-CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$ for Windows 64
+CreateShortcut.d138a370858c.destinationName=STAR-CCM+ $STARCCMPLUS_LABEL$for Windows 64
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -386,7 +386,7 @@ CreateShortcut.eba29649a3bb.workingDir=
 CreateShortcut.eba4a8e4a4bc.args=
 
 # CreateShortcut.eba4a8e4a4bc.destinationName=View Sample Scene
-CreateShortcut.eba4a8e4a4bc.destinationName=
+CreateShortcut.eba4a8e4a4bc.destinationName=サンプルシーンの表示
 
 # CreateShortcut.eba4a8e4a4bc.workingDir=
 CreateShortcut.eba4a8e4a4bc.workingDir=
@@ -395,13 +395,13 @@ CreateShortcut.eba4a8e4a4bc.workingDir=
 CreateShortcut.eba4b7c1a520.args=
 
 # CreateShortcut.eba4b7c1a520.destinationName=View Sample Scene
-CreateShortcut.eba4b7c1a520.destinationName=
+CreateShortcut.eba4b7c1a520.destinationName=サンプルシーンの表示
 
 # CreateShortcut.eba4b7c1a520.workingDir=
 CreateShortcut.eba4b7c1a520.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=インストール完了
@@ -443,34 +443,34 @@ EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.d
 EntryAtomBiDi.66117b82a1fc.label=サーバーを今すぐ停止する
 
 # EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
-EntryAtomBiDi.757df83097fd.label=
+EntryAtomBiDi.757df83097fd.label=Product Excellence Programに参加する
 
 # EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
-EntryAtomNonBiDi.757df83097fe.defaultValue=はい
+EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
 
 # EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
-EntryAtomNonBiDi.757df83097fe.label=
+EntryAtomNonBiDi.757df83097fe.label=Product Excellence Programに参加しますか? (Y/N)
 
 # Exec.13619cd5b669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B27$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.13619cd5b669.commandLineArgs=
+Exec.13619cd5b669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B27$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.13619cd5b669.title=
 Exec.13619cd5b669.title=
 
 # Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.1361c07eb669.commandLineArgs=
+Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.1361c07eb669.title=
 Exec.1361c07eb669.title=
 
 # Exec.30fd751694e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B28$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.30fd751694e9.commandLineArgs=
+Exec.30fd751694e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win32$\\$bin$\\$B28$\\$intel_a$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.30fd751694e9.title=
 Exec.30fd751694e9.title=
 
 # Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.30fdba8e94e9.commandLineArgs=
+Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.30fdba8e94e9.title=
 Exec.30fdba8e94e9.title=
@@ -482,7 +482,7 @@ Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALL
 Exec.3cae6520be5f.title=
 
 # Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs=$USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
+Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
 
 # Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 Exec.545df2008320.dialogLabel=リモートからの起動サービスをアンインストールしています...
@@ -1256,10 +1256,10 @@ GetUserInput.8575cd2c96c8.prompt=Resource Serverの実行先の情報を入力�
 GetUserInput.8575cd2c96c8.title=サーバーの選択
 
 # GetUserInput.85775f8d96d5.prompt=Please enter the Login Node and the Resource Group Name
-GetUserInput.85775f8d96d5.prompt=ログイン項目とリソースグループ名を入力してください
+GetUserInput.85775f8d96d5.prompt=ログインノードとリソースグループ名を入力してください
 
 # GetUserInput.85775f8d96d5.title=Login Node Name
-GetUserInput.85775f8d96d5.title=ログイン項目の名前
+GetUserInput.85775f8d96d5.title=ログインノードの名前
 
 # GetUserInput.8578411b96e0.prompt=Please select the SSL Certificate and Private Key to be used by Resource Server
 GetUserInput.8578411b96e0.prompt=Resource Serverで使用するSSL証明書と秘密鍵を選択してください
@@ -1274,16 +1274,16 @@ GetUserInput.8fe4e9e8b4a1.prompt=Resource Serverを管理するアカウント�
 GetUserInput.8fe4e9e8b4a1.title=管理者ユーザー名
 
 # GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
-GetUserInput.9c427d388ef4.prompt=
+GetUserInput.9c427d388ef4.prompt=通知とパスワードリセットメッセージの送信用に使用する送信電子メールを設定してください\n\n\n
 
 # GetUserInput.9c427d388ef4.title=Email specification
-GetUserInput.9c427d388ef4.title=ユーザー入力を取得
+GetUserInput.9c427d388ef4.title=電子メール設定
 
 # GetUserInput.9c455b20b168.prompt=Please select the port number for the SMTP connection.\n\nYou should change the port number if TLS is enabled\n\n
-GetUserInput.9c455b20b168.prompt=
+GetUserInput.9c455b20b168.prompt=SMTP接続のポート番号を選択してください。\n\nTLSが有効な場合は、ポート番号を変更してください\n\n
 
 # GetUserInput.9c455b20b168.title=SMTP port number
-GetUserInput.9c455b20b168.title=ユーザー入力を取得
+GetUserInput.9c455b20b168.title=SMTPポート番号
 
 # GetUserInput.a53ed862b666.prompt=CD-adapco provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=CD adapcoは、弊社のPoDサーバーまたは\nローカルライセンスサーバーによるライセンシングを提供しています。\n \nご使用になるライセンス方法を選択してください。
@@ -1303,6 +1303,12 @@ GetUserInput.e821a5059d90.prompt=CD-adapco製品のライセンス管理には�
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=ライセンスタイプの選択
 
+# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
+GetUserInput.ebfc5e7890d2.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+
+# GetUserInput.ebfc5e7890d2.title=Select Additional Tasks
+GetUserInput.ebfc5e7890d2.title=追加タスクの選択
+
 # GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing $REGISTRY_SV_NAME$, then click Next.
 GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
 
@@ -1310,10 +1316,10 @@ GetUserInput.fbd51d65bcc1.prompt=$REGISTRY_SV_NAME$のインストール時に�
 GetUserInput.fbd51d65bcc1.title=追加タスクの選択
 
 # GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the sitesettings.prop file to ProductExcellenceProgram=0.
-GetUserInputConsole.757df82f97fe.prompt=必要な情報を入力
+GetUserInputConsole.757df82f97fe.prompt=Product Excellence Programはお客様がシーメンスPLMソフトウェアを使用する方法に関する情報を収集します。この情報は、お客様のニーズに合わせて弊社製品の機能や性能を向上させるのに役立ちます。個人情報や知的財産情報は収集または共有されません。製品の性能への影響はなく、プログラムへの参加は任意です。Product Excellence Programをオフにするには、ProductExcellenceProgram=0になるようにsitesettings.propファイルを編集してください。
 
 # GetUserInputConsole.757df82f97fe.title=Product Excellence Program
-GetUserInputConsole.757df82f97fe.title=ユーザー入力を取得
+GetUserInputConsole.757df82f97fe.title=Product Excellence Program
 
 # GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
 GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
@@ -1625,49 +1631,49 @@ GUIComponentData.8fe4e9eab4a2.label=管理者ユーザー名
 GUIComponentData.9c427d388ef6.defaultValue=
 
 # GUIComponentData.9c427d388ef6.label=Display Name
-GUIComponentData.9c427d388ef6.label=
+GUIComponentData.9c427d388ef6.label=表示名
 
 # GUIComponentData.9c427d3a8ef7.defaultValue=
 GUIComponentData.9c427d3a8ef7.defaultValue=
 
 # GUIComponentData.9c427d3a8ef7.label=SMTP server
-GUIComponentData.9c427d3a8ef7.label=
+GUIComponentData.9c427d3a8ef7.label=SMTPサーバー
 
 # GUIComponentData.9c427d3a8ef8.defaultValue=
 GUIComponentData.9c427d3a8ef8.defaultValue=
 
 # GUIComponentData.9c427d3a8ef8.label=Username
-GUIComponentData.9c427d3a8ef8.label=
+GUIComponentData.9c427d3a8ef8.label=ユーザー名
 
 # GUIComponentData.9c427d3a8ef9.defaultValue=
 GUIComponentData.9c427d3a8ef9.defaultValue=
 
 # GUIComponentData.9c427d3a8ef9.label=Password
-GUIComponentData.9c427d3a8ef9.label=
+GUIComponentData.9c427d3a8ef9.label=パスワード
 
 # GUIComponentData.9c427d3b8ef6.defaultValue=
 GUIComponentData.9c427d3b8ef6.defaultValue=
 
 # GUIComponentData.9c427d3b8ef6.label=Email address
-GUIComponentData.9c427d3b8ef6.label=
+GUIComponentData.9c427d3b8ef6.label=電子メールアドレス
 
 # GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
 GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
 
 # GUIComponentData.9c43d5ae9b6c.label=Configure email server
-GUIComponentData.9c43d5ae9b6c.label=
+GUIComponentData.9c43d5ae9b6c.label=電子メールサーバーの設定
 
 # GUIComponentData.9c455b20b16a.defaultValue=587
 GUIComponentData.9c455b20b16a.defaultValue=587
 
 # GUIComponentData.9c455b20b16a.label=SMTP Port number
-GUIComponentData.9c455b20b16a.label=
+GUIComponentData.9c455b20b16a.label=SMTPポート番号
 
 # GUIComponentData.9c455b20b16b.defaultValue=Not Selected
 GUIComponentData.9c455b20b16b.defaultValue=Not Selected
 
 # GUIComponentData.9c455b20b16b.label=TLS
-GUIComponentData.9c455b20b16b.label=
+GUIComponentData.9c455b20b16b.label=TLS
 
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
@@ -1685,7 +1691,7 @@ GUIComponentData.c58f4202a8d3.label=システムパスにアプリケーショ�
 GUIComponentData.e6e769628c38.defaultValue=$HOST$
 
 # GUIComponentData.e6e769628c38.label=Login Node
-GUIComponentData.e6e769628c38.label=
+GUIComponentData.e6e769628c38.label=ログインノード
 
 # GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
 GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
@@ -1919,13 +1925,13 @@ InstallDirAction.5030314b81d8.prompt=$PRODUCT_NAME$をインストールする�
 InstallDirAction.5030314b81d8.stepTitle=インストールフォルダを選択
 
 # InstallDirAction.59b3a9e8ae1b.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.59b3a9e8ae1b.additionalText=このインストールのインストール先フォルダーを選択してください。
+InstallDirAction.59b3a9e8ae1b.additionalText=FLEXNet $FLEXlmVERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
 
 # InstallDirAction.59b3a9e8ae1b.prompt=Where Would You Like to Install FLEXNet ?
-InstallDirAction.59b3a9e8ae1b.prompt=インストール先を指定してください(&W):
+InstallDirAction.59b3a9e8ae1b.prompt=FLEXNetをインストールする場所を選択してください。
 
 # InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
-InstallDirAction.59b3a9e8ae1b.stepTitle=インストール フォルダーを選択
+InstallDirAction.59b3a9e8ae1b.stepTitle=インストールフォルダを選択
 
 # InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
 InstallDirAction.850018e38429.additionalText=STAR-CAD $CAD_VERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
@@ -2030,13 +2036,13 @@ Installer.850018e38424.installLabels.26=STAR-CCM+のインストールディレ�
 Installer.850018e38424.installProgressImageName=introImage.png
 
 # Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
-Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+Installer.850018e38424.installProgressImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
 
 # Installer.850018e38424.panelImageName=introImage.png
 Installer.850018e38424.panelImageName=introImage.png
 
 # Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
-Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
+Installer.850018e38424.panelImagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba/
 
 # Installer.850018e38424.rulesFailedMessage=The installer cannot run on your configuration. It will now quit.
 Installer.850018e38424.rulesFailedMessage=この構成でインストーラを実行することはできません。インストーラを終了します。
@@ -2054,19 +2060,19 @@ Installer.850018e38424.splashScreenGUIConfirm=OK
 Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 
 # Installer.850018e38424.splashScreenGUIImageName1=SplashNew.png
-Installer.850018e38424.splashScreenGUIImageName1=
+Installer.850018e38424.splashScreenGUIImageName1=SplashNew.png
 
 # Installer.850018e38424.splashScreenGUIImageName2=SplashNew.png
-Installer.850018e38424.splashScreenGUIImageName2=
+Installer.850018e38424.splashScreenGUIImageName2=SplashNew.png
 
 # Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
 # Installer.850018e38424.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
-Installer.850018e38424.splashScreenGUIImagePath1=
+Installer.850018e38424.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
 
 # Installer.850018e38424.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
-Installer.850018e38424.splashScreenGUIImagePath2=
+Installer.850018e38424.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
 
 # Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
 Installer.850018e38424.splashScreenGUIInstructions=インストール中に使用する言語を選択:
@@ -2162,7 +2168,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -2300,7 +2306,7 @@ InstallSummary.2001b0af82ad.title=プリインストールの要約
 InstallSummary.59b76fa79fb5.stepPrompt=操作を続ける前に、以下の内容を確認してください。
 
 # InstallSummary.59b76fa79fb5.title=Pre-Installation Summary
-InstallSummary.59b76fa79fb5.title=インストール前の要約
+InstallSummary.59b76fa79fb5.title=プリインストールの要約
 
 # InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
 InstallSummary.a132a7788325.stepPrompt=クライアントノードの構成 - 操作を続ける前に、以下の内容を確認してください。
@@ -2519,7 +2525,7 @@ MakeRegEntry.122c45b2aace.valueName=$CAD_VERSION$
 MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.2d92651f85b0.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
-MakeRegEntry.2d92651f85b0.value=
+MakeRegEntry.2d92651f85b0.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
 
 # MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
 MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
@@ -2528,7 +2534,7 @@ MakeRegEntry.2d92651f85b0.valueName=DisplayVersion
 MakeRegEntry.2d9780258670.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.2d9780258670.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
-MakeRegEntry.2d9780258670.value=
+MakeRegEntry.2d9780258670.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
 
 # MakeRegEntry.2d9780258670.valueName=DisplayVersion
 MakeRegEntry.2d9780258670.valueName=DisplayVersion
@@ -2654,10 +2660,10 @@ MakeRegEntry.bfcf367db837.valueName=DisableUNCCheck
 MakeRegEntry.eb9467cd90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.eb9467cd90c9.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
-MakeRegEntry.eb9467cd90c9.value=
+MakeRegEntry.eb9467cd90c9.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_
 
 # MakeRegEntry.eb9467cd90c9.valueName=DisplayVersion
-MakeRegEntry.eb9467cd90c9.valueName=
+MakeRegEntry.eb9467cd90c9.valueName=DisplayVersion
 
 # MakeRegEntry.eb9637ba90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.eb9637ba90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -2666,25 +2672,25 @@ MakeRegEntry.eb9637ba90c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\C
 MakeRegEntry.eb9637ba90c9.value=$USER_INSTALL_DIR$\\bin\\starview+.exe
 
 # MakeRegEntry.eb9637ba90c9.valueName=DisplayIcon
-MakeRegEntry.eb9637ba90c9.valueName=
+MakeRegEntry.eb9637ba90c9.valueName=DisplayIcon
 
 # MakeRegEntry.eb96a0d790c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.eb96a0d790c9.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.eb96a0d790c9.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
-MakeRegEntry.eb96a0d790c9.value=
+MakeRegEntry.eb96a0d790c9.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
 
 # MakeRegEntry.eb96a0d790c9.valueName=DisplayName
-MakeRegEntry.eb96a0d790c9.valueName=
+MakeRegEntry.eb96a0d790c9.valueName=DisplayName
 
 # MakeRegEntry.ec274f9790f0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
-MakeRegEntry.ec274f9790f0.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec274f9790f0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.ec274f9790f0.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
-MakeRegEntry.ec274f9790f0.value=
+MakeRegEntry.ec274f9790f0.value=CD-adapco $PRODUCT_NAME$ $WINDOWS_TYPE$
 
 # MakeRegEntry.ec274f9790f0.valueName=DisplayName
-MakeRegEntry.ec274f9790f0.valueName=
+MakeRegEntry.ec274f9790f0.valueName=DisplayName
 
 # MakeRegEntry.ec53371b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.ec53371b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -2693,7 +2699,7 @@ MakeRegEntry.ec53371b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\
 MakeRegEntry.ec53371b90cd.value=$USER_INSTALL_DIR$\\bin\\starview+.exe
 
 # MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
-MakeRegEntry.ec53371b90cd.valueName=
+MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
 
 # MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -2702,7 +2708,7 @@ MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\
 MakeRegEntry.ec562b3b90cd.value=$USER_INSTALL_DIR$\\star\\bin\\win32\\StarCCM\\starfish.ico
 
 # MakeRegEntry.ec562b3b90cd.valueName=DisplayIcon
-MakeRegEntry.ec562b3b90cd.valueName=
+MakeRegEntry.ec562b3b90cd.valueName=DisplayIcon
 
 # MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
 MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\CD-adapco\\$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
@@ -2738,13 +2744,13 @@ PreInstall.Text6=空き容量:
 PreInstall.Text7=必要な容量: 
 
 # PreInstall.Text8=Participation in Product Excellence Program:
-PreInstall.Text8=Participation in Product Excellence Program:
+PreInstall.Text8=Product Excellence Programへの参加:
 
 # PreInstall.Text8No=No
-PreInstall.Text8No=No
+PreInstall.Text8No=いいえ
 
 # PreInstall.Text8Yes=Yes
-PreInstall.Text8Yes=Yes
+PreInstall.Text8Yes=はい
 
 # PreInstall.Title=Pre-Installation Summary
 PreInstall.Title=プリインストールの要約
@@ -2798,13 +2804,13 @@ ShowDialogAction.00ba7f0290e5.cancelButtonLabel=キャンセル
 ShowDialogAction.00ba7f0290e5.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00ba7f0290e5.label=Resource Server Installation Not Found
-ShowDialogAction.00ba7f0290e5.label=
+ShowDialogAction.00ba7f0290e5.label=Resource Serverのインストールが見つかりませんでした
 
 # ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where Resource Server is installed.
-ShowDialogAction.00ba7f0290e5.narrative=
+ShowDialogAction.00ba7f0290e5.narrative=Resource Serverがインストールされている場所を選択し直してください。
 
 # ShowDialogAction.00ba7f0290e5.title=Resource Server Installation Not Found
-ShowDialogAction.00ba7f0290e5.title=
+ShowDialogAction.00ba7f0290e5.title=Resource Serverのインストールが見つかりませんでした
 
 # ShowDialogAction.00be631590fb.buttonLabel=OK
 ShowDialogAction.00be631590fb.buttonLabel=OK
@@ -2816,10 +2822,10 @@ ShowDialogAction.00be631590fb.cancelButtonLabel=キャンセル
 ShowDialogAction.00be631590fb.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00be631590fb.label=SMTP Port number cannot be $SMTP_PORT$
-ShowDialogAction.00be631590fb.label=
+ShowDialogAction.00be631590fb.label=SMTPポート番号を$SMTP_PORT$にはできません
 
 # ShowDialogAction.00be631590fb.narrative=Please provide the correct SMTP Port number 
-ShowDialogAction.00be631590fb.narrative=
+ShowDialogAction.00be631590fb.narrative=正しいSMTPポート番号を指定してください
 
 # ShowDialogAction.00be631590fb.title=Warning
 ShowDialogAction.00be631590fb.title=警告
@@ -2834,10 +2840,10 @@ ShowDialogAction.00c0b1bd9968.cancelButtonLabel=キャンセル
 ShowDialogAction.00c0b1bd9968.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c0b1bd9968.label=Hostname and Port Number cannot be emtpy.
-ShowDialogAction.00c0b1bd9968.label=
+ShowDialogAction.00c0b1bd9968.label=ホスト名とポート番号を空欄にすることはできません。
 
 # ShowDialogAction.00c0b1bd9968.narrative=Press enter valid hostname and Port Number to proceed.
-ShowDialogAction.00c0b1bd9968.narrative=
+ShowDialogAction.00c0b1bd9968.narrative=続行するには有効なホスト名とポート番号を入力してください。
 
 # ShowDialogAction.00c0b1bd9968.title=Warning
 ShowDialogAction.00c0b1bd9968.title=警告
@@ -2852,10 +2858,10 @@ ShowDialogAction.00c313aa997a.cancelButtonLabel=キャンセル
 ShowDialogAction.00c313aa997a.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c313aa997a.label=Hostname can't be found.
-ShowDialogAction.00c313aa997a.label=
+ShowDialogAction.00c313aa997a.label=ホスト名が見つかりません。
 
 # ShowDialogAction.00c313aa997a.narrative=Press enter valid Hostname to proceed.
-ShowDialogAction.00c313aa997a.narrative=
+ShowDialogAction.00c313aa997a.narrative=続行するには有効なホスト名を入力してください。
 
 # ShowDialogAction.00c313aa997a.title=Warning
 ShowDialogAction.00c313aa997a.title=警告
@@ -2870,10 +2876,10 @@ ShowDialogAction.00c4b058a1e0.cancelButtonLabel=キャンセル
 ShowDialogAction.00c4b058a1e0.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c4b058a1e0.label=Admin user name cannot be emtpy.
-ShowDialogAction.00c4b058a1e0.label=
+ShowDialogAction.00c4b058a1e0.label=管理者ユーザー名を空欄にすることはできません。
 
 # ShowDialogAction.00c4b058a1e0.narrative=Press enter a valid admin user name to proceed.
-ShowDialogAction.00c4b058a1e0.narrative=
+ShowDialogAction.00c4b058a1e0.narrative=続行するには有効な管理者ユーザー名を入力してください。
 
 # ShowDialogAction.00c4b058a1e0.title=Warning
 ShowDialogAction.00c4b058a1e0.title=警告
@@ -2888,10 +2894,10 @@ ShowDialogAction.00c59e7fa1e2.cancelButtonLabel=キャンセル
 ShowDialogAction.00c59e7fa1e2.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c59e7fa1e2.label=Login Node and Resource Group Name cannot be emtpy.
-ShowDialogAction.00c59e7fa1e2.label=
+ShowDialogAction.00c59e7fa1e2.label=ログインノードとリソースグループの名前を空欄にすることはできません。
 
 # ShowDialogAction.00c59e7fa1e2.narrative=Press enter valid Login Node and Resource Group Name to proceed.
-ShowDialogAction.00c59e7fa1e2.narrative=
+ShowDialogAction.00c59e7fa1e2.narrative=続行するには有効なログインノードとリソースグループの名前を入力してください。
 
 # ShowDialogAction.00c59e7fa1e2.title=Warning
 ShowDialogAction.00c59e7fa1e2.title=警告
@@ -2906,10 +2912,10 @@ ShowDialogAction.00c67e1fa1e4.cancelButtonLabel=キャンセル
 ShowDialogAction.00c67e1fa1e4.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c67e1fa1e4.label=Display name cannot be emtpy.
-ShowDialogAction.00c67e1fa1e4.label=
+ShowDialogAction.00c67e1fa1e4.label=表示名を空欄にすることはできません。
 
 # ShowDialogAction.00c67e1fa1e4.narrative=Press enter valid Display name to proceed.
-ShowDialogAction.00c67e1fa1e4.narrative=
+ShowDialogAction.00c67e1fa1e4.narrative=続行するには有効な表示名を入力してください。
 
 # ShowDialogAction.00c67e1fa1e4.title=Warning
 ShowDialogAction.00c67e1fa1e4.title=警告
@@ -2924,10 +2930,10 @@ ShowDialogAction.00c71b56a1e5.cancelButtonLabel=キャンセル
 ShowDialogAction.00c71b56a1e5.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c71b56a1e5.label=Email address is not valid.
-ShowDialogAction.00c71b56a1e5.label=
+ShowDialogAction.00c71b56a1e5.label=電子メールアドレスが有効ではありません。
 
 # ShowDialogAction.00c71b56a1e5.narrative=Press enter valid email address to proceed.
-ShowDialogAction.00c71b56a1e5.narrative=
+ShowDialogAction.00c71b56a1e5.narrative=続行するには有効な電子メールアドレスを入力してください。
 
 # ShowDialogAction.00c71b56a1e5.title=Warning
 ShowDialogAction.00c71b56a1e5.title=警告
@@ -2942,10 +2948,10 @@ ShowDialogAction.00c8ab0ea1e5.cancelButtonLabel=キャンセル
 ShowDialogAction.00c8ab0ea1e5.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c8ab0ea1e5.label=Email address cannot be emtpy.
-ShowDialogAction.00c8ab0ea1e5.label=
+ShowDialogAction.00c8ab0ea1e5.label=電子メールアドレスを空欄にすることはできません。
 
 # ShowDialogAction.00c8ab0ea1e5.narrative=Press enter valid Email address to proceed.
-ShowDialogAction.00c8ab0ea1e5.narrative=
+ShowDialogAction.00c8ab0ea1e5.narrative=続行するには有効な電子メールアドレスを入力してください。
 
 # ShowDialogAction.00c8ab0ea1e5.title=Warning
 ShowDialogAction.00c8ab0ea1e5.title=警告
@@ -2960,10 +2966,10 @@ ShowDialogAction.00c9a3b6a1e6.cancelButtonLabel=キャンセル
 ShowDialogAction.00c9a3b6a1e6.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00c9a3b6a1e6.label=SMTP server cannot be emtpy.
-ShowDialogAction.00c9a3b6a1e6.label=
+ShowDialogAction.00c9a3b6a1e6.label=SMTPサーバーを空欄にすることはできません。
 
 # ShowDialogAction.00c9a3b6a1e6.narrative=Press enter valid SMTP server to proceed.
-ShowDialogAction.00c9a3b6a1e6.narrative=
+ShowDialogAction.00c9a3b6a1e6.narrative=続行するには有効なSMTPサーバーを入力してください。
 
 # ShowDialogAction.00c9a3b6a1e6.title=Warning
 ShowDialogAction.00c9a3b6a1e6.title=警告
@@ -2978,10 +2984,10 @@ ShowDialogAction.00cb845ea1e9.cancelButtonLabel=キャンセル
 ShowDialogAction.00cb845ea1e9.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00cb845ea1e9.label=SMTP server can't be found.
-ShowDialogAction.00cb845ea1e9.label=
+ShowDialogAction.00cb845ea1e9.label=SMTPサーバーが見つかりません。
 
 # ShowDialogAction.00cb845ea1e9.narrative=Press enter valid SMTP server to proceed.
-ShowDialogAction.00cb845ea1e9.narrative=
+ShowDialogAction.00cb845ea1e9.narrative=続行するには有効なSMTPサーバーを入力してください。
 
 # ShowDialogAction.00cb845ea1e9.title=Warning
 ShowDialogAction.00cb845ea1e9.title=警告
@@ -2996,10 +3002,10 @@ ShowDialogAction.00cc6ab6a1eb.cancelButtonLabel=キャンセル
 ShowDialogAction.00cc6ab6a1eb.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00cc6ab6a1eb.label=Username and Password cannot be emtpy.
-ShowDialogAction.00cc6ab6a1eb.label=
+ShowDialogAction.00cc6ab6a1eb.label=ユーザー名とパスワードを空欄にすることはできません。
 
 # ShowDialogAction.00cc6ab6a1eb.narrative=Press enter valid Username and Password to proceed.
-ShowDialogAction.00cc6ab6a1eb.narrative=
+ShowDialogAction.00cc6ab6a1eb.narrative=続行するには有効なユーザー名とパスワードを入力してください。
 
 # ShowDialogAction.00cc6ab6a1eb.title=Warning
 ShowDialogAction.00cc6ab6a1eb.title=警告
@@ -3034,8 +3040,8 @@ ShowDialogAction.0be7f1f1a400.detailsButtonLabel=詳細...
 # ShowDialogAction.0be7f1f1a400.label=The installer discovered problems with the specified license servers.
 ShowDialogAction.0be7f1f1a400.label=インストーラが、指定されたライセンスサーバーの問題を検出しました。
 
-# ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
-ShowDialogAction.0be7f1f1a400.narrative=$SERVER1_IS_OLD$\n$SERVER2_IS_OLD$\n$SERVER3_IS_OLD$\n\n$SERVER1_NO_VALID_FEATURES$\n$SERVER2_NO_VALID_FEATURES$\n$SERVER3_NO_VALID_FEATURES$
+# ShowDialogAction.0be7f1f1a400.narrative=$LICENSE_SERVER_OUTPUT_MESSAGE$
+ShowDialogAction.0be7f1f1a400.narrative=$LICENSE_SERVER_OUTPUT_MESSAGE$
 
 # ShowDialogAction.0be7f1f1a400.title=License server problem
 ShowDialogAction.0be7f1f1a400.title=ライセンスサーバーの問題
@@ -3206,19 +3212,19 @@ ShowDialogAction.3a2299d587bc.title=警告: ライセンスサーバー
 ShowDialogAction.59b3a9e8ae17.buttonLabel=OK
 
 # ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
-ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=
+ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
-ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=
+ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=詳細...
 
 # ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+ executable not found.
-ShowDialogAction.59b3a9e8ae17.label=
+ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+の実行ファイルが見つかりません
 
 # ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $PRODUCT_NAME$ is installed.
-ShowDialogAction.59b3a9e8ae17.narrative=
+ShowDialogAction.59b3a9e8ae17.narrative=$PRODUCT_NAME$がインストールされている場所を選択し直してください。
 
 # ShowDialogAction.59b3a9e8ae17.title=STAR-CCM+ Installation Not Found
-ShowDialogAction.59b3a9e8ae17.title=
+ShowDialogAction.59b3a9e8ae17.title=STAR-CCM+のインストールディレクトリが見つかりません
 
 # ShowDialogAction.5f17661a83c5.buttonLabel=Yes
 ShowDialogAction.5f17661a83c5.buttonLabel=はい
@@ -3707,7 +3713,7 @@ VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+のインストー�
 VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 
 # VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
+VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+のインストールディレクトリ:
 
 # VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
 VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
@@ -3719,77 +3725,77 @@ VariablePropertyDataBiDi.a133e9478327.propertyName=製品名:
 VariablePropertyDataBiDi.a133e9478327.propertyValue=Microsoft Visual C++ 再頒布可能パッケージ
 
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
-VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=
+VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=インストールディレクトリ:
 
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 
-# _ia.validateFlex.LicSrv1=License server 1 port@host \n
-_ia.validateFlex.LicSrv1=License server 1 port@host \n
+# _ia.validateFlex.LicSrv1=License server 1 port@host: \n
+_ia.validateFlex.LicSrv1=ライセンスサーバー1port@host: \n
 
-# _ia.validateFlex.LicSrv2=License server 2 port@host \n
-_ia.validateFlex.LicSrv2=License server 2 port@host \n
+# _ia.validateFlex.LicSrv2=License server 2 port@host: \n
+_ia.validateFlex.LicSrv2=ライセンスサーバー2port@host: \n
 
-# _ia.validateFlex.LicSrv3=License server 3 port@host \n
-_ia.validateFlex.LicSrv3=License server 3 port@host \n
+# _ia.validateFlex.LicSrv3=License server 3 port@host: \n
+_ia.validateFlex.LicSrv3=ライセンスサーバー3port@host: \n
 
-# _ia.validateFlex.LicSrvGeneric=License server port@host \n
-_ia.validateFlex.LicSrvGeneric=License server port@host \n
+# _ia.validateFlex.LicSrvGeneric=License server port@host: \n
+_ia.validateFlex.LicSrvGeneric=ライセンスサーバーport@host: \n
 
 # _ia.validateFlex.Lic1NeedSet=License server 1 must be set.
-_ia.validateFlex.Lic1NeedSet=License server 1 must be set.
+_ia.validateFlex.Lic1NeedSet=ライセンスサーバー1を設定してください。
 
 # _ia.validateFlex.Lic2NeedSet=License server 2 must be set.
-_ia.validateFlex.Lic2NeedSet=License server 2 must be set.
+_ia.validateFlex.Lic2NeedSet=ライセンスサーバー2を設定してください。
 
 # _ia.validateFlex.Lic3NeedSet=License server 3 must be set.
-_ia.validateFlex.Lic3NeedSet=License server 3 must be set.
+_ia.validateFlex.Lic3NeedSet=ライセンスサーバー3を設定してください。
 
 # _ia.validateFlex.Lic23NeedSet=License server 2 and server 3 must be set.
-_ia.validateFlex.Lic23NeedSet=License server 2 and server 3 must be set.
+_ia.validateFlex.Lic23NeedSet=ライセンスサーバー2と3を設定してください。
 
 # _ia.validateFlex.LicSrvNotFound=License server can not be found.
-_ia.validateFlex.LicSrvNotFound=License server can not be found.
+_ia.validateFlex.LicSrvNotFound=ライセンスサーバーが見つかりません。
 
 # _ia.validateFlex.LicSrv12Diff=License server 1 must be different than server 2.
-_ia.validateFlex.LicSrv12Diff=License server 1 must be different than server 2.
+_ia.validateFlex.LicSrv12Diff=ライセンスサーバー1は、サーバー2と異なる必要があります。
 
 # _ia.validateFlex.LicSrv13Diff=License server 1 must be different than server 3.
-_ia.validateFlex.LicSrv13Diff=License server 1 must be different than server 3.
+_ia.validateFlex.LicSrv13Diff=ライセンスサーバー1は、サーバー3と異なる必要があります。
 
 # _ia.validateFlex.LicSrv23Diff=License server 2 must be different than server 3.
-_ia.validateFlex.LicSrv23Diff=License server 2 must be different than server 3.
+_ia.validateFlex.LicSrv23Diff=ライセンスサーバー2は、サーバー3と異なる必要があります。
 
 # _ia.validateFlex.LicSrv123Diff=License server 1 must be different than server 2 and server 3.
-_ia.validateFlex.LicSrv123Diff=License server 1 must be different than server 2 and server 3.
+_ia.validateFlex.LicSrv123Diff=ライセンスサーバー1は、サーバー2とサーバー3と異なる必要があります。
 
 # _ia.validateFlex.HostLookupError=Hostname lookup error: \n
-_ia.validateFlex.HostLookupError=Hostname lookup error: \n
+_ia.validateFlex.HostLookupError=ホスト名ルックアップエラー: \n
 
-# _ia.validateFlex.LicSrv=License server:  
-_ia.validateFlex.LicSrv=License server:  
+# _ia.validateFlex.LicSrv=License server: 
+_ia.validateFlex.LicSrv=ライセンスサーバー:
 
 # _ia.validateFlex.PortHostSep=Port and host must be separated by a __VALID_CHARACTER__ character.
-_ia.validateFlex.PortHostSep=Port and host must be separated by a __VALID_CHARACTER__ character.
+_ia.validateFlex.PortHostSep=ポートとホストは、__VALID_CHARACTER__文字で区切る必要があります。
 
 # _ia.validateFlex.ThereCanOnlyBeOne=There can only be one __VALID_CHARACTER__ character.
-_ia.validateFlex.ThereCanOnlyBeOne=There can only be one __VALID_CHARACTER__ character.
+_ia.validateFlex.ThereCanOnlyBeOne=__VALID_CHARACTER__文字は1つしか使用できません。
 
 # _ia.validateFlex.CorrectFormat=The correct format is port@host.
-_ia.validateFlex.CorrectFormat=The correct format is port@host.
+_ia.validateFlex.CorrectFormat=正しい形式は「port@host」です。
 
 # _ia.validateFlex.NoWhitespace=There can not be any whitespace character.
-_ia.validateFlex.NoWhitespace=There can not be any whitespace character.
+_ia.validateFlex.NoWhitespace=スペース文字は使用できません。
 
 # _ia.validateFlex.TcpipValidRange=Valid TCP/IP port range is 1 - 65535.
-_ia.validateFlex.TcpipValidRange=Valid TCP/IP port range is 1 - 65535.
+_ia.validateFlex.TcpipValidRange=有効なTCP/IPポート範囲は1～65535です。
 
 # _ia.validateFlex.TcpipNumber=TCP/IP port must be a number.
-_ia.validateFlex.TcpipNumber=TCP/IP port must be a number.
+_ia.validateFlex.TcpipNumber=TCP/IPポートには番号を指定してください。
 
 # _ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
-_ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
+_ia.buildFlexOutputString.serverIsOld=ライセンスサーバー__CDLMD_VERSION__は、v__INSTALLER_CDLMD_VERSION__より古いバージョンです。
 
 # _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
-_ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
+_ia.buildFlexOutputString.serveNoValidFeatures=ライセンスサーバー__SERVER_NAME__に、有効なSTAR-CCM+サーバーがありません。
 
