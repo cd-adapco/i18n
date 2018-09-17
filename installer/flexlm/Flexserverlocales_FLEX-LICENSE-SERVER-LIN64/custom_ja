@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -26,34 +26,34 @@
 ASCIIFileManipulator.1faba93ebf1e.additionalText=
 
 # Billboard.ad1a6043b854.imageName=billboard_default.png
-Billboard.ad1a6043b854.imageName=
+Billboard.ad1a6043b854.imageName=billboard_default.png
 
 # Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
-Billboard.ad1a6043b854.imagePath=
+Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
 
 # ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.2077f0c888a3.additionalText=ファイルを選択してください。
+ChooseFile.2077f0c888a3.additionalText=シーメンスPLMソフトウェアから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、STAR-CCM+のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
 
 # ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
 
 # ChooseFile.2077f0c888a3.prompt=Please choose location of the license &File:
-ChooseFile.2077f0c888a3.prompt=ファイルを選択してください(&F):
+ChooseFile.2077f0c888a3.prompt=ライセンスファイルの場所を選択してください(&F):
 
 # ChooseFile.2077f0c888a3.stepTitle=Select license file
-ChooseFile.2077f0c888a3.stepTitle=ファイルを選択
+ChooseFile.2077f0c888a3.stepTitle=ライセンスファイルを選択
 
 # CreateDialog.20452174b524.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-CreateDialog.20452174b524.prompt=必要な情報を入力
+CreateDialog.20452174b524.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
 
 # CreateDialog.20452174b524.title=Stop the Server
-CreateDialog.20452174b524.title=ユーザー入力を取得
+CreateDialog.20452174b524.title=サーバーを停止
 
 # CreateShortcut.33e0c07bb75c.args=
 CreateShortcut.33e0c07bb75c.args=
 
 # CreateShortcut.33e0c07bb75c.destinationName=FlexNet License Administration Guide
-CreateShortcut.33e0c07bb75c.destinationName=
+CreateShortcut.33e0c07bb75c.destinationName=FlexNetライセンス管理ガイド
 
 # CreateShortcut.33e0c07bb75c.workingDir=
 CreateShortcut.33e0c07bb75c.workingDir=
@@ -62,7 +62,7 @@ CreateShortcut.33e0c07bb75c.workingDir=
 CreateShortcut.63475501aee6.args=
 
 # CreateShortcut.63475501aee6.destinationName=FLEXnet License Administration Tools
-CreateShortcut.63475501aee6.destinationName=
+CreateShortcut.63475501aee6.destinationName=FlexNetライセンス管理ツール
 
 # CreateShortcut.63475501aee6.workingDir=
 CreateShortcut.63475501aee6.workingDir=
@@ -71,61 +71,61 @@ CreateShortcut.63475501aee6.workingDir=
 EditEnvironment.1faba940bf1a.value=$cdadapco_LICENSE_FILE$
 
 # EntryAtomBiDi.20452175b525.label=Stop server now
-EntryAtomBiDi.20452175b525.label=
+EntryAtomBiDi.20452175b525.label=サーバーを今すぐ停止する
 
 # EntryAtomNonBiDi.3476a6ae92bb.defaultValue=$USER_HOME$
 EntryAtomNonBiDi.3476a6ae92bb.defaultValue=$USER_HOME$
 
 # EntryAtomNonBiDi.3476a6ae92bb.label=License File directory:
-EntryAtomNonBiDi.3476a6ae92bb.label=
+EntryAtomNonBiDi.3476a6ae92bb.label=ライセンスファイルディレクトリ:
 
 # EntryAtomNonBiDi.3479ecd29ef9.defaultValue=$NEW_LIC_FILE$
 EntryAtomNonBiDi.3479ecd29ef9.defaultValue=$NEW_LIC_FILE$
 
 # EntryAtomNonBiDi.3479ecd29ef9.label=License Filename:
-EntryAtomNonBiDi.3479ecd29ef9.label=
+EntryAtomNonBiDi.3479ecd29ef9.label=ライセンスファイル名:
 
 # EntryAtomNonBiDi.34a73bdf9025.defaultValue=$SERVICE_NAME$
 EntryAtomNonBiDi.34a73bdf9025.defaultValue=$SERVICE_NAME$
 
 # EntryAtomNonBiDi.34a73bdf9025.label=Enter the service name
-EntryAtomNonBiDi.34a73bdf9025.label=
+EntryAtomNonBiDi.34a73bdf9025.label=サービス名を入力:
 
 # EntryAtomNonBiDi.34b7925f9b97.defaultValue=$LIC_PORT_NUMBER$
 EntryAtomNonBiDi.34b7925f9b97.defaultValue=$LIC_PORT_NUMBER$
 
 # EntryAtomNonBiDi.34b7925f9b97.label=Enter the License  Port Number
-EntryAtomNonBiDi.34b7925f9b97.label=
+EntryAtomNonBiDi.34b7925f9b97.label=ライセンスポート番号を入力
 
 # EntryAtomNonBiDi.397431c298cb.label=Start server now
-EntryAtomNonBiDi.397431c298cb.label=
+EntryAtomNonBiDi.397431c298cb.label=サーバーを今すぐ開始する
 
 # EntryAtomNonBiDi.397431c398cb.label=Do not start server
-EntryAtomNonBiDi.397431c398cb.label=
+EntryAtomNonBiDi.397431c398cb.label=サーバーを開始しない
 
 # EntryAtomNonBiDi.39bffdb39e9b.defaultValue=$STOP_SERVER$
 EntryAtomNonBiDi.39bffdb39e9b.defaultValue=$STOP_SERVER$
 
 # EntryAtomNonBiDi.39bffdb39e9b.label=Stop server now
-EntryAtomNonBiDi.39bffdb39e9b.label=
+EntryAtomNonBiDi.39bffdb39e9b.label=サーバーを今すぐ停止する
 
 # EntryAtomNonBiDi.39dc75c38e79.defaultValue=$SERVICE_NAME$
 EntryAtomNonBiDi.39dc75c38e79.defaultValue=$SERVICE_NAME$
 
 # EntryAtomNonBiDi.39dc75c38e79.label=Enter the service name
-EntryAtomNonBiDi.39dc75c38e79.label=
+EntryAtomNonBiDi.39dc75c38e79.label=サービス名を入力:
 
 # EntryAtomNonBiDi.7c5d2416bc5e.label=Update license server
-EntryAtomNonBiDi.7c5d2416bc5e.label=
+EntryAtomNonBiDi.7c5d2416bc5e.label=ライセンスサーバーを更新
 
 # EntryAtomNonBiDi.ad1a5f0ab712.defaultValue=/
-EntryAtomNonBiDi.ad1a5f0ab712.defaultValue=
+EntryAtomNonBiDi.ad1a5f0ab712.defaultValue=/
 
 # EntryAtomNonBiDi.ad1a5f0ab712.label=Previous Installation Path
-EntryAtomNonBiDi.ad1a5f0ab712.label=
+EntryAtomNonBiDi.ad1a5f0ab712.label=以前のインストールパス
 
 # Exec.2f67f2ceabe8.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
-Exec.2f67f2ceabe8.commandLineArgs=
+Exec.2f67f2ceabe8.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath
 
 # Exec.2f67f2ceabe8.title=
 Exec.2f67f2ceabe8.title=
@@ -209,7 +209,7 @@ ExecuteScript.2f6649319ba6.title=
 ExecuteScript.2f6649319ba8.title=
 
 # ExecuteScript.34aa2a9091ec.dialogLabel=Checking for License Service...
-ExecuteScript.34aa2a9091ec.dialogLabel=
+ExecuteScript.34aa2a9091ec.dialogLabel=ライセンスサービスを確認中…
 
 # ExecuteScript.34aa2a9091ec.title=
 ExecuteScript.34aa2a9091ec.title=
@@ -227,88 +227,88 @@ ExecuteScript.ad1a5f0ab718.title=
 ExecuteScript.ad1a5f1bb722.title=
 
 # ExecuteScript.ad1a6033b82f.dialogLabel=Executing Installation Script...
-ExecuteScript.ad1a6033b82f.dialogLabel=
+ExecuteScript.ad1a6033b82f.dialogLabel=インストールスクリプトを実行中…
 
 # ExecuteScript.ad1a6033b82f.title=
 ExecuteScript.ad1a6033b82f.title=
 
 # GetUserInput.2077f0c7889e.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
-GetUserInput.2077f0c7889e.prompt=必要な情報を入力
+GetUserInput.2077f0c7889e.prompt=ライセンスサーバーソフトウェアにアクセスするには、通信チャネルまたはポートが、ご使用のコンピュータで使用できる必要があります。FlexNetライセンスサーバーのデフォルトポート番号は1999です。これらのデフォルトを以下に示しますが、必要であればコンピュータの設定に合わせて他のポート番号に変更できます。
 
 # GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
-GetUserInput.2077f0c7889e.title=ユーザー入力を取得
+GetUserInput.2077f0c7889e.title=FlexNetライセンスサーバー構成
 
 # GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
-GetUserInput.2077f0c888b2.prompt=必要な情報を入力
+GetUserInput.2077f0c888b2.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。
 
 # GetUserInput.2077f0c888b2.title=Service Configuration 
-GetUserInput.2077f0c888b2.title=ユーザー入力を取得
+GetUserInput.2077f0c888b2.title=サービス構成
 
 # GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
-GetUserInput.39b459359a2b.prompt=必要な情報を入力
+GetUserInput.39b459359a2b.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n\n
 
 # GetUserInput.39b459359a2b.title=Service Configuration 
-GetUserInput.39b459359a2b.title=ユーザー入力を取得
+GetUserInput.39b459359a2b.title=サービス構成
 
 # GetUserInput.ad1a5f0ab70b.prompt=To update a previous FlexNet License Server , please select the checkbox below and provide the path to the previous cdlmd installation?  (By default updating is disabled)\n
-GetUserInput.ad1a5f0ab70b.prompt=
+GetUserInput.ad1a5f0ab70b.prompt=以前の FlexNet ライセンスサーバーを更新するには、下記のチェックボックスを選択して、以前の cdlmd インストールのパスを入力してください（デフォルトでは更新は無効になっています）。
 
 # GetUserInput.ad1a5f0ab70b.title=Update License Server 
-GetUserInput.ad1a5f0ab70b.title=
+GetUserInput.ad1a5f0ab70b.title=ライセンスサーバーを更新
 
 # GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
-GetUserInputConsole.3476a6ad92bb.prompt=必要な情報を入力
+GetUserInputConsole.3476a6ad92bb.prompt=CD-adapco から電子メールで受け取ってコンピュータに保存したライセンスファイルが格納されているディレクトリを入力してください。
 
 # GetUserInputConsole.3476a6ad92bb.title=Select license file directory
-GetUserInputConsole.3476a6ad92bb.title=ユーザー入力を取得
+GetUserInputConsole.3476a6ad92bb.title=ライセンスファイルのディレクトリを選択
 
 # GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
-GetUserInputConsole.3479ecd19ef9.prompt=必要な情報を入力
+GetUserInputConsole.3479ecd19ef9.prompt=CD-adapco から電子メールで受け取ってコンピュータに保存したライセンスファイル名を入力してください。
 
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
-GetUserInputConsole.3479ecd19ef9.title=ユーザー入力を取得
+GetUserInputConsole.3479ecd19ef9.title=ライセンスファイル名を選択
 
 # GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
-GetUserInputConsole.34a73bdd9025.prompt=必要な情報を入力
+GetUserInputConsole.34a73bdd9025.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。
 
 # GetUserInputConsole.34a73bdd9025.title=Service Name Configuration
-GetUserInputConsole.34a73bdd9025.title=ユーザー入力を取得
+GetUserInputConsole.34a73bdd9025.title=サービス名の構成
 
 # GetUserInputConsole.34b7925f9b96.prompt=Configure the License port number at which licensing application will communicate with the License Server Manager
-GetUserInputConsole.34b7925f9b96.prompt=必要な情報を入力
+GetUserInputConsole.34b7925f9b96.prompt=ライセンシングアプリケーションがライセンスサーバーマネージャと通信するライセンスポート番号を構成します
 
 # GetUserInputConsole.34b7925f9b96.title=FlexNet License Server Configuration
-GetUserInputConsole.34b7925f9b96.title=ユーザー入力を取得
+GetUserInputConsole.34b7925f9b96.title=FlexNetライセンスサーバー構成
 
 # GetUserInputConsole.397431c298ca.prompt=Do you want to launch the License Server Manager now and access the License Server Management Interface via a web browser? (By default License Server Manager is not started)
-GetUserInputConsole.397431c298ca.prompt=必要な情報を入力
+GetUserInputConsole.397431c298ca.prompt=ライセンスサーバーマネージャを今すぐ起動して、ライセンスサーバーマネージメントのインターフェースに Web ブラウザからアクセスしますか？（デフォルトではライセンスサーバーマネージャは起動しません）
 
 # GetUserInputConsole.397431c298ca.title=Start the Server
-GetUserInputConsole.397431c298ca.title=ユーザー入力を取得
+GetUserInputConsole.397431c298ca.title=サーバーを開始
 
 # GetUserInputConsole.39bf55a39e93.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-GetUserInputConsole.39bf55a39e93.prompt=必要な情報を入力
+GetUserInputConsole.39bf55a39e93.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
 
 # GetUserInputConsole.39bf55a39e93.title=Stop the Server
-GetUserInputConsole.39bf55a39e93.title=ユーザー入力を取得
+GetUserInputConsole.39bf55a39e93.title=サーバーを停止
 
 # GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n
-GetUserInputConsole.39dc75c28e78.prompt=必要な情報を入力
+GetUserInputConsole.39dc75c28e78.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n
 
 # GetUserInputConsole.39dc75c28e78.title=Service Name Configuration
-GetUserInputConsole.39dc75c28e78.title=ユーザー入力を取得
+GetUserInputConsole.39dc75c28e78.title=サービス名の構成
 
 # GetUserInputConsole.ad1a5f0ab711.prompt=Please provide the path to the previous cdlmd installation? 
-GetUserInputConsole.ad1a5f0ab711.prompt=
+GetUserInputConsole.ad1a5f0ab711.prompt=以前の cdlmd インストールのパスを入力してください。
 
 # GetUserInputConsole.ad1a5f0ab711.title=Update License Server 
-GetUserInputConsole.ad1a5f0ab711.title=
+GetUserInputConsole.ad1a5f0ab711.title=ライセンスサーバーを更新
 
 # GetUserInputConsole.ad1a5f0bb708.prompt=Do you want to update a previous FlexNet license server installation? (By default updating is disabled)\n\n
-GetUserInputConsole.ad1a5f0bb708.prompt=
+GetUserInputConsole.ad1a5f0bb708.prompt=以前の FlexNet ライセンスサーバーインストールを更新しますか？（デフォルトでは更新は無効になっています）\n\n
 
 # GetUserInputConsole.ad1a5f0bb708.title=Update License Server 
-GetUserInputConsole.ad1a5f0bb708.title=
+GetUserInputConsole.ad1a5f0bb708.title=ライセンスサーバーを更新
 
 # GUIComponentData.2077f0c788a0.defaultValue=
 GUIComponentData.2077f0c788a0.defaultValue=
@@ -320,43 +320,43 @@ GUIComponentData.2077f0c788a0.label=
 GUIComponentData.2077f0c788a1.defaultValue=$LIC_PORT_NUMBER$
 
 # GUIComponentData.2077f0c788a1.label=Enter the License port number:
-GUIComponentData.2077f0c788a1.label=
+GUIComponentData.2077f0c788a1.label=ライセンスポート番号を入力:
 
 # GUIComponentData.2077f0c888b4.defaultValue=$SERVICE_NAME$
 GUIComponentData.2077f0c888b4.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.2077f0c888b4.label=Enter the service name
-GUIComponentData.2077f0c888b4.label=
+GUIComponentData.2077f0c888b4.label=サービス名を入力:
 
 # GUIComponentData.2077f0c888b5.defaultValue=Selected
-GUIComponentData.2077f0c888b5.defaultValue=
+GUIComponentData.2077f0c888b5.defaultValue=Selected
 
 # GUIComponentData.2077f0c888b5.label=Start license server now 
-GUIComponentData.2077f0c888b5.label=
+GUIComponentData.2077f0c888b5.label=ライセンスサーバーを今すぐ開始する 
 
 # GUIComponentData.39b459379a2d.defaultValue=Selected
-GUIComponentData.39b459379a2d.defaultValue=
+GUIComponentData.39b459379a2d.defaultValue=Selected
 
 # GUIComponentData.39b459379a2d.label=Start license server now 
-GUIComponentData.39b459379a2d.label=
+GUIComponentData.39b459379a2d.label=ライセンスサーバーを今すぐ開始する
 
 # GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
 GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.39b459389a2c.label=Enter the service name
-GUIComponentData.39b459389a2c.label=
+GUIComponentData.39b459389a2c.label=サービス名を入力:
 
 # GUIComponentData.7c5df734bc5f.defaultValue=Not Selected
-GUIComponentData.7c5df734bc5f.defaultValue=
+GUIComponentData.7c5df734bc5f.defaultValue=Not Selected
 
 # GUIComponentData.7c5df734bc5f.label=Yes Update
-GUIComponentData.7c5df734bc5f.label=
+GUIComponentData.7c5df734bc5f.label=はい、更新する
 
 # GUIComponentData.ad1a5f0ab70d.defaultValue=
 GUIComponentData.ad1a5f0ab70d.defaultValue=
 
 # GUIComponentData.ad1a5f0ab70d.label=Previous Installation path
-GUIComponentData.ad1a5f0ab70d.label=
+GUIComponentData.ad1a5f0ab70d.label=以前のインストールパス
 
 # GUIGroupData.2077f0c8889f.caption=
 GUIGroupData.2077f0c8889f.caption=
@@ -383,52 +383,52 @@ GUIGroupData.ad1a5f0ab70c.caption=
 GUIGroupData.ad1a5f0ab70e.caption=
 
 # Help.ad1a5eecb6e6.helpText=\n\n
-Help.ad1a5eecb6e6.helpText=
+Help.ad1a5eecb6e6.helpText=\  \n \n
 
 # Help.ad1a5eecb6e6.title=
 Help.ad1a5eecb6e6.title=
 
 # InstallBundle.ad1a6043b853.bundleName=License Server
-InstallBundle.ad1a6043b853.bundleName=アプリ
+InstallBundle.ad1a6043b853.bundleName=ライセンスサーバー
 
 # InstallBundle.ad1a6043b853.description=This installs the license server feature.
-InstallBundle.ad1a6043b853.description=アプリケーション機能をインストールします。
+InstallBundle.ad1a6043b853.description=この操作によりライセンスサーバーのフィーチャーがインストールされます。
 
 # InstallCompleteActionConsole.ad1a5fe5b791.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
-InstallCompleteActionConsole.ad1a5fe5b791.message=$PRODUCT_NAME$ が次の場所に正常にインストールされました。\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.ad1a5fe5b791.message=$PRODUCT_NAME$ は、下記の場所に正常にインストールされました。\n\n   $USER_INSTALL_DIR$
 
 # InstallCompleteActionConsole.ad1a5fe5b791.title=Installation Complete
 InstallCompleteActionConsole.ad1a5fe5b791.title=インストール完了
 
 # InstallDirAction.ad1a5efab6fa.additionalText=
-InstallDirAction.ad1a5efab6fa.additionalText=このインストールのインストール先フォルダーを選択してください。
+InstallDirAction.ad1a5efab6fa.additionalText=
 
 # InstallDirAction.ad1a5efab6fa.prompt=&Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
-InstallDirAction.ad1a5efab6fa.prompt=インストール先を指定してください(&W):
+InstallDirAction.ad1a5efab6fa.prompt=$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ をインストールする場所を選択してください。(&W)
 
 # InstallDirAction.ad1a5efab6fa.stepTitle=Select Install Location
-InstallDirAction.ad1a5efab6fa.stepTitle=インストール フォルダーを選択
+InstallDirAction.ad1a5efab6fa.stepTitle=インストールフォルダを選択
 
 # InstallDirActionConsole.ad1a5efab6fc.additionalText=
 InstallDirActionConsole.ad1a5efab6fc.additionalText=
 
 # InstallDirActionConsole.ad1a5efab6fc.prompt=Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
-InstallDirActionConsole.ad1a5efab6fc.prompt=インストール先を指定してください。
+InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ をインストールする場所を選択してください。
 
 # InstallDirActionConsole.ad1a5efab6fc.stepTitle=Select Install Location
-InstallDirActionConsole.ad1a5efab6fc.stepTitle=インストール フォルダーを選択
+InstallDirActionConsole.ad1a5efab6fc.stepTitle=インストールフォルダを選択
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=ファイルを選択
+Installer.ad1a5eebb6d5.installLabels.00=ライセンスファイルを選択
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.01=ライセンスサーバーを更新
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.02=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.02=サービス構成
 
 # Installer.ad1a5eebb6d5.installLabels.03=Pre-Installation Summary
-Installer.ad1a5eebb6d5.installLabels.03=インストール前の要約
+Installer.ad1a5eebb6d5.installLabels.03=プリインストールの要約
 
 # Installer.ad1a5eebb6d5.installLabels.04=Installing...
 Installer.ad1a5eebb6d5.installLabels.04=インストール中...
@@ -437,106 +437,106 @@ Installer.ad1a5eebb6d5.installLabels.04=インストール中...
 Installer.ad1a5eebb6d5.installLabels.05=インストール完了
 
 # Installer.ad1a5eebb6d5.installLabels.06=Introduction
-Installer.ad1a5eebb6d5.installLabels.06=開始画面
+Installer.ad1a5eebb6d5.installLabels.06=はじめに
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.07=FlexNetライセンスサーバー構成
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.08=サービス構成
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=インストール フォルダーを選択
+Installer.ad1a5eebb6d5.installLabels.09=インストールフォルダを選択
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
-Installer.ad1a5eebb6d5.installLabels.10=ファイルを選択
+Installer.ad1a5eebb6d5.installLabels.10=ライセンスファイルを選択
 
 # Installer.ad1a5eebb6d5.installProgressImageName=introImage.png
-Installer.ad1a5eebb6d5.installProgressImageName=
+Installer.ad1a5eebb6d5.installProgressImageName=introImage.png
 
 # Installer.ad1a5eebb6d5.installProgressImagePath=com/zerog/ia/installer/images/
-Installer.ad1a5eebb6d5.installProgressImagePath=
+Installer.ad1a5eebb6d5.installProgressImagePath=com/zerog/ia/installer/images/
 
 # Installer.ad1a5eebb6d5.panelImageName=introImage.png
-Installer.ad1a5eebb6d5.panelImageName=
+Installer.ad1a5eebb6d5.panelImageName=introImage.png
 
 # Installer.ad1a5eebb6d5.panelImagePath=com/zerog/ia/installer/images/
-Installer.ad1a5eebb6d5.panelImagePath=
+Installer.ad1a5eebb6d5.panelImagePath=com/zerog/ia/installer/images/
 
 # Installer.ad1a5eebb6d5.rulesFailedMessage=There is already an installation of  FlexNet License Server Manager. Please chose different location.\n
-Installer.ad1a5eebb6d5.rulesFailedMessage=お使いの構成でこのインストーラーを実行することはできません。インストーラーを終了します。
+Installer.ad1a5eebb6d5.rulesFailedMessage=FlexNet ライセンスサーバーマネージャは既にインストールされています。別のフォルダを選択してください。\n
 
 # Installer.ad1a5eebb6d5.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
-Installer.ad1a5eebb6d5.splashScreenConsolePrompt=CHOOSE LOCALE BY NUMBER
+Installer.ad1a5eebb6d5.splashScreenConsolePrompt=言語番号を選択してください
 
 # Installer.ad1a5eebb6d5.splashScreenConsoleTitle=Choose Locale...
-Installer.ad1a5eebb6d5.splashScreenConsoleTitle=Choose Locale...
+Installer.ad1a5eebb6d5.splashScreenConsoleTitle=言語を選択...
 
 # Installer.ad1a5eebb6d5.splashScreenGUIConfirm=OK
 Installer.ad1a5eebb6d5.splashScreenGUIConfirm=OK
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImageName=starccm-splash.png
-Installer.ad1a5eebb6d5.splashScreenGUIImageName=
+Installer.ad1a5eebb6d5.splashScreenGUIImageName=starccm-splash.png
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImageName1=SplashNew.png
-Installer.ad1a5eebb6d5.splashScreenGUIImageName1=
+Installer.ad1a5eebb6d5.splashScreenGUIImageName1=SplashNew.png
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImageName2=SplashNew.png
-Installer.ad1a5eebb6d5.splashScreenGUIImageName2=
+Installer.ad1a5eebb6d5.splashScreenGUIImageName2=SplashNew.png
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
-Installer.ad1a5eebb6d5.splashScreenGUIImagePath=
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
-Installer.ad1a5eebb6d5.splashScreenGUIImagePath1=
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
 
 # Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
-Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=
+Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
 
 # Installer.ad1a5eebb6d5.splashScreenGUIInstructions=Select the language to use during installation
-Installer.ad1a5eebb6d5.splashScreenGUIInstructions=
+Installer.ad1a5eebb6d5.splashScreenGUIInstructions=インストール中に使用する言語を選択:
 
 # Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet License Server
-Installer.ad1a5eebb6d5.splashScreenGUITitle=
+Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet ライセンスサーバー
 
 # InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
-InstallerInfoData.ad1a6005b7f8.email=
+InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
 
 # InstallerInfoData.ad1a6005b7f8.installerName=FlexNet License Server
-InstallerInfoData.ad1a6005b7f8.installerName=
+InstallerInfoData.ad1a6005b7f8.installerName=FlexNet ライセンスサーバー
 
 # InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server
-InstallerInfoData.ad1a6005b7f8.installerTitle=
+InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet ライセンスサーバー
 
 # InstallerInfoData.ad1a6005b7f8.productDescription=
 InstallerInfoData.ad1a6005b7f8.productDescription=
 
 # InstallerInfoData.ad1a6005b7f8.productName=FlexNet License Server
-InstallerInfoData.ad1a6005b7f8.productName=
+InstallerInfoData.ad1a6005b7f8.productName=FlexNet ライセンスサーバー
 
 # InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
-InstallerInfoData.ad1a6005b7f8.productURL=
+InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
 
 # InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
-InstallerInfoData.ad1a6005b7f8.supportURL=
+InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
 
 # InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
-InstallerInfoData.ad1a6005b7f8.vendorName=
+InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
-InstallerInfoData.ad1a6005b7f8.vendorURL=
+InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
 
 # InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$PRODUCT_NAME$ のインストールは終了しましたが、インストール中にいくつかのエラーが発生しました。  詳細については、インストール ログを参照してください。
+InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログを確認してください。
 
 # InstallFinishAction.ad1a5fe5b78f.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$PRODUCT_NAME$ のインストールがロールバックされました。\n\n 詳細については、インストール ログを参照してください。
+InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログを確認してください。
 
 # InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
-InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=$PRODUCT_NAME$ が次の場所にインストールされました。\n\n$USER_INSTALL_DIR$\n\n「完了」をクリックすると、インストーラーが終了します。
+InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=$PRODUCT_NAME$ が下記の場所に正常にインストールされました:\n\n     $USER_INSTALL_DIR$\n\n[完了]をクリックして終了してください
 
 # InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$PRODUCT_NAME$ のインストールは終了しましたが、インストール中にいくつかの警告が発生しました。  詳細については、インストール ログを参照してください。
+InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログを確認してください。
 
 # InstallFinishAction.ad1a5fe5b78f.launchText=
 InstallFinishAction.ad1a5fe5b78f.launchText=
@@ -545,7 +545,7 @@ InstallFinishAction.ad1a5fe5b78f.launchText=
 InstallFinishAction.ad1a5fe5b78f.rebootNotNeededMessage=
 
 # InstallFinishAction.ad1a5fe5b78f.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.ad1a5fe5b78f.rebootRecommendedMessage=インストールを完了するには、システムを再起動してください。
+InstallFinishAction.ad1a5fe5b78f.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
 
 # InstallFinishAction.ad1a5fe5b78f.rebootRequiredMessage=You need to restart the system to complete the installation.
 InstallFinishAction.ad1a5fe5b78f.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
@@ -554,31 +554,31 @@ InstallFinishAction.ad1a5fe5b78f.rebootRequiredMessage=インストールを完�
 InstallFinishAction.ad1a5fe5b78f.windowTitle=インストール完了
 
 # InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=Configure $PRODUCT_NAME$
-InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=$PRODUCT_NAME$ の構成
+InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=$PRODUCT_NAME$を構成
 
 # InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=Uninstall $PRODUCT_NAME$
-InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=$PRODUCT_NAME$ をアンインストール
+InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=アンインストール $PRODUCT_NAME$
 
 # InstallSet.ad1a6004b7f4.description=Choose this option to customize the features to be installed.
 InstallSet.ad1a6004b7f4.description=このオプションを選択すると、インストールする機能をカスタマイズできます。
 
 # InstallSet.ad1a6004b7f4.imageName=customIcon.png
-InstallSet.ad1a6004b7f4.imageName=
+InstallSet.ad1a6004b7f4.imageName=customIcon.png
 
 # InstallSet.ad1a6004b7f4.imagePath=com/zerog/ia/installer/images/
-InstallSet.ad1a6004b7f4.imagePath=
+InstallSet.ad1a6004b7f4.imagePath=com/zerog/ia/installer/images/
 
 # InstallSet.ad1a6004b7f4.installSetName=Custom
 InstallSet.ad1a6004b7f4.installSetName=カスタム
 
 # InstallSet.ad1a6043b852.description=The most common application features will be installed.  This option is recommended for most users.
-InstallSet.ad1a6043b852.description=一般的なアプリケーション機能がインストールされます。  通常は、このオプションを選択してください。
+InstallSet.ad1a6043b852.description=最も一般的なアプリケーションフィーチャーがインストールされます。このオプションはほとんどのユーザーに推奨されます。
 
 # InstallSet.ad1a6043b852.imageName=typical.png
-InstallSet.ad1a6043b852.imageName=
+InstallSet.ad1a6043b852.imageName=typical.png
 
 # InstallSet.ad1a6043b852.imagePath=com/zerog/ia/installer/images/
-InstallSet.ad1a6043b852.imagePath=
+InstallSet.ad1a6043b852.imagePath=com/zerog/ia/installer/images/
 
 # InstallSet.ad1a6043b852.installSetName=Typical
 InstallSet.ad1a6043b852.installSetName=標準
@@ -587,157 +587,157 @@ InstallSet.ad1a6043b852.installSetName=標準
 InstallSummary.ad1a5fa6b729.stepPrompt=操作を続ける前に、以下の内容を確認してください。
 
 # InstallSummary.ad1a5fa6b729.title=Pre-Installation Summary
-InstallSummary.ad1a5fa6b729.title=インストール前の要約
+InstallSummary.ad1a5fa6b729.title=プリインストールの要約
 
 # InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=Please Review the Following Before Continuing:
-InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=続行するには ENTER キーを押してください。  情報が間違っている場合は、「BACK」と入力して変更を行ってください。   
+InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=操作を続ける前に、以下の内容を確認してください。
 
 # InstallSummaryConsole.ad1a5fa6b72b.title=Pre-Installation Summary
-InstallSummaryConsole.ad1a5fa6b72b.title=インストール前の要約
+InstallSummaryConsole.ad1a5fa6b72b.title=プリインストールの要約
 
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
-InstallUninstaller.ad1a6042b859.destinationName=
+InstallUninstaller.ad1a6042b859.destinationName=アンインストール $PRODUCT_NAME$
 
 # IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
-IntroAction.102ce4b4ba3c.message=InstallAnywhere の指示に従って操作を行い、$PRODUCT_NAME$ をインストールすることができます。\n\nこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\n\n「次へ」ボタンをクリックすると、次の画面へ進みます。 前の画面で指定した内容を変更する場合は、「戻る」ボタンをクリックしてください。\n\n「キャンセル」ボタンをクリックすると、いつでもインストールをキャンセルできます。
+IntroAction.102ce4b4ba3c.message=インストーラー･ウィザードに、$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ のインストール手順が説明されます。\n\nこのインストーラーを実行するには管理者権限が必要です。\n\n現在実行中のライセンスサーバーは停止する必要があります。また Windows サービスとしてインストールされているライセンスサーバーがあれば停止して、それらのサービスを削除する必要があります。\n\n[次へ]ボタンをクリックして次の画面に進みます。前の画面で変更を行なう必要がある場合は、[戻る]ボタンをクリックします。\n\n[キャンセル]ボタンをクリックすると、このインストールをいつでもキャンセルすることができます。
 
 # IntroAction.102ce4b4ba3c.stepTitle=Introduction
-IntroAction.102ce4b4ba3c.stepTitle=開始画面
+IntroAction.102ce4b4ba3c.stepTitle=はじめに
 
 # IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
-IntroAction.ad1a5eecb6e5.message=InstallAnywhere の指示に従って操作を行い、$PRODUCT_NAME$ をインストールすることができます。\n\nこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\n\n「次へ」ボタンをクリックすると、次の画面へ進みます。 前の画面で指定した内容を変更する場合は、「戻る」ボタンをクリックしてください。\n\n「キャンセル」ボタンをクリックすると、いつでもインストールをキャンセルできます。
+IntroAction.ad1a5eecb6e5.message=インストーラー･ウィザードに、$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ のインストール手順が説明されます。\n\n[次へ]ボタンをクリックして次の画面に進みます。前の画面で変更を行なう必要がある場合は、[戻る]ボタンをクリックします。\n\n[キャンセル]ボタンをクリックすると、このインストールをいつでもキャンセルすることができます。
 
 # IntroAction.ad1a5eecb6e5.stepTitle=Introduction
-IntroAction.ad1a5eecb6e5.stepTitle=開始画面
+IntroAction.ad1a5eecb6e5.stepTitle=はじめに
 
 # IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
-IntroActionConsole.1033584988cf.message=InstallAnywhere の指示に従って操作を行い、$PRODUCT_NAME$ をインストールすることができます。\n\nこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\n\n各指示に従って操作すると、次のインストール手順へ進むことができます。 前の手順で指定した内容を変更する場合は、「back」と入力してください。\nquit」とタイプすると、いつでもインストールをキャンセルできます。
+IntroActionConsole.1033584988cf.message=インストーラー･ウィザードに、$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ のインストール手順が説明されます。\n\nこのインストーラーを実行するには管理者権限が必要です。\n\n現在実行中のライセンスサーバーは停止する必要があります。また Windows サービスとしてインストールされているライセンスサーバーがあれば停止して、それらのサービスを削除する必要があります。\n\n各プロンプトに応答してインストールの次のステップに進みます。前の画面で変更を行なう必要がある場合は、「戻る」と入力します。\n\n「終了」と入力すると、このインストールをいつでもキャンセルすることができます。
 
 # IntroActionConsole.1033584988cf.title=Introduction
-IntroActionConsole.1033584988cf.title=開始画面
+IntroActionConsole.1033584988cf.title=はじめに
 
 # IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
-IntroActionConsole.ad1a5eecb6e8.message=InstallAnywhere の指示に従って操作を行い、$PRODUCT_NAME$ をインストールすることができます。\n\nこのインストールを続行する前に、すべてのプログラムを終了することをお勧めします。\n\n各指示に従って操作すると、次のインストール手順へ進むことができます。 前の手順で指定した内容を変更する場合は、「back」と入力してください。\nquit」とタイプすると、いつでもインストールをキャンセルできます。
+IntroActionConsole.ad1a5eecb6e8.message=インストーラー･ウィザードに、$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ のインストール手順が説明されます。\n\n各プロンプトに応答してインストールの次のステップに進みます。前の画面で変更を行なう必要がある場合は、「戻る」と入力します。\n\n「終了」と入力すると、このインストールをいつでもキャンセルすることができます。
 
 # IntroActionConsole.ad1a5eecb6e8.title=Introduction
-IntroActionConsole.ad1a5eecb6e8.title=開始画面
+IntroActionConsole.ad1a5eecb6e8.title=はじめに
 
 # MakeRegEntry.31a26847bf41.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
-MakeRegEntry.31a26847bf41.key=
+MakeRegEntry.31a26847bf41.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
 # MakeRegEntry.31a26847bf41.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_._SOFTWARE_SUBPATCH_VERSION_NUMBER_
-MakeRegEntry.31a26847bf41.value=
+MakeRegEntry.31a26847bf41.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_VERSION_NUMBER_._SOFTWARE_PATCH_VERSION_NUMBER_._SOFTWARE_SUBPATCH_VERSION_NUMBER_
 
 # MakeRegEntry.31a26847bf41.valueName=DisplayVersion
-MakeRegEntry.31a26847bf41.valueName=
+MakeRegEntry.31a26847bf41.valueName=DisplayVersion
 
 # PromptUserConsole.1059980780b1.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
-PromptUserConsole.1059980780b1.message=
+PromptUserConsole.1059980780b1.message=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか？（デフォルトでは上書きされます）
 
 # PromptUserConsole.1059980780b1.option0Label=YES
-PromptUserConsole.1059980780b1.option0Label=OK
+PromptUserConsole.1059980780b1.option0Label=はい
 
 # PromptUserConsole.1059980780b1.option1Label=NO
-PromptUserConsole.1059980780b1.option1Label=キャンセル
+PromptUserConsole.1059980780b1.option1Label=いいえ
 
 # PromptUserConsole.1059980780b1.option2Label=Details...
 PromptUserConsole.1059980780b1.option2Label=詳細...
 
 # PromptUserConsole.1059980780b1.title=Error
-PromptUserConsole.1059980780b1.title=
+PromptUserConsole.1059980780b1.title=エラー
 
 # PromptUserConsole.1059efcb80b7.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
-PromptUserConsole.1059efcb80b7.message=
+PromptUserConsole.1059efcb80b7.message=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか？（デフォルトでは上書きされます）
 
 # PromptUserConsole.1059efcb80b7.option0Label=YES
-PromptUserConsole.1059efcb80b7.option0Label=OK
+PromptUserConsole.1059efcb80b7.option0Label=はい
 
 # PromptUserConsole.1059efcb80b7.option1Label=NO
-PromptUserConsole.1059efcb80b7.option1Label=キャンセル
+PromptUserConsole.1059efcb80b7.option1Label=いいえ
 
 # PromptUserConsole.1059efcb80b7.option2Label=Details...
 PromptUserConsole.1059efcb80b7.option2Label=詳細...
 
 # PromptUserConsole.1059efcb80b7.title=Error
-PromptUserConsole.1059efcb80b7.title=
+PromptUserConsole.1059efcb80b7.title=エラー
 
 # PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
-PromptUserConsole.3478cd8998db.message=
+PromptUserConsole.3478cd8998db.message=ディレクトリ $CON_LIC_FILE_DIR_1$ は存在しません。\n\n［次へ］と入力して操作を続けるか、［戻る］と入力してライセンスディレクトリを選択し直してください。
 
 # PromptUserConsole.3478cd8998db.option0Label=Next
-PromptUserConsole.3478cd8998db.option0Label=OK
+PromptUserConsole.3478cd8998db.option0Label=次へ
 
 # PromptUserConsole.3478cd8998db.option1Label=Previous
-PromptUserConsole.3478cd8998db.option1Label=キャンセル
+PromptUserConsole.3478cd8998db.option1Label=戻る
 
 # PromptUserConsole.3478cd8998db.option2Label=Details...
 PromptUserConsole.3478cd8998db.option2Label=詳細...
 
 # PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
-PromptUserConsole.3478cd8998db.title=
+PromptUserConsole.3478cd8998db.title=エラー: 無効なライセンスディレクトリ
 
 # PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
-PromptUserConsole.347acbcaa515.message=
+PromptUserConsole.347acbcaa515.message=ライセンスファイル $NEW_LIC_FILE_1$ は存在しません。\n\n［次へ］と入力して操作を続けるか、［戻る］と入力してライセンスファイル名を選択し直してください。
 
 # PromptUserConsole.347acbcaa515.option0Label=Next
-PromptUserConsole.347acbcaa515.option0Label=OK
+PromptUserConsole.347acbcaa515.option0Label=次へ
 
 # PromptUserConsole.347acbcaa515.option1Label=Previous
-PromptUserConsole.347acbcaa515.option1Label=キャンセル
+PromptUserConsole.347acbcaa515.option1Label=戻る
 
 # PromptUserConsole.347acbcaa515.option2Label=Details...
 PromptUserConsole.347acbcaa515.option2Label=詳細...
 
 # PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
-PromptUserConsole.347acbcaa515.title=
+PromptUserConsole.347acbcaa515.title=エラー: 無効なライセンスファイル名
 
 # PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-PromptUserConsole.347b73c3ab4b.message=
+PromptUserConsole.347b73c3ab4b.message=ファイル$CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # PromptUserConsole.347b73c3ab4b.option0Label=Next
-PromptUserConsole.347b73c3ab4b.option0Label=OK
+PromptUserConsole.347b73c3ab4b.option0Label=次へ
 
 # PromptUserConsole.347b73c3ab4b.option1Label=Previous
-PromptUserConsole.347b73c3ab4b.option1Label=キャンセル
+PromptUserConsole.347b73c3ab4b.option1Label=戻る
 
 # PromptUserConsole.347b73c3ab4b.option2Label=Details...
 PromptUserConsole.347b73c3ab4b.option2Label=詳細...
 
 # PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
-PromptUserConsole.347b73c3ab4b.title=
+PromptUserConsole.347b73c3ab4b.title=エラー: 無効なライセンスファイル
 
 # PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-PromptUserConsole.347bf180b183.message=
+PromptUserConsole.347bf180b183.message=ファイル$CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択してライセンスファイルを選択し直してください。
 
 # PromptUserConsole.347bf180b183.option0Label=Next
-PromptUserConsole.347bf180b183.option0Label=OK
+PromptUserConsole.347bf180b183.option0Label=次へ
 
 # PromptUserConsole.347bf180b183.option1Label=Previous
-PromptUserConsole.347bf180b183.option1Label=キャンセル
+PromptUserConsole.347bf180b183.option1Label=戻る
 
 # PromptUserConsole.347bf180b183.option2Label=Details...
 PromptUserConsole.347bf180b183.option2Label=詳細...
 
 # PromptUserConsole.347bf180b183.title=ERROR : Invalid license file.
-PromptUserConsole.347bf180b183.title=
+PromptUserConsole.347bf180b183.title=エラー: 無効なライセンスファイル
 
 # PromptUserConsole.347c8d30b7b7.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-PromptUserConsole.347c8d30b7b7.message=
+PromptUserConsole.347c8d30b7b7.message=ファイル$CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$が変更されています。ポート番号を1999に設定してください。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択してライセンスファイルを選択し直してください。
 
 # PromptUserConsole.347c8d30b7b7.option0Label=Next
-PromptUserConsole.347c8d30b7b7.option0Label=OK
+PromptUserConsole.347c8d30b7b7.option0Label=次へ
 
 # PromptUserConsole.347c8d30b7b7.option1Label=Previous
-PromptUserConsole.347c8d30b7b7.option1Label=キャンセル
+PromptUserConsole.347c8d30b7b7.option1Label=戻る
 
 # PromptUserConsole.347c8d30b7b7.option2Label=Details...
 PromptUserConsole.347c8d30b7b7.option2Label=詳細...
 
 # PromptUserConsole.347c8d30b7b7.title=ERROR : Invalid license file.
-PromptUserConsole.347c8d30b7b7.title=
+PromptUserConsole.347c8d30b7b7.title=エラー: 無効なライセンスファイル
 
 # PromptUserConsole.34ac379a91fc.message=Unavailable license service name supplied.\n\n$SERVICE_NAME$ already exists.
-PromptUserConsole.34ac379a91fc.message=
+PromptUserConsole.34ac379a91fc.message=このライセンスサービス名は利用できません。\n\n$SERVICE_NAME$は既に存在します。
 
 # PromptUserConsole.34ac379a91fc.option0Label=OK
 PromptUserConsole.34ac379a91fc.option0Label=OK
@@ -749,85 +749,85 @@ PromptUserConsole.34ac379a91fc.option1Label=キャンセル
 PromptUserConsole.34ac379a91fc.option2Label=詳細...
 
 # PromptUserConsole.34ac379a91fc.title=Invalid license service name
-PromptUserConsole.34ac379a91fc.title=
+PromptUserConsole.34ac379a91fc.title=無効なライセンスサービス名
 
 # PromptUserConsole.34b1ad319499.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-PromptUserConsole.34b1ad319499.message=
+PromptUserConsole.34b1ad319499.message=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\nソフトウェアを実行するには、ライセンスサーバーの更新が必要です。
 
 # PromptUserConsole.34b1ad319499.option0Label=Next
-PromptUserConsole.34b1ad319499.option0Label=OK
+PromptUserConsole.34b1ad319499.option0Label=次へ
 
 # PromptUserConsole.34b1ad319499.option1Label=Previous
-PromptUserConsole.34b1ad319499.option1Label=キャンセル
+PromptUserConsole.34b1ad319499.option1Label=戻る
 
 # PromptUserConsole.34b1ad319499.option2Label=Details...
 PromptUserConsole.34b1ad319499.option2Label=詳細...
 
 # PromptUserConsole.34b1ad319499.title=Warning: Outdated license server detected on this machine
-PromptUserConsole.34b1ad319499.title=
+PromptUserConsole.34b1ad319499.title=警告: このマシンに古いライセンスサーバーが検出されました
 
 # PromptUserConsole.34b3805a9735.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-PromptUserConsole.34b3805a9735.message=
+PromptUserConsole.34b3805a9735.message=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n[維持]を選択すると、既存のライセンスサーバーが維持され、[アップグレード]を選択するとインストーラがライセンスサーバーサービスを更新します。\n\n[維持]を選択した場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # PromptUserConsole.34b3805a9735.option0Label=Next
-PromptUserConsole.34b3805a9735.option0Label=OK
+PromptUserConsole.34b3805a9735.option0Label=次へ
 
 # PromptUserConsole.34b3805a9735.option1Label=Previous
-PromptUserConsole.34b3805a9735.option1Label=キャンセル
+PromptUserConsole.34b3805a9735.option1Label=戻る
 
 # PromptUserConsole.34b3805a9735.option2Label=Details...
 PromptUserConsole.34b3805a9735.option2Label=詳細...
 
 # PromptUserConsole.34b3805a9735.title=Warning: Outdated license server detected on this machine
-PromptUserConsole.34b3805a9735.title=
+PromptUserConsole.34b3805a9735.title=警告: このマシンに古いライセンスサーバーが検出されました
 
 # PromptUserConsole.34b4ce729738.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-PromptUserConsole.34b4ce729738.message=
+PromptUserConsole.34b4ce729738.message=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n現在のライセンスサーバーはlmadminのようです。このインストーラはlmadmin構成を自動的にアップグレードできません。ライセンスサーバーを停止して、サービスを削除してから続行してください。\n\nライセンスサーバーの実行を続ける場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # PromptUserConsole.34b4ce729738.option0Label=Next
-PromptUserConsole.34b4ce729738.option0Label=OK
+PromptUserConsole.34b4ce729738.option0Label=次へ
 
 # PromptUserConsole.34b4ce729738.option1Label=Previous
-PromptUserConsole.34b4ce729738.option1Label=キャンセル
+PromptUserConsole.34b4ce729738.option1Label=戻る
 
 # PromptUserConsole.34b4ce729738.option2Label=Details...
 PromptUserConsole.34b4ce729738.option2Label=詳細...
 
 # PromptUserConsole.34b4ce729738.title=Warning: Outdated license server based on lmadmin detected on this machine
-PromptUserConsole.34b4ce729738.title=
+PromptUserConsole.34b4ce729738.title=警告: lmadminに基づく古いライセンスサーバーがこのマシンに検出されました
 
 # PromptUserConsole.34bc8b0a9d6a.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-PromptUserConsole.34bc8b0a9d6a.message=
+PromptUserConsole.34bc8b0a9d6a.message=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n[維持]を選択すると、既存のライセンスサーバーが維持され、[アップグレード]を選択するとインストーラがライセンスサーバーサービスを更新します。\n\n[維持]を選択した場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # PromptUserConsole.34bc8b0a9d6a.option0Label=Next
-PromptUserConsole.34bc8b0a9d6a.option0Label=OK
+PromptUserConsole.34bc8b0a9d6a.option0Label=次へ
 
 # PromptUserConsole.34bc8b0a9d6a.option1Label=Previous
-PromptUserConsole.34bc8b0a9d6a.option1Label=キャンセル
+PromptUserConsole.34bc8b0a9d6a.option1Label=戻る
 
 # PromptUserConsole.34bc8b0a9d6a.option2Label=Details...
 PromptUserConsole.34bc8b0a9d6a.option2Label=詳細...
 
 # PromptUserConsole.34bc8b0a9d6a.title=Warning: Outdated license server detected on this machine
-PromptUserConsole.34bc8b0a9d6a.title=
+PromptUserConsole.34bc8b0a9d6a.title=警告: このマシンに古いライセンスサーバーが検出されました
 
 # PromptUserConsole.34bd6f509d6c.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-PromptUserConsole.34bd6f509d6c.message=
+PromptUserConsole.34bd6f509d6c.message=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n現在のライセンスサーバーはlmadminのようです。このインストーラはlmadmin構成を自動的にアップグレードできません。ライセンスサーバーを停止して、サービスを削除してから続行してください。\n\nライセンスサーバーの実行を続ける場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # PromptUserConsole.34bd6f509d6c.option0Label=Next
-PromptUserConsole.34bd6f509d6c.option0Label=OK
+PromptUserConsole.34bd6f509d6c.option0Label=次へ
 
 # PromptUserConsole.34bd6f509d6c.option1Label=Previous
-PromptUserConsole.34bd6f509d6c.option1Label=キャンセル
+PromptUserConsole.34bd6f509d6c.option1Label=戻る
 
 # PromptUserConsole.34bd6f509d6c.option2Label=Details...
 PromptUserConsole.34bd6f509d6c.option2Label=詳細...
 
 # PromptUserConsole.34bd6f509d6c.title=Warning: Outdated license server based on lmadmin detected on this machine
-PromptUserConsole.34bd6f509d6c.title=
+PromptUserConsole.34bd6f509d6c.title=警告: lmadminに基づく古いライセンスサーバーがこのマシンに検出されました
 
 # PromptUserConsole.ad1a5efbb6f6.message=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
-PromptUserConsole.ad1a5efbb6f6.message=
+PromptUserConsole.ad1a5efbb6f6.message=ライセンスサーバーを構成するには管理者権限が必要です。このインストーラは管理者権限を使って実行してください。
 
 # PromptUserConsole.ad1a5efbb6f6.option0Label=OK
 PromptUserConsole.ad1a5efbb6f6.option0Label=OK
@@ -839,40 +839,40 @@ PromptUserConsole.ad1a5efbb6f6.option1Label=キャンセル
 PromptUserConsole.ad1a5efbb6f6.option2Label=詳細...
 
 # PromptUserConsole.ad1a5efbb6f6.title=Error
-PromptUserConsole.ad1a5efbb6f6.title=
+PromptUserConsole.ad1a5efbb6f6.title=エラー
 
 # PromptUserConsole.ad1a5f0ab71b.message=The previous Installation path $PREVIOUS_INSTALLATION_PATH$\\conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons from previous installation. (By default return to the step to get new previous installation path)
-PromptUserConsole.ad1a5f0ab71b.message=
+PromptUserConsole.ad1a5f0ab71b.message=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$\\conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。(デフォルトでは以前のインストールパスを新たに入力するステップに戻ります)
 
 # PromptUserConsole.ad1a5f0ab71b.option0Label=OK
 PromptUserConsole.ad1a5f0ab71b.option0Label=OK
 
 # PromptUserConsole.ad1a5f0ab71b.option1Label=Cancel and Exit
-PromptUserConsole.ad1a5f0ab71b.option1Label=キャンセル
+PromptUserConsole.ad1a5f0ab71b.option1Label=キャンセルおよび終了
 
 # PromptUserConsole.ad1a5f0ab71b.option2Label=Details...
 PromptUserConsole.ad1a5f0ab71b.option2Label=詳細...
 
 # PromptUserConsole.ad1a5f0ab71b.title=Windows Error
-PromptUserConsole.ad1a5f0ab71b.title=
+PromptUserConsole.ad1a5f0ab71b.title=Windows のエラー
 
 # PromptUserConsole.ad1a5fa7b724.message=The previous Installation path $PREVIOUS_INSTALLATION_PATH$/conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons  from previous installation. (By default return to the step to get the new previous installation path)
-PromptUserConsole.ad1a5fa7b724.message=
+PromptUserConsole.ad1a5fa7b724.message=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$/conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。(デフォルトでは以前のインストールパスを新たに入力するステップに戻ります)
 
 # PromptUserConsole.ad1a5fa7b724.option0Label=OK
 PromptUserConsole.ad1a5fa7b724.option0Label=OK
 
 # PromptUserConsole.ad1a5fa7b724.option1Label=Cancel and Exit
-PromptUserConsole.ad1a5fa7b724.option1Label=キャンセル
+PromptUserConsole.ad1a5fa7b724.option1Label=キャンセルおよび終了
 
 # PromptUserConsole.ad1a5fa7b724.option2Label=Details...
 PromptUserConsole.ad1a5fa7b724.option2Label=詳細...
 
 # PromptUserConsole.ad1a5fa7b724.title=Error
-PromptUserConsole.ad1a5fa7b724.title=
+PromptUserConsole.ad1a5fa7b724.title=エラー
 
 # PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
-PromptUserConsole.ad1a6014b809.message=
+PromptUserConsole.ad1a6014b809.message=管理者以外のアカウントでアンインストールを実行することはできません。アンインストールプロセスを中断します。\n管理者権限を持つアカウントでアンインストーラを実行してください
 
 # PromptUserConsole.ad1a6014b809.option0Label=OK
 PromptUserConsole.ad1a6014b809.option0Label=OK
@@ -884,358 +884,358 @@ PromptUserConsole.ad1a6014b809.option1Label=キャンセル
 PromptUserConsole.ad1a6014b809.option2Label=詳細...
 
 # PromptUserConsole.ad1a6014b809.title=Error
-PromptUserConsole.ad1a6014b809.title=
+PromptUserConsole.ad1a6014b809.title=エラー
 
 # ShowDialogAction.109444a18da8.buttonLabel=YES
-ShowDialogAction.109444a18da8.buttonLabel=
+ShowDialogAction.109444a18da8.buttonLabel=はい
 
 # ShowDialogAction.109444a18da8.cancelButtonLabel=NO
-ShowDialogAction.109444a18da8.cancelButtonLabel=
+ShowDialogAction.109444a18da8.cancelButtonLabel=いいえ
 
 # ShowDialogAction.109444a18da8.detailsButtonLabel=Details...
-ShowDialogAction.109444a18da8.detailsButtonLabel=
+ShowDialogAction.109444a18da8.detailsButtonLabel=詳細...
 
 # ShowDialogAction.109444a18da8.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? 
-ShowDialogAction.109444a18da8.label=
+ShowDialogAction.109444a18da8.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか？
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative=
+ShowDialogAction.109444a18da8.narrative= 
 
 # ShowDialogAction.109444a18da8.title=Error
-ShowDialogAction.109444a18da8.title=
+ShowDialogAction.109444a18da8.title=エラー
 
 # ShowDialogAction.1094478f8dad.buttonLabel=YES
-ShowDialogAction.1094478f8dad.buttonLabel=
+ShowDialogAction.1094478f8dad.buttonLabel=はい
 
 # ShowDialogAction.1094478f8dad.cancelButtonLabel=NO
-ShowDialogAction.1094478f8dad.cancelButtonLabel=
+ShowDialogAction.1094478f8dad.cancelButtonLabel=いいえ
 
 # ShowDialogAction.1094478f8dad.detailsButtonLabel=Details...
-ShowDialogAction.1094478f8dad.detailsButtonLabel=
+ShowDialogAction.1094478f8dad.detailsButtonLabel=詳細...
 
 # ShowDialogAction.1094478f8dad.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite?
-ShowDialogAction.1094478f8dad.label=
+ShowDialogAction.1094478f8dad.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか？
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative=
+ShowDialogAction.1094478f8dad.narrative= 
 
 # ShowDialogAction.1094478f8dad.title=Error
-ShowDialogAction.1094478f8dad.title=
+ShowDialogAction.1094478f8dad.title=エラー
 
 # ShowDialogAction.1faba940bf32.buttonLabel=OK
-ShowDialogAction.1faba940bf32.buttonLabel=
+ShowDialogAction.1faba940bf32.buttonLabel=OK
 
 # ShowDialogAction.1faba940bf32.cancelButtonLabel=Cancel
-ShowDialogAction.1faba940bf32.cancelButtonLabel=
+ShowDialogAction.1faba940bf32.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.1faba940bf32.detailsButtonLabel=Details...
-ShowDialogAction.1faba940bf32.detailsButtonLabel=
+ShowDialogAction.1faba940bf32.detailsButtonLabel=詳細...
 
 # ShowDialogAction.1faba940bf32.label=License server upgrade failed
-ShowDialogAction.1faba940bf32.label=
+ShowDialogAction.1faba940bf32.label=ライセンスサーバーのアップグレードに失敗しました
 
 # ShowDialogAction.1faba940bf32.narrative=The installer was unable to upgrade your license server service.  Your previous license server service has been restored.  Please perform the upgrade manually.
-ShowDialogAction.1faba940bf32.narrative=
+ShowDialogAction.1faba940bf32.narrative=インストーラがライセンスサーバーサービスをアップグレードできませんでした。以前のライセンスサーバーサービスが復元されています。手動でアップグレードしてください。
 
 # ShowDialogAction.1faba940bf32.title=Warning: License Server
-ShowDialogAction.1faba940bf32.title=
+ShowDialogAction.1faba940bf32.title=警告: ライセンスサーバー
 
 # ShowDialogAction.2077f0c78893.buttonLabel=OK
-ShowDialogAction.2077f0c78893.buttonLabel=
+ShowDialogAction.2077f0c78893.buttonLabel=OK
 
 # ShowDialogAction.2077f0c78893.cancelButtonLabel=Cancel
-ShowDialogAction.2077f0c78893.cancelButtonLabel=
+ShowDialogAction.2077f0c78893.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.2077f0c78893.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c78893.detailsButtonLabel=
+ShowDialogAction.2077f0c78893.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c78893.label=No Administrative Privileges
-ShowDialogAction.2077f0c78893.label=
+ShowDialogAction.2077f0c78893.label=管理者権限がありません
 
 # ShowDialogAction.2077f0c78893.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
-ShowDialogAction.2077f0c78893.narrative=
+ShowDialogAction.2077f0c78893.narrative=ライセンスサーバーを構成するには管理者権限が必要です。このインストーラは管理者権限を使って実行してください。
 
 # ShowDialogAction.2077f0c78893.title=Error
-ShowDialogAction.2077f0c78893.title=
+ShowDialogAction.2077f0c78893.title=エラー
 
 # ShowDialogAction.2077f0c788a4.buttonLabel=Next
-ShowDialogAction.2077f0c788a4.buttonLabel=
+ShowDialogAction.2077f0c788a4.buttonLabel=次へ
 
 # ShowDialogAction.2077f0c788a4.cancelButtonLabel=Previous
-ShowDialogAction.2077f0c788a4.cancelButtonLabel=
+ShowDialogAction.2077f0c788a4.cancelButtonLabel=戻る
 
 # ShowDialogAction.2077f0c788a4.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c788a4.detailsButtonLabel=
+ShowDialogAction.2077f0c788a4.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c788a4.label=Invalid license file.
-ShowDialogAction.2077f0c788a4.label=
+ShowDialogAction.2077f0c788a4.label=無効なライセンスファイルです。
 
 # ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
-ShowDialogAction.2077f0c788a4.narrative=
+ShowDialogAction.2077f0c788a4.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は存在しません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c788a4.title=ERROR
-ShowDialogAction.2077f0c788a4.title=
+ShowDialogAction.2077f0c788a4.title=エラー
 
 # ShowDialogAction.2077f0c888a6.buttonLabel=Next
-ShowDialogAction.2077f0c888a6.buttonLabel=
+ShowDialogAction.2077f0c888a6.buttonLabel=次へ
 
 # ShowDialogAction.2077f0c888a6.cancelButtonLabel=Previous
-ShowDialogAction.2077f0c888a6.cancelButtonLabel=
+ShowDialogAction.2077f0c888a6.cancelButtonLabel=戻る
 
 # ShowDialogAction.2077f0c888a6.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c888a6.detailsButtonLabel=
+ShowDialogAction.2077f0c888a6.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a6.label=Invalid license file.
-ShowDialogAction.2077f0c888a6.label=
+ShowDialogAction.2077f0c888a6.label=無効なライセンスファイルです
 
 # ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.2077f0c888a6.narrative=
+ShowDialogAction.2077f0c888a6.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c888a6.title=ERROR
-ShowDialogAction.2077f0c888a6.title=
+ShowDialogAction.2077f0c888a6.title=エラー
 
 # ShowDialogAction.2077f0c888a7.buttonLabel=Next
-ShowDialogAction.2077f0c888a7.buttonLabel=
+ShowDialogAction.2077f0c888a7.buttonLabel=次へ
 
 # ShowDialogAction.2077f0c888a7.cancelButtonLabel=Previous
-ShowDialogAction.2077f0c888a7.cancelButtonLabel=
+ShowDialogAction.2077f0c888a7.cancelButtonLabel=戻る
 
 # ShowDialogAction.2077f0c888a7.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c888a7.detailsButtonLabel=
+ShowDialogAction.2077f0c888a7.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a7.label=Invalid license file.
-ShowDialogAction.2077f0c888a7.label=
+ShowDialogAction.2077f0c888a7.label=無効なライセンスファイルです
 
 # ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.2077f0c888a7.narrative=
+ShowDialogAction.2077f0c888a7.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c888a7.title=ERROR
-ShowDialogAction.2077f0c888a7.title=
+ShowDialogAction.2077f0c888a7.title=エラー
 
 # ShowDialogAction.2077f0c888a8.buttonLabel=Next
-ShowDialogAction.2077f0c888a8.buttonLabel=
+ShowDialogAction.2077f0c888a8.buttonLabel=次へ
 
 # ShowDialogAction.2077f0c888a8.cancelButtonLabel=Previous
-ShowDialogAction.2077f0c888a8.cancelButtonLabel=
+ShowDialogAction.2077f0c888a8.cancelButtonLabel=戻る
 
 # ShowDialogAction.2077f0c888a8.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c888a8.detailsButtonLabel=
+ShowDialogAction.2077f0c888a8.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a8.label=Invalid license file.
-ShowDialogAction.2077f0c888a8.label=
+ShowDialogAction.2077f0c888a8.label=無効なライセンスファイルです
 
 # ShowDialogAction.2077f0c888a8.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.2077f0c888a8.narrative=
+ShowDialogAction.2077f0c888a8.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$が変更されています。ポート番号を1999に設定してください。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c888a8.title=ERROR
-ShowDialogAction.2077f0c888a8.title=
+ShowDialogAction.2077f0c888a8.title=エラー
 
 # ShowDialogAction.2077f0c888aa.buttonLabel=OK
-ShowDialogAction.2077f0c888aa.buttonLabel=
+ShowDialogAction.2077f0c888aa.buttonLabel=OK
 
 # ShowDialogAction.2077f0c888aa.cancelButtonLabel=Cancel
-ShowDialogAction.2077f0c888aa.cancelButtonLabel=
+ShowDialogAction.2077f0c888aa.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.2077f0c888aa.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c888aa.detailsButtonLabel=
+ShowDialogAction.2077f0c888aa.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888aa.label=Outdated license server detected on this machine
-ShowDialogAction.2077f0c888aa.label=
+ShowDialogAction.2077f0c888aa.label=このマシンに古いライセンスサーバーが検出されました
 
 # ShowDialogAction.2077f0c888aa.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-ShowDialogAction.2077f0c888aa.narrative=
+ShowDialogAction.2077f0c888aa.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\nソフトウェアを実行するには、ライセンスサーバーの更新が必要です。
 
 # ShowDialogAction.2077f0c888aa.title=Warning: License server
-ShowDialogAction.2077f0c888aa.title=
+ShowDialogAction.2077f0c888aa.title=警告: ライセンスサーバー
 
 # ShowDialogAction.2077f0c888ae.buttonLabel=OK
-ShowDialogAction.2077f0c888ae.buttonLabel=
+ShowDialogAction.2077f0c888ae.buttonLabel=OK
 
 # ShowDialogAction.2077f0c888ae.cancelButtonLabel=
 ShowDialogAction.2077f0c888ae.cancelButtonLabel=
 
 # ShowDialogAction.2077f0c888ae.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c888ae.detailsButtonLabel=
+ShowDialogAction.2077f0c888ae.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888ae.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.2077f0c888ae.label=
+ShowDialogAction.2077f0c888ae.label=lmadminに基づく古いライセンスサーバーがこのマシンに検出されました
 
 # ShowDialogAction.2077f0c888ae.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.2077f0c888ae.narrative=
+ShowDialogAction.2077f0c888ae.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n現在のライセンスサーバーはlmadminのようです。このインストーラはlmadmin構成を自動的にアップグレードできません。ライセンスサーバーを停止して、サービスを削除してから続行してください。\n\nライセンスサーバーの実行を続ける場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.2077f0c888ae.title=Warning: License server
-ShowDialogAction.2077f0c888ae.title=
+ShowDialogAction.2077f0c888ae.title=警告: ライセンスサーバー
 
 # ShowDialogAction.2077f0c988ab.buttonLabel=Upgrade
-ShowDialogAction.2077f0c988ab.buttonLabel=
+ShowDialogAction.2077f0c988ab.buttonLabel=アップグレード
 
 # ShowDialogAction.2077f0c988ab.cancelButtonLabel=Keep
-ShowDialogAction.2077f0c988ab.cancelButtonLabel=
+ShowDialogAction.2077f0c988ab.cancelButtonLabel=維持
 
 # ShowDialogAction.2077f0c988ab.detailsButtonLabel=Details...
-ShowDialogAction.2077f0c988ab.detailsButtonLabel=
+ShowDialogAction.2077f0c988ab.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c988ab.label=Outdated license server detected on this machine
-ShowDialogAction.2077f0c988ab.label=
+ShowDialogAction.2077f0c988ab.label=このマシンに古いライセンスサーバーが検出されました
 
 # ShowDialogAction.2077f0c988ab.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.2077f0c988ab.narrative=
+ShowDialogAction.2077f0c988ab.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n[維持]を選択すると、既存のライセンスサーバーが維持され、[アップグレード]を選択するとインストーラがライセンスサーバーサービスを更新します。\n\n[維持]を選択した場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.2077f0c988ab.title=Warning: License server
-ShowDialogAction.2077f0c988ab.title=
+ShowDialogAction.2077f0c988ab.title=警告: ライセンスサーバー
 
 # ShowDialogAction.34545c2196a8.buttonLabel=Upgrade
-ShowDialogAction.34545c2196a8.buttonLabel=
+ShowDialogAction.34545c2196a8.buttonLabel=アップグレード
 
 # ShowDialogAction.34545c2196a8.cancelButtonLabel=Keep
-ShowDialogAction.34545c2196a8.cancelButtonLabel=
+ShowDialogAction.34545c2196a8.cancelButtonLabel=維持
 
 # ShowDialogAction.34545c2196a8.detailsButtonLabel=Details...
-ShowDialogAction.34545c2196a8.detailsButtonLabel=
+ShowDialogAction.34545c2196a8.detailsButtonLabel=詳細...
 
 # ShowDialogAction.34545c2196a8.label=Outdated license server detected on this machine
-ShowDialogAction.34545c2196a8.label=
+ShowDialogAction.34545c2196a8.label=このマシンに古いライセンスサーバーが検出されました
 
 # ShowDialogAction.34545c2196a8.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.34545c2196a8.narrative=
+ShowDialogAction.34545c2196a8.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n[維持]を選択すると、既存のライセンスサーバーが維持され、[アップグレード]を選択するとインストーラがライセンスサーバーサービスを更新します。\n\n[維持]を選択した場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.34545c2196a8.title=Warning: License server
-ShowDialogAction.34545c2196a8.title=
+ShowDialogAction.34545c2196a8.title=警告: ライセンスサーバー
 
 # ShowDialogAction.34551595a0b2.buttonLabel=OK
-ShowDialogAction.34551595a0b2.buttonLabel=
+ShowDialogAction.34551595a0b2.buttonLabel=OK
 
 # ShowDialogAction.34551595a0b2.cancelButtonLabel=Keep
-ShowDialogAction.34551595a0b2.cancelButtonLabel=
+ShowDialogAction.34551595a0b2.cancelButtonLabel=維持
 
 # ShowDialogAction.34551595a0b2.detailsButtonLabel=Details...
-ShowDialogAction.34551595a0b2.detailsButtonLabel=
+ShowDialogAction.34551595a0b2.detailsButtonLabel=詳細...
 
 # ShowDialogAction.34551595a0b2.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.34551595a0b2.label=
+ShowDialogAction.34551595a0b2.label=lmadminに基づく古いライセンスサーバーがこのマシンに検出されました
 
 # ShowDialogAction.34551595a0b2.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.34551595a0b2.narrative=
+ShowDialogAction.34551595a0b2.narrative=このマシンにv$RUNNING_CDLMD_VERSION$のライセンスサーバーが検出されました。このソフトウェアにはv$INSTALLER_CDLMD_VERSION$以降のライセンスサーバーが必要です。\n\n現在のライセンスサーバーはlmadminのようです。このインストーラはlmadmin構成を自動的にアップグレードできません。ライセンスサーバーを停止して、サービスを削除してから続行してください。\n\nライセンスサーバーの実行を続ける場合、ソフトウェアを実行する前に、ライセンスサーバーを手動でアップグレードする必要があります。
 
 # ShowDialogAction.34551595a0b2.title=Warning: License server
-ShowDialogAction.34551595a0b2.title=
+ShowDialogAction.34551595a0b2.title=警告: ライセンスサーバー
 
 # ShowDialogAction.34aac81b91f4.buttonLabel=OK
-ShowDialogAction.34aac81b91f4.buttonLabel=
+ShowDialogAction.34aac81b91f4.buttonLabel=OK
 
 # ShowDialogAction.34aac81b91f4.cancelButtonLabel=Cancel
-ShowDialogAction.34aac81b91f4.cancelButtonLabel=
+ShowDialogAction.34aac81b91f4.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.34aac81b91f4.detailsButtonLabel=Details...
-ShowDialogAction.34aac81b91f4.detailsButtonLabel=
+ShowDialogAction.34aac81b91f4.detailsButtonLabel=詳細...
 
 # ShowDialogAction.34aac81b91f4.label=Unavailable license service name supplied.
-ShowDialogAction.34aac81b91f4.label=
+ShowDialogAction.34aac81b91f4.label=このライセンスサービス名は利用できません。
 
 # ShowDialogAction.34aac81b91f4.narrative=$SERVICE_NAME$ already exists.
-ShowDialogAction.34aac81b91f4.narrative=
+ShowDialogAction.34aac81b91f4.narrative=$SERVICE_NAME$は既に存在します。
 
 # ShowDialogAction.34aac81b91f4.title=Invalid license service name
-ShowDialogAction.34aac81b91f4.title=
+ShowDialogAction.34aac81b91f4.title=無効なライセンスサービス名
 
 # ShowDialogAction.ad1a5efbb6f3.buttonLabel=OK
-ShowDialogAction.ad1a5efbb6f3.buttonLabel=
+ShowDialogAction.ad1a5efbb6f3.buttonLabel=OK
 
 # ShowDialogAction.ad1a5efbb6f3.cancelButtonLabel=Cancel
-ShowDialogAction.ad1a5efbb6f3.cancelButtonLabel=
+ShowDialogAction.ad1a5efbb6f3.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.ad1a5efbb6f3.detailsButtonLabel=Details...
-ShowDialogAction.ad1a5efbb6f3.detailsButtonLabel=
+ShowDialogAction.ad1a5efbb6f3.detailsButtonLabel=詳細...
 
 # ShowDialogAction.ad1a5efbb6f3.label=No Administrative Privileges
-ShowDialogAction.ad1a5efbb6f3.label=
+ShowDialogAction.ad1a5efbb6f3.label=管理者権限がありません
 
 # ShowDialogAction.ad1a5efbb6f3.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
-ShowDialogAction.ad1a5efbb6f3.narrative=
+ShowDialogAction.ad1a5efbb6f3.narrative=ライセンスサーバーを構成するには管理者権限が必要です。このインストーラは管理者権限を使って実行してください。
 
 # ShowDialogAction.ad1a5efbb6f3.title=Error
-ShowDialogAction.ad1a5efbb6f3.title=
+ShowDialogAction.ad1a5efbb6f3.title=エラー
 
 # ShowDialogAction.ad1a5f0ab714.buttonLabel=OK
-ShowDialogAction.ad1a5f0ab714.buttonLabel=
+ShowDialogAction.ad1a5f0ab714.buttonLabel=OK
 
 # ShowDialogAction.ad1a5f0ab714.cancelButtonLabel=Cancel
-ShowDialogAction.ad1a5f0ab714.cancelButtonLabel=
+ShowDialogAction.ad1a5f0ab714.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=Details...
-ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=
+ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=詳細...
 
 # ShowDialogAction.ad1a5f0ab714.label=The previous Installation path $PREVIOUS_INSTALLATION_PATH$\\conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons  from previous installation.
-ShowDialogAction.ad1a5f0ab714.label=
+ShowDialogAction.ad1a5f0ab714.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$\\conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative=
+ShowDialogAction.ad1a5f0ab714.narrative= 
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
-ShowDialogAction.ad1a5f0ab714.title=
+ShowDialogAction.ad1a5f0ab714.title=Windows のエラー
 
 # ShowDialogAction.ad1a5f1bb71e.buttonLabel=OK
-ShowDialogAction.ad1a5f1bb71e.buttonLabel=
+ShowDialogAction.ad1a5f1bb71e.buttonLabel=OK
 
 # ShowDialogAction.ad1a5f1bb71e.cancelButtonLabel=Cancel
-ShowDialogAction.ad1a5f1bb71e.cancelButtonLabel=
+ShowDialogAction.ad1a5f1bb71e.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=Details...
-ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=
+ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=詳細...
 
 # ShowDialogAction.ad1a5f1bb71e.label=The previous Installation path $PREVIOUS_INSTALLATION_PATH$/conf folder does not contain server.xml file. Please point to the directory of previous installation if you want to import the configuration data and vendor daemons from previous installation.
-ShowDialogAction.ad1a5f1bb71e.label=
+ShowDialogAction.ad1a5f1bb71e.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$/conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative=
+ShowDialogAction.ad1a5f1bb71e.narrative= 
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
-ShowDialogAction.ad1a5f1bb71e.title=
+ShowDialogAction.ad1a5f1bb71e.title=エラー
 
 # ShowDialogAction.ad1a6014b806.buttonLabel=OK
-ShowDialogAction.ad1a6014b806.buttonLabel=
+ShowDialogAction.ad1a6014b806.buttonLabel=OK
 
 # ShowDialogAction.ad1a6014b806.cancelButtonLabel=Cancel
-ShowDialogAction.ad1a6014b806.cancelButtonLabel=
+ShowDialogAction.ad1a6014b806.cancelButtonLabel=キャンセル
 
 # ShowDialogAction.ad1a6014b806.detailsButtonLabel=Details...
-ShowDialogAction.ad1a6014b806.detailsButtonLabel=
+ShowDialogAction.ad1a6014b806.detailsButtonLabel=詳細...
 
 # ShowDialogAction.ad1a6014b806.label=No Administrative Privileges
-ShowDialogAction.ad1a6014b806.label=
+ShowDialogAction.ad1a6014b806.label=管理者権限がありません
 
 # ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
-ShowDialogAction.ad1a6014b806.narrative=
+ShowDialogAction.ad1a6014b806.narrative=管理者以外のアカウントでアンインストールを実行することはできません。アンインストールプロセスを中断します。\n管理者権限を持つアカウントでアンインストーラを実行してください
 
 # ShowDialogAction.ad1a6014b806.title=Error
-ShowDialogAction.ad1a6014b806.title=
+ShowDialogAction.ad1a6014b806.title=エラー
 
 # UninstallCategory.ad1a6034b835.categoryName=Files
-UninstallCategory.ad1a6034b835.categoryName=
+UninstallCategory.ad1a6034b835.categoryName=ファイル
 
 # UninstallCategory.ad1a6034b837.categoryName=LaunchAnywheres
-UninstallCategory.ad1a6034b837.categoryName=
+UninstallCategory.ad1a6034b837.categoryName=LaunchAnywheres
 
 # UninstallCategory.ad1a6034b839.categoryName=Shortcuts/Links/Aliases
-UninstallCategory.ad1a6034b839.categoryName=
+UninstallCategory.ad1a6034b839.categoryName=ショートカット/リンク/エイリアス
 
 # UninstallCategory.ad1a6034b83b.categoryName=Registry Entries
-UninstallCategory.ad1a6034b83b.categoryName=
+UninstallCategory.ad1a6034b83b.categoryName=レジストリのエントリ
 
 # UninstallCategory.ad1a6034b83d.categoryName=Native Packages
-UninstallCategory.ad1a6034b83d.categoryName=
+UninstallCategory.ad1a6034b83d.categoryName=ネイティブパッケージ
 
 # UninstallCategory.ad1a6034b841.categoryName=Folders
-UninstallCategory.ad1a6034b841.categoryName=
+UninstallCategory.ad1a6034b841.categoryName=フォルダ
 
 # UninstallCategory.ad1a6034b843.categoryName=Others Category
-UninstallCategory.ad1a6034b843.categoryName=
+UninstallCategory.ad1a6034b843.categoryName=その他のカテゴリー
 
 # UninstallCompleteAction.ad1a6034b833.rebootNotNeededMessage=
 UninstallCompleteAction.ad1a6034b833.rebootNotNeededMessage=
 
 # UninstallCompleteAction.ad1a6034b833.rebootRecommendedMessage=You should restart the system to complete the uninstallation.
-UninstallCompleteAction.ad1a6034b833.rebootRecommendedMessage=アンインストールを完了するには、システムを再起動してください。
+UninstallCompleteAction.ad1a6034b833.rebootRecommendedMessage=アンインストールを完了するにはシステムを再起動する必要があります。
 
 # UninstallCompleteAction.ad1a6034b833.rebootRequiredMessage=You need to restart the system to complete the uninstallation.
 UninstallCompleteAction.ad1a6034b833.rebootRequiredMessage=アンインストールを完了するには、システムを再起動する必要があります。
@@ -1247,67 +1247,67 @@ UninstallCompleteAction.ad1a6034b833.stepTitle=アンインストール完了
 UninstallCompleteAction.ad1a6034b833.uninstallIncompleteMessage=以下の項目は削除できませんでした:
 
 # UninstallCompleteAction.ad1a6034b833.uninstallSkippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteAction.ad1a6034b833.uninstallSkippedMessage=$PRODUCT_NAME$ をアンインストールできません。
+UninstallCompleteAction.ad1a6034b833.uninstallSkippedMessage=$PRODUCT_NAME$をアンインストールできません。
 
 # UninstallCompleteAction.ad1a6034b833.uninstallSuccessMessage=All items were successfully uninstalled.
 UninstallCompleteAction.ad1a6034b833.uninstallSuccessMessage=すべての項目が正常にアンインストールされました。
 
 # UninstallCompleteActionConsole.ad1a6034b834.incompleteMessage=Some items could not be removed.
-UninstallCompleteActionConsole.ad1a6034b834.incompleteMessage=一部の項目は削除できませんでした。
+UninstallCompleteActionConsole.ad1a6034b834.incompleteMessage=いくつかの項目は削除できませんでした。
 
 # UninstallCompleteActionConsole.ad1a6034b834.message=All items were successfully uninstalled.
 UninstallCompleteActionConsole.ad1a6034b834.message=すべての項目が正常にアンインストールされました。
 
 # UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=Unable to uninstall $PRODUCT_NAME$.
-UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$ をアンインストールできません。
+UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$をアンインストールできません。
 
 # UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
 UninstallCompleteActionConsole.ad1a6034b834.title=アンインストール完了
 
 # UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
-UninstallIntroAction.ad1a6014b7ff.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$\n\nこの操作を行うと、InstallAnywhere によってインストールされたすべての機能が削除されます。  インストール後に作成されたファイルやフォルダーは削除されません。
+UninstallIntroAction.ad1a6014b7ff.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $PRODUCT_NAME$
-UninstallIntroAction.ad1a6014b7ff.stepTitle=$PRODUCT_NAME$ をアンインストール
+UninstallIntroAction.ad1a6014b7ff.stepTitle=アンインストール $PRODUCT_NAME$
 
 # UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
-UninstallIntroActionConsole.ad1a6014b801.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$\n\nこの操作を行うと、InstallAnywhere によってインストールされたすべての機能が削除されます。  インストール後に作成されたファイルやフォルダーは削除されません。
+UninstallIntroActionConsole.ad1a6014b801.message=次の製品をアンインストールします...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
-UninstallIntroActionConsole.ad1a6014b801.stepTitle=$PRODUCT_NAME$ をアンインストール
+UninstallIntroActionConsole.ad1a6014b801.stepTitle=アンインストール $PRODUCT_NAME$
 
 # VariablePropertyDataBiDi.074b4517ba31.propertyName=Installation directory:
-VariablePropertyDataBiDi.074b4517ba31.propertyName=
+VariablePropertyDataBiDi.074b4517ba31.propertyName=インストールディレクトリ:
 
 # VariablePropertyDataBiDi.074b4517ba31.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.074b4517ba31.propertyValue=$STAR_DIRTMP$
 
 # VariablePropertyDataBiDi.074df9a6bcc1.propertyName=License server:
-VariablePropertyDataBiDi.074df9a6bcc1.propertyName=
+VariablePropertyDataBiDi.074df9a6bcc1.propertyName=ライセンスサーバー:
 
 # VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
 VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
 
 # VariablePropertyDataBiDi.0755afcb8d2d.propertyName=Product name:
-VariablePropertyDataBiDi.0755afcb8d2d.propertyName=
+VariablePropertyDataBiDi.0755afcb8d2d.propertyName=製品名:
 
 # VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
-VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=
+VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FlexNet ライセンスサーバー v$FLEX_VERSION_NUMBER$ 
 
 # VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=Product name:
-VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=
+VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=製品名:
 
 # VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
-VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=
+VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FlexNet ライセンスサーバー v$FLEX_VERSION_NUMBER$
 
 # VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=Installation directory:
-VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=
+VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=インストールディレクトリ:
 
 # VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
 
 # VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=License server:
-VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=
+VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=ライセンスサーバー:
 
 # VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
 VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
