@@ -1874,13 +1874,13 @@ InstallCompleteActionConsole.bd89f531898a.message=\n\n$PRODUCT_NAME$$WINDOWS_TYP
 InstallCompleteActionConsole.bd89f531898a.title=インストール完了
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n
+InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
 InstallCompleteActionConsole.bd8dd38c946b.title=インストール完了
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=インストール完了
@@ -2141,7 +2141,7 @@ InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェア\nをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
+InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
