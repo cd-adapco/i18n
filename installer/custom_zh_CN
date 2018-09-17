@@ -2237,7 +2237,7 @@ InstallMethod.Custom3=还允许用户配置并启动许可证管理器。
 InstallMethod.Custom4=这是针对高级用户的推荐选项。
 
 # InstallMethod.Express=Express (Recommended)
-InstallMethod.Express=Express（推荐）
+InstallMethod.Express=默认（推荐）
 
 # InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
 InstallMethod.Express1=选择此选项会安装 STAR-CCM+ 的所有功能和相关
