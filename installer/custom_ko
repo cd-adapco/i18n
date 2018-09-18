@@ -2237,7 +2237,7 @@ InstallMethod.Custom3=또한 사용자가 라이선스 관리자를 구성 및 �
 InstallMethod.Custom4=이것은 고급 사용자를 위해 권장되는 옵션입니다.
 
 # InstallMethod.Express=Express (Recommended)
-InstallMethod.Express=Express(권장됨)
+InstallMethod.Express=빠른 설치(권장됨)
 
 # InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
 InstallMethod.Express1=이 옵션을 선택하면 모든 STAR-CCM+ 기능을 설치할 수 있다.
