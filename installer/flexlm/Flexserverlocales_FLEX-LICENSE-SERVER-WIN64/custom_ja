@@ -62,7 +62,7 @@ CreateShortcut.33e0c07bb75c.workingDir=
 CreateShortcut.63475501aee6.args=
 
 # CreateShortcut.63475501aee6.destinationName=FLEXnet License Administration Tools
-CreateShortcut.63475501aee6.destinationName=FlexNetライセンス管理ツール
+CreateShortcut.63475501aee6.destinationName=FLEXnetライセンス管理ツール
 
 # CreateShortcut.63475501aee6.workingDir=
 CreateShortcut.63475501aee6.workingDir=
@@ -233,7 +233,7 @@ ExecuteScript.ad1a6033b82f.dialogLabel=インストールスクリプトを実�
 ExecuteScript.ad1a6033b82f.title=
 
 # GetUserInput.2077f0c7889e.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
-GetUserInput.2077f0c7889e.prompt=ライセンスサーバーソフトウェアにアクセスするには、通信チャネルまたはポートが、ご使用のコンピュータで使用できる必要があります。FlexNetライセンスサーバーのデフォルトポート番号は1999です。これらのデフォルトを以下に示しますが、必要であればコンピュータの設定に合わせて他のポート番号に変更できます。
+GetUserInput.2077f0c7889e.prompt=ライセンスサーバーソフトウェアにアクセスするには、通信チャネルまたはポートが、ご使用のコンピュータで使用できる必要があります。FLEXNetライセンスサーバーのデフォルトポート番号は1999です。これらのデフォルトを以下に示しますが、必要であればコンピュータの設定に合わせて他のポート番号に変更できます。
 
 # GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
 GetUserInput.2077f0c7889e.title=FlexNetライセンスサーバー構成
@@ -242,13 +242,13 @@ GetUserInput.2077f0c7889e.title=FlexNetライセンスサーバー構成
 GetUserInput.2077f0c888b2.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。
 
 # GetUserInput.2077f0c888b2.title=Service Configuration 
-GetUserInput.2077f0c888b2.title=サービス構成
+GetUserInput.2077f0c888b2.title=サービス構成 
 
 # GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.39b459359a2b.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n\n
 
 # GetUserInput.39b459359a2b.title=Service Configuration 
-GetUserInput.39b459359a2b.title=サービス構成
+GetUserInput.39b459359a2b.title=サービス構成 
 
 # GetUserInput.ad1a5f0ab70b.prompt=To update a previous FlexNet License Server , please select the checkbox below and provide the path to the previous cdlmd installation?  (By default updating is disabled)\n
 GetUserInput.ad1a5f0ab70b.prompt=以前の FlexNet ライセンスサーバーを更新するには、下記のチェックボックスを選択して、以前の cdlmd インストールのパスを入力してください（デフォルトでは更新は無効になっています）。
@@ -338,7 +338,7 @@ GUIComponentData.2077f0c888b5.label=ライセンスサーバーを今すぐ開�
 GUIComponentData.39b459379a2d.defaultValue=Selected
 
 # GUIComponentData.39b459379a2d.label=Start license server now 
-GUIComponentData.39b459379a2d.label=ライセンスサーバーを今すぐ開始する
+GUIComponentData.39b459379a2d.label=ライセンスサーバーを今すぐ開始する 
 
 # GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
 GUIComponentData.39b459389a2c.defaultValue=$SERVICE_NAME$
@@ -395,7 +395,7 @@ InstallBundle.ad1a6043b853.bundleName=ライセンスサーバー
 InstallBundle.ad1a6043b853.description=この操作によりライセンスサーバーのフィーチャーがインストールされます。
 
 # InstallCompleteActionConsole.ad1a5fe5b791.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
-InstallCompleteActionConsole.ad1a5fe5b791.message=$PRODUCT_NAME$ は、下記の場所に正常にインストールされました。\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.ad1a5fe5b791.message=おめでとうございます。 $PRODUCT_NAME$は、次の場所に正常にインストールされました。\n\n   $USER_INSTALL_DIR$
 
 # InstallCompleteActionConsole.ad1a5fe5b791.title=Installation Complete
 InstallCompleteActionConsole.ad1a5fe5b791.title=インストール完了
@@ -425,7 +425,7 @@ Installer.ad1a5eebb6d5.installLabels.00=ライセンスファイルを選択
 Installer.ad1a5eebb6d5.installLabels.01=ライセンスサーバーを更新
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.02=サービス構成
+Installer.ad1a5eebb6d5.installLabels.02=サービス構成 
 
 # Installer.ad1a5eebb6d5.installLabels.03=Pre-Installation Summary
 Installer.ad1a5eebb6d5.installLabels.03=プリインストールの要約
@@ -443,7 +443,7 @@ Installer.ad1a5eebb6d5.installLabels.06=はじめに
 Installer.ad1a5eebb6d5.installLabels.07=FlexNetライセンスサーバー構成
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=サービス構成
+Installer.ad1a5eebb6d5.installLabels.08=サービス構成 
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
 Installer.ad1a5eebb6d5.installLabels.09=インストールフォルダを選択
@@ -533,7 +533,7 @@ InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログを確認してください。
 
 # InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
-InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=$PRODUCT_NAME$ が下記の場所に正常にインストールされました:\n\n     $USER_INSTALL_DIR$\n\n[完了]をクリックして終了してください
+InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=おめでとうございます! $PRODUCT_NAME$は、次の場所に正常にインストールされました。\n\n     $USER_INSTALL_DIR$\n\n「完了」をクリックして、終了してください。
 
 # InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
 InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログを確認してください。
@@ -986,7 +986,7 @@ ShowDialogAction.2077f0c888a6.cancelButtonLabel=戻る
 ShowDialogAction.2077f0c888a6.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a6.label=Invalid license file.
-ShowDialogAction.2077f0c888a6.label=無効なライセンスファイルです
+ShowDialogAction.2077f0c888a6.label=無効なライセンスファイルです。
 
 # ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
 ShowDialogAction.2077f0c888a6.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
@@ -1004,7 +1004,7 @@ ShowDialogAction.2077f0c888a7.cancelButtonLabel=戻る
 ShowDialogAction.2077f0c888a7.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a7.label=Invalid license file.
-ShowDialogAction.2077f0c888a7.label=無効なライセンスファイルです
+ShowDialogAction.2077f0c888a7.label=無効なライセンスファイルです。
 
 # ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.2077f0c888a7.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
@@ -1022,7 +1022,7 @@ ShowDialogAction.2077f0c888a8.cancelButtonLabel=戻る
 ShowDialogAction.2077f0c888a8.detailsButtonLabel=詳細...
 
 # ShowDialogAction.2077f0c888a8.label=Invalid license file.
-ShowDialogAction.2077f0c888a8.label=無効なライセンスファイルです
+ShowDialogAction.2077f0c888a8.label=無効なライセンスファイルです。
 
 # ShowDialogAction.2077f0c888a8.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
 ShowDialogAction.2077f0c888a8.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$が変更されています。ポート番号を1999に設定してください。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
@@ -1292,7 +1292,7 @@ VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
 VariablePropertyDataBiDi.0755afcb8d2d.propertyName=製品名:
 
 # VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
-VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FlexNet ライセンスサーバー v$FLEX_VERSION_NUMBER$
+VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet ライセンスサーバー v$FLEX_VERSION_NUMBER$ 
 
 # VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=Product name:
 VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=製品名:

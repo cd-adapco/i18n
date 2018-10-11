@@ -59,7 +59,7 @@ ChooseFile.257d8095925b.prompt=ライセンスファイルの場所を選択し�
 ChooseFile.257d8095925b.stepTitle=ライセンスファイルを選択
 
 # ChooseFile.8571f4d08c44.additionalText=The database file is used by the Resource Server's administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=データベースファイルは、(必要に応じて)システムテンプレートやユーザー認証データなどのデータを保存するために、Resource Serverの管理者によって使用されます。\n\n作成するデータベースファイルの名前を入力してください。\n\n
+ChooseFile.8571f4d08c44.additionalText=データベースファイルは、(必要に応じて)システムテンプレートやユーザー認証データなどのデータを保存するために、リソースサーバーの管理者によって使用されます。\n\n作成するデータベースファイルの名前を入力してください。\n\n
 
 # ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
 ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_DB_FILE$
@@ -107,7 +107,7 @@ ChooseFolder.59b3a9e8ae16.prompt=STAR-CCM+のインストールフォルダを�
 ChooseFolder.59b3a9e8ae16.stepTitle=STAR-CCM+のインストールフォルダを選択
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Resource Server instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存のResource Serverインスタンスを選択してください。通常は、star/binフォルダにある既存のSTAR-CCM+インストールディレクトリにあります。
+ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存のリソースサーバーインスタンスを選択してください。通常は、star/binフォルダにある既存のSTAR-CCM+インストールディレクトリにあります。
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
 ChooseFolder.85678ebc8c0d.defaultFile=
@@ -116,7 +116,7 @@ ChooseFolder.85678ebc8c0d.defaultFile=
 ChooseFolder.85678ebc8c0d.prompt=フォルダを選択してください(&F):
 
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing Resource Server location
-ChooseFolder.85678ebc8c0d.stepTitle=既存のResource Serverの場所を選択します
+ChooseFolder.85678ebc8c0d.stepTitle=既存のリソースサーバーの場所を選択します
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
 CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
@@ -401,7 +401,7 @@ CreateShortcut.eba4b7c1a520.destinationName=サンプルシーンの表示
 CreateShortcut.eba4b7c1a520.workingDir=
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+DisplayMessage.731d4085b4cc.message=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、STAR-CCM+®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=インストール完了
@@ -1244,13 +1244,13 @@ GetUserInput.8209d5e08fc6.prompt=STAR-CCM+のインストール時に実行す�
 GetUserInput.8209d5e08fc6.title=追加タスクの選択
 
 # GetUserInput.856fd80c8c32.prompt=Users of Resource Server must have an account on the operating system. Resource Server is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=Resource Serverのユーザーには、オペレーティングシステムのアカウントが必要です。Resource Serverは、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか？
+GetUserInput.856fd80c8c32.prompt=リソースサーバーのユーザーには、オペレーティングシステムのアカウントが必要です。リソースサーバーは、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか？
 
 # GetUserInput.856fd80c8c32.title=Resource Server Configuration
-GetUserInput.856fd80c8c32.title=Resource Server構成
+GetUserInput.856fd80c8c32.title=リソースサーバー構成
 
 # GetUserInput.8575cd2c96c8.prompt=Please enter information about where the Resource Server will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the Resource Server. \n\n
-GetUserInput.8575cd2c96c8.prompt=Resource Serverの実行先の情報を入力してください。\n\nホスト名は、Resource Serverへの接続が想定されている任意のクライアントで解決される必要があります。\n\n
+GetUserInput.8575cd2c96c8.prompt=リソースサーバーの実行先の情報を入力してください。\n\nホスト名は、リソースサーバーへの接続が想定されている任意のクライアントで解決される必要があります。\n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
 GetUserInput.8575cd2c96c8.title=サーバーの選択
@@ -1262,13 +1262,13 @@ GetUserInput.85775f8d96d5.prompt=ログインノードとリソースグルー�
 GetUserInput.85775f8d96d5.title=ログインノードの名前
 
 # GetUserInput.8578411b96e0.prompt=Please select the SSL Certificate and Private Key to be used by Resource Server
-GetUserInput.8578411b96e0.prompt=Resource Serverで使用するSSL証明書と秘密鍵を選択してください
+GetUserInput.8578411b96e0.prompt=リソースサーバーで使用するSSL証明書と秘密鍵を選択してください
 
 # GetUserInput.8578411b96e0.title=SSL certificate selection
 GetUserInput.8578411b96e0.title=SSL証明書の選択
 
 # GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer Resource Server:
-GetUserInput.8fe4e9e8b4a1.prompt=Resource Serverを管理するアカウントのユーザー名を入力してください。
+GetUserInput.8fe4e9e8b4a1.prompt=リソースサーバーを管理するアカウントのユーザー名を入力してください。
 
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
 GetUserInput.8fe4e9e8b4a1.title=管理者ユーザー名
@@ -1601,13 +1601,13 @@ GUIComponentData.857a41eba144.label=リソースグループの名前
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
 # GUIComponentData.8fe1749ab49d.label=Configure new Resource Server
-GUIComponentData.8fe1749ab49d.label=新しいResource Serverの構成
+GUIComponentData.8fe1749ab49d.label=新しいリソースサーバーの構成
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe180d9b49d.label=Upgrade existing Resource Server
-GUIComponentData.8fe180d9b49d.label=既存のResource Serverのアップグレード
+GUIComponentData.8fe180d9b49d.label=既存のリソースサーバーのアップグレード
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
@@ -1862,31 +1862,31 @@ InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.description=STAR-CCM+パッケージの実行に必要なすべてのファイルをインストールします。
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=\n\n$PRODUCT_NAME$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.7317fed1a37e.message=おめでとうございます:\n\n$PRODUCT_NAME$ソフトウェア$WINDOWS_TYPE$は、正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、STAR-CCM+®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=インストール完了
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $PRODUCT_NAME$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=\n\n$PRODUCT_NAME$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd89f531898a.message=おめでとうございます:\n\n$PRODUCT_NAME$ソフトウェア$WINDOWS_TYPE$は、正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、STAR-CCM+®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=インストール完了
 
 # InstallCompleteActionConsole.bd8dd38c946b.message=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8dd38c946b.message=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd8dd38c946b.message=おめでとうございます:\n\nSTAR-CAD $CAD_VERSION$ソフトウェア$WINDOWS_TYPE$は、正常にインストールされました。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8dd38c946b.title=Install Complete
 InstallCompleteActionConsole.bd8dd38c946b.title=インストール完了
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+InstallCompleteActionConsole.bd8f22d0980e.message=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=インストール完了
 
 # InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
-InstallCompleteActionConsole.bd93643ba2ed.message=\n\nFLEXNet $FLEXlmVERSION$が正常にインストールされました。\n\n\n
+InstallCompleteActionConsole.bd93643ba2ed.message=おめでとうございます:\n\nFLEXNet $FLEXlmVERSION$は、正常にインストールされました。\n\n\n
 
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=インストール完了
@@ -2021,7 +2021,7 @@ Installer.850018e38424.installLabels.21=インストールフォルダを選択
 Installer.850018e38424.installLabels.22=インストールフォルダを選択
 
 # Installer.850018e38424.installLabels.23=Select existing Resource Server location
-Installer.850018e38424.installLabels.23=既存のResource Serverの場所を選択します
+Installer.850018e38424.installLabels.23=既存のリソースサーバーの場所を選択します
 
 # Installer.850018e38424.installLabels.24=Select Installation Location
 Installer.850018e38424.installLabels.24=インストールフォルダを選択
@@ -2114,7 +2114,7 @@ InstallFinishAction.12ff4db9947b.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.12ff4db9947b.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
-InstallFinishAction.12ff4db9947b.installSuccessMessage=\n\nFLEXNet $FLEXlmVERSION$が正常にインストールされました。\n\n［完了］をクリックするとインストーラは終了します。
+InstallFinishAction.12ff4db9947b.installSuccessMessage=おめでとうございます:\n\nFLEXNet $FLEXlmVERSION$は、正常にインストールされました。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.12ff4db9947b.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -2141,7 +2141,7 @@ InstallFinishAction.31554a9699e3.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.31554a9699e3.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.31554a9699e3.installSuccessMessage=\n\nSTAR-CAD $CAD_VERSION$$WINDOWS_TYPE$が正常にインストールされました。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n［完了］をクリックするとインストーラが終了します。
+InstallFinishAction.31554a9699e3.installSuccessMessage=おめでとうございます:\n\nSTAR-CAD $CAD_VERSION$ソフトウェア$WINDOWS_TYPE$は、正常にインストールされました。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.31554a9699e3.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -2168,7 +2168,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.850018e3843a.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$が正常にインストールされました。デフォルトインストールの場合には、デスクトップ上にショートカットが作成されています。インストールプログラムの終了後、このショートカットからSTAR-CCM+®を起動できます。ご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します。
+InstallFinishAction.850018e3843a.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、STAR-CCM+®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -2195,7 +2195,7 @@ InstallFinishAction.bbeaa35cb859.installErrorMessage=$PRODUCT_NAME$のインス�
 InstallFinishAction.bbeaa35cb859.installFatalMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=\n\n$INSTALLER_TITLE$$WINDOWS_TYPE$は、下記の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n[完了]をクリックすると、インストールプログラムが終了します
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$PRODUCT_NAME$のインストールは終了しましたが、インストール中に警告が発生しました。詳細は、インストールログ($USER_INSTALL_DIR$$prop.file.separator$$PRODUCT_NAME$_InstallLog.log)を確認してください。
@@ -2804,13 +2804,13 @@ ShowDialogAction.00ba7f0290e5.cancelButtonLabel=キャンセル
 ShowDialogAction.00ba7f0290e5.detailsButtonLabel=詳細...
 
 # ShowDialogAction.00ba7f0290e5.label=Resource Server Installation Not Found
-ShowDialogAction.00ba7f0290e5.label=Resource Serverのインストールが見つかりませんでした
+ShowDialogAction.00ba7f0290e5.label=リソースサーバーのインストールが見つかりませんでした
 
 # ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where Resource Server is installed.
-ShowDialogAction.00ba7f0290e5.narrative=Resource Serverがインストールされている場所を選択し直してください。
+ShowDialogAction.00ba7f0290e5.narrative=リソースサーバーがインストールされている場所を選択し直してください。
 
 # ShowDialogAction.00ba7f0290e5.title=Resource Server Installation Not Found
-ShowDialogAction.00ba7f0290e5.title=Resource Serverのインストールが見つかりませんでした
+ShowDialogAction.00ba7f0290e5.title=リソースサーバーのインストールが見つかりませんでした
 
 # ShowDialogAction.00be631590fb.buttonLabel=OK
 ShowDialogAction.00be631590fb.buttonLabel=OK
@@ -3272,7 +3272,7 @@ ShowDialogAction.653ab69e9640.cancelButtonLabel=戻る
 ShowDialogAction.653ab69e9640.detailsButtonLabel=詳細...
 
 # ShowDialogAction.653ab69e9640.label=Invalid license file.
-ShowDialogAction.653ab69e9640.label=無効なライセンスファイルです
+ShowDialogAction.653ab69e9640.label=無効なライセンスファイルです。
 
 # ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
 ShowDialogAction.653ab69e9640.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
@@ -3290,7 +3290,7 @@ ShowDialogAction.653c263b9ee1.cancelButtonLabel=戻る
 ShowDialogAction.653c263b9ee1.detailsButtonLabel=詳細...
 
 # ShowDialogAction.653c263b9ee1.label=Invalid license file.
-ShowDialogAction.653c263b9ee1.label=無効なライセンスファイルです
+ShowDialogAction.653c263b9ee1.label=無効なライセンスファイルです。
 
 # ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.653c263b9ee1.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
@@ -3416,7 +3416,7 @@ ShowDialogAction.935897e9965b.cancelButtonLabel=戻る
 ShowDialogAction.935897e9965b.detailsButtonLabel=詳細...
 
 # ShowDialogAction.935897e9965b.label=Invalid license file.
-ShowDialogAction.935897e9965b.label=無効なライセンスファイルです
+ShowDialogAction.935897e9965b.label=無効なライセンスファイルです。
 
 # ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
 ShowDialogAction.935897e9965b.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$が変更されています。ポート番号を1999に設定してください。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
