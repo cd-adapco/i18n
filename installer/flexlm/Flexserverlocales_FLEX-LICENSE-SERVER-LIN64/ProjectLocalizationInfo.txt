@@ -18,9 +18,9 @@
 #     The relationships described above can be used to help identify the correct
 #     property to configure an object when working with the custom_xx files.
 #
-# Product Name: FlexNet License Server
+# Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Tue Jul 24 15:20:00 PDT 2018
+# Generated:    Wed Oct 24 14:50:00 PDT 2018
 
 
 ---- PRE-INSTALL ACTIONS ----
@@ -41,6 +41,8 @@
    |-- EditVariableTable.0623482cbc97 (NoEP)
    |-- EditVariableTable.0acca0d88dfb (NoEP)
    |-- EditVariableTable.0b244415b84d (NoEP)
+   |-- EditVariableTable.a1e7f26d9276 (NoEP)
+   |-- EditVariableTable.bb200d77926b (NoEP)
 -- ActionGroup.0f0ba24f9912 (NoEP)
    |-- CustomAction.06209ebabc8e (NoEP)
    |-- ShowDialogAction.ad1a5efbb6f3
@@ -158,6 +160,7 @@
    |   |-- GetUserInputConsole.34b7925f9b96
    |   |   +-- EntryAtomNonBiDi.34b7925f9b97
    |   |-- EditVariableTable.2077f0c888a1 (NoEP)
+   |   |-- EditVariableTable.e1da3d6f8631 (NoEP)
    |   |-- JumpLabel.2077f0c788a3 (NoEP)
    |   |-- ChooseFile.2077f0c888a3
    |   |   +-- Help.3453fa968eb2
@@ -206,22 +209,19 @@
    |   |-- Comment.397489c89f02 (NoEP)
    |   |-- EditMultipleVariables.2077f0ca88b8 (NoEP)
    |-- CustomAction.2077f0ca88ba (NoEP)
--- EditVariableTable.6b113d59baf2 (NoEP)
 -- InstallSummary.ad1a5fa6b729
    +-- VariablePropertyDataBiDi.0755afcb8d2d
    +-- Help.ad1a5fa6b72a
 -- InstallSummaryConsole.ad1a5fa6b72b
    +-- VariablePropertyDataNonBiDi.07575a6c8fc1
 -- EditVariableTable.06109602a9e8 (NoEP)
+-- EditVariableTable.bb75a33d9272 (NoEP)
 
 
 ---- POST-INSTALL ACTIONS ----
 -- InstallFinishAction.ad1a5fe5b78f
    +-- Help.ad1a5fe5b790
 -- InstallCompleteActionConsole.ad1a5fe5b791
--- ActionGroup.3991a198b9b4 (NoEP)
-   |-- ExecuteScript.3991a198b9b5
-   |-- ExecuteScript.39af73db90dc
 
 
 ---- PRE-UNINSTALL ACTIONS ----
@@ -259,30 +259,32 @@
    |-- OSHost.ad1a6063b8ad (NoEP)
    |   |-- GhostDirectory.ad1a6063b8ae (NoEP)
    |   |   |-- ActionGroup.0ac1d8578451 (NoEP)
-   |   |       |-- ActionGroup.1faba93dbf1a (NoEP)
-   |   |           |-- EditEnvironment.1faba940bf1a
-   |   |           |-- ExecuteScript.1faba93fbf1b
-   |   |           |-- ASCIIFileManipulator.1faba93ebf1e
-   |   |           |-- ActionGroup.1faba93ebf20 (NoEP)
-   |   |           |   |-- ExecuteScript.1faba93fbf20
-   |   |           |   |-- ExecuteScript.1faba93ebf21
-   |   |           |-- ExecuteScript.1faba93fbf21
-   |   |           |-- ExecuteScript.1faba940bf23
-   |   |           |-- ExecuteScript.1faba940bf26
-   |   |           |-- ExecuteScript.1faba940bf28
-   |   |           |-- NTServiceController.1faba93fbf2a
-   |   |           |-- ExecuteScript.1faba940bf2c
-   |   |           |-- ExecuteScript.1faba93fbf2f
-   |   |           |-- ShowDialogAction.1faba940bf32
-   |   |           |-- ExecuteScript.1faba940bf39
-   |   |           |-- ExecuteScript.1faba941bf3a
+   |   |   |   |-- ActionGroup.1faba93dbf1a (NoEP)
+   |   |   |       |-- EditEnvironment.1faba940bf1a
+   |   |   |       |-- ExecuteScript.1faba93fbf1b
+   |   |   |       |-- ASCIIFileManipulator.1faba93ebf1e
+   |   |   |       |-- ActionGroup.1faba93ebf20 (NoEP)
+   |   |   |       |   |-- ExecuteScript.1faba93fbf20
+   |   |   |       |   |-- ExecuteScript.1faba93ebf21
+   |   |   |       |-- ExecuteScript.1faba93fbf21
+   |   |   |       |-- ExecuteScript.1faba940bf23
+   |   |   |       |-- ExecuteScript.1faba940bf26
+   |   |   |       |-- ExecuteScript.1faba940bf28
+   |   |   |       |-- NTServiceController.1faba93fbf2a
+   |   |   |       |-- ExecuteScript.1faba940bf2c
+   |   |   |       |-- ExecuteScript.1faba93fbf2f
+   |   |   |       |-- ShowDialogAction.1faba940bf32
+   |   |   |       |-- ExecuteScript.1faba940bf39
+   |   |   |       |-- ExecuteScript.1faba941bf3a
+   |   |   |-- InstallDirectory.bb67b3f7a223 (NoEP)
+   |   |   |   |-- InstallUninstaller.ad1a6042b859
+   |   |   |-- ActionGroup.31a0c733beb5 (NoEP)
+   |   |       |-- MakeRegEntry.31a26847bf41
+   |   |       |-- MakeRegEntry.bb1edfbf926b
+   |   |       |-- MakeRegEntry.bb20ba1f926b
    |   |-- GhostDirectory.33dbfcd6acfd (NoEP)
    |   |   |-- CreateShortcut.33e0c07bb75c
    |   |   |-- CreateShortcut.63475501aee6
-   |   |-- GhostDirectory.3d9a87b6afb3 (NoEP)
-   |   |   |-- InstallUninstaller.ad1a6042b859
-   |   |   |-- ActionGroup.31a0c733beb5 (NoEP)
-   |   |       |-- MakeRegEntry.31a26847bf41
    |-- UninstallCategory.ad1a6034b835
    |-- UninstallCategory.ad1a6034b837
    |-- UninstallCategory.ad1a6034b839
