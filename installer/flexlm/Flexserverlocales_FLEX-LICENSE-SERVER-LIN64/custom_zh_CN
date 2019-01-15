@@ -17,9 +17,9 @@
 #     that cannot be represented by ASCII characters should be written using escaped unicode.
 #     - see the utility 'native2ascii' distributed with your JDK
 #
-# Product Name: FlexNet License Server
+# Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Tue Jul 24 15:20:00 PDT 2018
+# Generated:    Tue Nov 13 14:09:53 PST 2018
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -67,8 +67,8 @@ CreateShortcut.63475501aee6.destinationName=FLEXNet 许可证管理工具
 # CreateShortcut.63475501aee6.workingDir=
 CreateShortcut.63475501aee6.workingDir=
 
-# EditEnvironment.1faba940bf1a.value=$cdadapco_LICENSE_FILE$
-EditEnvironment.1faba940bf1a.value=$cdadapco_LICENSE_FILE$
+# EditEnvironment.1faba940bf1a.value=$ccm_LICENSE_FILE$
+EditEnvironment.1faba940bf1a.value=$ccm_LICENSE_FILE$
 
 # EntryAtomBiDi.20452175b525.label=Stop server now
 EntryAtomBiDi.20452175b525.label=立即停止服务器
@@ -214,12 +214,6 @@ ExecuteScript.34aa2a9091ec.dialogLabel=正在检查许可证服务...
 # ExecuteScript.34aa2a9091ec.title=
 ExecuteScript.34aa2a9091ec.title=
 
-# ExecuteScript.3991a198b9b5.title=
-ExecuteScript.3991a198b9b5.title=
-
-# ExecuteScript.39af73db90dc.title=
-ExecuteScript.39af73db90dc.title=
-
 # ExecuteScript.ad1a5f0ab718.title=
 ExecuteScript.ad1a5f0ab718.title=
 
@@ -256,14 +250,14 @@ GetUserInput.ad1a5f0ab70b.prompt=要更新以前的 FlexNet 许可证服务器,�
 # GetUserInput.ad1a5f0ab70b.title=Update License Server 
 GetUserInput.ad1a5f0ab70b.title=更新许可证服务器
 
-# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
-GetUserInputConsole.3476a6ad92bb.prompt=请输入包含许可证文件的目录，您之前应已通过电子邮件从 Cd-adapco 接收到该许可证文件，并已保存到您的计算机上。
+# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
+GetUserInputConsole.3476a6ad92bb.prompt=请输入包含许可证文件的目录，您之前应已通过电子邮件从 $REGISTRY_COMPANY_NAME$ 接收到该许可证文件，并已保存到您的计算机上。
 
 # GetUserInputConsole.3476a6ad92bb.title=Select license file directory
 GetUserInputConsole.3476a6ad92bb.title=选择许可证文件目录
 
-# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from CD-adapco via email, and downloaded onto your computer. 
-GetUserInputConsole.3479ecd19ef9.prompt=请输入许可证文件名，您之前应已通过电子邮件从 Cd-adapco 接收到该许可证文件，并已保存到您的计算机上。
+# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
+GetUserInputConsole.3479ecd19ef9.prompt=请输入许可证文件名，您之前应已通过电子邮件从 $REGISTRY_COMPANY_NAME$ 接收到该许可证文件，并已保存到您的计算机上。
 
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=选择许可证文件名
@@ -403,8 +397,8 @@ InstallCompleteActionConsole.ad1a5fe5b791.title=安装完成
 # InstallDirAction.ad1a5efab6fa.additionalText=
 InstallDirAction.ad1a5efab6fa.additionalText=
 
-# InstallDirAction.ad1a5efab6fa.prompt=&Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
-InstallDirAction.ad1a5efab6fa.prompt=您要将 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 安装到什么位置？(&W)
+# InstallDirAction.ad1a5efab6fa.prompt=&Where Would You Like to Install $INSTALLER_TITLE$?
+InstallDirAction.ad1a5efab6fa.prompt=想要在哪里安装 $INSTALLER_TITLE$(&W)？
 
 # InstallDirAction.ad1a5efab6fa.stepTitle=Select Install Location
 InstallDirAction.ad1a5efab6fa.stepTitle=选择安装位置
@@ -412,8 +406,8 @@ InstallDirAction.ad1a5efab6fa.stepTitle=选择安装位置
 # InstallDirActionConsole.ad1a5efab6fc.additionalText=
 InstallDirActionConsole.ad1a5efab6fc.additionalText=
 
-# InstallDirActionConsole.ad1a5efab6fc.prompt=Where Would You Like to Install $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ ?
-InstallDirActionConsole.ad1a5efab6fc.prompt=您要将 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 安装到什么位置？
+# InstallDirActionConsole.ad1a5efab6fc.prompt=Where Would You Like to Install $PRODUCT_NAME$ ?
+InstallDirActionConsole.ad1a5efab6fc.prompt=想要在哪里安装 $PRODUCT_NAME$？
 
 # InstallDirActionConsole.ad1a5efab6fc.stepTitle=Select Install Location
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=选择安装位置
@@ -496,47 +490,47 @@ Installer.ad1a5eebb6d5.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
 # Installer.ad1a5eebb6d5.splashScreenGUIInstructions=Select the language to use during installation
 Installer.ad1a5eebb6d5.splashScreenGUIInstructions=在安装过程中选择要使用的语言
 
-# Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet License Server
-Installer.ad1a5eebb6d5.splashScreenGUITitle=FlexNet 许可证服务器
+# Installer.ad1a5eebb6d5.splashScreenGUITitle=$INSTALLER_TITLE$
+Installer.ad1a5eebb6d5.splashScreenGUITitle=$INSTALLER_TITLE$
 
-# InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
-InstallerInfoData.ad1a6005b7f8.email=support@cd-adapco.com
+# InstallerInfoData.ad1a6005b7f8.email=
+InstallerInfoData.ad1a6005b7f8.email=
 
 # InstallerInfoData.ad1a6005b7f8.installerName=FlexNet License Server
 InstallerInfoData.ad1a6005b7f8.installerName=FlexNet 许可证服务器
 
-# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server
-InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet 许可证服务器
+# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server ® $FLEX_VERSION_NUMBER$
+InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet 许可证服务器 ® $FLEX_VERSION_NUMBER$
 
 # InstallerInfoData.ad1a6005b7f8.productDescription=
 InstallerInfoData.ad1a6005b7f8.productDescription=
 
-# InstallerInfoData.ad1a6005b7f8.productName=FlexNet License Server
-InstallerInfoData.ad1a6005b7f8.productName=FlexNet 许可证服务器
+# InstallerInfoData.ad1a6005b7f8.productName=FlexNet License Server $FLEX_VERSION_NUMBER$
+InstallerInfoData.ad1a6005b7f8.productName=FlexNet 许可证服务器 $FLEX_VERSION_NUMBER$
 
-# InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
-InstallerInfoData.ad1a6005b7f8.productURL=http://www.cd-adapco.com/products/star_ccm_plus/
+# InstallerInfoData.ad1a6005b7f8.productURL=
+InstallerInfoData.ad1a6005b7f8.productURL=
 
-# InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
-InstallerInfoData.ad1a6005b7f8.supportURL=http://cd-adapco.com/support
+# InstallerInfoData.ad1a6005b7f8.supportURL=
+InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
-InstallerInfoData.ad1a6005b7f8.vendorName=CD-adapco
+# InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
+InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
 
-# InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
-InstallerInfoData.ad1a6005b7f8.vendorURL=http://www.cd-adapco.com/
+# InstallerInfoData.ad1a6005b7f8.vendorURL=
+InstallerInfoData.ad1a6005b7f8.vendorURL=
 
-# InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $PRODUCT_NAME$ is finished, but some errors occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志。
+# InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志。
 
-# InstallFinishAction.ad1a5fe5b78f.installFatalMessage=The installation of $PRODUCT_NAME$ is finished, but some serious errors occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志。
+# InstallFinishAction.ad1a5fe5b78f.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志。
 
-# InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $PRODUCT_NAME$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
-InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=祝贺！已将 $PRODUCT_NAME$ 成功安装到：\n\n     $USER_INSTALL_DIR$\n\n请按“完成”退出
+# InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $INSTALLER_TITLE$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
+InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=祝贺！已将 $INSTALLER_TITLE$ 成功安装到：\n\n     $USER_INSTALL_DIR$\n\n请按“完成”退出
 
-# InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $PRODUCT_NAME$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
-InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$PRODUCT_NAME$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志。
+# InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
+InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志。
 
 # InstallFinishAction.ad1a5fe5b78f.launchText=
 InstallFinishAction.ad1a5fe5b78f.launchText=
@@ -556,8 +550,8 @@ InstallFinishAction.ad1a5fe5b78f.windowTitle=安装完成
 # InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=Configure $PRODUCT_NAME$
 InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=配置 $PRODUCT_NAME$
 
-# InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=Uninstall $PRODUCT_NAME$
-InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=卸载 $PRODUCT_NAME$
+# InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=Uninstall $INSTALLER_TITLE$
+InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=卸载 $INSTALLER_TITLE$
 
 # InstallSet.ad1a6004b7f4.description=Choose this option to customize the features to be installed.
 InstallSet.ad1a6004b7f4.description=选择此选项自定义要安装的功能。
@@ -598,26 +592,26 @@ InstallSummaryConsole.ad1a5fa6b72b.title=预安装摘要
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
 InstallUninstaller.ad1a6042b859.destinationName=卸载 $PRODUCT_NAME$
 
-# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
-IntroAction.102ce4b4ba3c.message=安装程序向导将指引您完成 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows 服务安装的任何许可证服务器并删除这些服务\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
+# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+IntroAction.102ce4b4ba3c.message=安装程序向导将指引您完成 $INSTALLER_TITLE$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows 服务安装的任何许可证服务器并移除这些服务\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
 
 # IntroAction.102ce4b4ba3c.stepTitle=Introduction
 IntroAction.102ce4b4ba3c.stepTitle=介绍
 
-# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
-IntroAction.ad1a5eecb6e5.message=安装程序向导将指引您完成 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 的安装\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
+# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
+IntroAction.ad1a5eecb6e5.message=安装程序向导将指引您完成 $INSTALLER_TITLE$ 的安装\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
 
 # IntroAction.ad1a5eecb6e5.stepTitle=Introduction
 IntroAction.ad1a5eecb6e5.stepTitle=介绍
 
-# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
-IntroActionConsole.1033584988cf.message=安装程序向导将指引您完成 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows S服务安装的任何许可证服务器并删除这些服务\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“退出”按钮随时取消此安装。
+# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.1033584988cf.message=安装程序向导将指引您完成 $PRODUCT_NAME$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows S服务安装的任何许可证服务器并移除这些服务\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“退出”按钮随时取消此安装。
 
 # IntroActionConsole.1033584988cf.title=Introduction
 IntroActionConsole.1033584988cf.title=介绍
 
-# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
-IntroActionConsole.ad1a5eecb6e8.message=安装程序向导将指引您完成 $PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$ 的安装\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“取消”按钮随时取消此安装。
+# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+IntroActionConsole.ad1a5eecb6e8.message=安装程序向导将指引您完成 $PRODUCT_NAME$ 的安装\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“退出”按钮随时取消此安装。
 
 # IntroActionConsole.ad1a5eecb6e8.title=Introduction
 IntroActionConsole.ad1a5eecb6e8.title=介绍
@@ -631,8 +625,26 @@ MakeRegEntry.31a26847bf41.value=_SOFTWARE_MAJOR_VERSION_NUMBER_._SOFTWARE_MINOR_
 # MakeRegEntry.31a26847bf41.valueName=DisplayVersion
 MakeRegEntry.31a26847bf41.valueName=DisplayVersion
 
-# PromptUserConsole.1059980780b1.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
-PromptUserConsole.1059980780b1.message=已安装有 FlexNet 许可证服务器。您要覆盖吗？（默认时覆盖）
+# MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
+MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
+
+# MakeRegEntry.bb1edfbf926b.valueName=DisplayName
+MakeRegEntry.bb1edfbf926b.valueName=DisplayName
+
+# MakeRegEntry.bb20ba1f926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.bb20ba1f926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.bb20ba1f926b.value=$USER_INSTALL_DIR$\\starfish.ico
+MakeRegEntry.bb20ba1f926b.value=$USER_INSTALL_DIR$\\starfish.ico
+
+# MakeRegEntry.bb20ba1f926b.valueName=DisplayIcon
+MakeRegEntry.bb20ba1f926b.valueName=DisplayIcon
+
+# PromptUserConsole.1059980780b1.message=There is already an installation of FlexNet License Server Manager. Do you want to overwrite? (By default overwritten)
+PromptUserConsole.1059980780b1.message=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？（默认覆盖）
 
 # PromptUserConsole.1059980780b1.option0Label=YES
 PromptUserConsole.1059980780b1.option0Label=是
@@ -646,8 +658,8 @@ PromptUserConsole.1059980780b1.option2Label=详情...
 # PromptUserConsole.1059980780b1.title=Error
 PromptUserConsole.1059980780b1.title=错误
 
-# PromptUserConsole.1059efcb80b7.message=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? (By default overwritten)
-PromptUserConsole.1059efcb80b7.message=已安装有 FlexNet 许可证服务器。您要覆盖吗？（默认时覆盖）
+# PromptUserConsole.1059efcb80b7.message=There is already an installation of FlexNet License Server Manager. Do you want to overwrite? (By default overwritten)
+PromptUserConsole.1059efcb80b7.message=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？（默认覆盖）
 
 # PromptUserConsole.1059efcb80b7.option0Label=YES
 PromptUserConsole.1059efcb80b7.option0Label=是
@@ -796,36 +808,6 @@ PromptUserConsole.34b4ce729738.option2Label=详情...
 # PromptUserConsole.34b4ce729738.title=Warning: Outdated license server based on lmadmin detected on this machine
 PromptUserConsole.34b4ce729738.title=警告：在本机上检测到基于 lmadmin 的过期许可证服务器
 
-# PromptUserConsole.34bc8b0a9d6a.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-PromptUserConsole.34bc8b0a9d6a.message=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n请选择“保留”以保留现有许可证服务器或选择“升级”，以允许安装程序更新许可证服务器服务。\n\n如果选择“保留”，则在运行软件之前需要手动升级许可证服务器。
-
-# PromptUserConsole.34bc8b0a9d6a.option0Label=Next
-PromptUserConsole.34bc8b0a9d6a.option0Label=下一步
-
-# PromptUserConsole.34bc8b0a9d6a.option1Label=Previous
-PromptUserConsole.34bc8b0a9d6a.option1Label=上一步
-
-# PromptUserConsole.34bc8b0a9d6a.option2Label=Details...
-PromptUserConsole.34bc8b0a9d6a.option2Label=详情...
-
-# PromptUserConsole.34bc8b0a9d6a.title=Warning: Outdated license server detected on this machine
-PromptUserConsole.34bc8b0a9d6a.title=警告：在本机上检测到过期许可证服务器
-
-# PromptUserConsole.34bd6f509d6c.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-PromptUserConsole.34bd6f509d6c.message=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
-
-# PromptUserConsole.34bd6f509d6c.option0Label=Next
-PromptUserConsole.34bd6f509d6c.option0Label=下一步
-
-# PromptUserConsole.34bd6f509d6c.option1Label=Previous
-PromptUserConsole.34bd6f509d6c.option1Label=上一步
-
-# PromptUserConsole.34bd6f509d6c.option2Label=Details...
-PromptUserConsole.34bd6f509d6c.option2Label=详情...
-
-# PromptUserConsole.34bd6f509d6c.title=Warning: Outdated license server based on lmadmin detected on this machine
-PromptUserConsole.34bd6f509d6c.title=警告：在本机上检测到基于 lmadmin 的过期许可证服务器
-
 # PromptUserConsole.ad1a5efbb6f6.message=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
 PromptUserConsole.ad1a5efbb6f6.message=需要拥有管理员权限才能配置许可证服务器。请用管理员权限运行此安装程序
 
@@ -895,8 +877,8 @@ ShowDialogAction.109444a18da8.cancelButtonLabel=否
 # ShowDialogAction.109444a18da8.detailsButtonLabel=Details...
 ShowDialogAction.109444a18da8.detailsButtonLabel=详情...
 
-# ShowDialogAction.109444a18da8.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite? 
-ShowDialogAction.109444a18da8.label=已安装有 FlexNet 许可证服务器。您要覆盖吗？
+# ShowDialogAction.109444a18da8.label=There is already an installation of FlexNet License Server Manager. Do you want to overwrite? 
+ShowDialogAction.109444a18da8.label=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？
 
 # ShowDialogAction.109444a18da8.narrative= 
 ShowDialogAction.109444a18da8.narrative= 
@@ -914,7 +896,7 @@ ShowDialogAction.1094478f8dad.cancelButtonLabel=否
 ShowDialogAction.1094478f8dad.detailsButtonLabel=详情...
 
 # ShowDialogAction.1094478f8dad.label=There is already an installation of  FlexNet  License Server Manager . Do you want to overwrite?
-ShowDialogAction.1094478f8dad.label=已安装有 FlexNet 许可证服务器。您要覆盖吗？
+ShowDialogAction.1094478f8dad.label=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？
 
 # ShowDialogAction.1094478f8dad.narrative= 
 ShowDialogAction.1094478f8dad.narrative= 
@@ -1084,42 +1066,6 @@ ShowDialogAction.2077f0c988ab.narrative=在本机上检测到 v$RUNNING_CDLMD_VE
 # ShowDialogAction.2077f0c988ab.title=Warning: License server
 ShowDialogAction.2077f0c988ab.title=警告：许可证服务器
 
-# ShowDialogAction.34545c2196a8.buttonLabel=Upgrade
-ShowDialogAction.34545c2196a8.buttonLabel=升级
-
-# ShowDialogAction.34545c2196a8.cancelButtonLabel=Keep
-ShowDialogAction.34545c2196a8.cancelButtonLabel=保留
-
-# ShowDialogAction.34545c2196a8.detailsButtonLabel=Details...
-ShowDialogAction.34545c2196a8.detailsButtonLabel=详情...
-
-# ShowDialogAction.34545c2196a8.label=Outdated license server detected on this machine
-ShowDialogAction.34545c2196a8.label=在本机上检测到过期许可证服务器
-
-# ShowDialogAction.34545c2196a8.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.34545c2196a8.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n请选择“保留”以保留现有许可证服务器或选择“升级”，以允许安装程序更新许可证服务器服务。\n\n如果选择“保留”，则在运行软件之前需要手动升级许可证服务器。
-
-# ShowDialogAction.34545c2196a8.title=Warning: License server
-ShowDialogAction.34545c2196a8.title=警告：许可证服务器
-
-# ShowDialogAction.34551595a0b2.buttonLabel=OK
-ShowDialogAction.34551595a0b2.buttonLabel=确定
-
-# ShowDialogAction.34551595a0b2.cancelButtonLabel=Keep
-ShowDialogAction.34551595a0b2.cancelButtonLabel=保留
-
-# ShowDialogAction.34551595a0b2.detailsButtonLabel=Details...
-ShowDialogAction.34551595a0b2.detailsButtonLabel=详情...
-
-# ShowDialogAction.34551595a0b2.label=Outdated license server based on lmadmin detected on this machine
-ShowDialogAction.34551595a0b2.label=在本机上检测到基于 lmadmin 的过时的许可证服务器
-
-# ShowDialogAction.34551595a0b2.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.34551595a0b2.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
-
-# ShowDialogAction.34551595a0b2.title=Warning: License server
-ShowDialogAction.34551595a0b2.title=警告：许可证服务器
-
 # ShowDialogAction.34aac81b91f4.buttonLabel=OK
 ShowDialogAction.34aac81b91f4.buttonLabel=确定
 
@@ -1264,14 +1210,14 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=无法卸载 $PRODUCT
 # UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
 UninstallCompleteActionConsole.ad1a6034b834.title=卸载完成
 
-# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
-UninstallIntroAction.ad1a6014b7ff.message=即将卸载...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
+# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$ \n
+UninstallIntroAction.ad1a6014b7ff.message=即将卸载...\n\n$INSTALLER_TITLE$ \n
 
-# UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $PRODUCT_NAME$
-UninstallIntroAction.ad1a6014b7ff.stepTitle=卸载 $PRODUCT_NAME$
+# UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
+UninstallIntroAction.ad1a6014b7ff.stepTitle=卸载 $INSTALLER_TITLE$
 
-# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
-UninstallIntroActionConsole.ad1a6014b801.message=即将卸载...\n\n$PRODUCT_NAME$ v$FLEX_VERSION_NUMBER$\n
+# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ \n
+UninstallIntroActionConsole.ad1a6014b801.message=即将卸载...\n\n$PRODUCT_NAME$ \n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
 UninstallIntroActionConsole.ad1a6014b801.stepTitle=卸载 $PRODUCT_NAME$
@@ -1283,7 +1229,7 @@ VariablePropertyDataBiDi.074b4517ba31.propertyName=安装目录：
 VariablePropertyDataBiDi.074b4517ba31.propertyValue=$STAR_DIRTMP$
 
 # VariablePropertyDataBiDi.074df9a6bcc1.propertyName=License server:
-VariablePropertyDataBiDi.074df9a6bcc1.propertyName=许可证服务器:
+VariablePropertyDataBiDi.074df9a6bcc1.propertyName=许可证服务器：
 
 # VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
 VariablePropertyDataBiDi.074df9a6bcc1.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
@@ -1306,9 +1252,9 @@ VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=安装目录：
 # VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataNonBiDi.075837aa8fc6.propertyValue=$STAR_DIRTMP$
 
-# VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=License server:
-VariablePropertyDataNonBiDi.07591bef8fcc.propertyName=许可证服务器:
+# VariablePropertyDataNonBiDi.a1dc04339267.propertyName=License server:
+VariablePropertyDataNonBiDi.a1dc04339267.propertyName=许可证服务器：
 
-# VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
-VariablePropertyDataNonBiDi.07591bef8fcc.propertyValue=$LIC_PORT_NUMBER$@$HOSTNAME$
+# VariablePropertyDataNonBiDi.a1dc04339267.propertyValue=$ccm_LICENSE_FILE_CON$
+VariablePropertyDataNonBiDi.a1dc04339267.propertyValue=$ccm_LICENSE_FILE_CON$
 
