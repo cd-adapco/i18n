@@ -46,8 +46,8 @@ Billboard.850018f38468.imageName=billboard_default.png
 # Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
-# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
+# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete Simcenter STAR-CCM+ installation.
+ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete Simcenter STAR-CCM+ installation.
 
 # ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
@@ -70,8 +70,20 @@ ChooseFile.8571f4d08c44.prompt=Please enter the name of the database file
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
 ChooseFile.8571f4d08c44.stepTitle=Create database file
 
-# ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
-ChooseFolder.26b422089f87.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+# ChooseFile.d85abda1a5ad.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.d85abda1a5ad.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
+
+# ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
+ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
+
+# ChooseFile.d85abda1a5ad.prompt=Please choose location of the license &File:
+ChooseFile.d85abda1a5ad.prompt=Please choose location of the license &File:
+
+# ChooseFile.d85abda1a5ad.stepTitle=Select license file
+ChooseFile.d85abda1a5ad.stepTitle=Select license file
+
+# ChooseFolder.26b422089f87.additionalText=Select the folder where Simcenter STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+ChooseFolder.26b422089f87.additionalText=Select the folder where Simcenter STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
 
 # ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
 ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
@@ -79,11 +91,11 @@ ChooseFolder.26b422089f87.defaultFile=$USER_STARCCMPLUS_NAME$
 # ChooseFolder.26b422089f87.prompt=Please Choose a &Folder:
 ChooseFolder.26b422089f87.prompt=Please Choose a &Folder:
 
-# ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ Installation Directory
-ChooseFolder.26b422089f87.stepTitle=STAR-CCM+ Installation Directory
+# ChooseFolder.26b422089f87.stepTitle=Simcenter STAR-CCM+ Installation Directory
+ChooseFolder.26b422089f87.stepTitle=Simcenter STAR-CCM+ Installation Directory
 
-# ChooseFolder.3051e252be4c.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
-ChooseFolder.3051e252be4c.additionalText=Select the folder where STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+# ChooseFolder.3051e252be4c.additionalText=Select the folder where Simcenter STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
+ChooseFolder.3051e252be4c.additionalText=Select the folder where Simcenter STAR-CCM+ has been installed. This information will be used to update the STAR-CAD Series configuration file (config.xml).\n\nTo continue, click Next.
 
 # ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
 ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
@@ -91,23 +103,23 @@ ChooseFolder.3051e252be4c.defaultFile=$USER_STARCCMPLUS_NAME$
 # ChooseFolder.3051e252be4c.prompt=Please Choose a &Folder:
 ChooseFolder.3051e252be4c.prompt=Please Choose a &Folder:
 
-# ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
-ChooseFolder.3051e252be4c.stepTitle=STAR-CCM+ Installation Directory
+# ChooseFolder.3051e252be4c.stepTitle=Simcenter STAR-CCM+ Installation Directory
+ChooseFolder.3051e252be4c.stepTitle=Simcenter STAR-CCM+ Installation Directory
 
-# ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
-ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
+# ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where Simcenter $INSTALLER_TITLE$ is installed.
+ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where Simcenter $INSTALLER_TITLE$ is installed.
 
 # ChooseFolder.59b3a9e8ae16.defaultFile=
 ChooseFolder.59b3a9e8ae16.defaultFile=
 
-# ChooseFolder.59b3a9e8ae16.prompt=Please Locate STAR-CCM+ installation:
-ChooseFolder.59b3a9e8ae16.prompt=Please Locate STAR-CCM+ installation:
+# ChooseFolder.59b3a9e8ae16.prompt=Please Locate Simcenter STAR-CCM+ installation:
+ChooseFolder.59b3a9e8ae16.prompt=Please Locate Simcenter STAR-CCM+ installation:
 
-# ChooseFolder.59b3a9e8ae16.stepTitle=Locate STAR-CCM+ installation 
-ChooseFolder.59b3a9e8ae16.stepTitle=Locate STAR-CCM+ installation 
+# ChooseFolder.59b3a9e8ae16.stepTitle=Locate Simcenter STAR-CCM+ installation 
+ChooseFolder.59b3a9e8ae16.stepTitle=Locate Simcenter STAR-CCM+ installation 
 
-# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing STAR-CCM+ install directory under the star/bin folder.
+# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing Simcenter STAR-CCM+ install directory under the star/bin folder.
+ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing Simcenter STAR-CCM+ install directory under the star/bin folder.
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
 ChooseFolder.85678ebc8c0d.defaultFile=
@@ -169,8 +181,8 @@ CreateShortcut.1aa8bf9c9717.workingDir=
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
-# CreateShortcut.2de0b8dc9238.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.2de0b8dc9238.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -178,8 +190,8 @@ CreateShortcut.2de0b8dc9238.workingDir=
 # CreateShortcut.2de4337e8b03.args=
 CreateShortcut.2de4337e8b03.args=
 
-# CreateShortcut.2de4337e8b03.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.2de4337e8b03.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -187,8 +199,8 @@ CreateShortcut.2de4337e8b03.workingDir=
 # CreateShortcut.412245f8a3db.args=
 CreateShortcut.412245f8a3db.args=
 
-# CreateShortcut.412245f8a3db.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.412245f8a3db.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.412245f8a3db.workingDir=
 CreateShortcut.412245f8a3db.workingDir=
@@ -196,8 +208,8 @@ CreateShortcut.412245f8a3db.workingDir=
 # CreateShortcut.4123775fa3dc.args=
 CreateShortcut.4123775fa3dc.args=
 
-# CreateShortcut.4123775fa3dc.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.4123775fa3dc.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.4123775fa3dc.workingDir=
 CreateShortcut.4123775fa3dc.workingDir=
@@ -205,8 +217,8 @@ CreateShortcut.4123775fa3dc.workingDir=
 # CreateShortcut.94113b058204.args=
 CreateShortcut.94113b058204.args=
 
-# CreateShortcut.94113b058204.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.94113b058204.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.94113b058204.workingDir=
 CreateShortcut.94113b058204.workingDir=
@@ -214,8 +226,8 @@ CreateShortcut.94113b058204.workingDir=
 # CreateShortcut.9413496e8208.args=
 CreateShortcut.9413496e8208.args=
 
-# CreateShortcut.9413496e8208.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.9413496e8208.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9413496e8208.workingDir=
 CreateShortcut.9413496e8208.workingDir=
@@ -223,8 +235,8 @@ CreateShortcut.9413496e8208.workingDir=
 # CreateShortcut.9416ec508215.args=
 CreateShortcut.9416ec508215.args=
 
-# CreateShortcut.9416ec508215.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.9416ec508215.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9416ec508215.workingDir=
 CreateShortcut.9416ec508215.workingDir=
@@ -232,8 +244,8 @@ CreateShortcut.9416ec508215.workingDir=
 # CreateShortcut.9417923b821a.args=
 CreateShortcut.9417923b821a.args=
 
-# CreateShortcut.9417923b821a.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.9417923b821a.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9417923b821a.workingDir=
 CreateShortcut.9417923b821a.workingDir=
@@ -241,8 +253,8 @@ CreateShortcut.9417923b821a.workingDir=
 # CreateShortcut.9418dab08a79.args=
 CreateShortcut.9418dab08a79.args=
 
-# CreateShortcut.9418dab08a79.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.9418dab08a79.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.9418dab08a79.workingDir=
 CreateShortcut.9418dab08a79.workingDir=
@@ -250,8 +262,8 @@ CreateShortcut.9418dab08a79.workingDir=
 # CreateShortcut.941a08878a7d.args=
 CreateShortcut.941a08878a7d.args=
 
-# CreateShortcut.941a08878a7d.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.941a08878a7d.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941a08878a7d.workingDir=
 CreateShortcut.941a08878a7d.workingDir=
@@ -259,8 +271,8 @@ CreateShortcut.941a08878a7d.workingDir=
 # CreateShortcut.941af5b78a81.args=
 CreateShortcut.941af5b78a81.args=
 
-# CreateShortcut.941af5b78a81.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.941af5b78a81.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941af5b78a81.workingDir=
 CreateShortcut.941af5b78a81.workingDir=
@@ -268,8 +280,8 @@ CreateShortcut.941af5b78a81.workingDir=
 # CreateShortcut.941b0edf8a86.args=
 CreateShortcut.941b0edf8a86.args=
 
-# CreateShortcut.941b0edf8a86.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.941b0edf8a86.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941b0edf8a86.workingDir=
 CreateShortcut.941b0edf8a86.workingDir=
@@ -277,8 +289,8 @@ CreateShortcut.941b0edf8a86.workingDir=
 # CreateShortcut.94640642bd9f.args=
 CreateShortcut.94640642bd9f.args=
 
-# CreateShortcut.94640642bd9f.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.94640642bd9f.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.94640642bd9f.workingDir=
 CreateShortcut.94640642bd9f.workingDir=
@@ -295,8 +307,8 @@ CreateShortcut.94649fda9fe1.workingDir=
 # CreateShortcut.9465295a8118.args=
 CreateShortcut.9465295a8118.args=
 
-# CreateShortcut.9465295a8118.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.9465295a8118.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.9465295a8118.workingDir=
 CreateShortcut.9465295a8118.workingDir=
@@ -313,8 +325,8 @@ CreateShortcut.9465c552a258.workingDir=
 # CreateShortcut.9466c0598c7d.args=
 CreateShortcut.9466c0598c7d.args=
 
-# CreateShortcut.9466c0598c7d.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.9466c0598c7d.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9466c0598c7d.workingDir=
 CreateShortcut.9466c0598c7d.workingDir=
@@ -322,8 +334,8 @@ CreateShortcut.9466c0598c7d.workingDir=
 # CreateShortcut.946795c9ade2.args=
 CreateShortcut.946795c9ade2.args=
 
-# CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.946795c9ade2.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
@@ -331,8 +343,8 @@ CreateShortcut.946795c9ade2.workingDir=
 # CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9d61b24aac76.destinationName=Release Notes $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.9d61b24aac76.destinationName=Release Notes $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.9d61b24aac76.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9d61b24aac76.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
@@ -340,8 +352,8 @@ CreateShortcut.9d61b24aac76.workingDir=
 # CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9d83036eb16c.destinationName=Release Notes $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.9d83036eb16c.destinationName=Release Notes $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.9d83036eb16c.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9d83036eb16c.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.9d83036eb16c.workingDir=
@@ -349,8 +361,8 @@ CreateShortcut.9d83036eb16c.workingDir=
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
 
-# CreateShortcut.caa364a8a2b0.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.caa364a8a2b0.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -358,8 +370,8 @@ CreateShortcut.caa364a8a2b0.workingDir=
 # CreateShortcut.cb11e682a2c8.args=
 CreateShortcut.cb11e682a2c8.args=
 
-# CreateShortcut.cb11e682a2c8.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.cb11e682a2c8.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -385,8 +397,8 @@ CreateShortcut.cd1330779add.workingDir=
 # CreateShortcut.cfd2e50abbfc.args=
 CreateShortcut.cfd2e50abbfc.args=
 
-# CreateShortcut.cfd2e50abbfc.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.cfd2e50abbfc.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -394,8 +406,8 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
 
-# CreateShortcut.d138a370858c.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-CreateShortcut.d138a370858c.destinationName=$REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -403,8 +415,8 @@ CreateShortcut.d138a370858c.workingDir=
 # CreateShortcut.d5cf21bb9aa3.args=
 CreateShortcut.d5cf21bb9aa3.args=
 
-# CreateShortcut.d5cf21bb9aa3.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.d5cf21bb9aa3.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.d5cf21bb9aa3.workingDir=
 CreateShortcut.d5cf21bb9aa3.workingDir=
@@ -412,8 +424,8 @@ CreateShortcut.d5cf21bb9aa3.workingDir=
 # CreateShortcut.d5d067689aa4.args=
 CreateShortcut.d5d067689aa4.args=
 
-# CreateShortcut.d5d067689aa4.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
-CreateShortcut.d5d067689aa4.destinationName=$REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ ($STARVR_VERSION$)
+# CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.d5d067689aa4.workingDir=
 CreateShortcut.d5d067689aa4.workingDir=
@@ -421,8 +433,8 @@ CreateShortcut.d5d067689aa4.workingDir=
 # CreateShortcut.eb99cf1b90cb.args=
 CreateShortcut.eb99cf1b90cb.args=
 
-# CreateShortcut.eb99cf1b90cb.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.eb99cf1b90cb.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb99cf1b90cb.workingDir=
 CreateShortcut.eb99cf1b90cb.workingDir=
@@ -430,8 +442,8 @@ CreateShortcut.eb99cf1b90cb.workingDir=
 # CreateShortcut.eb9ba32a90d0.args=
 CreateShortcut.eb9ba32a90d0.args=
 
-# CreateShortcut.eb9ba32a90d0.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.eb9ba32a90d0.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb9ba32a90d0.workingDir=
 CreateShortcut.eb9ba32a90d0.workingDir=
@@ -439,8 +451,8 @@ CreateShortcut.eb9ba32a90d0.workingDir=
 # CreateShortcut.eb9fc19aa18e.args=
 CreateShortcut.eb9fc19aa18e.args=
 
-# CreateShortcut.eb9fc19aa18e.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.eb9fc19aa18e.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb9fc19aa18e.workingDir=
 CreateShortcut.eb9fc19aa18e.workingDir=
@@ -448,8 +460,8 @@ CreateShortcut.eb9fc19aa18e.workingDir=
 # CreateShortcut.eba29649a3bb.args=
 CreateShortcut.eba29649a3bb.args=
 
-# CreateShortcut.eba29649a3bb.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
-CreateShortcut.eba29649a3bb.destinationName=$REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ ($STARVIEW_VERSION$)
+# CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eba29649a3bb.workingDir=
 CreateShortcut.eba29649a3bb.workingDir=
@@ -472,8 +484,8 @@ CreateShortcut.eba4b7c1a520.destinationName=View Sample Scene
 # CreateShortcut.eba4b7c1a520.workingDir=
 CreateShortcut.eba4b7c1a520.workingDir=
 
-# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=Install Complete
@@ -561,6 +573,15 @@ Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 
 # Exec.545df2008320.title=
 Exec.545df2008320.title=
+
+# Exec.bd23e7e68ac4.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$rto$/$bin$/$hydra_service.exe\" -uninstall
+Exec.bd23e7e68ac4.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$rto$/$bin$/$hydra_service.exe\" -uninstall
+
+# Exec.bd23e7e68ac4.dialogLabel=Uninstalling remote launch service...
+Exec.bd23e7e68ac4.dialogLabel=Uninstalling remote launch service...
+
+# Exec.bd23e7e68ac4.title=
+Exec.bd23e7e68ac4.title=
 
 # Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -925,14 +946,14 @@ ExecuteScript.6c6dd8e28506.title=
 # ExecuteScript.6d1b9101b4b5.title=
 ExecuteScript.6d1b9101b4b5.title=
 
-# ExecuteScript.740378ec942f.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.740378ec942f.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+# ExecuteScript.740378ec942f.dialogLabel=Installing Simcenter STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.740378ec942f.dialogLabel=Installing Simcenter STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
 
 # ExecuteScript.740378ec942f.title=
 ExecuteScript.740378ec942f.title=
 
-# ExecuteScript.74308ded90ca.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.74308ded90ca.dialogLabel=Installing STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+# ExecuteScript.74308ded90ca.dialogLabel=Installing Simcenter STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.74308ded90ca.dialogLabel=Installing Simcenter STAR-CCM+$STARCCMPLUS_VERSION$ ..Please wait a moment
 
 # ExecuteScript.74308ded90ca.title=
 ExecuteScript.74308ded90ca.title=
@@ -1111,17 +1132,11 @@ GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integratio
 # GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
 GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
 
-# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=Select Additional Tasks
-
-# GetUserInput.0ac91ffdbe25.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.0ac91ffdbe25.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-
-# GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
-GetUserInput.0ac91ffdbe25.title=Select Additional Tasks
 
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
 GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
@@ -1135,17 +1150,17 @@ GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=Service Configuration 
 
-# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 
-# GetUserInput.3049b3d7bcfe.prompt=Enter the version number of STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
-GetUserInput.3049b3d7bcfe.prompt=Enter the version number of STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
+# GetUserInput.3049b3d7bcfe.prompt=Enter the version number of Simcenter STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
+GetUserInput.3049b3d7bcfe.prompt=Enter the version number of Simcenter STAR-CCM+ that has been installed.\nThis information will be used to suggest an installation directory in the next panel.\n\nTo continue, click Next.
 
-# GetUserInput.3049b3d7bcfe.title=STAR-CCM+ Installation Version
-GetUserInput.3049b3d7bcfe.title=STAR-CCM+ Installation Version
+# GetUserInput.3049b3d7bcfe.title=Simcenter STAR-CCM+ Installation Version
+GetUserInput.3049b3d7bcfe.title=Simcenter STAR-CCM+ Installation Version
 
 # GetUserInput.3080440abdb8.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CAD Series, then click Next.
 GetUserInput.3080440abdb8.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CAD Series, then click Next.
@@ -1159,8 +1174,8 @@ GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of th
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 
-# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
 GetUserInput.3cd99868ae86.title=Select Additional Tasks
@@ -1183,8 +1198,8 @@ GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setu
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=Select Additional Tasks
 
-# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=Select Additional Tasks
@@ -1201,8 +1216,8 @@ GetUserInput.687423f6b0cd.prompt=Please specify the user account the Linux servi
 # GetUserInput.687423f6b0cd.title=Linux service
 GetUserInput.687423f6b0cd.title=Linux service
 
-# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=Select Additional Tasks
@@ -1261,11 +1276,23 @@ GetUserInput.a53ed862b666.prompt=$REGISTRY_COMPANY_NAME$ provides licensing via 
 # GetUserInput.a53ed862b666.title=Choose License Type
 GetUserInput.a53ed862b666.title=Choose License Type
 
-# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
-GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing STAR-CCM+, then click Next.
+# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
+GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing Simcenter STAR-CCM+, then click Next.
 
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=Select Additional Tasks
+
+# GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ provides PLM License Server $UGSVERSION$ via a local license server. 
+GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ provides PLM License Server $UGSVERSION$ via a local license server. 
+
+# GetUserInput.d833413bb48e.title=Choose License Type
+GetUserInput.d833413bb48e.title=Choose License Type
+
+# GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$ products use the PLM License Server $UGSVERSION$ from $REGISTRY_COMPANY_NAME$ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$ products use the PLM License Server $UGSVERSION$ from $REGISTRY_COMPANY_NAME$ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+
+# GetUserInput.d8387e0c8950.title=Choose License Type
+GetUserInput.d8387e0c8950.title=Choose License Type
 
 # GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
 GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
@@ -1336,26 +1363,14 @@ GUIComponentData.09531f37b18f.label=Create a desktop icon
 # GUIComponentData.09531f38b18d.defaultValue=Selected
 GUIComponentData.09531f38b18d.defaultValue=Selected
 
-# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.09531f38b18d.label=Update Windows firewall to allow STAR-CCM+ to run
+# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
+GUIComponentData.09531f38b18d.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
 
 # GUIComponentData.09531f47b18f.defaultValue=Not Selected
 GUIComponentData.09531f47b18f.defaultValue=Not Selected
 
 # GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
 GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
-
-# GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
-GUIComponentData.0ac91ffdbe29.defaultValue=Not Selected
-
-# GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
-GUIComponentData.0ac91ffdbe29.label=Create shortcuts for current user only
-
-# GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
-GUIComponentData.0ac91ffebe28.defaultValue=Not Selected
-
-# GUIComponentData.0ac91ffebe28.label=Create a desktop icon
-GUIComponentData.0ac91ffebe28.label=Create a desktop icon
 
 # GUIComponentData.115643e1a39b.defaultValue=
 GUIComponentData.115643e1a39b.defaultValue=
@@ -1384,8 +1399,8 @@ GUIComponentData.229a23b6be60.label=Create shortcuts for current user only
 # GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
-# GUIComponentData.2469fbd4a625.label=Create file associations for STAR-CCM+ VR file
-GUIComponentData.2469fbd4a625.label=Create file associations for STAR-CCM+ VR file
+# GUIComponentData.2469fbd4a625.label=Create file associations for Simcenter STAR-CCM+ VR file
+GUIComponentData.2469fbd4a625.label=Create file associations for Simcenter STAR-CCM+ VR file
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
@@ -1396,8 +1411,8 @@ GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
 # GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 GUIComponentData.304ac509bd0d.defaultValue=$STARCCMPLUS_VERSION$
 
-# GUIComponentData.304ac509bd0d.label=STAR-CCM+ version number :
-GUIComponentData.304ac509bd0d.label=STAR-CCM+ version number :
+# GUIComponentData.304ac509bd0d.label=Simcenter STAR-CCM+ version number :
+GUIComponentData.304ac509bd0d.label=Simcenter STAR-CCM+ version number :
 
 # GUIComponentData.3642fdbebce9.defaultValue=
 GUIComponentData.3642fdbebce9.defaultValue=
@@ -1438,8 +1453,8 @@ GUIComponentData.3cd99868ae8b.label=Create a desktop icon
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
 GUIComponentData.3cd99869ae89.defaultValue=Selected
 
-# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow STAR-CCM+ to run
+# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
+GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
@@ -1456,8 +1471,8 @@ GUIComponentData.411f00519f69.label=Create a desktop icon
 # GUIComponentData.411f00519f6a.defaultValue=Not Selected
 GUIComponentData.411f00519f6a.defaultValue=Not Selected
 
-# GUIComponentData.411f00519f6a.label=Create file associations for STAR-CCM+ VR file
-GUIComponentData.411f00519f6a.label=Create file associations for STAR-CCM+ VR file
+# GUIComponentData.411f00519f6a.label=Create file associations for Simcenter STAR-CCM+ VR file
+GUIComponentData.411f00519f6a.label=Create file associations for Simcenter STAR-CCM+ VR file
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -1504,8 +1519,8 @@ GUIComponentData.5a15d3d7a615.label=Local: Install and configure FlexNET Publish
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
-# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
-GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow STAR-CCM+ to run
+# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
+GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
 
 # GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
@@ -1711,6 +1726,24 @@ GUIComponentData.c58f4202a8d3.defaultValue=Selected
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 
+# GUIComponentData.d833413eb490.defaultValue=Selected
+GUIComponentData.d833413eb490.defaultValue=Selected
+
+# GUIComponentData.d833413eb490.label=Local: Configure this machine to access local license server
+GUIComponentData.d833413eb490.label=Local: Configure this machine to access local license server
+
+# GUIComponentData.d8387e0c8953.defaultValue=Not Selected
+GUIComponentData.d8387e0c8953.defaultValue=Not Selected
+
+# GUIComponentData.d8387e0c8953.label=Network: Configure this machine to access a network license server
+GUIComponentData.d8387e0c8953.label=Network: Configure this machine to access a network license server
+
+# GUIComponentData.d8387e0d8953.defaultValue=Selected
+GUIComponentData.d8387e0d8953.defaultValue=Selected
+
+# GUIComponentData.d8387e0d8953.label=Local: Install and configure Siemens PLM License Server on this machine 
+GUIComponentData.d8387e0d8953.label=Local: Install and configure Siemens PLM License Server on this machine 
+
 # GUIComponentData.e6e769628c38.defaultValue=$HOST$
 GUIComponentData.e6e769628c38.defaultValue=$HOST$
 
@@ -1903,17 +1936,17 @@ InstallBundle.42b88820ae92.description=Setup minimum files required for client i
 # InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.bundleName=Star-CCM+
 
-# InstallBundle.850018f38467.description=This feature installs all files needed for running the STAR-CCM+ package.
-InstallBundle.850018f38467.description=This feature installs all files needed for running the STAR-CCM+ package.
+# InstallBundle.850018f38467.description=This feature installs all files needed for running the Simcenter STAR-CCM+ package.
+InstallBundle.850018f38467.description=This feature installs all files needed for running the Simcenter STAR-CCM+ package.
 
-# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
+# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
+InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 
-# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
+# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
+InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=Install Complete
@@ -1951,20 +1984,20 @@ InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
 # InstallDirAction.13229f38a108.stepTitle=Select Installation Location
 InstallDirAction.13229f38a108.stepTitle=Select Installation Location
 
-# InstallDirAction.27fec67899f9.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.27fec67899f9.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+# InstallDirAction.27fec67899f9.additionalText=Setup will install Simcenter $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.27fec67899f9.additionalText=Setup will install Simcenter $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
 
-# InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
+# InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install Simcenter $INSTALLER_TITLE$?
+InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install Simcenter $INSTALLER_TITLE$?
 
 # InstallDirAction.27fec67899f9.stepTitle=Select Installation Location
 InstallDirAction.27fec67899f9.stepTitle=Select Installation Location
 
-# InstallDirAction.5030314b81d8.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.5030314b81d8.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+# InstallDirAction.5030314b81d8.additionalText=Setup will install Simcenter $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.5030314b81d8.additionalText=Setup will install Simcenter $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
 
-# InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
+# InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install Simcenter $INSTALLER_TITLE$?
+InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install Simcenter $INSTALLER_TITLE$?
 
 # InstallDirAction.5030314b81d8.stepTitle=Select Installation Location
 InstallDirAction.5030314b81d8.stepTitle=Select Installation Location
@@ -1978,20 +2011,29 @@ InstallDirAction.59b3a9e8ae1b.prompt=Where Would You Like to Install FLEXNet ?
 # InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
 InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
 
-# InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.850018e38429.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install Siemens PLM License Server $UGSVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.d861fe0f9e7b.additionalText=Setup will install Siemens PLM License Server $UGSVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
 
-# InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
-InstallDirAction.850018e38429.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
+# InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
+InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
 
-# InstallDirAction.850018e38429.stepTitle=Select Install Location
-InstallDirAction.850018e38429.stepTitle=Select Install Location
+# InstallDirAction.d861fe0f9e7b.stepTitle=Select Installation Location
+InstallDirAction.d861fe0f9e7b.stepTitle=Select Installation Location
+
+# InstallDirAction.dd4f616babdc.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.dd4f616babdc.additionalText=Setup will install STAR-CAD $CAD_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+
+# InstallDirAction.dd4f616babdc.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
+InstallDirAction.dd4f616babdc.prompt=Where Would You Like to Install STAR-CAD $CAD_VERSION$?
+
+# InstallDirAction.dd4f616babdc.stepTitle=Select Install Location
+InstallDirAction.dd4f616babdc.stepTitle=Select Install Location
 
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
-# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$?
-InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$?
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install Simcenter $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$?
+InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install Simcenter $REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
@@ -2083,14 +2125,14 @@ InstallerInfoData.850018f28450.email=
 # InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 
-# InstallerInfoData.850018f28450.installerTitle=$REGISTRY_PRODUCT_NAME$® $PRESENTATION_VERSION$
-InstallerInfoData.850018f28450.installerTitle=$REGISTRY_PRODUCT_NAME$® $PRESENTATION_VERSION$
+# InstallerInfoData.850018f28450.installerTitle=_REGISTRY_PRODUCT_NAME_® _REL_PRESENTATION_VERSION_
+InstallerInfoData.850018f28450.installerTitle=_REGISTRY_PRODUCT_NAME_® _REL_PRESENTATION_VERSION_
 
 # InstallerInfoData.850018f28450.productDescription=
 InstallerInfoData.850018f28450.productDescription=
 
-# InstallerInfoData.850018f28450.productName=$REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
-InstallerInfoData.850018f28450.productName=$REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ ($STARCCMPLUS_VERSION$)
+# InstallerInfoData.850018f28450.productName=$REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+InstallerInfoData.850018f28450.productName=$REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # InstallerInfoData.850018f28450.productURL=
 InstallerInfoData.850018f28450.productURL=
@@ -2098,23 +2140,23 @@ InstallerInfoData.850018f28450.productURL=
 # InstallerInfoData.850018f28450.supportURL=
 InstallerInfoData.850018f28450.supportURL=
 
-# InstallerInfoData.850018f28450.vendorName=Siemens PLM
-InstallerInfoData.850018f28450.vendorName=Siemens PLM
+# InstallerInfoData.850018f28450.vendorName=Siemens
+InstallerInfoData.850018f28450.vendorName=Siemens
 
 # InstallerInfoData.850018f28450.vendorURL=
 InstallerInfoData.850018f28450.vendorURL=
 
-# InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
 InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
 
-# InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.12ff4db9947b.launchText=
 InstallFinishAction.12ff4db9947b.launchText=
@@ -2131,17 +2173,17 @@ InstallFinishAction.12ff4db9947b.rebootRequiredMessage=You need to restart the s
 # InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
 InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
 
-# InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.31554a9699e3.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.31554a9699e3.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.31554a9699e3.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.31554a9699e3.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.31554a9699e3.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.31554a9699e3.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.31554a9699e3.installSuccessMessage=Congratulations:\n\nThe installation of STAR-CAD $CAD_VERSION$ software $WINDOWS_TYPE$ has been completed successfully.  If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
-# InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.31554a9699e3.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.31554a9699e3.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.31554a9699e3.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.31554a9699e3.launchText=
 InstallFinishAction.31554a9699e3.launchText=
@@ -2158,17 +2200,17 @@ InstallFinishAction.31554a9699e3.rebootRequiredMessage=You need to restart the s
 # InstallFinishAction.31554a9699e3.windowTitle=Install Complete
 InstallFinishAction.31554a9699e3.windowTitle=Install Complete
 
-# InstallFinishAction.850018e3843a.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.850018e3843a.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.850018e3843a.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.850018e3843a.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.850018e3843a.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.850018e3843a.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.850018e3843a.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.850018e3843a.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start Simcenter STAR-CCM+® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
-# InstallFinishAction.850018e3843a.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.850018e3843a.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.850018e3843a.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.850018e3843a.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.850018e3843a.launchText=
 InstallFinishAction.850018e3843a.launchText=
@@ -2185,17 +2227,17 @@ InstallFinishAction.850018e3843a.rebootRequiredMessage=You need to restart the s
 # InstallFinishAction.850018e3843a.windowTitle=Install Complete
 InstallFinishAction.850018e3843a.windowTitle=Install Complete
 
-# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.9741505abaf9.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.9741505abaf9.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
-# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.9741505abaf9.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.9741505abaf9.launchText=
 InstallFinishAction.9741505abaf9.launchText=
@@ -2212,17 +2254,17 @@ InstallFinishAction.9741505abaf9.rebootRequiredMessage=You need to restart the s
 # InstallFinishAction.9741505abaf9.windowTitle=Install Complete
 InstallFinishAction.9741505abaf9.windowTitle=Install Complete
 
-# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of Simcenter $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
-# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of Simcenter $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
 # InstallFinishAction.bbeaa35cb859.launchText=
 InstallFinishAction.bbeaa35cb859.launchText=
@@ -2239,23 +2281,23 @@ InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=You need to restart the s
 # InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
 InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
 
-# InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall $INSTALLER_TITLE$
-InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall $INSTALLER_TITLE$
+# InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall Simcenter $INSTALLER_TITLE$
+InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall Simcenter $INSTALLER_TITLE$
 
-# InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall $INSTALLER_TITLE$
-InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall $INSTALLER_TITLE$
+# InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall Simcenter $INSTALLER_TITLE$
+InstallFrameConfigurator.850018f38449.uninstallerTitle=Uninstall Simcenter $INSTALLER_TITLE$
 
 # InstallMethod.Custom=Custom (Advanced)
 InstallMethod.Custom=Custom (Advanced)
 
-# InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
-InstallMethod.Custom1=Choosing this option will allow users to select which STAR-CCM+   
+# InstallMethod.Custom1=Choosing this option will allow users to select which Simcenter   
+InstallMethod.Custom1=Choosing this option will allow users to select which Simcenter   
 
-# InstallMethod.Custom2=features and related components will be installed.This option will
-InstallMethod.Custom2=features and related components will be installed.This option will
+# InstallMethod.Custom2=STAR-CCM+ features and related components will be installed. This
+InstallMethod.Custom2=STAR-CCM+ features and related components will be installed. This
 
-# InstallMethod.Custom3=also allow the user to configure and start the license manager.   
-InstallMethod.Custom3=also allow the user to configure and start the license manager.   
+# InstallMethod.Custom3=option will allow the user to configure and start the license manager.
+InstallMethod.Custom3=option will allow the user to configure and start the license manager.
 
 # InstallMethod.Custom4=This is the recommended option for advanced users.
 InstallMethod.Custom4=This is the recommended option for advanced users.
@@ -2263,11 +2305,11 @@ InstallMethod.Custom4=This is the recommended option for advanced users.
 # InstallMethod.Express=Express (Recommended)
 InstallMethod.Express=Express (Recommended)
 
-# InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
-InstallMethod.Express1=Choosing this option will install all STAR-CCM+ features and related
+# InstallMethod.Express1=Choosing this option will install all Simcenter STAR-CCM+ features
+InstallMethod.Express1=Choosing this option will install all Simcenter STAR-CCM+ features
 
-# InstallMethod.Express2=components.
-InstallMethod.Express2=components.
+# InstallMethod.Express2=and related components.
+InstallMethod.Express2=and related components.
 
 # InstallMethod.Express3=It will also install the license manager using default settings.     
 InstallMethod.Express3=It will also install the license manager using default settings.     
@@ -2302,8 +2344,8 @@ InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
 # InstallSet.4405b8b89114.installSetName=Custom
 InstallSet.4405b8b89114.installSetName=Custom
 
-# InstallSet.850018f38466.description=Install STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
-InstallSet.850018f38466.description=Install STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+# InstallSet.850018f38466.description=Install Simcenter STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+InstallSet.850018f38466.description=Install Simcenter STAR-CCM+ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
 
 # InstallSet.850018f38466.imageName=typical.png
 InstallSet.850018f38466.imageName=typical.png
@@ -2338,6 +2380,12 @@ InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the
 # InstallSummary.a132a7788325.title=Pre-Installation Summary
 InstallSummary.a132a7788325.title=Pre-Installation Summary
 
+# InstallSummary.d8669dc1baea.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.d8669dc1baea.stepPrompt=Please Review the Following Before Continuing:
+
+# InstallSummary.d8669dc1baea.title=Pre-Installation Summary
+InstallSummary.d8669dc1baea.title=Pre-Installation Summary
+
 # InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
 InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
 
@@ -2347,17 +2395,17 @@ InstallType.Title=Choose Install Type
 # InstallType.Type=Please select the type of installation you would like to perform:
 InstallType.Type=Please select the type of installation you would like to perform:
 
-# InstallType.Type1=STAR-CCM+ and related components
-InstallType.Type1=STAR-CCM+ and related components
+# InstallType.Type1=Simcenter STAR-CCM+ and related components
+InstallType.Type1=Simcenter STAR-CCM+ and related components
 
-# InstallType.Type2=Install STAR-CCM+ on this machine or a network location.Typical Selection.
-InstallType.Type2=Install STAR-CCM+ on this machine or a network location.Typical Selection.
+# InstallType.Type2=Install on this machine or a network location.  Typical Selection.
+InstallType.Type2=Install on this machine or a network location.  Typical Selection.
 
-# InstallType.Type3=Install STAR-CCM+ on local or NFS shared location.Typical Selection.
-InstallType.Type3=Install STAR-CCM+ on local or NFS shared location.Typical Selection.
+# InstallType.Type3=Install on local or NFS shared location.  Typical Selection.
+InstallType.Type3=Install on local or NFS shared location.  Typical Selection.
 
-# InstallType.Type4=Configure this machine to use an existing STAR-CCM+ network installation.  
-InstallType.Type4=Configure this machine to use an existing STAR-CCM+ network installation.  
+# InstallType.Type4=Configure this machine to use an existing network installation.  
+InstallType.Type4=Configure this machine to use an existing network installation.  
 
 # InstallType.Type5=FLEXNet License Manager
 InstallType.Type5=FLEXNet License Manager
@@ -2367,6 +2415,12 @@ InstallType.Type6=Configure Network or Local FLEXNet licensing.
 
 # InstallType.Type7=Install and configure FLEXNet Manager to run.
 InstallType.Type7=Install and configure FLEXNet Manager to run.
+
+# InstallType.Type8=Siemens PLM License Server
+InstallType.Type8=Siemens PLM License Server
+
+# InstallType.Type9=Configure Network or Local PLM licensing.
+InstallType.Type9=Configure Network or Local PLM licensing.
 
 # InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
 InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
@@ -2779,8 +2833,8 @@ ProductDialog.Text=Please select the components you would like to install:
 # ProductDialog.Title=Choose STAR-CAD components
 ProductDialog.Title=Choose STAR-CAD components
 
-# ProductDialog.Title1=Choose STAR-CCM+ components
-ProductDialog.Title1=Choose STAR-CCM+ components
+# ProductDialog.Title1=Choose Simcenter STAR-CCM+ components
+ProductDialog.Title1=Choose Simcenter STAR-CCM+ components
 
 # PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
 PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
@@ -2811,6 +2865,21 @@ PromptUserConsole.2d6f494abb0c.option2Label=Cancel
 
 # PromptUserConsole.2d6f494abb0c.title=Warning
 PromptUserConsole.2d6f494abb0c.title=Warning
+
+# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of Job Manager in console mode. Please use the standard GUI method of installation.
+PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of Job Manager in console mode. Please use the standard GUI method of installation.
+
+# PromptUserConsole.ab47a9fa8483.option0Label=OK
+PromptUserConsole.ab47a9fa8483.option0Label=OK
+
+# PromptUserConsole.ab47a9fa8483.option1Label=Cancel
+PromptUserConsole.ab47a9fa8483.option1Label=Cancel
+
+# PromptUserConsole.ab47a9fa8483.option2Label=Details...
+PromptUserConsole.ab47a9fa8483.option2Label=Details...
+
+# PromptUserConsole.ab47a9fa8483.title=Information
+PromptUserConsole.ab47a9fa8483.title=Information
 
 # ShowDialogAction.00ba7f0290e5.buttonLabel=OK
 ShowDialogAction.00ba7f0290e5.buttonLabel=OK
@@ -3415,14 +3484,32 @@ ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
 # ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
 ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
 
-# ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+ executable not found.
-ShowDialogAction.59b3a9e8ae17.label=STAR-CCM+ executable not found.
+# ShowDialogAction.59b3a9e8ae17.label=Simcenter STAR-CCM+ executable not found.
+ShowDialogAction.59b3a9e8ae17.label=Simcenter STAR-CCM+ executable not found.
 
-# ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
-ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
+# ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where Simcenter $INSTALLER_TITLE$ is installed.
+ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where Simcenter $INSTALLER_TITLE$ is installed.
 
-# ShowDialogAction.59b3a9e8ae17.title=STAR-CCM+ Installation Not Found
-ShowDialogAction.59b3a9e8ae17.title=STAR-CCM+ Installation Not Found
+# ShowDialogAction.59b3a9e8ae17.title=Simcenter STAR-CCM+ Installation Not Found
+ShowDialogAction.59b3a9e8ae17.title=Simcenter STAR-CCM+ Installation Not Found
+
+# ShowDialogAction.5e846421b690.buttonLabel=Replace
+ShowDialogAction.5e846421b690.buttonLabel=Replace
+
+# ShowDialogAction.5e846421b690.cancelButtonLabel=Keep
+ShowDialogAction.5e846421b690.cancelButtonLabel=Keep
+
+# ShowDialogAction.5e846421b690.detailsButtonLabel=Details...
+ShowDialogAction.5e846421b690.detailsButtonLabel=Details...
+
+# ShowDialogAction.5e846421b690.label=PLM License Manager exists
+ShowDialogAction.5e846421b690.label=PLM License Manager exists
+
+# ShowDialogAction.5e846421b690.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace it with the FLEXlm License server?
+ShowDialogAction.5e846421b690.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace it with the FLEXlm License server?
+
+# ShowDialogAction.5e846421b690.title=Information
+ShowDialogAction.5e846421b690.title=Information
 
 # ShowDialogAction.5f17661a83c5.buttonLabel=Yes
 ShowDialogAction.5f17661a83c5.buttonLabel=Yes
@@ -3433,11 +3520,11 @@ ShowDialogAction.5f17661a83c5.cancelButtonLabel=No
 # ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
 ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
 
-# ShowDialogAction.5f17661a83c5.label=STAR-CCM+ Installation Found
-ShowDialogAction.5f17661a83c5.label=STAR-CCM+ Installation Found
+# ShowDialogAction.5f17661a83c5.label=Simcenter STAR-CCM+ Installation Found
+ShowDialogAction.5f17661a83c5.label=Simcenter STAR-CCM+ Installation Found
 
-# ShowDialogAction.5f17661a83c5.narrative=The solver component  (STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the STAR-CCM+ component again?
-ShowDialogAction.5f17661a83c5.narrative=The solver component  (STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the STAR-CCM+ component again?
+# ShowDialogAction.5f17661a83c5.narrative=The solver component  (Simcenter STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the Simcenter STAR-CCM+ component again?
+ShowDialogAction.5f17661a83c5.narrative=The solver component  (Simcenter STAR-CCM+ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine in:\n $PREINST_VER$\nDo you want to install the Simcenter STAR-CCM+ component again?
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=Warning
@@ -3454,8 +3541,8 @@ ShowDialogAction.5f7c94b68adf.detailsButtonLabel=Details...
 # ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
 ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
 
-# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+.\n\nThese libraries are not installed, please re-run the STAR-CCM+ installer with administrator privileges 
-ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+.\n\nThese libraries are not installed, please re-run the STAR-CCM+ installer with administrator privileges 
+# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run Simcenter STAR-CCM+.\n\nThese libraries are not installed, please re-run the Simcenter STAR-CCM+ installer with administrator privileges 
+ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run Simcenter STAR-CCM+.\n\nThese libraries are not installed, please re-run the Simcenter STAR-CCM+ installer with administrator privileges 
 
 # ShowDialogAction.5f7c94b68adf.title=Error
 ShowDialogAction.5f7c94b68adf.title=Error
@@ -3562,8 +3649,8 @@ ShowDialogAction.7dc4c98fb7ea.detailsButtonLabel=Details...
 # ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ runtime libraries
 ShowDialogAction.7dc4c98fb7ea.label=Microsoft Visual C++ runtime libraries
 
-# ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
-ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
+# ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run Simcenter STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
+ShowDialogAction.7dc4c98fb7ea.narrative=The Microsoft Visual C++ runtime libraries are required to run Simcenter STAR-CCM+\nthese are not currently installed on your system\n\nPlease ensure the runtimes are installed before running\non this host
 
 # ShowDialogAction.7dc4c98fb7ea.title=Warning
 ShowDialogAction.7dc4c98fb7ea.title=Warning
@@ -3598,8 +3685,8 @@ ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
 # ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all Simcenter STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all Simcenter STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
 ShowDialogAction.7e8620e4a2ee.title=Warning
@@ -3688,8 +3775,8 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=Details...
 # ShowDialogAction.85b5743ab480.label=No Component Selected
 ShowDialogAction.85b5743ab480.label=No Component Selected
 
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=You have deselected all STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+# ShowDialogAction.85b5743ab480.narrative=You have deselected all Simcenter STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.85b5743ab480.narrative=You have deselected all Simcenter STAR-CCM+ components. \nPress OK to return to the component selection dialog.\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=Warning
@@ -3775,14 +3862,140 @@ ShowDialogAction.c2960d279578.cancelButtonLabel=Cancel
 # ShowDialogAction.c2960d279578.detailsButtonLabel=Details...
 ShowDialogAction.c2960d279578.detailsButtonLabel=Details...
 
-# ShowDialogAction.c2960d279578.label=STAR-CCM+ installation directory not found. 
-ShowDialogAction.c2960d279578.label=STAR-CCM+ installation directory not found. 
+# ShowDialogAction.c2960d279578.label=Simcenter STAR-CCM+ installation directory not found. 
+ShowDialogAction.c2960d279578.label=Simcenter STAR-CCM+ installation directory not found. 
 
-# ShowDialogAction.c2960d279578.narrative=Please reselect STAR-CCM+ Installation Directory.
-ShowDialogAction.c2960d279578.narrative=Please reselect STAR-CCM+ Installation Directory.
+# ShowDialogAction.c2960d279578.narrative=Please reselect Simcenter STAR-CCM+ Installation Directory.
+ShowDialogAction.c2960d279578.narrative=Please reselect Simcenter STAR-CCM+ Installation Directory.
 
 # ShowDialogAction.c2960d279578.title=Directory not found
 ShowDialogAction.c2960d279578.title=Directory not found
+
+# ShowDialogAction.cefd463a8fab.buttonLabel=OK
+ShowDialogAction.cefd463a8fab.buttonLabel=OK
+
+# ShowDialogAction.cefd463a8fab.cancelButtonLabel=No
+ShowDialogAction.cefd463a8fab.cancelButtonLabel=No
+
+# ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
+ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
+
+# ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+
+# ShowDialogAction.cefd463a8fab.narrative=
+ShowDialogAction.cefd463a8fab.narrative=
+
+# ShowDialogAction.cefd463a8fab.title=Installation directory
+ShowDialogAction.cefd463a8fab.title=Installation directory
+
+# ShowDialogAction.cefdc0cba92d.buttonLabel=OK
+ShowDialogAction.cefdc0cba92d.buttonLabel=OK
+
+# ShowDialogAction.cefdc0cba92d.cancelButtonLabel=No
+ShowDialogAction.cefdc0cba92d.cancelButtonLabel=No
+
+# ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
+ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
+
+# ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+
+# ShowDialogAction.cefdc0cba92d.narrative=
+ShowDialogAction.cefdc0cba92d.narrative=
+
+# ShowDialogAction.cefdc0cba92d.title=Installation directory
+ShowDialogAction.cefdc0cba92d.title=Installation directory
+
+# ShowDialogAction.d006d826a7d6.buttonLabel=OK
+ShowDialogAction.d006d826a7d6.buttonLabel=OK
+
+# ShowDialogAction.d006d826a7d6.cancelButtonLabel=Cancel
+ShowDialogAction.d006d826a7d6.cancelButtonLabel=Cancel
+
+# ShowDialogAction.d006d826a7d6.detailsButtonLabel=Details...
+ShowDialogAction.d006d826a7d6.detailsButtonLabel=Details...
+
+# ShowDialogAction.d006d826a7d6.label=Uninstall the Linux service
+ShowDialogAction.d006d826a7d6.label=Uninstall the Linux service
+
+# ShowDialogAction.d006d826a7d6.narrative=Uninstalling the Linux service would require you to be an admin. Please uninstall with root privileges. 
+ShowDialogAction.d006d826a7d6.narrative=Uninstalling the Linux service would require you to be an admin. Please uninstall with root privileges. 
+
+# ShowDialogAction.d006d826a7d6.title=Information
+ShowDialogAction.d006d826a7d6.title=Information
+
+# ShowDialogAction.d834db1390ec.buttonLabel=Next
+ShowDialogAction.d834db1390ec.buttonLabel=Next
+
+# ShowDialogAction.d834db1390ec.cancelButtonLabel=Previous
+ShowDialogAction.d834db1390ec.cancelButtonLabel=Previous
+
+# ShowDialogAction.d834db1390ec.detailsButtonLabel=Details...
+ShowDialogAction.d834db1390ec.detailsButtonLabel=Details...
+
+# ShowDialogAction.d834db1390ec.label=PLM License Manager exists
+ShowDialogAction.d834db1390ec.label=PLM License Manager exists
+
+# ShowDialogAction.d834db1390ec.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace the license file?
+ShowDialogAction.d834db1390ec.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace the license file?
+
+# ShowDialogAction.d834db1390ec.title=ERROR
+ShowDialogAction.d834db1390ec.title=ERROR
+
+# ShowDialogAction.d85abda0a5b3.buttonLabel=Next
+ShowDialogAction.d85abda0a5b3.buttonLabel=Next
+
+# ShowDialogAction.d85abda0a5b3.cancelButtonLabel=Previous
+ShowDialogAction.d85abda0a5b3.cancelButtonLabel=Previous
+
+# ShowDialogAction.d85abda0a5b3.detailsButtonLabel=Details...
+ShowDialogAction.d85abda0a5b3.detailsButtonLabel=Details...
+
+# ShowDialogAction.d85abda0a5b3.label=Invalid license file.
+ShowDialogAction.d85abda0a5b3.label=Invalid license file.
+
+# ShowDialogAction.d85abda0a5b3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+ShowDialogAction.d85abda0a5b3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+
+# ShowDialogAction.d85abda0a5b3.title=ERROR
+ShowDialogAction.d85abda0a5b3.title=ERROR
+
+# ShowDialogAction.d85abda1a5af.buttonLabel=Previous
+ShowDialogAction.d85abda1a5af.buttonLabel=Previous
+
+# ShowDialogAction.d85abda1a5af.cancelButtonLabel=Previous
+ShowDialogAction.d85abda1a5af.cancelButtonLabel=Previous
+
+# ShowDialogAction.d85abda1a5af.detailsButtonLabel=Details...
+ShowDialogAction.d85abda1a5af.detailsButtonLabel=Details...
+
+# ShowDialogAction.d85abda1a5af.label=Invalid license file.
+ShowDialogAction.d85abda1a5af.label=Invalid license file.
+
+# ShowDialogAction.d85abda1a5af.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Previous to reselect your license file.
+ShowDialogAction.d85abda1a5af.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Previous to reselect your license file.
+
+# ShowDialogAction.d85abda1a5af.title=ERROR
+ShowDialogAction.d85abda1a5af.title=ERROR
+
+# ShowDialogAction.d85abda1a5b4.buttonLabel=Next
+ShowDialogAction.d85abda1a5b4.buttonLabel=Next
+
+# ShowDialogAction.d85abda1a5b4.cancelButtonLabel=Previous
+ShowDialogAction.d85abda1a5b4.cancelButtonLabel=Previous
+
+# ShowDialogAction.d85abda1a5b4.detailsButtonLabel=Details...
+ShowDialogAction.d85abda1a5b4.detailsButtonLabel=Details...
+
+# ShowDialogAction.d85abda1a5b4.label=Invalid license file.
+ShowDialogAction.d85abda1a5b4.label=Invalid license file.
+
+# ShowDialogAction.d85abda1a5b4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+ShowDialogAction.d85abda1a5b4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+
+# ShowDialogAction.d85abda1a5b4.title=ERROR
+ShowDialogAction.d85abda1a5b4.title=ERROR
 
 # ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
 ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
@@ -3811,11 +4024,11 @@ ShowDialogAction.e261f38cb277.cancelButtonLabel=Cancel
 # ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
 ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
 
-# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install STAR-CCM+
-ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install STAR-CCM+
+# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install Simcenter STAR-CCM+
+ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install Simcenter STAR-CCM+
 
-# ShowDialogAction.e261f38cb277.narrative=Please re-run the STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
-ShowDialogAction.e261f38cb277.narrative=Please re-run the STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
+# ShowDialogAction.e261f38cb277.narrative=Please re-run the Simcenter STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
+ShowDialogAction.e261f38cb277.narrative=Please re-run the Simcenter STAR-CCM+ installer with administrator privileges, or specify the NOADMIN=true option.
 
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=Error
@@ -3874,6 +4087,24 @@ ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under 
 # ShowDialogAction.fc266f0ba2cc.title=Error
 ShowDialogAction.fc266f0ba2cc.title=Error
 
+# ShowDialogAction.fe8397b0ac84.buttonLabel=Upgrade
+ShowDialogAction.fe8397b0ac84.buttonLabel=Upgrade
+
+# ShowDialogAction.fe8397b0ac84.cancelButtonLabel=Keep
+ShowDialogAction.fe8397b0ac84.cancelButtonLabel=Keep
+
+# ShowDialogAction.fe8397b0ac84.detailsButtonLabel=Details...
+ShowDialogAction.fe8397b0ac84.detailsButtonLabel=Details...
+
+# ShowDialogAction.fe8397b0ac84.label=FLEXlm License server already exists
+ShowDialogAction.fe8397b0ac84.label=FLEXlm License server already exists
+
+# ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to upgrade to Siemens PLM License server?
+ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to upgrade to Siemens PLM License server?
+
+# ShowDialogAction.fe8397b0ac84.title=Information
+ShowDialogAction.fe8397b0ac84.title=Information
+
 # UninstallCategory.a887e233a9fd.categoryName=Files
 UninstallCategory.a887e233a9fd.categoryName=Files
 
@@ -3910,8 +4141,8 @@ UninstallCompleteAction.850018f38458.stepTitle=Uninstall Complete
 # UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=The following items could not be removed:
 UninstallCompleteAction.850018f38458.uninstallIncompleteMessage=The following items could not be removed:
 
-# UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
-UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
+# UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
+UninstallCompleteAction.850018f38458.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
 
 # UninstallCompleteAction.850018f38458.uninstallSuccessMessage=All items were successfully uninstalled.
 UninstallCompleteAction.850018f38458.uninstallSuccessMessage=All items were successfully uninstalled.
@@ -3931,8 +4162,8 @@ UninstallCompleteAction.f37da0eca99c.stepTitle=Uninstall Complete
 # UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=The following items could not be removed:
 UninstallCompleteAction.f37da0eca99c.uninstallIncompleteMessage=The following items could not be removed:
 
-# UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
-UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
+# UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
+UninstallCompleteAction.f37da0eca99c.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
 
 # UninstallCompleteAction.f37da0eca99c.uninstallSuccessMessage=All items were successfully uninstalled.
 UninstallCompleteAction.f37da0eca99c.uninstallSuccessMessage=All items were successfully uninstalled.
@@ -3952,8 +4183,8 @@ UninstallCompleteAction.fbc110b185a8.stepTitle=Uninstall Complete
 # UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
 UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
 
-# UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
-UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
+# UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
+UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall Simcenter $INSTALLER_TITLE$.
 
 # UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=All items were successfully uninstalled.
 UninstallCompleteAction.fbc110b185a8.uninstallSuccessMessage=All items were successfully uninstalled.
@@ -3979,14 +4210,14 @@ UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
 # UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 UninstallIntroAction.31662af6a601.message=About to uninstall...\n\nSTAR-CAD $CAD_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 
-# UninstallIntroAction.31662af6a601.stepTitle=Uninstall $INSTALLER_TITLE$
-UninstallIntroAction.31662af6a601.stepTitle=Uninstall $INSTALLER_TITLE$
+# UninstallIntroAction.31662af6a601.stepTitle=Uninstall Simcenter $INSTALLER_TITLE$
+UninstallIntroAction.31662af6a601.stepTitle=Uninstall Simcenter $INSTALLER_TITLE$
 
-# UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$INSTALLER_TITLE$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+# UninstallIntroAction.850018f38454.message=About to uninstall...\n\nSimcenter $INSTALLER_TITLE$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.850018f38454.message=About to uninstall...\n\nSimcenter $INSTALLER_TITLE$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 
-# UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
-UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
+# UninstallIntroAction.850018f38454.stepTitle=Uninstall Simcenter $INSTALLER_TITLE$
+UninstallIntroAction.850018f38454.stepTitle=Uninstall Simcenter $INSTALLER_TITLE$
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
 VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
@@ -4012,14 +4243,14 @@ VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
 # VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 
-# VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.589447a1865b.propertyName=STAR-CCM+ Installation directory:
+# VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+ Installation directory:
+VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+ Installation directory:
 
 # VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
 
-# VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.59b76fa89fb6.propertyName=STAR-CCM+ Installation directory:
+# VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+ Installation directory:
+VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+ Installation directory:
 
 # VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
 VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
@@ -4029,6 +4260,31 @@ VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
 
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
+
+# VariablePropertyDataBiDi.d8669dc1baed.propertyName=Installation directory:
+VariablePropertyDataBiDi.d8669dc1baed.propertyName=Installation directory:
+
+# VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.d8669dc2baec.propertyName=Product name:
+VariablePropertyDataBiDi.d8669dc2baec.propertyName=Product name:
+
+# VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM License Server $UGSVERSION$
+VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM License Server $UGSVERSION$
+
+# VariablePropertyDataBiDi.d8669dc2baed.propertyName=License file:
+VariablePropertyDataBiDi.d8669dc2baed.propertyName=License file:
+
+# VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
+VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
+
+# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
+VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
+
+# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
+VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
+
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=License server 1 port@host: \n
@@ -4096,6 +4352,6 @@ _ia.validateFlex.TcpipNumber=TCP/IP port must be a number.
 # _ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
 _ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
 
-# _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
-_ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid STAR-CCM+ license.
+# _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid Simcenter STAR-CCM+ license.
+_ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid Simcenter STAR-CCM+ license.
 
