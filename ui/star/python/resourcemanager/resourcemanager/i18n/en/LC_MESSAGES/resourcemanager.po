@@ -1,0 +1,1495 @@
+# English translations for resourcemanager.
+# Copyright (C) 2017 ORGANIZATION
+# This file is distributed under the same license as the resourcemanager
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: resourcemanager 0.1\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-05-23 16:15-0400\n"
+"PO-Revision-Date: 2017-09-05 12:08+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.4.0\n"
+
+#: resourcemanager/controllers/account.py:28
+#: resourcemanager/controllers/account.py:48
+#: resourcemanager/controllers/account.py:66
+#: resourcemanager/controllers/admin.py:891
+msgid "OK"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:29
+#: resourcemanager/templates/master.xhtml:69
+msgid "Change Password"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:32
+msgid "Current Password"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:36
+#: resourcemanager/controllers/account.py:74
+msgid "New Password"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:37
+#: resourcemanager/controllers/account.py:75
+msgid "Confirm Password"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:40
+#: resourcemanager/controllers/account.py:78
+msgid "Passwords do not match"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:49
+msgid "Request Password Reset"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:52
+msgid ""
+"Request for password reset will be emailed to your address. You can only "
+"use it once and it is valid only for a limited amount of time."
+msgstr ""
+
+#: resourcemanager/controllers/account.py:54
+msgid "User E-mail"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:67
+msgid "Reset Password"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:71
+#: resourcemanager/controllers/admin.py:708
+msgid "User Name"
+msgstr ""
+
+#: resourcemanager/controllers/account.py:107
+msgid "Password changed."
+msgstr ""
+
+#: resourcemanager/controllers/account.py:130
+msgid "Password reset request has been sent. Please check your email."
+msgstr ""
+
+#: resourcemanager/controllers/account.py:158
+msgid "Password has been set. You can use it to login now."
+msgstr ""
+
+#: resourcemanager/controllers/account.py:164
+msgid "Invalid request. You password is managed by the OS."
+msgstr ""
+
+#: resourcemanager/controllers/account.py:174
+msgid ""
+"You cannot change or reset your password here as it is managed by the OS "
+"on \"{0}\""
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:49
+msgid "Import"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:50
+msgid "Bulk Import Users from the CSV File"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:52
+msgid ""
+"This form allows administrator to import the users in bulk using the CSV "
+"file.\n"
+"    The CSV file is expected to have following columns: User Name, Email "
+"Address, Display Name,\n"
+"    semicolon-separated list of group names the user should be member of."
+" It must use UTF-8\n"
+"    encoding."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:57
+msgid "CSV Users File"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:58
+msgid "Must be a valid CSV file"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:60
+msgid "If User with the Name Exists"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:61
+#: resourcemanager/controllers/admin.py:68
+msgid "Skip CSV user (don't do anything)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:62
+msgid "Overwrite the properties and replace the group membership"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:63
+msgid "Overwrite the properties and merge the group membership"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:64
+#: resourcemanager/controllers/admin.py:69
+#: resourcemanager/controllers/admin.py:75
+msgid "Abort the import"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:67
+msgid "If Different User with the Email Exists"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:72
+msgid "If Group does not Exist"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:73
+msgid "Skip the group assignment (don't do anything)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:74
+msgid "Add the new group and add user to it"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:78
+msgid "Skip the first row (heading)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:88
+msgid "Result of the Bulk User Import"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:90
+msgid "Operation Log"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:131
+msgid "Submission Template"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:132
+msgid "Enabled"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:133
+#: resourcemanager/controllers/admin.py:136
+msgid "Application"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:134
+#: resourcemanager/controllers/admin.py:390
+msgid "Command Executable"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:135
+#: resourcemanager/controllers/admin.py:391
+msgid "Additional Options"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:152
+msgid "Are you sure?"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:184
+msgid "equals / contains"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:218
+msgid "Server Configuration"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:224
+#: resourcemanager/controllers/admin.py:562
+msgid "Name"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:225
+msgid "Resource Type"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:226
+msgid "Login Node"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:227
+msgid "System Service"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:228
+msgid "Application Launch RSH"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:229
+msgid "User Directory Template"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:230
+#: resourcemanager/model/configuration.py:136
+#: resourcemanager/templates/master.xhtml:42
+msgid "Submission Templates"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:231
+#: resourcemanager/controllers/admin.py:572
+#: resourcemanager/controllers/admin.py:713
+#: resourcemanager/controllers/admin.py:794
+msgid "Actions"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:253
+msgid ""
+"User Directory Template (use $HOME variable to substitute \n"
+"                                 the user's home directory and $user_name"
+" variable to substitute \n"
+"                                 the user name)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:291
+msgid "Resource Group cannot be renamed."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:297
+msgid "Login Node cannot be renamed."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:303
+msgid "System Service cannot be changed."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:309
+msgid "  "
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:315
+msgid ""
+"  The reason is that this Resource Group is used for authentication,"
+"                                        original value{} restored."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:321
+msgid ""
+"Cannot select SSH with Password for the System Service when Job Manager "
+"is                                  configured to use the Internal "
+"Authentication Mode.  Original value restored."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:327
+msgid "Resource Group {} successfully updated."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:343
+msgid "Resource Group {} cannot be deleted because it's used for authentication."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:351
+msgid "Resource Group {} successfully deleted."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:363
+msgid ""
+"Cannot select SSH with Password for the System Service when Job Manager "
+"is                                  configured to use the Internal "
+"Authentication Mode.  Original values restored."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:368
+msgid "Resource Group {} successfully created."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:408
+#: resourcemanager/controllers/admin.py:566
+msgid "Queue Name"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:453
+msgid ""
+"Another Application Config with the same Application exists for this"
+"                                    Submission Template, please try "
+"again."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:466
+msgid "Application Config with Application {} successfully created."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:489
+msgid ""
+"Another Application Config with the same Application exists for this"
+"                                          Submission Template, please try"
+" again."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:502
+msgid "Application Config with Application {} successfully updated."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:514
+msgid "Application Config successfully deleted."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:523
+msgid ""
+"Please enter number of days (optional) and specify time with format "
+"HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the "
+"00:00:00 is required), 1 day, 20:3:50 (1 day, 20 hrs, 3 min,         50 "
+"sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
+"100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
+"place)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:563
+msgid "Resource Group"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:564
+msgid "Install Path"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:565
+#: resourcemanager/controllers/admin.py:604
+msgid "Job Launch Options"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:567
+msgid "Parallel Environment"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:568
+msgid "Default Walltime"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:569
+msgid "Script Template"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:570
+msgid "Keep Repositories"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:571
+msgid "App. Configs"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:598
+msgid "Edit Application Configs"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:599
+msgid ""
+"Script Template (leave empty to get it \n"
+"                                   filled with the default template)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:601
+msgid ""
+"User Directory Template (use $HOME variable to substitute \n"
+"                                     the user's home directory and "
+"$user_name variable to substitute \n"
+"                                     the user name)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:667
+msgid "Submission Template {} successfully created."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:680
+msgid "Submission Template {} successfully updated."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:694
+msgid "Submission Template {} successfully deleted."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:702
+msgid "Users and Groups"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:709
+msgid "Email Address"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:710
+msgid "Display Name"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:711
+msgid "Created"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:712 resourcemanager/model/auth.py:70
+#: resourcemanager/templates/master.xhtml:45
+msgid "Groups"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:744
+msgid "User {} successfully created."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:761
+msgid ""
+"Cannot remove administrator privilege for yourself.  Original values "
+"restored."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:766
+msgid "User {} successfully updated."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:775
+msgid "Cannot delete current administrator account."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:780
+msgid "User {} successfully deleted."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:792
+msgid "Group Name"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:793
+msgid "Permissions"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:813
+msgid "Group {} successfully created."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:819
+msgid "Group {} successfully updated."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:826
+msgid "Group {} successfully deleted."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:870
+msgid "Users successfully imported."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:873
+msgid "User import failed."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:891
+msgid "Save"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:891
+msgid "Cancel"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:891
+msgid "No file chosen"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:891
+msgid "Browse"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:894
+#: resourcemanager/templates/index.xhtml:3
+#: resourcemanager/templates/master.xhtml:21
+msgid "STAR-CCM+ Job Manager"
+msgstr ""
+
+#: resourcemanager/controllers/root.py:66
+msgid "User not found."
+msgstr ""
+
+#: resourcemanager/controllers/root.py:68
+msgid "Invalid Password."
+msgstr ""
+
+#: resourcemanager/controllers/root.py:72
+msgid "Wrong credentials"
+msgstr ""
+
+#: resourcemanager/controllers/root.py:90
+msgid "Welcome back, {0}!"
+msgstr ""
+
+#: resourcemanager/controllers/root.py:104
+msgid "Logout successful"
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:23
+msgid "Only POST requests are allowed."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:38
+msgid "You have been logged out, please log in"
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:46
+msgid "You have been logged out, please log in to administer Job Manager"
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:57
+msgid "You must be a job manager (with \"manage jobs\" permission)."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:68
+msgid "You must be a job creator (with \"create jobs\" permission)."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:79
+msgid "You must be the job owner."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:105
+msgid ""
+"Only owner of the job or job manager (with \"manage jobs\" permission) "
+"can access the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:122
+msgid "You must be the task owner (owner of the task's job)."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:138
+#: resourcemanager/lib/authorization.py:206
+msgid ""
+"Only owner of the task/job or job manager (with \"manage jobs\" "
+"permission) can access the task."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:164
+msgid ""
+"You must be a job creator (with \"create jobs\" permission) to create a "
+"new job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:172
+msgid ""
+"Only owner of the job or job manager (with \"manage jobs\" permission) "
+"can delete the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:181
+msgid "Only owner of the job can submit the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:189
+msgid "Only owner of the job can finish the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:197
+msgid ""
+"Only owner of the job or job manager (with \"manage jobs\" permission) "
+"can terminate the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:215
+msgid ""
+"Only owner of the job or job manager (with \"manage jobs\" permission) "
+"can create a new task for the job."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:224
+msgid "Only owner of the task/job can launch the task."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:232
+msgid "Only owner of the task/job can terminate the task."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:240
+msgid ""
+"Only owner of the task/job or job manager (with \"manage jobs\" "
+"permission) can delete the task."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:249
+msgid "Only owner of the task (task's job) can access task files."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:257
+msgid "Only owner of the task (task's job) can add files to the task."
+msgstr ""
+
+#: resourcemanager/lib/authorization.py:265
+msgid "You must have the permission to use the template to access it."
+msgstr ""
+
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:44
+msgid "Users"
+msgstr ""
+
+#: resourcemanager/model/bl.py:57
+msgid "The job with the given id: {0} could not be found"
+msgstr ""
+
+#: resourcemanager/model/bl.py:98
+msgid "\"requested_resources\" required when creating job for the submission."
+msgstr ""
+
+#: resourcemanager/model/bl.py:104
+msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
+msgstr ""
+
+#: resourcemanager/model/bl.py:113
+msgid ""
+"Creation of the local jobs/tasks is not allowed. Pass the submission "
+"template to create a new job."
+msgstr ""
+
+#: resourcemanager/model/bl.py:142
+msgid "Only the owner can submit the job."
+msgstr ""
+
+#: resourcemanager/model/bl.py:144
+msgid ""
+"Job must have the submission template and requested resourcesset before "
+"submission."
+msgstr ""
+
+#: resourcemanager/model/bl.py:147
+#, python-format
+msgid "Job has already been submitted, submission id: %s"
+msgstr ""
+
+#: resourcemanager/model/bl.py:150
+#, python-format
+msgid "Only pending job can be submitted. Current job state is %s"
+msgstr ""
+
+#: resourcemanager/model/bl.py:402
+#, python-format
+msgid ""
+"Task can be created only for the job with pending, queued, or running "
+"status. Current job status %s."
+msgstr ""
+
+#: resourcemanager/model/bl.py:871
+msgid "Could not find the submission template with the given name: {0}."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:35
+msgid "Invalid password."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:49
+msgid "Could not find the user for the given email address."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:62
+msgid "Invalid user name."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:110
+msgid "Job Manager password reset request"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:112
+msgid ""
+"\n"
+"    Hello,\n"
+"\n"
+"    Request for the password reset was generated for your Job Manager "
+"account.\n"
+"    Follow this link to reset your password: {0}. The link is only valid "
+"for {1} hours.\n"
+"\n"
+"    If you did not request the password reset, ignore this message or "
+"contact your system\n"
+"    administrator.\n"
+"\n"
+"    Best regards,\n"
+"    Job Manager System\n"
+"    "
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:137
+msgid ""
+"Invalid reset password request key. It might have been used already or "
+"you successfully logged in meanwhile. Try to reset the password again."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:141
+msgid ""
+"Reset password request key has expired. You have to generate a new "
+"password request."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:182
+#, python-format
+msgid "Created a new group %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:184
+#, python-format
+msgid "Group %s does not exist. Aborting import."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:186
+#, python-format
+msgid "Skipped group %s for user %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:198
+#, python-format
+msgid "Email (%s) for the user %s is invalid. %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:214
+#, python-format
+msgid "Invalid CSV file on line: %d. Expecting 4 columns, found %d: %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:219
+#, python-format
+msgid "Skipped empty line %d"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:227
+#, python-format
+msgid "Invalid CSV file on line: %d. User name cannot be empty. Found %d: %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:233
+#, python-format
+msgid "User with email %s already exists. Aborting import."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:236
+#, python-format
+msgid "Skipped user %s because of the duplicate email %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:243
+#, python-format
+msgid "Updated existing user %s and replaced the group membership: %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:247
+#, python-format
+msgid "Updated existing user %s and merged the group membership: %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:250
+#, python-format
+msgid "User %s already exists. Aborting import."
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:252
+#, python-format
+msgid "Skipped existing user %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:256
+#, python-format
+msgid ""
+"Invalid CSV file on line: %d. User email for the new user cannot be "
+"empty. Found %d: %s"
+msgstr ""
+
+#: resourcemanager/model/bl_account.py:265
+#, python-format
+msgid "Created a new user %s with group membership: %s"
+msgstr ""
+
+#: resourcemanager/model/configuration.py:37
+#: resourcemanager/templates/master.xhtml:41
+msgid "Resource Groups"
+msgstr ""
+
+#: resourcemanager/model/configuration.py:237
+msgid "Application Configs"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:3
+msgid "STAR-CCM+ Job Manager - About"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:10
+msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:18
+msgid "Job Manager Version"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:22
+msgid "Product Version:"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:26
+msgid "Release Date:"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:35
+msgid "REST API Version"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:39
+msgid "Latest Version:"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:43
+msgid "URL:"
+msgstr ""
+
+#: resourcemanager/templates/error.xhtml:3
+msgid "A "
+msgstr ""
+
+#: resourcemanager/templates/error.xhtml:3
+msgid " error has Occurred"
+msgstr ""
+
+#: resourcemanager/templates/error.xhtml:7
+msgid "Error "
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:3
+#: resourcemanager/templates/login.xhtml:14
+#: resourcemanager/templates/login.xhtml:40
+#: resourcemanager/templates/master.xhtml:62
+msgid "Login"
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:18
+msgid "Username"
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:24
+msgid "Password"
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:33
+msgid ""
+" remember me\n"
+"                        "
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:45
+msgid "If you forgot you password you can reset it "
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:46
+msgid "here."
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:51
+msgid "Use the OS password on \""
+msgstr ""
+
+#: resourcemanager/templates/login.xhtml:51
+msgid "\". If you need to change or reset your password use your OS procedure."
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:23
+msgid "Toggle navigation"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:8
+#: resourcemanager/templates/master.xhtml:29
+msgid "Simcenter STAR-CCM+ Job Manager"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:35
+msgid ""
+"\n"
+"                    Admin"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:39
+msgid "Admin Home"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:47
+msgid "Bulk Users Import"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:53
+msgid ""
+"\n"
+"                    Help"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:57
+msgid "About"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:65
+msgid ""
+"\n"
+"                    Account"
+msgstr ""
+
+#: resourcemanager/templates/master.xhtml:71
+msgid "Logout"
+msgstr ""
+
+#: resourcemanager/templates/admin/edit.xhtml:4
+msgid " - Edit "
+msgstr ""
+
+#: resourcemanager/templates/admin/edit.xhtml:10
+msgid "Edit "
+msgstr ""
+
+#: resourcemanager/templates/admin/get_all.xhtml:4
+msgid " - "
+msgstr ""
+
+#: resourcemanager/templates/admin/get_all.xhtml:4
+msgid "s Listing"
+msgstr ""
+
+#: resourcemanager/templates/admin/get_all.xhtml:21
+#: resourcemanager/templates/admin/new.xhtml:10
+msgid "New "
+msgstr ""
+
+#: resourcemanager/templates/admin/get_all.xhtml:50
+msgid "Search"
+msgstr ""
+
+#: resourcemanager/templates/admin/new.xhtml:4
+msgid " - New "
+msgstr ""
+
+#: resourcemanager/templates/tw2/form_page.xhtml:3
+msgid "STAR-CCM+ Job Manager - "
+msgstr ""
+
+#~ msgid "Only for managers"
+#~ msgstr ""
+
+#~ msgid "Only for the editor"
+#~ msgstr ""
+
+#~ msgid "User not found"
+#~ msgstr ""
+
+#~ msgid "Invalid Password"
+#~ msgstr ""
+
+#~ msgid "We hope to see you soon!"
+#~ msgstr ""
+
+#~ msgid "Only for people with the \"manage\" permission"
+#~ msgstr ""
+
+#~ msgid "Secure Controller here"
+#~ msgstr ""
+
+#~ msgid "The current user must have been authenticated"
+#~ msgstr ""
+
+#~ msgid "You must be a system administrator (with \"manage system\" permission)."
+#~ msgstr ""
+
+#~ msgid "Architectural basics of a quickstart TG2 site."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The TG2 quickstart command produces this"
+#~ " basic TG site. Here's how it "
+#~ "works."
+#~ msgstr ""
+
+#~ msgid "About Architecture"
+#~ msgstr ""
+
+#~ msgid "Data Model"
+#~ msgstr ""
+
+#~ msgid "URL Structure"
+#~ msgstr ""
+
+#~ msgid "Templates"
+#~ msgstr ""
+
+#~ msgid "Authentication"
+#~ msgstr ""
+
+#~ msgid "Authorization and Authentication"
+#~ msgstr ""
+
+#~ msgid "Code my data model"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you want a model for storing favorite links or wiki content, the\n"
+#~ "          "
+#~ msgstr ""
+
+#~ msgid "/model"
+#~ msgstr ""
+
+#~ msgid " folder in your site is ready to go."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can build a dynamic site "
+#~ "without any data model at all. "
+#~ "There still be a\n"
+#~ "          default data-model template "
+#~ "for you if you didn't enable "
+#~ "authentication and\n"
+#~ "          authorization in quickstart. If "
+#~ "you have enabled authorization, the auth"
+#~ "\n"
+#~ "          data-model is ready-made."
+#~ msgstr ""
+
+#~ msgid "Design my URL structure"
+#~ msgstr ""
+
+#~ msgid "The \""
+#~ msgstr ""
+
+#~ msgid "root.py"
+#~ msgstr ""
+
+#~ msgid "\" file under the "
+#~ msgstr ""
+
+#~ msgid "/controllers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ " folder has\n"
+#~ "          your URLs. When you called this url ("
+#~ msgstr ""
+
+#~ msgid "about"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "), the command went through the\n"
+#~ "          RootController class to the "
+#~ msgstr ""
+
+#~ msgid "about()"
+#~ msgstr ""
+
+#~ msgid " method."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Those Python methods are responsible to"
+#~ " create the dictionary of variables\n"
+#~ "          that will be used in your web views (template)."
+#~ msgstr ""
+
+#~ msgid "Reuse the web page elements"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A web page viewed by user could"
+#~ " be constructed by single or several"
+#~ " reusable\n"
+#~ "                templates under "
+#~ msgstr ""
+
+#~ msgid "/templates"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ".\n"
+#~ "                Each projects gets quickstarted with a "
+#~ msgstr ""
+
+#~ msgid "master.html"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "                template and a bunch of"
+#~ " templates for the pages provided by"
+#~ " the RootController.\n"
+#~ "            "
+#~ msgstr ""
+
+#~ msgid "The Master Template"
+#~ msgstr ""
+
+#~ msgid "The "
+#~ msgstr ""
+
+#~ msgid ""
+#~ " template\n"
+#~ "        controls the overall design of"
+#~ " the page we're looking at. It "
+#~ "draws the headers,\n"
+#~ "        the footer, the notices flash"
+#~ " and embeds the content of each "
+#~ "page of your web applications.\n"
+#~ "        Thus the \"master.html\" template "
+#~ "provides the overall architecture for\n"
+#~ "        each page in this site."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There's more to the \"master.html\" "
+#~ "template... study it to see how "
+#~ "the\n"
+#~ "        &lt;title&gt; tags and static JS"
+#~ " and CSS files are brought into "
+#~ "the page.\n"
+#~ "        Templating with Genshi is a "
+#~ "powerful tool and we've only scratched"
+#~ " the surface.\n"
+#~ "        There are also a few "
+#~ "little CSS tricks hidden in these "
+#~ "pages, like the use of a\n"
+#~ "        \"clearingdiv\" to make sure "
+#~ "that your footer stays below the "
+#~ "sidebars and always\n"
+#~ "        looks right. That's not TG2 "
+#~ "at work, just CSS. You'll need all"
+#~ " your skills to\n"
+#~ "        build a fine web app, but"
+#~ " TG2 will make the hard parts "
+#~ "easier so that you can\n"
+#~ "        concentrate more on good design"
+#~ " and content rather than struggling "
+#~ "with\n"
+#~ "        mechanics."
+#~ msgstr ""
+
+#~ msgid "Authentication &amp; Authorization in a TG2 site."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you have access to this page,"
+#~ " this means you have enabled "
+#~ "authentication\n"
+#~ "        and authorization in the quickstart to create your project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The gearbox command will have created"
+#~ " a few specific controllers for you."
+#~ " But\n"
+#~ "        before you go to play with"
+#~ " those controllers you'll need to "
+#~ "make sure your\n"
+#~ "        application has been properly "
+#~ "bootstapped. This is dead easy, here "
+#~ "is how to do\n"
+#~ "        this:"
+#~ msgstr ""
+
+#~ msgid "gearbox setup-app"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "inside your application's folder and "
+#~ "you'll get a database setup (using "
+#~ "the\n"
+#~ "        preferences you have set in "
+#~ "your development.ini file). This database "
+#~ "will also\n"
+#~ "        have been prepopulated with some"
+#~ " default logins/passwords so that you "
+#~ "can test\n"
+#~ "        the secured controllers and methods."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To change the comportement of this "
+#~ "setup-app command you just need to"
+#~ " edit\n"
+#~ "        the "
+#~ msgstr ""
+
+#~ msgid "websetup.py"
+#~ msgstr ""
+
+#~ msgid " file."
+#~ msgstr ""
+
+#~ msgid "Now try to visiting the "
+#~ msgstr ""
+
+#~ msgid "manage_permission_only"
+#~ msgstr ""
+
+#~ msgid ""
+#~ " URL. You will\n"
+#~ "        be challenged with a login/password form."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Only managers are authorized to visit"
+#~ " this method. You will need to "
+#~ "log-in\n"
+#~ "        using:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "login: manager\n"
+#~ "password: managepass"
+#~ msgstr ""
+
+#~ msgid "Another protected resource is "
+#~ msgstr ""
+
+#~ msgid "editor_user_only"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ". This one is protected by\n"
+#~ "        a different set of permissions. You will need to be "
+#~ msgstr ""
+
+#~ msgid "editor"
+#~ msgstr ""
+
+#~ msgid ""
+#~ " with a\n"
+#~ "        password of "
+#~ msgstr ""
+
+#~ msgid "editpass"
+#~ msgstr ""
+
+#~ msgid " to be able to access it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The last kind of protected resource "
+#~ "in this quickstarted app is a full"
+#~ " so\n"
+#~ "        called "
+#~ msgstr ""
+
+#~ msgid "secure controller"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ". This controller is\n"
+#~ "        protected globally. Instead of "
+#~ "having a @require decorator on each "
+#~ "method, we\n"
+#~ "        have set an allow_only attribute"
+#~ " at the class level. All the "
+#~ "methods in this\n"
+#~ "        controller will require the same"
+#~ " level of access. You need to "
+#~ "be manager to\n"
+#~ "        access "
+#~ msgstr ""
+
+#~ msgid "secc"
+#~ msgstr ""
+
+#~ msgid " or "
+#~ msgstr ""
+
+#~ msgid "secc/some_where"
+#~ msgstr ""
+
+#~ msgid "."
+#~ msgstr ""
+
+#~ msgid "Learning TurboGears 2.3: Quick guide to the Quickstart pages."
+#~ msgstr ""
+
+#~ msgid "Content Type Dispatch"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "\n"
+#~ "          This page shows how you can provide multiple pages\n"
+#~ "          directly from the same "
+#~ "controller method.  This page is "
+#~ "generated\n"
+#~ "          from the expose decorator with"
+#~ " the template defintion provided.\n"
+#~ "          You can provide a url "
+#~ "with parameters and this page will "
+#~ "display\n"
+#~ "          the parameters as html, and the json version will express\n"
+#~ "          the entries as "
+#~ msgstr ""
+
+#~ msgid "JSON"
+#~ msgstr ""
+
+#~ msgid ""
+#~ ".\n"
+#~ "        "
+#~ msgstr ""
+
+#~ msgid "Click here for the "
+#~ msgstr ""
+
+#~ msgid "JSON Version of this page."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The data provided in the template call is:\n"
+#~ "        "
+#~ msgstr ""
+
+#~ msgid "Key"
+#~ msgstr ""
+
+#~ msgid "Value"
+#~ msgstr ""
+
+#~ msgid "The WSGI nature of the framework"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In this page you can see all "
+#~ "the WSGI variables your request object"
+#~ " has,\n"
+#~ "             the ones in capital letters"
+#~ " are required by the spec, then "
+#~ "a sorted by\n"
+#~ "             component list of variables "
+#~ "provided by the Components, and at "
+#~ "last\n"
+#~ "             the \"wsgi.\" namespace with "
+#~ "very useful information about your WSGI"
+#~ " Server"
+#~ msgstr ""
+
+#~ msgid "The keys in the environment are:"
+#~ msgstr ""
+
+#~ msgid "Learning TurboGears 2.3: Information about TG and WSGI"
+#~ msgstr ""
+
+#~ msgid "Welcome to TurboGears 2.3"
+#~ msgstr ""
+
+#~ msgid "If you see this page it means your installation was successful!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "TurboGears 2 is rapid web application"
+#~ " development toolkit designed to make "
+#~ "your life easier."
+#~ msgstr ""
+
+#~ msgid ""
+#~ " Learn more\n"
+#~ "              "
+#~ msgstr ""
+
+#~ msgid " TG2 Documentation"
+#~ msgstr ""
+
+#~ msgid "new"
+#~ msgstr ""
+
+#~ msgid " Get Started"
+#~ msgstr ""
+
+#~ msgid " TG2 CookBook"
+#~ msgstr ""
+
+#~ msgid " Read the Cookbook"
+#~ msgstr ""
+
+#~ msgid " Join the Mail List"
+#~ msgstr ""
+
+#~ msgid "for help/discussion"
+#~ msgstr ""
+
+#~ msgid " Play on Runnable"
+#~ msgstr ""
+
+#~ msgid "for basic examples"
+#~ msgstr ""
+
+#~ msgid " Search Stackoverflow"
+#~ msgstr ""
+
+#~ msgid "for questions"
+#~ msgstr ""
+
+#~ msgid "Code your data model"
+#~ msgstr ""
+
+#~ msgid " Design your data "
+#~ msgstr ""
+
+#~ msgid "model"
+#~ msgstr ""
+
+#~ msgid ", Create the database, and Add some bootstrap data."
+#~ msgstr ""
+
+#~ msgid "Design your URL architecture"
+#~ msgstr ""
+
+#~ msgid " Decide your URLs, Program your "
+#~ msgstr ""
+
+#~ msgid "controller"
+#~ msgstr ""
+
+#~ msgid ""
+#~ " methods, Design your\n"
+#~ "            "
+#~ msgstr ""
+
+#~ msgid "templates"
+#~ msgstr ""
+
+#~ msgid ", and place some static files (CSS and/or Javascript). "
+#~ msgstr ""
+
+#~ msgid "Distribute your app"
+#~ msgstr ""
+
+#~ msgid " Test your source, Generate project documents, Build a distribution."
+#~ msgstr ""
+
+#~ msgid " Thank you for choosing TurboGears."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Welcome to TurboGears 2.3, standing on"
+#~ " the shoulders of giants, since 2007"
+#~ msgstr ""
+
+#~ msgid "Username:"
+#~ msgstr ""
+
+#~ msgid "Password:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ " remember me\n"
+#~ "              "
+#~ msgstr ""
+
+#~ msgid "Your generic title goes here"
+#~ msgstr ""
+
+#~ msgid "Welcome"
+#~ msgstr ""
+
+#~ msgid "Serving Data"
+#~ msgstr ""
+
+#~ msgid "WSGI Environment"
+#~ msgstr ""
+
+#~ msgid "Admin"
+#~ msgstr ""
+
+#~ msgid "Copyright © "
+#~ msgstr ""
+
