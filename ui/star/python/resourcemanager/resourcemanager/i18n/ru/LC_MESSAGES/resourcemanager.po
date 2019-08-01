@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-05-23 16:15-0400\n"
+"POT-Creation-Date: 2019-07-31 11:25-0400\n"
 "PO-Revision-Date: 2019-05-23 16:16-0400\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ru\n"
@@ -23,12 +23,12 @@ msgstr ""
 #: resourcemanager/controllers/account.py:28
 #: resourcemanager/controllers/account.py:48
 #: resourcemanager/controllers/account.py:66
-#: resourcemanager/controllers/admin.py:891
+#: resourcemanager/controllers/admin.py:958
 msgid "OK"
 msgstr ""
 
 #: resourcemanager/controllers/account.py:29
-#: resourcemanager/templates/master.xhtml:69
+#: resourcemanager/templates/master.xhtml:70
 msgid "Change Password"
 msgstr ""
 
@@ -70,41 +70,41 @@ msgid "Reset Password"
 msgstr ""
 
 #: resourcemanager/controllers/account.py:71
-#: resourcemanager/controllers/admin.py:708
+#: resourcemanager/controllers/admin.py:746
 msgid "User Name"
 msgstr ""
 
-#: resourcemanager/controllers/account.py:107
+#: resourcemanager/controllers/account.py:109
 msgid "Password changed."
 msgstr ""
 
-#: resourcemanager/controllers/account.py:130
+#: resourcemanager/controllers/account.py:132
 msgid "Password reset request has been sent. Please check your email."
 msgstr ""
 
-#: resourcemanager/controllers/account.py:158
+#: resourcemanager/controllers/account.py:160
 msgid "Password has been set. You can use it to login now."
 msgstr ""
 
-#: resourcemanager/controllers/account.py:164
+#: resourcemanager/controllers/account.py:166
 msgid "Invalid request. You password is managed by the OS."
 msgstr ""
 
-#: resourcemanager/controllers/account.py:174
+#: resourcemanager/controllers/account.py:176
 msgid ""
 "You cannot change or reset your password here as it is managed by the OS "
 "on \"{0}\""
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:49
+#: resourcemanager/controllers/admin.py:52
 msgid "Import"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:50
+#: resourcemanager/controllers/admin.py:53
 msgid "Bulk Import Users from the CSV File"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:52
+#: resourcemanager/controllers/admin.py:55
 msgid ""
 "This form allows administrator to import the users in bulk using the CSV "
 "file.\n"
@@ -115,139 +115,151 @@ msgid ""
 "    encoding."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:57
+#: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:58
+#: resourcemanager/controllers/admin.py:61
 msgid "Must be a valid CSV file"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:60
+#: resourcemanager/controllers/admin.py:63
 msgid "If User with the Name Exists"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:61
-#: resourcemanager/controllers/admin.py:68
+#: resourcemanager/controllers/admin.py:64
+#: resourcemanager/controllers/admin.py:71
 msgid "Skip CSV user (don't do anything)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:62
+#: resourcemanager/controllers/admin.py:65
 msgid "Overwrite the properties and replace the group membership"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:63
+#: resourcemanager/controllers/admin.py:66
 msgid "Overwrite the properties and merge the group membership"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:64
-#: resourcemanager/controllers/admin.py:69
-#: resourcemanager/controllers/admin.py:75
+#: resourcemanager/controllers/admin.py:67
+#: resourcemanager/controllers/admin.py:72
+#: resourcemanager/controllers/admin.py:78
 msgid "Abort the import"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:67
+#: resourcemanager/controllers/admin.py:70
 msgid "If Different User with the Email Exists"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:72
+#: resourcemanager/controllers/admin.py:75
 msgid "If Group does not Exist"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:73
+#: resourcemanager/controllers/admin.py:76
 msgid "Skip the group assignment (don't do anything)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:74
+#: resourcemanager/controllers/admin.py:77
 msgid "Add the new group and add user to it"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:78
+#: resourcemanager/controllers/admin.py:81
 msgid "Skip the first row (heading)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:88
+#: resourcemanager/controllers/admin.py:91
 msgid "Result of the Bulk User Import"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:90
+#: resourcemanager/controllers/admin.py:93
 msgid "Operation Log"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:131
+#: resourcemanager/controllers/admin.py:134
 msgid "Submission Template"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:132
+#: resourcemanager/controllers/admin.py:135
 msgid "Enabled"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:133
 #: resourcemanager/controllers/admin.py:136
+#: resourcemanager/controllers/admin.py:139
 msgid "Application"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:134
-#: resourcemanager/controllers/admin.py:390
+#: resourcemanager/controllers/admin.py:137
+#: resourcemanager/controllers/admin.py:429
 msgid "Command Executable"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:135
-#: resourcemanager/controllers/admin.py:391
+#: resourcemanager/controllers/admin.py:138
+#: resourcemanager/controllers/admin.py:430
 msgid "Additional Options"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:152
+#: resourcemanager/controllers/admin.py:155
 msgid "Are you sure?"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:184
+#: resourcemanager/controllers/admin.py:187
 msgid "equals / contains"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:218
-msgid "Server Configuration"
-msgstr ""
-
 #: resourcemanager/controllers/admin.py:224
-#: resourcemanager/controllers/admin.py:562
-msgid "Name"
+msgid "Relative paths are not allowed"
 msgstr ""
 
 #: resourcemanager/controllers/admin.py:225
+msgid "Please enter a value"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:246
+msgid "Cannot resolve hostname"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:262
+msgid "Server Configuration"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:268
+#: resourcemanager/controllers/admin.py:601
+msgid "Name"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:269
 msgid "Resource Type"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:226
+#: resourcemanager/controllers/admin.py:270
 msgid "Login Node"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:227
+#: resourcemanager/controllers/admin.py:271
 msgid "System Service"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:228
+#: resourcemanager/controllers/admin.py:272
 msgid "Application Launch RSH"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:229
+#: resourcemanager/controllers/admin.py:273
 msgid "User Directory Template"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:230
+#: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
-#: resourcemanager/templates/master.xhtml:42
+#: resourcemanager/templates/master.xhtml:43
 msgid "Submission Templates"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:231
-#: resourcemanager/controllers/admin.py:572
-#: resourcemanager/controllers/admin.py:713
-#: resourcemanager/controllers/admin.py:794
+#: resourcemanager/controllers/admin.py:275
+#: resourcemanager/controllers/admin.py:611
+#: resourcemanager/controllers/admin.py:751
+#: resourcemanager/controllers/admin.py:861
 msgid "Actions"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:253
+#: resourcemanager/controllers/admin.py:297
 msgid ""
 "User Directory Template (use $HOME variable to substitute \n"
 "                                 the user's home directory and $user_name"
@@ -255,90 +267,86 @@ msgid ""
 "                                 the user name)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:291
+#: resourcemanager/controllers/admin.py:336
 msgid "Resource Group cannot be renamed."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:297
-msgid "Login Node cannot be renamed."
-msgstr ""
-
-#: resourcemanager/controllers/admin.py:303
+#: resourcemanager/controllers/admin.py:342
 msgid "System Service cannot be changed."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:309
+#: resourcemanager/controllers/admin.py:348
 msgid "  "
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:315
+#: resourcemanager/controllers/admin.py:354
 msgid ""
 "  The reason is that this Resource Group is used for authentication,"
 "                                        original value{} restored."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:321
+#: resourcemanager/controllers/admin.py:360
 msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:327
+#: resourcemanager/controllers/admin.py:366
 msgid "Resource Group {} successfully updated."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:343
+#: resourcemanager/controllers/admin.py:382
 msgid "Resource Group {} cannot be deleted because it's used for authentication."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:351
+#: resourcemanager/controllers/admin.py:390
 msgid "Resource Group {} successfully deleted."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:363
+#: resourcemanager/controllers/admin.py:402
 msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:368
+#: resourcemanager/controllers/admin.py:407
 msgid "Resource Group {} successfully created."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:408
-#: resourcemanager/controllers/admin.py:566
+#: resourcemanager/controllers/admin.py:447
+#: resourcemanager/controllers/admin.py:605
 msgid "Queue Name"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:453
+#: resourcemanager/controllers/admin.py:492
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                    Submission Template, please try "
 "again."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:466
+#: resourcemanager/controllers/admin.py:505
 msgid "Application Config with Application {} successfully created."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:489
+#: resourcemanager/controllers/admin.py:528
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                          Submission Template, please try"
 " again."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:502
+#: resourcemanager/controllers/admin.py:541
 msgid "Application Config with Application {} successfully updated."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:514
+#: resourcemanager/controllers/admin.py:553
 msgid "Application Config successfully deleted."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:523
+#: resourcemanager/controllers/admin.py:562
 msgid ""
 "Please enter number of days (optional) and specify time with format "
 "HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the "
@@ -348,159 +356,163 @@ msgid ""
 "place)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:563
+#: resourcemanager/controllers/admin.py:602
 msgid "Resource Group"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:564
+#: resourcemanager/controllers/admin.py:603
 msgid "Install Path"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:565
 #: resourcemanager/controllers/admin.py:604
+#: resourcemanager/controllers/admin.py:642
 msgid "Job Launch Options"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:567
+#: resourcemanager/controllers/admin.py:606
 msgid "Parallel Environment"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:568
+#: resourcemanager/controllers/admin.py:607
 msgid "Default Walltime"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:569
+#: resourcemanager/controllers/admin.py:608
 msgid "Script Template"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:570
+#: resourcemanager/controllers/admin.py:609
 msgid "Keep Repositories"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:571
+#: resourcemanager/controllers/admin.py:610
 msgid "App. Configs"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:598
+#: resourcemanager/controllers/admin.py:637
 msgid "Edit Application Configs"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:599
+#: resourcemanager/controllers/admin.py:638
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:601
+#: resourcemanager/controllers/admin.py:640
 msgid ""
-"User Directory Template (use $HOME variable to substitute \n"
-"                                     the user's home directory and "
-"$user_name variable to substitute \n"
-"                                     the user name)"
+"Keep Job and Task Repositories (for \n"
+"                                    troubleshooting purposes)"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:667
+#: resourcemanager/controllers/admin.py:705
 msgid "Submission Template {} successfully created."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:680
+#: resourcemanager/controllers/admin.py:718
 msgid "Submission Template {} successfully updated."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:694
+#: resourcemanager/controllers/admin.py:732
 msgid "Submission Template {} successfully deleted."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:702
+#: resourcemanager/controllers/admin.py:740
 msgid "Users and Groups"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:709
+#: resourcemanager/controllers/admin.py:747
 msgid "Email Address"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:710
+#: resourcemanager/controllers/admin.py:748
 msgid "Display Name"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:711
+#: resourcemanager/controllers/admin.py:749
 msgid "Created"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:712 resourcemanager/model/auth.py:70
-#: resourcemanager/templates/master.xhtml:45
+#: resourcemanager/controllers/admin.py:750 resourcemanager/model/auth.py:70
+#: resourcemanager/templates/master.xhtml:46
 msgid "Groups"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:744
+#: resourcemanager/controllers/admin.py:802
 msgid "User {} successfully created."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:761
+#: resourcemanager/controllers/admin.py:819
 msgid ""
 "Cannot remove administrator privilege for yourself.  Original values "
 "restored."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:766
+#: resourcemanager/controllers/admin.py:827
+msgid ""
+"Another user with the same email address exists.  Original values "
+"restored."
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:833
 msgid "User {} successfully updated."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:775
+#: resourcemanager/controllers/admin.py:842
 msgid "Cannot delete current administrator account."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:780
+#: resourcemanager/controllers/admin.py:847
 msgid "User {} successfully deleted."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:792
+#: resourcemanager/controllers/admin.py:859
 msgid "Group Name"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:793
+#: resourcemanager/controllers/admin.py:860
 msgid "Permissions"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:813
+#: resourcemanager/controllers/admin.py:880
 msgid "Group {} successfully created."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:819
+#: resourcemanager/controllers/admin.py:886
 msgid "Group {} successfully updated."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:826
+#: resourcemanager/controllers/admin.py:893
 msgid "Group {} successfully deleted."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:870
+#: resourcemanager/controllers/admin.py:937
 msgid "Users successfully imported."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:873
+#: resourcemanager/controllers/admin.py:940
 msgid "User import failed."
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:891
+#: resourcemanager/controllers/admin.py:958
 msgid "Save"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:891
+#: resourcemanager/controllers/admin.py:958
 msgid "Cancel"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:891
+#: resourcemanager/controllers/admin.py:958
 msgid "No file chosen"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:891
+#: resourcemanager/controllers/admin.py:958
 msgid "Browse"
 msgstr ""
 
-#: resourcemanager/controllers/admin.py:894
+#: resourcemanager/controllers/admin.py:961
 #: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:21
+#: resourcemanager/templates/master.xhtml:22
 msgid "STAR-CCM+ Job Manager"
 msgstr ""
 
@@ -623,56 +635,56 @@ msgstr ""
 msgid "You must have the permission to use the template to access it."
 msgstr ""
 
-#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:44
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
 msgid "Users"
 msgstr ""
 
-#: resourcemanager/model/bl.py:57
+#: resourcemanager/model/bl.py:60
 msgid "The job with the given id: {0} could not be found"
 msgstr ""
 
-#: resourcemanager/model/bl.py:98
+#: resourcemanager/model/bl.py:115
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr ""
 
-#: resourcemanager/model/bl.py:104
+#: resourcemanager/model/bl.py:121
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr ""
 
-#: resourcemanager/model/bl.py:113
+#: resourcemanager/model/bl.py:130
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr ""
 
-#: resourcemanager/model/bl.py:142
+#: resourcemanager/model/bl.py:159
 msgid "Only the owner can submit the job."
 msgstr ""
 
-#: resourcemanager/model/bl.py:144
+#: resourcemanager/model/bl.py:161
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr ""
 
-#: resourcemanager/model/bl.py:147
+#: resourcemanager/model/bl.py:164
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr ""
 
-#: resourcemanager/model/bl.py:150
+#: resourcemanager/model/bl.py:167
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr ""
 
-#: resourcemanager/model/bl.py:402
+#: resourcemanager/model/bl.py:421
 #, python-format
 msgid ""
 "Task can be created only for the job with pending, queued, or running "
 "status. Current job status %s."
 msgstr ""
 
-#: resourcemanager/model/bl.py:871
+#: resourcemanager/model/bl.py:895
 msgid "Could not find the submission template with the given name: {0}."
 msgstr ""
 
@@ -801,7 +813,7 @@ msgid "Created a new user %s with group membership: %s"
 msgstr ""
 
 #: resourcemanager/model/configuration.py:37
-#: resourcemanager/templates/master.xhtml:41
+#: resourcemanager/templates/master.xhtml:42
 msgid "Resource Groups"
 msgstr ""
 
@@ -856,7 +868,7 @@ msgstr ""
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
-#: resourcemanager/templates/master.xhtml:62
+#: resourcemanager/templates/master.xhtml:63
 msgid "Login"
 msgstr ""
 
@@ -890,46 +902,46 @@ msgstr ""
 msgid "\". If you need to change or reset your password use your OS procedure."
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:23
+#: resourcemanager/templates/master.xhtml:24
 msgid "Toggle navigation"
 msgstr ""
 
 #: resourcemanager/templates/master.xhtml:8
-#: resourcemanager/templates/master.xhtml:29
+#: resourcemanager/templates/master.xhtml:30
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:35
+#: resourcemanager/templates/master.xhtml:36
 msgid ""
 "\n"
 "                    Admin"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:39
+#: resourcemanager/templates/master.xhtml:40
 msgid "Admin Home"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:47
+#: resourcemanager/templates/master.xhtml:48
 msgid "Bulk Users Import"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:53
+#: resourcemanager/templates/master.xhtml:54
 msgid ""
 "\n"
 "                    Help"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:57
+#: resourcemanager/templates/master.xhtml:58
 msgid "About"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:65
+#: resourcemanager/templates/master.xhtml:66
 msgid ""
 "\n"
 "                    Account"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:71
+#: resourcemanager/templates/master.xhtml:72
 msgid "Logout"
 msgstr ""
 
