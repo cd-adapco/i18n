@@ -1,19 +1,19 @@
-# Chinese translations for resourcemanager.
-# Copyright (C) 2019 ORGANIZATION
+# English translations for resourcemanager.
+# Copyright (C) 2017 ORGANIZATION
 # This file is distributed under the same license as the resourcemanager
 # project.
-# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2017.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2019-07-31 11:25-0400\n"
-"PO-Revision-Date: 2019-07-01 12:23-0400\n"
+"PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language: zh\n"
-"Language-Team: zh <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -24,84 +24,84 @@ msgstr ""
 #: resourcemanager/controllers/account.py:66
 #: resourcemanager/controllers/admin.py:958
 msgid "OK"
-msgstr ""
+msgstr "确定"
 
 #: resourcemanager/controllers/account.py:29
 #: resourcemanager/templates/master.xhtml:70
 msgid "Change Password"
-msgstr ""
+msgstr "更改密码"
 
 #: resourcemanager/controllers/account.py:32
 msgid "Current Password"
-msgstr ""
+msgstr "当前密码"
 
 #: resourcemanager/controllers/account.py:36
 #: resourcemanager/controllers/account.py:74
 msgid "New Password"
-msgstr ""
+msgstr "新密码"
 
 #: resourcemanager/controllers/account.py:37
 #: resourcemanager/controllers/account.py:75
 msgid "Confirm Password"
-msgstr ""
+msgstr "确认密码"
 
 #: resourcemanager/controllers/account.py:40
 #: resourcemanager/controllers/account.py:78
 msgid "Passwords do not match"
-msgstr ""
+msgstr "密码不匹配"
 
 #: resourcemanager/controllers/account.py:49
 msgid "Request Password Reset"
-msgstr ""
+msgstr "请求密码重置"
 
 #: resourcemanager/controllers/account.py:52
 msgid ""
 "Request for password reset will be emailed to your address. You can only "
 "use it once and it is valid only for a limited amount of time."
-msgstr ""
+msgstr "密码重置请求将通过电子邮件发送到您的地址。该邮件只能使用一次，并且仅在有限的时间内有效。"
 
 #: resourcemanager/controllers/account.py:54
 msgid "User E-mail"
-msgstr ""
+msgstr "用户电子邮件"
 
 #: resourcemanager/controllers/account.py:67
 msgid "Reset Password"
-msgstr ""
+msgstr "重置密码"
 
 #: resourcemanager/controllers/account.py:71
 #: resourcemanager/controllers/admin.py:746
 msgid "User Name"
-msgstr ""
+msgstr "用户名"
 
 #: resourcemanager/controllers/account.py:109
 msgid "Password changed."
-msgstr ""
+msgstr "密码已更改。"
 
 #: resourcemanager/controllers/account.py:132
 msgid "Password reset request has been sent. Please check your email."
-msgstr ""
+msgstr "密码重置请求已发送。请检查您的电子邮件。"
 
 #: resourcemanager/controllers/account.py:160
 msgid "Password has been set. You can use it to login now."
-msgstr ""
+msgstr "密码已设置。现在可以使用它登录。"
 
 #: resourcemanager/controllers/account.py:166
 msgid "Invalid request. You password is managed by the OS."
-msgstr ""
+msgstr "无效的请求。您的密码由 OS 管理。"
 
 #: resourcemanager/controllers/account.py:176
 msgid ""
 "You cannot change or reset your password here as it is managed by the OS "
 "on \"{0}\""
-msgstr ""
+msgstr "不能在此处更改或重置密码，因为它在 \"{0}\" 上由 OS 管理"
 
 #: resourcemanager/controllers/admin.py:52
 msgid "Import"
-msgstr ""
+msgstr "导入"
 
 #: resourcemanager/controllers/admin.py:53
 msgid "Bulk Import Users from the CSV File"
-msgstr ""
+msgstr "从 CSV 文件批量导入用户"
 
 #: resourcemanager/controllers/admin.py:55
 msgid ""
@@ -112,151 +112,151 @@ msgid ""
 "    semicolon-separated list of group names the user should be member of."
 " It must use UTF-8\n"
 "    encoding."
-msgstr ""
+msgstr "此表单允许管理员使用 CSV 文件批量导入用户。\n    CSV 文件应具有以下列：用户名、电子邮件地址、显示名称、\n    用户应属于以分号分隔的组名列表。它必须使用 UTF-8\n    编码。"
 
 #: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
-msgstr ""
+msgstr "CSV 用户文件"
 
 #: resourcemanager/controllers/admin.py:61
 msgid "Must be a valid CSV file"
-msgstr ""
+msgstr "必须是有效的 CSV 文件"
 
 #: resourcemanager/controllers/admin.py:63
 msgid "If User with the Name Exists"
-msgstr ""
+msgstr "如果此名称的用户已存在"
 
 #: resourcemanager/controllers/admin.py:64
 #: resourcemanager/controllers/admin.py:71
 msgid "Skip CSV user (don't do anything)"
-msgstr ""
+msgstr "跳过 CSV 用户（不执行任何操作）"
 
 #: resourcemanager/controllers/admin.py:65
 msgid "Overwrite the properties and replace the group membership"
-msgstr ""
+msgstr "覆盖属性并替换组成员资格"
 
 #: resourcemanager/controllers/admin.py:66
 msgid "Overwrite the properties and merge the group membership"
-msgstr ""
+msgstr "覆盖属性并合并组成员资格"
 
 #: resourcemanager/controllers/admin.py:67
 #: resourcemanager/controllers/admin.py:72
 #: resourcemanager/controllers/admin.py:78
 msgid "Abort the import"
-msgstr ""
+msgstr "终止导入"
 
 #: resourcemanager/controllers/admin.py:70
 msgid "If Different User with the Email Exists"
-msgstr ""
+msgstr "如果存在具有相同电子邮件的不同用户"
 
 #: resourcemanager/controllers/admin.py:75
 msgid "If Group does not Exist"
-msgstr ""
+msgstr "如果组不存在"
 
 #: resourcemanager/controllers/admin.py:76
 msgid "Skip the group assignment (don't do anything)"
-msgstr ""
+msgstr "跳过组指派（不执行任何操作）"
 
 #: resourcemanager/controllers/admin.py:77
 msgid "Add the new group and add user to it"
-msgstr ""
+msgstr "添加新组并向其添加用户"
 
 #: resourcemanager/controllers/admin.py:81
 msgid "Skip the first row (heading)"
-msgstr ""
+msgstr "跳过第一行（标题）"
 
 #: resourcemanager/controllers/admin.py:91
 msgid "Result of the Bulk User Import"
-msgstr ""
+msgstr "批量用户导入的结果"
 
 #: resourcemanager/controllers/admin.py:93
 msgid "Operation Log"
-msgstr ""
+msgstr "操作日志"
 
 #: resourcemanager/controllers/admin.py:134
 msgid "Submission Template"
-msgstr ""
+msgstr "提交模板"
 
 #: resourcemanager/controllers/admin.py:135
 msgid "Enabled"
-msgstr ""
+msgstr "已启用"
 
 #: resourcemanager/controllers/admin.py:136
 #: resourcemanager/controllers/admin.py:139
 msgid "Application"
-msgstr ""
+msgstr "应用程序"
 
 #: resourcemanager/controllers/admin.py:137
 #: resourcemanager/controllers/admin.py:429
 msgid "Command Executable"
-msgstr ""
+msgstr "命令可执行文件"
 
 #: resourcemanager/controllers/admin.py:138
 #: resourcemanager/controllers/admin.py:430
 msgid "Additional Options"
-msgstr ""
+msgstr "其他选项"
 
 #: resourcemanager/controllers/admin.py:155
 msgid "Are you sure?"
-msgstr ""
+msgstr "是否确定？"
 
 #: resourcemanager/controllers/admin.py:187
 msgid "equals / contains"
-msgstr ""
+msgstr "等于/包含"
 
 #: resourcemanager/controllers/admin.py:224
 msgid "Relative paths are not allowed"
-msgstr ""
+msgstr "不允许使用相对路径"
 
 #: resourcemanager/controllers/admin.py:225
 msgid "Please enter a value"
-msgstr ""
+msgstr "请输入一个值"
 
 #: resourcemanager/controllers/admin.py:246
 msgid "Cannot resolve hostname"
-msgstr ""
+msgstr "无法解析主机名"
 
 #: resourcemanager/controllers/admin.py:262
 msgid "Server Configuration"
-msgstr ""
+msgstr "服务器配置"
 
 #: resourcemanager/controllers/admin.py:268
 #: resourcemanager/controllers/admin.py:601
 msgid "Name"
-msgstr ""
+msgstr "名称"
 
 #: resourcemanager/controllers/admin.py:269
 msgid "Resource Type"
-msgstr ""
+msgstr "资源类型"
 
 #: resourcemanager/controllers/admin.py:270
 msgid "Login Node"
-msgstr ""
+msgstr "登录节点"
 
 #: resourcemanager/controllers/admin.py:271
 msgid "System Service"
-msgstr ""
+msgstr "系统服务"
 
 #: resourcemanager/controllers/admin.py:272
 msgid "Application Launch RSH"
-msgstr ""
+msgstr "应用程序启动 RSH"
 
 #: resourcemanager/controllers/admin.py:273
 msgid "User Directory Template"
-msgstr ""
+msgstr "用户目录模板"
 
 #: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
 #: resourcemanager/templates/master.xhtml:43
 msgid "Submission Templates"
-msgstr ""
+msgstr "提交模板"
 
 #: resourcemanager/controllers/admin.py:275
 #: resourcemanager/controllers/admin.py:611
 #: resourcemanager/controllers/admin.py:751
 #: resourcemanager/controllers/admin.py:861
 msgid "Actions"
-msgstr ""
+msgstr "操作"
 
 #: resourcemanager/controllers/admin.py:297
 msgid ""
@@ -264,86 +264,86 @@ msgid ""
 "                                 the user's home directory and $user_name"
 " variable to substitute \n"
 "                                 the user name)"
-msgstr ""
+msgstr "用户目录模板（使用 $HOME 变量替代\n                                 用户的主目录并使用 $user_name 变量以替代\n                                 用户名）"
 
 #: resourcemanager/controllers/admin.py:336
 msgid "Resource Group cannot be renamed."
-msgstr ""
+msgstr "无法重命名资源组。"
 
 #: resourcemanager/controllers/admin.py:342
 msgid "System Service cannot be changed."
-msgstr ""
+msgstr "无法更改系统服务。"
 
 #: resourcemanager/controllers/admin.py:348
 msgid "  "
-msgstr ""
+msgstr "  "
 
 #: resourcemanager/controllers/admin.py:354
 msgid ""
 "  The reason is that this Resource Group is used for authentication,"
 "                                        original value{} restored."
-msgstr ""
+msgstr "  原因是此资源组用于身份验证，                                        原始值 {} 已恢复。"
 
 #: resourcemanager/controllers/admin.py:360
 msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
-msgstr ""
+msgstr "当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH 和密码。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:366
 msgid "Resource Group {} successfully updated."
-msgstr ""
+msgstr "资源组 {} 已成功更新。"
 
 #: resourcemanager/controllers/admin.py:382
 msgid "Resource Group {} cannot be deleted because it's used for authentication."
-msgstr ""
+msgstr "无法删除资源组 {}，因为它用于身份验证。"
 
 #: resourcemanager/controllers/admin.py:390
 msgid "Resource Group {} successfully deleted."
-msgstr ""
+msgstr "资源组 {} 已成功删除。"
 
 #: resourcemanager/controllers/admin.py:402
 msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
-msgstr ""
+msgstr "当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH 和密码。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:407
 msgid "Resource Group {} successfully created."
-msgstr ""
+msgstr "资源组 {} 已成功创建。"
 
 #: resourcemanager/controllers/admin.py:447
 #: resourcemanager/controllers/admin.py:605
 msgid "Queue Name"
-msgstr ""
+msgstr "队列名称"
 
 #: resourcemanager/controllers/admin.py:492
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                    Submission Template, please try "
 "again."
-msgstr ""
+msgstr "此提交模板存在具有相同应用程序                                  的另一个应用程序配置，请重试。"
 
 #: resourcemanager/controllers/admin.py:505
 msgid "Application Config with Application {} successfully created."
-msgstr ""
+msgstr "应用程序配置（带应用程序 {}）已成功创建。"
 
 #: resourcemanager/controllers/admin.py:528
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                          Submission Template, please try"
 " again."
-msgstr ""
+msgstr "此提交模板存在具有相同应用程序                                  的另一个应用程序配置，请重试。"
 
 #: resourcemanager/controllers/admin.py:541
 msgid "Application Config with Application {} successfully updated."
-msgstr ""
+msgstr "应用程序配置（带应用程序 {}）已成功更新。"
 
 #: resourcemanager/controllers/admin.py:553
 msgid "Application Config successfully deleted."
-msgstr ""
+msgstr "应用程序配置已成功删除。"
 
 #: resourcemanager/controllers/admin.py:562
 msgid ""
@@ -353,355 +353,355 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr ""
+msgstr "请输入天数（可选），并使用格式 HH:MM:SS 指定时间。        示例：5 days, 00:00:00（5 天；注意 00:00:00 为必填项），1 day, 20:3:50（1 天、20 小时、3 分钟        50 秒），00:01:00（1 分钟；注意小时位置的 00 为必填项），100:05:0 （100 小时、 5 分钟；注意秒位置的 0 或        00 为必填项）"
 
 #: resourcemanager/controllers/admin.py:602
 msgid "Resource Group"
-msgstr ""
+msgstr "资源组"
 
 #: resourcemanager/controllers/admin.py:603
 msgid "Install Path"
-msgstr ""
+msgstr "安装路径"
 
 #: resourcemanager/controllers/admin.py:604
 #: resourcemanager/controllers/admin.py:642
 msgid "Job Launch Options"
-msgstr ""
+msgstr "作业启动选项"
 
 #: resourcemanager/controllers/admin.py:606
 msgid "Parallel Environment"
-msgstr ""
+msgstr "并行环境"
 
 #: resourcemanager/controllers/admin.py:607
 msgid "Default Walltime"
-msgstr ""
+msgstr "默认 Walltime"
 
 #: resourcemanager/controllers/admin.py:608
 msgid "Script Template"
-msgstr ""
+msgstr "脚本模板"
 
 #: resourcemanager/controllers/admin.py:609
 msgid "Keep Repositories"
-msgstr ""
+msgstr "保留存储库"
 
 #: resourcemanager/controllers/admin.py:610
 msgid "App. Configs"
-msgstr ""
+msgstr "应用程序配置"
 
 #: resourcemanager/controllers/admin.py:637
 msgid "Edit Application Configs"
-msgstr ""
+msgstr "编辑应用程序配置"
 
 #: resourcemanager/controllers/admin.py:638
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
-msgstr ""
+msgstr "脚本模板（留空以使其\n                                   使用默认模板填充）"
 
 #: resourcemanager/controllers/admin.py:640
 msgid ""
 "Keep Job and Task Repositories (for \n"
 "                                    troubleshooting purposes)"
-msgstr ""
+msgstr "保留作业和任务存储库（用于\n                                    故障排除）"
 
 #: resourcemanager/controllers/admin.py:705
 msgid "Submission Template {} successfully created."
-msgstr ""
+msgstr "提交模板 {} 已成功创建。"
 
 #: resourcemanager/controllers/admin.py:718
 msgid "Submission Template {} successfully updated."
-msgstr ""
+msgstr "提交模板 {} 已成功更新。"
 
 #: resourcemanager/controllers/admin.py:732
 msgid "Submission Template {} successfully deleted."
-msgstr ""
+msgstr "提交模板 {} 已成功删除。"
 
 #: resourcemanager/controllers/admin.py:740
 msgid "Users and Groups"
-msgstr ""
+msgstr "用户和组"
 
 #: resourcemanager/controllers/admin.py:747
 msgid "Email Address"
-msgstr ""
+msgstr "电子邮件地址"
 
 #: resourcemanager/controllers/admin.py:748
 msgid "Display Name"
-msgstr ""
+msgstr "显示名称"
 
 #: resourcemanager/controllers/admin.py:749
 msgid "Created"
-msgstr ""
+msgstr "已创建"
 
 #: resourcemanager/controllers/admin.py:750 resourcemanager/model/auth.py:70
 #: resourcemanager/templates/master.xhtml:46
 msgid "Groups"
-msgstr ""
+msgstr "组"
 
 #: resourcemanager/controllers/admin.py:802
 msgid "User {} successfully created."
-msgstr ""
+msgstr "用户 {} 已成功创建。"
 
 #: resourcemanager/controllers/admin.py:819
 msgid ""
 "Cannot remove administrator privilege for yourself.  Original values "
 "restored."
-msgstr ""
+msgstr "无法为自己移除管理员权限。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:827
 msgid ""
 "Another user with the same email address exists.  Original values "
 "restored."
-msgstr ""
+msgstr "存在具有相同电子邮件地址的另一个用户。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:833
 msgid "User {} successfully updated."
-msgstr ""
+msgstr "用户 {} 已成功更新。"
 
 #: resourcemanager/controllers/admin.py:842
 msgid "Cannot delete current administrator account."
-msgstr ""
+msgstr "无法删除当前管理员帐户。"
 
 #: resourcemanager/controllers/admin.py:847
 msgid "User {} successfully deleted."
-msgstr ""
+msgstr "用户 {} 已成功删除。"
 
 #: resourcemanager/controllers/admin.py:859
 msgid "Group Name"
-msgstr ""
+msgstr "组名称"
 
 #: resourcemanager/controllers/admin.py:860
 msgid "Permissions"
-msgstr ""
+msgstr "权限"
 
 #: resourcemanager/controllers/admin.py:880
 msgid "Group {} successfully created."
-msgstr ""
+msgstr "组 {} 已成功创建。"
 
 #: resourcemanager/controllers/admin.py:886
 msgid "Group {} successfully updated."
-msgstr ""
+msgstr "组 {} 已成功更新。"
 
 #: resourcemanager/controllers/admin.py:893
 msgid "Group {} successfully deleted."
-msgstr ""
+msgstr "组 {} 已成功删除。"
 
 #: resourcemanager/controllers/admin.py:937
 msgid "Users successfully imported."
-msgstr ""
+msgstr "用户已成功导入。"
 
 #: resourcemanager/controllers/admin.py:940
 msgid "User import failed."
-msgstr ""
+msgstr "用户导入失败。"
 
 #: resourcemanager/controllers/admin.py:958
 msgid "Save"
-msgstr ""
+msgstr "保存"
 
 #: resourcemanager/controllers/admin.py:958
 msgid "Cancel"
-msgstr ""
+msgstr "取消"
 
 #: resourcemanager/controllers/admin.py:958
 msgid "No file chosen"
-msgstr ""
+msgstr "未选择文件"
 
 #: resourcemanager/controllers/admin.py:958
 msgid "Browse"
-msgstr ""
+msgstr "浏览"
 
 #: resourcemanager/controllers/admin.py:961
 #: resourcemanager/templates/index.xhtml:3
 #: resourcemanager/templates/master.xhtml:22
 msgid "STAR-CCM+ Job Manager"
-msgstr ""
+msgstr "STAR-CCM+ 作业管理器"
 
 #: resourcemanager/controllers/root.py:66
 msgid "User not found."
-msgstr ""
+msgstr "未找到用户。"
 
 #: resourcemanager/controllers/root.py:68
 msgid "Invalid Password."
-msgstr ""
+msgstr "密码无效。"
 
 #: resourcemanager/controllers/root.py:72
 msgid "Wrong credentials"
-msgstr ""
+msgstr "凭据错误"
 
 #: resourcemanager/controllers/root.py:90
 msgid "Welcome back, {0}!"
-msgstr ""
+msgstr "欢迎回来，{0}！"
 
 #: resourcemanager/controllers/root.py:104
 msgid "Logout successful"
-msgstr ""
+msgstr "注销成功"
 
 #: resourcemanager/lib/authorization.py:23
 msgid "Only POST requests are allowed."
-msgstr ""
+msgstr "仅允许使用 POST 请求。"
 
 #: resourcemanager/lib/authorization.py:38
 msgid "You have been logged out, please log in"
-msgstr ""
+msgstr "您已注销，请登录"
 
 #: resourcemanager/lib/authorization.py:46
 msgid "You have been logged out, please log in to administer Job Manager"
-msgstr ""
+msgstr "您已注销，请登录管理员作业管理器"
 
 #: resourcemanager/lib/authorization.py:57
 msgid "You must be a job manager (with \"manage jobs\" permission)."
-msgstr ""
+msgstr "您必须是作业管理者（具有“管理作业”的权限）。"
 
 #: resourcemanager/lib/authorization.py:68
 msgid "You must be a job creator (with \"create jobs\" permission)."
-msgstr ""
+msgstr "您必须是作业创建者（具有“创建作业”的权限）。"
 
 #: resourcemanager/lib/authorization.py:79
 msgid "You must be the job owner."
-msgstr ""
+msgstr "您必须是作业所有者。"
 
 #: resourcemanager/lib/authorization.py:105
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can access the job."
-msgstr ""
+msgstr "只有作业所有者或作业管理者（具有“管理作业”的权限）才能访问作业。"
 
 #: resourcemanager/lib/authorization.py:122
 msgid "You must be the task owner (owner of the task's job)."
-msgstr ""
+msgstr "您必须是任务所有者（任务作业的所有者）。"
 
 #: resourcemanager/lib/authorization.py:138
 #: resourcemanager/lib/authorization.py:206
 msgid ""
 "Only owner of the task/job or job manager (with \"manage jobs\" "
 "permission) can access the task."
-msgstr ""
+msgstr "只有任务/作业所有者或作业管理者（具有“管理作业”的权限）才能访问任务。"
 
 #: resourcemanager/lib/authorization.py:164
 msgid ""
 "You must be a job creator (with \"create jobs\" permission) to create a "
 "new job."
-msgstr ""
+msgstr "您必须是作业创建者（具有“创建作业”的权限）才能新建作业。"
 
 #: resourcemanager/lib/authorization.py:172
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can delete the job."
-msgstr ""
+msgstr "只有作业所有者或作业管理者（具有“管理作业”的权限）才能删除作业。"
 
 #: resourcemanager/lib/authorization.py:181
 msgid "Only owner of the job can submit the job."
-msgstr ""
+msgstr "只有作业所有者才能提交作业。"
 
 #: resourcemanager/lib/authorization.py:189
 msgid "Only owner of the job can finish the job."
-msgstr ""
+msgstr "只有作业所有者才能完成作业。"
 
 #: resourcemanager/lib/authorization.py:197
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can terminate the job."
-msgstr ""
+msgstr "只有作业所有者或作业管理者（具有“管理作业”的权限）才能终止作业。"
 
 #: resourcemanager/lib/authorization.py:215
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can create a new task for the job."
-msgstr ""
+msgstr "只有作业所有者或作业管理者（具有“管理作业”的权限）才能为作业创建新任务。"
 
 #: resourcemanager/lib/authorization.py:224
 msgid "Only owner of the task/job can launch the task."
-msgstr ""
+msgstr "只有任务/作业的所有者才能启动任务。"
 
 #: resourcemanager/lib/authorization.py:232
 msgid "Only owner of the task/job can terminate the task."
-msgstr ""
+msgstr "只有任务/作业的所有者才能终止任务。"
 
 #: resourcemanager/lib/authorization.py:240
 msgid ""
 "Only owner of the task/job or job manager (with \"manage jobs\" "
 "permission) can delete the task."
-msgstr ""
+msgstr "只有任务/作业所有者或作业管理者（具有“管理作业”的权限）才能删除任务。"
 
 #: resourcemanager/lib/authorization.py:249
 msgid "Only owner of the task (task's job) can access task files."
-msgstr ""
+msgstr "只有任务（任务作业）的所有者才能访问任务文件。"
 
 #: resourcemanager/lib/authorization.py:257
 msgid "Only owner of the task (task's job) can add files to the task."
-msgstr ""
+msgstr "只有任务（任务作业）的所有者才能向任务添加文件。"
 
 #: resourcemanager/lib/authorization.py:265
 msgid "You must have the permission to use the template to access it."
-msgstr ""
+msgstr "您必须具有使用该模板的权限才能访问它。"
 
 #: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
 msgid "Users"
-msgstr ""
+msgstr "用户"
 
 #: resourcemanager/model/bl.py:60
 msgid "The job with the given id: {0} could not be found"
-msgstr ""
+msgstr "找不到具有指定 id：{0} 的作业"
 
 #: resourcemanager/model/bl.py:115
 msgid "\"requested_resources\" required when creating job for the submission."
-msgstr ""
+msgstr "为提交创建作业时需要 \"requested_resources\"。"
 
 #: resourcemanager/model/bl.py:121
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
-msgstr ""
+msgstr "必须将 \"walltime\" 指定为浮点秒数。错误：{}"
 
 #: resourcemanager/model/bl.py:130
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
-msgstr ""
+msgstr "不允许创建本地作业/任务。传递提交模板来新建作业。"
 
 #: resourcemanager/model/bl.py:159
 msgid "Only the owner can submit the job."
-msgstr ""
+msgstr "只有所有者才能提交作业。"
 
 #: resourcemanager/model/bl.py:161
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
-msgstr ""
+msgstr "提交前，作业必须具有提交模板和请求的 resourcesset。"
 
 #: resourcemanager/model/bl.py:164
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
-msgstr ""
+msgstr "作业已提交，提交 id：%s"
 
 #: resourcemanager/model/bl.py:167
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
-msgstr ""
+msgstr "只能提交待处理的作业。当前作业状态为 %s"
 
 #: resourcemanager/model/bl.py:421
 #, python-format
 msgid ""
 "Task can be created only for the job with pending, queued, or running "
 "status. Current job status %s."
-msgstr ""
+msgstr "只能为具有待处理、已排队或运行状态的作业创建任务。当前作业状态 %s。"
 
 #: resourcemanager/model/bl.py:895
 msgid "Could not find the submission template with the given name: {0}."
-msgstr ""
+msgstr "找不到具有指定名称：{0} 的提交模板。"
 
 #: resourcemanager/model/bl_account.py:35
 msgid "Invalid password."
-msgstr ""
+msgstr "密码无效。"
 
 #: resourcemanager/model/bl_account.py:49
 msgid "Could not find the user for the given email address."
-msgstr ""
+msgstr "找不到指定的电子邮件地址的用户。"
 
 #: resourcemanager/model/bl_account.py:62
 msgid "Invalid user name."
-msgstr ""
+msgstr "用户名无效。"
 
 #: resourcemanager/model/bl_account.py:110
 msgid "Job Manager password reset request"
-msgstr ""
+msgstr "作业管理器密码重置请求"
 
 #: resourcemanager/model/bl_account.py:112
 msgid ""
@@ -720,260 +720,260 @@ msgid ""
 "    Best regards,\n"
 "    Job Manager System\n"
 "    "
-msgstr ""
+msgstr "\n    你好，\n\n    已为作业管理器帐户生成密码重置请求。\n    按照此链接重置密码：{0}。此链接仅在 {1} 小时内有效。\n\n    如果未请求密码重置，则忽略此消息或联系您的系统\n    管理员。\n\n    此致！\n    作业管理器系统\n    "
 
 #: resourcemanager/model/bl_account.py:137
 msgid ""
 "Invalid reset password request key. It might have been used already or "
 "you successfully logged in meanwhile. Try to reset the password again."
-msgstr ""
+msgstr "重置密码请求密钥无效。它可能已经使用，或者您同时成功登录。再次尝试重置密码。"
 
 #: resourcemanager/model/bl_account.py:141
 msgid ""
 "Reset password request key has expired. You have to generate a new "
 "password request."
-msgstr ""
+msgstr "重置密码请求密钥已过期。必须生成新的密码请求。"
 
 #: resourcemanager/model/bl_account.py:182
 #, python-format
 msgid "Created a new group %s"
-msgstr ""
+msgstr "创建了一个新组 %s"
 
 #: resourcemanager/model/bl_account.py:184
 #, python-format
 msgid "Group %s does not exist. Aborting import."
-msgstr ""
+msgstr "组 %s 不存在。中止导入。"
 
 #: resourcemanager/model/bl_account.py:186
 #, python-format
 msgid "Skipped group %s for user %s"
-msgstr ""
+msgstr "已跳过组 %s（对于用户 %s）"
 
 #: resourcemanager/model/bl_account.py:198
 #, python-format
 msgid "Email (%s) for the user %s is invalid. %s"
-msgstr ""
+msgstr "电子邮件 (%s) 对于用户 %s 无效。%s"
 
 #: resourcemanager/model/bl_account.py:214
 #, python-format
 msgid "Invalid CSV file on line: %d. Expecting 4 columns, found %d: %s"
-msgstr ""
+msgstr "行：%d 中的 CSV 文件无效。预期为 4 列，发现 %d: %s"
 
 #: resourcemanager/model/bl_account.py:219
 #, python-format
 msgid "Skipped empty line %d"
-msgstr ""
+msgstr "已跳过空行 %d"
 
 #: resourcemanager/model/bl_account.py:227
 #, python-format
 msgid "Invalid CSV file on line: %d. User name cannot be empty. Found %d: %s"
-msgstr ""
+msgstr "行：%d 中的 CSV 文件无效。名称不能为空。发现 %d: %s"
 
 #: resourcemanager/model/bl_account.py:233
 #, python-format
 msgid "User with email %s already exists. Aborting import."
-msgstr ""
+msgstr "具有电子邮件 %s 的用户已存在。中止导入。"
 
 #: resourcemanager/model/bl_account.py:236
 #, python-format
 msgid "Skipped user %s because of the duplicate email %s"
-msgstr ""
+msgstr "已跳过用户 %s，因为重复的电子邮件 %s"
 
 #: resourcemanager/model/bl_account.py:243
 #, python-format
 msgid "Updated existing user %s and replaced the group membership: %s"
-msgstr ""
+msgstr "已更新现有用户 %s 并已替换组成员资格：%s"
 
 #: resourcemanager/model/bl_account.py:247
 #, python-format
 msgid "Updated existing user %s and merged the group membership: %s"
-msgstr ""
+msgstr "已更新现有用户 %s 并已合并组成员资格：%s"
 
 #: resourcemanager/model/bl_account.py:250
 #, python-format
 msgid "User %s already exists. Aborting import."
-msgstr ""
+msgstr "用户 %s 已存在。中止导入。"
 
 #: resourcemanager/model/bl_account.py:252
 #, python-format
 msgid "Skipped existing user %s"
-msgstr ""
+msgstr "已跳过现有用户 %s"
 
 #: resourcemanager/model/bl_account.py:256
 #, python-format
 msgid ""
 "Invalid CSV file on line: %d. User email for the new user cannot be "
 "empty. Found %d: %s"
-msgstr ""
+msgstr "行：%d 中的 CSV 文件无效。新用户的用户电子邮件不能为空。发现 %d: %s"
 
 #: resourcemanager/model/bl_account.py:265
 #, python-format
 msgid "Created a new user %s with group membership: %s"
-msgstr ""
+msgstr "已创建一个新用户 %s，组成员资格为：%s"
 
 #: resourcemanager/model/configuration.py:37
 #: resourcemanager/templates/master.xhtml:42
 msgid "Resource Groups"
-msgstr ""
+msgstr "资源组"
 
 #: resourcemanager/model/configuration.py:237
 msgid "Application Configs"
-msgstr ""
+msgstr "应用程序配置"
 
 #: resourcemanager/templates/about.xhtml:3
 msgid "STAR-CCM+ Job Manager - About"
-msgstr ""
+msgstr "STAR-CCM+ 作业管理器 - 关于"
 
 #: resourcemanager/templates/about.xhtml:10
 msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
-msgstr ""
+msgstr "关于 Siemens Simcenter STAR-CCM+ 作业管理器"
 
 #: resourcemanager/templates/about.xhtml:18
 msgid "Job Manager Version"
-msgstr ""
+msgstr "作业管理器版本"
 
 #: resourcemanager/templates/about.xhtml:22
 msgid "Product Version:"
-msgstr ""
+msgstr "产品版本："
 
 #: resourcemanager/templates/about.xhtml:26
 msgid "Release Date:"
-msgstr ""
+msgstr "发布日期："
 
 #: resourcemanager/templates/about.xhtml:35
 msgid "REST API Version"
-msgstr ""
+msgstr "REST API 版本"
 
 #: resourcemanager/templates/about.xhtml:39
 msgid "Latest Version:"
-msgstr ""
+msgstr "最新版本："
 
 #: resourcemanager/templates/about.xhtml:43
 msgid "URL:"
-msgstr ""
+msgstr "URL："
 
 #: resourcemanager/templates/error.xhtml:3
 msgid "A "
-msgstr ""
+msgstr "A "
 
 #: resourcemanager/templates/error.xhtml:3
 msgid " error has Occurred"
-msgstr ""
+msgstr "错误已发生"
 
 #: resourcemanager/templates/error.xhtml:7
 msgid "Error "
-msgstr ""
+msgstr "错误 "
 
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
 #: resourcemanager/templates/master.xhtml:63
 msgid "Login"
-msgstr ""
+msgstr "登录"
 
 #: resourcemanager/templates/login.xhtml:18
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: resourcemanager/templates/login.xhtml:24
 msgid "Password"
-msgstr ""
+msgstr "密码"
 
 #: resourcemanager/templates/login.xhtml:33
 msgid ""
 " remember me\n"
 "                        "
-msgstr ""
+msgstr "记住我\n                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
-msgstr ""
+msgstr "如果忘记密码，则可以在此处重置"
 
 #: resourcemanager/templates/login.xhtml:46
 msgid "here."
-msgstr ""
+msgstr "密码。"
 
 #: resourcemanager/templates/login.xhtml:51
 msgid "Use the OS password on \""
-msgstr ""
+msgstr "使用 OS 密码（对于 \""
 
 #: resourcemanager/templates/login.xhtml:51
 msgid "\". If you need to change or reset your password use your OS procedure."
-msgstr ""
+msgstr "\"）。如果需要更改或重置密码，请使用 OS 程序。"
 
 #: resourcemanager/templates/master.xhtml:24
 msgid "Toggle navigation"
-msgstr ""
+msgstr "切换导航"
 
 #: resourcemanager/templates/master.xhtml:8
 #: resourcemanager/templates/master.xhtml:30
 msgid "Simcenter STAR-CCM+ Job Manager"
-msgstr ""
+msgstr "Simcenter STAR-CCM+ 作业管理器"
 
 #: resourcemanager/templates/master.xhtml:36
 msgid ""
 "\n"
 "                    Admin"
-msgstr ""
+msgstr "\n                    管理"
 
 #: resourcemanager/templates/master.xhtml:40
 msgid "Admin Home"
-msgstr ""
+msgstr "管理主页"
 
 #: resourcemanager/templates/master.xhtml:48
 msgid "Bulk Users Import"
-msgstr ""
+msgstr "批量用户导入"
 
 #: resourcemanager/templates/master.xhtml:54
 msgid ""
 "\n"
 "                    Help"
-msgstr ""
+msgstr "\n                    帮助"
 
 #: resourcemanager/templates/master.xhtml:58
 msgid "About"
-msgstr ""
+msgstr "关于"
 
 #: resourcemanager/templates/master.xhtml:66
 msgid ""
 "\n"
 "                    Account"
-msgstr ""
+msgstr "\n                    帐户"
 
 #: resourcemanager/templates/master.xhtml:72
 msgid "Logout"
-msgstr ""
+msgstr "退出"
 
 #: resourcemanager/templates/admin/edit.xhtml:4
 msgid " - Edit "
-msgstr ""
+msgstr " - 编辑 "
 
 #: resourcemanager/templates/admin/edit.xhtml:10
 msgid "Edit "
-msgstr ""
+msgstr "编辑 "
 
 #: resourcemanager/templates/admin/get_all.xhtml:4
 msgid " - "
-msgstr ""
+msgstr " - "
 
 #: resourcemanager/templates/admin/get_all.xhtml:4
 msgid "s Listing"
-msgstr ""
+msgstr "s 列表"
 
 #: resourcemanager/templates/admin/get_all.xhtml:21
 #: resourcemanager/templates/admin/new.xhtml:10
 msgid "New "
-msgstr ""
+msgstr "新建 "
 
 #: resourcemanager/templates/admin/get_all.xhtml:50
 msgid "Search"
-msgstr ""
+msgstr "搜索"
 
 #: resourcemanager/templates/admin/new.xhtml:4
 msgid " - New "
-msgstr ""
+msgstr " - 新建 "
 
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
-msgstr ""
+msgstr "STAR-CCM+ 作业管理器 - "
 
