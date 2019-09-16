@@ -977,7 +977,7 @@ ExecuteScript.49b821469c79.title=创建 .flexlmrc
 ExecuteScript.49b821469c8b.title=停止当前许可证服务器以执行升级
 
 # ExecuteScript.49b821469c8e.title=Start Server as standalone on Linux
-ExecuteScript.49b821469c8e.title=在 Linux 上作为独立服务器启动
+ExecuteScript.49b821469c8e.title=在 Linux 上独立启动服务器
 
 # ExecuteScript.4b9dc9f1b241.title=Delete All Users 64 bit Desktop CCM+ Shortcut
 ExecuteScript.4b9dc9f1b241.title=删除所有用户的 64 位桌面 CCM+ 快捷方式
@@ -1166,13 +1166,13 @@ ExecuteScript.a80c38ba8193.title=删除所有用户开始菜单的 64 位 SVR �
 ExecuteScript.a80c38ba8196.title=删除本地用户开始菜单的 64 位 SVR 快捷方式
 
 # ExecuteScript.a9b1812d954f.title=Registering STAR-Inventor...
-ExecuteScript.a9b1812d954f.title=注册 STAR-Inventor...
+ExecuteScript.a9b1812d954f.title=正在注册 STAR-Inventor...
 
 # ExecuteScript.a9b1812d9552.title=Registering STARInventor Ocx...
 ExecuteScript.a9b1812d9552.title=注册 STARInventor Ocx...
 
 # ExecuteScript.aa090b60ab1f.title=Registering STAR-Inventor...
-ExecuteScript.aa090b60ab1f.title=注册 STAR-Inventor...
+ExecuteScript.aa090b60ab1f.title=正在注册 STAR-Inventor...
 
 # ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
 ExecuteScript.ac73774487e9.title=使用电子邮件服务器进行内部身份验证的 Linux 服务
@@ -1196,7 +1196,7 @@ ExecuteScript.b4cb88b19730.title=解析 cdlmd_license_file
 ExecuteScript.b75735028bf8.title=解析 .flexlmrc
 
 # ExecuteScript.b759e7808dd0.title=parse 
-ExecuteScript.b759e7808dd0.title=分析
+ExecuteScript.b759e7808dd0.title=解析
 
 # ExecuteScript.b9b5b08a8686.title=delete lm logs
 ExecuteScript.b9b5b08a8686.title=删除 lm 日志
@@ -1805,7 +1805,7 @@ GUIComponentData.8fe1ee61b49d.label=使用操作系统验证
 GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
 
 # GUIComponentData.8fe24b41b49d.label=Using internal authentication
-GUIComponentData.8fe24b41b49d.label=使用内部验证
+GUIComponentData.8fe24b41b49d.label=使用内部身份验证
 
 # GUIComponentData.8fe4e9eab4a2.defaultValue=
 GUIComponentData.8fe4e9eab4a2.defaultValue=
@@ -3233,7 +3233,7 @@ ShowDialogAction.0672cc40affb.cancelButtonLabel=取消
 ShowDialogAction.0672cc40affb.detailsButtonLabel=详情...
 
 # ShowDialogAction.0672cc40affb.label=Error occurred while using internal authentication.
-ShowDialogAction.0672cc40affb.label=使用内部验证时出错。
+ShowDialogAction.0672cc40affb.label=使用内部身份验证时出错。
 
 # ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
 ShowDialogAction.0672cc40affb.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
@@ -3251,7 +3251,7 @@ ShowDialogAction.0673d489afff.cancelButtonLabel=取消
 ShowDialogAction.0673d489afff.detailsButtonLabel=详情...
 
 # ShowDialogAction.0673d489afff.label=Error occurred while using internal authentication with email specification.
-ShowDialogAction.0673d489afff.label=通过电子邮件指定使用内部验证时出错。
+ShowDialogAction.0673d489afff.label=通过电子邮件指定使用内部身份验证时出错。
 
 # ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
 ShowDialogAction.0673d489afff.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
@@ -3308,7 +3308,7 @@ ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=详情...
 ShowDialogAction.160d0e4ab6a5.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 安装
 
 # ShowDialogAction.160d0e4ab6a5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) 似乎已安装在本电脑上的以下位置：\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 组件吗？
+ShowDialogAction.160d0e4ab6a5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 组件吗？
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=警告
@@ -3488,7 +3488,7 @@ ShowDialogAction.5f17661a83c5.detailsButtonLabel=详情...
 ShowDialogAction.5f17661a83c5.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装
 
 # ShowDialogAction.5f17661a83c5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ component again?
-ShowDialogAction.5f17661a83c5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) 似乎已安装在本电脑上的以下位置：\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 组件吗？
+ShowDialogAction.5f17661a83c5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 组件吗？
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=警告
