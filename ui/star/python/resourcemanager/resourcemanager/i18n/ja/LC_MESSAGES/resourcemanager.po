@@ -513,7 +513,7 @@ msgstr "確認"
 #: resourcemanager/templates/index.xhtml:3
 #: resourcemanager/templates/master.xhtml:22
 msgid "STAR-CCM+ Job Manager"
-msgstr "STAR-CCM+ Job Manager"
+msgstr "STAR-CCM+ ジョブマネージャ"
 
 #: resourcemanager/controllers/root.py:66
 msgid "User not found."
@@ -822,11 +822,11 @@ msgstr "アプリケーション構成"
 
 #: resourcemanager/templates/about.xhtml:3
 msgid "STAR-CCM+ Job Manager - About"
-msgstr "STAR-CCM+ Job Manager - バージョン情報"
+msgstr "STAR-CCM+ ジョブマネージャ - バージョン情報"
 
 #: resourcemanager/templates/about.xhtml:10
 msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
-msgstr "Siemens Simcenter STAR-CCM+ Job Managerバージョン情報"
+msgstr "Siemens Simcenter STAR-CCM+ ジョブマネージャバージョン情報"
 
 #: resourcemanager/templates/about.xhtml:18
 msgid "Job Manager Version"
@@ -908,7 +908,7 @@ msgstr "ナビゲーションの切換え"
 #: resourcemanager/templates/master.xhtml:8
 #: resourcemanager/templates/master.xhtml:30
 msgid "Simcenter STAR-CCM+ Job Manager"
-msgstr "Simcenter STAR-CCM+ Job Manager"
+msgstr "Simcenter STAR-CCM+ ジョブマネージャ"
 
 #: resourcemanager/templates/master.xhtml:36
 msgid ""
@@ -975,5 +975,5 @@ msgstr " - 新規作成 "
 
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
-msgstr "STAR-CCM+ Job Manager - "
+msgstr "STAR-CCM+ ジョブマネージャ -"
 
