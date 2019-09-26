@@ -1049,8 +1049,8 @@ msgid " - "
 msgstr " - "
 
 #: resourcemanager/templates/admin/get_all.xhtml:4
-msgid "s \u0440\u0430\u0441\u043F\u0435\u0447\u0430\u0442\u043A\u0430"
-msgstr ""
+msgid "s Listing"
+msgstr "s \u0440\u0430\u0441\u043F\u0435\u0447\u0430\u0442\u043A\u0430"
 
 #: resourcemanager/templates/admin/get_all.xhtml:21
 #: resourcemanager/templates/admin/new.xhtml:10
