@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-07-31 11:25-0400\n"
+"POT-Creation-Date: 2019-09-17 10:29-0400\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -22,7 +22,7 @@ msgstr ""
 #: resourcemanager/controllers/account.py:28
 #: resourcemanager/controllers/account.py:48
 #: resourcemanager/controllers/account.py:66
-#: resourcemanager/controllers/admin.py:958
+#: resourcemanager/controllers/admin.py:979
 msgid "OK"
 msgstr "확인"
 
@@ -69,7 +69,7 @@ msgid "Reset Password"
 msgstr "암호 재설정"
 
 #: resourcemanager/controllers/account.py:71
-#: resourcemanager/controllers/admin.py:746
+#: resourcemanager/controllers/admin.py:753
 msgid "User Name"
 msgstr "사용자 이름"
 
@@ -112,7 +112,11 @@ msgid ""
 "    semicolon-separated list of group names the user should be member of."
 " It must use UTF-8\n"
 "    encoding."
-msgstr "관리자는 이 양식을 사용해 CSV 파일을 사용하는 다수 사용자를 가져오기 할 수 있습니다.\n    CSV 파일은 다음 열을 갖추고 있습니다: 사용자 이름, 이메일 주소, 디스플레이 이름,\n    세미콜론(;)으로 구분한 구성원 그룹명 목록. UTF-8\n    인코딩을 사용해야 합니다."
+msgstr ""
+"관리자는 이 양식을 사용해 CSV 파일을 사용하는 다수 사용자를 가져오기 할 수 있습니다.\n"
+"    CSV 파일은 다음 열을 갖추고 있습니다: 사용자 이름, 이메일 주소, 디스플레이 이름,\n"
+"    세미콜론(;)으로 구분한 구성원 그룹명 목록. UTF-8\n"
+"    인코딩을 사용해야 합니다."
 
 #: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
@@ -174,6 +178,7 @@ msgid "Operation Log"
 msgstr "오퍼레이션 로그"
 
 #: resourcemanager/controllers/admin.py:134
+#: resourcemanager/model/configuration.py:135
 msgid "Submission Template"
 msgstr "제출 템플릿"
 
@@ -253,8 +258,8 @@ msgstr "제출 템플릿"
 
 #: resourcemanager/controllers/admin.py:275
 #: resourcemanager/controllers/admin.py:611
-#: resourcemanager/controllers/admin.py:751
-#: resourcemanager/controllers/admin.py:861
+#: resourcemanager/controllers/admin.py:758
+#: resourcemanager/controllers/admin.py:880
 msgid "Actions"
 msgstr "작업"
 
@@ -264,7 +269,10 @@ msgid ""
 "                                 the user's home directory and $user_name"
 " variable to substitute \n"
 "                                 the user name)"
-msgstr "사용자 디렉토리 템플릿 ($HOME 변수를 사용해 대체\n                                  사용자의 홈 디렉토리 및 $user _name 변 대체 \n                                 사용자 이름)"
+msgstr ""
+"사용자 디렉토리 템플릿 ($HOME 변수를 사용해 대체\n"
+"                                  사용자의 홈 디렉토리 및 $user _name 변 대체 \n"
+"                                 사용자 이름)"
 
 #: resourcemanager/controllers/admin.py:336
 msgid "Resource Group cannot be renamed."
@@ -278,7 +286,7 @@ msgstr "시스템 서비스를 변경할 수 없습니다."
 msgid "  "
 msgstr "  "
 
-#: resourcemanager/controllers/admin.py:354
+#: resourcemanager/controllers/admin.py:353
 msgid ""
 "  The reason is that this Resource Group is used for authentication,"
 "                                        original value{} restored."
@@ -289,7 +297,9 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
-msgstr "Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 복원됩니다."
+msgstr ""
+"Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 "
+"복원됩니다."
 
 #: resourcemanager/controllers/admin.py:366
 msgid "Resource Group {} successfully updated."
@@ -308,7 +318,9 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
-msgstr "Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 복원됩니다."
+msgstr ""
+"Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 "
+"복원됩니다."
 
 #: resourcemanager/controllers/admin.py:407
 msgid "Resource Group {} successfully created."
@@ -335,7 +347,9 @@ msgid ""
 "Another Application Config with the same Application exists for this"
 "                                          Submission Template, please try"
 " again."
-msgstr "이 제출 템플릿에 대해 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재 합니다. 이 제출 템플릿에 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재합니다. 다시 시도하십시오."
+msgstr ""
+"이 제출 템플릿에 대해 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재 합니다. 이 제출 템플릿에 동일한 응용 "
+"프로그램이 있는 다른 응용 프로그램 설정이 존재합니다. 다시 시도하십시오."
 
 #: resourcemanager/controllers/admin.py:541
 msgid "Application Config with Application {} successfully updated."
@@ -353,9 +367,13 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr "일 수 (선택 사항)를 입력하고 시:분:초 형식으로 시간을 지정하십시오.        예: 5일, 00:00:00 (5일; 00:00:00로 지정해야 함), 1일, 20:3:50 (1일, 20시간, 3분, 50초), 00:01:00 (1분; 참고 시를 00로 지정해야 함), 100:05:0 (100시간, 5분; 참고 초를 0 또는 00으로 지정해야 함)"
+msgstr ""
+"일 수 (선택 사항)를 입력하고 시:분:초 형식으로 시간을 지정하십시오.        예: 5일, 00:00:00 (5일; "
+"00:00:00로 지정해야 함), 1일, 20:3:50 (1일, 20시간, 3분, 50초), 00:01:00 (1분; 참고 시를 "
+"00로 지정해야 함), 100:05:0 (100시간, 5분; 참고 초를 0 또는 00으로 지정해야 함)"
 
 #: resourcemanager/controllers/admin.py:602
+#: resourcemanager/model/configuration.py:36
 msgid "Resource Group"
 msgstr "리소스 그룹"
 
@@ -388,6 +406,11 @@ msgstr "저장소 유지"
 msgid "App. Configs"
 msgstr "App. Configs"
 
+#: resourcemanager/controllers/admin.py:634
+#: resourcemanager/templates/admin/edit.xhtml:10
+msgid "Edit "
+msgstr "편집 "
+
 #: resourcemanager/controllers/admin.py:637
 msgid "Edit Application Configs"
 msgstr "App. Configs 편집"
@@ -396,120 +419,180 @@ msgstr "App. Configs 편집"
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
-msgstr "스크립트 템플릿 (기본 템플릿으로 채워진 \n                                  를 가져오려면 비워둡니다)"
+msgstr ""
+"스크립트 템플릿 (기본 템플릿으로 채워진 \n"
+"                                  를 가져오려면 비워둡니다)"
 
 #: resourcemanager/controllers/admin.py:640
 msgid ""
 "Keep Job and Task Repositories (for \n"
 "                                    troubleshooting purposes)"
-msgstr "작업 및 작업 리포지토리 유지 (\n                                    문제 해결 목적)"
+msgstr ""
+"작업 및 작업 리포지토리 유지 (\n"
+"                                    문제 해결 목적)"
 
-#: resourcemanager/controllers/admin.py:705
+#: resourcemanager/controllers/admin.py:712
 msgid "Submission Template {} successfully created."
 msgstr "제출 템플릿 {}이(가) 성공적으로 생성됐습니다."
 
-#: resourcemanager/controllers/admin.py:718
+#: resourcemanager/controllers/admin.py:725
 msgid "Submission Template {} successfully updated."
 msgstr "제출 템플릿 {}이(가) 성공적으로 업데이트됐습니다."
 
-#: resourcemanager/controllers/admin.py:732
+#: resourcemanager/controllers/admin.py:739
 msgid "Submission Template {} successfully deleted."
 msgstr "제출 템플릿 {}이(가) 성공적으로 삭제됐습니다."
 
-#: resourcemanager/controllers/admin.py:740
+#: resourcemanager/controllers/admin.py:747
 msgid "Users and Groups"
 msgstr "사용자 및 그룹"
 
-#: resourcemanager/controllers/admin.py:747
+#: resourcemanager/controllers/admin.py:754
 msgid "Email Address"
 msgstr "이메일 주소"
 
-#: resourcemanager/controllers/admin.py:748
+#: resourcemanager/controllers/admin.py:755
 msgid "Display Name"
 msgstr "디스플레이 이름"
 
-#: resourcemanager/controllers/admin.py:749
+#: resourcemanager/controllers/admin.py:756
 msgid "Created"
 msgstr "생성일"
 
-#: resourcemanager/controllers/admin.py:750 resourcemanager/model/auth.py:70
+#: resourcemanager/controllers/admin.py:757 resourcemanager/model/auth.py:70
 #: resourcemanager/templates/master.xhtml:46
 msgid "Groups"
 msgstr "그룹"
 
-#: resourcemanager/controllers/admin.py:802
+#: resourcemanager/controllers/admin.py:800
+#: resourcemanager/controllers/admin.py:813
+#: resourcemanager/controllers/admin.py:980
+#: resourcemanager/templates/login.xhtml:24
+msgid "Password"
+msgstr "암호"
+
+#: resourcemanager/controllers/admin.py:814
+#: resourcemanager/controllers/admin.py:980
+msgid "Verify Password"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:820
 msgid "User {} successfully created."
 msgstr "사용자 {}이(가) 성공적으로 생성됐습니다."
 
-#: resourcemanager/controllers/admin.py:819
+#: resourcemanager/controllers/admin.py:837
 msgid ""
 "Cannot remove administrator privilege for yourself.  Original values "
 "restored."
 msgstr "사용자의 관리자 권한을 제거할 수 없습니다. 원래 값 복원됨."
 
-#: resourcemanager/controllers/admin.py:827
+#: resourcemanager/controllers/admin.py:846
 msgid ""
 "Another user with the same email address exists.  Original values "
 "restored."
 msgstr "동일한 이메일 주소를 가진 다른 사용자가 존재합니다.  원래 값 복원됨."
 
-#: resourcemanager/controllers/admin.py:833
+#: resourcemanager/controllers/admin.py:852
 msgid "User {} successfully updated."
 msgstr "사용자 {}이(가) 성공적으로 업데이트됐습니다."
 
-#: resourcemanager/controllers/admin.py:842
+#: resourcemanager/controllers/admin.py:861
 msgid "Cannot delete current administrator account."
 msgstr "현재 관리자 계정을 삭제할 수 없습니다."
 
-#: resourcemanager/controllers/admin.py:847
+#: resourcemanager/controllers/admin.py:866
 msgid "User {} successfully deleted."
 msgstr "사용자 {}이(가) 성공적으로 삭제됐습니다."
 
-#: resourcemanager/controllers/admin.py:859
+#: resourcemanager/controllers/admin.py:878
 msgid "Group Name"
 msgstr "그룹 이름"
 
-#: resourcemanager/controllers/admin.py:860
+#: resourcemanager/controllers/admin.py:879
 msgid "Permissions"
 msgstr "권한"
 
-#: resourcemanager/controllers/admin.py:880
+#: resourcemanager/controllers/admin.py:901
 msgid "Group {} successfully created."
 msgstr "그룹 {}이(가) 성공적으로 삭제됐습니다."
 
-#: resourcemanager/controllers/admin.py:886
+#: resourcemanager/controllers/admin.py:907
 msgid "Group {} successfully updated."
 msgstr "그룹 {}이(가) 성공적으로 업데이트됐습니다."
 
-#: resourcemanager/controllers/admin.py:893
+#: resourcemanager/controllers/admin.py:914
 msgid "Group {} successfully deleted."
 msgstr "그룹 {}이(가) 성공적으로 삭제됐습니다."
 
-#: resourcemanager/controllers/admin.py:937
+#: resourcemanager/controllers/admin.py:958
 msgid "Users successfully imported."
 msgstr "사용자 가져오기에 성공했습니다."
 
-#: resourcemanager/controllers/admin.py:940
+#: resourcemanager/controllers/admin.py:960
+msgid ""
+"User import failed. All changes were rolled back.\n"
+"Error: {}"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:961
 msgid "User import failed."
 msgstr "사용자 가져오기에 실패 했습니다."
 
-#: resourcemanager/controllers/admin.py:958
+#: resourcemanager/controllers/admin.py:979
 msgid "Save"
 msgstr "저장"
 
-#: resourcemanager/controllers/admin.py:958
+#: resourcemanager/controllers/admin.py:979
 msgid "Cancel"
 msgstr "취소"
 
-#: resourcemanager/controllers/admin.py:958
+#: resourcemanager/controllers/admin.py:979
 msgid "No file chosen"
 msgstr "선택된 파일 없음"
 
-#: resourcemanager/controllers/admin.py:958
+#: resourcemanager/controllers/admin.py:979
 msgid "Browse"
 msgstr "찾아보기"
 
-#: resourcemanager/controllers/admin.py:961
+#: resourcemanager/controllers/admin.py:980
+msgid "Create"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:981
+msgid "Please enter an email address"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:982
+msgid "An email address must contain a single @"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:983
+#, python-format
+msgid ""
+"The username portion of the email address is invalid (the portion before "
+"the @: %(username)s)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:985
+#, python-format
+msgid "An error occured when trying to connect to the server: %(error)s"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:987
+#, python-format
+msgid ""
+"The domain portion of the email address is invalid (the portion after the"
+" @: %(domain)s)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:989
+#, python-format
+msgid ""
+"The domain of the email address does not exist (the portion after the @: "
+"%(domain)s)"
+msgstr ""
+
+#: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
 #: resourcemanager/templates/master.xhtml:22
 msgid "STAR-CCM+ Job Manager"
@@ -634,6 +717,14 @@ msgstr "타스크 소유자만 작업에 파일을 추가할 수 있습니다."
 msgid "You must have the permission to use the template to access it."
 msgstr "템플릿을 사용해 액세스할 수 있는 권한이 있어야 합니다."
 
+#: resourcemanager/model/auth.py:69
+msgid "Group"
+msgstr ""
+
+#: resourcemanager/model/auth.py:108
+msgid "User"
+msgstr ""
+
 #: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
 msgid "Users"
 msgstr "사용자"
@@ -720,7 +811,19 @@ msgid ""
 "    Best regards,\n"
 "    Job Manager System\n"
 "    "
-msgstr "\n    안녕하세요,\n\n    귀하의 Job Manager 계정에 대한 비밀번호 재설정 요청이 생성됐습니다.\n    이 링크를 사용해 비밀번호를 재설정하시기 바랍니다: {0}. 이 링크의 유효 시간은 {1}시간입니다.\n\n    비밀번호 재설정을 요청하지 않으신 경우, 이 메시지를 무시하시고 시스템\n 관리자에 문의하시기 바랍니다.\n\n    감사합니다,\n    Job Manager System\n    "
+msgstr ""
+"\n"
+"    안녕하세요,\n"
+"\n"
+"    귀하의 Job Manager 계정에 대한 비밀번호 재설정 요청이 생성됐습니다.\n"
+"    이 링크를 사용해 비밀번호를 재설정하시기 바랍니다: {0}. 이 링크의 유효 시간은 {1}시간입니다.\n"
+"\n"
+"    비밀번호 재설정을 요청하지 않으신 경우, 이 메시지를 무시하시고 시스템\n"
+" 관리자에 문의하시기 바랍니다.\n"
+"\n"
+"    감사합니다,\n"
+"    Job Manager System\n"
+"    "
 
 #: resourcemanager/model/bl_account.py:137
 msgid ""
@@ -816,6 +919,10 @@ msgstr "그룹 구성원으: %s으로 새로운 사용자 %s(이)가 생성됨"
 msgid "Resource Groups"
 msgstr "리소스 그룹"
 
+#: resourcemanager/model/configuration.py:236
+msgid "Application Config"
+msgstr ""
+
 #: resourcemanager/model/configuration.py:237
 msgid "Application Configs"
 msgstr "응용 프로그램 구성"
@@ -875,15 +982,13 @@ msgstr "로그인"
 msgid "Username"
 msgstr "사용자 이름"
 
-#: resourcemanager/templates/login.xhtml:24
-msgid "Password"
-msgstr "암호"
-
 #: resourcemanager/templates/login.xhtml:33
 msgid ""
 " remember me\n"
 "                        "
-msgstr " 정보를 기억합니다\n                        "
+msgstr ""
+" 정보를 기억합니다\n"
+"                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
@@ -914,7 +1019,9 @@ msgstr "Simcenter STAR-CCM+ Job Manager"
 msgid ""
 "\n"
 "                    Admin"
-msgstr "\n                    관리"
+msgstr ""
+"\n"
+"                    관리"
 
 #: resourcemanager/templates/master.xhtml:40
 msgid "Admin Home"
@@ -928,7 +1035,9 @@ msgstr "대다수 사용자 가져오기"
 msgid ""
 "\n"
 "                    Help"
-msgstr "\n                    도움말"
+msgstr ""
+"\n"
+"                    도움말"
 
 #: resourcemanager/templates/master.xhtml:58
 msgid "About"
@@ -938,7 +1047,9 @@ msgstr "소개"
 msgid ""
 "\n"
 "                    Account"
-msgstr "\n                    계정"
+msgstr ""
+"\n"
+"                    계정"
 
 #: resourcemanager/templates/master.xhtml:72
 msgid "Logout"
@@ -947,10 +1058,6 @@ msgstr "로그아웃"
 #: resourcemanager/templates/admin/edit.xhtml:4
 msgid " - Edit "
 msgstr " - 편집 "
-
-#: resourcemanager/templates/admin/edit.xhtml:10
-msgid "Edit "
-msgstr "편집 "
 
 #: resourcemanager/templates/admin/get_all.xhtml:4
 msgid " - "
