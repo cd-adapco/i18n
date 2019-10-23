@@ -112,11 +112,7 @@ msgid ""
 "    semicolon-separated list of group names the user should be member of."
 " It must use UTF-8\n"
 "    encoding."
-msgstr ""
-"此表单允许管理员使用 CSV 文件批量导入用户。\n"
-"    CSV 文件应具有以下列：用户名、电子邮件地址、显示名称、\n"
-"    用户应属于以分号分隔的组名列表。它必须使用 UTF-8\n"
-"    编码。"
+msgstr "此表单允许管理员使用 CSV 文件批量导入用户。\n    CSV 文件应具有以下列：用户名、电子邮件地址、显示名称、\n    用户应属于以分号分隔的组名列表。它必须使用 UTF-8\n    编码。"
 
 #: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
@@ -269,10 +265,7 @@ msgid ""
 "                                 the user's home directory and $user_name"
 " variable to substitute \n"
 "                                 the user name)"
-msgstr ""
-"用户目录模板（使用 $HOME 变量替代\n"
-"                                 用户的主目录并使用 $user_name 变量以替代\n"
-"                                 用户名）"
+msgstr "用户目录模板（使用 $HOME 变量替代\n                                 用户的主目录并使用 $user_name 变量以替代\n                                 用户名）"
 
 #: resourcemanager/controllers/admin.py:336
 msgid "Resource Group cannot be renamed."
@@ -297,9 +290,7 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
-msgstr ""
-"当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH "
-"和密码。原始值已恢复。"
+msgstr "当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH 和密码。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:366
 msgid "Resource Group {} successfully updated."
@@ -318,9 +309,7 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
-msgstr ""
-"当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH "
-"和密码。原始值已恢复。"
+msgstr "当作业管理器配置为使用内部身份验证模式时，                                  无法为系统服务选择 SSH 和密码。原始值已恢复。"
 
 #: resourcemanager/controllers/admin.py:407
 msgid "Resource Group {} successfully created."
@@ -365,10 +354,7 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr ""
-"请输入天数（可选），并使用格式 HH:MM:SS 指定时间。        示例：5 days, 00:00:00（5 天；注意 00:00:00"
-" 为必填项），1 day, 20:3:50（1 天、20 小时、3 分钟        50 秒），00:01:00（1 分钟；注意小时位置的 "
-"00 为必填项），100:05:0 （100 小时、 5 分钟；注意秒位置的 0 或        00 为必填项）"
+msgstr "请输入天数（可选），并使用格式 HH:MM:SS 指定时间。        示例：5 days, 00:00:00（5 天；注意 00:00:00 为必填项），1 day, 20:3:50（1 天、20 小时、3 分钟        50 秒），00:01:00（1 分钟；注意小时位置的 00 为必填项），100:05:0 （100 小时、 5 分钟；注意秒位置的 0 或        00 为必填项）"
 
 #: resourcemanager/controllers/admin.py:602
 #: resourcemanager/model/configuration.py:36
@@ -417,17 +403,13 @@ msgstr "编辑应用程序配置"
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
-msgstr ""
-"脚本模板（留空以使其\n"
-"                                   使用默认模板填充）"
+msgstr "脚本模板（留空以使其\n                                   使用默认模板填充）"
 
 #: resourcemanager/controllers/admin.py:640
 msgid ""
 "Keep Job and Task Repositories (for \n"
 "                                    troubleshooting purposes)"
-msgstr ""
-"保留作业和任务存储库（用于\n"
-"                                    故障排除）"
+msgstr "保留作业和任务存储库（用于\n                                    故障排除）"
 
 #: resourcemanager/controllers/admin.py:712
 msgid "Submission Template {} successfully created."
@@ -472,7 +454,7 @@ msgstr "密码"
 #: resourcemanager/controllers/admin.py:814
 #: resourcemanager/controllers/admin.py:980
 msgid "Verify Password"
-msgstr ""
+msgstr "验证密码"
 
 #: resourcemanager/controllers/admin.py:820
 msgid "User {} successfully created."
@@ -530,7 +512,7 @@ msgstr "用户已成功导入。"
 msgid ""
 "User import failed. All changes were rolled back.\n"
 "Error: {}"
-msgstr ""
+msgstr "用户导入失败。所有更改都已回滚。\n错误：{}"
 
 #: resourcemanager/controllers/admin.py:961
 msgid "User import failed."
@@ -554,41 +536,41 @@ msgstr "浏览"
 
 #: resourcemanager/controllers/admin.py:980
 msgid "Create"
-msgstr ""
+msgstr "创建"
 
 #: resourcemanager/controllers/admin.py:981
 msgid "Please enter an email address"
-msgstr ""
+msgstr "请输入电子邮件地址"
 
 #: resourcemanager/controllers/admin.py:982
 msgid "An email address must contain a single @"
-msgstr ""
+msgstr "电子邮件地址必须包含单个 @"
 
 #: resourcemanager/controllers/admin.py:983
 #, python-format
 msgid ""
 "The username portion of the email address is invalid (the portion before "
 "the @: %(username)s)"
-msgstr ""
+msgstr "电子邮件地址的用户名部分无效（@ 之前部分：%(用户名)s）"
 
 #: resourcemanager/controllers/admin.py:985
 #, python-format
 msgid "An error occured when trying to connect to the server: %(error)s"
-msgstr ""
+msgstr "尝试连接至服务器时发生错误：%(错误)s"
 
 #: resourcemanager/controllers/admin.py:987
 #, python-format
 msgid ""
 "The domain portion of the email address is invalid (the portion after the"
 " @: %(domain)s)"
-msgstr ""
+msgstr "电子邮件地址的域名部分无效（@ 之后部分：%(域名)s）"
 
 #: resourcemanager/controllers/admin.py:989
 #, python-format
 msgid ""
 "The domain of the email address does not exist (the portion after the @: "
 "%(domain)s)"
-msgstr ""
+msgstr "电子邮件地址的域名不存在（@ 之后部分：%(域名)s）"
 
 #: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
@@ -717,11 +699,11 @@ msgstr "您必须具有使用该模板的权限才能访问它。"
 
 #: resourcemanager/model/auth.py:69
 msgid "Group"
-msgstr ""
+msgstr "组"
 
 #: resourcemanager/model/auth.py:108
 msgid "User"
-msgstr ""
+msgstr "用户"
 
 #: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
 msgid "Users"
@@ -809,19 +791,7 @@ msgid ""
 "    Best regards,\n"
 "    Job Manager System\n"
 "    "
-msgstr ""
-"\n"
-"    你好，\n"
-"\n"
-"    已为作业管理器帐户生成密码重置请求。\n"
-"    按照此链接重置密码：{0}。此链接仅在 {1} 小时内有效。\n"
-"\n"
-"    如果未请求密码重置，则忽略此消息或联系您的系统\n"
-"    管理员。\n"
-"\n"
-"    此致！\n"
-"    作业管理器系统\n"
-"    "
+msgstr "\n    你好，\n\n    已为作业管理器帐户生成密码重置请求。\n    按照此链接重置密码：{0}。此链接仅在 {1} 小时内有效。\n\n    如果未请求密码重置，则忽略此消息或联系您的系统\n    管理员。\n\n    此致！\n    作业管理器系统\n    "
 
 #: resourcemanager/model/bl_account.py:137
 msgid ""
@@ -919,7 +889,7 @@ msgstr "资源组"
 
 #: resourcemanager/model/configuration.py:236
 msgid "Application Config"
-msgstr ""
+msgstr "应用程序配置"
 
 #: resourcemanager/model/configuration.py:237
 msgid "Application Configs"
@@ -984,9 +954,7 @@ msgstr "用户名"
 msgid ""
 " remember me\n"
 "                        "
-msgstr ""
-"记住我\n"
-"                        "
+msgstr "记住我\n                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
@@ -1017,9 +985,7 @@ msgstr "Simcenter STAR-CCM+ 作业管理器"
 msgid ""
 "\n"
 "                    Admin"
-msgstr ""
-"\n"
-"                    管理"
+msgstr "\n                    管理"
 
 #: resourcemanager/templates/master.xhtml:40
 msgid "Admin Home"
@@ -1033,9 +999,7 @@ msgstr "批量用户导入"
 msgid ""
 "\n"
 "                    Help"
-msgstr ""
-"\n"
-"                    帮助"
+msgstr "\n                    帮助"
 
 #: resourcemanager/templates/master.xhtml:58
 msgid "About"
@@ -1045,9 +1009,7 @@ msgstr "关于"
 msgid ""
 "\n"
 "                    Account"
-msgstr ""
-"\n"
-"                    帐户"
+msgstr "\n                    帐户"
 
 #: resourcemanager/templates/master.xhtml:72
 msgid "Logout"
