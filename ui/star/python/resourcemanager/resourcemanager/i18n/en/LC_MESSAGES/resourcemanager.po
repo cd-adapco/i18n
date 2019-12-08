@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-17 10:29-0400\n"
+"POT-Creation-Date: 2019-11-19 14:20-0500\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,7 +27,7 @@ msgid "OK"
 msgstr ""
 
 #: resourcemanager/controllers/account.py:29
-#: resourcemanager/templates/master.xhtml:70
+#: resourcemanager/templates/master.xhtml:72
 msgid "Change Password"
 msgstr ""
 
@@ -248,7 +248,7 @@ msgstr ""
 
 #: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
-#: resourcemanager/templates/master.xhtml:43
+#: resourcemanager/templates/master.xhtml:44
 msgid "Submission Templates"
 msgstr ""
 
@@ -440,7 +440,7 @@ msgid "Created"
 msgstr ""
 
 #: resourcemanager/controllers/admin.py:757 resourcemanager/model/auth.py:70
-#: resourcemanager/templates/master.xhtml:46
+#: resourcemanager/templates/master.xhtml:47
 msgid "Groups"
 msgstr ""
 
@@ -574,27 +574,27 @@ msgstr ""
 
 #: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:22
+#: resourcemanager/templates/master.xhtml:23
 msgid "STAR-CCM+ Job Manager"
 msgstr ""
 
-#: resourcemanager/controllers/root.py:66
+#: resourcemanager/controllers/root.py:81
 msgid "User not found."
 msgstr ""
 
-#: resourcemanager/controllers/root.py:68
+#: resourcemanager/controllers/root.py:83
 msgid "Invalid Password."
 msgstr ""
 
-#: resourcemanager/controllers/root.py:72
+#: resourcemanager/controllers/root.py:87
 msgid "Wrong credentials"
 msgstr ""
 
-#: resourcemanager/controllers/root.py:90
+#: resourcemanager/controllers/root.py:105
 msgid "Welcome back, {0}!"
 msgstr ""
 
-#: resourcemanager/controllers/root.py:104
+#: resourcemanager/controllers/root.py:119
 msgid "Logout successful"
 msgstr ""
 
@@ -705,44 +705,44 @@ msgstr ""
 msgid "User"
 msgstr ""
 
-#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:46
 msgid "Users"
 msgstr ""
 
-#: resourcemanager/model/bl.py:60
+#: resourcemanager/model/bl.py:61
 msgid "The job with the given id: {0} could not be found"
 msgstr ""
 
-#: resourcemanager/model/bl.py:115
+#: resourcemanager/model/bl.py:116
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr ""
 
-#: resourcemanager/model/bl.py:121
+#: resourcemanager/model/bl.py:122
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr ""
 
-#: resourcemanager/model/bl.py:130
+#: resourcemanager/model/bl.py:131
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr ""
 
-#: resourcemanager/model/bl.py:159
+#: resourcemanager/model/bl.py:160
 msgid "Only the owner can submit the job."
 msgstr ""
 
-#: resourcemanager/model/bl.py:161
+#: resourcemanager/model/bl.py:162
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr ""
 
-#: resourcemanager/model/bl.py:164
+#: resourcemanager/model/bl.py:165
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr ""
 
-#: resourcemanager/model/bl.py:167
+#: resourcemanager/model/bl.py:168
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr ""
@@ -883,7 +883,7 @@ msgid "Created a new user %s with group membership: %s"
 msgstr ""
 
 #: resourcemanager/model/configuration.py:37
-#: resourcemanager/templates/master.xhtml:42
+#: resourcemanager/templates/master.xhtml:43
 msgid "Resource Groups"
 msgstr ""
 
@@ -904,26 +904,41 @@ msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
 msgstr ""
 
 #: resourcemanager/templates/about.xhtml:18
-msgid "Job Manager Version"
+msgid "Job Manager Help"
 msgstr ""
 
 #: resourcemanager/templates/about.xhtml:22
-msgid "Product Version:"
+msgid "Help Link:"
 msgstr ""
 
-#: resourcemanager/templates/about.xhtml:26
-msgid "Release Date:"
+#: resourcemanager/templates/about.xhtml:24
+msgid ""
+"\n"
+"                                Job Manager Documentation\n"
+"                            "
 msgstr ""
 
 #: resourcemanager/templates/about.xhtml:35
-msgid "REST API Version"
+msgid "Job Manager Version"
 msgstr ""
 
 #: resourcemanager/templates/about.xhtml:39
-msgid "Latest Version:"
+msgid "Product Version:"
 msgstr ""
 
 #: resourcemanager/templates/about.xhtml:43
+msgid "Release Date:"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:52
+msgid "REST API Version"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:56
+msgid "Latest Version:"
+msgstr ""
+
+#: resourcemanager/templates/about.xhtml:60
 msgid "URL:"
 msgstr ""
 
@@ -942,7 +957,7 @@ msgstr ""
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
-#: resourcemanager/templates/master.xhtml:63
+#: resourcemanager/templates/master.xhtml:64
 msgid "Login"
 msgstr ""
 
@@ -972,46 +987,46 @@ msgstr ""
 msgid "\". If you need to change or reset your password use your OS procedure."
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:24
+#: resourcemanager/templates/master.xhtml:25
 msgid "Toggle navigation"
 msgstr ""
 
 #: resourcemanager/templates/master.xhtml:8
-#: resourcemanager/templates/master.xhtml:30
+#: resourcemanager/templates/master.xhtml:31
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:36
+#: resourcemanager/templates/master.xhtml:37
 msgid ""
 "\n"
 "                    Admin"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:40
+#: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:48
+#: resourcemanager/templates/master.xhtml:49
 msgid "Bulk Users Import"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:54
+#: resourcemanager/templates/master.xhtml:55
 msgid ""
 "\n"
 "                    Help"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:58
+#: resourcemanager/templates/master.xhtml:59
 msgid "About"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:66
+#: resourcemanager/templates/master.xhtml:67
 msgid ""
 "\n"
 "                    Account"
 msgstr ""
 
-#: resourcemanager/templates/master.xhtml:72
+#: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
 msgstr ""
 
@@ -1043,4 +1058,7 @@ msgstr ""
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
 msgstr ""
+
+#~ msgid "Application Config"
+#~ msgstr ""
 
