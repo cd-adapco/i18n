@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-17 10:29-0400\n"
+"POT-Creation-Date: 2019-11-19 14:20-0500\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,7 +27,7 @@ msgid "OK"
 msgstr "OK"
 
 #: resourcemanager/controllers/account.py:29
-#: resourcemanager/templates/master.xhtml:70
+#: resourcemanager/templates/master.xhtml:72
 msgid "Change Password"
 msgstr "パスワードの変更"
 
@@ -248,7 +248,7 @@ msgstr "ユーザディレクトリテンプレート"
 
 #: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
-#: resourcemanager/templates/master.xhtml:43
+#: resourcemanager/templates/master.xhtml:44
 msgid "Submission Templates"
 msgstr "送信テンプレート"
 
@@ -440,7 +440,7 @@ msgid "Created"
 msgstr "作成済み"
 
 #: resourcemanager/controllers/admin.py:757 resourcemanager/model/auth.py:70
-#: resourcemanager/templates/master.xhtml:46
+#: resourcemanager/templates/master.xhtml:47
 msgid "Groups"
 msgstr "グループ"
 
@@ -574,27 +574,27 @@ msgstr "メールアドレスのドメインが存在していません(@マー�
 
 #: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:22
+#: resourcemanager/templates/master.xhtml:23
 msgid "STAR-CCM+ Job Manager"
 msgstr "STAR-CCM+ ジョブマネージャ"
 
-#: resourcemanager/controllers/root.py:66
+#: resourcemanager/controllers/root.py:81
 msgid "User not found."
 msgstr "ユーザが見つかりません。"
 
-#: resourcemanager/controllers/root.py:68
+#: resourcemanager/controllers/root.py:83
 msgid "Invalid Password."
 msgstr "パスワードが無効です。"
 
-#: resourcemanager/controllers/root.py:72
+#: resourcemanager/controllers/root.py:87
 msgid "Wrong credentials"
 msgstr "不正な認証"
 
-#: resourcemanager/controllers/root.py:90
+#: resourcemanager/controllers/root.py:105
 msgid "Welcome back, {0}!"
 msgstr "ようこそ、{0}さん!"
 
-#: resourcemanager/controllers/root.py:104
+#: resourcemanager/controllers/root.py:119
 msgid "Logout successful"
 msgstr "ログアウト成功"
 
@@ -705,44 +705,44 @@ msgstr "グループ"
 msgid "User"
 msgstr "ユーザー"
 
-#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:46
 msgid "Users"
 msgstr "ユーザ"
 
-#: resourcemanager/model/bl.py:60
+#: resourcemanager/model/bl.py:61
 msgid "The job with the given id: {0} could not be found"
 msgstr "指定されたid: {0}のジョブが見つかりませんでした。"
 
-#: resourcemanager/model/bl.py:115
+#: resourcemanager/model/bl.py:116
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr "送信に対してジョブを作成するときに、requested_resourcesが必要です。"
 
-#: resourcemanager/model/bl.py:121
+#: resourcemanager/model/bl.py:122
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr "walltimeは、float秒数として指定する必要があります。エラー: {}"
 
-#: resourcemanager/model/bl.py:130
+#: resourcemanager/model/bl.py:131
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr "ローカルジョブ/タスクの作成は許可されていません。 新規ジョブを作成するために、送信テンプレートを渡します。"
 
-#: resourcemanager/model/bl.py:159
+#: resourcemanager/model/bl.py:160
 msgid "Only the owner can submit the job."
 msgstr "所有者のみがジョブを送信することができます。"
 
-#: resourcemanager/model/bl.py:161
+#: resourcemanager/model/bl.py:162
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr "ジョブは、送信前に送信テンプレートと要求resourcessetを含んでいなければなりません。"
 
-#: resourcemanager/model/bl.py:164
+#: resourcemanager/model/bl.py:165
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr "ジョブは既に送信されています、送信id: %s"
 
-#: resourcemanager/model/bl.py:167
+#: resourcemanager/model/bl.py:168
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr "保留中のジョブのみを送信することができます。 現在のジョブの状態は、%sです"
@@ -883,7 +883,7 @@ msgid "Created a new user %s with group membership: %s"
 msgstr "新規ユーザ%s(グループメンバーシップ:%s)を作成しました"
 
 #: resourcemanager/model/configuration.py:37
-#: resourcemanager/templates/master.xhtml:42
+#: resourcemanager/templates/master.xhtml:43
 msgid "Resource Groups"
 msgstr "リソースグループ"
 
@@ -904,26 +904,41 @@ msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
 msgstr "Siemens Simcenter STAR-CCM+ ジョブマネージャバージョン情報"
 
 #: resourcemanager/templates/about.xhtml:18
+msgid "Job Manager Help"
+msgstr "ジョブマネージャのヘルプ"
+
+#: resourcemanager/templates/about.xhtml:22
+msgid "Help Link:"
+msgstr "ヘルプのリンク:"
+
+#: resourcemanager/templates/about.xhtml:24
+msgid ""
+"\n"
+"                                Job Manager Documentation\n"
+"                            "
+msgstr "\n                                ジョブマネージャドキュメンテーション\n                            "
+
+#: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
 msgstr "ジョブマネージャバージョン"
 
-#: resourcemanager/templates/about.xhtml:22
+#: resourcemanager/templates/about.xhtml:39
 msgid "Product Version:"
 msgstr "製品バージョン:"
 
-#: resourcemanager/templates/about.xhtml:26
+#: resourcemanager/templates/about.xhtml:43
 msgid "Release Date:"
 msgstr "リリース日付:"
 
-#: resourcemanager/templates/about.xhtml:35
+#: resourcemanager/templates/about.xhtml:52
 msgid "REST API Version"
 msgstr "REST API バージョン"
 
-#: resourcemanager/templates/about.xhtml:39
+#: resourcemanager/templates/about.xhtml:56
 msgid "Latest Version:"
 msgstr "最新バージョン:"
 
-#: resourcemanager/templates/about.xhtml:43
+#: resourcemanager/templates/about.xhtml:60
 msgid "URL:"
 msgstr "URL:"
 
@@ -942,7 +957,7 @@ msgstr "エラー "
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
-#: resourcemanager/templates/master.xhtml:63
+#: resourcemanager/templates/master.xhtml:64
 msgid "Login"
 msgstr "ログイン"
 
@@ -972,46 +987,46 @@ msgstr "OS パスワード\"\"を使用してください。"
 msgid "\". If you need to change or reset your password use your OS procedure."
 msgstr "パスワードを変更またはリセットする必要がある場合は、OSの手順を使用します。"
 
-#: resourcemanager/templates/master.xhtml:24
+#: resourcemanager/templates/master.xhtml:25
 msgid "Toggle navigation"
 msgstr "ナビゲーションの切換え"
 
 #: resourcemanager/templates/master.xhtml:8
-#: resourcemanager/templates/master.xhtml:30
+#: resourcemanager/templates/master.xhtml:31
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr "Simcenter STAR-CCM+ ジョブマネージャ"
 
-#: resourcemanager/templates/master.xhtml:36
+#: resourcemanager/templates/master.xhtml:37
 msgid ""
 "\n"
 "                    Admin"
 msgstr "\n                    管理"
 
-#: resourcemanager/templates/master.xhtml:40
+#: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
 msgstr "管理ホーム"
 
-#: resourcemanager/templates/master.xhtml:48
+#: resourcemanager/templates/master.xhtml:49
 msgid "Bulk Users Import"
 msgstr "バルクユーザインポート"
 
-#: resourcemanager/templates/master.xhtml:54
+#: resourcemanager/templates/master.xhtml:55
 msgid ""
 "\n"
 "                    Help"
 msgstr "\n                    ヘルプ"
 
-#: resourcemanager/templates/master.xhtml:58
+#: resourcemanager/templates/master.xhtml:59
 msgid "About"
 msgstr "バージョン情報"
 
-#: resourcemanager/templates/master.xhtml:66
+#: resourcemanager/templates/master.xhtml:67
 msgid ""
 "\n"
 "                    Account"
 msgstr "\n                    アカウント"
 
-#: resourcemanager/templates/master.xhtml:72
+#: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
 msgstr "ログアウト"
 
@@ -1043,4 +1058,7 @@ msgstr " - 新規作成 "
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ ジョブマネージャ -"
+
+#~ msgid "Application Config"
+#~ msgstr ""
 

@@ -17,13 +17,16 @@
 #     that cannot be represented by ASCII characters should be written using escaped unicode.
 #     - see the utility 'native2ascii' distributed with your JDK
 #
-# Product Name: $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-# Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
+# Product Name: $SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package_7z.iap_xml
 # Generated:    Wed Jul 11 13:45:45 EDT 2018
 
 
-# ASCIIFileManipulator.47fe6ec5af90.additionalText=
-ASCIIFileManipulator.47fe6ec5af90.additionalText=
+# ASCIIFileManipulator.2c25731d8d77.additionalText=
+ASCIIFileManipulator.2c25731d8d77.additionalText=
+
+# ASCIIFileManipulator.2c3067398d84.additionalText=
+ASCIIFileManipulator.2c3067398d84.additionalText=
 
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
@@ -46,8 +49,8 @@ Billboard.850018f38468.imageName=billboard_default.png
 # Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
-# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation.
-ChooseFile.257d8095925b.additionalText=$REGISTRY_COMPANY_NAME$ PLMソフトウェアから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。 しかしながら、$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
+# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
+ChooseFile.257d8095925b.additionalText=_COMPANY_NAME_ _BUSINESS_UNIT_から電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
 
 # ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
@@ -58,8 +61,8 @@ ChooseFile.257d8095925b.prompt=ライセンスファイルの場所を選択し�
 # ChooseFile.257d8095925b.stepTitle=Select license file
 ChooseFile.257d8095925b.stepTitle=ライセンスファイルを選択
 
-# ChooseFile.8571f4d08c44.additionalText=The database file is used by the Job Manager's administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=データベースファイルは、(必要時に)システムテンプレートやユーザー認証データなどのデータを保存するために、ジョブマネージャの管理者により使用されます。\n\n作成するデータベースファイルの名前を入力してください。\n\n
+# ChooseFile.8571f4d08c44.additionalText=The database file is used by the _RT_JOB_MANAGER_'s administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
+ChooseFile.8571f4d08c44.additionalText=データベースファイルは、(必要時に)システムテンプレートやユーザー認証データなどのデータを保存するために、_RT_JOB_MANAGER_の管理者により使用されます。\n\n作成するデータベースファイルの名前を入力してください。\n\n
 
 # ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
 ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
@@ -70,17 +73,17 @@ ChooseFile.8571f4d08c44.prompt=データベースファイルの名前を入力�
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
 ChooseFile.8571f4d08c44.stepTitle=データベースファイルを作成
 
-# ChooseFile.d85abda1a5ad.additionalText=Please browse to the location of the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
-ChooseFile.d85abda1a5ad.additionalText=$REGISTRY_COMPANY_NAME$ PLMソフトウェアから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動して、ご使用のコンポーネント上にダウンロードしてください。 ライセンスファイルをまだ受け取っていない場合、このインストールを続行することができない場合があります。
+# ChooseFile.a174655a93b6.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.a174655a93b6.additionalText=_COMPANY_NAME_ _BUSINESS_UNIT_から電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動して、ご使用のコンポーネント上にダウンロードしてください。 ライセンスファイルをまだ受け取っていない場合、このインストールを続行することができない場合があります。
 
-# ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
-ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
+# ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
+ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
 
-# ChooseFile.d85abda1a5ad.prompt=Please choose location of the license File:
-ChooseFile.d85abda1a5ad.prompt=ライセンスファイルの場所を選択してください:
+# ChooseFile.a174655a93b6.prompt=Please choose location of the license File:
+ChooseFile.a174655a93b6.prompt=ライセンスファイルの場所を選択してください:
 
-# ChooseFile.d85abda1a5ad.stepTitle=Select license file
-ChooseFile.d85abda1a5ad.stepTitle=ライセンスファイルを選択
+# ChooseFile.a174655a93b6.stepTitle=Select license file
+ChooseFile.a174655a93b6.stepTitle=ライセンスファイルを選択
 
 # ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
 ChooseFolder.59b3a9e8ae16.additionalText=$INSTALLER_TITLE$をインストールする場所を選択してください。
@@ -88,14 +91,14 @@ ChooseFolder.59b3a9e8ae16.additionalText=$INSTALLER_TITLE$をインストール�
 # ChooseFolder.59b3a9e8ae16.defaultFile=
 ChooseFolder.59b3a9e8ae16.defaultFile=
 
-# ChooseFolder.59b3a9e8ae16.prompt=Please Locate $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation:
-ChooseFolder.59b3a9e8ae16.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ インストールの場所を選択してください:
+# ChooseFolder.59b3a9e8ae16.prompt=Please Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation:
+ChooseFolder.59b3a9e8ae16.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションを見つけてください:
 
-# ChooseFolder.59b3a9e8ae16.stepTitle=Locate $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation 
-ChooseFolder.59b3a9e8ae16.stepTitle=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$インストールの場所を選択
+# ChooseFolder.59b3a9e8ae16.stepTitle=Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation 
+ChooseFolder.59b3a9e8ae16.stepTitle=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションを見つけます
 
-# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存のジョブマネージャインスタンスを選択してください。通常は、star/binフォルダにある既存の$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$インストールディレクトリにあります。
+# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
+ChooseFolder.85678ebc8c0d.additionalText=アップグレードのソースとして動作する既存の_RT_JOB_MANAGER_インスタンスを選択してください。 通常は、star/binフォルダにある既存の_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストールディレクトリにあります。
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
 ChooseFolder.85678ebc8c0d.defaultFile=
@@ -103,8 +106,8 @@ ChooseFolder.85678ebc8c0d.defaultFile=
 # ChooseFolder.85678ebc8c0d.prompt=Please Choose a Folder:
 ChooseFolder.85678ebc8c0d.prompt=フォルダを選択してください:
 
-# ChooseFolder.85678ebc8c0d.stepTitle=Select existing Job Manager location
-ChooseFolder.85678ebc8c0d.stepTitle=既存のジョブマネージャの場所を選択
+# ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
+ChooseFolder.85678ebc8c0d.stepTitle=既存の_RT_JOB_MANAGER_の場所を選択
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
 CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマネージャーを削除するために今すぐ停止しますか?
@@ -112,8 +115,8 @@ CreateDialog.29fccfaca483.prompt=$SERVICE_NAME$のライセンスサーバーマ
 # CreateDialog.29fccfaca483.title=Stop the Server
 CreateDialog.29fccfaca483.title=サーバーを停止
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use $REGISTRY_COMPANY_NAME$ PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the star/config/sitesettings.props file to ProductExcellenceProgram=0.
-CreateDialog.757df82f97fd.prompt=製品機能向上プログラムはお客様が$REGISTRY_COMPANY_NAME$ PLMソフトウェアを使用する方法に関する情報を収集します。この情報は、お客様のニーズに合わせて弊社製品の機能や性能を向上させるのに役立ちます。個人情報や知的財産情報は収集または共有されません。製品の性能への影響はなく、プログラムへの参加は任意です。製品機能向上プログラムをオフにするには、ProductExcellenceProgram=0になるようにstar/config/sitesettings.propsファイルを編集してください。
+# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+CreateDialog.757df82f97fd.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は自由意思です。
 
 # CreateDialog.757df82f97fd.title=Product Excellence Program
 CreateDialog.757df82f97fd.title=製品機能向上プログラム
@@ -157,8 +160,8 @@ CreateShortcut.1aa8bf9c9717.workingDir=
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
-# CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -166,8 +169,8 @@ CreateShortcut.2de0b8dc9238.workingDir=
 # CreateShortcut.2de4337e8b03.args=
 CreateShortcut.2de4337e8b03.args=
 
-# CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -175,8 +178,8 @@ CreateShortcut.2de4337e8b03.workingDir=
 # CreateShortcut.412245f8a3db.args=
 CreateShortcut.412245f8a3db.args=
 
-# CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.412245f8a3db.workingDir=
 CreateShortcut.412245f8a3db.workingDir=
@@ -184,8 +187,8 @@ CreateShortcut.412245f8a3db.workingDir=
 # CreateShortcut.4123775fa3dc.args=
 CreateShortcut.4123775fa3dc.args=
 
-# CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.4123775fa3dc.workingDir=
 CreateShortcut.4123775fa3dc.workingDir=
@@ -193,8 +196,8 @@ CreateShortcut.4123775fa3dc.workingDir=
 # CreateShortcut.94113b058204.args=
 CreateShortcut.94113b058204.args=
 
-# CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.94113b058204.workingDir=
 CreateShortcut.94113b058204.workingDir=
@@ -202,8 +205,8 @@ CreateShortcut.94113b058204.workingDir=
 # CreateShortcut.9413496e8208.args=
 CreateShortcut.9413496e8208.args=
 
-# CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9413496e8208.workingDir=
 CreateShortcut.9413496e8208.workingDir=
@@ -211,8 +214,8 @@ CreateShortcut.9413496e8208.workingDir=
 # CreateShortcut.9416ec508215.args=
 CreateShortcut.9416ec508215.args=
 
-# CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9416ec508215.workingDir=
 CreateShortcut.9416ec508215.workingDir=
@@ -220,8 +223,8 @@ CreateShortcut.9416ec508215.workingDir=
 # CreateShortcut.9417923b821a.args=
 CreateShortcut.9417923b821a.args=
 
-# CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9417923b821a.workingDir=
 CreateShortcut.9417923b821a.workingDir=
@@ -229,8 +232,8 @@ CreateShortcut.9417923b821a.workingDir=
 # CreateShortcut.9418dab08a79.args=
 CreateShortcut.9418dab08a79.args=
 
-# CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.9418dab08a79.workingDir=
 CreateShortcut.9418dab08a79.workingDir=
@@ -238,8 +241,8 @@ CreateShortcut.9418dab08a79.workingDir=
 # CreateShortcut.941a08878a7d.args=
 CreateShortcut.941a08878a7d.args=
 
-# CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941a08878a7d.workingDir=
 CreateShortcut.941a08878a7d.workingDir=
@@ -247,8 +250,8 @@ CreateShortcut.941a08878a7d.workingDir=
 # CreateShortcut.941af5b78a81.args=
 CreateShortcut.941af5b78a81.args=
 
-# CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941af5b78a81.workingDir=
 CreateShortcut.941af5b78a81.workingDir=
@@ -256,8 +259,8 @@ CreateShortcut.941af5b78a81.workingDir=
 # CreateShortcut.941b0edf8a86.args=
 CreateShortcut.941b0edf8a86.args=
 
-# CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.941b0edf8a86.workingDir=
 CreateShortcut.941b0edf8a86.workingDir=
@@ -265,8 +268,8 @@ CreateShortcut.941b0edf8a86.workingDir=
 # CreateShortcut.94640642bd9f.args=
 CreateShortcut.94640642bd9f.args=
 
-# CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.94640642bd9f.workingDir=
 CreateShortcut.94640642bd9f.workingDir=
@@ -283,8 +286,8 @@ CreateShortcut.94649fda9fe1.workingDir=
 # CreateShortcut.9465295a8118.args=
 CreateShortcut.9465295a8118.args=
 
-# CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.9465295a8118.workingDir=
 CreateShortcut.9465295a8118.workingDir=
@@ -301,8 +304,8 @@ CreateShortcut.9465c552a258.workingDir=
 # CreateShortcut.9466c0598c7d.args=
 CreateShortcut.9466c0598c7d.args=
 
-# CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.9466c0598c7d.workingDir=
 CreateShortcut.9466c0598c7d.workingDir=
@@ -310,8 +313,8 @@ CreateShortcut.9466c0598c7d.workingDir=
 # CreateShortcut.946795c9ade2.args=
 CreateShortcut.946795c9ade2.args=
 
-# CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
@@ -337,8 +340,8 @@ CreateShortcut.9d83036eb16c.workingDir=
 # CreateShortcut.9ecf1c648a8a.args=
 CreateShortcut.9ecf1c648a8a.args=
 
-# CreateShortcut.9ecf1c648a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ecf1c648a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ecf1c648a8a.workingDir=
 CreateShortcut.9ecf1c648a8a.workingDir=
@@ -346,8 +349,8 @@ CreateShortcut.9ecf1c648a8a.workingDir=
 # CreateShortcut.9ed06f718a8a.args=
 CreateShortcut.9ed06f718a8a.args=
 
-# CreateShortcut.9ed06f718a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed06f718a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
@@ -445,8 +448,8 @@ CreateShortcut.9ed9c1c28e73.workingDir=
 # CreateShortcut.9edb511b8e74.args=
 CreateShortcut.9edb511b8e74.args=
 
-# CreateShortcut.9edb511b8e74.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9edb511b8e74.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9edb511b8e74.workingDir=
 CreateShortcut.9edb511b8e74.workingDir=
@@ -454,8 +457,8 @@ CreateShortcut.9edb511b8e74.workingDir=
 # CreateShortcut.9eded2c68e76.args=
 CreateShortcut.9eded2c68e76.args=
 
-# CreateShortcut.9eded2c68e76.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9eded2c68e76.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9eded2c68e76.workingDir=
 CreateShortcut.9eded2c68e76.workingDir=
@@ -463,8 +466,8 @@ CreateShortcut.9eded2c68e76.workingDir=
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
 
-# CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -472,8 +475,8 @@ CreateShortcut.caa364a8a2b0.workingDir=
 # CreateShortcut.cb11e682a2c8.args=
 CreateShortcut.cb11e682a2c8.args=
 
-# CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -499,8 +502,8 @@ CreateShortcut.cd1330779add.workingDir=
 # CreateShortcut.cfd2e50abbfc.args=
 CreateShortcut.cfd2e50abbfc.args=
 
-# CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -508,8 +511,8 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
 
-# CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -517,8 +520,8 @@ CreateShortcut.d138a370858c.workingDir=
 # CreateShortcut.d5cf21bb9aa3.args=
 CreateShortcut.d5cf21bb9aa3.args=
 
-# CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.d5cf21bb9aa3.workingDir=
 CreateShortcut.d5cf21bb9aa3.workingDir=
@@ -526,8 +529,8 @@ CreateShortcut.d5cf21bb9aa3.workingDir=
 # CreateShortcut.d5d067689aa4.args=
 CreateShortcut.d5d067689aa4.args=
 
-# CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVR_VERSION$)
+# CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
 
 # CreateShortcut.d5d067689aa4.workingDir=
 CreateShortcut.d5d067689aa4.workingDir=
@@ -535,8 +538,8 @@ CreateShortcut.d5d067689aa4.workingDir=
 # CreateShortcut.eb99cf1b90cb.args=
 CreateShortcut.eb99cf1b90cb.args=
 
-# CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb99cf1b90cb.workingDir=
 CreateShortcut.eb99cf1b90cb.workingDir=
@@ -544,8 +547,8 @@ CreateShortcut.eb99cf1b90cb.workingDir=
 # CreateShortcut.eb9ba32a90d0.args=
 CreateShortcut.eb9ba32a90d0.args=
 
-# CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb9ba32a90d0.workingDir=
 CreateShortcut.eb9ba32a90d0.workingDir=
@@ -553,8 +556,8 @@ CreateShortcut.eb9ba32a90d0.workingDir=
 # CreateShortcut.eb9fc19aa18e.args=
 CreateShortcut.eb9fc19aa18e.args=
 
-# CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eb9fc19aa18e.workingDir=
 CreateShortcut.eb9fc19aa18e.workingDir=
@@ -562,8 +565,8 @@ CreateShortcut.eb9fc19aa18e.workingDir=
 # CreateShortcut.eba29649a3bb.args=
 CreateShortcut.eba29649a3bb.args=
 
-# CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (ビルド$STARVIEW_VERSION$)
+# CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
 
 # CreateShortcut.eba29649a3bb.workingDir=
 CreateShortcut.eba29649a3bb.workingDir=
@@ -586,8 +589,8 @@ CreateShortcut.eba4b7c1a520.destinationName=サンプルシーンの表示
 # CreateShortcut.eba4b7c1a520.workingDir=
 CreateShortcut.eba4b7c1a520.workingDir=
 
-# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$のインストールは、正常に完了しました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了すると、 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
+# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+DisplayMessage.731d4085b4cc.message=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=インストール完了
@@ -615,6 +618,18 @@ EditEnvironment.7d929202a641.value=$USER_MAGIC_FOLDER_5$/bin
 
 # EditEnvironment.7d929203a642.value=$USER_MAGIC_FOLDER_5$/bin
 EditEnvironment.7d929203a642.value=$USER_MAGIC_FOLDER_5$/bin
+
+# EditEnvironment.a198b89c8d70.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89c8d70.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b89c8d71.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89c8d71.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b89d8d77.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89d8d77.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b8a18d99.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b8a18d99.value=$UGS_LICENSE_FILE$
 
 # EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
 EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
@@ -703,12 +718,6 @@ Exec.fd261c999d36.dialogLabel=リモートからの起動サービスをアン�
 # Exec.fd261c999d36.title=Unregister Intel MPI
 Exec.fd261c999d36.title=Intel MPIを登録解除
 
-# Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.fdbc7954be0a.title=attrib +R
-Exec.fdbc7954be0a.title=attrib +R
-
 # Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
@@ -718,7 +727,7 @@ Exec.fdbca601be0a.title=attrib +R
 # ExecuteScript.00c21a869971.title=To check if the hostname is valid
 ExecuteScript.00c21a869971.title=ホスト名が有効かをチェック
 
-# ExecuteScript.00cab266a1e7.title=To check if SMTP server adress is valid
+# ExecuteScript.00cab266a1e7.title=To check if SMTP server address is valid
 ExecuteScript.00cab266a1e7.title=SMTPサーバアドレスが有効かをチェック
 
 # ExecuteScript.01c8cd6d9a52.title=Update win7+ fw
@@ -730,8 +739,8 @@ ExecuteScript.0488ae86a57c.title=Linuxにおけるファイルのパーミッシ
 # ExecuteScript.0489de5aa5bd.title=Changing permission of files in Windows
 ExecuteScript.0489de5aa5bd.title=Windowsにおけるファイルのパーミッションの変更
 
-# ExecuteScript.09082b168cd8.title=Unregistering STAR-NX..
-ExecuteScript.09082b168cd8.title=STAR-NXを登録解除しています...
+# ExecuteScript.09082b168cd8.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.09082b168cd8.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_の登録解除
 
 # ExecuteScript.0be7f1eca3d1.title=Checking server 1 cdlmd version
 ExecuteScript.0be7f1eca3d1.title=サーバ1 cdlmdバージョンのチェック
@@ -805,11 +814,11 @@ ExecuteScript.0be7f1f0a3f7.title=ccmpliteに対するサーバ2のチェック
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=ccmpliteに対するサーバ3のチェック
 
-# ExecuteScript.0dc86234891d.title=Unregistering STAR-NX..
-ExecuteScript.0dc86234891d.title=STAR-NXを登録解除しています...
+# ExecuteScript.0dc86234891d.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.0dc86234891d.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_の登録解除
 
-# ExecuteScript.0fae5f3192b2.title=Tidy empty Simcenter STAR-CCM+ doc folders
-ExecuteScript.0fae5f3192b2.title=空のSimcenter STAR-CCM + docフォルダーを整理する
+# ExecuteScript.0fae5f3192b2.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
+ExecuteScript.0fae5f3192b2.title=empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ docフォルダーを整理する
 
 # ExecuteScript.14b03569831d.title=Register Platform-MPI remote launch service...
 ExecuteScript.14b03569831d.title=Platform-MPI リモート起動サービスを登録...
@@ -850,8 +859,8 @@ ExecuteScript.32a265afb332.title=韓国語版オンラインヘルプを抽出
 # ExecuteScript.32a28086b399.title=extract Chinese documentation
 ExecuteScript.32a28086b399.title=中国語版オンラインヘルプを抽出
 
-# ExecuteScript.33e242b5b716.title=Unregistering STAR-NX..
-ExecuteScript.33e242b5b716.title=STAR-NXを登録解除しています...
+# ExecuteScript.33e242b5b716.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.33e242b5b716.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_の登録解除
 
 # ExecuteScript.35d6cc20bebd.title=Checking for running Linux cdlmd
 ExecuteScript.35d6cc20bebd.title=実行中のLinux cdlmdをチェック
@@ -910,11 +919,14 @@ ExecuteScript.3a1c9ff4becd.title=アップグレードの失敗のために以�
 # ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 ExecuteScript.3b6e9ae9bdfb.title=実行中のWindows lmadminのチェック
 
-# ExecuteScript.3c980762b2a4.title=Configure STAR-NX for all users
-ExecuteScript.3c980762b2a4.title=すべてのユーザに対してSTAR-NXを構成
+# ExecuteScript.3c980762b2a4.title=Configure STAR-NX 10 for all users
+ExecuteScript.3c980762b2a4.title=すべてのユーザに対してSTAR-NX 10を構成
 
 # ExecuteScript.3dac852cae9c.title=Uninstall Java JDK
 ExecuteScript.3dac852cae9c.title=Java JDKのアンインストール
+
+# ExecuteScript.3fc1bbc9835b.title=extract STAR-NX-1872
+ExecuteScript.3fc1bbc9835b.title=STAR-NX-1872を抽出
 
 # ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 ExecuteScript.41fcc8debe2f.title=Java JDKのアンインストール
@@ -924,9 +936,6 @@ ExecuteScript.420284278cb9.title=Flexlmのアンインストール
 
 # ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
 ExecuteScript.4834719b95fe.title=STAR-INVENTOR-ALLを抽出
-
-# ExecuteScript.4836284d9afd.title=extract STAR-CREO-2
-ExecuteScript.4836284d9afd.title=STAR-CREO-2を抽出
 
 # ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
 ExecuteScript.483683ac9bbb.title=STAR-CREO-4を抽出
@@ -942,9 +951,6 @@ ExecuteScript.4838b698a18e.title=STAR-NX-11を抽出
 
 # ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
 ExecuteScript.4838bdf3a1ec.title=STAR-NX-12を抽出
-
-# ExecuteScript.483b9742accf.title=extract STAR-CAT5-23
-ExecuteScript.483b9742accf.title=STAR-CAT5-23を抽出
 
 # ExecuteScript.483c0ac9ad91.title=extract STAR-CAT5-24
 ExecuteScript.483c0ac9ad91.title=STAR-CAT5-24を抽出
@@ -979,23 +985,23 @@ ExecuteScript.49b821469c8b.title=現在のライセンスサーバを停止し�
 # ExecuteScript.49b821469c8e.title=Start Server as standalone on Linux
 ExecuteScript.49b821469c8e.title=Linux上でスタンドアロンとしてサーバを開始
 
-# ExecuteScript.4b9dc9f1b241.title=Delete All Users 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b241.title=すべてのユーザの64 bit Desktop CCM+ショートカットを削除
+# ExecuteScript.4b9dc9f1b241.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b241.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dc9f1b242.title=Delete All Users 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b242.title=すべてのユーザの64 bit Desktop CCM+ショートカットを削除
+# ExecuteScript.4b9dc9f1b242.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b242.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dc9f1b244.title=Delete Local User 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b244.title=ローカルユーザ64 bit Desktop CCM+ Shortcutを削除
+# ExecuteScript.4b9dc9f1b244.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b244.title=ローカルユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dc9f2b248.title=Delete All Users 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b248.title=すべてのユーザの64 bit Desktop SVショートカットを削除
+# ExecuteScript.4b9dc9f2b248.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dc9f2b248.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ショートカットを削除
 
-# ExecuteScript.4b9dc9f2b249.title=Delete All Users 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b249.title=すべてのユーザの64 bit Desktop SVショートカットを削除
+# ExecuteScript.4b9dc9f2b249.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dc9f2b249.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ショートカットを削除
 
-# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b24b.title=ローカルユーザ64 bit Desktop SV Shortcutを削除
+# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_V Shortcut
+ExecuteScript.4b9dc9f2b24b.title=ローカルユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_Vショートカットを削除
 
 # ExecuteScript.4b9dc9f2b24d.title=Delete All Users Start Menu FLEXnet License Administration Guide
 ExecuteScript.4b9dc9f2b24d.title=すべてのユーザのStart Menu FLEXnet License Administration Guideを削除
@@ -1006,20 +1012,20 @@ ExecuteScript.4b9dc9f2b24e.title=すべてのユーザのStart Menu FLEXnet Lice
 # ExecuteScript.4b9dc9f2b24f.title=Delete Local User Start Menu FLEXnet License Administration Guide
 ExecuteScript.4b9dc9f2b24f.title=ローカルユーザスタートメニューFLEXnet License Administration Guideを削除
 
-# ExecuteScript.4b9dca01b259.title=Delete All Users Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b259.title=すべてのユーザのStart Menu 64 bit CCM+ショートカットを削除
+# ExecuteScript.4b9dca01b259.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b259.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dca01b25a.title=Delete All Users Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b25a.title=すべてのユーザのStart Menu 64 bit CCM+ショートカットを削除
+# ExecuteScript.4b9dca01b25a.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b25a.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dca01b25b.title=Delete Local User Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b25b.title=ローカルユーザスタートメニュー64 bit CCM+ Shortcutを削除
+# ExecuteScript.4b9dca01b25b.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b25b.title=ローカルユーザスタートメニュー64ビット_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ショートカットを削除
 
-# ExecuteScript.4b9dca01b25f.title=Delete All Users Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b25f.title=すべてのユーザのStart Menu 64 bit SVショートカットを削除
+# ExecuteScript.4b9dca01b25f.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b25f.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ショートカットを削除
 
-# ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b260.title=すべてのユーザのStart Menu 64 bit SVショートカットを削除
+# ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b260.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ショートカットを削除
 
 # ExecuteScript.4b9dca01b261.title=Delete All Users Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b261.title=すべてのユーザのStart Menu sample.sceショートカットを削除
@@ -1027,8 +1033,8 @@ ExecuteScript.4b9dca01b261.title=すべてのユーザのStart Menu sample.sce�
 # ExecuteScript.4b9dca01b262.title=Delete All Users Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b262.title=すべてのユーザのStart Menu sample.sceショートカットを削除
 
-# ExecuteScript.4b9dca01b264.title=Delete Local User Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b264.title=ローカルユーザスタートメニュー64 bit SV Shortcutを削除
+# ExecuteScript.4b9dca01b264.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b264.title=ローカルユーザスタートメニュー64ビット_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ショートカットを削除
 
 # ExecuteScript.4b9dca01b265.title=Delete Local User Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b265.title=ローカルユーザスタートメニューsample.sce Shortcutを削除
@@ -1042,12 +1048,6 @@ ExecuteScript.5aac78558549.title=整理されたFlexlm
 # ExecuteScript.5f5a0ee5a428.title=ADD/REMOVE Product Name
 ExecuteScript.5f5a0ee5a428.title=製品名を追加/削除
 
-# ExecuteScript.686c2602b0cb.title=get username
-ExecuteScript.686c2602b0cb.title=ユーザ名を取得
-
-# ExecuteScript.686da5e0b0cb.title=get groupname
-ExecuteScript.686da5e0b0cb.title=groupnameを取得
-
 # ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 ExecuteScript.6879117bb0d1.title=サービスをインストールするVerifypermissionsの実行
 
@@ -1060,14 +1060,14 @@ ExecuteScript.6c6dd8e28506.title=Flexlmのアンインストール
 # ExecuteScript.6d1b9101b4b5.title=Update win7+ fw
 ExecuteScript.6d1b9101b4b5.title=win7+ fwを更新
 
-# ExecuteScript.740378ec942f.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.740378ec942f.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
+# ExecuteScript.740378ec942f.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.740378ec942f.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
 
-# ExecuteScript.740378ec942f.title=extract Simcenter STAR-CCM+
-ExecuteScript.740378ec942f.title=Simcenter STAR-CCM+を抽出
+# ExecuteScript.740378ec942f.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
+ExecuteScript.740378ec942f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_を抽出
 
-# ExecuteScript.74308ded90ca.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.74308ded90ca.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$+$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
+# ExecuteScript.74308ded90ca.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.74308ded90ca.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
 
 # ExecuteScript.74308ded90ca.title=Move folder
 ExecuteScript.74308ded90ca.title=フォルダを移動
@@ -1075,23 +1075,20 @@ ExecuteScript.74308ded90ca.title=フォルダを移動
 # ExecuteScript.7c69be3d8d4f.title=Removing $USER_INSTALL_DIR$$/$vs2008sp1 directory.
 ExecuteScript.7c69be3d8d4f.title=$USER_INSTALL_DIR$$/$vs2008sp1ディレクトリを除去しています。
 
-# ExecuteScript.7c9569ecb719.title=Configure STAR-NX for all users
-ExecuteScript.7c9569ecb719.title=すべてのユーザに対してSTAR-NXを構成
+# ExecuteScript.7c9569ecb719.title=Configure STAR-NX 9 for all users
+ExecuteScript.7c9569ecb719.title=すべてのユーザに対してSTAR-NX 9を構成
 
-# ExecuteScript.7d08ee059041.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..Please wait a moment
-ExecuteScript.7d08ee059041.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $SVRoot$をインストールしています ..しばらくお待ちください
+# ExecuteScript.7d08ee059041.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_  $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
+ExecuteScript.7d08ee059041.dialogLabel=_SOFTWARE_FAMILY_NAME_  $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$をインストールしています...少しお待ちください
 
-# ExecuteScript.7d08ee059041.title=extract Simcenter STAR-View+
-ExecuteScript.7d08ee059041.title=Simcenter STAR-View+を抽出
+# ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
+ExecuteScript.7d08ee059041.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_を抽出
 
 # ExecuteScript.80940cd987b6.title=extract STAR-NX-1847
 ExecuteScript.80940cd987b6.title=STAR-NX-1847を抽出
 
-# ExecuteScript.80962a5587ba.title=Configure STAR-NX for all users
-ExecuteScript.80962a5587ba.title=すべてのユーザに対してSTAR-NXを構成
-
-# ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade job manager
-ExecuteScript.8134e3c18f85.title=Verifypermissionsを実行してジョブマネージャをアップグレード
+# ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
+ExecuteScript.8134e3c18f85.title=_RT_JOB_MANAGER_をアップグレードするにはパーミッションの検証を実行します
 
 # ExecuteScript.82f2d07fb6b7.title=Delete All Users Start Menu 64 bit Shortcut
 ExecuteScript.82f2d07fb6b7.title=すべてのユーザのStart Menu 64 bitショートカットを削除
@@ -1111,8 +1108,8 @@ ExecuteScript.854f8a30b6da.title=アップグレード
 # ExecuteScript.8572fc4196af.title=get hostname
 ExecuteScript.8572fc4196af.title=ホスト名を取得
 
-# ExecuteScript.869af93c87fd.title=extract STAR-CREO-6
-ExecuteScript.869af93c87fd.title=STAR-CREO-6を抽出
+# ExecuteScript.869af93c87fd.title=extract STAR-CREO-2
+ExecuteScript.869af93c87fd.title=STAR-CREO-2を抽出
 
 # ExecuteScript.8a733e5f912b.title=Uninstall Java JDK
 ExecuteScript.8a733e5f912b.title=Java JDKのアンインストール
@@ -1126,8 +1123,8 @@ ExecuteScript.946b6329bb04.title=デスクトップをリフレッシュ
 # ExecuteScript.946b87d1bb54.title=Refresh Desktop
 ExecuteScript.946b87d1bb54.title=デスクトップをリフレッシュ
 
-# ExecuteScript.9737cae9ae4d.title=Uninstall Job Manager
-ExecuteScript.9737cae9ae4d.title=ジョブマネージャのアンインストール
+# ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
+ExecuteScript.9737cae9ae4d.title=_RT_JOB_MANAGER_をアンインストール
 
 # ExecuteScript.9c4626dc93c4.title=internal authentication with email server
 ExecuteScript.9c4626dc93c4.title=電子メールサーバによる内部認証
@@ -1147,32 +1144,65 @@ ExecuteScript.9e4a02a28975.title=win7+ fwを更新
 # ExecuteScript.9e6a8fdf9720.title=Update win7+ fw
 ExecuteScript.9e6a8fdf9720.title=win7+ fwを更新
 
-# ExecuteScript.a80ae0d0818b.title=Delete All Users 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d0818b.title=すべてのユーザの64 bit Desktop SVRショートカットを削除
+# ExecuteScript.a15d24e08d50.title=parse .plmrc
+ExecuteScript.a15d24e08d50.title=.plmrcを解析
 
-# ExecuteScript.a80ae0d0818c.title=Delete Local User 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d0818c.title=ローカルユーザ64 bit Desktop SVR Shortcutを削除
+# ExecuteScript.a15d24e08d52.title=parse splm_license_server
+ExecuteScript.a15d24e08d52.title=splm_license_serverを解析
 
-# ExecuteScript.a80ae0d1818a.title=Delete All Users 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d1818a.title=すべてのユーザの64 bit Desktop SVRショートカットを削除
+# ExecuteScript.a16603559099.title=parse .plmrc
+ExecuteScript.a16603559099.title=.plmrcを解析
 
-# ExecuteScript.a80c38ba8192.title=Delete All Users Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8192.title=すべてのユーザのStart Menu 64 bit SVRショートカットを削除
+# ExecuteScript.a1660355909c.title=parse 
+ExecuteScript.a1660355909c.title=パース
 
-# ExecuteScript.a80c38ba8193.title=Delete All Users Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8193.title=すべてのユーザのStart Menu 64 bit SVRショートカットを削除
+# ExecuteScript.a198b89c8d72.title=create .plmrc
+ExecuteScript.a198b89c8d72.title=.plmrcを作成
 
-# ExecuteScript.a80c38ba8196.title=Delete Local User Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8196.title=ローカルユーザスタートメニュー64 bit SVR Shortcutを削除
+# ExecuteScript.a198b89d8d78.title=create .plmrc
+ExecuteScript.a198b89d8d78.title=.plmrcを作成
 
-# ExecuteScript.a9b1812d954f.title=Registering STAR-Inventor...
-ExecuteScript.a9b1812d954f.title=STAR-Inventorを登録しています...
+# ExecuteScript.a198b8a18d9a.title=create .plmrc
+ExecuteScript.a198b8a18d9a.title=.plmrcを作成
 
-# ExecuteScript.a9b1812d9552.title=Registering STARInventor Ocx...
-ExecuteScript.a9b1812d9552.title=STARInventor Ocxを登録しています...
+# ExecuteScript.a1acbd988da2.title=Configure Siemens PLM windows
+ExecuteScript.a1acbd988da2.title=Siemens PLM windowsを構成
 
-# ExecuteScript.aa090b60ab1f.title=Registering STAR-Inventor...
-ExecuteScript.aa090b60ab1f.title=STAR-Inventorを登録しています...
+# ExecuteScript.a1af21768da6.title=Configure Siemens PLM Linux
+ExecuteScript.a1af21768da6.title=Siemens PLM Linuxを構成
+
+# ExecuteScript.a25073798d79.title=configure Siemens-windows service
+ExecuteScript.a25073798d79.title=Siemens-windowsサービスを構成
+
+# ExecuteScript.a564a27789f8.title=configure Siemens-linux service
+ExecuteScript.a564a27789f8.title=Siemens-linuxサービスを構成
+
+# ExecuteScript.a80ae0d0818b.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d0818b.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a80ae0d0818c.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d0818c.title=ローカルユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a80ae0d1818a.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d1818a.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a80c38ba8192.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8192.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a80c38ba8193.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8193.title=すべてのユーザ64ビットデスクトップ_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a80c38ba8196.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8196.title=ローカルユーザスタートメニュー64ビット_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ショートカットを削除
+
+# ExecuteScript.a9b1812d954f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_...
+ExecuteScript.a9b1812d954f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_を登録しています...
+
+# ExecuteScript.a9b1812d9552.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocx...
+ExecuteScript.a9b1812d9552.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocxを登録しています...
+
+# ExecuteScript.aa090b60ab1f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ExecuteScript.aa090b60ab1f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_の登録
 
 # ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
 ExecuteScript.ac73774487e9.title=電子メールサーバを用いた内部認証によるLinuxサービス
@@ -1204,14 +1234,11 @@ ExecuteScript.b9b5b08a8686.title=lmログを削除
 # ExecuteScript.c5c2e0999553.title=delete config.xml
 ExecuteScript.c5c2e0999553.title=config.xmlを削除
 
-# ExecuteScript.cc881ed790de.title=Tidy empty Simcenter STAR-CCM+ doc folders
-ExecuteScript.cc881ed790de.title=空のSimcenter STAR-CCM + docフォルダーを整理する
+# ExecuteScript.cc881ed790de.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
+ExecuteScript.cc881ed790de.title=empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ docフォルダーを整理する
 
-# ExecuteScript.cd91bbdaa4cc.title=Configure STAR-NX for all users
-ExecuteScript.cd91bbdaa4cc.title=すべてのユーザに対してSTAR-NXを構成
-
-# ExecuteScript.cd954092ae6e.title=Unregistering STAR-NX..
-ExecuteScript.cd954092ae6e.title=STAR-NXを登録解除しています...
+# ExecuteScript.cd954092ae6e.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.cd954092ae6e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_の登録解除
 
 # ExecuteScript.cea5a8089ece.title=Update win7+ fw
 ExecuteScript.cea5a8089ece.title=win7+ fwを更新
@@ -1219,26 +1246,26 @@ ExecuteScript.cea5a8089ece.title=win7+ fwを更新
 # ExecuteScript.cea5a8089ecf.title=Install Intel MPI Hydra service
 ExecuteScript.cea5a8089ecf.title=Intel MPI Hydraサービスのインストール
 
-# ExecuteScript.cee16638adee.title=Configure STAR-NX for all users
-ExecuteScript.cee16638adee.title=すべてのユーザに対してSTAR-NXを構成
+# ExecuteScript.cee16638adee.title=Configure STAR-NX 11 for all users
+ExecuteScript.cee16638adee.title=すべてのユーザに対してSTAR-NX 11を構成
 
-# ExecuteScript.d669d3788804.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.d669d3788804.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
+# ExecuteScript.d669d3788804.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.d669d3788804.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
 
-# ExecuteScript.d669d3788804.title=extract Simcenter STAR-CCM+
-ExecuteScript.d669d3788804.title=Simcenter STAR-CCM+を抽出
+# ExecuteScript.d669d3788804.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
+ExecuteScript.d669d3788804.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_を抽出
 
-# ExecuteScript.d66f4b7e8807.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVR_Root$ ..Please wait a moment
-ExecuteScript.d66f4b7e8807.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $SVR_Root$をインストールしています ..しばらくお待ちください
+# ExecuteScript.d66f4b7e8807.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ ..Please wait a moment
+ExecuteScript.d66f4b7e8807.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VR$をインストールしています ..しばらくお待ちください
 
-# ExecuteScript.d66f4b7e8807.title=extract Simcenter STAR-CCM+ VR
-ExecuteScript.d66f4b7e8807.title=Simcenter STAR-CCM+ VRを抽出
+# ExecuteScript.d66f4b7e8807.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_
+ExecuteScript.d66f4b7e8807.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_を抽出
 
-# ExecuteScript.d674f57c8818.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..Please wait a moment
-ExecuteScript.d674f57c8818.dialogLabel=$ADDREMOVE_COMPANY_NAME$ $SVRoot$をインストールしています ..しばらくお待ちください
+# ExecuteScript.d674f57c8818.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
+ExecuteScript.d674f57c8818.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VIEWER$をインストールしています ..しばらくお待ちください
 
-# ExecuteScript.d674f57c8818.title=extract Simcenter STAR-View+
-ExecuteScript.d674f57c8818.title=Simcenter STAR-View+を抽出
+# ExecuteScript.d674f57c8818.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
+ExecuteScript.d674f57c8818.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_を抽出
 
 # ExecuteScript.d7fac3568281.title=Tidy integration desktop refresh
 ExecuteScript.d7fac3568281.title=統合デスクトップのリフレッシュ
@@ -1303,20 +1330,20 @@ ExecuteScript.f7ce86aba575.title=ネットワークインストールでの製�
 # ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 ExecuteScript.fd24625e9457.title=Intel MPI Hydraサービスのインストール
 
-# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.07762bd5ba98.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_, then click Next.
+GetUserInput.07762bd5ba98.prompt=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=追加タスクの選択
 
-# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integration now?
-GetUserInput.07fbb89ebccd.prompt=STAR-NX Integrationを今すぐアンインストールしますか?
+# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration now?
+GetUserInput.07fbb89ebccd.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integrationを今すぐアンインストールしますか?
 
-# GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
-GetUserInput.07fbb89ebccd.title=STAR-NX Integrationのアンインストール
+# GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
+GetUserInput.07fbb89ebccd.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integrationをアンインストール
 
-# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.09531f37b189.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.09531f37b189.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=追加タスクの選択
@@ -1333,8 +1360,8 @@ GetUserInput.154a0b5aaa67.prompt=ライセンスマネージャーサービス�
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=サービス構成 
 
-# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.21099aa9bdbd.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.21099aa9bdbd.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 GetUserInput.21099aa9bdbd.title=追加タスクの選択
@@ -1345,14 +1372,14 @@ GetUserInput.3642fdbebce8.prompt=FLEXNetライセンスサーバーのTCP/IPポ�
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNetクライアント構成 
 
-# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.3cd99868ae86.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.3cd99868ae86.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
 GetUserInput.3cd99868ae86.title=追加タスクの選択
 
-# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.411f00519f65.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
+GetUserInput.411f00519f65.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.411f00519f65.title=Select Additional Tasks
 GetUserInput.411f00519f65.title=追加タスクの選択
@@ -1363,14 +1390,14 @@ GetUserInput.4202184d8cb4.prompt=FLEXlmライセンスマネージャーを今�
 # GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
 GetUserInput.4202184d8cb4.title=FLEXライセンスマネージャーをアンインストール
 
-# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.4eb74413ba93.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.4eb74413ba93.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=追加タスクの選択
 
-# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.5f8d10b48f40.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.5f8d10b48f40.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=追加タスクの選択
@@ -1387,20 +1414,20 @@ GetUserInput.687423f6b0cd.prompt=次の場所で実行する必要があるユ�
 # GetUserInput.687423f6b0cd.title=Linux service
 GetUserInput.687423f6b0cd.title=Linuxサービス
 
-# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.8209d5e08fc6.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.8209d5e08fc6.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=追加タスクの選択
 
-# GetUserInput.856fd80c8c32.prompt=Users of Job Manager must have an account on the operating system. Job Manager is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=ジョブマネージャのユーザーには、オペレーティングシステムのアカウントが必要です。ジョブマネージャは、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか?
+# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
+GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_のユーザーには、オペレーティングシステムのアカウントが必要です。 _RT_JOB_MANAGER_は、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか?
 
-# GetUserInput.856fd80c8c32.title=Job Manager Configuration
-GetUserInput.856fd80c8c32.title=ジョブマネージャ構成
+# GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
+GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_構成
 
-# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the Job Manager will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the Job Manager. \n\n
-GetUserInput.8575cd2c96c8.prompt=ジョブマネージャの実行先の情報を入力してください。\n\nホスト名は、ジョブマネージャへの接続が想定されている任意のクライアントで解決される必要があります。\n\n
+# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_. \n\n
+GetUserInput.8575cd2c96c8.prompt=_RT_JOB_MANAGER_の実行先の情報を入力してください。\n\nホスト名は、_RT_JOB_MANAGER_への接続が想定されている任意のクライアントで解決される必要があります。\n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
 GetUserInput.8575cd2c96c8.title=サーバーの選択
@@ -1411,23 +1438,23 @@ GetUserInput.85775f8d96d5.prompt=ログインノードとリソースグルー�
 # GetUserInput.85775f8d96d5.title=Login Node Name
 GetUserInput.85775f8d96d5.title=ログインノードの名前
 
-# GetUserInput.8578411b96e0.prompt=To ensure data (including user's passwords) sent between Design Manager and Job Manager is encrypted, it is necessary to install a SSL Certificate with Job Manager. When the certificate is signed by a trusted Certificate Authority, clients can also verify the identity of the Job Manager server.\nIt is strongly recommended that Job Manager is installed with a SSL Certificate to maximize security.
-GetUserInput.8578411b96e0.prompt=デザインマネージャとジョブマネージャ間で送信されるデータ(ユーザのパスワードを含む)を確実に暗号化するために、SSL証明書とジョブマネージャをインストールする必要があります。 証明書が、信頼できる証明機関により署名されている場合、クライアントはジョブマネージャサーバのIDを検証することもできます。\nセキュリティを最大化するために、SSL証明書を用いてジョブマネージャをインストールすることが強く推奨されます。
+# GetUserInput.8578411b96e0.prompt=To ensure data (including user's passwords) sent between Design Manager and _RT_JOB_MANAGER_ is encrypted, it is necessary to install a SSL Certificate with _RT_JOB_MANAGER_. When the certificate is signed by a trusted Certificate Authority, clients can also verify the identity of the _RT_JOB_MANAGER_ server.\nIt is strongly recommended that _RT_JOB_MANAGER_ is installed with a SSL Certificate to maximize security.
+GetUserInput.8578411b96e0.prompt=デザインマネージャと_RT_JOB_MANAGER_間で送信されるデータ(ユーザのパスワードを含む)を確実に暗号化するために、SSL証明書と_RT_JOB_MANAGER_をインストールする必要があります。 証明書が、信頼できる証明機関により署名されている場合、クライアントは_RT_JOB_MANAGER_サーバのIDを検証することもできます。\nセキュリティを最大化するために、SSL証明書を用いて_RT_JOB_MANAGER_をインストールすることが強く推奨されます。
 
 # GetUserInput.8578411b96e0.title=SSL certificate selection
 GetUserInput.8578411b96e0.title=SSL証明書の選択
 
-# GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer Job Manager:
-GetUserInput.8fe4e9e8b4a1.prompt=ジョブマネージャを管理するアカウントのユーザー名を入力してください。
+# GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer _RT_JOB_MANAGER_:
+GetUserInput.8fe4e9e8b4a1.prompt=_RT_JOB_MANAGER_を管理するアカウントのユーザー名を入力してください。
 
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
 GetUserInput.8fe4e9e8b4a1.title=管理者ユーザー名
 
-# GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the Job manager? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
-GetUserInput.9737389d8c0f.prompt=ジョブマネージャをアンインストールしますか? これはすべての構成設定を含むデータベースファイルも削除することになり、一旦除去されると復元することはできません。
+# GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the _RT_JOB_MANAGER_? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
+GetUserInput.9737389d8c0f.prompt=_RT_JOB_MANAGER_をアンインストールしますか? これはすべての構成設定を含むデータベースファイルも削除することになり、一旦除去されると復元することはできません。
 
-# GetUserInput.9737389d8c0f.title=Uninstall Job Manager
-GetUserInput.9737389d8c0f.title=ジョブマネージャのアンインストール
+# GetUserInput.9737389d8c0f.title=Uninstall _RT_JOB_MANAGER_
+GetUserInput.9737389d8c0f.title=_RT_JOB_MANAGER_をアンインストール
 
 # GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
 GetUserInput.9c427d388ef4.prompt=通知とパスワードリセットメッセージの送信用に使用する送信電子メールを設定してください\n\n\n
@@ -1441,50 +1468,62 @@ GetUserInput.9c455b20b168.prompt=SMTP接続のポート番号を選択してく�
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTPポート番号
 
-# GetUserInput.a53ed862b666.prompt=$REGISTRY_COMPANY_NAME$ provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
-GetUserInput.a53ed862b666.prompt=$REGISTRY_COMPANY_NAME$は、弊社のPoDサーバーまたはローカルライセンスサーバー\n経由でのライセンシングを提供しています。\n \n使用したいライセンシング方法を選択してください。
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=_COMPANY_NAME_ライセンスサーバーのTCP/IPポートとホスト名を、「port@host」の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
+
+# GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
+GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ライセンスクライアント構成
+
+# GetUserInput.a166035790bd.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the _COMPANY_NAME_ License Server is 28000. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.a166035790bd.prompt=ライセンスサーバーソフトウェアにアクセスするには、通信チャネルまたはポートが、ご使用のコンピュータで使用できる必要があります。_COMPANY_NAME_ ライセンスサーバーのデフォルトポート番号は28000です。これらのデフォルトを以下に示しますが、必要であればコンピュータの設定に合わせて他のポート番号に変更できます。
+
+# GetUserInput.a166035790bd.title=_COMPANY_NAME_ License Server Configuration
+GetUserInput.a166035790bd.title=_COMPANY_NAME_ライセンスサーバ構成
+
+# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
+GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_は、弊社のPoDサーバーまたは\nローカルライセンスサーバーによるライセンシングを提供しています。\n \nご使用になるライセンス方法を選択してください。
 
 # GetUserInput.a53ed862b666.title=Choose License Type
 GetUserInput.a53ed862b666.title=ライセンスタイプの選択
 
-# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.c58f4202a8ce.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.c58f4202a8ce.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=追加タスクの選択
 
-# GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ provides PLM License Server $UGSVERSION$ via a local license server. 
-GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ は、ローカルライセンスサーバを介してPLMライセンスサーバ$UGSVERSION$を提供します。
+# GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_ provides PLM License Server $UGS_VERSION$ via a local license server.
+GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_は、ローカルライセンスサーバを介してPLMライセンスサーバ$UGS_VERSION$を提供します。
 
 # GetUserInput.d833413bb48e.title=Choose License Type
 GetUserInput.d833413bb48e.title=ライセンスタイプの選択
 
-# GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$ products use the PLM License Server $UGSVERSION$ from $REGISTRY_COMPANY_NAME$ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
-GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$製品は、PLMライセンスサーバ$UGSVERSION$を$REGISTRY_COMPANY_NAME$ソフトウェアから使用して、我々の製品のライセンスを管理します。 Licensing Toolkitは、ライセンスファイルへのアクセスを、ローカル(このコンピュータ上)でまたはネットワーク経由で可能にします。\n\n使用するライセンシング方法を選択してください。\n
+# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_製品は、PLMライセンスサーバ$UGS_VERSION$を_COMPANY_NAME_ソフトウェアから使用して、我々の製品のライセンスを管理します。 Licensing Toolkitは、ライセンスファイルへのアクセスを、ローカル(このコンピュータ上)でまたはネットワーク経由で可能にします。\n\n使用するライセンシング方法を選択してください。\n
 
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=ライセンスタイプの選択
 
-# GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
-GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。 ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitにより制御されます。 希望する場合は、弊社のPoD(パワーオンデマンド)サーバーを、ライセンスサーバーとして構成することが可能です。\n\n使用したいライセンシング方法を選択してください。
+# GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_製品のライセンス管理には、Flexera Software社のFLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$を採用しています。ローカル(このコンピュータ)またはネットワーク上にあるライセンスファイルへのアクセスは、Licensing Toolkitによって制御されます。必要であれば、弊社のPoD(パワーオンデマンド)サーバーをライセンスサーバーとして構成できます。\n\n使用するライセンシング方法を選択してください。
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=ライセンスタイプの選択
 
-# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.ebfc5e7890d2.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.ebfc5e7890d2.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.ebfc5e7890d2.title=Select Additional Tasks
 GetUserInput.ebfc5e7890d2.title=追加タスクの選択
 
-# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$のインストール時に実行する追加タスクを選択して、[次へ]をクリックしてください。
+# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.fbd51d65bcc1.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_をインストールしている間にセットアップを実行したい追加のタスクを選択し、それから「次へ」をクリックします。
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=追加タスクの選択
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the star/config/sitesettings.props file to ProductExcellenceProgram=0.
-GetUserInputConsole.757df82f97fe.prompt=製品機能向上プログラムはお客様がシーメンスPLMソフトウェアを使用する方法に関する情報を収集します。この情報は、お客様のニーズに合わせて弊社製品の機能や性能を向上させるのに役立ちます。個人情報や知的財産情報は収集または共有されません。製品の性能への影響はなく、プログラムへの参加は任意です。製品機能向上プログラムをオフにするには、ProductExcellenceProgram=0になるようにstar/config/sitesettings.propsファイルを編集してください。
+# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+GetUserInputConsole.757df82f97fe.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は自由意思です。
 
 # GetUserInputConsole.757df82f97fe.title=Product Excellence Program
 GetUserInputConsole.757df82f97fe.title=製品機能向上プログラム
@@ -1534,8 +1573,8 @@ GUIComponentData.09531f37b18f.label=デスクトップ上にアイコンを作�
 # GUIComponentData.09531f38b18d.defaultValue=Selected
 GUIComponentData.09531f38b18d.defaultValue=Selected
 
-# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.09531f38b18d.label=Simcenter STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.09531f38b18d.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$を実行できるようにWindowsのファイアウォールを更新
 
 # GUIComponentData.09531f47b18f.defaultValue=Not Selected
 GUIComponentData.09531f47b18f.defaultValue=Not Selected
@@ -1570,8 +1609,8 @@ GUIComponentData.229a23b6be60.label=現在のユーザーのみショートカ�
 # GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
-# GUIComponentData.2469fbd4a625.label=Create file associations for Simcenter STAR-CCM+ VR file
-GUIComponentData.2469fbd4a625.label=Simcenter STAR-CCM+ VRファイルのファイルの関連付けを作成します
+# GUIComponentData.2469fbd4a625.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
+GUIComponentData.2469fbd4a625.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ファイルに対するファイル関連性を作成
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
@@ -1618,8 +1657,8 @@ GUIComponentData.3cd99868ae8b.label=デスクトップ上にアイコンを作�
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
 GUIComponentData.3cd99869ae89.defaultValue=Selected
 
-# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.3cd99869ae89.label=Simcenter STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.3cd99869ae89.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$を実行できるようにWindowsのファイアウォールを更新
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
@@ -1636,8 +1675,8 @@ GUIComponentData.411f00519f69.label=デスクトップ上にアイコンを作�
 # GUIComponentData.411f00519f6a.defaultValue=Not Selected
 GUIComponentData.411f00519f6a.defaultValue=Not Selected
 
-# GUIComponentData.411f00519f6a.label=Create file associations for Simcenter STAR-CCM+ VR file
-GUIComponentData.411f00519f6a.label=Simcenter STAR-CCM+ VRファイルのファイルの関連付けを作成します
+# GUIComponentData.411f00519f6a.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
+GUIComponentData.411f00519f6a.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ファイルに対するファイル関連性を作成
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -1684,8 +1723,8 @@ GUIComponentData.5a15d3d7a615.label=ローカル: FlexNET Publisherをこのマ�
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
-# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.5f8bc9ab8e25.label=Simcenter STAR-CCM+を実行できるようにWindowsのファイアウォール設定を更新する
+# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.5f8bc9ab8e25.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$を実行できるようにWindowsのファイアウォールを更新
 
 # GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
@@ -1786,14 +1825,14 @@ GUIComponentData.857a41eba144.label=リソースグループの名前
 # GUIComponentData.8fe1749ab49d.defaultValue=Selected
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
-# GUIComponentData.8fe1749ab49d.label=Configure new Job Manager
-GUIComponentData.8fe1749ab49d.label=新しいジョブマネージャを構成
+# GUIComponentData.8fe1749ab49d.label=Configure new $RT_JOB_MANAGER$
+GUIComponentData.8fe1749ab49d.label=新しい$RT_JOB_MANAGER$を構成
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
-# GUIComponentData.8fe180d9b49d.label=Upgrade existing Job Manager
-GUIComponentData.8fe180d9b49d.label=既存のジョブマネージャをアップグレード
+# GUIComponentData.8fe180d9b49d.label=Upgrade existing $RT_JOB_MANAGER$
+GUIComponentData.8fe180d9b49d.label=既存の$RT_JOB_MANAGER$をアップグレード
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
@@ -1873,6 +1912,48 @@ GUIComponentData.9c455b20b16b.defaultValue=Not Selected
 # GUIComponentData.9c455b20b16b.label=TLS
 GUIComponentData.9c455b20b16b.label=TLS
 
+# GUIComponentData.a15d24e08d58.defaultValue=
+GUIComponentData.a15d24e08d58.defaultValue=
+
+# GUIComponentData.a15d24e08d58.label=
+GUIComponentData.a15d24e08d58.label=
+
+# GUIComponentData.a15d24e08d59.defaultValue=$DEF_SERVER1$
+GUIComponentData.a15d24e08d59.defaultValue=$DEF_SERVER1$
+
+# GUIComponentData.a15d24e08d59.label=License server 1 ( REQUIRED )
+GUIComponentData.a15d24e08d59.label=ライセンスサーバー1 (必須)
+
+# GUIComponentData.a15d24e08d5a.defaultValue=
+GUIComponentData.a15d24e08d5a.defaultValue=
+
+# GUIComponentData.a15d24e08d5a.label=License server 2
+GUIComponentData.a15d24e08d5a.label=ライセンスサーバー2
+
+# GUIComponentData.a15d24e08d5b.defaultValue=
+GUIComponentData.a15d24e08d5b.defaultValue=
+
+# GUIComponentData.a15d24e08d5b.label=License server 3
+GUIComponentData.a15d24e08d5b.label=ライセンスサーバー3
+
+# GUIComponentData.a15d24e08d5c.defaultValue=Not Selected
+GUIComponentData.a15d24e08d5c.defaultValue=Not Selected
+
+# GUIComponentData.a15d24e08d5c.label=Three Machine redundant license server
+GUIComponentData.a15d24e08d5c.label=3台のマシンによる冗長ライセンスサーバー
+
+# GUIComponentData.a166035790bf.defaultValue=
+GUIComponentData.a166035790bf.defaultValue=
+
+# GUIComponentData.a166035790bf.label=
+GUIComponentData.a166035790bf.label=
+
+# GUIComponentData.a166035790c0.defaultValue=$UGS_PORT_NUMBER$
+GUIComponentData.a166035790c0.defaultValue=$UGS_PORT_NUMBER$
+
+# GUIComponentData.a166035790c0.label=Enter the License port number:
+GUIComponentData.a166035790c0.label=ライセンスポート番号を入力:
+
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
 
@@ -1894,8 +1975,8 @@ GUIComponentData.d8387e0c8953.label=ネットワーク: ライセンスサー�
 # GUIComponentData.d8387e0d8953.defaultValue=Selected
 GUIComponentData.d8387e0d8953.defaultValue=Selected
 
-# GUIComponentData.d8387e0d8953.label=Local: Install and configure Siemens PLM License Server on this machine 
-GUIComponentData.d8387e0d8953.label=ローカル: Siemens PLMライセンスサーバをこのマシン上にインストールして構成します
+# GUIComponentData.d8387e0d8953.label=Local: Install and configure $COMPANY_NAME$ PLM License Server on this machine 
+GUIComponentData.d8387e0d8953.label=ローカル: $COMPANY_NAME$PLMライセンスサーバをこのマシン上にインストールして構成します
 
 # GUIComponentData.d8b757c7aba9.defaultValue=Selected
 GUIComponentData.d8b757c7aba9.defaultValue=Selected
@@ -2068,11 +2149,38 @@ GUIGroupData.9c455b21b169.caption=
 # GUIGroupData.9c455b21b16a.caption=
 GUIGroupData.9c455b21b16a.caption=
 
+# GUIGroupData.a15d24e18d57.caption=
+GUIGroupData.a15d24e18d57.caption=
+
+# GUIGroupData.a15d24e18d58.caption=
+GUIGroupData.a15d24e18d58.caption=
+
+# GUIGroupData.a15d24e18d59.caption=
+GUIGroupData.a15d24e18d59.caption=
+
+# GUIGroupData.a15d24e18d5a.caption=
+GUIGroupData.a15d24e18d5a.caption=
+
+# GUIGroupData.a15d24e18d5b.caption=
+GUIGroupData.a15d24e18d5b.caption=
+
+# GUIGroupData.a166035890be.caption=
+GUIGroupData.a166035890be.caption=
+
+# GUIGroupData.a166035890bf.caption=
+GUIGroupData.a166035890bf.caption=
+
 # GUIGroupData.a5412c2687af.caption=
 GUIGroupData.a5412c2687af.caption=
 
 # GUIGroupData.c58f4203a8d1.caption=
 GUIGroupData.c58f4203a8d1.caption=
+
+# GUIGroupData.d833413cb490.caption=
+GUIGroupData.d833413cb490.caption=
+
+# GUIGroupData.d8387e0d8952.caption=
+GUIGroupData.d8387e0d8952.caption=
 
 # GUIGroupData.e6e769618c38.caption=
 GUIGroupData.e6e769618c38.caption=
@@ -2095,23 +2203,23 @@ InstallBundle.42b88820ae92.description=クライアントのインストール�
 # InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.bundleName=Star-CCM+
 
-# InstallBundle.850018f38467.description=This feature installs all files needed for running the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ package.
-InstallBundle.850018f38467.description=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$パッケージの実行に必要なすべてのファイルをインストールします。
+# InstallBundle.850018f38467.description=This feature installs all files needed for running the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package.
+InstallBundle.850018f38467.description=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$パッケージの実行に必要なすべてのファイルをインストールします。
 
-# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=おめでとうございます:\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$のインストールは、正常に完了しました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了すると、$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R)ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.7317fed1a37e.message=おめでとうございます:\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=インストール完了
 
-# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=おめでとうございます:\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$のインストールは、正常に完了しました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了すると、$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R)ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd89f531898a.message=おめでとうございます:\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=インストール完了
 
-# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=おめでとうございます:\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。\n\n$USER_INSTALL_DIR$\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd8f22d0980e.message=おめでとうございます:\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\n さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=インストール完了
@@ -2122,8 +2230,8 @@ InstallCompleteActionConsole.bd93643ba2ed.message=おめでとうございます
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=インストール完了
 
-# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$のインストールは完了しましたが、インストール中に警告またはエラーが発生しました。\n\n詳細は、$USER_INSTALL_LOG_LOCATION$を参照してください。\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。\n\nCAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ソフトウェア$WINDOWS_TYPE$のインストールは終了しましたが、インストール中に警告またはエラーが発生しました。\n\n詳細は$USER_INSTALL_LOG_LOCATION$を確認してください。\n\nご質問やお問い合わせがございましたら、お客様の地区担当のサポートオフィスまでご連絡ください。\n\nCAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=インストール失敗
@@ -2164,8 +2272,8 @@ InstallDirAction.59b3a9e8ae1b.prompt=FLEXNetをインストールする場所を
 # InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
 InstallDirAction.59b3a9e8ae1b.stepTitle=インストールフォルダを選択
 
-# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install Siemens PLM License Server $UGSVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.d861fe0f9e7b.additionalText=セットアップは、Siemens PLM License Server $UGSVERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
+# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install _COMPANY_NAME_ PLM License Server $UGS_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.d861fe0f9e7b.additionalText=セットアップは、_COMPANY_NAME_ PLM License Server $UGS_VERSION$を次のフォルダにインストールします。\n\nこのまま作業を続けるには[次へ]をクリックします。別のフォルダを選択するには[選択]をクリックします。
 
 # InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
 InstallDirAction.d861fe0f9e7b.prompt=PLM ライセンスサーバをインストールする場所を選択してください。
@@ -2176,8 +2284,8 @@ InstallDirAction.d861fe0f9e7b.stepTitle=インストールフォルダを選択
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
-# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$?
-InstallDirActionConsole.b90620fd80f1.prompt=$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$をインストールする場所を選択してください。
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$?
+InstallDirActionConsole.b90620fd80f1.prompt=_SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$をインストールする場所をどこにしますか?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 InstallDirActionConsole.b90620fd80f1.stepTitle=インストールフォルダを選択
@@ -2269,14 +2377,14 @@ InstallerInfoData.850018f28450.email=
 # InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 
-# InstallerInfoData.850018f28450.installerTitle=Simcenter _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
-InstallerInfoData.850018f28450.installerTitle=Simcenter _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+# InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
 
 # InstallerInfoData.850018f28450.productDescription=
 InstallerInfoData.850018f28450.productDescription=
 
-# InstallerInfoData.850018f28450.productName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-InstallerInfoData.850018f28450.productName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
+# InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (ビルド$STARCCMPLUS_VERSION$)
 
 # InstallerInfoData.850018f28450.productURL=
 InstallerInfoData.850018f28450.productURL=
@@ -2284,8 +2392,8 @@ InstallerInfoData.850018f28450.productURL=
 # InstallerInfoData.850018f28450.supportURL=
 InstallerInfoData.850018f28450.supportURL=
 
-# InstallerInfoData.850018f28450.vendorName=Siemens
-InstallerInfoData.850018f28450.vendorName=Siemens
+# InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
+InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.850018f28450.vendorURL=
 InstallerInfoData.850018f28450.vendorURL=
@@ -2317,14 +2425,41 @@ InstallFinishAction.12ff4db9947b.rebootRequiredMessage=インストールを完�
 # InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
 InstallFinishAction.12ff4db9947b.windowTitle=インストール完了
 
+# InstallFinishAction.149435d5a001.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installErrorMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中にエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
+
+# InstallFinishAction.149435d5a001.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installFatalMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
+
+# InstallFinishAction.149435d5a001.installSuccessMessage=Congratulations:\n\nThe installation of PLM License Server $UGS_VERSION$ has been completed successfully.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.149435d5a001.installSuccessMessage=おめでとうございます:\n\nPLMライセンスサーバ$UGS_VERSION$は、正常にインストールされました。\n\n「完了」を押すと、インストーラーを終了します。
+
+# InstallFinishAction.149435d5a001.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installWarningMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に警告が発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
+
+# InstallFinishAction.149435d5a001.launchText=
+InstallFinishAction.149435d5a001.launchText=
+
+# InstallFinishAction.149435d5a001.rebootNotNeededMessage=
+InstallFinishAction.149435d5a001.rebootNotNeededMessage=
+
+# InstallFinishAction.149435d5a001.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.149435d5a001.rebootRecommendedMessage=インストールを完了するには、システムを再起動する必要があります。
+
+# InstallFinishAction.149435d5a001.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.149435d5a001.rebootRequiredMessage=インストールを完了するには、システムを再起動する必要があります。
+
+# InstallFinishAction.149435d5a001.windowTitle=Install Complete
+InstallFinishAction.149435d5a001.windowTitle=インストール完了
+
 # InstallFinishAction.850018e3843a.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installErrorMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中にエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
 
 # InstallFinishAction.850018e3843a.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installFatalMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
 
-# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$のインストールは、正常に完了しました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了すると、 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$®ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
+# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.850018e3843a.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました。 デフォルトのインストールが実行された場合は、デスクトップ上にショートカットが作成され、インストールツールを終了した後で、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ソフトウェアを開始することができます。 さらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に警告が発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
@@ -2350,8 +2485,8 @@ InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$のイン�
 # InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
 
-# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.9741505abaf9.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\n「ジョブマネージャをLinuxサービスとしてセットアップ」は構成されて、自動でリブート後に開始されます。\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
+# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.9741505abaf9.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\n「ジョブマネージャをLinuxサービスとしてセットアップ」は構成されて、自動でリブート後に開始されます。\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に警告が発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
@@ -2377,8 +2512,8 @@ InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$のイン�
 # InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に深刻なエラーが発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
 
-# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとしてシーメンスPLMソフトウェアをお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
+# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=おめでとうございます:\n\n$INSTALLER_TITLE$ソフトウェア$WINDOWS_TYPE$は、次の場所に正常にインストールされました:\n\n$USER_INSTALL_DIR$\n\nさらに支援が必要な場合は、弊社サポートオフィスまで連絡してください。 CAEプロバイダーとして_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.をお選びいただき、ありがとうございます。\n\n「完了」を押すと、インストーラーを終了します。
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中に警告が発生しました。 詳細は、インストールログを確認してください。$USER_INSTALL_LOG_LOCATION$
@@ -2461,8 +2596,8 @@ InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
 # InstallSet.4405b8b89114.installSetName=Custom
 InstallSet.4405b8b89114.installSetName=カスタム
 
-# InstallSet.850018f38466.description=Install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
-InstallSet.850018f38466.description=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$パッケージをインストールします。ほとんどのユーザーに適したオプションです。ローカルまたはリモートのFLEXNetライセンスサーバーに関するオプションも含まれています。
+# InstallSet.850018f38466.description=Install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+InstallSet.850018f38466.description=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$パッケージをインストールします。ほとんどのユーザーに適したオプションです。ローカルまたはリモートのFLEXNetライセンスサーバーに関するオプションも含まれています。
 
 # InstallSet.850018f38466.imageName=typical.png
 InstallSet.850018f38466.imageName=typical.png
@@ -2548,11 +2683,11 @@ IntroActionConsole.c7dc1e698d4b.message=次の製品をアンインストール�
 # IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
 IntroActionConsole.c7dc1e698d4b.title=FLEXNetをアンインストール
 
-# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=次の製品をアンインストールします...\n\n$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
+# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7e016579491.message=次の製品をアンインストールします...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nこの操作を行うと、InstallAnywhereによってインストールされたすべての機能が削除されます。インストール後に作成または変更されたファイルやフォルダは削除されます。アンインストールを中止するには[キャンセル]を選択してください。
 
-# IntroActionConsole.c7e016579491.title=Uninstall $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$
-IntroActionConsole.c7e016579491.title=アンインストール $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$
+# IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$
+IntroActionConsole.c7e016579491.title=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$をアンインストール
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
@@ -2703,6 +2838,15 @@ MakeRegEntry.6afdba6281f7.value=$USER_INSTALL_DIR$\\starfish.ico
 
 # MakeRegEntry.6afdba6281f7.valueName=DisplayIcon
 MakeRegEntry.6afdba6281f7.valueName=DisplayIcon
+
+# MakeRegEntry.a198b89b8d6c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.a198b89b8d6c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.a198b89b8d6c.value=$USER_MAGIC_FOLDER_16$\\starfish.ico
+MakeRegEntry.a198b89b8d6c.value=$USER_MAGIC_FOLDER_16$\\starfish.ico
+
+# MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
+MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
 
 # MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
 MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
@@ -2902,8 +3046,8 @@ PromptUserConsole.2d6f494abb0c.option2Label=キャンセル
 # PromptUserConsole.2d6f494abb0c.title=Warning
 PromptUserConsole.2d6f494abb0c.title=警告
 
-# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of Job Manager in console mode. Please use the standard GUI method of installation.
-PromptUserConsole.ab47a9fa8483.message=インストーラは、コンソールモードでのジョブマネージャのセットアップおよび構成をサポートしていません。 インストールの標準的なGUI方法を使用してください。
+# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of _RT_JOB_MANAGER_ in console mode. Please use the standard GUI method of installation.
+PromptUserConsole.ab47a9fa8483.message=インストーラは、コンソールモードでの_RT_JOB_MANAGER_のセットアップおよび構成をサポートしていません。 インストールの標準的なGUI方法を使用してください。
 
 # PromptUserConsole.ab47a9fa8483.option0Label=OK
 PromptUserConsole.ab47a9fa8483.option0Label=OK
@@ -2926,14 +3070,14 @@ ShowDialogAction.00ba7f0290e5.cancelButtonLabel=キャンセル
 # ShowDialogAction.00ba7f0290e5.detailsButtonLabel=Details...
 ShowDialogAction.00ba7f0290e5.detailsButtonLabel=詳細...
 
-# ShowDialogAction.00ba7f0290e5.label=Job Manager Installation Not Found
-ShowDialogAction.00ba7f0290e5.label=ジョブマネージャのインストールが見つかりません
+# ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ Installation Not Found
+ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_インストレーションが見つかりません
 
-# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where Job Manager is installed.
-ShowDialogAction.00ba7f0290e5.narrative=ジョブマネージャをインストールする場所を再選択してください。
+# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where _RT_JOB_MANAGER_ is installed.
+ShowDialogAction.00ba7f0290e5.narrative=_RT_JOB_MANAGER_がインストールされている場所を再選択してください。
 
-# ShowDialogAction.00ba7f0290e5.title=Job Manager Installation Not Found
-ShowDialogAction.00ba7f0290e5.title=ジョブマネージャのインストールが見つかりません
+# ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation Not Found
+ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_インストレーションが見つかりません
 
 # ShowDialogAction.00be631590fb.buttonLabel=OK
 ShowDialogAction.00be631590fb.buttonLabel=OK
@@ -3145,8 +3289,8 @@ ShowDialogAction.026fc1a8b518.detailsButtonLabel=詳細...
 # ShowDialogAction.026fc1a8b518.label=Error occurred while installing the service with operating system authentication.
 ShowDialogAction.026fc1a8b518.label=オペレーティングシステム認証を使用したサービスのインストール中にエラーが発生しました。
 
-# ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.026fc1a8b518.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.026fc1a8b518.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.026fc1a8b518.title=Error
 ShowDialogAction.026fc1a8b518.title=エラー
@@ -3178,11 +3322,11 @@ ShowDialogAction.0667c733a78a.cancelButtonLabel=キャンセル
 # ShowDialogAction.0667c733a78a.detailsButtonLabel=Details...
 ShowDialogAction.0667c733a78a.detailsButtonLabel=詳細...
 
-# ShowDialogAction.0667c733a78a.label=Error occurred while performing upgrade to Job Manager
-ShowDialogAction.0667c733a78a.label=ジョブマネージャへのアップグレードを実行している間にエラーが発生しました
+# ShowDialogAction.0667c733a78a.label=Error occurred while performing upgrade to _RT_JOB_MANAGER_
+ShowDialogAction.0667c733a78a.label=_RT_JOB_MANAGER_へのアップグレードを実行している間にエラーが発生しました
 
-# ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0667c733a78a.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0667c733a78a.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.0667c733a78a.title=Error
 ShowDialogAction.0667c733a78a.title=エラー
@@ -3199,8 +3343,8 @@ ShowDialogAction.066cf8f2a78c.detailsButtonLabel=詳細...
 # ShowDialogAction.066cf8f2a78c.label=Error occurred while using operating system authentication.
 ShowDialogAction.066cf8f2a78c.label=オペレーティングシステム認証を使用している間にエラーが発生しました。
 
-# ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.066cf8f2a78c.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.066cf8f2a78c.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.066cf8f2a78c.title=Error
 ShowDialogAction.066cf8f2a78c.title=エラー
@@ -3217,8 +3361,8 @@ ShowDialogAction.0670a5c0a794.detailsButtonLabel=詳細...
 # ShowDialogAction.0670a5c0a794.label=Error occurred while using operating system authentication with email specification.
 ShowDialogAction.0670a5c0a794.label=電子メール仕様を用いてオペレーティングシステム認証を使用しているときにエラーが発生しました。
 
-# ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0670a5c0a794.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0670a5c0a794.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.0670a5c0a794.title=Error
 ShowDialogAction.0670a5c0a794.title=エラー
@@ -3235,8 +3379,8 @@ ShowDialogAction.0672cc40affb.detailsButtonLabel=詳細...
 # ShowDialogAction.0672cc40affb.label=Error occurred while using internal authentication.
 ShowDialogAction.0672cc40affb.label=内部認証を使用している間にエラーが発生しました。
 
-# ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0672cc40affb.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0672cc40affb.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.0672cc40affb.title=Error
 ShowDialogAction.0672cc40affb.title=エラー
@@ -3253,8 +3397,8 @@ ShowDialogAction.0673d489afff.detailsButtonLabel=詳細...
 # ShowDialogAction.0673d489afff.label=Error occurred while using internal authentication with email specification.
 ShowDialogAction.0673d489afff.label=電子メール仕様を用いて内部認証を使用しているときにエラーが発生しました。
 
-# ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0673d489afff.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0673d489afff.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.0673d489afff.title=Error
 ShowDialogAction.0673d489afff.title=エラー
@@ -3304,11 +3448,11 @@ ShowDialogAction.160d0e4ab6a5.cancelButtonLabel=いいえ
 # ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=Details...
 ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=詳細...
 
-# ShowDialogAction.160d0e4ab6a5.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ Installation Found
-ShowDialogAction.160d0e4ab6a5.label=$ADDREMOVE_COMPANY_NAME$$REGISTRY_SVR_NAME$インストールが見つかりました
+# ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ Installation Found
+ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_インストレーションが見つかりました
 
-# ShowDialogAction.160d0e4ab6a5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=このマシンには、ソルバーコンポーネント($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$)が以前にインストールされているようです。\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_SVR_NAME$コンポーネントを再度インストールしますか?
+# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ component again?
+ShowDialogAction.160d0e4ab6a5.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=警告
@@ -3448,20 +3592,20 @@ ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=キャンセル
 # ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
 ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=詳細...
 
-# ShowDialogAction.59b3a9e8ae17.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ executable not found.
-ShowDialogAction.59b3a9e8ae17.label=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$実行ファイルが見つかりませんでした。
+# ShowDialogAction.59b3a9e8ae17.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.
+ShowDialogAction.59b3a9e8ae17.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_実行可能ファイルが見つかりました。
 
 # ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
 ShowDialogAction.59b3a9e8ae17.narrative=$INSTALLER_TITLE$がインストールされている場所を選択し直してください。
 
-# ShowDialogAction.59b3a9e8ae17.title=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Installation Not Found
-ShowDialogAction.59b3a9e8ae17.title=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$インストールが見つかりませんでした
+# ShowDialogAction.59b3a9e8ae17.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
+ShowDialogAction.59b3a9e8ae17.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションが見つかりませんでした
 
-# ShowDialogAction.5e846421b690.buttonLabel=Replace
-ShowDialogAction.5e846421b690.buttonLabel=置換
+# ShowDialogAction.5e846421b690.buttonLabel=Yes
+ShowDialogAction.5e846421b690.buttonLabel=はい
 
-# ShowDialogAction.5e846421b690.cancelButtonLabel=Keep
-ShowDialogAction.5e846421b690.cancelButtonLabel=維持
+# ShowDialogAction.5e846421b690.cancelButtonLabel=No
+ShowDialogAction.5e846421b690.cancelButtonLabel=いいえ
 
 # ShowDialogAction.5e846421b690.detailsButtonLabel=Details...
 ShowDialogAction.5e846421b690.detailsButtonLabel=詳細...
@@ -3469,8 +3613,8 @@ ShowDialogAction.5e846421b690.detailsButtonLabel=詳細...
 # ShowDialogAction.5e846421b690.label=PLM License Manager exists
 ShowDialogAction.5e846421b690.label=PLM ライセンスマネージャが存在します
 
-# ShowDialogAction.5e846421b690.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace it with the FLEXlm License server?
-ShowDialogAction.5e846421b690.narrative=Siemens PLMライセンスサーバがこのシステムに既にインストールされていることを検出しました。 それをFLEXlmライセンスサーバで置換しますか?
+# ShowDialogAction.5e846421b690.narrative=Setup has detected that _COMPANY_NAME_ PLM License server is already installed on this system. Do you want to install the FLEXlm License server?
+ShowDialogAction.5e846421b690.narrative=_COMPANY_NAME_ PLMライセンスサーバがこのシステムに既にインストールされていることを検出しました。 FLEXlmライセンスサーバをインストールしますか?
 
 # ShowDialogAction.5e846421b690.title=Information
 ShowDialogAction.5e846421b690.title=情報
@@ -3484,11 +3628,11 @@ ShowDialogAction.5f17661a83c5.cancelButtonLabel=いいえ
 # ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
 ShowDialogAction.5f17661a83c5.detailsButtonLabel=詳細...
 
-# ShowDialogAction.5f17661a83c5.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Installation Found
-ShowDialogAction.5f17661a83c5.label=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$インストールが見つかりました
+# ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Found
+ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションが見つかりました
 
-# ShowDialogAction.5f17661a83c5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ component again?
-ShowDialogAction.5f17661a83c5.narrative=このマシンには、ソルバーコンポーネント($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$)が以前にインストールされているようです。\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$コンポーネントを再度インストールしますか?
+# ShowDialogAction.5f17661a83c5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
+ShowDialogAction.5f17661a83c5.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=警告
@@ -3505,8 +3649,8 @@ ShowDialogAction.5f7c94b68adf.detailsButtonLabel=詳細...
 # ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
 ShowDialogAction.5f7c94b68adf.label=Microsoft Visual C++ランタイムライブラリをインストールするには、管理者権限が必要です
 
-# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$.\n\nThese libraries are not installed, please re-run the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installer with administrator privileges 
-ShowDialogAction.5f7c94b68adf.narrative=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$を実行するには、Microsoft Visual C++ランタイムライブラリが必要です。\n\nこれらのライブラリはまだインストールされていないため、管理者権限で$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$インストーラを再度実行してください。
+# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$.\n\nThese libraries are not installed, please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges 
+ShowDialogAction.5f7c94b68adf.narrative=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$を実行するには、Microsoft Visual C++ランタイムライブラリが必要です。\n\nこれらのライブラリはまだインストールされていないため、管理者権限で$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$インストーラを再度実行してください。
 
 # ShowDialogAction.5f7c94b68adf.title=Error
 ShowDialogAction.5f7c94b68adf.title=エラー
@@ -3595,8 +3739,8 @@ ShowDialogAction.6d9251ddb0c8.detailsButtonLabel=詳細...
 # ShowDialogAction.6d9251ddb0c8.label=SSL certificate selection is empty
 ShowDialogAction.6d9251ddb0c8.label=SSL証明書の選択が空です
 
-# ShowDialogAction.6d9251ddb0c8.narrative=You have elected to proceed without enabling SSL for Job Manager. Please confirm this selection.
-ShowDialogAction.6d9251ddb0c8.narrative=ジョブマネージャに対してSSLを使用可能にせずに先に進むことを選択しました。 この選択を確認してください。
+# ShowDialogAction.6d9251ddb0c8.narrative=You have elected to proceed without enabling SSL for _RT_JOB_MANAGER_. Please confirm this selection.
+ShowDialogAction.6d9251ddb0c8.narrative=_RT_JOB_MANAGER_に対してSSLを使用可能にせずに先に進むことを選択しました。 この選択を確認してください。
 
 # ShowDialogAction.6d9251ddb0c8.title=Warning
 ShowDialogAction.6d9251ddb0c8.title=警告
@@ -3628,11 +3772,11 @@ ShowDialogAction.7e4d4aee9257.cancelButtonLabel=いいえ
 # ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
 ShowDialogAction.7e4d4aee9257.detailsButtonLabel=詳細...
 
-# ShowDialogAction.7e4d4aee9257.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ Installation Found
-ShowDialogAction.7e4d4aee9257.label=$ADDREMOVE_COMPANY_NAME$$REGISTRY_SV_NAME$インストールが見つかりました
+# ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ Installation Found
+ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_インストレーションが見つかりました
 
-# ShowDialogAction.7e4d4aee9257.narrative=The solver component  ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ component again?
-ShowDialogAction.7e4d4aee9257.narrative=このマシンには、ソルバーコンポーネント($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $STARVIEW_VERSION$)が以前にインストールされているようです。\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_SV_NAME$コンポーネントを再度インストールしますか?
+# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ component again?
+ShowDialogAction.7e4d4aee9257.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
@@ -3649,8 +3793,8 @@ ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=詳細...
 # ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 ShowDialogAction.7e8620e4a2ee.label=コンポーネントが選択されていません
 
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=すべての$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$コンポーネントが選択解除されています。\n［OK］を押して［コンポーネントの選択］ダイアログに戻ってください。\n
+# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.7e8620e4a2ee.narrative=すべての_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを選択解除しました。 \nOKを押すとコンポーネント選択ダイアログに戻ります。\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
 ShowDialogAction.7e8620e4a2ee.title=警告
@@ -3667,8 +3811,8 @@ ShowDialogAction.812ff9fd8bc2.detailsButtonLabel=詳細...
 # ShowDialogAction.812ff9fd8bc2.label=Upgrade option 
 ShowDialogAction.812ff9fd8bc2.label=アップグレードオプション
 
-# ShowDialogAction.812ff9fd8bc2.narrative=Upgrade option will stop the existing Job Manager and upgrade to new server. This option would require you to be an admin.
-ShowDialogAction.812ff9fd8bc2.narrative=アップグレードオプションは、既存のジョブマネージャを停止して、新しいサーバへとアップグレードします。 このオプションは、ユーザが管理者である必要があります。
+# ShowDialogAction.812ff9fd8bc2.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server. This option would require you to be an admin.
+ShowDialogAction.812ff9fd8bc2.narrative=アップグレードオプションは、既存の_RT_JOB_MANAGER_を停止して、新しいサーバへとアップグレードします。 このオプションは、ユーザが管理者である必要があります。
 
 # ShowDialogAction.812ff9fd8bc2.title=Information
 ShowDialogAction.812ff9fd8bc2.title=情報
@@ -3685,8 +3829,8 @@ ShowDialogAction.81340c83adaa.detailsButtonLabel=詳細...
 # ShowDialogAction.81340c83adaa.label=Upgrade option
 ShowDialogAction.81340c83adaa.label=アップグレードオプション
 
-# ShowDialogAction.81340c83adaa.narrative=Upgrade option will stop the existing Job Manager and upgrade to new server.
-ShowDialogAction.81340c83adaa.narrative=アップグレードオプションは、既存のジョブマネージャを停止して、新しいサーバへとアップグレードします。
+# ShowDialogAction.81340c83adaa.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server.
+ShowDialogAction.81340c83adaa.narrative=アップグレードオプションは、既存の_RT_JOB_MANAGER_を停止して、新しいサーバへとアップグレードします。
 
 # ShowDialogAction.81340c83adaa.title=Information
 ShowDialogAction.81340c83adaa.title=情報
@@ -3739,8 +3883,8 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=詳細...
 # ShowDialogAction.85b5743ab480.label=No Component Selected
 ShowDialogAction.85b5743ab480.label=コンポーネントが選択されていません
 
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=すべての$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$コンポーネントが選択解除されています。\n［OK］を押して［コンポーネントの選択］ダイアログに戻ってください。\n
+# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.85b5743ab480.narrative=すべての_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを選択解除しました。 \nOKを押すとコンポーネント選択ダイアログに戻ります。\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=警告
@@ -3754,11 +3898,11 @@ ShowDialogAction.8d01b100a261.cancelButtonLabel=いいえ
 # ShowDialogAction.8d01b100a261.detailsButtonLabel=Details...
 ShowDialogAction.8d01b100a261.detailsButtonLabel=詳細...
 
-# ShowDialogAction.8d01b100a261.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation Installation Found
-ShowDialogAction.8d01b100a261.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ ドキュメントのインストールが見つかりました
+# ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation Installation Found
+ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ドキュメンテーションインストレーションが見つかりました
 
-# ShowDialogAction.8d01b100a261.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation component again?
-ShowDialogAction.8d01b100a261.narrative=このマシンには、ソルバーコンポーネント($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ オンラインヘルプ)が以前にインストールされているようです。\n\n$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$オンラインヘルプコンポーネントを再度インストールしますか?
+# ShowDialogAction.8d01b100a261.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
+ShowDialogAction.8d01b100a261.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーション)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーションコンポーネントを再度インストールしますか?
 
 # ShowDialogAction.8d01b100a261.title=Warning
 ShowDialogAction.8d01b100a261.title=警告
@@ -3781,6 +3925,114 @@ ShowDialogAction.935897e9965b.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_F
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=エラー
 
+# ShowDialogAction.a15d24e18d60.buttonLabel=OK
+ShowDialogAction.a15d24e18d60.buttonLabel=OK
+
+# ShowDialogAction.a15d24e18d60.cancelButtonLabel=Cancel
+ShowDialogAction.a15d24e18d60.cancelButtonLabel=キャンセル
+
+# ShowDialogAction.a15d24e18d60.detailsButtonLabel=Details...
+ShowDialogAction.a15d24e18d60.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a15d24e18d60.label=Invalid Port@Host Entered
+ShowDialogAction.a15d24e18d60.label=無効な「ポート@ホスト」値が入力されました
+
+# ShowDialogAction.a15d24e18d60.narrative=$ERR_OUT_STRING$
+ShowDialogAction.a15d24e18d60.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.a15d24e18d60.title=Invalid Input
+ShowDialogAction.a15d24e18d60.title=無効な入力
+
+# ShowDialogAction.a166035790b2.buttonLabel=OK
+ShowDialogAction.a166035790b2.buttonLabel=OK
+
+# ShowDialogAction.a166035790b2.cancelButtonLabel=Cancel
+ShowDialogAction.a166035790b2.cancelButtonLabel=キャンセル
+
+# ShowDialogAction.a166035790b2.detailsButtonLabel=Details...
+ShowDialogAction.a166035790b2.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a166035790b2.label=No Administrative Privileges
+ShowDialogAction.a166035790b2.label=管理者権限がありません
+
+# ShowDialogAction.a166035790b2.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.a166035790b2.narrative=ライセンスサーバーを構成するには管理者権限が必要です。このインストーラは管理者権限を使って実行してください。
+
+# ShowDialogAction.a166035790b2.title=Error
+ShowDialogAction.a166035790b2.title=エラー
+
+# ShowDialogAction.a166035790c3.buttonLabel=Next
+ShowDialogAction.a166035790c3.buttonLabel=次へ
+
+# ShowDialogAction.a166035790c3.cancelButtonLabel=Previous
+ShowDialogAction.a166035790c3.cancelButtonLabel=戻る
+
+# ShowDialogAction.a166035790c3.detailsButtonLabel=Details...
+ShowDialogAction.a166035790c3.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a166035790c3.label=Invalid license file.
+ShowDialogAction.a166035790c3.label=無効なライセンスファイルです。
+
+# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+ShowDialogAction.a166035790c3.narrative=ファイル$NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$は存在しません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
+
+# ShowDialogAction.a166035790c3.title=ERROR
+ShowDialogAction.a166035790c3.title=エラー
+
+# ShowDialogAction.a2273d0c9c30.buttonLabel=OK
+ShowDialogAction.a2273d0c9c30.buttonLabel=OK
+
+# ShowDialogAction.a2273d0c9c30.cancelButtonLabel=Cancel
+ShowDialogAction.a2273d0c9c30.cancelButtonLabel=キャンセル
+
+# ShowDialogAction.a2273d0c9c30.detailsButtonLabel=Details...
+ShowDialogAction.a2273d0c9c30.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a2273d0c9c30.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
+ShowDialogAction.a2273d0c9c30.label=$COMPANY_NAME$ PLMライセンスサービスを構成している間にエラーが発生しました。
+
+# ShowDialogAction.a2273d0c9c30.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a2273d0c9c30.narrative=$COMPANY_NAME$ PLMライセンスサービスの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+
+# ShowDialogAction.a2273d0c9c30.title=Error
+ShowDialogAction.a2273d0c9c30.title=エラー
+
+# ShowDialogAction.a22951689cfd.buttonLabel=OK
+ShowDialogAction.a22951689cfd.buttonLabel=OK
+
+# ShowDialogAction.a22951689cfd.cancelButtonLabel=Cancel
+ShowDialogAction.a22951689cfd.cancelButtonLabel=キャンセル
+
+# ShowDialogAction.a22951689cfd.detailsButtonLabel=Details...
+ShowDialogAction.a22951689cfd.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a22951689cfd.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
+ShowDialogAction.a22951689cfd.label=$COMPANY_NAME$ PLMライセンスサービスを構成している間にエラーが発生しました。
+
+# ShowDialogAction.a22951689cfd.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a22951689cfd.narrative=$COMPANY_NAME$ PLMライセンスサービスの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+
+# ShowDialogAction.a22951689cfd.title=Error
+ShowDialogAction.a22951689cfd.title=エラー
+
+# ShowDialogAction.a559a02a89f6.buttonLabel=OK
+ShowDialogAction.a559a02a89f6.buttonLabel=OK
+
+# ShowDialogAction.a559a02a89f6.cancelButtonLabel=Cancel
+ShowDialogAction.a559a02a89f6.cancelButtonLabel=キャンセル
+
+# ShowDialogAction.a559a02a89f6.detailsButtonLabel=Details...
+ShowDialogAction.a559a02a89f6.detailsButtonLabel=詳細...
+
+# ShowDialogAction.a559a02a89f6.label=No Administrative Privileges
+ShowDialogAction.a559a02a89f6.label=管理者権限がありません
+
+# ShowDialogAction.a559a02a89f6.narrative=You need to have admin privileges to configure a license server. Please run this installer with administrative privileges.
+ShowDialogAction.a559a02a89f6.narrative=ライセンスサーバーを構成するには管理者権限が必要です。 このインストーラは管理者権限で実行してください。
+
+# ShowDialogAction.a559a02a89f6.title=Warning
+ShowDialogAction.a559a02a89f6.title=警告
+
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=OK
 
@@ -3796,8 +4048,8 @@ ShowDialogAction.a9b1812d954e.label=ファイルが見つかりません。
 # ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
 ShowDialogAction.a9b1812d954e.narrative=star-inventor.dllが見つかりません。\n\nこのファイルを見つけて、手動で登録してください。
 
-# ShowDialogAction.a9b1812d954e.title=STAR-Inventor
-ShowDialogAction.a9b1812d954e.title=STAR-Inventor
+# ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ShowDialogAction.a9b1812e9550.buttonLabel=OK
 ShowDialogAction.a9b1812e9550.buttonLabel=OK
@@ -3814,8 +4066,8 @@ ShowDialogAction.a9b1812e9550.label=ファイルが見つかりません。\n
 # ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx not found.\n\nPlease find this file and register it manually.
 ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocxが見つかりません。\n\nこのファイルを見つけて、手動で登録してください。
 
-# ShowDialogAction.a9b1812e9550.title=STAR-Inventor
-ShowDialogAction.a9b1812e9550.title=STAR-Inventor
+# ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ShowDialogAction.ac738a0e87eb.buttonLabel=OK
 ShowDialogAction.ac738a0e87eb.buttonLabel=OK
@@ -3829,8 +4081,8 @@ ShowDialogAction.ac738a0e87eb.detailsButtonLabel=詳細...
 # ShowDialogAction.ac738a0e87eb.label=Error occurred while installing the service with internal authentication along with email specification.
 ShowDialogAction.ac738a0e87eb.label=電子メール仕様と共に内部認証を使用してサービスをインストールしているときにエラーが発生しました。
 
-# ShowDialogAction.ac738a0e87eb.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ac738a0e87eb.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.ac738a0e87eb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ac738a0e87eb.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.ac738a0e87eb.title=Error
 ShowDialogAction.ac738a0e87eb.title=エラー
@@ -3847,8 +4099,8 @@ ShowDialogAction.ae41167387fe.detailsButtonLabel=詳細...
 # ShowDialogAction.ae41167387fe.label=Error occurred while installing the service with internal authentication.
 ShowDialogAction.ae41167387fe.label=内部認証を用いたサービスのインストール中にエラーが発生しました。
 
-# ShowDialogAction.ae41167387fe.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ae41167387fe.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.ae41167387fe.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ae41167387fe.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.ae41167387fe.title=Error
 ShowDialogAction.ae41167387fe.title=エラー
@@ -3865,8 +4117,8 @@ ShowDialogAction.b133105b93cd.detailsButtonLabel=詳細...
 # ShowDialogAction.b133105b93cd.label=Error occurred while installing the service with operating system authentication along with email specification.
 ShowDialogAction.b133105b93cd.label=電子メール仕様と共にオペレーティングシステム認証を用いたサービスのインストール中にエラーが発生しました。
 
-# ShowDialogAction.b133105b93cd.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.b133105b93cd.narrative=ジョブマネージャの構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
+# ShowDialogAction.b133105b93cd.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.b133105b93cd.narrative=_RT_JOB_MANAGER_の構成中に、問題に遭遇しました。 詳細は、$USER_INSTALL_DIR$におけるログファイルをチェックしてください。
 
 # ShowDialogAction.b133105b93cd.title=Error
 ShowDialogAction.b133105b93cd.title=エラー
@@ -3880,8 +4132,8 @@ ShowDialogAction.b1714b5b9abd.cancelButtonLabel=キャンセル
 # ShowDialogAction.b1714b5b9abd.detailsButtonLabel=Details...
 ShowDialogAction.b1714b5b9abd.detailsButtonLabel=詳細...
 
-# ShowDialogAction.b1714b5b9abd.label=Service User Name cannot be empty.
-ShowDialogAction.b1714b5b9abd.label=サービスユーザ名を空にすることはできません。
+# ShowDialogAction.b1714b5b9abd.label=Service User Name cannot be empty and it cannot be \"root\".
+ShowDialogAction.b1714b5b9abd.label=サービスユーザ名を空にすることや\"root\"にすることはできません。
 
 # ShowDialogAction.b1714b5b9abd.narrative=Please enter valid Service User Name to proceed.
 ShowDialogAction.b1714b5b9abd.narrative=続行するには、有効なサービスユーザ名を入力してください。
@@ -3937,11 +4189,11 @@ ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=詳細...
 # ShowDialogAction.c21a9a0faaeb.label=Warning
 ShowDialogAction.c21a9a0faaeb.label=警告
 
-# ShowDialogAction.c21a9a0faaeb.narrative=To configure STAR-NX, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous STAR-NX version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
-ShowDialogAction.c21a9a0faaeb.narrative=STAR-NXを構成するために、UGII_CUSTOM_DIRECTORY_FILE環境変数を更新します。\n\nこの環境変数は現在次のように設定されています。\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n旧バージョンのSTAR-NXを呼び出すには、UGII_CUSTOM_DIRECTORY_FILE環境変数をこの値に戻してください。
+# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+ShowDialogAction.c21a9a0faaeb.narrative=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_を構成するために、UGII_CUSTOM_DIRECTORY_FILE環境変数が更新されます。 \n\n現在、環境変数は次の場所に設定されています :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n以前の_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_バージョンを、UGII_CUSTOM_DIRECTORY_FILE環境変数を変更して上記の値に戻すことにより、再取得することができます。
 
-# ShowDialogAction.c21a9a0faaeb.title=STAR-NX configuration
-ShowDialogAction.c21a9a0faaeb.title=STAR-NXの構成
+# ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ configuration
+ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_構成
 
 # ShowDialogAction.cefd463a8fab.buttonLabel=OK
 ShowDialogAction.cefd463a8fab.buttonLabel=OK
@@ -3997,11 +4249,11 @@ ShowDialogAction.d006d826a7d6.narrative=Linuxサービスをアンインスト�
 # ShowDialogAction.d006d826a7d6.title=Information
 ShowDialogAction.d006d826a7d6.title=情報
 
-# ShowDialogAction.d834db1390ec.buttonLabel=Next
-ShowDialogAction.d834db1390ec.buttonLabel=次へ
+# ShowDialogAction.d834db1390ec.buttonLabel=Yes
+ShowDialogAction.d834db1390ec.buttonLabel=はい
 
-# ShowDialogAction.d834db1390ec.cancelButtonLabel=Previous
-ShowDialogAction.d834db1390ec.cancelButtonLabel=戻る
+# ShowDialogAction.d834db1390ec.cancelButtonLabel=No
+ShowDialogAction.d834db1390ec.cancelButtonLabel=いいえ
 
 # ShowDialogAction.d834db1390ec.detailsButtonLabel=Details...
 ShowDialogAction.d834db1390ec.detailsButtonLabel=詳細...
@@ -4009,65 +4261,11 @@ ShowDialogAction.d834db1390ec.detailsButtonLabel=詳細...
 # ShowDialogAction.d834db1390ec.label=PLM License Manager exists
 ShowDialogAction.d834db1390ec.label=PLM ライセンスマネージャが存在します
 
-# ShowDialogAction.d834db1390ec.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace the license file?
-ShowDialogAction.d834db1390ec.narrative=Siemens PLMライセンスサーバがこのシステムに既にインストールされていることを検出しました。 ライセンスファイルを置換しますか?
+# ShowDialogAction.d834db1390ec.narrative=Setup has detected that _COMPANY_NAME_ PLM License server is already installed on this system. Do you want to replace the license file?
+ShowDialogAction.d834db1390ec.narrative=_COMPANY_NAME_ PLMライセンスサーバがこのシステムに既にインストールされていることを検出しました。 ライセンスファイルを置換しますか?
 
-# ShowDialogAction.d834db1390ec.title=ERROR
-ShowDialogAction.d834db1390ec.title=エラー
-
-# ShowDialogAction.d85abda0a5b3.buttonLabel=Next
-ShowDialogAction.d85abda0a5b3.buttonLabel=次へ
-
-# ShowDialogAction.d85abda0a5b3.cancelButtonLabel=Previous
-ShowDialogAction.d85abda0a5b3.cancelButtonLabel=戻る
-
-# ShowDialogAction.d85abda0a5b3.detailsButtonLabel=Details...
-ShowDialogAction.d85abda0a5b3.detailsButtonLabel=詳細...
-
-# ShowDialogAction.d85abda0a5b3.label=Invalid license file.
-ShowDialogAction.d85abda0a5b3.label=無効なライセンスファイルです。
-
-# ShowDialogAction.d85abda0a5b3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.d85abda0a5b3.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
-
-# ShowDialogAction.d85abda0a5b3.title=ERROR
-ShowDialogAction.d85abda0a5b3.title=エラー
-
-# ShowDialogAction.d85abda1a5af.buttonLabel=Previous
-ShowDialogAction.d85abda1a5af.buttonLabel=戻る
-
-# ShowDialogAction.d85abda1a5af.cancelButtonLabel=Previous
-ShowDialogAction.d85abda1a5af.cancelButtonLabel=戻る
-
-# ShowDialogAction.d85abda1a5af.detailsButtonLabel=Details...
-ShowDialogAction.d85abda1a5af.detailsButtonLabel=詳細...
-
-# ShowDialogAction.d85abda1a5af.label=Invalid license file.
-ShowDialogAction.d85abda1a5af.label=無効なライセンスファイルです。
-
-# ShowDialogAction.d85abda1a5af.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Previous to reselect your license file.
-ShowDialogAction.d85abda1a5af.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は存在しません。\n\n［戻る］を選択して、ライセンスファイルを選択し直してください。
-
-# ShowDialogAction.d85abda1a5af.title=ERROR
-ShowDialogAction.d85abda1a5af.title=エラー
-
-# ShowDialogAction.d85abda1a5b4.buttonLabel=Next
-ShowDialogAction.d85abda1a5b4.buttonLabel=次へ
-
-# ShowDialogAction.d85abda1a5b4.cancelButtonLabel=Previous
-ShowDialogAction.d85abda1a5b4.cancelButtonLabel=戻る
-
-# ShowDialogAction.d85abda1a5b4.detailsButtonLabel=Details...
-ShowDialogAction.d85abda1a5b4.detailsButtonLabel=詳細...
-
-# ShowDialogAction.d85abda1a5b4.label=Invalid license file.
-ShowDialogAction.d85abda1a5b4.label=無効なライセンスファイルです。
-
-# ShowDialogAction.d85abda1a5b4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.d85abda1a5b4.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
-
-# ShowDialogAction.d85abda1a5b4.title=ERROR
-ShowDialogAction.d85abda1a5b4.title=エラー
+# ShowDialogAction.d834db1390ec.title=Information
+ShowDialogAction.d834db1390ec.title=情報
 
 # ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
 ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
@@ -4096,11 +4294,11 @@ ShowDialogAction.e261f38cb277.cancelButtonLabel=キャンセル
 # ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
 ShowDialogAction.e261f38cb277.detailsButtonLabel=詳細...
 
-# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$
-ShowDialogAction.e261f38cb277.label=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$をインストールするには管理者権限が必要です
+# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$
+ShowDialogAction.e261f38cb277.label=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$をインストールするには管理者権限が必要です
 
-# ShowDialogAction.e261f38cb277.narrative=Please re-run the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installer with administrator privileges, or specify the NOADMIN=true option.
-ShowDialogAction.e261f38cb277.narrative=$ADDREMOVE_COMPANY_NAME$$REGISTRY_CCMP_NAME$インストーラを管理者権限で再度実行するか、NOADMIN=trueオプションを指定してください。
+# ShowDialogAction.e261f38cb277.narrative=Please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges, or specify the NOADMIN=true option.
+ShowDialogAction.e261f38cb277.narrative=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$インストーラを管理者権限で再度実行するか、NOADMIN=trueオプションを指定してください。
 
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=エラー
@@ -4153,8 +4351,8 @@ ShowDialogAction.f71886e6923d.detailsButtonLabel=詳細...
 # ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
 ShowDialogAction.f71886e6923d.label=Windows修正プログラム(Hotfix)がインストールされていません
 
-# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, STAR-CAT5 integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
-ShowDialogAction.f71886e6923d.narrative=Windows上でWindowsによるCatia統合を可能にするには、Microsoftの修正プログラムが必要です。インストーラによるSTAR-CAT5の統合は行われません。\n \nインストーラによる統合が必要な場合は、インストーラを再度実行する前に次のリンクの指示に従ってください。\n \nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
+# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+ShowDialogAction.f71886e6923d.narrative=Windows上でWindowsによるCatia統合を可能にするには、Microsoftの修正プログラムが必要です。インストーラによる_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_統合は行われません。\n \nインストーラによる統合が必要な場合は、インストーラを再度実行する前に次のリンクの指示に従ってください。\n \nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
 ShowDialogAction.f71886e6923d.title=無効なアクション
@@ -4177,11 +4375,11 @@ ShowDialogAction.fc266f0ba2cc.narrative=管理者以外のアカウントでア�
 # ShowDialogAction.fc266f0ba2cc.title=Error
 ShowDialogAction.fc266f0ba2cc.title=エラー
 
-# ShowDialogAction.fe8397b0ac84.buttonLabel=Upgrade
-ShowDialogAction.fe8397b0ac84.buttonLabel=アップグレード
+# ShowDialogAction.fe8397b0ac84.buttonLabel=Yes
+ShowDialogAction.fe8397b0ac84.buttonLabel=はい
 
-# ShowDialogAction.fe8397b0ac84.cancelButtonLabel=Keep
-ShowDialogAction.fe8397b0ac84.cancelButtonLabel=維持
+# ShowDialogAction.fe8397b0ac84.cancelButtonLabel=No
+ShowDialogAction.fe8397b0ac84.cancelButtonLabel=いいえ
 
 # ShowDialogAction.fe8397b0ac84.detailsButtonLabel=Details...
 ShowDialogAction.fe8397b0ac84.detailsButtonLabel=詳細...
@@ -4189,8 +4387,8 @@ ShowDialogAction.fe8397b0ac84.detailsButtonLabel=詳細...
 # ShowDialogAction.fe8397b0ac84.label=FLEXlm License server already exists
 ShowDialogAction.fe8397b0ac84.label=FLEXlmライセンスサーバが既に存在します
 
-# ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to upgrade to Siemens PLM License server?
-ShowDialogAction.fe8397b0ac84.narrative=FLEXlmライセンスサーバがこのシステムに既にインストールされていることを検出しました。 Siemens PLM ライセンスサーバにアップグレードしますか?
+# ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to install _COMPANY_NAME_ PLM License server?
+ShowDialogAction.fe8397b0ac84.narrative=FLEXlmライセンスサーバがこのシステムに既にインストールされていることを検出しました。 _COMPANY_NAME_ PLMライセンスサーバをインストールしますか?
 
 # ShowDialogAction.fe8397b0ac84.title=Information
 ShowDialogAction.fe8397b0ac84.title=情報
@@ -4285,8 +4483,8 @@ UninstallCompleteActionConsole.c7e377749840.incompleteMessage=いくつかの項
 # UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
 UninstallCompleteActionConsole.c7e377749840.message=すべての項目が正常にアンインストールされました。
 
-# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$.
-UninstallCompleteActionConsole.c7e377749840.skippedMessage=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$をアンインストールできません。
+# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_.
+UninstallCompleteActionConsole.c7e377749840.skippedMessage=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_をアンインストールすることはできません。
 
 # UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
 UninstallCompleteActionConsole.c7e377749840.title=アンインストール完了
@@ -4302,6 +4500,24 @@ UninstallIntroAction.850018f38454.message=次の製品をアンインストー�
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.850018f38454.stepTitle=アンインストール $INSTALLER_TITLE$
+
+# VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
+VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションディレクトリ:
+
+# VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
+VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションディレクトリ:
+
+# VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
+VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=製品名:
+
+# VariablePropertyDataBiDi.0a4455ee8d9c.propertyValue=_COMPANY_NAME_ PLM License Server $UGS_VERSION$
+VariablePropertyDataBiDi.0a4455ee8d9c.propertyValue=_COMPANY_NAME_ PLMライセンスサーバ$UGS_VERSION$
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
 VariablePropertyDataBiDi.127a86b89bbb.propertyName=製品名:
@@ -4327,17 +4543,11 @@ VariablePropertyDataBiDi.2661463ca41b.propertyName=インストールディレ�
 # VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 
-# VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+のインストールディレクトリ:
+# VariablePropertyDataBiDi.a17b3c339c0e.propertyName=License file:
+VariablePropertyDataBiDi.a17b3c339c0e.propertyName=ライセンスファイル:
 
-# VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
-
-# VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+のインストールディレクトリ:
-
-# VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
+# VariablePropertyDataBiDi.a17b3c339c0e.propertyValue=$NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$
+VariablePropertyDataBiDi.a17b3c339c0e.propertyValue=$NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$
 
 # VariablePropertyDataBiDi.d8669dc1baed.propertyName=Installation directory:
 VariablePropertyDataBiDi.d8669dc1baed.propertyName=インストールディレクトリ:
@@ -4345,27 +4555,11 @@ VariablePropertyDataBiDi.d8669dc1baed.propertyName=インストールディレ�
 # VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 
-# VariablePropertyDataBiDi.d8669dc2baec.propertyName=Product name:
-VariablePropertyDataBiDi.d8669dc2baec.propertyName=製品名:
-
-# VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM License Server $UGSVERSION$
-VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM ライセンスサーバ$UGSVERSION$
-
-# VariablePropertyDataBiDi.d8669dc2baed.propertyName=License file:
-VariablePropertyDataBiDi.d8669dc2baed.propertyName=ライセンスファイル:
-
-# VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
-VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
-
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=インストールディレクトリ:
 
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-
-# VariablePropertyDataBiDi.f7bbeadc93b1.propertyValue=$REGISTRY_COMPANY_NAME$ PLM License Server $UGSVERSION$
-VariablePropertyDataBiDi.f7bbeadc93b1.propertyValue=$REGISTRY_COMPANY_NAME$ PLMライセンスサーバ$UGSVERSION$
-
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=ライセンスサーバー1port@host: \n
