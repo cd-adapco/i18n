@@ -17,13 +17,16 @@
 #     that cannot be represented by ASCII characters should be written using escaped unicode.
 #     - see the utility 'native2ascii' distributed with your JDK
 #
-# Product Name: $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-# Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package.iap_xml
+# Product Name: $SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package_7z.iap_xml
 # Generated:    Wed Jul 11 13:45:45 EDT 2018
 
 
-# ASCIIFileManipulator.47fe6ec5af90.additionalText=
-ASCIIFileManipulator.47fe6ec5af90.additionalText=
+# ASCIIFileManipulator.2c25731d8d77.additionalText=
+ASCIIFileManipulator.2c25731d8d77.additionalText=
+
+# ASCIIFileManipulator.2c3067398d84.additionalText=
+ASCIIFileManipulator.2c3067398d84.additionalText=
 
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
@@ -46,8 +49,8 @@ Billboard.850018f38468.imageName=billboard_default.png
 # Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
-# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation.
-ChooseFile.257d8095925b.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 $REGISTRY_COMPANY_NAME$ PLM Software 获得并已下载至电脑。确定许可证文件位置后，高亮显示此文件并单击查询框的“打开”。如果尚未收到许可证文件或是“按需授权”用户，则依然可以通过单击“下一步”继续此安装流程，但是需要再次运行此安装工具，才能结束完整的 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装。
+# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
+ChooseFile.257d8095925b.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 _COMPANY_NAME_ _BUSINESS_UNIT_ 获得，并已下载至电脑。确定许可证文件位置后，高亮显示此文件并单击查询框的“打开”。如果尚未收到许可证文件或是“按需授权”用户，则依然可以通过单击“下一步”继续此安装流程，但是需要再次运行此安装工具，才能结束完整的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装。
 
 # ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
@@ -58,8 +61,8 @@ ChooseFile.257d8095925b.prompt=请选择许可证文件位置：
 # ChooseFile.257d8095925b.stepTitle=Select license file
 ChooseFile.257d8095925b.stepTitle=选择许可证文件
 
-# ChooseFile.8571f4d08c44.additionalText=The database file is used by the Job Manager's administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=作业管理器的管理员根据需要使用数据库文件来存储系统模板和用户认证数据等数据。\n\n请输入您希望创建的数据库文件的名称：\n\n
+# ChooseFile.8571f4d08c44.additionalText=The database file is used by the _RT_JOB_MANAGER_'s administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
+ChooseFile.8571f4d08c44.additionalText=_RT_JOB_MANAGER_ 的管理员根据需要使用数据库文件来存储系统模板和用户认证数据等数据。\n\n请输入您希望创建的数据库文件的名称：\n\n
 
 # ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
 ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
@@ -70,17 +73,17 @@ ChooseFile.8571f4d08c44.prompt=请输入数据库文件的名称
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
 ChooseFile.8571f4d08c44.stepTitle=创建数据库文件
 
-# ChooseFile.d85abda1a5ad.additionalText=Please browse to the location of the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
-ChooseFile.d85abda1a5ad.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 $REGISTRY_COMPANY_NAME$ PLM Software 获得并已下载至电脑。确定许可证文件位置后，突出显示此文件并单击查询框的“打开”。如果尚未收到许可证文件，则可能无法继续此安装。
+# ChooseFile.a174655a93b6.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.a174655a93b6.additionalText=请浏览至许可证文件的位置，此许可证应该已经通过电子邮件从 _COMPANY_NAME_ _BUSINESS_UNIT_ 获得并已下载至电脑。确定许可证文件位置后，突出显示此文件并单击查询框的“打开”。如果尚未收到许可证文件，则可能无法继续此安装。
 
-# ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
-ChooseFile.d85abda1a5ad.defaultFile=$DEFAULT_UGS_LIC_FILE$
+# ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
+ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
 
-# ChooseFile.d85abda1a5ad.prompt=Please choose location of the license File:
-ChooseFile.d85abda1a5ad.prompt=请选择许可证文件位置：
+# ChooseFile.a174655a93b6.prompt=Please choose location of the license File:
+ChooseFile.a174655a93b6.prompt=请选择许可证文件位置：
 
-# ChooseFile.d85abda1a5ad.stepTitle=Select license file
-ChooseFile.d85abda1a5ad.stepTitle=选择许可证文件
+# ChooseFile.a174655a93b6.stepTitle=Select license file
+ChooseFile.a174655a93b6.stepTitle=选择许可证文件
 
 # ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
 ChooseFolder.59b3a9e8ae16.additionalText=请确定 $INSTALLER_TITLE$安装位置。
@@ -88,14 +91,14 @@ ChooseFolder.59b3a9e8ae16.additionalText=请确定 $INSTALLER_TITLE$安装位置
 # ChooseFolder.59b3a9e8ae16.defaultFile=
 ChooseFolder.59b3a9e8ae16.defaultFile=
 
-# ChooseFolder.59b3a9e8ae16.prompt=Please Locate $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation:
-ChooseFolder.59b3a9e8ae16.prompt=请确定 $ADDREMOVE_COMPANY_NAME$ 安装的位置：$REGISTRY_CCMP_NAME$
+# ChooseFolder.59b3a9e8ae16.prompt=Please Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation:
+ChooseFolder.59b3a9e8ae16.prompt=请确定 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 的安装位置：
 
-# ChooseFolder.59b3a9e8ae16.stepTitle=Locate $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installation 
-ChooseFolder.59b3a9e8ae16.stepTitle=确定$ADDREMOVE_COMPANY_NAME$ 安装的位置$REGISTRY_CCMP_NAME$
+# ChooseFolder.59b3a9e8ae16.stepTitle=Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation 
+ChooseFolder.59b3a9e8ae16.stepTitle=确定 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 的安装位置
 
-# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing Job Manager instance that will act as the source for the upgrade. It can usually be found in a pre-existing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=请找到将充当升级源的现有作业管理器实例。它通常可以在 star/bin 文件夹下的预先存在的 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装目录中找到。
+# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
+ChooseFolder.85678ebc8c0d.additionalText=请找到将充当升级源的现有 _RT_JOB_MANAGER_ 实例。它通常可以在 star/bin 文件夹下的预先存在的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装目录中找到。
 
 # ChooseFolder.85678ebc8c0d.defaultFile=
 ChooseFolder.85678ebc8c0d.defaultFile=
@@ -103,8 +106,8 @@ ChooseFolder.85678ebc8c0d.defaultFile=
 # ChooseFolder.85678ebc8c0d.prompt=Please Choose a Folder:
 ChooseFolder.85678ebc8c0d.prompt=请选择文件夹：
 
-# ChooseFolder.85678ebc8c0d.stepTitle=Select existing Job Manager location
-ChooseFolder.85678ebc8c0d.stepTitle=选择现有作业管理器位置
+# ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
+ChooseFolder.85678ebc8c0d.stepTitle=选择现有 _RT_JOB_MANAGER_ 位置
 
 # CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
 CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$许可证服务器管理器？
@@ -112,8 +115,8 @@ CreateDialog.29fccfaca483.prompt=想要立即停止并移除 $SERVICE_NAME$许�
 # CreateDialog.29fccfaca483.title=Stop the Server
 CreateDialog.29fccfaca483.title=停止服务器
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use $REGISTRY_COMPANY_NAME$ PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the star/config/sitesettings.props file to ProductExcellenceProgram=0.
-CreateDialog.757df82f97fd.prompt=产品卓越计划收集客户如何使用 $REGISTRY_COMPANY_NAME$ PLM Software 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。要关闭产品卓越计划，请编辑 star/config/sitesettings.props 文件，将其中的参数设置为 ProductExcellenceProgram=0。
+# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+CreateDialog.757df82f97fd.prompt=产品卓越计划收集客户如何使用 _COMPANY_NAME_ _BUSINESS_UNIT_ 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。
 
 # CreateDialog.757df82f97fd.title=Product Excellence Program
 CreateDialog.757df82f97fd.title=产品卓越计划
@@ -157,8 +160,8 @@ CreateShortcut.1aa8bf9c9717.workingDir=
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
-# CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de0b8dc9238.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -166,8 +169,8 @@ CreateShortcut.2de0b8dc9238.workingDir=
 # CreateShortcut.2de4337e8b03.args=
 CreateShortcut.2de4337e8b03.args=
 
-# CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de4337e8b03.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -175,8 +178,8 @@ CreateShortcut.2de4337e8b03.workingDir=
 # CreateShortcut.412245f8a3db.args=
 CreateShortcut.412245f8a3db.args=
 
-# CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.412245f8a3db.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.412245f8a3db.workingDir=
 CreateShortcut.412245f8a3db.workingDir=
@@ -184,8 +187,8 @@ CreateShortcut.412245f8a3db.workingDir=
 # CreateShortcut.4123775fa3dc.args=
 CreateShortcut.4123775fa3dc.args=
 
-# CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.4123775fa3dc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.4123775fa3dc.workingDir=
 CreateShortcut.4123775fa3dc.workingDir=
@@ -193,8 +196,8 @@ CreateShortcut.4123775fa3dc.workingDir=
 # CreateShortcut.94113b058204.args=
 CreateShortcut.94113b058204.args=
 
-# CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94113b058204.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.94113b058204.workingDir=
 CreateShortcut.94113b058204.workingDir=
@@ -202,8 +205,8 @@ CreateShortcut.94113b058204.workingDir=
 # CreateShortcut.9413496e8208.args=
 CreateShortcut.9413496e8208.args=
 
-# CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9413496e8208.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.9413496e8208.workingDir=
 CreateShortcut.9413496e8208.workingDir=
@@ -211,8 +214,8 @@ CreateShortcut.9413496e8208.workingDir=
 # CreateShortcut.9416ec508215.args=
 CreateShortcut.9416ec508215.args=
 
-# CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9416ec508215.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.9416ec508215.workingDir=
 CreateShortcut.9416ec508215.workingDir=
@@ -220,8 +223,8 @@ CreateShortcut.9416ec508215.workingDir=
 # CreateShortcut.9417923b821a.args=
 CreateShortcut.9417923b821a.args=
 
-# CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9417923b821a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.9417923b821a.workingDir=
 CreateShortcut.9417923b821a.workingDir=
@@ -229,8 +232,8 @@ CreateShortcut.9417923b821a.workingDir=
 # CreateShortcut.9418dab08a79.args=
 CreateShortcut.9418dab08a79.args=
 
-# CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9418dab08a79.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.9418dab08a79.workingDir=
 CreateShortcut.9418dab08a79.workingDir=
@@ -238,8 +241,8 @@ CreateShortcut.9418dab08a79.workingDir=
 # CreateShortcut.941a08878a7d.args=
 CreateShortcut.941a08878a7d.args=
 
-# CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941a08878a7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.941a08878a7d.workingDir=
 CreateShortcut.941a08878a7d.workingDir=
@@ -247,8 +250,8 @@ CreateShortcut.941a08878a7d.workingDir=
 # CreateShortcut.941af5b78a81.args=
 CreateShortcut.941af5b78a81.args=
 
-# CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941af5b78a81.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.941af5b78a81.workingDir=
 CreateShortcut.941af5b78a81.workingDir=
@@ -256,8 +259,8 @@ CreateShortcut.941af5b78a81.workingDir=
 # CreateShortcut.941b0edf8a86.args=
 CreateShortcut.941b0edf8a86.args=
 
-# CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941b0edf8a86.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.941b0edf8a86.workingDir=
 CreateShortcut.941b0edf8a86.workingDir=
@@ -265,8 +268,8 @@ CreateShortcut.941b0edf8a86.workingDir=
 # CreateShortcut.94640642bd9f.args=
 CreateShortcut.94640642bd9f.args=
 
-# CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94640642bd9f.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.94640642bd9f.workingDir=
 CreateShortcut.94640642bd9f.workingDir=
@@ -283,8 +286,8 @@ CreateShortcut.94649fda9fe1.workingDir=
 # CreateShortcut.9465295a8118.args=
 CreateShortcut.9465295a8118.args=
 
-# CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9465295a8118.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.9465295a8118.workingDir=
 CreateShortcut.9465295a8118.workingDir=
@@ -301,8 +304,8 @@ CreateShortcut.9465c552a258.workingDir=
 # CreateShortcut.9466c0598c7d.args=
 CreateShortcut.9466c0598c7d.args=
 
-# CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9466c0598c7d.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.9466c0598c7d.workingDir=
 CreateShortcut.9466c0598c7d.workingDir=
@@ -310,8 +313,8 @@ CreateShortcut.9466c0598c7d.workingDir=
 # CreateShortcut.946795c9ade2.args=
 CreateShortcut.946795c9ade2.args=
 
-# CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.946795c9ade2.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
@@ -337,8 +340,8 @@ CreateShortcut.9d83036eb16c.workingDir=
 # CreateShortcut.9ecf1c648a8a.args=
 CreateShortcut.9ecf1c648a8a.args=
 
-# CreateShortcut.9ecf1c648a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ecf1c648a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.9ecf1c648a8a.workingDir=
 CreateShortcut.9ecf1c648a8a.workingDir=
@@ -346,8 +349,8 @@ CreateShortcut.9ecf1c648a8a.workingDir=
 # CreateShortcut.9ed06f718a8a.args=
 CreateShortcut.9ed06f718a8a.args=
 
-# CreateShortcut.9ed06f718a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed06f718a8a.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
@@ -445,8 +448,8 @@ CreateShortcut.9ed9c1c28e73.workingDir=
 # CreateShortcut.9edb511b8e74.args=
 CreateShortcut.9edb511b8e74.args=
 
-# CreateShortcut.9edb511b8e74.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9edb511b8e74.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.9edb511b8e74.workingDir=
 CreateShortcut.9edb511b8e74.workingDir=
@@ -454,8 +457,8 @@ CreateShortcut.9edb511b8e74.workingDir=
 # CreateShortcut.9eded2c68e76.args=
 CreateShortcut.9eded2c68e76.args=
 
-# CreateShortcut.9eded2c68e76.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9eded2c68e76.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.9eded2c68e76.workingDir=
 CreateShortcut.9eded2c68e76.workingDir=
@@ -463,8 +466,8 @@ CreateShortcut.9eded2c68e76.workingDir=
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
 
-# CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.caa364a8a2b0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -472,8 +475,8 @@ CreateShortcut.caa364a8a2b0.workingDir=
 # CreateShortcut.cb11e682a2c8.args=
 CreateShortcut.cb11e682a2c8.args=
 
-# CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cb11e682a2c8.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -499,8 +502,8 @@ CreateShortcut.cd1330779add.workingDir=
 # CreateShortcut.cfd2e50abbfc.args=
 CreateShortcut.cfd2e50abbfc.args=
 
-# CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cfd2e50abbfc.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -508,8 +511,8 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
 
-# CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.d138a370858c.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -517,8 +520,8 @@ CreateShortcut.d138a370858c.workingDir=
 # CreateShortcut.d5cf21bb9aa3.args=
 CreateShortcut.d5cf21bb9aa3.args=
 
-# CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5cf21bb9aa3.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.d5cf21bb9aa3.workingDir=
 CreateShortcut.d5cf21bb9aa3.workingDir=
@@ -526,8 +529,8 @@ CreateShortcut.d5cf21bb9aa3.workingDir=
 # CreateShortcut.d5d067689aa4.args=
 CreateShortcut.d5d067689aa4.args=
 
-# CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5d067689aa4.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
+# CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$（内部版本号 $STARVR_VERSION$）
 
 # CreateShortcut.d5d067689aa4.workingDir=
 CreateShortcut.d5d067689aa4.workingDir=
@@ -535,8 +538,8 @@ CreateShortcut.d5d067689aa4.workingDir=
 # CreateShortcut.eb99cf1b90cb.args=
 CreateShortcut.eb99cf1b90cb.args=
 
-# CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb99cf1b90cb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.eb99cf1b90cb.workingDir=
 CreateShortcut.eb99cf1b90cb.workingDir=
@@ -544,8 +547,8 @@ CreateShortcut.eb99cf1b90cb.workingDir=
 # CreateShortcut.eb9ba32a90d0.args=
 CreateShortcut.eb9ba32a90d0.args=
 
-# CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9ba32a90d0.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.eb9ba32a90d0.workingDir=
 CreateShortcut.eb9ba32a90d0.workingDir=
@@ -553,8 +556,8 @@ CreateShortcut.eb9ba32a90d0.workingDir=
 # CreateShortcut.eb9fc19aa18e.args=
 CreateShortcut.eb9fc19aa18e.args=
 
-# CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9fc19aa18e.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.eb9fc19aa18e.workingDir=
 CreateShortcut.eb9fc19aa18e.workingDir=
@@ -562,8 +565,8 @@ CreateShortcut.eb9fc19aa18e.workingDir=
 # CreateShortcut.eba29649a3bb.args=
 CreateShortcut.eba29649a3bb.args=
 
-# CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eba29649a3bb.destinationName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
+# CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$（内部版本号 $STARVIEW_VERSION$）
 
 # CreateShortcut.eba29649a3bb.workingDir=
 CreateShortcut.eba29649a3bb.workingDir=
@@ -586,8 +589,8 @@ CreateShortcut.eba4b7c1a520.destinationName=查看示例场景
 # CreateShortcut.eba4b7c1a520.workingDir=
 CreateShortcut.eba4b7c1a520.workingDir=
 
-# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+# DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=安装完成
@@ -615,6 +618,18 @@ EditEnvironment.7d929202a641.value=$USER_MAGIC_FOLDER_5$/bin
 
 # EditEnvironment.7d929203a642.value=$USER_MAGIC_FOLDER_5$/bin
 EditEnvironment.7d929203a642.value=$USER_MAGIC_FOLDER_5$/bin
+
+# EditEnvironment.a198b89c8d70.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89c8d70.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b89c8d71.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89c8d71.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b89d8d77.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b89d8d77.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.a198b8a18d99.value=$UGS_LICENSE_FILE$
+EditEnvironment.a198b8a18d99.value=$UGS_LICENSE_FILE$
 
 # EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
 EditEnvironment.bbd4c87ab41a.value=$USER_INSTALL_DIR$/star/bin
@@ -703,12 +718,6 @@ Exec.fd261c999d36.dialogLabel=正在卸载远程启动服务...
 # Exec.fd261c999d36.title=Unregister Intel MPI
 Exec.fd261c999d36.title=注销 Intel MPI
 
-# Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.fdbc7954be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B23$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.fdbc7954be0a.title=attrib +R
-Exec.fdbc7954be0a.title=attrib +R
-
 # Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
@@ -718,7 +727,7 @@ Exec.fdbca601be0a.title=attrib +R
 # ExecuteScript.00c21a869971.title=To check if the hostname is valid
 ExecuteScript.00c21a869971.title=检查主机名是否有效
 
-# ExecuteScript.00cab266a1e7.title=To check if SMTP server adress is valid
+# ExecuteScript.00cab266a1e7.title=To check if SMTP server address is valid
 ExecuteScript.00cab266a1e7.title=检查 SMTP 服务器地址是否有效
 
 # ExecuteScript.01c8cd6d9a52.title=Update win7+ fw
@@ -730,8 +739,8 @@ ExecuteScript.0488ae86a57c.title=正在更改 Linux 中文件的权限
 # ExecuteScript.0489de5aa5bd.title=Changing permission of files in Windows
 ExecuteScript.0489de5aa5bd.title=正在更改 Windows 中文件的权限
 
-# ExecuteScript.09082b168cd8.title=Unregistering STAR-NX..
-ExecuteScript.09082b168cd8.title=正在注销 STAR-NX..
+# ExecuteScript.09082b168cd8.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.09082b168cd8.title=注销 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 
 # ExecuteScript.0be7f1eca3d1.title=Checking server 1 cdlmd version
 ExecuteScript.0be7f1eca3d1.title=正在检查 server 1 cdlmd 版本
@@ -805,11 +814,11 @@ ExecuteScript.0be7f1f0a3f7.title=正在检查 ccmplite 的服务器 2
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=正在检查 ccmplite 的服务器 3
 
-# ExecuteScript.0dc86234891d.title=Unregistering STAR-NX..
-ExecuteScript.0dc86234891d.title=正在注销 STAR-NX..
+# ExecuteScript.0dc86234891d.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.0dc86234891d.title=注销 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 
-# ExecuteScript.0fae5f3192b2.title=Tidy empty Simcenter STAR-CCM+ doc folders
-ExecuteScript.0fae5f3192b2.title=清理空的 Simcenter STAR-CCM+ doc 文件夹
+# ExecuteScript.0fae5f3192b2.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
+ExecuteScript.0fae5f3192b2.title=清理空 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 文件夹
 
 # ExecuteScript.14b03569831d.title=Register Platform-MPI remote launch service...
 ExecuteScript.14b03569831d.title=注册平台-MPI 远程启动服务...
@@ -850,8 +859,8 @@ ExecuteScript.32a265afb332.title=抽取朝鲜语文档
 # ExecuteScript.32a28086b399.title=extract Chinese documentation
 ExecuteScript.32a28086b399.title=抽取中文文档
 
-# ExecuteScript.33e242b5b716.title=Unregistering STAR-NX..
-ExecuteScript.33e242b5b716.title=正在注销 STAR-NX..
+# ExecuteScript.33e242b5b716.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.33e242b5b716.title=注销 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 
 # ExecuteScript.35d6cc20bebd.title=Checking for running Linux cdlmd
 ExecuteScript.35d6cc20bebd.title=正在检查运行中的 Linux cdlmd
@@ -910,11 +919,14 @@ ExecuteScript.3a1c9ff4becd.title=由于升级失败而恢复上一个许可证�
 # ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 ExecuteScript.3b6e9ae9bdfb.title=正在检查运行中的 Windows lmadmin
 
-# ExecuteScript.3c980762b2a4.title=Configure STAR-NX for all users
-ExecuteScript.3c980762b2a4.title=为所有用户配置 STAR-NX
+# ExecuteScript.3c980762b2a4.title=Configure STAR-NX 10 for all users
+ExecuteScript.3c980762b2a4.title=为所有用户配置 STAR-NX 10
 
 # ExecuteScript.3dac852cae9c.title=Uninstall Java JDK
 ExecuteScript.3dac852cae9c.title=卸载 Java JDK
+
+# ExecuteScript.3fc1bbc9835b.title=extract STAR-NX-1872
+ExecuteScript.3fc1bbc9835b.title=抽取 STAR-NX-1872
 
 # ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 ExecuteScript.41fcc8debe2f.title=卸载 Java JDK
@@ -924,9 +936,6 @@ ExecuteScript.420284278cb9.title=卸载 Flexlm
 
 # ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
 ExecuteScript.4834719b95fe.title=抽取 STAR-INVENTOR-ALL
-
-# ExecuteScript.4836284d9afd.title=extract STAR-CREO-2
-ExecuteScript.4836284d9afd.title=抽取 STAR-CREO-2
 
 # ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
 ExecuteScript.483683ac9bbb.title=抽取 STAR-CREO-4
@@ -942,9 +951,6 @@ ExecuteScript.4838b698a18e.title=抽取 STAR-NX-11
 
 # ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
 ExecuteScript.4838bdf3a1ec.title=抽取 STAR-NX-12
-
-# ExecuteScript.483b9742accf.title=extract STAR-CAT5-23
-ExecuteScript.483b9742accf.title=抽取 STAR-CAT5-23
 
 # ExecuteScript.483c0ac9ad91.title=extract STAR-CAT5-24
 ExecuteScript.483c0ac9ad91.title=抽取 STAR-CAT5-24
@@ -979,23 +985,23 @@ ExecuteScript.49b821469c8b.title=停止当前许可证服务器以执行升级
 # ExecuteScript.49b821469c8e.title=Start Server as standalone on Linux
 ExecuteScript.49b821469c8e.title=在 Linux 上独立启动服务器
 
-# ExecuteScript.4b9dc9f1b241.title=Delete All Users 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b241.title=删除所有用户的 64 位桌面 CCM+ 快捷方式
+# ExecuteScript.4b9dc9f1b241.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b241.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dc9f1b242.title=Delete All Users 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b242.title=删除所有用户的 64 位桌面 CCM+ 快捷方式
+# ExecuteScript.4b9dc9f1b242.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b242.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dc9f1b244.title=Delete Local User 64 bit Desktop CCM+ Shortcut
-ExecuteScript.4b9dc9f1b244.title=删除本地用户的 64 位桌面 CCM+ 快捷方式
+# ExecuteScript.4b9dc9f1b244.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dc9f1b244.title=删除本地用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dc9f2b248.title=Delete All Users 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b248.title=删除所有用户的 64 位桌面 SV 快捷方式
+# ExecuteScript.4b9dc9f2b248.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dc9f2b248.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 快捷方式
 
-# ExecuteScript.4b9dc9f2b249.title=Delete All Users 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b249.title=删除所有用户的 64 位桌面 SV 快捷方式
+# ExecuteScript.4b9dc9f2b249.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dc9f2b249.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 快捷方式
 
-# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop SV Shortcut
-ExecuteScript.4b9dc9f2b24b.title=删除本地用户的 64 位桌面 SV 快捷方式
+# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_V Shortcut
+ExecuteScript.4b9dc9f2b24b.title=删除本地用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_V 快捷方式
 
 # ExecuteScript.4b9dc9f2b24d.title=Delete All Users Start Menu FLEXnet License Administration Guide
 ExecuteScript.4b9dc9f2b24d.title=删除所有用户开始菜单的 FLEXNet 许可证管理指南
@@ -1006,20 +1012,20 @@ ExecuteScript.4b9dc9f2b24e.title=删除所有用户开始菜单的 FLEXNet 许�
 # ExecuteScript.4b9dc9f2b24f.title=Delete Local User Start Menu FLEXnet License Administration Guide
 ExecuteScript.4b9dc9f2b24f.title=删除本地用户开始菜单的 FLEXNet 许可证管理指南
 
-# ExecuteScript.4b9dca01b259.title=Delete All Users Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b259.title=删除所有用户开始菜单的 64 位 CCM+ 快捷方式
+# ExecuteScript.4b9dca01b259.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b259.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dca01b25a.title=Delete All Users Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b25a.title=删除所有用户开始菜单的 64 位 CCM+ 快捷方式
+# ExecuteScript.4b9dca01b25a.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b25a.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dca01b25b.title=Delete Local User Start Menu 64 bit CCM+ Shortcut
-ExecuteScript.4b9dca01b25b.title=删除本地用户开始菜单的 64 位 CCM+ 快捷方式
+# ExecuteScript.4b9dca01b25b.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Shortcut
+ExecuteScript.4b9dca01b25b.title=删除本地用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 快捷方式
 
-# ExecuteScript.4b9dca01b25f.title=Delete All Users Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b25f.title=删除所有用户开始菜单的 64 位 SV 快捷方式
+# ExecuteScript.4b9dca01b25f.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b25f.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 快捷方式
 
-# ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b260.title=删除所有用户开始菜单的 64 位 SV 快捷方式
+# ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b260.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 快捷方式
 
 # ExecuteScript.4b9dca01b261.title=Delete All Users Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b261.title=删除所有用户开始菜单的 sample.sce 快捷方式
@@ -1027,8 +1033,8 @@ ExecuteScript.4b9dca01b261.title=删除所有用户开始菜单的 sample.sce �
 # ExecuteScript.4b9dca01b262.title=Delete All Users Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b262.title=删除所有用户开始菜单的 sample.sce 快捷方式
 
-# ExecuteScript.4b9dca01b264.title=Delete Local User Start Menu 64 bit SV Shortcut
-ExecuteScript.4b9dca01b264.title=删除本地用户开始菜单的 64 位 SV 快捷方式
+# ExecuteScript.4b9dca01b264.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dca01b264.title=删除本地用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 快捷方式
 
 # ExecuteScript.4b9dca01b265.title=Delete Local User Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b265.title=删除本地用户开始菜单的 sample.sce 快捷方式
@@ -1042,12 +1048,6 @@ ExecuteScript.5aac78558549.title=清理 Flexlm
 # ExecuteScript.5f5a0ee5a428.title=ADD/REMOVE Product Name
 ExecuteScript.5f5a0ee5a428.title=添加/移除产品名称
 
-# ExecuteScript.686c2602b0cb.title=get username
-ExecuteScript.686c2602b0cb.title=获取用户名
-
-# ExecuteScript.686da5e0b0cb.title=get groupname
-ExecuteScript.686da5e0b0cb.title=获取组名
-
 # ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 ExecuteScript.6879117bb0d1.title=正在运行 verifypermissions 以安装服务
 
@@ -1060,14 +1060,14 @@ ExecuteScript.6c6dd8e28506.title=卸载 Flexlm
 # ExecuteScript.6d1b9101b4b5.title=Update win7+ fw
 ExecuteScript.6d1b9101b4b5.title=更新 win7+ fw
 
-# ExecuteScript.740378ec942f.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.740378ec942f.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..请稍候
+# ExecuteScript.740378ec942f.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.740378ec942f.dialogLabel=正在安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..请稍候
 
-# ExecuteScript.740378ec942f.title=extract Simcenter STAR-CCM+
-ExecuteScript.740378ec942f.title=抽取 Simcenter STAR-CCM+
+# ExecuteScript.740378ec942f.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
+ExecuteScript.740378ec942f.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
 
-# ExecuteScript.74308ded90ca.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$+$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.74308ded90ca.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$+$STARCCMPLUS_VERSION$ ..请稍候
+# ExecuteScript.74308ded90ca.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.74308ded90ca.dialogLabel=正在安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$。请稍候
 
 # ExecuteScript.74308ded90ca.title=Move folder
 ExecuteScript.74308ded90ca.title=移动文件夹
@@ -1075,23 +1075,20 @@ ExecuteScript.74308ded90ca.title=移动文件夹
 # ExecuteScript.7c69be3d8d4f.title=Removing $USER_INSTALL_DIR$$/$vs2008sp1 directory.
 ExecuteScript.7c69be3d8d4f.title=正在移除 $USER_INSTALL_DIR$$/$vs2008sp1 目录。
 
-# ExecuteScript.7c9569ecb719.title=Configure STAR-NX for all users
-ExecuteScript.7c9569ecb719.title=为所有用户配置 STAR-NX
+# ExecuteScript.7c9569ecb719.title=Configure STAR-NX 9 for all users
+ExecuteScript.7c9569ecb719.title=为所有用户配置 STAR-NX 9
 
-# ExecuteScript.7d08ee059041.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..Please wait a moment
-ExecuteScript.7d08ee059041.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..请稍候
+# ExecuteScript.7d08ee059041.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_  $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
+ExecuteScript.7d08ee059041.dialogLabel=正在安装 _SOFTWARE_FAMILY_NAME_ $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$。请稍候
 
-# ExecuteScript.7d08ee059041.title=extract Simcenter STAR-View+
-ExecuteScript.7d08ee059041.title=抽取 Simcenter STAR-View+
+# ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
+ExecuteScript.7d08ee059041.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 
 # ExecuteScript.80940cd987b6.title=extract STAR-NX-1847
 ExecuteScript.80940cd987b6.title=抽取 STAR-NX-1847
 
-# ExecuteScript.80962a5587ba.title=Configure STAR-NX for all users
-ExecuteScript.80962a5587ba.title=为所有用户配置 STAR-NX
-
-# ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade job manager
-ExecuteScript.8134e3c18f85.title=正在运行 verifypermissions 以升级作业管理器
+# ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
+ExecuteScript.8134e3c18f85.title=正在运行 verifypermissions 以升级 _RT_JOB_MANAGER_
 
 # ExecuteScript.82f2d07fb6b7.title=Delete All Users Start Menu 64 bit Shortcut
 ExecuteScript.82f2d07fb6b7.title=删除所有用户开始菜单的 64 位快捷方式
@@ -1111,8 +1108,8 @@ ExecuteScript.854f8a30b6da.title=升级
 # ExecuteScript.8572fc4196af.title=get hostname
 ExecuteScript.8572fc4196af.title=获取主机名
 
-# ExecuteScript.869af93c87fd.title=extract STAR-CREO-6
-ExecuteScript.869af93c87fd.title=抽取 STAR-CREO-6
+# ExecuteScript.869af93c87fd.title=extract STAR-CREO-2
+ExecuteScript.869af93c87fd.title=抽取 STAR-CREO-2
 
 # ExecuteScript.8a733e5f912b.title=Uninstall Java JDK
 ExecuteScript.8a733e5f912b.title=卸载 Java JDK
@@ -1126,8 +1123,8 @@ ExecuteScript.946b6329bb04.title=刷新桌面
 # ExecuteScript.946b87d1bb54.title=Refresh Desktop
 ExecuteScript.946b87d1bb54.title=刷新桌面
 
-# ExecuteScript.9737cae9ae4d.title=Uninstall Job Manager
-ExecuteScript.9737cae9ae4d.title=卸载作业管理器
+# ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
+ExecuteScript.9737cae9ae4d.title=卸载 _RT_JOB_MANAGER_
 
 # ExecuteScript.9c4626dc93c4.title=internal authentication with email server
 ExecuteScript.9c4626dc93c4.title=使用电子邮件服务器进行内部身份验证
@@ -1147,32 +1144,65 @@ ExecuteScript.9e4a02a28975.title=更新 win7+ fw
 # ExecuteScript.9e6a8fdf9720.title=Update win7+ fw
 ExecuteScript.9e6a8fdf9720.title=更新 win7+ fw
 
-# ExecuteScript.a80ae0d0818b.title=Delete All Users 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d0818b.title=删除所有用户的 64 位桌面 SVR 快捷方式
+# ExecuteScript.a15d24e08d50.title=parse .plmrc
+ExecuteScript.a15d24e08d50.title=解析 .plmrc
 
-# ExecuteScript.a80ae0d0818c.title=Delete Local User 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d0818c.title=删除本地用户的 64 位桌面 SVR 快捷方式
+# ExecuteScript.a15d24e08d52.title=parse splm_license_server
+ExecuteScript.a15d24e08d52.title=解析 splm_license_server
 
-# ExecuteScript.a80ae0d1818a.title=Delete All Users 64 bit Desktop SVR Shortcut
-ExecuteScript.a80ae0d1818a.title=删除所有用户的 64 位桌面 SVR 快捷方式
+# ExecuteScript.a16603559099.title=parse .plmrc
+ExecuteScript.a16603559099.title=解析 .plmrc
 
-# ExecuteScript.a80c38ba8192.title=Delete All Users Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8192.title=删除所有用户开始菜单的 64 位 SVR 快捷方式
+# ExecuteScript.a1660355909c.title=parse 
+ExecuteScript.a1660355909c.title=解析
 
-# ExecuteScript.a80c38ba8193.title=Delete All Users Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8193.title=删除所有用户开始菜单的 64 位 SVR 快捷方式
+# ExecuteScript.a198b89c8d72.title=create .plmrc
+ExecuteScript.a198b89c8d72.title=创建 .plmrc
 
-# ExecuteScript.a80c38ba8196.title=Delete Local User Start Menu 64 bit SVR Shortcut
-ExecuteScript.a80c38ba8196.title=删除本地用户开始菜单的 64 位 SVR 快捷方式
+# ExecuteScript.a198b89d8d78.title=create .plmrc
+ExecuteScript.a198b89d8d78.title=创建 .plmrc
 
-# ExecuteScript.a9b1812d954f.title=Registering STAR-Inventor...
-ExecuteScript.a9b1812d954f.title=正在注册 STAR-Inventor...
+# ExecuteScript.a198b8a18d9a.title=create .plmrc
+ExecuteScript.a198b8a18d9a.title=创建 .plmrc
 
-# ExecuteScript.a9b1812d9552.title=Registering STARInventor Ocx...
-ExecuteScript.a9b1812d9552.title=注册 STARInventor Ocx...
+# ExecuteScript.a1acbd988da2.title=Configure Siemens PLM windows
+ExecuteScript.a1acbd988da2.title=配置 Siemens PLM windows
 
-# ExecuteScript.aa090b60ab1f.title=Registering STAR-Inventor...
-ExecuteScript.aa090b60ab1f.title=正在注册 STAR-Inventor...
+# ExecuteScript.a1af21768da6.title=Configure Siemens PLM Linux
+ExecuteScript.a1af21768da6.title=配置 Siemens PLM Linux
+
+# ExecuteScript.a25073798d79.title=configure Siemens-windows service
+ExecuteScript.a25073798d79.title=配置 Siemens-windows 服务
+
+# ExecuteScript.a564a27789f8.title=configure Siemens-linux service
+ExecuteScript.a564a27789f8.title=配置 Siemens-linux 服务
+
+# ExecuteScript.a80ae0d0818b.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d0818b.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a80ae0d0818c.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d0818c.title=删除本地用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a80ae0d1818a.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80ae0d1818a.title=删除所有用户的 64 位桌面 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a80c38ba8192.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8192.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a80c38ba8193.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8193.title=删除所有用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a80c38ba8196.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
+ExecuteScript.a80c38ba8196.title=删除本地用户开始菜单的 64 位 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 快捷方式
+
+# ExecuteScript.a9b1812d954f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_...
+ExecuteScript.a9b1812d954f.title=正在注册 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_...
+
+# ExecuteScript.a9b1812d9552.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocx...
+ExecuteScript.a9b1812d9552.title=正在注册 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocx...
+
+# ExecuteScript.aa090b60ab1f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ExecuteScript.aa090b60ab1f.title=正在注册 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
 ExecuteScript.ac73774487e9.title=使用电子邮件服务器进行内部身份验证的 Linux 服务
@@ -1204,14 +1234,11 @@ ExecuteScript.b9b5b08a8686.title=删除 lm 日志
 # ExecuteScript.c5c2e0999553.title=delete config.xml
 ExecuteScript.c5c2e0999553.title=删除 config.xml
 
-# ExecuteScript.cc881ed790de.title=Tidy empty Simcenter STAR-CCM+ doc folders
-ExecuteScript.cc881ed790de.title=清理空的 Simcenter STAR-CCM+ doc 文件夹
+# ExecuteScript.cc881ed790de.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
+ExecuteScript.cc881ed790de.title=清理空 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 文件夹
 
-# ExecuteScript.cd91bbdaa4cc.title=Configure STAR-NX for all users
-ExecuteScript.cd91bbdaa4cc.title=为所有用户配置 STAR-NX
-
-# ExecuteScript.cd954092ae6e.title=Unregistering STAR-NX..
-ExecuteScript.cd954092ae6e.title=正在注销 STAR-NX..
+# ExecuteScript.cd954092ae6e.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
+ExecuteScript.cd954092ae6e.title=注销 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 
 # ExecuteScript.cea5a8089ece.title=Update win7+ fw
 ExecuteScript.cea5a8089ece.title=更新 win7+ fw
@@ -1219,26 +1246,26 @@ ExecuteScript.cea5a8089ece.title=更新 win7+ fw
 # ExecuteScript.cea5a8089ecf.title=Install Intel MPI Hydra service
 ExecuteScript.cea5a8089ecf.title=安装 Intel MPI Hydra 服务
 
-# ExecuteScript.cee16638adee.title=Configure STAR-NX for all users
-ExecuteScript.cee16638adee.title=为所有用户配置 STAR-NX
+# ExecuteScript.cee16638adee.title=Configure STAR-NX 11 for all users
+ExecuteScript.cee16638adee.title=为所有用户配置 STAR-NX 11
 
-# ExecuteScript.d669d3788804.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.d669d3788804.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$$STARCCMPLUS_VERSION$ ..请稍候
+# ExecuteScript.d669d3788804.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.d669d3788804.dialogLabel=正在安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..请稍候
 
-# ExecuteScript.d669d3788804.title=extract Simcenter STAR-CCM+
-ExecuteScript.d669d3788804.title=抽取 Simcenter STAR-CCM+
+# ExecuteScript.d669d3788804.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
+ExecuteScript.d669d3788804.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
 
-# ExecuteScript.d66f4b7e8807.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVR_Root$ ..Please wait a moment
-ExecuteScript.d66f4b7e8807.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $SVR_Root$ ..请稍候
+# ExecuteScript.d66f4b7e8807.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ ..Please wait a moment
+ExecuteScript.d66f4b7e8807.dialogLabel=正在安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VR$。请稍候
 
-# ExecuteScript.d66f4b7e8807.title=extract Simcenter STAR-CCM+ VR
-ExecuteScript.d66f4b7e8807.title=抽取 Simcenter STAR-CCM+ VR
+# ExecuteScript.d66f4b7e8807.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_
+ExecuteScript.d66f4b7e8807.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_
 
-# ExecuteScript.d674f57c8818.dialogLabel=Installing $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..Please wait a moment
-ExecuteScript.d674f57c8818.dialogLabel=正在安装 $ADDREMOVE_COMPANY_NAME$ $SVRoot$ ..请稍候
+# ExecuteScript.d674f57c8818.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
+ExecuteScript.d674f57c8818.dialogLabel=正在安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VIEWER$。请稍候
 
-# ExecuteScript.d674f57c8818.title=extract Simcenter STAR-View+
-ExecuteScript.d674f57c8818.title=抽取 Simcenter STAR-View+
+# ExecuteScript.d674f57c8818.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
+ExecuteScript.d674f57c8818.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 
 # ExecuteScript.d7fac3568281.title=Tidy integration desktop refresh
 ExecuteScript.d7fac3568281.title=清理集成桌面刷新
@@ -1303,20 +1330,20 @@ ExecuteScript.f7ce86aba575.title=在网络安装中添加/移除产品图标
 # ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 ExecuteScript.fd24625e9457.title=安装 Intel MPI Hydra 服务
 
-# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.07762bd5ba98.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_, then click Next.
+GetUserInput.07762bd5ba98.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=选择更多任务
 
-# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the STAR-NX Integration now?
-GetUserInput.07fbb89ebccd.prompt=想要立即卸载 STAR-NX Integration？
+# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration now?
+GetUserInput.07fbb89ebccd.prompt=想要立即卸载 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 吗？
 
-# GetUserInput.07fbb89ebccd.title=Uninstall STAR-NX Integration
-GetUserInput.07fbb89ebccd.title=卸载 STAR-NX Integration
+# GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
+GetUserInput.07fbb89ebccd.title=卸载 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 集成
 
-# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.09531f37b189.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.09531f37b189.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=选择更多任务
@@ -1333,8 +1360,8 @@ GetUserInput.154a0b5aaa67.prompt=您现在可以设置许可证管理器服务�
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=服务配置
 
-# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.21099aa9bdbd.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.21099aa9bdbd.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 GetUserInput.21099aa9bdbd.title=选择更多任务
@@ -1345,14 +1372,14 @@ GetUserInput.3642fdbebce8.prompt=请输入 TCP/IP 端口和 FLEXNet 许可证服
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet 客户端配置
 
-# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.3cd99868ae86.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.3cd99868ae86.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
 GetUserInput.3cd99868ae86.title=选择更多任务
 
-# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$, then click Next.
-GetUserInput.411f00519f65.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
+GetUserInput.411f00519f65.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.411f00519f65.title=Select Additional Tasks
 GetUserInput.411f00519f65.title=选择更多任务
@@ -1363,14 +1390,14 @@ GetUserInput.4202184d8cb4.prompt=想要立即卸载 FLEXlm 许可证管理器？
 # GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
 GetUserInput.4202184d8cb4.title=卸载 FLEX 许可证管理器
 
-# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.4eb74413ba93.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.4eb74413ba93.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=选择更多任务
 
-# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.5f8d10b48f40.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.5f8d10b48f40.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=选择更多任务
@@ -1387,20 +1414,20 @@ GetUserInput.687423f6b0cd.prompt=请指定应该运行 Linux 服务的用户账�
 # GetUserInput.687423f6b0cd.title=Linux service
 GetUserInput.687423f6b0cd.title=Linux 服务
 
-# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.8209d5e08fc6.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.8209d5e08fc6.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=选择更多任务
 
-# GetUserInput.856fd80c8c32.prompt=Users of Job Manager must have an account on the operating system. Job Manager is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=作业管理器的用户必须在操作系统上拥有帐户。作业管理器能够使用储存在自身数据库中的用户密码进行身份验证，也可以将身份验证委派给操作系统。\n\n您想使用哪种方法？
+# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
+GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_ 的用户必须在操作系统上拥有帐户。_RT_JOB_MANAGER_ 能够使用储存在自身数据库中的用户密码进行身份验证，也可以将身份验证委派给操作系统。\n\n您想使用哪种方法？
 
-# GetUserInput.856fd80c8c32.title=Job Manager Configuration
-GetUserInput.856fd80c8c32.title=作业管理器配置
+# GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
+GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 配置
 
-# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the Job Manager will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the Job Manager. \n\n
-GetUserInput.8575cd2c96c8.prompt=请输入有关作业管理器将在哪里运行的信息。\n\n在任何要连接到作业管理器的客户端上，主机名必须是可解析的。\n\n
+# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_. \n\n
+GetUserInput.8575cd2c96c8.prompt=请输入有关 _RT_JOB_MANAGER_ 将在哪里运行的信息。\n\n在任何要连接到 _RT_JOB_MANAGER_ 的客户端上，主机名必须是可解析的。\n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
 GetUserInput.8575cd2c96c8.title=服务器选择
@@ -1411,23 +1438,23 @@ GetUserInput.85775f8d96d5.prompt=请输入登录节点和资源组名称
 # GetUserInput.85775f8d96d5.title=Login Node Name
 GetUserInput.85775f8d96d5.title=登录节点名称
 
-# GetUserInput.8578411b96e0.prompt=To ensure data (including user's passwords) sent between Design Manager and Job Manager is encrypted, it is necessary to install a SSL Certificate with Job Manager. When the certificate is signed by a trusted Certificate Authority, clients can also verify the identity of the Job Manager server.\nIt is strongly recommended that Job Manager is installed with a SSL Certificate to maximize security.
-GetUserInput.8578411b96e0.prompt=为了确保设计管理器和作业管理器之间发送的数据（包括用户密码）加密，有必要在作业管理器中安装 SSL 证书。当该证书由受信任的证书颁发机构签署，客户端还可以验证作业管理器服务器的身份。\n强烈建议在作业管理器中安装 SSL 证书，以最大程度地保证安全性。
+# GetUserInput.8578411b96e0.prompt=To ensure data (including user's passwords) sent between Design Manager and _RT_JOB_MANAGER_ is encrypted, it is necessary to install a SSL Certificate with _RT_JOB_MANAGER_. When the certificate is signed by a trusted Certificate Authority, clients can also verify the identity of the _RT_JOB_MANAGER_ server.\nIt is strongly recommended that _RT_JOB_MANAGER_ is installed with a SSL Certificate to maximize security.
+GetUserInput.8578411b96e0.prompt=为了确保设计管理器和 _RT_JOB_MANAGER_ 之间发送的数据（包括用户密码）加密，有必要在 _RT_JOB_MANAGER_ 中安装 SSL 证书。当该证书由受信任的证书颁发机构签署，客户端还可以验证 _RT_JOB_MANAGER_ 服务器的身份。\n强烈建议在 _RT_JOB_MANAGER_ 中安装 SSL 证书，以最大程度地保证安全性。
 
 # GetUserInput.8578411b96e0.title=SSL certificate selection
 GetUserInput.8578411b96e0.title=SSL 证书选择
 
-# GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer Job Manager:
-GetUserInput.8fe4e9e8b4a1.prompt=请输入将管理作业管理器的帐户的用户名：
+# GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer _RT_JOB_MANAGER_:
+GetUserInput.8fe4e9e8b4a1.prompt=请输入将用于管理 _RT_JOB_MANAGER_ 的帐户的用户名：
 
 # GetUserInput.8fe4e9e8b4a1.title=Admin user name
 GetUserInput.8fe4e9e8b4a1.title=管理员用户名
 
-# GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the Job manager? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
-GetUserInput.9737389d8c0f.prompt=您要卸载作业管理器吗？这还会删除包含所有配置设置的数据库文件，且一旦移除，将无法恢复。
+# GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the _RT_JOB_MANAGER_? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
+GetUserInput.9737389d8c0f.prompt=要卸载 _RT_JOB_MANAGER_ 吗？这还会删除包含所有配置设置的数据库文件，且一旦移除，将无法恢复。
 
-# GetUserInput.9737389d8c0f.title=Uninstall Job Manager
-GetUserInput.9737389d8c0f.title=卸载作业管理器
+# GetUserInput.9737389d8c0f.title=Uninstall _RT_JOB_MANAGER_
+GetUserInput.9737389d8c0f.title=卸载 _RT_JOB_MANAGER_
 
 # GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
 GetUserInput.9c427d388ef4.prompt=请配置用于发送通知和密码重置消息的传出电子邮件设置\n\n\n
@@ -1441,50 +1468,62 @@ GetUserInput.9c455b20b168.prompt=请选择 SMTP 连接的端口号。\n\n如果�
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTP 端口号
 
-# GetUserInput.a53ed862b666.prompt=$REGISTRY_COMPANY_NAME$ provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
-GetUserInput.a53ed862b666.prompt=$REGISTRY_COMPANY_NAME$ 通过 PoD 服务器或\n本地许可证服务器提供许可。\n\n请选择想使用的许可方法：
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
+
+# GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
+GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ 许可证客户端配置
+
+# GetUserInput.a166035790bd.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the _COMPANY_NAME_ License Server is 28000. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.a166035790bd.prompt=要访问许可证服务器软件，您的电脑上要有可用的通信通道或端口。_COMPANY_NAME_ 许可证服务器的默认端口号是 28000。这些默认值如下所列，但可根据需要更改为与您的电脑设置相对应的其他端口号。
+
+# GetUserInput.a166035790bd.title=_COMPANY_NAME_ License Server Configuration
+GetUserInput.a166035790bd.title=_COMPANY_NAME_ 许可证服务器配置
+
+# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
+GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ 通过 PoD 服务器或\n本地许可证服务器提供许可。\n\n请选择想要使用的许可方法：
 
 # GetUserInput.a53ed862b666.title=Choose License Type
 GetUserInput.a53ed862b666.title=选择许可证类型
 
-# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$, then click Next.
-GetUserInput.c58f4202a8ce.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+GetUserInput.c58f4202a8ce.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=选择更多任务
 
-# GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ provides PLM License Server $UGSVERSION$ via a local license server. 
-GetUserInput.d833413bb48e.prompt=$REGISTRY_COMPANY_NAME$ 通过本地许可证服务器提供 PLM 许可证服务器 $UGSVERSION$。
+# GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_ provides PLM License Server $UGS_VERSION$ via a local license server.
+GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_ 通过本地许可证服务器提供 PLM 许可证服务器 $UGS_VERSION$。
 
 # GetUserInput.d833413bb48e.title=Choose License Type
 GetUserInput.d833413bb48e.title=选择许可证类型
 
-# GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$ products use the PLM License Server $UGSVERSION$ from $REGISTRY_COMPANY_NAME$ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
-GetUserInput.d8387e0c8950.prompt=$REGISTRY_COMPANY_NAME$ 产品使用 $REGISTRY_COMPANY_NAME$ Software 提供的 PLM 许可证服务器 $UGSVERSION$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n请选择想要使用的许可方法：
+# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 产品使用 _COMPANY_NAME_ Software 提供的 PLM 许可证服务器 $UGS_VERSION$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n选择想要使用的许可方法：
 
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=选择许可证类型
 
-# GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
-GetUserInput.e821a5059d90.prompt=$REGISTRY_COMPANY_NAME$ 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。如果需要，我们的 PoD 服务器可配置为您的许可证服务器。\n\n请选择想要使用的许可方法：
+# GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。如果需要，我们的“按需授权”服务器可配置为您的许可证服务器。\n\n请选择想要使用的许可方法：
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=选择许可证类型
 
-# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.ebfc5e7890d2.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.ebfc5e7890d2.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.ebfc5e7890d2.title=Select Additional Tasks
 GetUserInput.ebfc5e7890d2.title=选择更多任务
 
-# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=选择安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ 时希望安装程序执行的更多任务，然后单击“下一步”。
+# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+GetUserInput.fbd51d65bcc1.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 时希望安装程序执行的更多任务，然后单击“下一步”。
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=选择更多任务
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use Siemens PLM Software. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary. To turn off the Product Excellence Program edit the star/config/sitesettings.props file to ProductExcellenceProgram=0.
-GetUserInputConsole.757df82f97fe.prompt=产品卓越计划收集客户如何使用 Siemens PLM Software 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。要关闭产品卓越计划，请编辑 star/config/sitesettings.props 文件，将其中的参数设置为 ProductExcellenceProgram=0。
+# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+GetUserInputConsole.757df82f97fe.prompt=产品卓越计划收集客户如何使用 _COMPANY_NAME_ _BUSINESS_UNIT_ 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。
 
 # GetUserInputConsole.757df82f97fe.title=Product Excellence Program
 GetUserInputConsole.757df82f97fe.title=产品卓越计划
@@ -1534,8 +1573,8 @@ GUIComponentData.09531f37b18f.label=创建桌面图标
 # GUIComponentData.09531f38b18d.defaultValue=Selected
 GUIComponentData.09531f38b18d.defaultValue=Selected
 
-# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.09531f38b18d.label=更新 Windows 防火墙以允许 Simcenter STAR-CCM+ 运行
+# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.09531f38b18d.label=更新 Windows 防火墙以允许 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 运行
 
 # GUIComponentData.09531f47b18f.defaultValue=Not Selected
 GUIComponentData.09531f47b18f.defaultValue=Not Selected
@@ -1570,8 +1609,8 @@ GUIComponentData.229a23b6be60.label=仅为当前用户创建快捷方式
 # GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
-# GUIComponentData.2469fbd4a625.label=Create file associations for Simcenter STAR-CCM+ VR file
-GUIComponentData.2469fbd4a625.label=为 Simcenter STAR-CCM+ VR 文件创建文件关联
+# GUIComponentData.2469fbd4a625.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
+GUIComponentData.2469fbd4a625.label=为 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ 文件创建文件关联
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
@@ -1618,8 +1657,8 @@ GUIComponentData.3cd99868ae8b.label=创建桌面图标
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
 GUIComponentData.3cd99869ae89.defaultValue=Selected
 
-# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.3cd99869ae89.label=更新 Windows 防火墙以允许 Simcenter STAR-CCM+ 运行
+# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.3cd99869ae89.label=更新 Windows 防火墙以允许 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 运行
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
@@ -1636,8 +1675,8 @@ GUIComponentData.411f00519f69.label=创建桌面图标
 # GUIComponentData.411f00519f6a.defaultValue=Not Selected
 GUIComponentData.411f00519f6a.defaultValue=Not Selected
 
-# GUIComponentData.411f00519f6a.label=Create file associations for Simcenter STAR-CCM+ VR file
-GUIComponentData.411f00519f6a.label=为 Simcenter STAR-CCM+ VR 文件创建文件关联
+# GUIComponentData.411f00519f6a.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
+GUIComponentData.411f00519f6a.label=为 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ 文件创建文件关联
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -1684,8 +1723,8 @@ GUIComponentData.5a15d3d7a615.label=本地：在此电脑上安装并配置 Flex
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
-# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow Simcenter STAR-CCM+ to run
-GUIComponentData.5f8bc9ab8e25.label=更新 Windows 防火墙以允许 Simcenter STAR-CCM+ 运行
+# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
+GUIComponentData.5f8bc9ab8e25.label=更新 Windows 防火墙以允许 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 运行
 
 # GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
@@ -1786,14 +1825,14 @@ GUIComponentData.857a41eba144.label=资源组名称
 # GUIComponentData.8fe1749ab49d.defaultValue=Selected
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
-# GUIComponentData.8fe1749ab49d.label=Configure new Job Manager
-GUIComponentData.8fe1749ab49d.label=配置新的作业管理器
+# GUIComponentData.8fe1749ab49d.label=Configure new $RT_JOB_MANAGER$
+GUIComponentData.8fe1749ab49d.label=配置新的 $RT_JOB_MANAGER$
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
-# GUIComponentData.8fe180d9b49d.label=Upgrade existing Job Manager
-GUIComponentData.8fe180d9b49d.label=更新现有作业管理器
+# GUIComponentData.8fe180d9b49d.label=Upgrade existing $RT_JOB_MANAGER$
+GUIComponentData.8fe180d9b49d.label=升级现有 $RT_JOB_MANAGER$
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
@@ -1873,6 +1912,48 @@ GUIComponentData.9c455b20b16b.defaultValue=Not Selected
 # GUIComponentData.9c455b20b16b.label=TLS
 GUIComponentData.9c455b20b16b.label=TLS
 
+# GUIComponentData.a15d24e08d58.defaultValue=
+GUIComponentData.a15d24e08d58.defaultValue=
+
+# GUIComponentData.a15d24e08d58.label=
+GUIComponentData.a15d24e08d58.label=
+
+# GUIComponentData.a15d24e08d59.defaultValue=$DEF_SERVER1$
+GUIComponentData.a15d24e08d59.defaultValue=$DEF_SERVER1$
+
+# GUIComponentData.a15d24e08d59.label=License server 1 ( REQUIRED )
+GUIComponentData.a15d24e08d59.label=许可证服务器 1（必需）
+
+# GUIComponentData.a15d24e08d5a.defaultValue=
+GUIComponentData.a15d24e08d5a.defaultValue=
+
+# GUIComponentData.a15d24e08d5a.label=License server 2
+GUIComponentData.a15d24e08d5a.label=许可证服务器 2
+
+# GUIComponentData.a15d24e08d5b.defaultValue=
+GUIComponentData.a15d24e08d5b.defaultValue=
+
+# GUIComponentData.a15d24e08d5b.label=License server 3
+GUIComponentData.a15d24e08d5b.label=许可证服务器 3
+
+# GUIComponentData.a15d24e08d5c.defaultValue=Not Selected
+GUIComponentData.a15d24e08d5c.defaultValue=Not Selected
+
+# GUIComponentData.a15d24e08d5c.label=Three Machine redundant license server
+GUIComponentData.a15d24e08d5c.label=三机冗余许可证服务器
+
+# GUIComponentData.a166035790bf.defaultValue=
+GUIComponentData.a166035790bf.defaultValue=
+
+# GUIComponentData.a166035790bf.label=
+GUIComponentData.a166035790bf.label=
+
+# GUIComponentData.a166035790c0.defaultValue=$UGS_PORT_NUMBER$
+GUIComponentData.a166035790c0.defaultValue=$UGS_PORT_NUMBER$
+
+# GUIComponentData.a166035790c0.label=Enter the License port number:
+GUIComponentData.a166035790c0.label=输入许可证端口号：
+
 # GUIComponentData.b80bfad59d4c.defaultValue=Selected
 GUIComponentData.b80bfad59d4c.defaultValue=Selected
 
@@ -1894,8 +1975,8 @@ GUIComponentData.d8387e0c8953.label=网络：将此电脑配置为可以访问�
 # GUIComponentData.d8387e0d8953.defaultValue=Selected
 GUIComponentData.d8387e0d8953.defaultValue=Selected
 
-# GUIComponentData.d8387e0d8953.label=Local: Install and configure Siemens PLM License Server on this machine 
-GUIComponentData.d8387e0d8953.label=本地：在此电脑上安装并配置 PLM 许可证服务器
+# GUIComponentData.d8387e0d8953.label=Local: Install and configure $COMPANY_NAME$ PLM License Server on this machine 
+GUIComponentData.d8387e0d8953.label=本地：在此电脑上安装并配置 $COMPANY_NAME$ PLM 许可证服务器
 
 # GUIComponentData.d8b757c7aba9.defaultValue=Selected
 GUIComponentData.d8b757c7aba9.defaultValue=Selected
@@ -2068,11 +2149,38 @@ GUIGroupData.9c455b21b169.caption=
 # GUIGroupData.9c455b21b16a.caption=
 GUIGroupData.9c455b21b16a.caption=
 
+# GUIGroupData.a15d24e18d57.caption=
+GUIGroupData.a15d24e18d57.caption=
+
+# GUIGroupData.a15d24e18d58.caption=
+GUIGroupData.a15d24e18d58.caption=
+
+# GUIGroupData.a15d24e18d59.caption=
+GUIGroupData.a15d24e18d59.caption=
+
+# GUIGroupData.a15d24e18d5a.caption=
+GUIGroupData.a15d24e18d5a.caption=
+
+# GUIGroupData.a15d24e18d5b.caption=
+GUIGroupData.a15d24e18d5b.caption=
+
+# GUIGroupData.a166035890be.caption=
+GUIGroupData.a166035890be.caption=
+
+# GUIGroupData.a166035890bf.caption=
+GUIGroupData.a166035890bf.caption=
+
 # GUIGroupData.a5412c2687af.caption=
 GUIGroupData.a5412c2687af.caption=
 
 # GUIGroupData.c58f4203a8d1.caption=
 GUIGroupData.c58f4203a8d1.caption=
+
+# GUIGroupData.d833413cb490.caption=
+GUIGroupData.d833413cb490.caption=
+
+# GUIGroupData.d8387e0d8952.caption=
+GUIGroupData.d8387e0d8952.caption=
 
 # GUIGroupData.e6e769618c38.caption=
 GUIGroupData.e6e769618c38.caption=
@@ -2095,23 +2203,23 @@ InstallBundle.42b88820ae92.description=设置客户端安装必需的最少文�
 # InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.bundleName=Star-CCM+
 
-# InstallBundle.850018f38467.description=This feature installs all files needed for running the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ package.
-InstallBundle.850018f38467.description=此功能安装运行 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 软件包需要的所有文件。
+# InstallBundle.850018f38467.description=This feature installs all files needed for running the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package.
+InstallBundle.850018f38467.description=此功能安装运行 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 软件包需要的所有文件。
 
-# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.7317fed1a37e.message=恭喜：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.作为 CAE 提供商。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=安装完成
 
-# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$(R) 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd89f531898a.message=恭喜：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.作为 CAE 提供商。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=安装完成
 
-# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n$ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n\n
+# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd8f22d0980e.message=恭喜：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=安装完成
@@ -2122,8 +2230,8 @@ InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVE
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=安装完成
 
-# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n $ADDREMOVE_COMPANY_NAME$$REGISTRY_PRODUCT_NAME$$PRESENTATION_VERSION$软件 $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参见 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 软件 $WINDOWS_TYPE$ 安装已经完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参见 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.作为 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 提供商。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
@@ -2164,8 +2272,8 @@ InstallDirAction.59b3a9e8ae1b.prompt=想要在哪里安装 FLEXNet？
 # InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
 InstallDirAction.59b3a9e8ae1b.stepTitle=选择安装位置
 
-# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install Siemens PLM License Server $UGSVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.d861fe0f9e7b.additionalText=安装程序将把 Siemens PLM 许可证服务器 $UGSVERSION$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
+# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install _COMPANY_NAME_ PLM License Server $UGS_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+InstallDirAction.d861fe0f9e7b.additionalText=安装程序将把 _COMPANY_NAME_ PLM 许可证服务器 $UGS_VERSION$ 安装至以下文件夹。\n\n要继续，请单击“下一步”。想要选择其他文件夹，请单击“选择”。
 
 # InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
 InstallDirAction.d861fe0f9e7b.prompt=想要在哪里安装 PLM 许可证服务器？
@@ -2176,8 +2284,8 @@ InstallDirAction.d861fe0f9e7b.stepTitle=选择安装位置
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
-# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$?
-InstallDirActionConsole.b90620fd80f1.prompt=希望在哪里安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$？
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$?
+InstallDirActionConsole.b90620fd80f1.prompt=希望在哪里安装 _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$？
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 InstallDirActionConsole.b90620fd80f1.stepTitle=选择安装位置
@@ -2269,14 +2377,14 @@ InstallerInfoData.850018f28450.email=
 # InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 InstallerInfoData.850018f28450.installerName=STARCCMPLUS
 
-# InstallerInfoData.850018f28450.installerTitle=Simcenter _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
-InstallerInfoData.850018f28450.installerTitle=Simcenter _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+# InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
 
 # InstallerInfoData.850018f28450.productDescription=
 InstallerInfoData.850018f28450.productDescription=
 
-# InstallerInfoData.850018f28450.productName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-InstallerInfoData.850018f28450.productName=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
+# InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$（内部版本号 $STARCCMPLUS_VERSION$）
 
 # InstallerInfoData.850018f28450.productURL=
 InstallerInfoData.850018f28450.productURL=
@@ -2284,8 +2392,8 @@ InstallerInfoData.850018f28450.productURL=
 # InstallerInfoData.850018f28450.supportURL=
 InstallerInfoData.850018f28450.supportURL=
 
-# InstallerInfoData.850018f28450.vendorName=Siemens
-InstallerInfoData.850018f28450.vendorName=Siemens
+# InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
+InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.850018f28450.vendorURL=
 InstallerInfoData.850018f28450.vendorURL=
@@ -2317,14 +2425,41 @@ InstallFinishAction.12ff4db9947b.rebootRequiredMessage=需要重启系统以完�
 # InstallFinishAction.12ff4db9947b.windowTitle=Install Complete
 InstallFinishAction.12ff4db9947b.windowTitle=安装完成
 
+# InstallFinishAction.149435d5a001.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.149435d5a001.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.149435d5a001.installSuccessMessage=Congratulations:\n\nThe installation of PLM License Server $UGS_VERSION$ has been completed successfully.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.149435d5a001.installSuccessMessage=恭喜：\n\nPLM 许可证服务器 $UGS_VERSION$ 安装已经成功完成。\n\n按“已完成”退出安装程序。
+
+# InstallFinishAction.149435d5a001.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.149435d5a001.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.149435d5a001.launchText=
+InstallFinishAction.149435d5a001.launchText=
+
+# InstallFinishAction.149435d5a001.rebootNotNeededMessage=
+InstallFinishAction.149435d5a001.rebootNotNeededMessage=
+
+# InstallFinishAction.149435d5a001.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.149435d5a001.rebootRecommendedMessage=应重启系统以完成安装。
+
+# InstallFinishAction.149435d5a001.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.149435d5a001.rebootRequiredMessage=需要重启系统以完成安装。
+
+# InstallFinishAction.149435d5a001.windowTitle=Install Complete
+InstallFinishAction.149435d5a001.windowTitle=安装完成
+
 # InstallFinishAction.850018e3843a.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
 # InstallFinishAction.850018e3843a.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
-# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$® 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+# InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -2350,8 +2485,8 @@ InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$ 安装已
 # InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
-# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup Job Manager as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.9741505abaf9.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n\n作为 Linux 服务的安装程序作业管理器已配置，且将在重启时自动启动。\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.9741505abaf9.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n作为 Linux 服务的安装程序 Setup _RT_JOB_MANAGER_ 已配置，且将在重启时自动启动。\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -2377,8 +2512,8 @@ InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 安装已
 # InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
-# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing Siemens Product Lifecycle Management Software Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至:\n\n$USER_INSTALL_DIR$:\n\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择西门子产品生命周期管理软件有限公司作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -2461,8 +2596,8 @@ InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
 # InstallSet.4405b8b89114.installSetName=Custom
 InstallSet.4405b8b89114.installSetName=自定义
 
-# InstallSet.850018f38466.description=Install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
-InstallSet.850018f38466.description=安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 软件包，这通常是大部分用户的选择。这包括本地或远程 FLEXNet 许可证服务器的选项。
+# InstallSet.850018f38466.description=Install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+InstallSet.850018f38466.description=安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 软件包，这通常是大部分用户的选择。这包括本地或远程 FLEXNet 许可证服务器的选项。
 
 # InstallSet.850018f38466.imageName=typical.png
 InstallSet.850018f38466.imageName=typical.png
@@ -2548,11 +2683,11 @@ IntroActionConsole.c7dc1e698d4b.message=正要卸载...\n\nFLEXNet $FLEXlmVERSIO
 # IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
 IntroActionConsole.c7dc1e698d4b.title=卸载 FLEXNet
 
-# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=正要卸载...\n\n$ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择取消以退出卸载程序。
+# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7e016579491.message=正要卸载...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\n这会移除 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。请选择“取消”以退出卸载程序。
 
-# IntroActionConsole.c7e016579491.title=Uninstall $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$
-IntroActionConsole.c7e016579491.title=卸载 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$
+# IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$
+IntroActionConsole.c7e016579491.title=卸载 _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
@@ -2703,6 +2838,15 @@ MakeRegEntry.6afdba6281f7.value=$USER_INSTALL_DIR$\\starfish.ico
 
 # MakeRegEntry.6afdba6281f7.valueName=DisplayIcon
 MakeRegEntry.6afdba6281f7.valueName=DisplayIcon
+
+# MakeRegEntry.a198b89b8d6c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.a198b89b8d6c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.a198b89b8d6c.value=$USER_MAGIC_FOLDER_16$\\starfish.ico
+MakeRegEntry.a198b89b8d6c.value=$USER_MAGIC_FOLDER_16$\\starfish.ico
+
+# MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
+MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
 
 # MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
 MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
@@ -2902,8 +3046,8 @@ PromptUserConsole.2d6f494abb0c.option2Label=取消
 # PromptUserConsole.2d6f494abb0c.title=Warning
 PromptUserConsole.2d6f494abb0c.title=警告
 
-# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of Job Manager in console mode. Please use the standard GUI method of installation.
-PromptUserConsole.ab47a9fa8483.message=安装程序不支持在控制台模式下设置和配置作业管理器。请使用标准 GUI 安装方法。
+# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of _RT_JOB_MANAGER_ in console mode. Please use the standard GUI method of installation.
+PromptUserConsole.ab47a9fa8483.message=安装程序不支持在控制台模式下设置和配置 _RT_JOB_MANAGER_。请使用标准 GUI 安装方法。
 
 # PromptUserConsole.ab47a9fa8483.option0Label=OK
 PromptUserConsole.ab47a9fa8483.option0Label=确定
@@ -2926,14 +3070,14 @@ ShowDialogAction.00ba7f0290e5.cancelButtonLabel=取消
 # ShowDialogAction.00ba7f0290e5.detailsButtonLabel=Details...
 ShowDialogAction.00ba7f0290e5.detailsButtonLabel=详情...
 
-# ShowDialogAction.00ba7f0290e5.label=Job Manager Installation Not Found
-ShowDialogAction.00ba7f0290e5.label=未找到作业管理器安装
+# ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ Installation Not Found
+ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ Installation 未找到
 
-# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where Job Manager is installed.
-ShowDialogAction.00ba7f0290e5.narrative=请重新选择作业管理器的安装位置。
+# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where _RT_JOB_MANAGER_ is installed.
+ShowDialogAction.00ba7f0290e5.narrative=请重新选择安装 _RT_JOB_MANAGER_ 的位置。
 
-# ShowDialogAction.00ba7f0290e5.title=Job Manager Installation Not Found
-ShowDialogAction.00ba7f0290e5.title=未找到作业管理器安装
+# ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation Not Found
+ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation 未找到
 
 # ShowDialogAction.00be631590fb.buttonLabel=OK
 ShowDialogAction.00be631590fb.buttonLabel=确定
@@ -3145,8 +3289,8 @@ ShowDialogAction.026fc1a8b518.detailsButtonLabel=详情...
 # ShowDialogAction.026fc1a8b518.label=Error occurred while installing the service with operating system authentication.
 ShowDialogAction.026fc1a8b518.label=通过操作系统身份验证安装服务时出错。
 
-# ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.026fc1a8b518.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.026fc1a8b518.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.026fc1a8b518.title=Error
 ShowDialogAction.026fc1a8b518.title=错误
@@ -3178,11 +3322,11 @@ ShowDialogAction.0667c733a78a.cancelButtonLabel=取消
 # ShowDialogAction.0667c733a78a.detailsButtonLabel=Details...
 ShowDialogAction.0667c733a78a.detailsButtonLabel=详情...
 
-# ShowDialogAction.0667c733a78a.label=Error occurred while performing upgrade to Job Manager
-ShowDialogAction.0667c733a78a.label=升级作业管理器时出错
+# ShowDialogAction.0667c733a78a.label=Error occurred while performing upgrade to _RT_JOB_MANAGER_
+ShowDialogAction.0667c733a78a.label=升级 _RT_JOB_MANAGER_ 时出错
 
-# ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0667c733a78a.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0667c733a78a.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.0667c733a78a.title=Error
 ShowDialogAction.0667c733a78a.title=错误
@@ -3199,8 +3343,8 @@ ShowDialogAction.066cf8f2a78c.detailsButtonLabel=详情...
 # ShowDialogAction.066cf8f2a78c.label=Error occurred while using operating system authentication.
 ShowDialogAction.066cf8f2a78c.label=使用操作系统验证时出错。
 
-# ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.066cf8f2a78c.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.066cf8f2a78c.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.066cf8f2a78c.title=Error
 ShowDialogAction.066cf8f2a78c.title=错误
@@ -3217,8 +3361,8 @@ ShowDialogAction.0670a5c0a794.detailsButtonLabel=详情...
 # ShowDialogAction.0670a5c0a794.label=Error occurred while using operating system authentication with email specification.
 ShowDialogAction.0670a5c0a794.label=通过电子邮件指定使用操作系统验证时出错。
 
-# ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0670a5c0a794.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0670a5c0a794.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.0670a5c0a794.title=Error
 ShowDialogAction.0670a5c0a794.title=错误
@@ -3235,8 +3379,8 @@ ShowDialogAction.0672cc40affb.detailsButtonLabel=详情...
 # ShowDialogAction.0672cc40affb.label=Error occurred while using internal authentication.
 ShowDialogAction.0672cc40affb.label=使用内部身份验证时出错。
 
-# ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0672cc40affb.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0672cc40affb.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.0672cc40affb.title=Error
 ShowDialogAction.0672cc40affb.title=错误
@@ -3253,8 +3397,8 @@ ShowDialogAction.0673d489afff.detailsButtonLabel=详情...
 # ShowDialogAction.0673d489afff.label=Error occurred while using internal authentication with email specification.
 ShowDialogAction.0673d489afff.label=通过电子邮件指定使用内部身份验证时出错。
 
-# ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0673d489afff.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.0673d489afff.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.0673d489afff.title=Error
 ShowDialogAction.0673d489afff.title=错误
@@ -3304,11 +3448,11 @@ ShowDialogAction.160d0e4ab6a5.cancelButtonLabel=否
 # ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=Details...
 ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=详情...
 
-# ShowDialogAction.160d0e4ab6a5.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ Installation Found
-ShowDialogAction.160d0e4ab6a5.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 安装
+# ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ Installation Found
+ShowDialogAction.160d0e4ab6a5.label=已找到 _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 安装
 
-# ShowDialogAction.160d0e4ab6a5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ $STARVR_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SVR_NAME$ 组件吗？
+# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ component again?
+ShowDialogAction.160d0e4ab6a5.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 组件吗？
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=警告
@@ -3448,20 +3592,20 @@ ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=取消
 # ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
 ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=详情...
 
-# ShowDialogAction.59b3a9e8ae17.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ executable not found.
-ShowDialogAction.59b3a9e8ae17.label=未找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 可执行文件。
+# ShowDialogAction.59b3a9e8ae17.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.
+ShowDialogAction.59b3a9e8ae17.label=未找到 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 可执行文件。
 
 # ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
 ShowDialogAction.59b3a9e8ae17.narrative=请重新选择安装 $INSTALLER_TITLE$的位置。
 
-# ShowDialogAction.59b3a9e8ae17.title=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Installation Not Found
-ShowDialogAction.59b3a9e8ae17.title=未找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装
+# ShowDialogAction.59b3a9e8ae17.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
+ShowDialogAction.59b3a9e8ae17.title=未找到 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装
 
-# ShowDialogAction.5e846421b690.buttonLabel=Replace
-ShowDialogAction.5e846421b690.buttonLabel=替换
+# ShowDialogAction.5e846421b690.buttonLabel=Yes
+ShowDialogAction.5e846421b690.buttonLabel=是
 
-# ShowDialogAction.5e846421b690.cancelButtonLabel=Keep
-ShowDialogAction.5e846421b690.cancelButtonLabel=保留
+# ShowDialogAction.5e846421b690.cancelButtonLabel=No
+ShowDialogAction.5e846421b690.cancelButtonLabel=否
 
 # ShowDialogAction.5e846421b690.detailsButtonLabel=Details...
 ShowDialogAction.5e846421b690.detailsButtonLabel=详情...
@@ -3469,8 +3613,8 @@ ShowDialogAction.5e846421b690.detailsButtonLabel=详情...
 # ShowDialogAction.5e846421b690.label=PLM License Manager exists
 ShowDialogAction.5e846421b690.label=存在 PLM 许可证管理器
 
-# ShowDialogAction.5e846421b690.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace it with the FLEXlm License server?
-ShowDialogAction.5e846421b690.narrative=安装程序检测到此系统上已安装 Siemens PLM 许可证服务器。是否要将其替换为 FLEXlm 许可证服务器？
+# ShowDialogAction.5e846421b690.narrative=Setup has detected that _COMPANY_NAME_ PLM License server is already installed on this system. Do you want to install the FLEXlm License server?
+ShowDialogAction.5e846421b690.narrative=安装程序检测到此系统上已安装 _COMPANY_NAME_ PLM 许可证服务器。是否要安装 FLEXlm 许可证服务器？
 
 # ShowDialogAction.5e846421b690.title=Information
 ShowDialogAction.5e846421b690.title=信息
@@ -3484,11 +3628,11 @@ ShowDialogAction.5f17661a83c5.cancelButtonLabel=否
 # ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
 ShowDialogAction.5f17661a83c5.detailsButtonLabel=详情...
 
-# ShowDialogAction.5f17661a83c5.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Installation Found
-ShowDialogAction.5f17661a83c5.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装
+# ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Found
+ShowDialogAction.5f17661a83c5.label=已找到 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装
 
-# ShowDialogAction.5f17661a83c5.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ component again?
-ShowDialogAction.5f17661a83c5.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ $STARCCMPLUS_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 组件吗？
+# ShowDialogAction.5f17661a83c5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
+ShowDialogAction.5f17661a83c5.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) 似乎已安装在本电脑上。\n\n希望再次安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件吗？
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=警告
@@ -3505,8 +3649,8 @@ ShowDialogAction.5f7c94b68adf.detailsButtonLabel=详情...
 # ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
 ShowDialogAction.5f7c94b68adf.label=安装 Microsoft Visual C++ 运行库需要管理员权限
 
-# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$.\n\nThese libraries are not installed, please re-run the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installer with administrator privileges 
-ShowDialogAction.5f7c94b68adf.narrative=运行 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 需要 Microsoft Visual C++ 运行时库。\n\n尚未安装这些库，请用管理员权限重新运行 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装程序
+# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$.\n\nThese libraries are not installed, please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges 
+ShowDialogAction.5f7c94b68adf.narrative=运行 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 需要 Microsoft Visual C++ 运行时库。\n\n尚未安装这些库，请用管理员权限重新运行 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 安装程序
 
 # ShowDialogAction.5f7c94b68adf.title=Error
 ShowDialogAction.5f7c94b68adf.title=错误
@@ -3595,8 +3739,8 @@ ShowDialogAction.6d9251ddb0c8.detailsButtonLabel=详情...
 # ShowDialogAction.6d9251ddb0c8.label=SSL certificate selection is empty
 ShowDialogAction.6d9251ddb0c8.label=SSL 证书选择为空
 
-# ShowDialogAction.6d9251ddb0c8.narrative=You have elected to proceed without enabling SSL for Job Manager. Please confirm this selection.
-ShowDialogAction.6d9251ddb0c8.narrative=您已选择继续，而不启用作业管理器的 SSL。请确认此选择。
+# ShowDialogAction.6d9251ddb0c8.narrative=You have elected to proceed without enabling SSL for _RT_JOB_MANAGER_. Please confirm this selection.
+ShowDialogAction.6d9251ddb0c8.narrative=您已选择继续，而不启用 _RT_JOB_MANAGER_ 的 SSL。请确认此选择。
 
 # ShowDialogAction.6d9251ddb0c8.title=Warning
 ShowDialogAction.6d9251ddb0c8.title=警告
@@ -3628,11 +3772,11 @@ ShowDialogAction.7e4d4aee9257.cancelButtonLabel=否
 # ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
 ShowDialogAction.7e4d4aee9257.detailsButtonLabel=详情...
 
-# ShowDialogAction.7e4d4aee9257.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ Installation Found
-ShowDialogAction.7e4d4aee9257.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ 安装
+# ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ Installation Found
+ShowDialogAction.7e4d4aee9257.label=已找到 _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ 安装
 
-# ShowDialogAction.7e4d4aee9257.narrative=The solver component  ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ component again?
-ShowDialogAction.7e4d4aee9257.narrative=求解器组件 ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ $STARVIEW_VERSION$) 似乎已安装在本电脑上。\n\n要再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_SV_NAME$ 组件吗？
+# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ component again?
+ShowDialogAction.7e4d4aee9257.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) 似乎已安装在本电脑上。\n\n要再次安装 _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ 组件吗？
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
@@ -3649,8 +3793,8 @@ ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=详情...
 # ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 ShowDialogAction.7e8620e4a2ee.label=无选定组件
 
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=已取消选中所有 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 组件。\n按“确定”返回组件选择对话框。\n
+# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.7e8620e4a2ee.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件。\n按“确定”返回组件选择对话框。\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
 ShowDialogAction.7e8620e4a2ee.title=警告
@@ -3667,8 +3811,8 @@ ShowDialogAction.812ff9fd8bc2.detailsButtonLabel=详情...
 # ShowDialogAction.812ff9fd8bc2.label=Upgrade option 
 ShowDialogAction.812ff9fd8bc2.label=升级选项
 
-# ShowDialogAction.812ff9fd8bc2.narrative=Upgrade option will stop the existing Job Manager and upgrade to new server. This option would require you to be an admin.
-ShowDialogAction.812ff9fd8bc2.narrative=升级选项将停止现有作业管理器，并升级至新的服务器。此选项要求您是管理员。
+# ShowDialogAction.812ff9fd8bc2.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server. This option would require you to be an admin.
+ShowDialogAction.812ff9fd8bc2.narrative=升级选项将停止现有 _RT_JOB_MANAGER_，并升级至新的服务器。此选项要求您是管理员。
 
 # ShowDialogAction.812ff9fd8bc2.title=Information
 ShowDialogAction.812ff9fd8bc2.title=信息
@@ -3685,8 +3829,8 @@ ShowDialogAction.81340c83adaa.detailsButtonLabel=详情...
 # ShowDialogAction.81340c83adaa.label=Upgrade option
 ShowDialogAction.81340c83adaa.label=升级选项
 
-# ShowDialogAction.81340c83adaa.narrative=Upgrade option will stop the existing Job Manager and upgrade to new server.
-ShowDialogAction.81340c83adaa.narrative=升级选项将停止现有作业管理器，并升级至新的服务器。
+# ShowDialogAction.81340c83adaa.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server.
+ShowDialogAction.81340c83adaa.narrative=升级选项将停止现有 _RT_JOB_MANAGER_，并升级至新的服务器。
 
 # ShowDialogAction.81340c83adaa.title=Information
 ShowDialogAction.81340c83adaa.title=信息
@@ -3739,8 +3883,8 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=详情...
 # ShowDialogAction.85b5743ab480.label=No Component Selected
 ShowDialogAction.85b5743ab480.label=无选定组件
 
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=已取消选中所有 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 组件。\n按“确定”返回组件选择对话框。\n
+# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+ShowDialogAction.85b5743ab480.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件。\n按“确定”返回组件选择对话框。\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=警告
@@ -3754,11 +3898,11 @@ ShowDialogAction.8d01b100a261.cancelButtonLabel=否
 # ShowDialogAction.8d01b100a261.detailsButtonLabel=Details...
 ShowDialogAction.8d01b100a261.detailsButtonLabel=详情...
 
-# ShowDialogAction.8d01b100a261.label=$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation Installation Found
-ShowDialogAction.8d01b100a261.label=已找到 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 文档安装
+# ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation Installation Found
+ShowDialogAction.8d01b100a261.label=已找到 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 文档安装
 
-# ShowDialogAction.8d01b100a261.narrative=The solver component ($ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ Documentation component again?
-ShowDialogAction.8d01b100a261.narrative=求解器组件（$ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 文档）似乎已安装在本电脑上。\n\n要再次安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 文档组件吗？
+# ShowDialogAction.8d01b100a261.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
+ShowDialogAction.8d01b100a261.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_) 似乎已安装在本电脑上。\n\n 希望再次安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件吗？
 
 # ShowDialogAction.8d01b100a261.title=Warning
 ShowDialogAction.8d01b100a261.title=警告
@@ -3781,6 +3925,114 @@ ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$�
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=错误
 
+# ShowDialogAction.a15d24e18d60.buttonLabel=OK
+ShowDialogAction.a15d24e18d60.buttonLabel=确定
+
+# ShowDialogAction.a15d24e18d60.cancelButtonLabel=Cancel
+ShowDialogAction.a15d24e18d60.cancelButtonLabel=取消
+
+# ShowDialogAction.a15d24e18d60.detailsButtonLabel=Details...
+ShowDialogAction.a15d24e18d60.detailsButtonLabel=详情...
+
+# ShowDialogAction.a15d24e18d60.label=Invalid Port@Host Entered
+ShowDialogAction.a15d24e18d60.label=输入的端口@主机无效
+
+# ShowDialogAction.a15d24e18d60.narrative=$ERR_OUT_STRING$
+ShowDialogAction.a15d24e18d60.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.a15d24e18d60.title=Invalid Input
+ShowDialogAction.a15d24e18d60.title=无效输入
+
+# ShowDialogAction.a166035790b2.buttonLabel=OK
+ShowDialogAction.a166035790b2.buttonLabel=确定
+
+# ShowDialogAction.a166035790b2.cancelButtonLabel=Cancel
+ShowDialogAction.a166035790b2.cancelButtonLabel=取消
+
+# ShowDialogAction.a166035790b2.detailsButtonLabel=Details...
+ShowDialogAction.a166035790b2.detailsButtonLabel=详情...
+
+# ShowDialogAction.a166035790b2.label=No Administrative Privileges
+ShowDialogAction.a166035790b2.label=无管理员权限
+
+# ShowDialogAction.a166035790b2.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.a166035790b2.narrative=需要拥有管理员权限才能配置许可证服务器。请用管理员权限运行此安装程序
+
+# ShowDialogAction.a166035790b2.title=Error
+ShowDialogAction.a166035790b2.title=错误
+
+# ShowDialogAction.a166035790c3.buttonLabel=Next
+ShowDialogAction.a166035790c3.buttonLabel=下一步
+
+# ShowDialogAction.a166035790c3.cancelButtonLabel=Previous
+ShowDialogAction.a166035790c3.cancelButtonLabel=上一步
+
+# ShowDialogAction.a166035790c3.detailsButtonLabel=Details...
+ShowDialogAction.a166035790c3.detailsButtonLabel=详情...
+
+# ShowDialogAction.a166035790c3.label=Invalid license file.
+ShowDialogAction.a166035790c3.label=许可证文件无效。
+
+# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+ShowDialogAction.a166035790c3.narrative=文件 $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
+
+# ShowDialogAction.a166035790c3.title=ERROR
+ShowDialogAction.a166035790c3.title=错误
+
+# ShowDialogAction.a2273d0c9c30.buttonLabel=OK
+ShowDialogAction.a2273d0c9c30.buttonLabel=确定
+
+# ShowDialogAction.a2273d0c9c30.cancelButtonLabel=Cancel
+ShowDialogAction.a2273d0c9c30.cancelButtonLabel=取消
+
+# ShowDialogAction.a2273d0c9c30.detailsButtonLabel=Details...
+ShowDialogAction.a2273d0c9c30.detailsButtonLabel=详情...
+
+# ShowDialogAction.a2273d0c9c30.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
+ShowDialogAction.a2273d0c9c30.label=在配置 $COMPANY_NAME$ PLM 许可证服务时发生错误。
+
+# ShowDialogAction.a2273d0c9c30.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a2273d0c9c30.narrative=配置 $COMPANY_NAME$ PLM 许可证服务时到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+
+# ShowDialogAction.a2273d0c9c30.title=Error
+ShowDialogAction.a2273d0c9c30.title=错误
+
+# ShowDialogAction.a22951689cfd.buttonLabel=OK
+ShowDialogAction.a22951689cfd.buttonLabel=确定
+
+# ShowDialogAction.a22951689cfd.cancelButtonLabel=Cancel
+ShowDialogAction.a22951689cfd.cancelButtonLabel=取消
+
+# ShowDialogAction.a22951689cfd.detailsButtonLabel=Details...
+ShowDialogAction.a22951689cfd.detailsButtonLabel=详情...
+
+# ShowDialogAction.a22951689cfd.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
+ShowDialogAction.a22951689cfd.label=在配置 $COMPANY_NAME$ PLM 许可证服务时发生错误。
+
+# ShowDialogAction.a22951689cfd.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a22951689cfd.narrative=配置 $COMPANY_NAME$ PLM 许可证服务时到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+
+# ShowDialogAction.a22951689cfd.title=Error
+ShowDialogAction.a22951689cfd.title=错误
+
+# ShowDialogAction.a559a02a89f6.buttonLabel=OK
+ShowDialogAction.a559a02a89f6.buttonLabel=确定
+
+# ShowDialogAction.a559a02a89f6.cancelButtonLabel=Cancel
+ShowDialogAction.a559a02a89f6.cancelButtonLabel=取消
+
+# ShowDialogAction.a559a02a89f6.detailsButtonLabel=Details...
+ShowDialogAction.a559a02a89f6.detailsButtonLabel=详情...
+
+# ShowDialogAction.a559a02a89f6.label=No Administrative Privileges
+ShowDialogAction.a559a02a89f6.label=无管理员权限
+
+# ShowDialogAction.a559a02a89f6.narrative=You need to have admin privileges to configure a license server. Please run this installer with administrative privileges.
+ShowDialogAction.a559a02a89f6.narrative=需要拥有管理员权限才能配置许可证服务器。请用管理员权限运行此安装程序。
+
+# ShowDialogAction.a559a02a89f6.title=Warning
+ShowDialogAction.a559a02a89f6.title=警告
+
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=确定
 
@@ -3796,8 +4048,8 @@ ShowDialogAction.a9b1812d954e.label=文件未找到。
 # ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
 ShowDialogAction.a9b1812d954e.narrative=未找到 star-inventor.dll。\n\n请找到此文件并手动为其注册。
 
-# ShowDialogAction.a9b1812d954e.title=STAR-Inventor
-ShowDialogAction.a9b1812d954e.title=STAR-Inventor
+# ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ShowDialogAction.a9b1812e9550.buttonLabel=OK
 ShowDialogAction.a9b1812e9550.buttonLabel=确定
@@ -3814,8 +4066,8 @@ ShowDialogAction.a9b1812e9550.label=文件未找到。\n
 # ShowDialogAction.a9b1812e9550.narrative=StarInventorFMTree.ocx not found.\n\nPlease find this file and register it manually.
 ShowDialogAction.a9b1812e9550.narrative=未找到 StarInventorFMTree.ocx。\n\n请找到此文件并手动为其注册。
 
-# ShowDialogAction.a9b1812e9550.title=STAR-Inventor
-ShowDialogAction.a9b1812e9550.title=STAR-Inventor
+# ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ShowDialogAction.ac738a0e87eb.buttonLabel=OK
 ShowDialogAction.ac738a0e87eb.buttonLabel=确定
@@ -3829,8 +4081,8 @@ ShowDialogAction.ac738a0e87eb.detailsButtonLabel=详情...
 # ShowDialogAction.ac738a0e87eb.label=Error occurred while installing the service with internal authentication along with email specification.
 ShowDialogAction.ac738a0e87eb.label=通过电子邮件指定进行内部身份验证安装服务时出错。
 
-# ShowDialogAction.ac738a0e87eb.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ac738a0e87eb.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.ac738a0e87eb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ac738a0e87eb.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.ac738a0e87eb.title=Error
 ShowDialogAction.ac738a0e87eb.title=错误
@@ -3847,8 +4099,8 @@ ShowDialogAction.ae41167387fe.detailsButtonLabel=详情...
 # ShowDialogAction.ae41167387fe.label=Error occurred while installing the service with internal authentication.
 ShowDialogAction.ae41167387fe.label=通过内部身份验证安装服务时出错。
 
-# ShowDialogAction.ae41167387fe.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ae41167387fe.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.ae41167387fe.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ae41167387fe.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.ae41167387fe.title=Error
 ShowDialogAction.ae41167387fe.title=错误
@@ -3865,8 +4117,8 @@ ShowDialogAction.b133105b93cd.detailsButtonLabel=详情...
 # ShowDialogAction.b133105b93cd.label=Error occurred while installing the service with operating system authentication along with email specification.
 ShowDialogAction.b133105b93cd.label=通过电子邮件指定进行操作系统身份验证安装服务时出错。
 
-# ShowDialogAction.b133105b93cd.narrative=A problem was encountered during the configuration of Job Manager. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.b133105b93cd.narrative=配置作业管理器时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+# ShowDialogAction.b133105b93cd.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.b133105b93cd.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
 
 # ShowDialogAction.b133105b93cd.title=Error
 ShowDialogAction.b133105b93cd.title=错误
@@ -3880,8 +4132,8 @@ ShowDialogAction.b1714b5b9abd.cancelButtonLabel=取消
 # ShowDialogAction.b1714b5b9abd.detailsButtonLabel=Details...
 ShowDialogAction.b1714b5b9abd.detailsButtonLabel=详情...
 
-# ShowDialogAction.b1714b5b9abd.label=Service User Name cannot be empty.
-ShowDialogAction.b1714b5b9abd.label=服务用户名不能为空。
+# ShowDialogAction.b1714b5b9abd.label=Service User Name cannot be empty and it cannot be \"root\".
+ShowDialogAction.b1714b5b9abd.label=服务用户名不能为空，且不能为 \"root\"。
 
 # ShowDialogAction.b1714b5b9abd.narrative=Please enter valid Service User Name to proceed.
 ShowDialogAction.b1714b5b9abd.narrative=请输入有效的服务用户名以继续。
@@ -3937,11 +4189,11 @@ ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=详情...
 # ShowDialogAction.c21a9a0faaeb.label=Warning
 ShowDialogAction.c21a9a0faaeb.label=警告
 
-# ShowDialogAction.c21a9a0faaeb.narrative=To configure STAR-NX, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous STAR-NX version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
-ShowDialogAction.c21a9a0faaeb.narrative=要配置 STAR-NX，UGII_CUSTOM_DIRECTORY_FILE 环境变量将会更新。\n\n环境变量目前设置为：\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n也可以通过修改UGII_CUSTOM_DIRECTORY_FILE 环境变量为上述值恢复以前的 STAR-NX 版本。
+# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+ShowDialogAction.c21a9a0faaeb.narrative=要配置 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_，UGII_CUSTOM_DIRECTORY_FILE 环境变量将会更新。\n\n环境变量目前设置为：\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n也可以通过修改 UGII_CUSTOM_DIRECTORY_FILE 环境变量为上述值恢复以前的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 版本。
 
-# ShowDialogAction.c21a9a0faaeb.title=STAR-NX configuration
-ShowDialogAction.c21a9a0faaeb.title=STAR-NX 配置
+# ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ configuration
+ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 配置
 
 # ShowDialogAction.cefd463a8fab.buttonLabel=OK
 ShowDialogAction.cefd463a8fab.buttonLabel=确定
@@ -3997,11 +4249,11 @@ ShowDialogAction.d006d826a7d6.narrative=您必须是管理员才能卸载 Linux 
 # ShowDialogAction.d006d826a7d6.title=Information
 ShowDialogAction.d006d826a7d6.title=信息
 
-# ShowDialogAction.d834db1390ec.buttonLabel=Next
-ShowDialogAction.d834db1390ec.buttonLabel=下一步
+# ShowDialogAction.d834db1390ec.buttonLabel=Yes
+ShowDialogAction.d834db1390ec.buttonLabel=是
 
-# ShowDialogAction.d834db1390ec.cancelButtonLabel=Previous
-ShowDialogAction.d834db1390ec.cancelButtonLabel=上一步
+# ShowDialogAction.d834db1390ec.cancelButtonLabel=No
+ShowDialogAction.d834db1390ec.cancelButtonLabel=否
 
 # ShowDialogAction.d834db1390ec.detailsButtonLabel=Details...
 ShowDialogAction.d834db1390ec.detailsButtonLabel=详情...
@@ -4009,65 +4261,11 @@ ShowDialogAction.d834db1390ec.detailsButtonLabel=详情...
 # ShowDialogAction.d834db1390ec.label=PLM License Manager exists
 ShowDialogAction.d834db1390ec.label=存在 PLM 许可证管理器
 
-# ShowDialogAction.d834db1390ec.narrative=Setup has detected that Siemens PLM License server is already installed on this system. Do you want to replace the license file?
-ShowDialogAction.d834db1390ec.narrative=安装程序检测到此系统上已安装 Siemens PLM 许可证服务器。是否要替换许可证文件？
+# ShowDialogAction.d834db1390ec.narrative=Setup has detected that _COMPANY_NAME_ PLM License server is already installed on this system. Do you want to replace the license file?
+ShowDialogAction.d834db1390ec.narrative=安装程序检测到此系统上已安装 _COMPANY_NAME_ PLM 许可证服务器。是否要替换许可证文件？
 
-# ShowDialogAction.d834db1390ec.title=ERROR
-ShowDialogAction.d834db1390ec.title=错误
-
-# ShowDialogAction.d85abda0a5b3.buttonLabel=Next
-ShowDialogAction.d85abda0a5b3.buttonLabel=下一步
-
-# ShowDialogAction.d85abda0a5b3.cancelButtonLabel=Previous
-ShowDialogAction.d85abda0a5b3.cancelButtonLabel=上一步
-
-# ShowDialogAction.d85abda0a5b3.detailsButtonLabel=Details...
-ShowDialogAction.d85abda0a5b3.detailsButtonLabel=详情...
-
-# ShowDialogAction.d85abda0a5b3.label=Invalid license file.
-ShowDialogAction.d85abda0a5b3.label=许可证文件无效。
-
-# ShowDialogAction.d85abda0a5b3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.d85abda0a5b3.narrative=未针对服务器 $LICHOSTNAMEFOUND$ 配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
-
-# ShowDialogAction.d85abda0a5b3.title=ERROR
-ShowDialogAction.d85abda0a5b3.title=错误
-
-# ShowDialogAction.d85abda1a5af.buttonLabel=Previous
-ShowDialogAction.d85abda1a5af.buttonLabel=上一步
-
-# ShowDialogAction.d85abda1a5af.cancelButtonLabel=Previous
-ShowDialogAction.d85abda1a5af.cancelButtonLabel=上一步
-
-# ShowDialogAction.d85abda1a5af.detailsButtonLabel=Details...
-ShowDialogAction.d85abda1a5af.detailsButtonLabel=详情...
-
-# ShowDialogAction.d85abda1a5af.label=Invalid license file.
-ShowDialogAction.d85abda1a5af.label=许可证文件无效。
-
-# ShowDialogAction.d85abda1a5af.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Previous to reselect your license file.
-ShowDialogAction.d85abda1a5af.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 不存在。\n\n请选择“上一步”重新选择许可证文件。
-
-# ShowDialogAction.d85abda1a5af.title=ERROR
-ShowDialogAction.d85abda1a5af.title=错误
-
-# ShowDialogAction.d85abda1a5b4.buttonLabel=Next
-ShowDialogAction.d85abda1a5b4.buttonLabel=下一步
-
-# ShowDialogAction.d85abda1a5b4.cancelButtonLabel=Previous
-ShowDialogAction.d85abda1a5b4.cancelButtonLabel=上一步
-
-# ShowDialogAction.d85abda1a5b4.detailsButtonLabel=Details...
-ShowDialogAction.d85abda1a5b4.detailsButtonLabel=详情...
-
-# ShowDialogAction.d85abda1a5b4.label=Invalid license file.
-ShowDialogAction.d85abda1a5b4.label=许可证文件无效。
-
-# ShowDialogAction.d85abda1a5b4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.d85abda1a5b4.narrative=未针对具有当前 mac 地址的服务器配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
-
-# ShowDialogAction.d85abda1a5b4.title=ERROR
-ShowDialogAction.d85abda1a5b4.title=错误
+# ShowDialogAction.d834db1390ec.title=Information
+ShowDialogAction.d834db1390ec.title=信息
 
 # ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
 ShowDialogAction.dfa3cf219aa5.buttonLabel=确定
@@ -4096,11 +4294,11 @@ ShowDialogAction.e261f38cb277.cancelButtonLabel=取消
 # ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
 ShowDialogAction.e261f38cb277.detailsButtonLabel=详情...
 
-# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$
-ShowDialogAction.e261f38cb277.label=安装 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 需要管理员权限
+# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$
+ShowDialogAction.e261f38cb277.label=安装 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 需要管理员权限
 
-# ShowDialogAction.e261f38cb277.narrative=Please re-run the $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ installer with administrator privileges, or specify the NOADMIN=true option.
-ShowDialogAction.e261f38cb277.narrative=请使用管理员权限重新运行 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_CCMP_NAME$ 安装程序，或指定 NOADMIN=true 选项。
+# ShowDialogAction.e261f38cb277.narrative=Please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges, or specify the NOADMIN=true option.
+ShowDialogAction.e261f38cb277.narrative=请使用管理员权限重新运行 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 安装程序，或指定 NOADMIN=true 选项。
 
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=错误
@@ -4153,8 +4351,8 @@ ShowDialogAction.f71886e6923d.detailsButtonLabel=详情...
 # ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
 ShowDialogAction.f71886e6923d.label=未安装 Windows 修补程序
 
-# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, STAR-CAT5 integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
-ShowDialogAction.f71886e6923d.narrative=在 Windows 上使用 Windows 集成 Catia 需要 Microsoft 修补程序，安装程序不会执行 STAR-CAT5 集成。\n\n如果需要安装程序集成，请在运行安装程序前按以下链接操作。\n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
+# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+ShowDialogAction.f71886e6923d.narrative=在 Windows 上使用 Windows 集成 Catia 需要 Microsoft 修补程序，安装程序不会执行 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ 集成。\n\n如果需要安装程序集成，请在运行安装程序前按以下链接操作。\n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
 ShowDialogAction.f71886e6923d.title=无效操作
@@ -4177,11 +4375,11 @@ ShowDialogAction.fc266f0ba2cc.narrative=在非管理员帐户下无法执行卸�
 # ShowDialogAction.fc266f0ba2cc.title=Error
 ShowDialogAction.fc266f0ba2cc.title=错误
 
-# ShowDialogAction.fe8397b0ac84.buttonLabel=Upgrade
-ShowDialogAction.fe8397b0ac84.buttonLabel=升级
+# ShowDialogAction.fe8397b0ac84.buttonLabel=Yes
+ShowDialogAction.fe8397b0ac84.buttonLabel=是
 
-# ShowDialogAction.fe8397b0ac84.cancelButtonLabel=Keep
-ShowDialogAction.fe8397b0ac84.cancelButtonLabel=保留
+# ShowDialogAction.fe8397b0ac84.cancelButtonLabel=No
+ShowDialogAction.fe8397b0ac84.cancelButtonLabel=否
 
 # ShowDialogAction.fe8397b0ac84.detailsButtonLabel=Details...
 ShowDialogAction.fe8397b0ac84.detailsButtonLabel=详情...
@@ -4189,8 +4387,8 @@ ShowDialogAction.fe8397b0ac84.detailsButtonLabel=详情...
 # ShowDialogAction.fe8397b0ac84.label=FLEXlm License server already exists
 ShowDialogAction.fe8397b0ac84.label=FLEXlm 许可证服务器已存在
 
-# ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to upgrade to Siemens PLM License server?
-ShowDialogAction.fe8397b0ac84.narrative=安装程序检测到此系统上已安装 FLEXlm 许可证服务器。是否要升级至 Siemens PLM 许可证服务器？
+# ShowDialogAction.fe8397b0ac84.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to install _COMPANY_NAME_ PLM License server?
+ShowDialogAction.fe8397b0ac84.narrative=安装程序检测到此系统上已安装 FLEXlm 许可证服务器。是否要安装 _COMPANY_NAME_ PLM 许可证服务器？
 
 # ShowDialogAction.fe8397b0ac84.title=Information
 ShowDialogAction.fe8397b0ac84.title=信息
@@ -4285,8 +4483,8 @@ UninstallCompleteActionConsole.c7e377749840.incompleteMessage=一些项目无法
 # UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
 UninstallCompleteActionConsole.c7e377749840.message=已成功卸载所有项。
 
-# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$.
-UninstallCompleteActionConsole.c7e377749840.skippedMessage=无法卸载 $ADDREMOVE_COMPANY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$。
+# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_.
+UninstallCompleteActionConsole.c7e377749840.skippedMessage=无法卸载 _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_。
 
 # UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
 UninstallCompleteActionConsole.c7e377749840.title=卸载完成
@@ -4302,6 +4500,24 @@ UninstallIntroAction.850018f38454.message=正要卸载...\n\n$INSTALLER_TITLE$$W
 
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.850018f38454.stepTitle=卸载 $INSTALLER_TITLE$
+
+# VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
+VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装目录：
+
+# VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
+VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装目录：
+
+# VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
+VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=产品名称：
+
+# VariablePropertyDataBiDi.0a4455ee8d9c.propertyValue=_COMPANY_NAME_ PLM License Server $UGS_VERSION$
+VariablePropertyDataBiDi.0a4455ee8d9c.propertyValue=_COMPANY_NAME_ PLM 许可证服务器 $UGS_VERSION$
 
 # VariablePropertyDataBiDi.127a86b89bbb.propertyName=Product name:
 VariablePropertyDataBiDi.127a86b89bbb.propertyName=产品名称：
@@ -4327,17 +4543,11 @@ VariablePropertyDataBiDi.2661463ca41b.propertyName=安装目录：
 # VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.2661463ca41b.propertyValue=$STAR_DIRTMP$$/$$STARCCMPLUS_VERSION$
 
-# VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.589447a1865b.propertyName=Simcenter STAR-CCM+ 安装目录：
+# VariablePropertyDataBiDi.a17b3c339c0e.propertyName=License file:
+VariablePropertyDataBiDi.a17b3c339c0e.propertyName=许可证文件：
 
-# VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.589447a1865b.propertyValue=$STAR_DIR$
-
-# VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+ Installation directory:
-VariablePropertyDataBiDi.59b76fa89fb6.propertyName=Simcenter STAR-CCM+ 安装目录：
-
-# VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.59b76fa89fb6.propertyValue=$STAR_DIR$
+# VariablePropertyDataBiDi.a17b3c339c0e.propertyValue=$NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$
+VariablePropertyDataBiDi.a17b3c339c0e.propertyValue=$NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$
 
 # VariablePropertyDataBiDi.d8669dc1baed.propertyName=Installation directory:
 VariablePropertyDataBiDi.d8669dc1baed.propertyName=安装目录：
@@ -4345,27 +4555,11 @@ VariablePropertyDataBiDi.d8669dc1baed.propertyName=安装目录：
 # VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 
-# VariablePropertyDataBiDi.d8669dc2baec.propertyName=Product name:
-VariablePropertyDataBiDi.d8669dc2baec.propertyName=产品名称：
-
-# VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM License Server $UGSVERSION$
-VariablePropertyDataBiDi.d8669dc2baec.propertyValue=Siemens PLM 许可证服务器 $UGSVERSION$
-
-# VariablePropertyDataBiDi.d8669dc2baed.propertyName=License file:
-VariablePropertyDataBiDi.d8669dc2baed.propertyName=许可证文件：
-
-# VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
-VariablePropertyDataBiDi.d8669dc2baed.propertyValue=$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$
-
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=安装目录：
 
 # VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-
-# VariablePropertyDataBiDi.f7bbeadc93b1.propertyValue=$REGISTRY_COMPANY_NAME$ PLM License Server $UGSVERSION$
-VariablePropertyDataBiDi.f7bbeadc93b1.propertyValue=$REGISTRY_COMPANY_NAME$ PLM 许可证服务器 $UGSVERSION$
-
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=许可证服务器 1 port@host：\n

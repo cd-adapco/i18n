@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-17 10:29-0400\n"
+"POT-Creation-Date: 2019-11-19 14:20-0500\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,7 +27,7 @@ msgid "OK"
 msgstr "确定"
 
 #: resourcemanager/controllers/account.py:29
-#: resourcemanager/templates/master.xhtml:70
+#: resourcemanager/templates/master.xhtml:72
 msgid "Change Password"
 msgstr "更改密码"
 
@@ -248,7 +248,7 @@ msgstr "用户目录模板"
 
 #: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
-#: resourcemanager/templates/master.xhtml:43
+#: resourcemanager/templates/master.xhtml:44
 msgid "Submission Templates"
 msgstr "提交模板"
 
@@ -440,7 +440,7 @@ msgid "Created"
 msgstr "已创建"
 
 #: resourcemanager/controllers/admin.py:757 resourcemanager/model/auth.py:70
-#: resourcemanager/templates/master.xhtml:46
+#: resourcemanager/templates/master.xhtml:47
 msgid "Groups"
 msgstr "组"
 
@@ -574,27 +574,27 @@ msgstr "电子邮件地址的域名不存在（@ 之后部分：%(域名)s）"
 
 #: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:22
+#: resourcemanager/templates/master.xhtml:23
 msgid "STAR-CCM+ Job Manager"
 msgstr "STAR-CCM+ 作业管理器"
 
-#: resourcemanager/controllers/root.py:66
+#: resourcemanager/controllers/root.py:81
 msgid "User not found."
 msgstr "未找到用户。"
 
-#: resourcemanager/controllers/root.py:68
+#: resourcemanager/controllers/root.py:83
 msgid "Invalid Password."
 msgstr "密码无效。"
 
-#: resourcemanager/controllers/root.py:72
+#: resourcemanager/controllers/root.py:87
 msgid "Wrong credentials"
 msgstr "凭据错误"
 
-#: resourcemanager/controllers/root.py:90
+#: resourcemanager/controllers/root.py:105
 msgid "Welcome back, {0}!"
 msgstr "欢迎回来，{0}！"
 
-#: resourcemanager/controllers/root.py:104
+#: resourcemanager/controllers/root.py:119
 msgid "Logout successful"
 msgstr "注销成功"
 
@@ -705,44 +705,44 @@ msgstr "组"
 msgid "User"
 msgstr "用户"
 
-#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:46
 msgid "Users"
 msgstr "用户"
 
-#: resourcemanager/model/bl.py:60
+#: resourcemanager/model/bl.py:61
 msgid "The job with the given id: {0} could not be found"
 msgstr "找不到具有指定 id：{0} 的作业"
 
-#: resourcemanager/model/bl.py:115
+#: resourcemanager/model/bl.py:116
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr "为提交创建作业时需要 \"requested_resources\"。"
 
-#: resourcemanager/model/bl.py:121
+#: resourcemanager/model/bl.py:122
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr "必须将 \"walltime\" 指定为浮点秒数。错误：{}"
 
-#: resourcemanager/model/bl.py:130
+#: resourcemanager/model/bl.py:131
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr "不允许创建本地作业/任务。传递提交模板来新建作业。"
 
-#: resourcemanager/model/bl.py:159
+#: resourcemanager/model/bl.py:160
 msgid "Only the owner can submit the job."
 msgstr "只有所有者才能提交作业。"
 
-#: resourcemanager/model/bl.py:161
+#: resourcemanager/model/bl.py:162
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr "提交前，作业必须具有提交模板和请求的 resourcesset。"
 
-#: resourcemanager/model/bl.py:164
+#: resourcemanager/model/bl.py:165
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr "作业已提交，提交 id：%s"
 
-#: resourcemanager/model/bl.py:167
+#: resourcemanager/model/bl.py:168
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr "只能提交待处理的作业。当前作业状态为 %s"
@@ -883,7 +883,7 @@ msgid "Created a new user %s with group membership: %s"
 msgstr "已创建一个新用户 %s，组成员资格为：%s"
 
 #: resourcemanager/model/configuration.py:37
-#: resourcemanager/templates/master.xhtml:42
+#: resourcemanager/templates/master.xhtml:43
 msgid "Resource Groups"
 msgstr "资源组"
 
@@ -904,26 +904,41 @@ msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
 msgstr "关于 Siemens Simcenter STAR-CCM+ 作业管理器"
 
 #: resourcemanager/templates/about.xhtml:18
+msgid "Job Manager Help"
+msgstr "作业管理器帮助"
+
+#: resourcemanager/templates/about.xhtml:22
+msgid "Help Link:"
+msgstr "帮助链接："
+
+#: resourcemanager/templates/about.xhtml:24
+msgid ""
+"\n"
+"                                Job Manager Documentation\n"
+"                            "
+msgstr "\n                                作业管理器文档\n                            "
+
+#: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
 msgstr "作业管理器版本"
 
-#: resourcemanager/templates/about.xhtml:22
+#: resourcemanager/templates/about.xhtml:39
 msgid "Product Version:"
 msgstr "产品版本："
 
-#: resourcemanager/templates/about.xhtml:26
+#: resourcemanager/templates/about.xhtml:43
 msgid "Release Date:"
 msgstr "发布日期："
 
-#: resourcemanager/templates/about.xhtml:35
+#: resourcemanager/templates/about.xhtml:52
 msgid "REST API Version"
 msgstr "REST API 版本"
 
-#: resourcemanager/templates/about.xhtml:39
+#: resourcemanager/templates/about.xhtml:56
 msgid "Latest Version:"
 msgstr "最新版本："
 
-#: resourcemanager/templates/about.xhtml:43
+#: resourcemanager/templates/about.xhtml:60
 msgid "URL:"
 msgstr "URL："
 
@@ -942,7 +957,7 @@ msgstr "错误 "
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
-#: resourcemanager/templates/master.xhtml:63
+#: resourcemanager/templates/master.xhtml:64
 msgid "Login"
 msgstr "登录"
 
@@ -972,46 +987,46 @@ msgstr "使用 OS 密码（对于 \""
 msgid "\". If you need to change or reset your password use your OS procedure."
 msgstr "\"）。如果需要更改或重置密码，请使用 OS 程序。"
 
-#: resourcemanager/templates/master.xhtml:24
+#: resourcemanager/templates/master.xhtml:25
 msgid "Toggle navigation"
 msgstr "切换导航"
 
 #: resourcemanager/templates/master.xhtml:8
-#: resourcemanager/templates/master.xhtml:30
+#: resourcemanager/templates/master.xhtml:31
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr "Simcenter STAR-CCM+ 作业管理器"
 
-#: resourcemanager/templates/master.xhtml:36
+#: resourcemanager/templates/master.xhtml:37
 msgid ""
 "\n"
 "                    Admin"
 msgstr "\n                    管理"
 
-#: resourcemanager/templates/master.xhtml:40
+#: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
 msgstr "管理主页"
 
-#: resourcemanager/templates/master.xhtml:48
+#: resourcemanager/templates/master.xhtml:49
 msgid "Bulk Users Import"
 msgstr "批量用户导入"
 
-#: resourcemanager/templates/master.xhtml:54
+#: resourcemanager/templates/master.xhtml:55
 msgid ""
 "\n"
 "                    Help"
 msgstr "\n                    帮助"
 
-#: resourcemanager/templates/master.xhtml:58
+#: resourcemanager/templates/master.xhtml:59
 msgid "About"
 msgstr "关于"
 
-#: resourcemanager/templates/master.xhtml:66
+#: resourcemanager/templates/master.xhtml:67
 msgid ""
 "\n"
 "                    Account"
 msgstr "\n                    帐户"
 
-#: resourcemanager/templates/master.xhtml:72
+#: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
 msgstr "退出"
 
@@ -1043,4 +1058,7 @@ msgstr " - 新建 "
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ 作业管理器 - "
+
+#~ msgid "Application Config"
+#~ msgstr ""
 
