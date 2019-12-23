@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2019-09-17 10:29-0400\n"
+"POT-Creation-Date: 2019-11-19 14:20-0500\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -27,7 +27,7 @@ msgid "OK"
 msgstr "확인"
 
 #: resourcemanager/controllers/account.py:29
-#: resourcemanager/templates/master.xhtml:70
+#: resourcemanager/templates/master.xhtml:72
 msgid "Change Password"
 msgstr "암호 변경"
 
@@ -244,11 +244,11 @@ msgstr "응용 프로그램 시작 RSH"
 
 #: resourcemanager/controllers/admin.py:273
 msgid "User Directory Template"
-msgstr "사용자 디렉토리 템플릿"
+msgstr "디렉터리:사용자 디렉토리 템플릿"
 
 #: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
-#: resourcemanager/templates/master.xhtml:43
+#: resourcemanager/templates/master.xhtml:44
 msgid "Submission Templates"
 msgstr "제출 템플릿"
 
@@ -440,7 +440,7 @@ msgid "Created"
 msgstr "생성일"
 
 #: resourcemanager/controllers/admin.py:757 resourcemanager/model/auth.py:70
-#: resourcemanager/templates/master.xhtml:46
+#: resourcemanager/templates/master.xhtml:47
 msgid "Groups"
 msgstr "그룹"
 
@@ -574,27 +574,27 @@ msgstr "존재하지 않는 도메인입니다 (@ 뒷부분: %(도메인))"
 
 #: resourcemanager/controllers/admin.py:993
 #: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:22
+#: resourcemanager/templates/master.xhtml:23
 msgid "STAR-CCM+ Job Manager"
 msgstr "STAR-CCM+ Job Manager"
 
-#: resourcemanager/controllers/root.py:66
+#: resourcemanager/controllers/root.py:81
 msgid "User not found."
 msgstr "사용자가 없습니다."
 
-#: resourcemanager/controllers/root.py:68
+#: resourcemanager/controllers/root.py:83
 msgid "Invalid Password."
 msgstr "올바르지 않은 암호."
 
-#: resourcemanager/controllers/root.py:72
+#: resourcemanager/controllers/root.py:87
 msgid "Wrong credentials"
 msgstr "올바르지 않은 자격 증명"
 
-#: resourcemanager/controllers/root.py:90
+#: resourcemanager/controllers/root.py:105
 msgid "Welcome back, {0}!"
 msgstr "{0}님, 환영합니다!"
 
-#: resourcemanager/controllers/root.py:104
+#: resourcemanager/controllers/root.py:119
 msgid "Logout successful"
 msgstr "성공적으로 로그아웃 됐습니다"
 
@@ -705,44 +705,44 @@ msgstr "그룹"
 msgid "User"
 msgstr "사용자"
 
-#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:45
+#: resourcemanager/model/auth.py:109 resourcemanager/templates/master.xhtml:46
 msgid "Users"
 msgstr "사용자"
 
-#: resourcemanager/model/bl.py:60
+#: resourcemanager/model/bl.py:61
 msgid "The job with the given id: {0} could not be found"
 msgstr "ID가 {0}인 작업을 찾을 수 없습니다"
 
-#: resourcemanager/model/bl.py:115
+#: resourcemanager/model/bl.py:116
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr "제출을 위한 작업 생성 시 \"requested_resources\"가 필요합니다."
 
-#: resourcemanager/model/bl.py:121
+#: resourcemanager/model/bl.py:122
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr "\"walltime\"은 플로트 수 (초)로 지정해야 합니다. 오류: {}"
 
-#: resourcemanager/model/bl.py:130
+#: resourcemanager/model/bl.py:131
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr "로컬 작업/타스크 생성은 허용되지 않습니다. 제출 서류 템플릿을 전달해 새 작업을 생성합니다."
 
-#: resourcemanager/model/bl.py:159
+#: resourcemanager/model/bl.py:160
 msgid "Only the owner can submit the job."
 msgstr "소유자만 작업을 제출할 수 있습니다."
 
-#: resourcemanager/model/bl.py:161
+#: resourcemanager/model/bl.py:162
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr "제출 전 작업 템플릿과 요청된 resourcesset이 있어야 합니다."
 
-#: resourcemanager/model/bl.py:164
+#: resourcemanager/model/bl.py:165
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr "작업이 이미 제출된 경우, 제출 id:%s"
 
-#: resourcemanager/model/bl.py:167
+#: resourcemanager/model/bl.py:168
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr "보류 중인 작업만 제출할 수 있습니다. 현재 작업 상태는 %s입니다"
@@ -883,7 +883,7 @@ msgid "Created a new user %s with group membership: %s"
 msgstr "그룹 구성원으로 새로운 사용자 %가 생성됨: %"
 
 #: resourcemanager/model/configuration.py:37
-#: resourcemanager/templates/master.xhtml:42
+#: resourcemanager/templates/master.xhtml:43
 msgid "Resource Groups"
 msgstr "리소스 그룹"
 
@@ -904,26 +904,41 @@ msgid "About Siemens Simcenter STAR-CCM+ Job Manager"
 msgstr "Siemens Simcenter STAR-CCM+ Job Manager 소개"
 
 #: resourcemanager/templates/about.xhtml:18
+msgid "Job Manager Help"
+msgstr "Job Manager 도움말"
+
+#: resourcemanager/templates/about.xhtml:22
+msgid "Help Link:"
+msgstr "도움말 링크:"
+
+#: resourcemanager/templates/about.xhtml:24
+msgid ""
+"\n"
+"                                Job Manager Documentation\n"
+"                            "
+msgstr "\n                                Job Manager 문서\n"
+
+#: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
 msgstr "Job Manager 버전"
 
-#: resourcemanager/templates/about.xhtml:22
+#: resourcemanager/templates/about.xhtml:39
 msgid "Product Version:"
 msgstr "제품 버전:"
 
-#: resourcemanager/templates/about.xhtml:26
+#: resourcemanager/templates/about.xhtml:43
 msgid "Release Date:"
 msgstr "릴리스 일자:"
 
-#: resourcemanager/templates/about.xhtml:35
+#: resourcemanager/templates/about.xhtml:52
 msgid "REST API Version"
 msgstr "REST API 버전"
 
-#: resourcemanager/templates/about.xhtml:39
+#: resourcemanager/templates/about.xhtml:56
 msgid "Latest Version:"
 msgstr "최신 버전:"
 
-#: resourcemanager/templates/about.xhtml:43
+#: resourcemanager/templates/about.xhtml:60
 msgid "URL:"
 msgstr "URL:"
 
@@ -942,7 +957,7 @@ msgstr "오류 "
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
-#: resourcemanager/templates/master.xhtml:63
+#: resourcemanager/templates/master.xhtml:64
 msgid "Login"
 msgstr "로그인"
 
@@ -958,11 +973,11 @@ msgstr " 정보를 기억합니다\n                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
-msgstr "암호를 잊어버린 경우 암호를 재설정 할 수 있습니다. "
+msgstr "암호를 잊어버린 경우 암호를 여기에서 재설정 "
 
 #: resourcemanager/templates/login.xhtml:46
 msgid "here."
-msgstr "여기."
+msgstr "할 수 있습니다."
 
 #: resourcemanager/templates/login.xhtml:51
 msgid "Use the OS password on \""
@@ -972,46 +987,46 @@ msgstr "OS 암호 사용 \""
 msgid "\". If you need to change or reset your password use your OS procedure."
 msgstr "\". 암호를 변경하거나 재설정 해야하는 경우 OS 절차를 사용합니다."
 
-#: resourcemanager/templates/master.xhtml:24
+#: resourcemanager/templates/master.xhtml:25
 msgid "Toggle navigation"
 msgstr "토글 내비게이션"
 
 #: resourcemanager/templates/master.xhtml:8
-#: resourcemanager/templates/master.xhtml:30
+#: resourcemanager/templates/master.xhtml:31
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr "Simcenter STAR-CCM+ Job Manager"
 
-#: resourcemanager/templates/master.xhtml:36
+#: resourcemanager/templates/master.xhtml:37
 msgid ""
 "\n"
 "                    Admin"
 msgstr "\n                    관리"
 
-#: resourcemanager/templates/master.xhtml:40
+#: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
 msgstr "관리자 홈"
 
-#: resourcemanager/templates/master.xhtml:48
+#: resourcemanager/templates/master.xhtml:49
 msgid "Bulk Users Import"
 msgstr "대다수 사용자 가져오기"
 
-#: resourcemanager/templates/master.xhtml:54
+#: resourcemanager/templates/master.xhtml:55
 msgid ""
 "\n"
 "                    Help"
 msgstr "\n                    도움말"
 
-#: resourcemanager/templates/master.xhtml:58
+#: resourcemanager/templates/master.xhtml:59
 msgid "About"
 msgstr "소개"
 
-#: resourcemanager/templates/master.xhtml:66
+#: resourcemanager/templates/master.xhtml:67
 msgid ""
 "\n"
 "                    Account"
 msgstr "\n                    계정"
 
-#: resourcemanager/templates/master.xhtml:72
+#: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
 msgstr "로그아웃"
 
@@ -1043,4 +1058,7 @@ msgstr " - 새로 만들기 "
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ Job Manager - "
+
+#~ msgid "Application Config"
+#~ msgstr ""
 
