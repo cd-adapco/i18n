@@ -3524,7 +3524,7 @@ ShowDialogAction.386900b8be43.detailsButtonLabel=详情...
 ShowDialogAction.386900b8be43.label=在本机上检测到过期许可证服务器
 
 # ShowDialogAction.386900b8be43.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe license server will need to be updated before execution of the software.
-ShowDialogAction.386900b8be43.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n在运行软件之前，需要更新许可证服务器。
+ShowDialogAction.386900b8be43.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$ 许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n在运行软件之前，需要更新许可证服务器。
 
 # ShowDialogAction.386900b8be43.title=Warning: License server
 ShowDialogAction.386900b8be43.title=警告：许可证服务器
@@ -3542,7 +3542,7 @@ ShowDialogAction.38795ea3be4b.detailsButtonLabel=详情...
 ShowDialogAction.38795ea3be4b.label=在本机上检测到过期许可证服务器
 
 # ShowDialogAction.38795ea3be4b.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nPlease choose \"Keep\" to keep the existing license server or \"Upgrade\" to allow the installer to update the license server service.\n\nIf \"Keep\" is chosen, a manual upgrade of the license server will need to be performed before the software can be executed.
-ShowDialogAction.38795ea3be4b.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n请选择“保留”以保留现有许可证服务器或选择“升级”，以允许安装程序更新许可证服务器服务。\n\n如果选择“保留”，则在运行软件之前需要手动升级许可证服务器。
+ShowDialogAction.38795ea3be4b.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$ 许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n请选择“保留”以保留现有许可证服务器或选择“升级”，以允许安装程序更新许可证服务器服务。\n\n如果选择“保留”，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.38795ea3be4b.title=Warning: License server
 ShowDialogAction.38795ea3be4b.title=警告：许可证服务器
@@ -3560,7 +3560,7 @@ ShowDialogAction.38a209debe57.detailsButtonLabel=详情...
 ShowDialogAction.38a209debe57.label=在本机上检测到基于 lmadmin 的过时的许可证服务器
 
 # ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.38a209debe57.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
+ShowDialogAction.38a209debe57.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$ 许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.38a209debe57.title=Warning: License server
 ShowDialogAction.38a209debe57.title=警告：许可证服务器

@@ -354,7 +354,7 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr "请输入天数（可选），并使用格式 HH:MM:SS 指定时间。        示例：5 days, 00:00:00（5 天；注意 00:00:00 为必填项），1 day, 20:3:50（1 天、20 小时、3 分钟        50 秒），00:01:00（1 分钟；注意小时位置的 00 为必填项），100:05:0 （100 小时、 5 分钟；注意秒位置的 0 或        00 为必填项）"
+msgstr "请输入天数（可选），并使用格式 HH:MM:SS 指定时间。        示例：5 days, 00:00:00（5 天；注意 00:00:00 为必填项），1 day, 20:3:50（1 天、20 小时、3 分钟        50 秒），00:01:00（1 分钟；注意小时位置的 00 为必填项），100:05:0 （100 小时、5 分钟；注意秒位置的 0 或        00 为必填项）"
 
 #: resourcemanager/controllers/admin.py:602
 #: resourcemanager/model/configuration.py:36
