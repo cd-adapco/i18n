@@ -880,7 +880,7 @@ msgstr "행에 있는 올바르지 않은 CSV 파일: %d. 사용자 이메일은
 #: resourcemanager/model/bl_account.py:265
 #, python-format
 msgid "Created a new user %s with group membership: %s"
-msgstr "그룹 구성원으로 새로운 사용자 %가 생성됨: %"
+msgstr "그룹 구성원으로 새로운 사용자 %s 가 생성됨: %s"
 
 #: resourcemanager/model/configuration.py:37
 #: resourcemanager/templates/master.xhtml:43
