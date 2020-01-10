@@ -3452,7 +3452,7 @@ ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=詳細...
 ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_インストレーションが見つかりました
 
 # ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_コンポーネントを再度インストールしますか?
+ShowDialogAction.160d0e4ab6a5.narrative=ソルバーコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=警告
@@ -3632,7 +3632,7 @@ ShowDialogAction.5f17661a83c5.detailsButtonLabel=詳細...
 ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションが見つかりました
 
 # ShowDialogAction.5f17661a83c5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
-ShowDialogAction.5f17661a83c5.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを再度インストールしますか?
+ShowDialogAction.5f17661a83c5.narrative=ソルバーコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=警告
@@ -3776,7 +3776,7 @@ ShowDialogAction.7e4d4aee9257.detailsButtonLabel=詳細...
 ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_インストレーションが見つかりました
 
 # ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ component again?
-ShowDialogAction.7e4d4aee9257.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_コンポーネントを再度インストールしますか?
+ShowDialogAction.7e4d4aee9257.narrative=ソルバーコンポーネント(_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_コンポーネントを再度インストールしますか?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
@@ -3902,7 +3902,7 @@ ShowDialogAction.8d01b100a261.detailsButtonLabel=詳細...
 ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ドキュメンテーションインストレーションが見つかりました
 
 # ShowDialogAction.8d01b100a261.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
-ShowDialogAction.8d01b100a261.narrative=ソルバコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーション)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーションコンポーネントを再度インストールしますか?
+ShowDialogAction.8d01b100a261.narrative=ソルバーコンポーネント(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーション)は、以前にこのマシンにインストールされていたようです。\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ ドキュメンテーションコンポーネントを再度インストールしますか?
 
 # ShowDialogAction.8d01b100a261.title=Warning
 ShowDialogAction.8d01b100a261.title=警告
@@ -4352,7 +4352,7 @@ ShowDialogAction.f71886e6923d.detailsButtonLabel=詳細...
 ShowDialogAction.f71886e6923d.label=Windows修正プログラム(Hotfix)がインストールされていません
 
 # ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
-ShowDialogAction.f71886e6923d.narrative=Windows上でWindowsによるCatia統合を可能にするには、Microsoftの修正プログラムが必要です。インストーラによる_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_統合は行われません。\n \nインストーラによる統合が必要な場合は、インストーラを再度実行する前に次のリンクの指示に従ってください。\n \nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
+ShowDialogAction.f71886e6923d.narrative=Windows上でWindowsによるCATIA統合を可能にするには、Microsoftの修正プログラムが必要です。インストーラによる_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_統合は行われません。\n \nインストーラによる統合が必要な場合は、インストーラを再度実行する前に次のリンクの指示に従ってください。\n \nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
 ShowDialogAction.f71886e6923d.title=無効なアクション
