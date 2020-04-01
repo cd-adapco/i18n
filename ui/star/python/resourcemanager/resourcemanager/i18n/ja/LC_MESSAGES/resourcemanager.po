@@ -112,7 +112,10 @@ msgid ""
 "    semicolon-separated list of group names the user should be member of."
 " It must use UTF-8\n"
 "    encoding."
-msgstr "このフォームでは、管理者がCSVファイルを使用してユーザをバルクにインポートすることができます。\n    CSVファイルには、次の列があると予想されます。 ユーザ名、電子メールアドレス、表示名、\n    ユーザがメンバーである必要があるグループ名のセミコロンで区切られたリストです。 UTF-8エンコードを使用しなければなりません。\n"
+msgstr ""
+"このフォームでは、管理者がCSVファイルを使用してユーザをバルクにインポートすることができます。\n"
+"    CSVファイルには、次の列があると予想されます。 ユーザ名、電子メールアドレス、表示名、\n"
+"    ユーザがメンバーである必要があるグループ名のセミコロンで区切られたリストです。 UTF-8エンコードを使用しなければなりません。\n"
 
 #: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
@@ -290,7 +293,9 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
-msgstr "内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
+msgstr ""
+"内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 "
+"元の値が復元されました。"
 
 #: resourcemanager/controllers/admin.py:366
 msgid "Resource Group {} successfully updated."
@@ -309,7 +314,9 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
-msgstr "内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
+msgstr ""
+"内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 "
+"元の値が復元されました。"
 
 #: resourcemanager/controllers/admin.py:407
 msgid "Resource Group {} successfully created."
@@ -354,7 +361,13 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr "Please enter number of days (optional) and specify time with format HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the 00:00:00 is required), 1 day, 20:3:50 (1 day, 20 hrs, 3 min,         50 sec), 00:01:00 (1 min; note the 00 in the hrs place is required), 100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec place)"
+msgstr ""
+"Please enter number of days (optional) and specify time with format "
+"HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the "
+"00:00:00 is required), 1 day, 20:3:50 (1 day, 20 hrs, 3 min,         50 "
+"sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
+"100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
+"place)"
 
 #: resourcemanager/controllers/admin.py:602
 #: resourcemanager/model/configuration.py:36
@@ -512,7 +525,9 @@ msgstr "ユーザーは正常にインポートされました。"
 msgid ""
 "User import failed. All changes were rolled back.\n"
 "Error: {}"
-msgstr "ユーザーインポートに失敗しました。 すべての変更はロールバックされます。\nエラー: {}"
+msgstr ""
+"ユーザーインポートに失敗しました。 すべての変更はロールバックされます。\n"
+"エラー: {}"
 
 #: resourcemanager/controllers/admin.py:961
 msgid "User import failed."
@@ -791,13 +806,26 @@ msgid ""
 "    Best regards,\n"
 "    Job Manager System\n"
 "    "
-msgstr "\n  こんにちは、\n\n  パスワードリセットの要求は、ジョブマネージャアカウントに対して生成されました。\n  このリンクに従って、パスワード{0}をリセットします。 リンクは、{1}時間有効です。\n\n    パスワードリセットを要求しなかった場合は、このメッセージを無視するか、\nシステムに管理者連絡してください。\n\n    敬具、\n    ジョブマネージャシステム\n"
+msgstr ""
+"\n"
+"  こんにちは、\n"
+"\n"
+"  パスワードリセットの要求は、ジョブマネージャアカウントに対して生成されました。\n"
+"  このリンクに従って、パスワード{0}をリセットします。 リンクは、{1}時間有効です。\n"
+"\n"
+"    パスワードリセットを要求しなかった場合は、このメッセージを無視するか、\n"
+"システムに管理者連絡してください。\n"
+"\n"
+"    敬具、\n"
+"    ジョブマネージャシステム\n"
 
 #: resourcemanager/model/bl_account.py:137
 msgid ""
 "Invalid reset password request key. It might have been used already or "
 "you successfully logged in meanwhile. Try to reset the password again."
-msgstr "パスワードのリセット要求キーが無効です。 これは既に使用されているか、またはその一方で正常にログインされている可能性があります。 パスワードを再度リセットしてみてください。"
+msgstr ""
+"パスワードのリセット要求キーが無効です。 これは既に使用されているか、またはその一方で正常にログインされている可能性があります。 "
+"パスワードを再度リセットしてみてください。"
 
 #: resourcemanager/model/bl_account.py:141
 msgid ""
@@ -889,7 +917,7 @@ msgstr "リソースグループ"
 
 #: resourcemanager/model/configuration.py:236
 msgid "Application Config"
-msgstr "アプリケーション構成"
+msgstr ""
 
 #: resourcemanager/model/configuration.py:237
 msgid "Application Configs"
@@ -905,18 +933,18 @@ msgstr "Siemens Simcenter STAR-CCM+ ジョブマネージャバージョン情�
 
 #: resourcemanager/templates/about.xhtml:18
 msgid "Job Manager Help"
-msgstr "ジョブマネージャのヘルプ"
+msgstr ""
 
 #: resourcemanager/templates/about.xhtml:22
 msgid "Help Link:"
-msgstr "ヘルプのリンク:"
+msgstr ""
 
 #: resourcemanager/templates/about.xhtml:24
 msgid ""
 "\n"
 "                                Job Manager Documentation\n"
 "                            "
-msgstr "\n                                ジョブマネージャドキュメンテーション\n                            "
+msgstr ""
 
 #: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
@@ -969,7 +997,9 @@ msgstr "ユーザー名"
 msgid ""
 " remember me\n"
 "                        "
-msgstr " 記憶する\n                        "
+msgstr ""
+" 記憶する\n"
+"                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
@@ -1000,7 +1030,9 @@ msgstr "Simcenter STAR-CCM+ ジョブマネージャ"
 msgid ""
 "\n"
 "                    Admin"
-msgstr "\n                    管理"
+msgstr ""
+"\n"
+"                    管理"
 
 #: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
@@ -1014,7 +1046,9 @@ msgstr "バルクユーザインポート"
 msgid ""
 "\n"
 "                    Help"
-msgstr "\n                    ヘルプ"
+msgstr ""
+"\n"
+"                    ヘルプ"
 
 #: resourcemanager/templates/master.xhtml:59
 msgid "About"
@@ -1024,7 +1058,9 @@ msgstr "バージョン情報"
 msgid ""
 "\n"
 "                    Account"
-msgstr "\n                    アカウント"
+msgstr ""
+"\n"
+"                    アカウント"
 
 #: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
@@ -1060,5 +1096,5 @@ msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ ジョブマネージャ -"
 
 #~ msgid "Application Config"
-#~ msgstr ""
+#~ msgstr "アプリケーション構成"
 
