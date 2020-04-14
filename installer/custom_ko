@@ -17,7 +17,7 @@
 #     that cannot be represented by ASCII characters should be written using escaped unicode.
 #     - see the utility 'native2ascii' distributed with your JDK
 #
-# Product Name: $SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# Product Name: _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 # Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package_7z.iap_xml
 # Generated:    Wed Jul 11 13:45:45 EDT 2018
 
@@ -109,12 +109,6 @@ ChooseFolder.85678ebc8c0d.prompt=폴더를 선택하십시오:
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=기존 _RT_JOB_MANAGER_ 위치 선택
 
-# CreateDialog.29fccfaca483.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-CreateDialog.29fccfaca483.prompt=지금 $SERVICE_NAME$ License Server Manager를 중지하고 제거하시겠습니까?
-
-# CreateDialog.29fccfaca483.title=Stop the Server
-CreateDialog.29fccfaca483.title=서버 중지
-
 # CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
 CreateDialog.757df82f97fd.prompt=Product Excellence Program은 고객이 _COMPANY_NAME_ _BUSINESS_UNIT_을(를) 사용하는 방식과 관련한 정보를 수집합니다. 이 정보는 고객 요구사항을 더욱 잘 충족시킬 수 있도록 제품 기능을 개선하는데 사용됩니다. 개인 정보나 지식 자산 정보는 일절 수집 또는 공유되지 않습니다. 제품 성능에 영향을 미치지 않으며, 프로그램 참여는 자발적으로 이뤄집니다.
 
@@ -160,8 +154,8 @@ CreateShortcut.1aa8bf9c9717.workingDir=
 # CreateShortcut.2de0b8dc9238.args=
 CreateShortcut.2de0b8dc9238.args=
 
-# CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de0b8dc9238.workingDir=
 CreateShortcut.2de0b8dc9238.workingDir=
@@ -169,8 +163,8 @@ CreateShortcut.2de0b8dc9238.workingDir=
 # CreateShortcut.2de4337e8b03.args=
 CreateShortcut.2de4337e8b03.args=
 
-# CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.2de4337e8b03.workingDir=
 CreateShortcut.2de4337e8b03.workingDir=
@@ -178,8 +172,8 @@ CreateShortcut.2de4337e8b03.workingDir=
 # CreateShortcut.412245f8a3db.args=
 CreateShortcut.412245f8a3db.args=
 
-# CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.412245f8a3db.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.412245f8a3db.workingDir=
 CreateShortcut.412245f8a3db.workingDir=
@@ -187,8 +181,8 @@ CreateShortcut.412245f8a3db.workingDir=
 # CreateShortcut.4123775fa3dc.args=
 CreateShortcut.4123775fa3dc.args=
 
-# CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.4123775fa3dc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.4123775fa3dc.workingDir=
 CreateShortcut.4123775fa3dc.workingDir=
@@ -196,8 +190,8 @@ CreateShortcut.4123775fa3dc.workingDir=
 # CreateShortcut.94113b058204.args=
 CreateShortcut.94113b058204.args=
 
-# CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.94113b058204.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.94113b058204.workingDir=
 CreateShortcut.94113b058204.workingDir=
@@ -205,8 +199,8 @@ CreateShortcut.94113b058204.workingDir=
 # CreateShortcut.9413496e8208.args=
 CreateShortcut.9413496e8208.args=
 
-# CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.9413496e8208.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.9413496e8208.workingDir=
 CreateShortcut.9413496e8208.workingDir=
@@ -214,8 +208,8 @@ CreateShortcut.9413496e8208.workingDir=
 # CreateShortcut.9416ec508215.args=
 CreateShortcut.9416ec508215.args=
 
-# CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.9416ec508215.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.9416ec508215.workingDir=
 CreateShortcut.9416ec508215.workingDir=
@@ -223,8 +217,8 @@ CreateShortcut.9416ec508215.workingDir=
 # CreateShortcut.9417923b821a.args=
 CreateShortcut.9417923b821a.args=
 
-# CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.9417923b821a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.9417923b821a.workingDir=
 CreateShortcut.9417923b821a.workingDir=
@@ -232,8 +226,8 @@ CreateShortcut.9417923b821a.workingDir=
 # CreateShortcut.9418dab08a79.args=
 CreateShortcut.9418dab08a79.args=
 
-# CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.9418dab08a79.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.9418dab08a79.workingDir=
 CreateShortcut.9418dab08a79.workingDir=
@@ -241,8 +235,8 @@ CreateShortcut.9418dab08a79.workingDir=
 # CreateShortcut.941a08878a7d.args=
 CreateShortcut.941a08878a7d.args=
 
-# CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.941a08878a7d.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.941a08878a7d.workingDir=
 CreateShortcut.941a08878a7d.workingDir=
@@ -250,8 +244,8 @@ CreateShortcut.941a08878a7d.workingDir=
 # CreateShortcut.941af5b78a81.args=
 CreateShortcut.941af5b78a81.args=
 
-# CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.941af5b78a81.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.941af5b78a81.workingDir=
 CreateShortcut.941af5b78a81.workingDir=
@@ -259,8 +253,8 @@ CreateShortcut.941af5b78a81.workingDir=
 # CreateShortcut.941b0edf8a86.args=
 CreateShortcut.941b0edf8a86.args=
 
-# CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.941b0edf8a86.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.941b0edf8a86.workingDir=
 CreateShortcut.941b0edf8a86.workingDir=
@@ -268,8 +262,8 @@ CreateShortcut.941b0edf8a86.workingDir=
 # CreateShortcut.94640642bd9f.args=
 CreateShortcut.94640642bd9f.args=
 
-# CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.94640642bd9f.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.94640642bd9f.workingDir=
 CreateShortcut.94640642bd9f.workingDir=
@@ -286,8 +280,8 @@ CreateShortcut.94649fda9fe1.workingDir=
 # CreateShortcut.9465295a8118.args=
 CreateShortcut.9465295a8118.args=
 
-# CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.9465295a8118.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.9465295a8118.workingDir=
 CreateShortcut.9465295a8118.workingDir=
@@ -304,8 +298,8 @@ CreateShortcut.9465c552a258.workingDir=
 # CreateShortcut.9466c0598c7d.args=
 CreateShortcut.9466c0598c7d.args=
 
-# CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.9466c0598c7d.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.9466c0598c7d.workingDir=
 CreateShortcut.9466c0598c7d.workingDir=
@@ -313,8 +307,8 @@ CreateShortcut.9466c0598c7d.workingDir=
 # CreateShortcut.946795c9ade2.args=
 CreateShortcut.946795c9ade2.args=
 
-# CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
@@ -322,8 +316,8 @@ CreateShortcut.946795c9ade2.workingDir=
 # CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9d61b24aac76.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9d61b24aac76.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
@@ -331,8 +325,8 @@ CreateShortcut.9d61b24aac76.workingDir=
 # CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9d83036eb16c.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9d83036eb16c.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9d83036eb16c.workingDir=
 CreateShortcut.9d83036eb16c.workingDir=
@@ -340,8 +334,8 @@ CreateShortcut.9d83036eb16c.workingDir=
 # CreateShortcut.9ecf1c648a8a.args=
 CreateShortcut.9ecf1c648a8a.args=
 
-# CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ecf1c648a8a.workingDir=
 CreateShortcut.9ecf1c648a8a.workingDir=
@@ -349,8 +343,8 @@ CreateShortcut.9ecf1c648a8a.workingDir=
 # CreateShortcut.9ed06f718a8a.args=
 CreateShortcut.9ed06f718a8a.args=
 
-# CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
@@ -376,8 +370,8 @@ CreateShortcut.9ed4fc328a8a.workingDir=
 # CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9ed750578a8a.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed750578a8a.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed750578a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ed750578a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed750578a8a.workingDir=
 CreateShortcut.9ed750578a8a.workingDir=
@@ -385,8 +379,8 @@ CreateShortcut.9ed750578a8a.workingDir=
 # CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9ed7805c8a8a.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed7805c8a8a.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed7805c8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ed7805c8a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed7805c8a8a.workingDir=
 CreateShortcut.9ed7805c8a8a.workingDir=
@@ -394,8 +388,8 @@ CreateShortcut.9ed7805c8a8a.workingDir=
 # CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9ed79bb88a8a.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed79bb88a8a.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed79bb88a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ed79bb88a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed79bb88a8a.workingDir=
 CreateShortcut.9ed79bb88a8a.workingDir=
@@ -403,8 +397,8 @@ CreateShortcut.9ed79bb88a8a.workingDir=
 # CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 
-# CreateShortcut.9ed7b4ce8a8a.destinationName=Release Notes $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9ed7b4ce8a8a.destinationName=릴리스 노트 $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9ed7b4ce8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9ed7b4ce8a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9ed7b4ce8a8a.workingDir=
 CreateShortcut.9ed7b4ce8a8a.workingDir=
@@ -448,8 +442,8 @@ CreateShortcut.9ed9c1c28e73.workingDir=
 # CreateShortcut.9edb511b8e74.args=
 CreateShortcut.9edb511b8e74.args=
 
-# CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9edb511b8e74.workingDir=
 CreateShortcut.9edb511b8e74.workingDir=
@@ -457,8 +451,8 @@ CreateShortcut.9edb511b8e74.workingDir=
 # CreateShortcut.9eded2c68e76.args=
 CreateShortcut.9eded2c68e76.args=
 
-# CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.9eded2c68e76.workingDir=
 CreateShortcut.9eded2c68e76.workingDir=
@@ -466,8 +460,8 @@ CreateShortcut.9eded2c68e76.workingDir=
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
 
-# CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.caa364a8a2b0.workingDir=
 CreateShortcut.caa364a8a2b0.workingDir=
@@ -475,8 +469,8 @@ CreateShortcut.caa364a8a2b0.workingDir=
 # CreateShortcut.cb11e682a2c8.args=
 CreateShortcut.cb11e682a2c8.args=
 
-# CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cb11e682a2c8.workingDir=
 CreateShortcut.cb11e682a2c8.workingDir=
@@ -502,8 +496,8 @@ CreateShortcut.cd1330779add.workingDir=
 # CreateShortcut.cfd2e50abbfc.args=
 CreateShortcut.cfd2e50abbfc.args=
 
-# CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.cfd2e50abbfc.workingDir=
 CreateShortcut.cfd2e50abbfc.workingDir=
@@ -511,8 +505,8 @@ CreateShortcut.cfd2e50abbfc.workingDir=
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
 
-# CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
+# CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # CreateShortcut.d138a370858c.workingDir=
 CreateShortcut.d138a370858c.workingDir=
@@ -520,8 +514,8 @@ CreateShortcut.d138a370858c.workingDir=
 # CreateShortcut.d5cf21bb9aa3.args=
 CreateShortcut.d5cf21bb9aa3.args=
 
-# CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.d5cf21bb9aa3.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.d5cf21bb9aa3.workingDir=
 CreateShortcut.d5cf21bb9aa3.workingDir=
@@ -529,8 +523,8 @@ CreateShortcut.d5cf21bb9aa3.workingDir=
 # CreateShortcut.d5d067689aa4.args=
 CreateShortcut.d5d067689aa4.args=
 
-# CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
-CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $PRESENTATION_VERSION$ (Build $STARVR_VERSION$)
+# CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
+CreateShortcut.d5d067689aa4.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ _REL_PRESENTATION_VERSION_ ($STARVR_VERSION$)
 
 # CreateShortcut.d5d067689aa4.workingDir=
 CreateShortcut.d5d067689aa4.workingDir=
@@ -538,8 +532,8 @@ CreateShortcut.d5d067689aa4.workingDir=
 # CreateShortcut.eb99cf1b90cb.args=
 CreateShortcut.eb99cf1b90cb.args=
 
-# CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.eb99cf1b90cb.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.eb99cf1b90cb.workingDir=
 CreateShortcut.eb99cf1b90cb.workingDir=
@@ -547,8 +541,8 @@ CreateShortcut.eb99cf1b90cb.workingDir=
 # CreateShortcut.eb9ba32a90d0.args=
 CreateShortcut.eb9ba32a90d0.args=
 
-# CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.eb9ba32a90d0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.eb9ba32a90d0.workingDir=
 CreateShortcut.eb9ba32a90d0.workingDir=
@@ -556,8 +550,8 @@ CreateShortcut.eb9ba32a90d0.workingDir=
 # CreateShortcut.eb9fc19aa18e.args=
 CreateShortcut.eb9fc19aa18e.args=
 
-# CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.eb9fc19aa18e.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.eb9fc19aa18e.workingDir=
 CreateShortcut.eb9fc19aa18e.workingDir=
@@ -565,8 +559,8 @@ CreateShortcut.eb9fc19aa18e.workingDir=
 # CreateShortcut.eba29649a3bb.args=
 CreateShortcut.eba29649a3bb.args=
 
-# CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
-CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $PRESENTATION_VERSION$ (Build $STARVIEW_VERSION$)
+# CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
+CreateShortcut.eba29649a3bb.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ _REL_PRESENTATION_VERSION_ ($STARVIEW_VERSION$)
 
 # CreateShortcut.eba29649a3bb.workingDir=
 CreateShortcut.eba29649a3bb.workingDir=
@@ -594,6 +588,12 @@ DisplayMessage.731d4085b4cc.message=축하합니다.\n￼\n￼￼ $INSTALLER_TIT
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=설치 완료
+
+# EditEnvironment.02e7a6838b54.value=$UGS_LICENSE_FILE$
+EditEnvironment.02e7a6838b54.value=$UGS_LICENSE_FILE$
+
+# EditEnvironment.030cb62f8b5e.value=$UGS_LICENSE_FILE$
+EditEnvironment.030cb62f8b5e.value=$UGS_LICENSE_FILE$
 
 # EditEnvironment.3dce195db5da.value=$ccm_LICENSE_FILE$
 EditEnvironment.3dce195db5da.value=$ccm_LICENSE_FILE$
@@ -651,9 +651,6 @@ EditEnvironment.cea5a8079ece.value=disable
 
 # EditEnvironment.cea5a8079ed2.value=disable
 EditEnvironment.cea5a8079ed2.value=disable
-
-# EntryAtomBiDi.66117b82a1fc.label=Stop server now
-EntryAtomBiDi.66117b82a1fc.label=지금 서버 중지
 
 # EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
 EntryAtomBiDi.757df83097fd.label=Product Excellence Program에 참여
@@ -717,12 +714,6 @@ Exec.fd261c999d36.dialogLabel=원격 실행 서비스 제거 중...
 
 # Exec.fd261c999d36.title=Unregister Intel MPI
 Exec.fd261c999d36.title=Intel MPI 등록 취소
-
-# Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.fdbca601be0a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B24$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.fdbca601be0a.title=attrib +R
-Exec.fdbca601be0a.title=attrib + R
 
 # ExecuteScript.00c21a869971.title=To check if the hostname is valid
 ExecuteScript.00c21a869971.title=호스트네임이 유효한지 확인하기
@@ -823,12 +814,6 @@ ExecuteScript.0fae5f3192b2.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 
 # ExecuteScript.14b03569831d.title=Register Platform-MPI remote launch service...
 ExecuteScript.14b03569831d.title=플랫폼-MPI 원격 시작 서비스 등록 ...
 
-# ExecuteScript.180e17dab16a.title=redist
-ExecuteScript.180e17dab16a.title=redist
-
-# ExecuteScript.1810e0b0bbd6.title=redist
-ExecuteScript.1810e0b0bbd6.title=redist
-
 # ExecuteScript.1ce4d224b707.title=Delete All Users Start Menu FLEXnet License Administration Tools
 ExecuteScript.1ce4d224b707.title=모든 사용자 삭제 시작 메뉴 FLEXnet 라이선스 관리 도구
 
@@ -844,8 +829,8 @@ ExecuteScript.1d6403f68b3f.title=win7 + fw 업데이트
 # ExecuteScript.1d9439d39990.title=delete share 
 ExecuteScript.1d9439d39990.title=공유 삭제 
 
-# ExecuteScript.29fb7235a3f7.title=configure windows-service
-ExecuteScript.29fb7235a3f7.title=windows 서비스 구성
+# ExecuteScript.29fb7235a3f7.title=Remove _COMPANY_NAME_ windows-service
+ExecuteScript.29fb7235a3f7.title=_COMPANY_NAME_ Windows 서비스 제거
 
 # ExecuteScript.32453f939fe1.title=extract English documentation
 ExecuteScript.32453f939fe1.title=영어 문서 추출
@@ -931,17 +916,14 @@ ExecuteScript.3fc1bbc9835b.title=STAR-NX-1872 추출
 # ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 ExecuteScript.41fcc8debe2f.title=Java JDK 제거
 
-# ExecuteScript.420284278cb9.title=Uninstall Flexlm
-ExecuteScript.420284278cb9.title=Flexlm 제거
+# ExecuteScript.420284278cb9.title=Uninstall Flexlm-linux
+ExecuteScript.420284278cb9.title=Flexlm-linux 제거
 
 # ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
 ExecuteScript.4834719b95fe.title=STAR-INVENTOR-ALL 추출
 
 # ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
 ExecuteScript.483683ac9bbb.title=STAR-CREO-4 추출
-
-# ExecuteScript.4837ebf89e7a.title=extract STAR-NX-9
-ExecuteScript.4837ebf89e7a.title=STAR-NX-9 추출
 
 # ExecuteScript.48387819a0cf.title=extract STAR-NX-10
 ExecuteScript.48387819a0cf.title=STAR-NX-10 추출
@@ -951,9 +933,6 @@ ExecuteScript.4838b698a18e.title=STAR-NX-11 추출
 
 # ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
 ExecuteScript.4838bdf3a1ec.title=STAR-NX-12 추출
-
-# ExecuteScript.483c0ac9ad91.title=extract STAR-CAT5-24
-ExecuteScript.483c0ac9ad91.title=STAR-CAT5-24 추출
 
 # ExecuteScript.483c1468adef.title=extract STAR-CAT5-25
 ExecuteScript.483c1468adef.title=STAR-CAT5-25 추출
@@ -1000,8 +979,8 @@ ExecuteScript.4b9dc9f2b248.title=모든 사용자 64 bit Desktop _SOFTWARE_FAMIL
 # ExecuteScript.4b9dc9f2b249.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
 ExecuteScript.4b9dc9f2b249.title=모든 사용자 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 바로가기 삭제
 
-# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_V Shortcut
-ExecuteScript.4b9dc9f2b24b.title=로컬 사용자 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_V 바로가기 삭제
+# ExecuteScript.4b9dc9f2b24b.title=Delete Local User 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
+ExecuteScript.4b9dc9f2b24b.title=로컬 사용자 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 바로가기 삭제
 
 # ExecuteScript.4b9dc9f2b24d.title=Delete All Users Start Menu FLEXnet License Administration Guide
 ExecuteScript.4b9dc9f2b24d.title=모든 사용자 시작 메뉴 FLEXnet 라이선스 관리 가이드삭제
@@ -1042,6 +1021,9 @@ ExecuteScript.4b9dca01b265.title=로컬 사용자 시작 메뉴 샘플 .sce 바�
 # ExecuteScript.5388b2febaa3.title=Tidy integration remove 7z
 ExecuteScript.5388b2febaa3.title=깔끔한 통합 제거 7z
 
+# ExecuteScript.56f97e549453.title=Configure _COMPANY_NAME_ UGS Linux
+ExecuteScript.56f97e549453.title=_COMPANY_NAME_ UGS Linux 구성
+
 # ExecuteScript.5aac78558549.title=Tidy Flexlm
 ExecuteScript.5aac78558549.title=깔끔한 Flexlm
 
@@ -1054,32 +1036,26 @@ ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions �
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=현재 라이선스 서버를 제거해 업그레이드 실시
 
-# ExecuteScript.6c6dd8e28506.title=Uninstall Flexlm
-ExecuteScript.6c6dd8e28506.title=Flexlm 제거
+# ExecuteScript.6c6dd8e28506.title=Uninstall Flexlm-windows
+ExecuteScript.6c6dd8e28506.title=Flexlm-windows 제거
 
 # ExecuteScript.6d1b9101b4b5.title=Update win7+ fw
 ExecuteScript.6d1b9101b4b5.title=win7 + fw 업데이트
 
-# ExecuteScript.740378ec942f.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.740378ec942f.dialogLabel=설치 중 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..잠시 기다려 주십시오
+# ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.740378ec942f.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.740378ec942f.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
 ExecuteScript.740378ec942f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 추출
 
-# ExecuteScript.74308ded90ca.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.74308ded90ca.dialogLabel=설치 중 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..잠시 기다려 주십시오
+# ExecuteScript.74308ded90ca.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.74308ded90ca.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.74308ded90ca.title=Move folder
 ExecuteScript.74308ded90ca.title=폴더 이동
 
-# ExecuteScript.7c69be3d8d4f.title=Removing $USER_INSTALL_DIR$$/$vs2008sp1 directory.
-ExecuteScript.7c69be3d8d4f.title=$USER_INSTALL_DIR$$/$vs2008sp1 디렉토리 제거.
-
-# ExecuteScript.7c9569ecb719.title=Configure STAR-NX 9 for all users
-ExecuteScript.7c9569ecb719.title=모든 사용자를 위한 STAR-NX 9 구성
-
-# ExecuteScript.7d08ee059041.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_  $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
-ExecuteScript.7d08ee059041.dialogLabel=_SOFTWARE_FAMILY_NAME_  $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ 설치 중 .. 잠시만 기다려 주십시오
+# ExecuteScript.7d08ee059041.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_  _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ ..Please wait a moment
+ExecuteScript.7d08ee059041.dialogLabel=_SOFTWARE_FAMILY_NAME_  _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.7d08ee059041.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 추출
@@ -1107,9 +1083,6 @@ ExecuteScript.854f8a30b6da.title=업그레이드
 
 # ExecuteScript.8572fc4196af.title=get hostname
 ExecuteScript.8572fc4196af.title=호스트네임 가져오기
-
-# ExecuteScript.869af93c87fd.title=extract STAR-CREO-2
-ExecuteScript.869af93c87fd.title=STAR-CREO-2 추출
 
 # ExecuteScript.8a733e5f912b.title=Uninstall Java JDK
 ExecuteScript.8a733e5f912b.title=Java JDK 제거
@@ -1165,17 +1138,14 @@ ExecuteScript.a198b89d8d78.title=.plmrc 생성
 # ExecuteScript.a198b8a18d9a.title=create .plmrc
 ExecuteScript.a198b8a18d9a.title=.plmrc 생성
 
-# ExecuteScript.a1acbd988da2.title=Configure Siemens PLM windows
-ExecuteScript.a1acbd988da2.title=Siemens PLM windows 구성
+# ExecuteScript.a1acbd988da2.title=Configure _COMPANY_NAME_ UGS windows
+ExecuteScript.a1acbd988da2.title=_COMPANY_NAME_ UGS windows 구성
 
-# ExecuteScript.a1af21768da6.title=Configure Siemens PLM Linux
-ExecuteScript.a1af21768da6.title=Siemens PLM Linux 구성
+# ExecuteScript.a25073798d79.title=Remove _COMPANY_NAME_ UGS-windows service
+ExecuteScript.a25073798d79.title=_COMPANY_NAME_ UGS-windows 서비스 제거
 
-# ExecuteScript.a25073798d79.title=configure Siemens-windows service
-ExecuteScript.a25073798d79.title=Siemens-windows 서비스 구성
-
-# ExecuteScript.a564a27789f8.title=configure Siemens-linux service
-ExecuteScript.a564a27789f8.title=Siemens-linux 서비스 구성
+# ExecuteScript.a564a27789f8.title=Remove _COMPANY_NAME_ UGS-linux service
+ExecuteScript.a564a27789f8.title=_COMPANY_NAME_ UGS-linux 서비스 제거
 
 # ExecuteScript.a80ae0d0818b.title=Delete All Users 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
 ExecuteScript.a80ae0d0818b.title=모든 사용자 64 bit Desktop _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 바로가기 삭제
@@ -1249,20 +1219,20 @@ ExecuteScript.cea5a8089ecf.title=인텔 MPI Hydra 서비스 설치
 # ExecuteScript.cee16638adee.title=Configure STAR-NX 11 for all users
 ExecuteScript.cee16638adee.title=모든 사용자를 위한 STAR-NX 11 구성
 
-# ExecuteScript.d669d3788804.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ ..Please wait a moment
-ExecuteScript.d669d3788804.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$STARCCMPLUS_VERSION$ 설치 중 ..잠시 기다려 주십시오
+# ExecuteScript.d669d3788804.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
+ExecuteScript.d669d3788804.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.d669d3788804.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
 ExecuteScript.d669d3788804.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 추출
 
-# ExecuteScript.d66f4b7e8807.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ ..Please wait a moment
-ExecuteScript.d66f4b7e8807.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VR$ 설치 중 ..잠시 기다려 주십시오
+# ExecuteScript.d66f4b7e8807.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ ..Please wait a moment
+ExecuteScript.d66f4b7e8807.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.d66f4b7e8807.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_
 ExecuteScript.d66f4b7e8807.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 추출
 
-# ExecuteScript.d674f57c8818.dialogLabel=Installing $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VIEWER$ ..Please wait a moment
-ExecuteScript.d674f57c8818.dialogLabel=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$$PVIZ_VIEWER$ 설치 중 ..잠시 기다려 주십시오
+# ExecuteScript.d674f57c8818.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ ..Please wait a moment
+ExecuteScript.d674f57c8818.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 설치 중... 잠시 기다려 주십시오.
 
 # ExecuteScript.d674f57c8818.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.d674f57c8818.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 추출
@@ -1330,8 +1300,8 @@ ExecuteScript.f7ce86aba575.title=네트워크 설치에 제품 아이콘 추가/
 # ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 ExecuteScript.fd24625e9457.title=인텔 MPI Hydra 서비스 설치
 
-# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_, then click Next.
-GetUserInput.07762bd5ba98.prompt=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 설치 중 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
+# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
+GetUserInput.07762bd5ba98.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 설치 중 설치 프로그램이 수행할 추가 작업을 선택하고 다음을 클릭하십시오.
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=추가 작업 선택
@@ -1366,6 +1336,12 @@ GetUserInput.21099aa9bdbd.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 제�
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 GetUserInput.21099aa9bdbd.title=추가 작업 선택
 
+# GetUserInput.222d858a9bf8.prompt=Do you want to uninstall the _COMPANY_NAME_ PLM License Server now?
+GetUserInput.222d858a9bf8.prompt=_COMPANY_NAME_ PLM License Server를 지금 제거하시겠습니까?
+
+# GetUserInput.222d858a9bf8.title=Uninstall _COMPANY_NAME_ PLM License Server
+GetUserInput.222d858a9bf8.title=_COMPANY_NAME_ PLM License Server 제거
+
 # GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 GetUserInput.3642fdbebce8.prompt=\"port@host\" 형식을 사용해 FLEXNet 라이선스 서버의 TCP/IP 포트와 호스트네임을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 세 개 장치에 중복 라이선스 서버를 설치하시려면 그에 알맞게 선택하십시오.
 
@@ -1384,8 +1360,8 @@ GetUserInput.411f00519f65.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 # GetUserInput.411f00519f65.title=Select Additional Tasks
 GetUserInput.411f00519f65.title=추가 작업 선택
 
-# GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager now?
-GetUserInput.4202184d8cb4.prompt=지금 FLEXlm 라이선스 관리자를 제거하시겠습니까?
+# GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license manager?\n\nThis will involve stopping and removal of the $SERVICE_NAME$ service and deletion of all FLEXlm files.
+GetUserInput.4202184d8cb4.prompt=FLEXlm 라이선스 관리자를 제거하시겠습니까?\n\n이 작업을 수행하면 $SERVICE_NAME$ 서비스가 중지된 후 제거되고 모든 FLEXlm 파일이 삭제됩니다.
 
 # GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
 GetUserInput.4202184d8cb4.title=FLEX 라이선스 관리자 제거
@@ -1420,8 +1396,8 @@ GetUserInput.8209d5e08fc6.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설�
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=추가 작업 선택
 
-# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in it's own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_는 운영 체제에 계정이 있어야 합니다. _RT_JOB_MANAGER_는 자체 데이터베이스에 저장된 사용자 암호를 사용해 자체 인증하거나 운영 체제에 인증을 위임할 수 있습니다. \n\n어떤 방법을 사용하겠습니까?
+# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
+GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_ 사용자는 운영 체제에 계정이 있어야 합니다. _RT_JOB_MANAGER_에서는 자체 데이터베이스에 저장된 사용자 암호를 사용해 자체 인증하거나 운영 체제에 인증을 위임할 수 있습니다. \n\n어떤 방법을 사용하시겠습니까?
 
 # GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
 GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 구성
@@ -1480,8 +1456,8 @@ GetUserInput.a166035790bd.prompt=라이선스 서버 소프트웨어에 액세�
 # GetUserInput.a166035790bd.title=_COMPANY_NAME_ License Server Configuration
 GetUserInput.a166035790bd.title=_COMPANY_NAME_ 라이선스 서버 구성
 
-# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our Power on Demand server or \na local license server. \n\nPlease select the licensing method you wish to use:
-GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ 은(는) Power on Demand 서버 또는 로컬 라이선스 서버를 통해 \n라이선스를 제공합니다. \n\n사용하고자 하는 라이선스 방법을 선택하십시오:
+# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server or a local license server. \n\nPlease select the licensing method you wish to use:
+GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_에서는 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand 라이선스 서버 또는 로컬 라이선스 서버를 통해 라이선스를 제공합니다. \n\n사용하고자 하는 라이선스 방법을 선택하십시오.
 
 # GetUserInput.a53ed862b666.title=Choose License Type
 GetUserInput.a53ed862b666.title=라이선스 유형 선택
@@ -1504,8 +1480,8 @@ GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 제품은  Software의 PLM 라�
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=라이선스 유형 선택
 
-# GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.  If desired, our Power on Demand server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
-GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ ￼을(를) 사용하여 제품의 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어가 로컬(이 컴퓨터) 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다.  필요한 경우 Power on Demand 서버를 라이선스 서버로 구성할 수도 있습니다.\n￼\n￼사용할 라이선스 방법을 선택하십시오:
+# GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. It allows the software to access a license file either locally (on this computer) or via a network.  If desired, our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$을(를) 사용하여 제품의 라이선스를 관리합니다. 이 툴킷을 통해 소프트웨어에서 로컬(이 컴퓨터)로 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다. 필요한 경우 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand 라이선스 서버를 사용자의 라이선스 서버로 구성할 수도 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.
 
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=라이선스 유형 선택
@@ -1573,8 +1549,8 @@ GUIComponentData.09531f37b18f.label=데스크탑 아이콘 생성
 # GUIComponentData.09531f38b18d.defaultValue=Selected
 GUIComponentData.09531f38b18d.defaultValue=Selected
 
-# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
-GUIComponentData.09531f38b18d.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 실행을 허용하도록 Windows 방화벽 업데이트
+# GUIComponentData.09531f38b18d.label=Update Windows firewall to allow _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ to run
+GUIComponentData.09531f38b18d.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.09531f47b18f.defaultValue=Not Selected
 GUIComponentData.09531f47b18f.defaultValue=Not Selected
@@ -1600,6 +1576,18 @@ GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 # GUIComponentData.154af406aa76.label=Enter the service name
 GUIComponentData.154af406aa76.label=서비스 이름 입력
 
+# GUIComponentData.222df3f99bfb.defaultValue=Not Selected
+GUIComponentData.222df3f99bfb.defaultValue=Not Selected
+
+# GUIComponentData.222df3f99bfb.label=No
+GUIComponentData.222df3f99bfb.label=아니요
+
+# GUIComponentData.222df3fa9bfa.defaultValue=Selected
+GUIComponentData.222df3fa9bfa.defaultValue=Selected
+
+# GUIComponentData.222df3fa9bfa.label=Yes
+GUIComponentData.222df3fa9bfa.label=예
+
 # GUIComponentData.229a23b6be60.defaultValue=Not Selected
 GUIComponentData.229a23b6be60.defaultValue=Not Selected
 
@@ -1609,14 +1597,20 @@ GUIComponentData.229a23b6be60.label=현재 사용자용 바로가기 만들기
 # GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 GUIComponentData.2469fbd4a625.defaultValue=Not Selected
 
-# GUIComponentData.2469fbd4a625.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
-GUIComponentData.2469fbd4a625.label=$SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ 파일에 대한 파일 연관성 만들기
+# GUIComponentData.2469fbd4a625.label=Create file associations for _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ file
+GUIComponentData.2469fbd4a625.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 파일에 대한 파일 연결 생성
 
 # GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
 GUIComponentData.2d3e5e7fad37.label=세 대 컴퓨터 중복 라이선스 서버
+
+# GUIComponentData.314a9fd58722.defaultValue=8086
+GUIComponentData.314a9fd58722.defaultValue=8086
+
+# GUIComponentData.314a9fd58722.label=Application Server (Web Monitor) Port Number
+GUIComponentData.314a9fd58722.label=응용 프로그램 서버(웹 모니터) 포트 번호
 
 # GUIComponentData.3642fdbebce9.defaultValue=
 GUIComponentData.3642fdbebce9.defaultValue=
@@ -1657,8 +1651,8 @@ GUIComponentData.3cd99868ae8b.label=데스크탑 아이콘 생성
 # GUIComponentData.3cd99869ae89.defaultValue=Selected
 GUIComponentData.3cd99869ae89.defaultValue=Selected
 
-# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
-GUIComponentData.3cd99869ae89.label=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$ 실행을 허용하도록 Windows 방화벽 업데이트
+# GUIComponentData.3cd99869ae89.label=Update Windows firewall to allow _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ to run
+GUIComponentData.3cd99869ae89.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
@@ -1675,8 +1669,8 @@ GUIComponentData.411f00519f69.label=데스크탑 아이콘 생성
 # GUIComponentData.411f00519f6a.defaultValue=Not Selected
 GUIComponentData.411f00519f6a.defaultValue=Not Selected
 
-# GUIComponentData.411f00519f6a.label=Create file associations for $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ $PVIZ_VR$ file
-GUIComponentData.411f00519f6a.label=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$$PVIZ_VR$ 파일에 대한 파일 연관성 만들기
+# GUIComponentData.411f00519f6a.label=Create file associations for _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ file
+GUIComponentData.411f00519f6a.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 파일에 대한 파일 연결 생성
 
 # GUIComponentData.4206afd79796.defaultValue=Selected
 GUIComponentData.4206afd79796.defaultValue=Selected
@@ -1702,18 +1696,6 @@ GUIComponentData.4ebd89ffbaa5.defaultValue=Not Selected
 # GUIComponentData.4ebd89ffbaa5.label=Add application directory to your system path
 GUIComponentData.4ebd89ffbaa5.label=응용 프로그램 디렉터리를 시스템 경로에 추가
 
-# GUIComponentData.519a56e0b819.defaultValue=Not Selected
-GUIComponentData.519a56e0b819.defaultValue=Not Selected
-
-# GUIComponentData.519a56e0b819.label=Configure this machine to access Power-On-Demand License Server
-GUIComponentData.519a56e0b819.label=Power-On-Demand 라이선스 서버에 액세스하도록 이 시스템 구성
-
-# GUIComponentData.519ab87cb81b.defaultValue=Not Selected
-GUIComponentData.519ab87cb81b.defaultValue=Not Selected
-
-# GUIComponentData.519ab87cb81b.label=Configure this machine to access Power-On-Demand License Server
-GUIComponentData.519ab87cb81b.label=Power-On-Demand 라이선스 서버에 액세스하도록 이 시스템 구성
-
 # GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 GUIComponentData.5a15d3d7a615.defaultValue=Not Selected
 
@@ -1723,8 +1705,8 @@ GUIComponentData.5a15d3d7a615.label=로컬: 이 컴퓨터에 FlexNET Publisher �
 # GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 GUIComponentData.5f8bc9ab8e25.defaultValue=Selected
 
-# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ to run
-GUIComponentData.5f8bc9ab8e25.label=$SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$ 실행을 허용하도록 Windows 방화벽 업데이트
+# GUIComponentData.5f8bc9ab8e25.label=Update Windows firewall to allow _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ to run
+GUIComponentData.5f8bc9ab8e25.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 실행을 허용하도록 Windows 방화벽 업데이트
 
 # GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
 GUIComponentData.61df1e09b39b.defaultValue=$SERVICE_NAME$
@@ -1801,8 +1783,8 @@ GUIComponentData.857693fb96d1.label=호스트네임
 # GUIComponentData.8576994396d1.defaultValue=8085
 GUIComponentData.8576994396d1.defaultValue=8085
 
-# GUIComponentData.8576994396d1.label=Port Number
-GUIComponentData.8576994396d1.label=포트 번호
+# GUIComponentData.8576994396d1.label=_RT_JOB_MANAGER_ Port Number
+GUIComponentData.8576994396d1.label=_RT_JOB_MANAGER_ 포트 번호
 
 # GUIComponentData.8578c06b96e9.defaultValue=cert.pem
 GUIComponentData.8578c06b96e9.defaultValue=cert.pem
@@ -1825,14 +1807,14 @@ GUIComponentData.857a41eba144.label=리소스 그룹 이름
 # GUIComponentData.8fe1749ab49d.defaultValue=Selected
 GUIComponentData.8fe1749ab49d.defaultValue=Selected
 
-# GUIComponentData.8fe1749ab49d.label=Configure new $RT_JOB_MANAGER$
-GUIComponentData.8fe1749ab49d.label=새로운 $RT_JOB_MANAGER$ 구성
+# GUIComponentData.8fe1749ab49d.label=Configure new _RT_JOB_MANAGER_
+GUIComponentData.8fe1749ab49d.label=새 _RT_JOB_MANAGER_ 구성
 
 # GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
 
-# GUIComponentData.8fe180d9b49d.label=Upgrade existing $RT_JOB_MANAGER$
-GUIComponentData.8fe180d9b49d.label=기존 $RT_JOB_MANAGER$ 업그레이드
+# GUIComponentData.8fe180d9b49d.label=Upgrade existing _RT_JOB_MANAGER_
+GUIComponentData.8fe180d9b49d.label=기존 _RT_JOB_MANAGER_ 업그레이드
 
 # GUIComponentData.8fe1ee61b49d.defaultValue=Selected
 GUIComponentData.8fe1ee61b49d.defaultValue=Selected
@@ -1954,11 +1936,23 @@ GUIComponentData.a166035790c0.defaultValue=$UGS_PORT_NUMBER$
 # GUIComponentData.a166035790c0.label=Enter the License port number:
 GUIComponentData.a166035790c0.label=라이선스 포트 번호 입력:
 
-# GUIComponentData.b80bfad59d4c.defaultValue=Selected
-GUIComponentData.b80bfad59d4c.defaultValue=Selected
+# GUIComponentData.c446e4398b82.defaultValue=Selected
+GUIComponentData.c446e4398b82.defaultValue=Selected
 
-# GUIComponentData.b80bfad59d4c.label=Local: Configure this machine to access local license server
-GUIComponentData.b80bfad59d4c.label=로컬: 로컬 라이선스 서버에 액세스하도록 이 시스템 구성
+# GUIComponentData.c446e4398b82.label=Configure this machine to be a local license server
+GUIComponentData.c446e4398b82.label=로컬 라이선스 서버로 이 시스템 구성
+
+# GUIComponentData.c450d9688b85.defaultValue=Not Selected
+GUIComponentData.c450d9688b85.defaultValue=Not Selected
+
+# GUIComponentData.c450d9688b85.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power On Demand License Server
+GUIComponentData.c450d9688b85.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power On Demand 라이선스 서버
+
+# GUIComponentData.c451727b8b85.defaultValue=Not Selected
+GUIComponentData.c451727b8b85.defaultValue=Not Selected
+
+# GUIComponentData.c451727b8b85.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power On Demand License Server
+GUIComponentData.c451727b8b85.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power On Demand 라이선스 서버
 
 # GUIComponentData.c58f4202a8d3.defaultValue=Selected
 GUIComponentData.c58f4202a8d3.defaultValue=Selected
@@ -1975,8 +1969,8 @@ GUIComponentData.d8387e0c8953.label=네트워크: 네트워크 라이선스 서�
 # GUIComponentData.d8387e0d8953.defaultValue=Selected
 GUIComponentData.d8387e0d8953.defaultValue=Selected
 
-# GUIComponentData.d8387e0d8953.label=Local: Install and configure $COMPANY_NAME$ PLM License Server on this machine 
-GUIComponentData.d8387e0d8953.label=로컬: 이 시스템에 Siemens PLM 라이선스 서버$COMPANY_NAME$ 설치 및 구성 
+# GUIComponentData.d8387e0d8953.label=Local: Install and configure _COMPANY_NAME_ PLM License Server on this machine 
+GUIComponentData.d8387e0d8953.label=로컬: 이 시스템에 _COMPANY_NAME_ PLM 라이선스 서버 설치 및 구성 
 
 # GUIComponentData.d8b757c7aba9.defaultValue=Selected
 GUIComponentData.d8b757c7aba9.defaultValue=Selected
@@ -2041,11 +2035,8 @@ GUIGroupData.21099aaabdbd.caption=
 # GUIGroupData.2d3e5676ad37.caption=
 GUIGroupData.2d3e5676ad37.caption=
 
-# GUIGroupData.304ac508bd0d.caption=
-GUIGroupData.304ac508bd0d.caption=
-
-# GUIGroupData.3080440bbdba.caption=
-GUIGroupData.3080440bbdba.caption=
+# GUIGroupData.314a9fd48722.caption=
+GUIGroupData.314a9fd48722.caption=
 
 # GUIGroupData.3642fdbfbce8.caption=
 GUIGroupData.3642fdbfbce8.caption=
@@ -2203,35 +2194,41 @@ InstallBundle.42b88820ae92.description=클라이언트 설치에 필요한 최�
 # InstallBundle.850018f38467.bundleName=Star-CCM+
 InstallBundle.850018f38467.bundleName=Star-CCM+
 
-# InstallBundle.850018f38467.description=This feature installs all files needed for running the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package.
-InstallBundle.850018f38467.description=이 기능은 $SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$ 패키지 실행에 필요한 모든 파일을 설치합니다.
+# InstallBundle.850018f38467.description=This feature installs all files needed for running the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ package.
+InstallBundle.850018f38467.description=이 기능은 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 패키지 실행에 필요한 모든 파일을 설치합니다.
 
-# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=축하합니다.\n\n _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 소프트웨어$WINDOWS_TYPE$ 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
+# InstallCompleteActionConsole.030e309c8b60.message=Congratulations:\n\nThe installation of _COMPANY_NAME_ PLM License Server $UGS_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_16$\n\nThe installation log (install.log) and the server log (spm_ugslmd.log) can be found at the above location.\n\n\n
+InstallCompleteActionConsole.030e309c8b60.message=축하합니다.\n\n$USER_MAGIC_FOLDER_16$에 _COMPANY_NAME_ PLM License Server $UGS_VERSION$ 설치가 성공적으로 완료되었습니다.\n\n설치 로그(install.log)와 서버 로그(spm_ugslmd.log)는 위의 위치에서 찾을 수 있습니다.\n\n\n
+
+# InstallCompleteActionConsole.030e309c8b60.title=Install Complete
+InstallCompleteActionConsole.030e309c8b60.title=설치 완료
+
+# InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.7317fed1a37e.message=축하합니다.\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 소프트웨어 $WINDOWS_TYPE$ 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 소프트웨어를 시작하는 데 사용할 수 있는 바로 가기가 바탕 화면에 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=설치 완료
 
-# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=축하합니다.\n\n _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 소프트웨어$WINDOWS_TYPE$ 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_(R) 소프트웨어를 시작하는 데 사용할 수 있는 바탕 화면에 바로 가기가 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
+# InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd89f531898a.message=축하합니다.\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 소프트웨어 $WINDOWS_TYPE$ 설치에 성공했습니다. 기본 설치가 수행된 경우 이 설치 도구를 종료한 후 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 소프트웨어를 시작하는 데 사용할 수 있는 바로 가기가 바탕 화면에 배치되었습니다. 도움이 더 필요하면 현지 지원 사무소에 연락하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=설치 완료
 
-# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=축하합니다.\n\n \n\n$USER_INSTALL_DIR$\n\n에 _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 소프트웨어 $WINDOWS_TYPE$  설치가 성공적으로 완료됐습니다. 추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공 업체로 선택해 주셔서 감사합니다.
+# InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.bd8f22d0980e.message=축하합니다.\n\n다음 위치에 _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 소프트웨어 $WINDOWS_TYPE$ 설치가 성공적으로 완료되었습니다.\n\n$USER_INSTALL_DIR$\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=설치 완료
 
-# InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\n\n
-InstallCompleteActionConsole.bd93643ba2ed.message=축하합니다:\n\nFLEXNet 설치$FLEXlmVERSION$가 성공적으로 완료됐습니다.\n\n\n
+# InstallCompleteActionConsole.bd93643ba2ed.message=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$ has been completed successfully.\n\n\n
+InstallCompleteActionConsole.bd93643ba2ed.message=축하합니다.\n\nFLEXNet $FLEXlmVERSION$ 설치가 성공적으로 완료되었습니다.\n\n\n
 
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=설치 완료
 
-# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 소프트웨어 $WINDOWS_TYPE$  설치가 성공적으로 완료됐으나 설치 중 경고 또는 오류가 발생했습니다.\n\n자세한 사항은 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오.\n\n _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공 업체로 선택해 주셔서 감사합니다.
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 소프트웨어 $WINDOWS_TYPE$ 설치가 성공적으로 완료되었으나 설치 중 경고 또는 오류가 발생했습니다.\n\n자세한 사항은 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오.\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=설치 실패
@@ -2284,8 +2281,8 @@ InstallDirAction.d861fe0f9e7b.stepTitle=설치 위치 선택
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
-# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$?
-InstallDirActionConsole.b90620fd80f1.prompt=_SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$를 어디에 설치하시겠습니까?
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ _REL_PRESENTATION_VERSION_?
+InstallDirActionConsole.b90620fd80f1.prompt=_SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ _REL_PRESENTATION_VERSION_을(를) 어디에 설치하시겠습니까?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 InstallDirActionConsole.b90620fd80f1.stepTitle=설치 위치 선택
@@ -2383,8 +2380,8 @@ InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_P
 # InstallerInfoData.850018f28450.productDescription=
 InstallerInfoData.850018f28450.productDescription=
 
-# InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (Build $STARCCMPLUS_VERSION$)
-InstallerInfoData.850018f28450.productName=$SOFTWARE_FAMILY_NAME$ $REGISTRY_PRODUCT_NAME$ $PRESENTATION_VERSION$ (빌드 $STARCCMPLUS_VERSION$)
+# InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
 # InstallerInfoData.850018f28450.productURL=
 InstallerInfoData.850018f28450.productURL=
@@ -2398,13 +2395,19 @@ InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
 # InstallerInfoData.850018f28450.vendorURL=
 InstallerInfoData.850018f28450.vendorURL=
 
+# InstallerUpdateSettings.ead4be5fab4a.promptMessage=Do you want to install latest available version?
+InstallerUpdateSettings.ead4be5fab4a.promptMessage=사용 가능한 최신 버전을 설치하시겠습니까?
+
+# InstallerUpdateSettings.ead4be5fab4a.promptTitle=Installer Update
+InstallerUpdateSettings.ead4be5fab4a.promptTitle=설치 프로그램 업데이트
+
 # InstallFinishAction.12ff4db9947b.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.12ff4db9947b.installErrorMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
 
 # InstallFinishAction.12ff4db9947b.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.12ff4db9947b.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
 
-# InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$  has been completed successfully.\n\nPress \"Done\" to quit the installer..
+# InstallFinishAction.12ff4db9947b.installSuccessMessage=Congratulations:\n\nThe installation of FLEXNet $FLEXlmVERSION$ has been completed successfully.\n\nPress \"Done\" to quit the installer..
 InstallFinishAction.12ff4db9947b.installSuccessMessage=축하합니다.\n\nFLEXNet $FLEXlmVERSION$ 설치가 성공적으로 완료됐습니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # InstallFinishAction.12ff4db9947b.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
@@ -2431,8 +2434,8 @@ InstallFinishAction.149435d5a001.installErrorMessage=$INSTALLER_TITLE$ 설치가
 # InstallFinishAction.149435d5a001.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.149435d5a001.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
 
-# InstallFinishAction.149435d5a001.installSuccessMessage=Congratulations:\n\nThe installation of PLM License Server $UGS_VERSION$ has been completed successfully.\n\nPress \"Done\" to quit the installer..
-InstallFinishAction.149435d5a001.installSuccessMessage=축하합니다.\n\nPLM 라이선스 서버 설치$UGS_VERSION$가 성공적으로 완료됐습니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
+# InstallFinishAction.149435d5a001.installSuccessMessage=Congratulations:\n\nThe installation of _COMPANY_NAME_ PLM License Server $UGS_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_16$\n\nThe installation log (install.log) and the server log (spm_ugslmd.log) can be found at the above location.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.149435d5a001.installSuccessMessage=축하합니다.\n\n$USER_MAGIC_FOLDER_16$에 _COMPANY_NAME_ PLM License Server $UGS_VERSION$ 설치가 성공적으로 완료되었습니다.\n\n설치 로그(install.log)와 서버 로그(spm_ugslmd.log)는 위의 위치에서 찾을 수 있습니다.\n\n\"완료\"를 눌러 설치 관리자를 종료하십시오.
 
 # InstallFinishAction.149435d5a001.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.149435d5a001.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
@@ -2516,7 +2519,7 @@ InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 설치가
 InstallFinishAction.bbeaa35cb859.installSuccessMessage=축하합니다.\n￼\n￼￼ $INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$ ￼ 설치가 다음 위치에 성공적으로 완료됐습니다.\n￼\n$USER_INSTALL_DIR$￼￼\n￼\n￼추가 지원이 필요한 경우 현지 지원팀 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 공급업체로 선택해 주셔서 감사합니다.\n￼\n￼설치 관리자를 종료하려면 \"완료\"를 누르십시오.
 
 # InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=￼$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 ￼을(를) 참조하십시오.￼ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$￼을(를) 참조하십시오.
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
 
 # InstallFinishAction.bbeaa35cb859.launchText=
 InstallFinishAction.bbeaa35cb859.launchText=
@@ -2542,32 +2545,14 @@ InstallFrameConfigurator.850018f38449.uninstallerTitle=$INSTALLER_TITLE$ 제거
 # InstallMethod.Custom=Custom (Advanced)
 InstallMethod.Custom=사용자 지정 (고급)
 
-# InstallMethod.Custom1=Choosing this option will allow users to select which Simcenter   
-InstallMethod.Custom1=이 옵션을 선택하면 사용자가 설치할 Simcenter   
-
-# InstallMethod.Custom2=STAR-CCM+ features and related components will be installed. This
-InstallMethod.Custom2=STAR-CCM+ 기능 및 관련 구성 요소를 선택할 수 있습니다. 또한 이
-
-# InstallMethod.Custom3=option will allow the user to configure and start the license manager.
-InstallMethod.Custom3=옵션으로 라이선스 관리자를 구성 및 시작할 수 있습니다.
-
-# InstallMethod.Custom4=This is the recommended option for advanced users.
-InstallMethod.Custom4=이는 고급 사용자용 권장 옵션입니다.
+# InstallMethod.Custom1=Choosing this option will allow users to select which _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ features and related components will be installed.  This option will allow the user to configure and start the license manager.  This is the recommended option for advanced users.
+InstallMethod.Custom1=이 옵션을 선택하면 사용자가 설치할 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 기능 및 관련 구성 요소를 선택할 수 있습니다. 이 옵션은 사용자가 라이선스 관리자를 구성 및 시작할 수 있도록 해주며, 고급 사용자를 위한 권장 옵션입니다.
 
 # InstallMethod.Express=Express (Recommended)
 InstallMethod.Express=빠른 설치 (권장)
 
-# InstallMethod.Express1=Choosing this option will install all Simcenter STAR-CCM+ features
-InstallMethod.Express1=이 옵션을 선택하면 모든 Simcenter STAR-CCM+ 기능
-
-# InstallMethod.Express2=and related components.
-InstallMethod.Express2=및 관련 구성 요소가 설치됩니다.
-
-# InstallMethod.Express3=It will also install the license manager using default settings.     
-InstallMethod.Express3=또한 기본 설정을 사용해 라이선스 관리자를 설치합니다.     
-
-# InstallMethod.Express4=This is the recommended option for most users.
-InstallMethod.Express4=이는 대다수 사용자용 권장 옵션입니다.
+# InstallMethod.Express1=Choosing this option will install all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ features and related components.  It will also install the license manager using default settings.  This is the recommended option for most users.
+InstallMethod.Express1=이 옵션을 선택하면 모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 기능 및 관련 구성 요소를 설치합니다. 또한 기본 설정을 사용하여 라이선스 관리자를 설치합니다. 이 옵션은 대부분의 사용자를 위한 권장 옵션입니다.
 
 # InstallMethod.Title=Choose Installation Method
 InstallMethod.Title=설치 방식 선택
@@ -2596,8 +2581,8 @@ InstallSet.4405b8b89114.imagePath=com/zerog/ia/installer/images/
 # InstallSet.4405b8b89114.installSetName=Custom
 InstallSet.4405b8b89114.installSetName=사용자 지정
 
-# InstallSet.850018f38466.description=Install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
-InstallSet.850018f38466.description=대다수 사용자가 일반적으로 선택하는 $SOFTWARE_FAMILY_NAME$$STAR_CCM_APP_NAME$ 패키지를 설치하십시오. 여기에는 로컬 또는 원격 FLEXNet 라이선스 서버 옵션이 포함됩니다.
+# InstallSet.850018f38466.description=Install _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ package, typical selection for most users.  This includes options for local or remote FLEXNet license servers.
+InstallSet.850018f38466.description=대부분의 사용자가 일반적으로 선택하는 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 패키지를 설치합니다. 여기에는 로컬 또는 원격 FLEXNet 라이선스 서버 옵션이 포함됩니다.
 
 # InstallSet.850018f38466.imageName=typical.png
 InstallSet.850018f38466.imageName=typical.png
@@ -2647,8 +2632,8 @@ InstallType.Title=설치 유형 선택
 # InstallType.Type=Please select the type of installation you would like to perform:
 InstallType.Type=수행할 설치 유형을 선택하십시오.
 
-# InstallType.Type1=Simcenter STAR-CCM+ and related components
-InstallType.Type1=Simcenter STAR-CCM+ 및 관련 구성 요소
+# InstallType.Type1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ and related components
+InstallType.Type1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 및 관련 구성 요소
 
 # InstallType.Type2=Install on this machine or a network location.  Typical Selection.
 InstallType.Type2=이 컴퓨터 또는 네트워크 위치에 설치됨. 일반적 선택.
@@ -2668,32 +2653,38 @@ InstallType.Type6=네트워크 또는 로컬 FLEXNet 라이선스를 구성하�
 # InstallType.Type7=Install and configure FLEXNet Manager to run.
 InstallType.Type7=실행할 FLEXNet 관리자를 설치 및 구성하십시오.
 
-# InstallType.Type8=Siemens PLM License Server
-InstallType.Type8=Siemens PLM License Server
+# InstallType.Type8=_COMPANY_NAME_ PLM License Server
+InstallType.Type8=_COMPANY_NAME_ PLM License Server
 
 # InstallType.Type9=Configure Network or Local PLM licensing.
 InstallType.Type9=네트워크 또는 로컬 PLM 라이선스를 구성하십시오.
 
-# InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
-InstallUninstaller.85001a1b8498.destinationName=Uninstall $REGISTRY_PRODUCT_NAME$$STARCCMPLUS_VERSION$
+# InstallUninstaller.85001a1b8498.destinationName=Uninstall _REGISTRY_PRODUCT_NAME_$STARCCMPLUS_VERSION$
+InstallUninstaller.85001a1b8498.destinationName=Uninstall _REGISTRY_PRODUCT_NAME_$STARCCMPLUS_VERSION$
 
-# IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+# IntroActionConsole.02f63e3d8b5c.message=About to uninstall...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.02f63e3d8b5c.message=제거 준비 중...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일과 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
+
+# IntroActionConsole.02f63e3d8b5c.title=Uninstall _COMPANY_NAME_ PLM License Server
+IntroActionConsole.02f63e3d8b5c.title=_COMPANY_NAME_ PLM License Server 제거
+
+# IntroActionConsole.c7dc1e698d4b.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 IntroActionConsole.c7dc1e698d4b.message=제거 준비 중...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일과 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # IntroActionConsole.c7dc1e698d4b.title=Uninstall FLEXNet
 IntroActionConsole.c7dc1e698d4b.title=FLEXNet 제거
 
-# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
-IntroActionConsole.c7e016579491.message=\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ $WINDOWS_TYPE$\n\n 제거 준비 중... InstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
+# IntroActionConsole.c7e016579491.message=About to uninstall...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ $WINDOWS_TYPE$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.c7e016579491.message=제거 준비 중...\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ $WINDOWS_TYPE$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일 및 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
-# IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$
-IntroActionConsole.c7e016579491.title=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ $PRESENTATION_VERSION$ 제거
+# IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+IntroActionConsole.c7e016579491.title=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 제거
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
 
 # LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
-LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Eng.html
+LicenseAgrAction.43ff93b98f68.resourceName=LicenseAgreement-Ko.html
 
 # LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrAction.43ff93b98f68.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -2705,7 +2696,7 @@ LicenseAgrAction.43ff93b98f68.stepPrompt=
 LicenseAgrAction.43ff93b98f68.title=라이선스 참고사항
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
-LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Eng.html
+LicenseAgrActionConsole.b8adfe8d92f6.resourceName=LicenseAgreement-Ko.html
 
 # LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
 LicenseAgrActionConsole.b8adfe8d92f6.resourcePath=$IA_PROJECT_DIR$/licenses/
@@ -2776,15 +2767,6 @@ MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstImageName=uninstall.png
 # MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=Uninstall Product
 MaintenenceModeRuntimePanelSettings.2aae34a681b0.uninstLabel=제품 제거
 
-# MakeRegEntry.078c351c84cf.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-MakeRegEntry.078c351c84cf.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-
-# MakeRegEntry.078c351c84cf.value=$USER_MAGIC_FOLDER_5$
-MakeRegEntry.078c351c84cf.value=$USER_MAGIC_FOLDER_5$
-
-# MakeRegEntry.078c351c84cf.valueName=$STARVIEW_VERSION$
-MakeRegEntry.078c351c84cf.valueName=$STARVIEW_VERSION$
-
 # MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.2d92651f85b0.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
@@ -2848,15 +2830,6 @@ MakeRegEntry.a198b89b8d6c.value=$USER_MAGIC_FOLDER_16$\\starfish.ico
 # MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
 MakeRegEntry.a198b89b8d6c.valueName=DisplayIcon
 
-# MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
-MakeRegEntry.9976cb178c8c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$x64 $STARVR_VERSION$
-
-# MakeRegEntry.9976cb178c8c.value=$USER_MAGIC_FOLDER_14$
-MakeRegEntry.9976cb178c8c.value=$USER_MAGIC_FOLDER_14$
-
-# MakeRegEntry.9976cb178c8c.valueName=$STARVR_VERSION$
-MakeRegEntry.9976cb178c8c.valueName=$STARVR_VERSION$
-
 # MakeRegEntry.bfcb41e8ac5c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Command Processor
 MakeRegEntry.bfcb41e8ac5c.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Command Processor
 
@@ -2883,15 +2856,6 @@ MakeRegEntry.c5444ac19a69.value=$PRODUCT_NAME$
 
 # MakeRegEntry.c5444ac19a69.valueName=DisplayName
 MakeRegEntry.c5444ac19a69.valueName=DisplayName
-
-# MakeRegEntry.c5444ac19a6a.key=HKEY_CURRENT_USER\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$ x64$STARVR_VERSION$
-MakeRegEntry.c5444ac19a6a.key=HKEY_CURRENT_USER\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SVR_NAME$ x64$STARVR_VERSION$
-
-# MakeRegEntry.c5444ac19a6a.value=$USER_MAGIC_FOLDER_14$
-MakeRegEntry.c5444ac19a6a.value=$USER_MAGIC_FOLDER_14$
-
-# MakeRegEntry.c5444ac19a6a.valueName=$STARVR_VERSION$
-MakeRegEntry.c5444ac19a6a.valueName=$STARVR_VERSION$
 
 # MakeRegEntry.c5444ac39a69.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.c5444ac39a69.key=HKEY_CURRENT_USER\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -2965,15 +2929,6 @@ MakeRegEntry.ec562b3b90cd.value=$USER_INSTALL_DIR$\\star\\bin\\win32\\StarCCM\\s
 # MakeRegEntry.ec562b3b90cd.valueName=DisplayIcon
 MakeRegEntry.ec562b3b90cd.valueName=DisplayIcon
 
-# MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-MakeRegEntry.ec6452bb90ce.key=HKEY_CURRENT_USER\\SOFTWARE\\$REGISTRY_COMPANY_NAME$$\\$$REGISTRY_SV_NAME$ x64$STARVIEW_VERSION$
-
-# MakeRegEntry.ec6452bb90ce.value=$USER_MAGIC_FOLDER_5$
-MakeRegEntry.ec6452bb90ce.value=$USER_MAGIC_FOLDER_5$
-
-# MakeRegEntry.ec6452bb90ce.valueName=$STARVIEW_VERSION$
-MakeRegEntry.ec6452bb90ce.valueName=$STARVIEW_VERSION$
-
 # PreInstall.Text=Please Review the Following Before Continuing:
 PreInstall.Text=계속하기 전 다음 사항을 검토하십시오:
 
@@ -3013,11 +2968,11 @@ PreInstall.Title=사전 설치 요약
 # ProductDialog.Text=Please select the components you would like to install:
 ProductDialog.Text=설치하고자 하는 구성 요소를 선택하십시오.
 
-# ProductDialog.Title1=Choose Simcenter STAR-CCM+ components
-ProductDialog.Title1=Simcenter STAR-CCM+ 구성 요소 선택
+# ProductDialog.Title1=Choose _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components
+ProductDialog.Title1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 구성 요소 선택
 
 # PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.066c0750bc6e.message=디스크 공간 부족\n\n디스크 공간이 충분하지 않습니다. 필요 용량은 $REQUIRED_DISK_SPACE_MEGABYTES$MB이나\n사용 가능한 용량은 MB$FREE_DISK_SPACE_MEGABYTES$입니다.\n\n디스크 공간을 확보하거나 다른 설치 위치를 선택하십시오.
+PromptUserConsole.066c0750bc6e.message=디스크 공간 부족\n\n디스크 공간이 충분하지 않습니다. 필요 용량은 $REQUIRED_DISK_SPACE_MEGABYTES$MB이나\n사용 가능한 용량은 $FREE_DISK_SPACE_MEGABYTES$MB입니다.\n\n디스크 공간을 확보하거나 다른 설치 위치를 선택하십시오.
 
 # PromptUserConsole.066c0750bc6e.option0Label=OK
 PromptUserConsole.066c0750bc6e.option0Label=확인
@@ -3106,11 +3061,11 @@ ShowDialogAction.00c0b1bd9968.cancelButtonLabel=취소
 # ShowDialogAction.00c0b1bd9968.detailsButtonLabel=Details...
 ShowDialogAction.00c0b1bd9968.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.00c0b1bd9968.label=Hostname, Internal hostname or Port Number cannot be empty.
-ShowDialogAction.00c0b1bd9968.label=호스트네임, 내부 호스트네임 또는 포트 번호는 비워둘 수 없습니다.
+# ShowDialogAction.00c0b1bd9968.label=Hostname, Internal hostname, _RT_JOB_MANAGER_ Port Number or Application Server (Web Monitor) Port Number cannot be empty.
+ShowDialogAction.00c0b1bd9968.label=호스트네임, 내부 호스트네임, _RT_JOB_MANAGER_ 포트 번호 또는 응용 프로그램 서버(웹 모니터) 포트 번호는 비워둘 수 없습니다.
 
-# ShowDialogAction.00c0b1bd9968.narrative=Please enter valid hostname, Internal hostname and Port Number to proceed.
-ShowDialogAction.00c0b1bd9968.narrative=계속하려면 올바른 호스트네임, 내부 호스트네임 및 포트 번호를 입력하십시오.
+# ShowDialogAction.00c0b1bd9968.narrative=Please enter valid hostname, Internal hostname, _RT_JOB_MANAGER_ Port Number and Application Server (Web Monitor) Port Number to proceed.
+ShowDialogAction.00c0b1bd9968.narrative=계속 진행하려면 유효한 호스트네임, 내부 호스트네임, _RT_JOB_MANAGER_ 포트 번호 및 응용 프로그램 서버(웹 모니터) 포트 번호를 입력하십시오.
 
 # ShowDialogAction.00c0b1bd9968.title=Warning
 ShowDialogAction.00c0b1bd9968.title=경고
@@ -3326,7 +3281,7 @@ ShowDialogAction.0667c733a78a.detailsButtonLabel=세부 정보...
 ShowDialogAction.0667c733a78a.label=_RT_JOB_MANAGER_ 업그레이드 중 오류가 발생했습니다
 
 # ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0667c733a78a.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 사항은 $USER_INSTALL_DIR$내 로그 파일을 확인하십시오.
+ShowDialogAction.0667c733a78a.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.0667c733a78a.title=Error
 ShowDialogAction.0667c733a78a.title=오류
@@ -3344,7 +3299,7 @@ ShowDialogAction.066cf8f2a78c.detailsButtonLabel=세부 정보...
 ShowDialogAction.066cf8f2a78c.label=운영 체제 인증 사용 중 오류가 발생했습니다.
 
 # ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.066cf8f2a78c.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 사항은 $USER_INSTALL_DIR$내 로그 파일을 확인하십시오.
+ShowDialogAction.066cf8f2a78c.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.066cf8f2a78c.title=Error
 ShowDialogAction.066cf8f2a78c.title=오류
@@ -3362,7 +3317,7 @@ ShowDialogAction.0670a5c0a794.detailsButtonLabel=세부 정보...
 ShowDialogAction.0670a5c0a794.label=이메일 사양으로 운영 체제 인증 사용 중 오류가 발생 했습니다.
 
 # ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0670a5c0a794.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 사항은 $USER_INSTALL_DIR$내 로그 파일을 확인하십시오.
+ShowDialogAction.0670a5c0a794.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.0670a5c0a794.title=Error
 ShowDialogAction.0670a5c0a794.title=오류
@@ -3380,7 +3335,7 @@ ShowDialogAction.0672cc40affb.detailsButtonLabel=세부 정보...
 ShowDialogAction.0672cc40affb.label=내부 인증 사용 중 오류가 발생했습니다.
 
 # ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0672cc40affb.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 사항은 $USER_INSTALL_DIR$내 로그 파일을 확인하십시오.
+ShowDialogAction.0672cc40affb.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.0672cc40affb.title=Error
 ShowDialogAction.0672cc40affb.title=오류
@@ -3398,7 +3353,7 @@ ShowDialogAction.0673d489afff.detailsButtonLabel=세부 정보...
 ShowDialogAction.0673d489afff.label=이메일 사양으로 운영 체제 인증 사용 중 오류가 발생 했습니다.
 
 # ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0673d489afff.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 사항은 $USER_INSTALL_DIR$내 로그 파일을 확인하십시오.
+ShowDialogAction.0673d489afff.narrative=_RT_JOB_MANAGER_ 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.0673d489afff.title=Error
 ShowDialogAction.0673d489afff.title=오류
@@ -3448,11 +3403,11 @@ ShowDialogAction.160d0e4ab6a5.cancelButtonLabel=아니요
 # ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=Details...
 ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ Installation Found
-ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 설치가 발견됨
+# ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Installation Found
+ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 설치 발견됨
 
-# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=솔버 컴포넌트 (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVR_VERSION$)가 기존에 이 컴퓨터에 설치된 것으로 보입니다.\n\n _SOFTWARE_FAMILY_NAME_ _PVIZ_VR_ 컴포넌트를 다시 설치하시겠습니까?
+# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ component again?
+ShowDialogAction.160d0e4ab6a5.narrative=솔버 구성 요소(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$)가 이전에 이 컴퓨터에 설치된 것으로 보입니다.\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=경고
@@ -3510,6 +3465,24 @@ ShowDialogAction.2d6e902bbb0c.narrative=디스크 공간이 충분하지 않습�
 
 # ShowDialogAction.2d6e902bbb0c.title=Warning
 ShowDialogAction.2d6e902bbb0c.title=경고
+
+# ShowDialogAction.3185b5bf9239.buttonLabel=OK
+ShowDialogAction.3185b5bf9239.buttonLabel=확인
+
+# ShowDialogAction.3185b5bf9239.cancelButtonLabel=Cancel
+ShowDialogAction.3185b5bf9239.cancelButtonLabel=취소
+
+# ShowDialogAction.3185b5bf9239.detailsButtonLabel=Details...
+ShowDialogAction.3185b5bf9239.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.3185b5bf9239.label=Application Server (Web Monitor) Port Number cannot be $APPSERVER_PORT$.
+ShowDialogAction.3185b5bf9239.label=$APPSERVER_PORT$은(는) 올바른 응용 프로그램 서버(웹 모니터) 포트 번호가 아닙니다.
+
+# ShowDialogAction.3185b5bf9239.narrative=Please provide the correct Application Server (Web Monitor) Port Number.
+ShowDialogAction.3185b5bf9239.narrative=올바른 응용 프로그램 서버(웹 모니터) 포트 번호를 지정하십시오.
+
+# ShowDialogAction.3185b5bf9239.title=Warning
+ShowDialogAction.3185b5bf9239.title=경고
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
 ShowDialogAction.386900b8be43.buttonLabel=확인
@@ -3637,24 +3610,6 @@ ShowDialogAction.5f17661a83c5.narrative=솔버 컴포넌트 (_SOFTWARE_FAMILY_NA
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=경고
 
-# ShowDialogAction.5f7c94b68adf.buttonLabel=OK
-ShowDialogAction.5f7c94b68adf.buttonLabel=확인
-
-# ShowDialogAction.5f7c94b68adf.cancelButtonLabel=Cancel
-ShowDialogAction.5f7c94b68adf.cancelButtonLabel=취소
-
-# ShowDialogAction.5f7c94b68adf.detailsButtonLabel=Details...
-ShowDialogAction.5f7c94b68adf.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.5f7c94b68adf.label=Administrative privileges are required to install Microsoft Visual C++ runtime libraries
-ShowDialogAction.5f7c94b68adf.label=Microsoft Visual C++ 런타임 라이브러리를 설치하려면 관리자 권한이 필요합니다.
-
-# ShowDialogAction.5f7c94b68adf.narrative=The Microsoft Visual C++ runtime libraries are required to run $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$.\n\nThese libraries are not installed, please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges 
-ShowDialogAction.5f7c94b68adf.narrative=Microsoft Visual C ++ 런타임 라이브러리는 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$를 실행해야 합니다.\n\n이들 라이브러리는 설치되어 있지 않으므로 관리자 권한으로 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 설치 프로그램을 다시 실행하십시오. 
-
-# ShowDialogAction.5f7c94b68adf.title=Error
-ShowDialogAction.5f7c94b68adf.title=오류
-
 # ShowDialogAction.653ab69e9640.buttonLabel=Next
 ShowDialogAction.653ab69e9640.buttonLabel=다음
 
@@ -3772,11 +3727,11 @@ ShowDialogAction.7e4d4aee9257.cancelButtonLabel=아니요
 # ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
 ShowDialogAction.7e4d4aee9257.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ Installation Found
-ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ 설치가 발견됨
+# ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Installation Found
+ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 설치 발견됨
 
-# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ component again?
-ShowDialogAction.7e4d4aee9257.narrative=솔버 컴포넌트 (_SOFTWARE_FAMILY_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$)가 기존에 이 컴퓨터에 설치된 것으로 보입니다.\n\n컴포넌트를 다시 설치하시겠습니까?
+# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ component again?
+ShowDialogAction.7e4d4aee9257.narrative=솔버 구성 요소(_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$)가 이전에 이 컴퓨터에 설치된 것으로 보입니다.\n\n_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 구성 요소를 다시 설치하시겠습니까?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=경고
@@ -3794,7 +3749,7 @@ ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=세부 정보...
 ShowDialogAction.7e8620e4a2ee.label=선택된 구성 요소 없음
 
 # ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 컴포넌트 선택을 취소했습니다. \n컴포넌트 선택 대화창으로 돌아가시려면 OK를 누르십시오.\n
+ShowDialogAction.7e8620e4a2ee.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 컴포넌트 선택을 취소했습니다. \n컴포넌트 선택 대화창으로 돌아가시려면 확인을 누르십시오.\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
 ShowDialogAction.7e8620e4a2ee.title=경고
@@ -3884,10 +3839,28 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=세부 정보...
 ShowDialogAction.85b5743ab480.label=선택된 구성 요소 없음
 
 # ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 컴포넌트 선택을 취소했습니다. \n컴포넌트 선택 대화창으로 돌아가시려면 OK를 누르십시오.\n
+ShowDialogAction.85b5743ab480.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 컴포넌트 선택을 취소했습니다. \n컴포넌트 선택 대화창으로 돌아가시려면 확인을 누르십시오.\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=경고
+
+# ShowDialogAction.8b658fda8e4e.buttonLabel=OK
+ShowDialogAction.8b658fda8e4e.buttonLabel=확인
+
+# ShowDialogAction.8b658fda8e4e.cancelButtonLabel=Cancel
+ShowDialogAction.8b658fda8e4e.cancelButtonLabel=취소
+
+# ShowDialogAction.8b658fda8e4e.detailsButtonLabel=Details...
+ShowDialogAction.8b658fda8e4e.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.8b658fda8e4e.label=_RT_JOB_MANAGER_ Port Number cannot be $PORT$.
+ShowDialogAction.8b658fda8e4e.label=$PORT$은(는) 올바른 _RT_JOB_MANAGER_ 포트 번호가 아닙니다.
+
+# ShowDialogAction.8b658fda8e4e.narrative=Please provide the correct _RT_JOB_MANAGER_ Port Number.
+ShowDialogAction.8b658fda8e4e.narrative=올바른 _RT_JOB_MANAGER_ 포트 번호를 입력하십시오.
+
+# ShowDialogAction.8b658fda8e4e.title=Warning
+ShowDialogAction.8b658fda8e4e.title=경고
 
 # ShowDialogAction.8d01b100a261.buttonLabel=Yes
 ShowDialogAction.8d01b100a261.buttonLabel=예
@@ -3988,11 +3961,11 @@ ShowDialogAction.a2273d0c9c30.cancelButtonLabel=취소
 # ShowDialogAction.a2273d0c9c30.detailsButtonLabel=Details...
 ShowDialogAction.a2273d0c9c30.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.a2273d0c9c30.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
-ShowDialogAction.a2273d0c9c30.label=$COMPANY_NAME$ PLM License Service 구성 중 오류가 발생했습니다.
+# ShowDialogAction.a2273d0c9c30.label=Error occurred while configuring _COMPANY_NAME_ PLM License Service.
+ShowDialogAction.a2273d0c9c30.label=_COMPANY_NAME_ PLM License Service 구성 중 오류가 발생했습니다.
 
-# ShowDialogAction.a2273d0c9c30.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.a2273d0c9c30.narrative=$COMPANY_NAME$ PLM License Service 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
+# ShowDialogAction.a2273d0c9c30.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a2273d0c9c30.narrative=_COMPANY_NAME_ PLM License Service 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.a2273d0c9c30.title=Error
 ShowDialogAction.a2273d0c9c30.title=오류
@@ -4006,11 +3979,11 @@ ShowDialogAction.a22951689cfd.cancelButtonLabel=취소
 # ShowDialogAction.a22951689cfd.detailsButtonLabel=Details...
 ShowDialogAction.a22951689cfd.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.a22951689cfd.label=Error occurred while configuring $COMPANY_NAME$ PLM License Service.
-ShowDialogAction.a22951689cfd.label=$COMPANY_NAME$ PLM License Service 구성 중 오류가 발생했습니다.
+# ShowDialogAction.a22951689cfd.label=Error occurred while configuring _COMPANY_NAME_ PLM License Service.
+ShowDialogAction.a22951689cfd.label=_COMPANY_NAME_ PLM License Service 구성 중 오류가 발생했습니다.
 
-# ShowDialogAction.a22951689cfd.narrative=A problem was encountered during the configuration of $COMPANY_NAME$ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.a22951689cfd.narrative=$COMPANY_NAME$ PLM License Service 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
+# ShowDialogAction.a22951689cfd.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ PLM License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.a22951689cfd.narrative=_COMPANY_NAME_ PLM License Service 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
 
 # ShowDialogAction.a22951689cfd.title=Error
 ShowDialogAction.a22951689cfd.title=오류
@@ -4246,8 +4219,8 @@ ShowDialogAction.d006d826a7d6.label=Linux 서비스 제거
 # ShowDialogAction.d006d826a7d6.narrative=Uninstalling the Linux service would require you to be an admin. Please uninstall with root privileges. 
 ShowDialogAction.d006d826a7d6.narrative=Linux 서비스를 제거하려면 관리자 권한이 필요합니다. 루트 권한으로 제거하십시오. 
 
-# ShowDialogAction.d006d826a7d6.title=Information
-ShowDialogAction.d006d826a7d6.title=정보
+# ShowDialogAction.d006d826a7d6.title=Warning
+ShowDialogAction.d006d826a7d6.title=경고
 
 # ShowDialogAction.d834db1390ec.buttonLabel=Yes
 ShowDialogAction.d834db1390ec.buttonLabel=예
@@ -4294,11 +4267,11 @@ ShowDialogAction.e261f38cb277.cancelButtonLabel=취소
 # ShowDialogAction.e261f38cb277.detailsButtonLabel=Details...
 ShowDialogAction.e261f38cb277.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$
-ShowDialogAction.e261f38cb277.label=관리 권한이 있어야 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$를 설치할 수 있습니다.
+# ShowDialogAction.e261f38cb277.label=Administrative privileges are required to install _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_
+ShowDialogAction.e261f38cb277.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_을(를) 설치하려면 관리 권한이 필요합니다.
 
-# ShowDialogAction.e261f38cb277.narrative=Please re-run the $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ installer with administrator privileges, or specify the NOADMIN=true option.
-ShowDialogAction.e261f38cb277.narrative=관리자 권한으로 $SOFTWARE_FAMILY_NAME$ $STAR_CCM_APP_NAME$ 설치 프로그램을 다시 실행하거나 NOADMIN=true 옵션을 지정하십시오.
+# ShowDialogAction.e261f38cb277.narrative=Please re-run the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installer with administrator privileges, or specify the NOADMIN=true option.
+ShowDialogAction.e261f38cb277.narrative=관리자 권한으로 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설치 관리자를 다시 실행하거나 NOADMIN=true 옵션을 지정하십시오.
 
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=오류
@@ -4489,7 +4462,13 @@ UninstallCompleteActionConsole.c7e377749840.skippedMessage=_SOFTWARE_FAMILY_NAME
 # UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
 UninstallCompleteActionConsole.c7e377749840.title=제거 완료
 
-# UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere.  Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+# UninstallIntroAction.02e8be318b55.message=About to uninstall...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.02e8be318b55.message=제거 준비 중...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일과 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
+
+# UninstallIntroAction.02e8be318b55.stepTitle=Uninstall _COMPANY_NAME_ PLM License Server
+UninstallIntroAction.02e8be318b55.stepTitle=_COMPANY_NAME_ PLM License Server 제거
+
+# UninstallIntroAction.13b8c9d9a9bf.message=About to uninstall...\n\nFLEXNet $FLEXlmVERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 UninstallIntroAction.13b8c9d9a9bf.message=제거 준비 중...\n\nFLEXNet $FLEXlmVERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 작성 또는 수정된 파일과 폴더를 제거합니다. 제거를 종료하려면 취소를 선택합니다.
 
 # UninstallIntroAction.13b8c9d9a9bf.stepTitle=Uninstall FLEXNet
@@ -4627,6 +4606,6 @@ _ia.validateFlex.TcpipNumber=TCP/IP 포트는 숫자여야 합니다.
 # _ia.buildFlexOutputString.serverIsOld=License server __CDLMD_VERSION__ is older than v__INSTALLER_CDLMD_VERSION__.
 _ia.buildFlexOutputString.serverIsOld=라이선스 서버 __CDLMD_VERSION__은(는) v__INSTALLER_CDLMD_VERSION__보다 구 버전입니다.
 
-# _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid Simcenter STAR-CCM+ license.
-_ia.buildFlexOutputString.serveNoValidFeatures=라이선스 서버 __SERVER_NAME__은(는) 올바른 Simcenter STAR-CCM+ 라이선스를 제공하지 않습니다.
+# _ia.buildFlexOutputString.serveNoValidFeatures=License server __SERVER_NAME__ does not serve a valid _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ license.
+_ia.buildFlexOutputString.serveNoValidFeatures=라이선스 서버 __SERVER_NAME__은(는) 올바른 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 라이선스를 제공하지 않습니다.
 

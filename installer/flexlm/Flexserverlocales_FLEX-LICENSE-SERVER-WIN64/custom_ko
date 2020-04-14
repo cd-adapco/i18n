@@ -19,7 +19,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Wed Nov 14 14:52:43 PST 2018
+# Generated:    Thu Mar 05 14:19:23 PST 2020
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -31,14 +31,14 @@ Billboard.ad1a6043b854.imageName=billboard_default.png
 # Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
 Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
 
-# ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.2077f0c888a3.additionalText=이메일을 통해 이전에 Siemens PLM Software에서 받은 라이선스 파일의 위치를 찾아 컴퓨터로 다운로드하십시오. 라이선스 파일을 찾았으면 파일을 강조표시하고 쿼리 상자에서 \"열기\"를 클릭하십시오. 아직 라이선스 파일을 받지 못했거나 Power on Demand 사용자가 있는 경우 \"다음\"을 클릭하여 이 설치 프로세스를 계속할 수 있지만 이 설치 도구를 다시 실행해야 완전한 STAR-CCM+ 설치를 마무리할 수 있습니다.
+# ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file, you may still proceed with this installation process by clicking “Next”, however, you will need to run this installation tool again in order to finalize the license server installation.
+ChooseFile.2077f0c888a3.additionalText=이메일을 통해 이전에 _COMPANY_NAME_ _BUSINESS_UNIT_에서 받은 라이선스 파일 위치를 찾아 컴퓨터로 다운로드하십시오. 라이선스 파일을 찾아 강조표시한 후 쿼리 상자에서 \"열기\"를 클릭하십시오. 아직 라이선스 파일을 받지 못한 경우, \"다음\"을 클릭하여 이 설치 프로세스를 계속할 수 있지만 라이선스 서버 설치를 마무리하기 위해서는 이 설치 도구를 다시 실행해야 합니다.
 
 # ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
 
 # ChooseFile.2077f0c888a3.prompt=Please choose location of the license &File:
-ChooseFile.2077f0c888a3.prompt=라이선스 파일(&F)의 위치를 선택하십시오.
+ChooseFile.2077f0c888a3.prompt=라이선스 파일의 위치를 선택하십시오(&F).
 
 # ChooseFile.2077f0c888a3.stepTitle=Select license file
 ChooseFile.2077f0c888a3.stepTitle=라이선스 파일 선택
@@ -250,14 +250,14 @@ GetUserInput.ad1a5f0ab70b.prompt=이전 FlexNet 라이선스 서버를 업데이
 # GetUserInput.ad1a5f0ab70b.title=Update License Server 
 GetUserInput.ad1a5f0ab70b.title=라이선스 서버 업데이트 
 
-# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
-GetUserInputConsole.3476a6ad92bb.prompt=이전에 이메일을 통해 $REGISTRY_COMPANY_NAME$에서 받아서 컴퓨터에 다운로드한 라이선스 파일이 들어있는 디렉터리를 입력합니다. 
+# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. 
+GetUserInputConsole.3476a6ad92bb.prompt=이전에 이메일을 통해 _COMPANY_NAME_ _BUSINESS_UNIT_에서 받아서 컴퓨터에 다운로드한 라이선스 파일이 들어있는 디렉터리를 입력하십시오. 
 
 # GetUserInputConsole.3476a6ad92bb.title=Select license file directory
 GetUserInputConsole.3476a6ad92bb.title=라이선스 파일 디렉터리 선택
 
-# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
-GetUserInputConsole.3479ecd19ef9.prompt=이전에 이메일을 통해 $REGISTRY_COMPANY_NAME$에서 받아서 컴퓨터에 다운로드한 라이선스 파일 이름을 입력합니다. 
+# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. 
+GetUserInputConsole.3479ecd19ef9.prompt=이전에 이메일을 통해 _COMPANY_NAME_ _BUSINESS_UNIT_에서 받아서 컴퓨터에 다운로드한 라이선스 파일 이름을 입력하십시오. 
 
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=라이선스 파일 이름 선택
@@ -398,7 +398,7 @@ InstallCompleteActionConsole.ad1a5fe5b791.title=설치 완료
 InstallDirAction.ad1a5efab6fa.additionalText=
 
 # InstallDirAction.ad1a5efab6fa.prompt=&Where Would You Like to Install $INSTALLER_TITLE$?
-InstallDirAction.ad1a5efab6fa.prompt=&어디에 설치하시겠습니까 $INSTALLER_TITLE$?
+InstallDirAction.ad1a5efab6fa.prompt=$INSTALLER_TITLE$을(를) 어디에 설치하시겠습니까(&W)?
 
 # InstallDirAction.ad1a5efab6fa.stepTitle=Select Install Location
 InstallDirAction.ad1a5efab6fa.stepTitle=설치 위치 선택
@@ -407,7 +407,7 @@ InstallDirAction.ad1a5efab6fa.stepTitle=설치 위치 선택
 InstallDirActionConsole.ad1a5efab6fc.additionalText=
 
 # InstallDirActionConsole.ad1a5efab6fc.prompt=Where Would You Like to Install $PRODUCT_NAME$ ?
-InstallDirActionConsole.ad1a5efab6fc.prompt=어디에 설치하시겠습니까 $PRODUCT_NAME$ ?
+InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$을(를) 어디에 설치하시겠습니까?
 
 # InstallDirActionConsole.ad1a5efab6fc.stepTitle=Select Install Location
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=설치 위치 선택
@@ -499,8 +499,8 @@ InstallerInfoData.ad1a6005b7f8.email=
 # InstallerInfoData.ad1a6005b7f8.installerName=FlexNet License Server
 InstallerInfoData.ad1a6005b7f8.installerName=FlexNet 라이선스 서버
 
-# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server ® $FLEX_VERSION_NUMBER$
-InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet 라이선스 서버 ® $FLEX_VERSION_NUMBER$
+# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server $FLEX_VERSION_NUMBER$
+InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet 라이선스 서버 $FLEX_VERSION_NUMBER$
 
 # InstallerInfoData.ad1a6005b7f8.productDescription=
 InstallerInfoData.ad1a6005b7f8.productDescription=
@@ -514,11 +514,17 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 # InstallerInfoData.ad1a6005b7f8.supportURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
-InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
+# InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
 InstallerInfoData.ad1a6005b7f8.vendorURL=
+
+# InstallerUpdateSettings.736ba0308163.promptMessage=Do you want to install latest available version?
+InstallerUpdateSettings.736ba0308163.promptMessage=사용 가능한 최신 버전을 설치하시겠습니까?
+
+# InstallerUpdateSettings.736ba0308163.promptTitle=Installer Update
+InstallerUpdateSettings.736ba0308163.promptTitle=설치 프로그램 업데이트
 
 # InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log for details.
 InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그를 참조하십시오.
@@ -628,8 +634,8 @@ MakeRegEntry.31a26847bf41.valueName=DisplayVersion
 # MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
-# MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
-MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
+# MakeRegEntry.bb1edfbf926b.value=_COMPANY_NAME_ _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ license server
+MakeRegEntry.bb1edfbf926b.value=_COMPANY_NAME_ _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ license server
 
 # MakeRegEntry.bb1edfbf926b.valueName=DisplayName
 MakeRegEntry.bb1edfbf926b.valueName=DisplayName
@@ -703,7 +709,7 @@ PromptUserConsole.347acbcaa515.option2Label=세부 정보...
 # PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
 PromptUserConsole.347acbcaa515.title=오류: 잘못된 라이선스 파일 이름
 
-# PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+# PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your license file.
 PromptUserConsole.347b73c3ab4b.message=파일 $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$이(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.\n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # PromptUserConsole.347b73c3ab4b.option0Label=Next
@@ -970,8 +976,8 @@ ShowDialogAction.2077f0c888a6.detailsButtonLabel=세부 정보...
 # ShowDialogAction.2077f0c888a6.label=Invalid license file.
 ShowDialogAction.2077f0c888a6.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.2077f0c888a6.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+# ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your license file.
+ShowDialogAction.2077f0c888a6.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$(가) 서버 $LICHOSTNAMEFOUND$에 대해 구성되지 않았습니다.\n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.2077f0c888a6.title=ERROR
 ShowDialogAction.2077f0c888a6.title=오류
