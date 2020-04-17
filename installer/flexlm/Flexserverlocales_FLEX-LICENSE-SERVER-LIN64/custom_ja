@@ -19,7 +19,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Tue Nov 13 14:09:53 PST 2018
+# Generated:    Thu Mar 05 14:19:23 PST 2020
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -31,8 +31,8 @@ Billboard.ad1a6043b854.imageName=billboard_default.png
 # Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
 Billboard.ad1a6043b854.imagePath=com/zerog/ia/installer/images/
 
-# ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from Siemens PLM Software via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete STAR-CCM+ installation.
-ChooseFile.2077f0c888a3.additionalText=シーメンスPLMソフトウェアから電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、またはPoD(パワーオンデマンド)ユーザーの場合は、[次へ]をクリックしてこのインストールプロセスを進めることができます。だたし、STAR-CCM+のインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
+# ChooseFile.2077f0c888a3.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file, you may still proceed with this installation process by clicking “Next”, however, you will need to run this installation tool again in order to finalize the license server installation.
+ChooseFile.2077f0c888a3.additionalText=_COMPANY_NAME_ _BUSINESS_UNIT_から電子メールで受け取ってコンピュータに保存したライセンスファイルの場所まで移動してください。ライセンスファイルを選択し、検索ダイアログの［開く］をクリックします。ライセンスファイルをまだ受け取っていない場合、[次へ]をクリックしてこのインストールプロセスを進めることができます。しかしながら、ライセンスサーバーのインストールを完全に終えるには、このインストールツールをもう一度実行する必要があります。
 
 # ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.2077f0c888a3.defaultFile=$DEFAULT_LIC_FILE$
@@ -250,14 +250,14 @@ GetUserInput.ad1a5f0ab70b.prompt=以前の FlexNet ライセンスサーバー�
 # GetUserInput.ad1a5f0ab70b.title=Update License Server 
 GetUserInput.ad1a5f0ab70b.title=ライセンスサーバーを更新
 
-# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
-GetUserInputConsole.3476a6ad92bb.prompt=$REGISTRY_COMPANY_NAME$から電子メールで受け取ってコンピュータに保存したライセンスファイルが格納されているディレクトリを入力してください。
+# GetUserInputConsole.3476a6ad92bb.prompt=Please enter the directory containing the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. 
+GetUserInputConsole.3476a6ad92bb.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_から電子メールで受け取ってコンピュータに保存したライセンスファイルが格納されているディレクトリを入力してください。
 
 # GetUserInputConsole.3476a6ad92bb.title=Select license file directory
 GetUserInputConsole.3476a6ad92bb.title=ライセンスファイルのディレクトリを選択
 
-# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from $REGISTRY_COMPANY_NAME$ via email, and downloaded onto your computer. 
-GetUserInputConsole.3479ecd19ef9.prompt=$REGISTRY_COMPANY_NAME$から電子メールで受け取ってコンピュータに保存したライセンスファイル名を入力してください。
+# GetUserInputConsole.3479ecd19ef9.prompt=Please enter the license filename which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. 
+GetUserInputConsole.3479ecd19ef9.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_から電子メールで受け取ってコンピュータに保存したライセンスファイル名を入力してください。
 
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=ライセンスファイル名を選択
@@ -499,8 +499,8 @@ InstallerInfoData.ad1a6005b7f8.email=
 # InstallerInfoData.ad1a6005b7f8.installerName=FlexNet License Server
 InstallerInfoData.ad1a6005b7f8.installerName=FlexNet ライセンスサーバー
 
-# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server ® $FLEX_VERSION_NUMBER$
-InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet ライセンスサーバー ® $FLEX_VERSION_NUMBER$
+# InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet License Server $FLEX_VERSION_NUMBER$
+InstallerInfoData.ad1a6005b7f8.installerTitle=FlexNet ライセンスサーバー $FLEX_VERSION_NUMBER$
 
 # InstallerInfoData.ad1a6005b7f8.productDescription=
 InstallerInfoData.ad1a6005b7f8.productDescription=
@@ -514,11 +514,17 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 # InstallerInfoData.ad1a6005b7f8.supportURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
-InstallerInfoData.ad1a6005b7f8.vendorName=Siemens PLM
+# InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
 InstallerInfoData.ad1a6005b7f8.vendorURL=
+
+# InstallerUpdateSettings.736ba0308163.promptMessage=Do you want to install latest available version?
+InstallerUpdateSettings.736ba0308163.promptMessage=使用可能な最新バージョンをインストールしますか?
+
+# InstallerUpdateSettings.736ba0308163.promptTitle=Installer Update
+InstallerUpdateSettings.736ba0308163.promptTitle=インストーラー更新
 
 # InstallFinishAction.ad1a5fe5b78f.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install.  Please see the installation log for details.
 InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$INSTALLER_TITLE$のインストールは終了しましたが、インストール中にエラーが発生しました。詳細は、インストールログを確認してください。
@@ -551,7 +557,7 @@ InstallFinishAction.ad1a5fe5b78f.windowTitle=インストール完了
 InstallFrameConfigurator.ad1a6004b7f1.maintModeTitle=$PRODUCT_NAME$を構成
 
 # InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=Uninstall $INSTALLER_TITLE$
-InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=アンインストール $INSTALLER_TITLE$
+InstallFrameConfigurator.ad1a6004b7f1.uninstallerTitle=$INSTALLER_TITLE$をアンインストール
 
 # InstallSet.ad1a6004b7f4.description=Choose this option to customize the features to be installed.
 InstallSet.ad1a6004b7f4.description=このオプションを選択すると、インストールする機能をカスタマイズできます。
@@ -590,7 +596,7 @@ InstallSummaryConsole.ad1a5fa6b72b.stepPrompt=操作を続ける前に、以下�
 InstallSummaryConsole.ad1a5fa6b72b.title=プリインストールの要約
 
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
-InstallUninstaller.ad1a6042b859.destinationName=アンインストール $PRODUCT_NAME$
+InstallUninstaller.ad1a6042b859.destinationName=$PRODUCT_NAME$をアンインストール
 
 # IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
 IntroAction.102ce4b4ba3c.message=インストーラー･ウィザードに、$INSTALLER_TITLE$のインストール手順が説明されます。\n\nこのインストーラーを実行するには管理者権限が必要です。\n\n現在実行中のライセンスサーバーは停止する必要があります。また Windows サービスとしてインストールされているライセンスサーバーがあれば停止して、それらのサービスを削除する必要があります。\n\n[次へ]ボタンをクリックして次の画面に進みます。前の画面で変更を行なう必要がある場合は、[戻る]ボタンをクリックします。\n\n[キャンセル]ボタンをクリックすると、このインストールをいつでもキャンセルすることができます。
@@ -628,8 +634,8 @@ MakeRegEntry.31a26847bf41.valueName=DisplayVersion
 # MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.bb1edfbf926b.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 
-# MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
-MakeRegEntry.bb1edfbf926b.value=CCM $PRODUCT_NAME$
+# MakeRegEntry.bb1edfbf926b.value=_COMPANY_NAME_ _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ license server
+MakeRegEntry.bb1edfbf926b.value=_COMPANY_NAME_ _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ license server
 
 # MakeRegEntry.bb1edfbf926b.valueName=DisplayName
 MakeRegEntry.bb1edfbf926b.valueName=DisplayName
@@ -703,7 +709,7 @@ PromptUserConsole.347acbcaa515.option2Label=詳細...
 # PromptUserConsole.347acbcaa515.title=ERROR: Invalid license filename
 PromptUserConsole.347acbcaa515.title=エラー: 無効なライセンスファイル名
 
-# PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+# PromptUserConsole.347b73c3ab4b.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your license file.
 PromptUserConsole.347b73c3ab4b.message=ファイル$CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # PromptUserConsole.347b73c3ab4b.option0Label=Next
@@ -970,7 +976,7 @@ ShowDialogAction.2077f0c888a6.detailsButtonLabel=詳細...
 # ShowDialogAction.2077f0c888a6.label=Invalid license file.
 ShowDialogAction.2077f0c888a6.label=無効なライセンスファイルです。
 
-# ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
+# ShowDialogAction.2077f0c888a6.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.2077f0c888a6.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの$LICHOSTNAMEFOUND$に設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c888a6.title=ERROR
@@ -1214,13 +1220,13 @@ UninstallCompleteActionConsole.ad1a6034b834.title=アンインストール完了
 UninstallIntroAction.ad1a6014b7ff.message=アンインストールしようとしています...\n\n$INSTALLER_TITLE$ \n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
-UninstallIntroAction.ad1a6014b7ff.stepTitle=アンインストール $INSTALLER_TITLE$
+UninstallIntroAction.ad1a6014b7ff.stepTitle=$INSTALLER_TITLE$をアンインストール
 
 # UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ \n
 UninstallIntroActionConsole.ad1a6014b801.message=アンインストールしようとしています...\n\n$PRODUCT_NAME$ \n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
-UninstallIntroActionConsole.ad1a6014b801.stepTitle=アンインストール $PRODUCT_NAME$
+UninstallIntroActionConsole.ad1a6014b801.stepTitle=$PRODUCT_NAME$をアンインストール
 
 # VariablePropertyDataBiDi.074b4517ba31.propertyName=Installation directory:
 VariablePropertyDataBiDi.074b4517ba31.propertyName=インストールディレクトリ:
