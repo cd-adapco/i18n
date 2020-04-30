@@ -833,16 +833,16 @@ ExecuteScript.1d9439d39990.title=删除共享
 ExecuteScript.29fb7235a3f7.title=移除 _COMPANY_NAME_ Windows 服务
 
 # ExecuteScript.32453f939fe1.title=extract English documentation
-ExecuteScript.32453f939fe1.title=抽取英语文档
+ExecuteScript.32453f939fe1.title=提取英语文档
 
 # ExecuteScript.32a2382db2c9.title=extract Japanese documentation
-ExecuteScript.32a2382db2c9.title=抽取日语文档
+ExecuteScript.32a2382db2c9.title=提取日语文档
 
 # ExecuteScript.32a265afb332.title=extract Korean documentation
-ExecuteScript.32a265afb332.title=抽取朝鲜语文档
+ExecuteScript.32a265afb332.title=提取朝鲜语文档
 
 # ExecuteScript.32a28086b399.title=extract Chinese documentation
-ExecuteScript.32a28086b399.title=抽取中文文档
+ExecuteScript.32a28086b399.title=提取中文文档
 
 # ExecuteScript.33e242b5b716.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 ExecuteScript.33e242b5b716.title=注销 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
@@ -911,7 +911,7 @@ ExecuteScript.3c980762b2a4.title=为所有用户配置 STAR-NX 10
 ExecuteScript.3dac852cae9c.title=卸载 Java JDK
 
 # ExecuteScript.3fc1bbc9835b.title=extract STAR-NX-1872
-ExecuteScript.3fc1bbc9835b.title=抽取 STAR-NX-1872
+ExecuteScript.3fc1bbc9835b.title=提取 STAR-NX-1872
 
 # ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 ExecuteScript.41fcc8debe2f.title=卸载 Java JDK
@@ -920,34 +920,34 @@ ExecuteScript.41fcc8debe2f.title=卸载 Java JDK
 ExecuteScript.420284278cb9.title=卸载 Flexlm-linux
 
 # ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
-ExecuteScript.4834719b95fe.title=抽取 STAR-INVENTOR-ALL
+ExecuteScript.4834719b95fe.title=提取 STAR-INVENTOR-ALL
 
 # ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
-ExecuteScript.483683ac9bbb.title=抽取 STAR-CREO-4
+ExecuteScript.483683ac9bbb.title=提取 STAR-CREO-4
 
 # ExecuteScript.48387819a0cf.title=extract STAR-NX-10
-ExecuteScript.48387819a0cf.title=抽取 STAR-NX-10
+ExecuteScript.48387819a0cf.title=提取 STAR-NX-10
 
 # ExecuteScript.4838b698a18e.title=extract STAR-NX-11
-ExecuteScript.4838b698a18e.title=抽取 STAR-NX-11
+ExecuteScript.4838b698a18e.title=提取 STAR-NX-11
 
 # ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
-ExecuteScript.4838bdf3a1ec.title=抽取 STAR-NX-12
+ExecuteScript.4838bdf3a1ec.title=提取 STAR-NX-12
 
 # ExecuteScript.483c1468adef.title=extract STAR-CAT5-25
-ExecuteScript.483c1468adef.title=抽取 STAR-CAT5-25
+ExecuteScript.483c1468adef.title=提取 STAR-CAT5-25
 
 # ExecuteScript.483c1cd3ae50.title=extract STAR-CAT5-26
-ExecuteScript.483c1cd3ae50.title=抽取 STAR-CAT5-26
+ExecuteScript.483c1cd3ae50.title=提取 STAR-CAT5-26
 
 # ExecuteScript.483c25ecaeaf.title=extract STAR-CAT5-27
-ExecuteScript.483c25ecaeaf.title=抽取 STAR-CAT5-27
+ExecuteScript.483c25ecaeaf.title=提取 STAR-CAT5-27
 
 # ExecuteScript.483c2db7af11.title=extract STAR-CAT5-28
-ExecuteScript.483c2db7af11.title=抽取 STAR-CAT5-28
+ExecuteScript.483c2db7af11.title=提取 STAR-CAT5-28
 
 # ExecuteScript.483cf16eafe3.title=extract STAR-CAT5-29
-ExecuteScript.483cf16eafe3.title=抽取 STAR-CAT5-29
+ExecuteScript.483cf16eafe3.title=提取 STAR-CAT5-29
 
 # ExecuteScript.49b821379c52.title=create .flexlmrc
 ExecuteScript.49b821379c52.title=创建 .flexlmrc
@@ -1061,7 +1061,7 @@ ExecuteScript.7d08ee059041.dialogLabel=正在安装 _SOFTWARE_FAMILY_NAME_  _STA
 ExecuteScript.7d08ee059041.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 
 # ExecuteScript.80940cd987b6.title=extract STAR-NX-1847
-ExecuteScript.80940cd987b6.title=抽取 STAR-NX-1847
+ExecuteScript.80940cd987b6.title=提取 STAR-NX-1847
 
 # ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
 ExecuteScript.8134e3c18f85.title=正在运行 verifypermissions 以升级 _RT_JOB_MANAGER_
@@ -1262,37 +1262,37 @@ ExecuteScript.e13f0215879a.title=删除 custom_dirs.dat
 ExecuteScript.eab32fc2b934.title=正在移除 PC MPI 安装程序
 
 # ExecuteScript.f4fe59f891fe.title=extract English release notes
-ExecuteScript.f4fe59f891fe.title=抽取英语发行说明
+ExecuteScript.f4fe59f891fe.title=提取英语发行说明
 
 # ExecuteScript.f504ed7e9200.title=extract English install guide
-ExecuteScript.f504ed7e9200.title=抽取英语安装指南
+ExecuteScript.f504ed7e9200.title=提取英语安装指南
 
 # ExecuteScript.f5c1550ca99f.title=extract Japanese release notes
-ExecuteScript.f5c1550ca99f.title=抽取日语发行说明
+ExecuteScript.f5c1550ca99f.title=提取日语发行说明
 
 # ExecuteScript.f5c98c09817c.title=extract Japanese install guide
-ExecuteScript.f5c98c09817c.title=抽取日语安装指南
+ExecuteScript.f5c98c09817c.title=提取日语安装指南
 
 # ExecuteScript.f5cbe385817c.title=extract Korean release notes
-ExecuteScript.f5cbe385817c.title=抽取朝鲜语发行说明
+ExecuteScript.f5cbe385817c.title=提取朝鲜语发行说明
 
 # ExecuteScript.f5ce48a58180.title=extract Korean install guide
-ExecuteScript.f5ce48a58180.title=抽取朝鲜语安装指南
+ExecuteScript.f5ce48a58180.title=提取朝鲜语安装指南
 
 # ExecuteScript.f5d0b5af856e.title=extract Chinese release notes
-ExecuteScript.f5d0b5af856e.title=抽取中文发行说明
+ExecuteScript.f5d0b5af856e.title=提取中文发行说明
 
 # ExecuteScript.f5d0c8df856e.title=extract Chinese install guide
-ExecuteScript.f5d0c8df856e.title=抽取中文安装指南
+ExecuteScript.f5d0c8df856e.title=提取中文安装指南
 
 # ExecuteScript.f5d60afc856f.title=extract startutorialsdata documentation
-ExecuteScript.f5d60afc856f.title=抽取 startutorialsdata 文档
+ExecuteScript.f5d60afc856f.title=提取 startutorialsdata 文档
 
 # ExecuteScript.f6012a85856f.title=extract api documentation
-ExecuteScript.f6012a85856f.title=抽取 api 文档
+ExecuteScript.f6012a85856f.title=提取 api 文档
 
 # ExecuteScript.f605417b856f.title=extract client documentation
-ExecuteScript.f605417b856f.title=抽取客户端文档
+ExecuteScript.f605417b856f.title=提取客户端文档
 
 # ExecuteScript.f7ce86aba575.title=ADD/REMOVE Product Icon on Network install
 ExecuteScript.f7ce86aba575.title=在网络安装中添加/移除产品图标
@@ -1427,7 +1427,7 @@ GetUserInput.8fe4e9e8b4a1.prompt=请输入将用于管理 _RT_JOB_MANAGER_ 的�
 GetUserInput.8fe4e9e8b4a1.title=管理员用户名
 
 # GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the _RT_JOB_MANAGER_? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
-GetUserInput.9737389d8c0f.prompt=要卸载 _RT_JOB_MANAGER_ 吗？这还会删除包含所有配置设置的数据库文件，且一旦移除，将无法恢复。
+GetUserInput.9737389d8c0f.prompt=要卸载 _RT_JOB_MANAGER_ 吗？这还会移除包含所有配置设置的数据库文件，且一旦移除，将无法恢复。
 
 # GetUserInput.9737389d8c0f.title=Uninstall _RT_JOB_MANAGER_
 GetUserInput.9737389d8c0f.title=卸载 _RT_JOB_MANAGER_
@@ -3533,7 +3533,7 @@ ShowDialogAction.38a209debe57.detailsButtonLabel=详情...
 ShowDialogAction.38a209debe57.label=在本机上检测到基于 lmadmin 的过时的许可证服务器
 
 # ShowDialogAction.38a209debe57.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.38a209debe57.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$ 许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
+ShowDialogAction.38a209debe57.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$ 许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并移除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.38a209debe57.title=Warning: License server
 ShowDialogAction.38a209debe57.title=警告：许可证服务器
@@ -4583,7 +4583,7 @@ _ia.validateFlex.LicSrv123Diff=许可证服务器 1 与服务器 2 和服务器 
 _ia.validateFlex.HostLookupError=主机名查找错误：\n
 
 # _ia.validateFlex.LicSrv=License server: 
-_ia.validateFlex.LicSrv=许可证服务器:
+_ia.validateFlex.LicSrv=许可证服务器：
 
 # _ia.validateFlex.PortHostSep=Port and host must be separated by a __VALID_CHARACTER__ character.
 _ia.validateFlex.PortHostSep=端口和主机必须由 __VALID_CHARACTER__ 字符分隔。

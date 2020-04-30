@@ -44,7 +44,7 @@ ChooseFile.2077f0c888a3.prompt=请选择许可证文件位置 (&F) ：
 ChooseFile.2077f0c888a3.stepTitle=选择许可证文件
 
 # CreateDialog.20452174b524.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-CreateDialog.20452174b524.prompt=想要立即停止并移除 $SERVICE_NAME$许可证服务器管理器？
+CreateDialog.20452174b524.prompt=想要立即停止并移除 $SERVICE_NAME$ 许可证服务器管理器？
 
 # CreateDialog.20452174b524.title=Stop the Server
 CreateDialog.20452174b524.title=停止服务器
@@ -245,7 +245,7 @@ GetUserInput.39b459359a2b.prompt=您现在可以设置许可证管理器服务�
 GetUserInput.39b459359a2b.title=服务配置
 
 # GetUserInput.ad1a5f0ab70b.prompt=To update a previous FlexNet License Server , please select the checkbox below and provide the path to the previous cdlmd installation?  (By default updating is disabled)\n
-GetUserInput.ad1a5f0ab70b.prompt=要更新以前的 FlexNet 许可证服务器,请选择以下复选框并提供以前 cdlmd 安装的路径？(默认时禁用更新)\n
+GetUserInput.ad1a5f0ab70b.prompt=要更新以前的 FlexNet 许可证服务器，请选中以下复选框并提供以前 cdlmd 安装的路径（默认禁用更新）\n
 
 # GetUserInput.ad1a5f0ab70b.title=Update License Server 
 GetUserInput.ad1a5f0ab70b.title=更新许可证服务器
@@ -281,7 +281,7 @@ GetUserInputConsole.397431c298ca.prompt=您现在要启动许可证服务器管�
 GetUserInputConsole.397431c298ca.title=启动服务器
 
 # GetUserInputConsole.39bf55a39e93.prompt=Do you want to stop and remove the $SERVICE_NAME$ License Server Manager now?
-GetUserInputConsole.39bf55a39e93.prompt=想要立即停止并移除 $SERVICE_NAME$许可证服务器管理器？
+GetUserInputConsole.39bf55a39e93.prompt=想要立即停止并移除 $SERVICE_NAME$ 许可证服务器管理器？
 
 # GetUserInputConsole.39bf55a39e93.title=Stop the Server
 GetUserInputConsole.39bf55a39e93.title=停止服务器
@@ -299,7 +299,7 @@ GetUserInputConsole.ad1a5f0ab711.prompt=请提供以前 cdlmd 安装的路径？
 GetUserInputConsole.ad1a5f0ab711.title=更新许可证服务器
 
 # GetUserInputConsole.ad1a5f0bb708.prompt=Do you want to update a previous FlexNet license server installation? (By default updating is disabled)\n\n
-GetUserInputConsole.ad1a5f0bb708.prompt=您要更新以前的 FlexNet 许可证服务器安装吗？（默认时禁用更新）\n\n
+GetUserInputConsole.ad1a5f0bb708.prompt=您要更新以前的 FlexNet 许可证服务器安装吗？（默认禁用更新）\n\n
 
 # GetUserInputConsole.ad1a5f0bb708.title=Update License Server 
 GetUserInputConsole.ad1a5f0bb708.title=更新许可证服务器
@@ -389,7 +389,7 @@ InstallBundle.ad1a6043b853.bundleName=许可证服务器
 InstallBundle.ad1a6043b853.description=此操作将安装许可证服务器功能。
 
 # InstallCompleteActionConsole.ad1a5fe5b791.message=Congratulations. $PRODUCT_NAME$ has been successfully installed to:\n\n   $USER_INSTALL_DIR$
-InstallCompleteActionConsole.ad1a5fe5b791.message=祝贺。已将 $PRODUCT_NAME$ 成功安装到：\n\n   $USER_INSTALL_DIR$
+InstallCompleteActionConsole.ad1a5fe5b791.message=祝贺您，已将 $PRODUCT_NAME$ 成功安装到：\n\n   $USER_INSTALL_DIR$
 
 # InstallCompleteActionConsole.ad1a5fe5b791.title=Installation Complete
 InstallCompleteActionConsole.ad1a5fe5b791.title=安装完成
@@ -533,7 +533,7 @@ InstallFinishAction.ad1a5fe5b78f.installErrorMessage=$INSTALLER_TITLE$ 安装已
 InstallFinishAction.ad1a5fe5b78f.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志。
 
 # InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=Congratulations! $INSTALLER_TITLE$ has been successfully installed to:\n\n     $USER_INSTALL_DIR$\n\nPress \"Done \" to exit
-InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=祝贺！已将 $INSTALLER_TITLE$ 成功安装到：\n\n     $USER_INSTALL_DIR$\n\n请按“完成”退出
+InstallFinishAction.ad1a5fe5b78f.installSuccessMessage=祝贺您！已将 $INSTALLER_TITLE$ 成功安装到：\n\n     $USER_INSTALL_DIR$\n\n按“完成”退出
 
 # InstallFinishAction.ad1a5fe5b78f.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log for details.
 InstallFinishAction.ad1a5fe5b78f.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志。
@@ -800,7 +800,7 @@ PromptUserConsole.34b3805a9735.option2Label=详情...
 PromptUserConsole.34b3805a9735.title=警告：在本机上检测到过期许可证服务器
 
 # PromptUserConsole.34b4ce729738.message=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-PromptUserConsole.34b4ce729738.message=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
+PromptUserConsole.34b4ce729738.message=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并移除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
 
 # PromptUserConsole.34b4ce729738.option0Label=Next
 PromptUserConsole.34b4ce729738.option0Label=下一步
@@ -1049,7 +1049,7 @@ ShowDialogAction.2077f0c888ae.detailsButtonLabel=详情...
 ShowDialogAction.2077f0c888ae.label=在本机上检测到基于 lmadmin 的过时的许可证服务器
 
 # ShowDialogAction.2077f0c888ae.narrative=A v$RUNNING_CDLMD_VERSION$ license server has been detected on this machine.  This software requires a license server with a minimum of v$INSTALLER_CDLMD_VERSION$.\n\nThe current license server appears to be lmadmin.  This installer is unable to automatically upgrade a lmadmin configuration.  Please stop the license server and remove the service before continuing.\n\nIf the license server is kept running, the license server will need to be upgraded manually before execution of the software.
-ShowDialogAction.2077f0c888ae.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并删除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
+ShowDialogAction.2077f0c888ae.narrative=在本机上检测到 v$RUNNING_CDLMD_VERSION$许可证服务器。该软件需要版本最低为 v$INSTALLER_CDLMD_VERSION$ 的许可证服务器。\n\n当前的许可证服务器似乎是 lmadmin。此安装程序无法自动升级 lmadmin 配置。请停止许可证服务器并移除服务，然后再继续。\n\n如果许可证服务器保持运行，则在运行软件之前需要手动升级许可证服务器。
 
 # ShowDialogAction.2077f0c888ae.title=Warning: License server
 ShowDialogAction.2077f0c888ae.title=警告：许可证服务器
