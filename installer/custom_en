@@ -17,7 +17,7 @@
 #     that cannot be represented by ASCII characters should be written using escaped unicode.
 #     - see the utility 'native2ascii' distributed with your JDK
 #
-# Product Name: _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+# Product Name: _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ (_REL_VER_NUM__R8_INST_)
 # Project File: /u/xeon144/starusers/kevinm/installers/ccmp/linux/workspace/star/config/ia-installer/starccm+/starccmplus_package_7z.iap_xml
 # Generated:    Wed Jul 11 13:45:45 EDT 2018
 
@@ -30,9 +30,6 @@ ASCIIFileManipulator.2c3067398d84.additionalText=
 
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
-
-# ASCIIFileManipulator.48e493b28f57.additionalText=
-ASCIIFileManipulator.48e493b28f57.additionalText=
 
 # ASCIIFileManipulator.49b821459c81.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
@@ -49,14 +46,14 @@ Billboard.850018f38468.imageName=billboard_default.png
 # Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
-# ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
-ChooseFile.257d8095925b.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file or are a Power on Demand user, you may still proceed with this installation process by clicking “Next”, however you will need to run this installation tool again in order to finalize the complete _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
+# ChooseFile.257d8095925b.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file, or are a _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand user, you may still proceed with this installation process by clicking \"Next\". However you will need to run this installation tool again to finalize the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
+ChooseFile.257d8095925b.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file, or are a _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand user, you may still proceed with this installation process by clicking \"Next\". However you will need to run this installation tool again to finalize the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
 
 # ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 
-# ChooseFile.257d8095925b.prompt=Please choose location of the license File:
-ChooseFile.257d8095925b.prompt=Please choose location of the license File:
+# ChooseFile.257d8095925b.prompt=Please choose the license File:
+ChooseFile.257d8095925b.prompt=Please choose the license File:
 
 # ChooseFile.257d8095925b.stepTitle=Select license file
 ChooseFile.257d8095925b.stepTitle=Select license file
@@ -73,29 +70,17 @@ ChooseFile.8571f4d08c44.prompt=Please enter the name of the database file
 # ChooseFile.8571f4d08c44.stepTitle=Create database file
 ChooseFile.8571f4d08c44.stepTitle=Create database file
 
-# ChooseFile.a174655a93b6.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
-ChooseFile.a174655a93b6.additionalText=Please browse to the location of the license file which you should have received previously from _COMPANY_NAME_ _BUSINESS_UNIT_ via email, and downloaded onto your computer. Once you have located the license file, highlight the file and click “open” in the query box. If you have not yet received a license file you may not be able to proceed with this installation.
+# ChooseFile.a174655a93b6.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.a174655a93b6.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file you may not be able to proceed with this installation.
 
 # ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
 ChooseFile.a174655a93b6.defaultFile=$DEFAULT_UGS_LIC_FILE$
 
-# ChooseFile.a174655a93b6.prompt=Please choose location of the license File:
-ChooseFile.a174655a93b6.prompt=Please choose location of the license File:
+# ChooseFile.a174655a93b6.prompt=Please choose the license File:
+ChooseFile.a174655a93b6.prompt=Please choose the license File:
 
 # ChooseFile.a174655a93b6.stepTitle=Select license file
 ChooseFile.a174655a93b6.stepTitle=Select license file
-
-# ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
-ChooseFolder.59b3a9e8ae16.additionalText=Please Locate where $INSTALLER_TITLE$ is installed.
-
-# ChooseFolder.59b3a9e8ae16.defaultFile=
-ChooseFolder.59b3a9e8ae16.defaultFile=
-
-# ChooseFolder.59b3a9e8ae16.prompt=Please Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation:
-ChooseFolder.59b3a9e8ae16.prompt=Please Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation:
-
-# ChooseFolder.59b3a9e8ae16.stepTitle=Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation 
-ChooseFolder.59b3a9e8ae16.stepTitle=Locate _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation 
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
 ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
@@ -583,6 +568,9 @@ CreateShortcut.eba4b7c1a520.destinationName=View Sample Scene
 # CreateShortcut.eba4b7c1a520.workingDir=
 CreateShortcut.eba4b7c1a520.workingDir=
 
+# CustomAction.6e63a0d1af3d.dialogLabel=Executing Custom Code...
+CustomAction.6e63a0d1af3d.dialogLabel=Executing Custom Code...
+
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
@@ -607,11 +595,8 @@ EditEnvironment.49b821459c9a.value=$ccm_LICENSE_FILE$
 # EditEnvironment.49b821469c77.value=$ccm_LICENSE_FILE$
 EditEnvironment.49b821469c77.value=$ccm_LICENSE_FILE$
 
-# EditEnvironment.79445504bf41.value=disable
-EditEnvironment.79445504bf41.value=disable
-
-# EditEnvironment.794eacecaa79.value=disable
-EditEnvironment.794eacecaa79.value=disable
+# EditEnvironment.5101d6088b26.value=$UGS_LICENSE_FILE$
+EditEnvironment.5101d6088b26.value=$UGS_LICENSE_FILE$
 
 # EditEnvironment.7d929202a641.value=$USER_MAGIC_FOLDER_5$/bin
 EditEnvironment.7d929202a641.value=$USER_MAGIC_FOLDER_5$/bin
@@ -694,11 +679,11 @@ Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
 # Exec.545df2008320.title=Unregister Platform MPI SMPID
 Exec.545df2008320.title=Unregister Platform MPI SMPID
 
-# Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.d5019cafa40a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B25$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+# Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
-# Exec.d5019cafa40a.title=attrib +R
-Exec.d5019cafa40a.title=attrib +R
+# Exec.b8b20e8da4fb.title=attrib +R
+Exec.b8b20e8da4fb.title=attrib +R
 
 # Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -706,8 +691,8 @@ Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.db620149adce.title=attrib +R
 Exec.db620149adce.title=attrib +R
 
-# Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$rto$/$bin$/$hydra_service.exe\" -uninstall
-Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$rto$/$bin$/$hydra_service.exe\" -uninstall
+# Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
+Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
 
 # Exec.fd261c999d36.dialogLabel=Uninstalling remote launch service...
 Exec.fd261c999d36.dialogLabel=Uninstalling remote launch service...
@@ -805,9 +790,6 @@ ExecuteScript.0be7f1f0a3f7.title=Checking server 2 for ccmplite
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 
-# ExecuteScript.0dc86234891d.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
-ExecuteScript.0dc86234891d.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
-
 # ExecuteScript.0fae5f3192b2.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
 ExecuteScript.0fae5f3192b2.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
 
@@ -829,6 +811,12 @@ ExecuteScript.1d6403f68b3f.title=Update win7+ fw
 # ExecuteScript.1d9439d39990.title=delete share 
 ExecuteScript.1d9439d39990.title=delete share 
 
+# ExecuteScript.248c4c3ca4a3.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ folder
+ExecuteScript.248c4c3ca4a3.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ folder
+
+# ExecuteScript.2491afcba765.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ folder
+ExecuteScript.2491afcba765.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ folder
+
 # ExecuteScript.29fb7235a3f7.title=Remove _COMPANY_NAME_ windows-service
 ExecuteScript.29fb7235a3f7.title=Remove _COMPANY_NAME_ windows-service
 
@@ -843,9 +831,6 @@ ExecuteScript.32a265afb332.title=extract Korean documentation
 
 # ExecuteScript.32a28086b399.title=extract Chinese documentation
 ExecuteScript.32a28086b399.title=extract Chinese documentation
-
-# ExecuteScript.33e242b5b716.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
-ExecuteScript.33e242b5b716.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 
 # ExecuteScript.35d6cc20bebd.title=Checking for running Linux cdlmd
 ExecuteScript.35d6cc20bebd.title=Checking for running Linux cdlmd
@@ -904,14 +889,11 @@ ExecuteScript.3a1c9ff4becd.title=Restore previous license server because of upgr
 # ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 
-# ExecuteScript.3c980762b2a4.title=Configure STAR-NX 10 for all users
-ExecuteScript.3c980762b2a4.title=Configure STAR-NX 10 for all users
-
 # ExecuteScript.3dac852cae9c.title=Uninstall Java JDK
 ExecuteScript.3dac852cae9c.title=Uninstall Java JDK
 
-# ExecuteScript.3fc1bbc9835b.title=extract STAR-NX-1872
-ExecuteScript.3fc1bbc9835b.title=extract STAR-NX-1872
+# ExecuteScript.3fc1bbc9835b.title=extract _CADC_STAR_NX_1872
+ExecuteScript.3fc1bbc9835b.title=extract _CADC_STAR_NX_1872
 
 # ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
@@ -919,35 +901,29 @@ ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
 # ExecuteScript.420284278cb9.title=Uninstall Flexlm-linux
 ExecuteScript.420284278cb9.title=Uninstall Flexlm-linux
 
-# ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
-ExecuteScript.4834719b95fe.title=extract STAR-INVENTOR-ALL
+# ExecuteScript.4834719b95fe.title=extract _CADC_STAR_INVENTOR_-ALL
+ExecuteScript.4834719b95fe.title=extract _CADC_STAR_INVENTOR_-ALL
 
-# ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
-ExecuteScript.483683ac9bbb.title=extract STAR-CREO-4
+# ExecuteScript.483683ac9bbb.title=extract _CADC_STAR_CREO_-4
+ExecuteScript.483683ac9bbb.title=extract _CADC_STAR_CREO_-4
 
-# ExecuteScript.48387819a0cf.title=extract STAR-NX-10
-ExecuteScript.48387819a0cf.title=extract STAR-NX-10
+# ExecuteScript.4838b698a18e.title=extract _CADC_STAR_NX_-11
+ExecuteScript.4838b698a18e.title=extract _CADC_STAR_NX_-11
 
-# ExecuteScript.4838b698a18e.title=extract STAR-NX-11
-ExecuteScript.4838b698a18e.title=extract STAR-NX-11
+# ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
+ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
 
-# ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
-ExecuteScript.4838bdf3a1ec.title=extract STAR-NX-12
+# ExecuteScript.483c1cd3ae50.title=extract _CADC_STAR_CAT5_-26
+ExecuteScript.483c1cd3ae50.title=extract _CADC_STAR_CAT5_-26
 
-# ExecuteScript.483c1468adef.title=extract STAR-CAT5-25
-ExecuteScript.483c1468adef.title=extract STAR-CAT5-25
+# ExecuteScript.483c25ecaeaf.title=extract _CADC_STAR_CAT5_-27
+ExecuteScript.483c25ecaeaf.title=extract _CADC_STAR_CAT5_-27
 
-# ExecuteScript.483c1cd3ae50.title=extract STAR-CAT5-26
-ExecuteScript.483c1cd3ae50.title=extract STAR-CAT5-26
+# ExecuteScript.483c2db7af11.title=extract _CADC_STAR_CAT5_-28
+ExecuteScript.483c2db7af11.title=extract _CADC_STAR_CAT5_-28
 
-# ExecuteScript.483c25ecaeaf.title=extract STAR-CAT5-27
-ExecuteScript.483c25ecaeaf.title=extract STAR-CAT5-27
-
-# ExecuteScript.483c2db7af11.title=extract STAR-CAT5-28
-ExecuteScript.483c2db7af11.title=extract STAR-CAT5-28
-
-# ExecuteScript.483cf16eafe3.title=extract STAR-CAT5-29
-ExecuteScript.483cf16eafe3.title=extract STAR-CAT5-29
+# ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
+ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 
 # ExecuteScript.49b821379c52.title=create .flexlmrc
 ExecuteScript.49b821379c52.title=create .flexlmrc
@@ -1006,9 +982,6 @@ ExecuteScript.4b9dca01b25f.title=Delete All Users Start Menu 64 bit _SOFTWARE_FA
 # ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
 ExecuteScript.4b9dca01b260.title=Delete All Users Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Shortcut
 
-# ExecuteScript.4b9dca01b261.title=Delete All Users Start Menu sample.sce Shortcut
-ExecuteScript.4b9dca01b261.title=Delete All Users Start Menu sample.sce Shortcut
-
 # ExecuteScript.4b9dca01b262.title=Delete All Users Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b262.title=Delete All Users Start Menu sample.sce Shortcut
 
@@ -1060,8 +1033,8 @@ ExecuteScript.7d08ee059041.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_  _STAR_
 # ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 
-# ExecuteScript.80940cd987b6.title=extract STAR-NX-1847
-ExecuteScript.80940cd987b6.title=extract STAR-NX-1847
+# ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
+ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
 
 # ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
 ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
@@ -1174,6 +1147,9 @@ ExecuteScript.a9b1812d9552.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_AP
 # ExecuteScript.aa090b60ab1f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 ExecuteScript.aa090b60ab1f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
+# ExecuteScript.aa563306a4fb.title=extract _CADC_STAR_NX_-1926
+ExecuteScript.aa563306a4fb.title=extract _CADC_STAR_NX_-1926
+
 # ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
 ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
 
@@ -1197,6 +1173,9 @@ ExecuteScript.b75735028bf8.title=parse .flexlmrc
 
 # ExecuteScript.b759e7808dd0.title=parse 
 ExecuteScript.b759e7808dd0.title=parse 
+
+# ExecuteScript.b8b148f3a4fb.title=extract _CADC_STAR_CAT5_-30
+ExecuteScript.b8b148f3a4fb.title=extract _CADC_STAR_CAT5_-30
 
 # ExecuteScript.b9b5b08a8686.title=delete lm logs
 ExecuteScript.b9b5b08a8686.title=delete lm logs
@@ -1300,8 +1279,8 @@ ExecuteScript.f7ce86aba575.title=ADD/REMOVE Product Icon on Network install
 # ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 
-# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
-GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
+# GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_.
+GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_.
 
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=Select Additional Tasks
@@ -1312,8 +1291,8 @@ GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the _SOFTWARE_FAMILY_N
 # GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
 GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
 
-# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=Select Additional Tasks
@@ -1324,14 +1303,20 @@ GetUserInput.115461c2a278.prompt=To access the license server software, communic
 # GetUserInput.115461c2a278.title=FlexNet License Server Configuration
 GetUserInput.115461c2a278.title=FlexNet License Server Configuration
 
+# GetUserInput.121e4071ae24.prompt=Choose the \"Local path\" where you would like to install $INSTALLER_TITLE$\n\nChoose the \"Network path\" if you would like to point to a pre-existing installation on your network.
+GetUserInput.121e4071ae24.prompt=Choose the \"Local path\" where you would like to install $INSTALLER_TITLE$\n\nChoose the \"Network path\" if you would like to point to a pre-existing installation on your network.
+
+# GetUserInput.121e4071ae24.title=Select Installation Location
+GetUserInput.121e4071ae24.title=Select Installation Location
+
 # GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
 GetUserInput.154a0b5aaa67.title=Service Configuration 
 
-# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.21099aa9bdbd.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.21099aa9bdbd.title=Select Additional Tasks
 GetUserInput.21099aa9bdbd.title=Select Additional Tasks
@@ -1342,20 +1327,26 @@ GetUserInput.222d858a9bf8.prompt=Do you want to uninstall the _COMPANY_NAME_ PLM
 # GetUserInput.222d858a9bf8.title=Uninstall _COMPANY_NAME_ PLM License Server
 GetUserInput.222d858a9bf8.title=Uninstall _COMPANY_NAME_ PLM License Server
 
+# GetUserInput.34e509d0ae8b.prompt=Choose the \"Local path\" where you would like to install $INSTALLER_TITLE$\n
+GetUserInput.34e509d0ae8b.prompt=Choose the \"Local path\" where you would like to install $INSTALLER_TITLE$\n
+
+# GetUserInput.34e509d0ae8b.title=Select Installation Location
+GetUserInput.34e509d0ae8b.title=Select Installation Location
+
 # GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 
-# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.3cd99868ae86.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.3cd99868ae86.title=Select Additional Tasks
 GetUserInput.3cd99868ae86.title=Select Additional Tasks
 
-# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
-GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_, then click Next.
+# GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_.
+GetUserInput.411f00519f65.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_.
 
 # GetUserInput.411f00519f65.title=Select Additional Tasks
 GetUserInput.411f00519f65.title=Select Additional Tasks
@@ -1366,14 +1357,14 @@ GetUserInput.4202184d8cb4.prompt=Do you want to uninstall the FLEXlm license man
 # GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
 GetUserInput.4202184d8cb4.title=Uninstall FLEX License Manager
 
-# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
-GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+# GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
+GetUserInput.4eb74413ba93.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
 
 # GetUserInput.4eb74413ba93.title=Select Additional Tasks
 GetUserInput.4eb74413ba93.title=Select Additional Tasks
 
-# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.5f8d10b48f40.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=Select Additional Tasks
@@ -1390,8 +1381,8 @@ GetUserInput.687423f6b0cd.prompt=Please specify the user account the Linux servi
 # GetUserInput.687423f6b0cd.title=Linux service
 GetUserInput.687423f6b0cd.title=Linux service
 
-# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=Select Additional Tasks
@@ -1462,8 +1453,8 @@ GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFT
 # GetUserInput.a53ed862b666.title=Choose License Type
 GetUserInput.a53ed862b666.title=Choose License Type
 
-# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
-GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_, then click Next.
+# GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
+GetUserInput.c58f4202a8ce.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 
 # GetUserInput.c58f4202a8ce.title=Select Additional Tasks
 GetUserInput.c58f4202a8ce.title=Select Additional Tasks
@@ -1486,14 +1477,14 @@ GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publish
 # GetUserInput.e821a5059d90.title=Choose License Type
 GetUserInput.e821a5059d90.title=Choose License Type
 
-# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
-GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+# GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
+GetUserInput.ebfc5e7890d2.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
 
 # GetUserInput.ebfc5e7890d2.title=Select Additional Tasks
 GetUserInput.ebfc5e7890d2.title=Select Additional Tasks
 
-# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
-GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_, then click Next.
+# GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
+GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_.
 
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
@@ -1534,12 +1525,6 @@ GUIComponentData.07ff15fe855d.defaultValue=Not Selected
 # GUIComponentData.07ff15fe855d.label=No
 GUIComponentData.07ff15fe855d.label=No
 
-# GUIComponentData.09531f37b18e.defaultValue=Selected
-GUIComponentData.09531f37b18e.defaultValue=Selected
-
-# GUIComponentData.09531f37b18e.label=Share install directory
-GUIComponentData.09531f37b18e.label=Share install directory
-
 # GUIComponentData.09531f37b18f.defaultValue=Selected
 GUIComponentData.09531f37b18f.defaultValue=Selected
 
@@ -1569,6 +1554,30 @@ GUIComponentData.11571cbda39b.defaultValue=$LIC_PORT_NUMBER$
 
 # GUIComponentData.11571cbda39b.label=Enter the License port number:
 GUIComponentData.11571cbda39b.label=Enter the License port number:
+
+# GUIComponentData.1220914eae2e.defaultValue=_COMPANY_NAME_
+GUIComponentData.1220914eae2e.defaultValue=_COMPANY_NAME_
+
+# GUIComponentData.1220914eae2e.label=
+GUIComponentData.1220914eae2e.label=
+
+# GUIComponentData.12222b9cae2f.defaultValue=Not Selected
+GUIComponentData.12222b9cae2f.defaultValue=Not Selected
+
+# GUIComponentData.12222b9cae2f.label=Network Path
+GUIComponentData.12222b9cae2f.label=Network Path
+
+# GUIComponentData.12227139ae2f.defaultValue=
+GUIComponentData.12227139ae2f.defaultValue=
+
+# GUIComponentData.12227139ae2f.label=
+GUIComponentData.12227139ae2f.label=
+
+# GUIComponentData.146089838e7d.defaultValue=Selected
+GUIComponentData.146089838e7d.defaultValue=Selected
+
+# GUIComponentData.146089838e7d.label=Local path
+GUIComponentData.146089838e7d.label=Local path
 
 # GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
@@ -1612,6 +1621,18 @@ GUIComponentData.314a9fd58722.defaultValue=8086
 # GUIComponentData.314a9fd58722.label=Application Server (Web Monitor) Port Number
 GUIComponentData.314a9fd58722.label=Application Server (Web Monitor) Port Number
 
+# GUIComponentData.34e509d0ae8d.defaultValue=Selected
+GUIComponentData.34e509d0ae8d.defaultValue=Selected
+
+# GUIComponentData.34e509d0ae8d.label=Local path
+GUIComponentData.34e509d0ae8d.label=Local path
+
+# GUIComponentData.34e696b8ae8d.defaultValue=_COMPANY_NAME_
+GUIComponentData.34e696b8ae8d.defaultValue=_COMPANY_NAME_
+
+# GUIComponentData.34e696b8ae8d.label=
+GUIComponentData.34e696b8ae8d.label=
+
 # GUIComponentData.3642fdbebce9.defaultValue=
 GUIComponentData.3642fdbebce9.defaultValue=
 
@@ -1635,12 +1656,6 @@ GUIComponentData.3642fdbebcec.defaultValue=
 
 # GUIComponentData.3642fdbebcec.label=License server 3
 GUIComponentData.3642fdbebcec.label=License server 3
-
-# GUIComponentData.3cd99868ae8a.defaultValue=Selected
-GUIComponentData.3cd99868ae8a.defaultValue=Selected
-
-# GUIComponentData.3cd99868ae8a.label=Share install directory
-GUIComponentData.3cd99868ae8a.label=Share install directory
 
 # GUIComponentData.3cd99868ae8b.defaultValue=Selected
 GUIComponentData.3cd99868ae8b.defaultValue=Selected
@@ -1720,6 +1735,18 @@ GUIComponentData.61df1e09b39c.defaultValue=Selected
 # GUIComponentData.61df1e09b39c.label=Start license server now 
 GUIComponentData.61df1e09b39c.label=Start license server now 
 
+# GUIComponentData.6274a3c6a2bd.defaultValue=Not Selected
+GUIComponentData.6274a3c6a2bd.defaultValue=Not Selected
+
+# GUIComponentData.6274a3c6a2bd.label=Share install directory
+GUIComponentData.6274a3c6a2bd.label=Share install directory
+
+# GUIComponentData.6274c931a2bf.defaultValue=Not Selected
+GUIComponentData.6274c931a2bf.defaultValue=Not Selected
+
+# GUIComponentData.6274c931a2bf.label=Share install directory
+GUIComponentData.6274c931a2bf.label=Share install directory
+
 # GUIComponentData.65d07a0498ce.defaultValue=Selected
 GUIComponentData.65d07a0498ce.defaultValue=Selected
 
@@ -1732,8 +1759,8 @@ GUIComponentData.687002f7b0cb.defaultValue=Not Selected
 # GUIComponentData.687002f7b0cb.label=Install as a Linux service
 GUIComponentData.687002f7b0cb.label=Install as a Linux service
 
-# GUIComponentData.687423f6b0cf.defaultValue=$SERVICE_USERNAME$
-GUIComponentData.687423f6b0cf.defaultValue=$SERVICE_USERNAME$
+# GUIComponentData.687423f6b0cf.defaultValue=
+GUIComponentData.687423f6b0cf.defaultValue=
 
 # GUIComponentData.687423f6b0cf.label=Service User Name
 GUIComponentData.687423f6b0cf.label=Service User Name
@@ -2023,20 +2050,50 @@ GUIGroupData.115643e0a39b.caption=
 # GUIGroupData.11571cbca39b.caption=
 GUIGroupData.11571cbca39b.caption=
 
+# GUIGroupData.121f44f7ae2d.caption=
+GUIGroupData.121f44f7ae2d.caption=
+
+# GUIGroupData.1220914dae2e.caption=
+GUIGroupData.1220914dae2e.caption=
+
+# GUIGroupData.12227138ae2f.caption=
+GUIGroupData.12227138ae2f.caption=
+
+# GUIGroupData.1460f8cf8e83.caption=
+GUIGroupData.1460f8cf8e83.caption=
+
+# GUIGroupData.146298ec8e86.caption=
+GUIGroupData.146298ec8e86.caption=
+
 # GUIGroupData.154af405aa76.caption=
 GUIGroupData.154af405aa76.caption=
 
 # GUIGroupData.154da76eaa76.caption=
 GUIGroupData.154da76eaa76.caption=
 
+# GUIGroupData.1ecd36f2a4b1.caption=
+GUIGroupData.1ecd36f2a4b1.caption=
+
+# GUIGroupData.1ece054ba4b2.caption=
+GUIGroupData.1ece054ba4b2.caption=
+
 # GUIGroupData.21099aaabdbd.caption=
 GUIGroupData.21099aaabdbd.caption=
+
+# GUIGroupData.222d858b9bf9.caption=
+GUIGroupData.222d858b9bf9.caption=
 
 # GUIGroupData.2d3e5676ad37.caption=
 GUIGroupData.2d3e5676ad37.caption=
 
 # GUIGroupData.314a9fd48722.caption=
 GUIGroupData.314a9fd48722.caption=
+
+# GUIGroupData.34e509d1ae8c.caption=
+GUIGroupData.34e509d1ae8c.caption=
+
+# GUIGroupData.34e696b7ae8d.caption=
+GUIGroupData.34e696b7ae8d.caption=
 
 # GUIGroupData.3642fdbfbce8.caption=
 GUIGroupData.3642fdbfbce8.caption=
@@ -2233,56 +2290,20 @@ InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWAR
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 
-# InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.13229f38a108.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
+# InstallDirAction.a48f6af3a8f7.additionalText=Choose the path where you would like to install $INSTALLER_TITLE$
+InstallDirAction.a48f6af3a8f7.additionalText=Choose the path where you would like to install $INSTALLER_TITLE$
 
-# InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
-InstallDirAction.13229f38a108.prompt=Where Would You Like to Install FLEXNet ?
+# InstallDirAction.a48f6af3a8f7.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
+InstallDirAction.a48f6af3a8f7.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
 
-# InstallDirAction.13229f38a108.stepTitle=Select Installation Location
-InstallDirAction.13229f38a108.stepTitle=Select Installation Location
-
-# InstallDirAction.27fec67899f9.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.27fec67899f9.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-
-# InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-InstallDirAction.27fec67899f9.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-
-# InstallDirAction.27fec67899f9.stepTitle=Select Installation Location
-InstallDirAction.27fec67899f9.stepTitle=Select Installation Location
-
-# InstallDirAction.5030314b81d8.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.5030314b81d8.additionalText=Setup will install $INSTALLER_TITLE$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-
-# InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-InstallDirAction.5030314b81d8.prompt=Where Would You Like to Install $INSTALLER_TITLE$?
-
-# InstallDirAction.5030314b81d8.stepTitle=Select Installation Location
-InstallDirAction.5030314b81d8.stepTitle=Select Installation Location
-
-# InstallDirAction.59b3a9e8ae1b.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.59b3a9e8ae1b.additionalText=Setup will install FLEXNet $FLEXlmVERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-
-# InstallDirAction.59b3a9e8ae1b.prompt=Where Would You Like to Install FLEXNet ?
-InstallDirAction.59b3a9e8ae1b.prompt=Where Would You Like to Install FLEXNet ?
-
-# InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
-InstallDirAction.59b3a9e8ae1b.stepTitle=Select Installation Location
-
-# InstallDirAction.d861fe0f9e7b.additionalText=Setup will install _COMPANY_NAME_ PLM License Server $UGS_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-InstallDirAction.d861fe0f9e7b.additionalText=Setup will install _COMPANY_NAME_ PLM License Server $UGS_VERSION$ into the following folder.\n\nTo continue, click Next. If you would like to select a different folder, click Choose.
-
-# InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
-InstallDirAction.d861fe0f9e7b.prompt=Where Would You Like to Install PLM License Server?
-
-# InstallDirAction.d861fe0f9e7b.stepTitle=Select Installation Location
-InstallDirAction.d861fe0f9e7b.stepTitle=Select Installation Location
+# InstallDirAction.a48f6af3a8f7.stepTitle=Select Installation Location
+InstallDirAction.a48f6af3a8f7.stepTitle=Select Installation Location
 
 # InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.additionalText=
 
-# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ _REL_PRESENTATION_VERSION_?
-InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ $REGISTRY_PRODUCT_NAME$ _REL_PRESENTATION_VERSION_?
+# InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_?
+InstallDirActionConsole.b90620fd80f1.prompt=Where Would You Like to Install _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
@@ -2290,14 +2311,11 @@ InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
 # Installer.850018e38424.installLabels.00=Select Install Location
 Installer.850018e38424.installLabels.00=Select Install Location
 
-# Installer.850018e38424.installLabels.01=Choose Install Method
-Installer.850018e38424.installLabels.01=Choose Install Method
+# Installer.850018e38424.installLabels.01=Choose Installation Method
+Installer.850018e38424.installLabels.01=Choose Installation Method
 
 # Installer.850018e38424.installLabels.02=Installing...
 Installer.850018e38424.installLabels.02=Installing...
-
-# Installer.850018e38424.installLabels.03=Configure Components
-Installer.850018e38424.installLabels.03=Configure Components
 
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=Pre-Installation Summary
@@ -2380,8 +2398,8 @@ InstallerInfoData.850018f28450.installerTitle=_SOFTWARE_FAMILY_NAME_ _REGISTRY_P
 # InstallerInfoData.850018f28450.productDescription=
 InstallerInfoData.850018f28450.productDescription=
 
-# InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
-InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
+# InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ (_REL_VER_NUM__R8_INST_)
+InstallerInfoData.850018f28450.productName=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ (_REL_VER_NUM__R8_INST_)
 
 # InstallerInfoData.850018f28450.productURL=
 InstallerInfoData.850018f28450.productURL=
@@ -2488,8 +2506,8 @@ InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTAL
 # InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 
-# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured with URL http://$HOST$:$PORT$ and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
+InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured with URL http://$HOST$:$PORT$ and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 
 # InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
@@ -2605,18 +2623,6 @@ InstallSummary.2001b0af82ad.stepPrompt=Please Review the Following Before Contin
 # InstallSummary.2001b0af82ad.title=Pre-Installation Summary
 InstallSummary.2001b0af82ad.title=Pre-Installation Summary
 
-# InstallSummary.59b76fa79fb5.stepPrompt=Please Review the Following Before Continuing:
-InstallSummary.59b76fa79fb5.stepPrompt=Please Review the Following Before Continuing:
-
-# InstallSummary.59b76fa79fb5.title=Pre-Installation Summary
-InstallSummary.59b76fa79fb5.title=Pre-Installation Summary
-
-# InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
-InstallSummary.a132a7788325.stepPrompt=Configuring Client Node Please Review the Following Before Continuing:
-
-# InstallSummary.a132a7788325.title=Pre-Installation Summary
-InstallSummary.a132a7788325.title=Pre-Installation Summary
-
 # InstallSummary.d8669dc1baea.stepPrompt=Please Review the Following Before Continuing:
 InstallSummary.d8669dc1baea.stepPrompt=Please Review the Following Before Continuing:
 
@@ -2625,42 +2631,6 @@ InstallSummary.d8669dc1baea.title=Pre-Installation Summary
 
 # InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
 InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
-
-# InstallType.Title=Choose Install Type
-InstallType.Title=Choose Install Type
-
-# InstallType.Type=Please select the type of installation you would like to perform:
-InstallType.Type=Please select the type of installation you would like to perform:
-
-# InstallType.Type1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ and related components
-InstallType.Type1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ and related components
-
-# InstallType.Type2=Install on this machine or a network location.  Typical Selection.
-InstallType.Type2=Install on this machine or a network location.  Typical Selection.
-
-# InstallType.Type3=Install on local or NFS shared location.  Typical Selection.
-InstallType.Type3=Install on local or NFS shared location.  Typical Selection.
-
-# InstallType.Type4=Configure this machine to use an existing network installation.  
-InstallType.Type4=Configure this machine to use an existing network installation.  
-
-# InstallType.Type5=FLEXNet License Manager
-InstallType.Type5=FLEXNet License Manager
-
-# InstallType.Type6=Configure Network or Local FLEXNet licensing.
-InstallType.Type6=Configure Network or Local FLEXNet licensing.
-
-# InstallType.Type7=Install and configure FLEXNet Manager to run.
-InstallType.Type7=Install and configure FLEXNet Manager to run.
-
-# InstallType.Type8=_COMPANY_NAME_ PLM License Server
-InstallType.Type8=_COMPANY_NAME_ PLM License Server
-
-# InstallType.Type9=Configure Network or Local PLM licensing.
-InstallType.Type9=Configure Network or Local PLM licensing.
-
-# InstallUninstaller.85001a1b8498.destinationName=Uninstall _REGISTRY_PRODUCT_NAME_$STARCCMPLUS_VERSION$
-InstallUninstaller.85001a1b8498.destinationName=Uninstall _REGISTRY_PRODUCT_NAME_$STARCCMPLUS_VERSION$
 
 # IntroActionConsole.02f63e3d8b5c.message=About to uninstall...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
 IntroActionConsole.02f63e3d8b5c.message=About to uninstall...\n\n_COMPANY_NAME_ PLM License Server $UGS_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
@@ -2971,23 +2941,8 @@ ProductDialog.Text=Please select the components you would like to install:
 # ProductDialog.Title1=Choose _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components
 ProductDialog.Title1=Choose _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components
 
-# PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.066c0750bc6e.message=Insufficient Disk Space Available\n\nNot enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-
-# PromptUserConsole.066c0750bc6e.option0Label=OK
-PromptUserConsole.066c0750bc6e.option0Label=OK
-
-# PromptUserConsole.066c0750bc6e.option1Label=Cancel
-PromptUserConsole.066c0750bc6e.option1Label=Cancel
-
-# PromptUserConsole.066c0750bc6e.option2Label=Details...
-PromptUserConsole.066c0750bc6e.option2Label=Details...
-
-# PromptUserConsole.066c0750bc6e.title=Warning
-PromptUserConsole.066c0750bc6e.title=Warning
-
-# PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+# PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
+PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
 
 # PromptUserConsole.2d6f494abb0c.option0Label=Continue
 PromptUserConsole.2d6f494abb0c.option0Label=Continue
@@ -3250,24 +3205,6 @@ ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the con
 # ShowDialogAction.026fc1a8b518.title=Error
 ShowDialogAction.026fc1a8b518.title=Error
 
-# ShowDialogAction.064a5d7084f3.buttonLabel=OK
-ShowDialogAction.064a5d7084f3.buttonLabel=OK
-
-# ShowDialogAction.064a5d7084f3.cancelButtonLabel=Cancel
-ShowDialogAction.064a5d7084f3.cancelButtonLabel=Cancel
-
-# ShowDialogAction.064a5d7084f3.detailsButtonLabel=Details...
-ShowDialogAction.064a5d7084f3.detailsButtonLabel=Details...
-
-# ShowDialogAction.064a5d7084f3.label=Insufficient Disk Space Available
-ShowDialogAction.064a5d7084f3.label=Insufficient Disk Space Available
-
-# ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.064a5d7084f3.narrative=Not enough disk space available, $REQUIRED_DISK_SPACE_MEGABYTES$ MB are required\nbut only $FREE_DISK_SPACE_MEGABYTES$ MB are available.\n\nPlease free some disk space or select another install location.
-
-# ShowDialogAction.064a5d7084f3.title=Warning
-ShowDialogAction.064a5d7084f3.title=Warning
-
 # ShowDialogAction.0667c733a78a.buttonLabel=OK
 ShowDialogAction.0667c733a78a.buttonLabel=OK
 
@@ -3406,11 +3343,29 @@ ShowDialogAction.160d0e4ab6a5.detailsButtonLabel=Details...
 # ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Installation Found
 ShowDialogAction.160d0e4ab6a5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Installation Found
 
-# ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ component again?
-ShowDialogAction.160d0e4ab6a5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ component again?
+# ShowDialogAction.160d0e4ab6a5.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ component again?
+ShowDialogAction.160d0e4ab6a5.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ $STARVR_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ component again?
 
 # ShowDialogAction.160d0e4ab6a5.title=Warning
 ShowDialogAction.160d0e4ab6a5.title=Warning
+
+# ShowDialogAction.1ed27f78a4b5.buttonLabel=OK
+ShowDialogAction.1ed27f78a4b5.buttonLabel=OK
+
+# ShowDialogAction.1ed27f78a4b5.cancelButtonLabel=
+ShowDialogAction.1ed27f78a4b5.cancelButtonLabel=
+
+# ShowDialogAction.1ed27f78a4b5.detailsButtonLabel=Details...
+ShowDialogAction.1ed27f78a4b5.detailsButtonLabel=Details...
+
+# ShowDialogAction.1ed27f78a4b5.label=The Local path cannot be empty, please provide a location to install the $INSTALLER_TITLE$
+ShowDialogAction.1ed27f78a4b5.label=The Local path cannot be empty, please provide a location to install the $INSTALLER_TITLE$
+
+# ShowDialogAction.1ed27f78a4b5.narrative=
+ShowDialogAction.1ed27f78a4b5.narrative=
+
+# ShowDialogAction.1ed27f78a4b5.title=Local path empty
+ShowDialogAction.1ed27f78a4b5.title=Local path empty
 
 # ShowDialogAction.1fad6a0ea842.buttonLabel=OK
 ShowDialogAction.1fad6a0ea842.buttonLabel=OK
@@ -3429,6 +3384,24 @@ ShowDialogAction.1fad6a0ea842.narrative=
 
 # ShowDialogAction.1fad6a0ea842.title=Error
 ShowDialogAction.1fad6a0ea842.title=Error
+
+# ShowDialogAction.221ea182ad45.buttonLabel=OK
+ShowDialogAction.221ea182ad45.buttonLabel=OK
+
+# ShowDialogAction.221ea182ad45.cancelButtonLabel=
+ShowDialogAction.221ea182ad45.cancelButtonLabel=
+
+# ShowDialogAction.221ea182ad45.detailsButtonLabel=Details...
+ShowDialogAction.221ea182ad45.detailsButtonLabel=Details...
+
+# ShowDialogAction.221ea182ad45.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.\n\n
+ShowDialogAction.221ea182ad45.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.\n\n
+
+# ShowDialogAction.221ea182ad45.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
+ShowDialogAction.221ea182ad45.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
+
+# ShowDialogAction.221ea182ad45.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
+ShowDialogAction.221ea182ad45.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
 
 # ShowDialogAction.25820b1c92f3.buttonLabel=Next
 ShowDialogAction.25820b1c92f3.buttonLabel=Next
@@ -3457,14 +3430,14 @@ ShowDialogAction.2d6e902bbb0c.cancelButtonLabel=Previous
 # ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=Cancel
 ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=Cancel
 
-# ShowDialogAction.2d6e902bbb0c.label=Insufficient Disk Space Available
-ShowDialogAction.2d6e902bbb0c.label=Insufficient Disk Space Available
+# ShowDialogAction.2d6e902bbb0c.label=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.
+ShowDialogAction.2d6e902bbb0c.label=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.
 
-# ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
-ShowDialogAction.2d6e902bbb0c.narrative=Not enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease free some disk space or select another install location.
+# ShowDialogAction.2d6e902bbb0c.narrative=Please select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
+ShowDialogAction.2d6e902bbb0c.narrative=Please select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
 
-# ShowDialogAction.2d6e902bbb0c.title=Warning
-ShowDialogAction.2d6e902bbb0c.title=Warning
+# ShowDialogAction.2d6e902bbb0c.title=Warning: Insufficient Disk Space Available
+ShowDialogAction.2d6e902bbb0c.title=Warning: Insufficient Disk Space Available
 
 # ShowDialogAction.3185b5bf9239.buttonLabel=OK
 ShowDialogAction.3185b5bf9239.buttonLabel=OK
@@ -3556,24 +3529,6 @@ ShowDialogAction.3a2299d587bc.narrative=The installer was unable to upgrade your
 # ShowDialogAction.3a2299d587bc.title=Warning: License Server
 ShowDialogAction.3a2299d587bc.title=Warning: License Server
 
-# ShowDialogAction.59b3a9e8ae17.buttonLabel=OK
-ShowDialogAction.59b3a9e8ae17.buttonLabel=OK
-
-# ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
-ShowDialogAction.59b3a9e8ae17.cancelButtonLabel=Cancel
-
-# ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
-ShowDialogAction.59b3a9e8ae17.detailsButtonLabel=Details...
-
-# ShowDialogAction.59b3a9e8ae17.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.
-ShowDialogAction.59b3a9e8ae17.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ executable not found.
-
-# ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
-ShowDialogAction.59b3a9e8ae17.narrative=Please reselect location where $INSTALLER_TITLE$ is installed.
-
-# ShowDialogAction.59b3a9e8ae17.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
-ShowDialogAction.59b3a9e8ae17.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Not Found
-
 # ShowDialogAction.5e846421b690.buttonLabel=Yes
 ShowDialogAction.5e846421b690.buttonLabel=Yes
 
@@ -3604,8 +3559,8 @@ ShowDialogAction.5f17661a83c5.detailsButtonLabel=Details...
 # ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Found
 ShowDialogAction.5f17661a83c5.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation Found
 
-# ShowDialogAction.5f17661a83c5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
-ShowDialogAction.5f17661a83c5.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
+# ShowDialogAction.5f17661a83c5.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
+ShowDialogAction.5f17661a83c5.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ $STARCCMPLUS_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ component again?
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=Warning
@@ -3730,8 +3685,8 @@ ShowDialogAction.7e4d4aee9257.detailsButtonLabel=Details...
 # ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Installation Found
 ShowDialogAction.7e4d4aee9257.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ Installation Found
 
-# ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ component again?
-ShowDialogAction.7e4d4aee9257.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ component again?
+# ShowDialogAction.7e4d4aee9257.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ component again?
+ShowDialogAction.7e4d4aee9257.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ $STARVIEW_VERSION$) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ component again?
 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=Warning
@@ -3748,8 +3703,8 @@ ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
 # ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 ShowDialogAction.7e8620e4a2ee.label=No Component Selected
 
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
 
 # ShowDialogAction.7e8620e4a2ee.title=Warning
 ShowDialogAction.7e8620e4a2ee.title=Warning
@@ -3808,24 +3763,6 @@ ShowDialogAction.81357f99b1bc.narrative=Please upgrade with 'root' privileges.
 # ShowDialogAction.81357f99b1bc.title=Error
 ShowDialogAction.81357f99b1bc.title=Error
 
-# ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
-ShowDialogAction.8137d5c3bb5b.buttonLabel=OK
-
-# ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=Cancel
-ShowDialogAction.8137d5c3bb5b.cancelButtonLabel=Cancel
-
-# ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=Details...
-ShowDialogAction.8137d5c3bb5b.detailsButtonLabel=Details...
-
-# ShowDialogAction.8137d5c3bb5b.label=Choose Install Method Problem
-ShowDialogAction.8137d5c3bb5b.label=Choose Install Method Problem
-
-# ShowDialogAction.8137d5c3bb5b.narrative=No Installation action selection, please make a selection!
-ShowDialogAction.8137d5c3bb5b.narrative=No Installation action selection, please make a selection!
-
-# ShowDialogAction.8137d5c3bb5b.title=Warning
-ShowDialogAction.8137d5c3bb5b.title=Warning
-
 # ShowDialogAction.85b5743ab480.buttonLabel=OK
 ShowDialogAction.85b5743ab480.buttonLabel=OK
 
@@ -3838,8 +3775,8 @@ ShowDialogAction.85b5743ab480.detailsButtonLabel=Details...
 # ShowDialogAction.85b5743ab480.label=No Component Selected
 ShowDialogAction.85b5743ab480.label=No Component Selected
 
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components. \nPress OK to return to the component selection dialog.\n
+# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
 
 # ShowDialogAction.85b5743ab480.title=Warning
 ShowDialogAction.85b5743ab480.title=Warning
@@ -3874,8 +3811,8 @@ ShowDialogAction.8d01b100a261.detailsButtonLabel=Details...
 # ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation Installation Found
 ShowDialogAction.8d01b100a261.label=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation Installation Found
 
-# ShowDialogAction.8d01b100a261.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
-ShowDialogAction.8d01b100a261.narrative=The solver component  (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation ) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
+# ShowDialogAction.8d01b100a261.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
+ShowDialogAction.8d01b100a261.narrative=The solver component (_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation) appears to have been previously installed on this machine.\n\nDo you want to install the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Documentation component again?
 
 # ShowDialogAction.8d01b100a261.title=Warning
 ShowDialogAction.8d01b100a261.title=Warning
@@ -4171,8 +4108,8 @@ ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _
 # ShowDialogAction.cefd463a8fab.buttonLabel=OK
 ShowDialogAction.cefd463a8fab.buttonLabel=OK
 
-# ShowDialogAction.cefd463a8fab.cancelButtonLabel=No
-ShowDialogAction.cefd463a8fab.cancelButtonLabel=No
+# ShowDialogAction.cefd463a8fab.cancelButtonLabel=
+ShowDialogAction.cefd463a8fab.cancelButtonLabel=
 
 # ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
 ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
@@ -4189,8 +4126,8 @@ ShowDialogAction.cefd463a8fab.title=Installation directory
 # ShowDialogAction.cefdc0cba92d.buttonLabel=OK
 ShowDialogAction.cefdc0cba92d.buttonLabel=OK
 
-# ShowDialogAction.cefdc0cba92d.cancelButtonLabel=No
-ShowDialogAction.cefdc0cba92d.cancelButtonLabel=No
+# ShowDialogAction.cefdc0cba92d.cancelButtonLabel=
+ShowDialogAction.cefdc0cba92d.cancelButtonLabel=
 
 # ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
 ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
@@ -4276,24 +4213,6 @@ ShowDialogAction.e261f38cb277.narrative=Please re-run the _SOFTWARE_FAMILY_NAME_
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=Error
 
-# ShowDialogAction.eaa4b3d88fa9.buttonLabel=OK
-ShowDialogAction.eaa4b3d88fa9.buttonLabel=OK
-
-# ShowDialogAction.eaa4b3d88fa9.cancelButtonLabel=No
-ShowDialogAction.eaa4b3d88fa9.cancelButtonLabel=No
-
-# ShowDialogAction.eaa4b3d88fa9.detailsButtonLabel=Details...
-ShowDialogAction.eaa4b3d88fa9.detailsButtonLabel=Details...
-
-# ShowDialogAction.eaa4b3d88fa9.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
-ShowDialogAction.eaa4b3d88fa9.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
-
-# ShowDialogAction.eaa4b3d88fa9.narrative=
-ShowDialogAction.eaa4b3d88fa9.narrative=
-
-# ShowDialogAction.eaa4b3d88fa9.title=Installation directory
-ShowDialogAction.eaa4b3d88fa9.title=Installation directory
-
 # ShowDialogAction.f388bcb88e95.buttonLabel=OK
 ShowDialogAction.f388bcb88e95.buttonLabel=OK
 
@@ -4342,8 +4261,8 @@ ShowDialogAction.fc266f0ba2cc.detailsButtonLabel=Details...
 # ShowDialogAction.fc266f0ba2cc.label=No Administrative Privileges
 ShowDialogAction.fc266f0ba2cc.label=No Administrative Privileges
 
-# ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
-ShowDialogAction.fc266f0ba2cc.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# ShowDialogAction.fc266f0ba2cc.narrative=Uninstallation cannot be performed under non-administrative accounts. Please run the uninstaller with administrator privileges.
+ShowDialogAction.fc266f0ba2cc.narrative=Uninstallation cannot be performed under non-administrative accounts. Please run the uninstaller with administrator privileges.
 
 # ShowDialogAction.fc266f0ba2cc.title=Error
 ShowDialogAction.fc266f0ba2cc.title=Error
@@ -4456,8 +4375,8 @@ UninstallCompleteActionConsole.c7e377749840.incompleteMessage=Some items could n
 # UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
 UninstallCompleteActionConsole.c7e377749840.message=All items were successfully uninstalled.
 
-# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_.
-UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _PRESENTATION_VERSION_.
+# UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_.
+UninstallCompleteActionConsole.c7e377749840.skippedMessage=Unable to uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_.
 
 # UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
 UninstallCompleteActionConsole.c7e377749840.title=Uninstall Complete
@@ -4480,18 +4399,6 @@ UninstallIntroAction.850018f38454.message=About to uninstall...\n\n$INSTALLER_TI
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 
-# VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
-VariablePropertyDataBiDi.0a43bac98d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
-
-# VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.0a43bac98d9c.propertyValue=$STAR_DIR$
-
-# VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
-VariablePropertyDataBiDi.0a43f2298d9c.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Installation directory:
-
-# VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
-VariablePropertyDataBiDi.0a43f2298d9c.propertyValue=$STAR_DIR$
-
 # VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
 VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
 
@@ -4510,11 +4417,17 @@ VariablePropertyDataBiDi.12d8571c9d5d.propertyName=License servers:
 # VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$ccm_LICENSE_FILE$
 VariablePropertyDataBiDi.12d8571c9d5d.propertyValue=$ccm_LICENSE_FILE$
 
-# VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
-VariablePropertyDataBiDi.2001b0af82af.propertyName=License servers:
+# VariablePropertyDataBiDi.221d780da15a.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Network Installation directory:
+VariablePropertyDataBiDi.221d780da15a.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Network Installation directory:
 
-# VariablePropertyDataBiDi.2001b0af82af.propertyValue=$ccm_LICENSE_FILE$
-VariablePropertyDataBiDi.2001b0af82af.propertyValue=$ccm_LICENSE_FILE$
+# VariablePropertyDataBiDi.221d780da15a.propertyValue=$STAR_DIR$
+VariablePropertyDataBiDi.221d780da15a.propertyValue=$STAR_DIR$
+
+# VariablePropertyDataBiDi.247a54abbfb6.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Local Installation directory:
+VariablePropertyDataBiDi.247a54abbfb6.propertyName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Local Installation directory:
+
+# VariablePropertyDataBiDi.247a54abbfb6.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataBiDi.247a54abbfb6.propertyValue=$STAR_DIRTMP$
 
 # VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
 VariablePropertyDataBiDi.2661463ca41b.propertyName=Installation directory:
@@ -4533,12 +4446,6 @@ VariablePropertyDataBiDi.d8669dc1baed.propertyName=Installation directory:
 
 # VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
-
-# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
-VariablePropertyDataBiDi.ea0c3f96a1d6.propertyName=Installation directory:
-
-# VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
-VariablePropertyDataBiDi.ea0c3f96a1d6.propertyValue=$USER_INSTALL_DIR$$/$$STARCCMPLUS_VERSION$
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=License server 1 port@host: \n
