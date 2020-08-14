@@ -112,11 +112,7 @@ msgid ""
 "    semicolon-separated list of group names the user should be member of."
 " It must use UTF-8\n"
 "    encoding."
-msgstr ""
-"관리자는 이 양식을 사용해 CSV 파일을 사용하는 다수 사용자를 가져오기 할 수 있습니다.\n"
-"    CSV 파일은 다음 열을 갖추고 있습니다: 사용자 이름, 이메일 주소, 디스플레이 이름,\n"
-"    세미콜론 (;)으로 구분한 구성원 그룹명 목록. UTF-8\n"
-"    인코딩을 사용해야 합니다."
+msgstr "관리자는 이 양식을 사용해 CSV 파일을 사용하는 다수 사용자를 가져오기 할 수 있습니다.\n    CSV 파일은 다음 열을 갖추고 있습니다: 사용자 이름, 이메일 주소, 디스플레이 이름,\n    세미콜론 (;)으로 구분한 구성원 그룹명 목록. UTF-8\n    인코딩을 사용해야 합니다."
 
 #: resourcemanager/controllers/admin.py:59
 msgid "CSV Users File"
@@ -248,7 +244,7 @@ msgstr "응용 프로그램 시작 RSH"
 
 #: resourcemanager/controllers/admin.py:272
 msgid "User Directory Template"
-msgstr "사용자 디렉토리 템플릿"
+msgstr "디렉터리:사용자 디렉토리 템플릿"
 
 #: resourcemanager/controllers/admin.py:273
 #: resourcemanager/model/configuration.py:136
@@ -269,10 +265,7 @@ msgid ""
 "                                 the user's home directory and $user_name"
 " variable to substitute \n"
 "                                 the user name)"
-msgstr ""
-"사용자 디렉토리 템플릿 ($HOME 변수를 사용해 대체\n"
-"                                  사용자의 홈 디렉토리 및 $user _name 변 대체 \n"
-"                                 사용자 이름)"
+msgstr "사용자 디렉토리 템플릿 ($HOME 변수를 사용해 대체\n                                  사용자의 홈 디렉토리 및 $user _name 변 대체 \n                                 사용자 이름)"
 
 #: resourcemanager/controllers/admin.py:335
 msgid "Resource Group cannot be renamed."
@@ -297,9 +290,7 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original value restored."
-msgstr ""
-"Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 "
-"복원됩니다."
+msgstr "Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 복원됩니다."
 
 #: resourcemanager/controllers/admin.py:365
 msgid "Resource Group {} successfully updated."
@@ -318,9 +309,7 @@ msgid ""
 "Cannot select SSH with Password for the System Service when Job Manager "
 "is                                  configured to use the Internal "
 "Authentication Mode.  Original values restored."
-msgstr ""
-"Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 "
-"복원됩니다."
+msgstr "Job Manager가 내부 인증 모드를 사용하도록 구성된 경우 시스템용 패스워드로 SSH를 선택할 수 없습니다. 원래 값이 복원됩니다."
 
 #: resourcemanager/controllers/admin.py:406
 msgid "Resource Group {} successfully created."
@@ -329,7 +318,7 @@ msgstr "리소스 그룹 {}이(가) 성공적으로 생성됐습니다."
 #: resourcemanager/controllers/admin.py:446
 #: resourcemanager/controllers/admin.py:604
 msgid "Queue or Partition Name"
-msgstr "큐또는파티션이름"
+msgstr "대기열 또는 파티션 이름"
 
 #: resourcemanager/controllers/admin.py:491
 msgid ""
@@ -347,9 +336,7 @@ msgid ""
 "Another Application Config with the same Application exists for this"
 "                                          Submission Template, please try"
 " again."
-msgstr ""
-"이 제출 템플릿에 대해 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재 합니다. 이 제출 템플릿에 동일한 응용 "
-"프로그램이 있는 다른 응용 프로그램 설정이 존재합니다. 다시 시도하십시오."
+msgstr "이 제출 템플릿에 대해 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재 합니다. 이 제출 템플릿에 동일한 응용 프로그램이 있는 다른 응용 프로그램 설정이 존재합니다. 다시 시도하십시오."
 
 #: resourcemanager/controllers/admin.py:540
 msgid "Application Config with Application {} successfully updated."
@@ -367,10 +354,7 @@ msgid ""
 "sec), 00:01:00 (1 min; note the 00 in the hrs place is required), "
 "100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec "
 "place)"
-msgstr ""
-"일 수 (선택 사항)를 입력하고 시:분:초 형식으로 시간을 지정하십시오.        예: 5일, 00:00:00 (5일; "
-"00:00:00로 지정해야 함), 1일, 20:3:50 (1일, 20시간, 3분, 50초), 00:01:00 (1분; 참고 시를 "
-"00로 지정해야 함), 100:05:0 (100시간, 5분; 참고 초를 0 또는 00으로 지정해야 함)"
+msgstr "일 수 (선택 사항)를 입력하고 시:분:초 형식으로 시간을 지정하십시오.        예: 5일, 00:00:00 (5일; 00:00:00로 지정해야 함), 1일, 20:3:50 (1일, 20시간, 3분, 50초), 00:01:00 (1분; 참고 시를 00로 지정해야 함), 100:05:0 (100시간, 5분; 참고 초를 0 또는 00으로 지정해야 함)"
 
 #: resourcemanager/controllers/admin.py:601
 #: resourcemanager/model/configuration.py:36
@@ -419,17 +403,13 @@ msgstr "App. Configs 편집"
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
-msgstr ""
-"스크립트 템플릿 (기본 템플릿으로 채워진 \n"
-"                                  를 가져오려면 비워둡니다)"
+msgstr "스크립트 템플릿 (기본 템플릿으로 채워진 \n                                  를 가져오려면 비워둡니다)"
 
 #: resourcemanager/controllers/admin.py:639
 msgid ""
 "Keep Job and Task Repositories (for \n"
 "                                    troubleshooting purposes)"
-msgstr ""
-"작업 및 작업 리포지토리 유지 (\n"
-"                                    문제 해결 목적)"
+msgstr "작업 및 작업 리포지토리 유지 (\n                                    문제 해결 목적)"
 
 #: resourcemanager/controllers/admin.py:711
 msgid "Submission Template {} successfully created."
@@ -532,9 +512,7 @@ msgstr "사용자 가져오기에 성공했습니다."
 msgid ""
 "User import failed. All changes were rolled back.\n"
 "Error: {}"
-msgstr ""
-"사용자 가져오기에 실패했습니다. 모든 변경사항이 원래대로 돌아갑니다.\n"
-"오류: {}"
+msgstr "사용자 가져오기에 실패했습니다. 모든 변경사항이 원래대로 돌아갑니다.\n오류: {}"
 
 #: resourcemanager/controllers/admin.py:960
 msgid "User import failed."
@@ -813,19 +791,7 @@ msgid ""
 "    Best regards,\n"
 "    Job Manager System\n"
 "    "
-msgstr ""
-"\n"
-"    안녕하세요,\n"
-"\n"
-"    귀하의 Job Manager 계정에 대한 비밀번호 재설정 요청이 생성됐습니다.\n"
-"    이 링크를 사용해 비밀번호를 재설정하시기 바랍니다: {0}. 이 링크의 유효 시간은 {1}시간입니다.\n"
-"\n"
-"    비밀번호 재설정을 요청하지 않으신 경우, 이 메시지를 무시하고 시스템\n"
-" 관리자에 문의하시기 바랍니다.\n"
-"\n"
-"    감사합니다.\n"
-"    Job Manager System\n"
-"    "
+msgstr "\n    안녕하세요,\n\n    귀하의 Job Manager 계정에 대한 비밀번호 재설정 요청이 생성됐습니다.\n    이 링크를 사용해 비밀번호를 재설정하시기 바랍니다: {0}. 이 링크의 유효 시간은 {1}시간입니다.\n\n    비밀번호 재설정을 요청하지 않으신 경우, 이 메시지를 무시하고 시스템\n 관리자에 문의하시기 바랍니다.\n\n    감사합니다.\n    Job Manager System\n    "
 
 #: resourcemanager/model/bl_account.py:137
 msgid ""
@@ -914,7 +880,7 @@ msgstr "행에 있는 올바르지 않은 CSV 파일: %d. 사용자 이메일은
 #: resourcemanager/model/bl_account.py:265
 #, python-format
 msgid "Created a new user %s with group membership: %s"
-msgstr ""
+msgstr "그룹 구성원으로 새로운 사용자 %s 가 생성됨: %s"
 
 #: resourcemanager/model/configuration.py:37
 #: resourcemanager/templates/master.xhtml:43
@@ -923,7 +889,7 @@ msgstr "리소스 그룹"
 
 #: resourcemanager/model/configuration.py:236
 msgid "Application Config"
-msgstr ""
+msgstr "응용 프로그램 구성"
 
 #: resourcemanager/model/configuration.py:237
 msgid "Application Configs"
@@ -939,18 +905,18 @@ msgstr "Siemens Simcenter STAR-CCM+ Job Manager 소개"
 
 #: resourcemanager/templates/about.xhtml:18
 msgid "Job Manager Help"
-msgstr ""
+msgstr "Job Manager 도움말"
 
 #: resourcemanager/templates/about.xhtml:22
 msgid "Help Link:"
-msgstr ""
+msgstr "도움말 링크:"
 
 #: resourcemanager/templates/about.xhtml:24
 msgid ""
 "\n"
 "                                Job Manager Documentation\n"
 "                            "
-msgstr ""
+msgstr "\n                                Job Manager 문서\n"
 
 #: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
@@ -966,7 +932,7 @@ msgstr "릴리스 일자:"
 
 #: resourcemanager/templates/about.xhtml:50
 msgid "Build Number:"
-msgstr ""
+msgstr "빌드 번호:"
 
 #: resourcemanager/templates/about.xhtml:58
 msgid "REST API Version"
@@ -1007,17 +973,15 @@ msgstr "사용자 이름"
 msgid ""
 " remember me\n"
 "                        "
-msgstr ""
-" 정보를 기억합니다\n"
-"                        "
+msgstr " 정보를 기억합니다\n                        "
 
 #: resourcemanager/templates/login.xhtml:45
 msgid "If you forgot you password you can reset it "
-msgstr "암호를 잊어버린 경우 암호를 재설정 할 수 있습니다. "
+msgstr "암호를 잊어버린 경우 암호를 여기에서 재설정 "
 
 #: resourcemanager/templates/login.xhtml:46
 msgid "here."
-msgstr "여기."
+msgstr "할 수 있습니다."
 
 #: resourcemanager/templates/login.xhtml:51
 msgid "Use the OS password on \""
@@ -1040,9 +1004,7 @@ msgstr "Simcenter STAR-CCM+ Job Manager"
 msgid ""
 "\n"
 "                    Admin"
-msgstr ""
-"\n"
-"                    관리"
+msgstr "\n                    관리"
 
 #: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
@@ -1056,9 +1018,7 @@ msgstr "대다수 사용자 가져오기"
 msgid ""
 "\n"
 "                    Help"
-msgstr ""
-"\n"
-"                    도움말"
+msgstr "\n                    도움말"
 
 #: resourcemanager/templates/master.xhtml:59
 msgid "About"
@@ -1068,9 +1028,7 @@ msgstr "소개"
 msgid ""
 "\n"
 "                    Account"
-msgstr ""
-"\n"
-"                    계정"
+msgstr "\n                    계정"
 
 #: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
@@ -1106,11 +1064,8 @@ msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ Job Manager - "
 
 #~ msgid "Application Config"
-#~ msgstr "응용 프로그램 구성"
-
-#~ msgid "Created a new user with group memberships"
-#~ msgstr "그룹 구성원으로 새로운 사용자 %가 생성됨"
+#~ msgstr ""
 
 #~ msgid "Queue Name"
-#~ msgstr "대기열 이름"
+#~ msgstr ""
 
