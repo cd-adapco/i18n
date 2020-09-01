@@ -719,7 +719,7 @@ msgstr "제출을 위한 작업 생성 시 \"requested_resources\"가 필요합�
 
 #: resourcemanager/model/bl.py:122
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
-msgstr "\"walltime\"은 플로트 수 (초)로 지정해야 합니다. 오류: {}"
+msgstr "\"walltime\"은 부동 숫자(초)로 지정해야 합니다. 오류: {}"
 
 #: resourcemanager/model/bl.py:131
 msgid ""
