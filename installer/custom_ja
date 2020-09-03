@@ -47,7 +47,7 @@ Billboard.850018f38468.imageName=billboard_default.png
 Billboard.850018f38468.imagePath=$IA_PROJECT_DIR$/resources/254563a034ed41e4e80b453700885aba
 
 # ChooseFile.257d8095925b.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file, or are a _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand user, you may still proceed with this installation process by clicking \"Next\". However you will need to run this installation tool again to finalize the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ installation.
-ChooseFile.257d8095925b.additionalText=メールで_COMPANY_NAME_ _BUSINESS_UNIT_ により提供されるライセンスファイルを選択してください。 ライセンスファイルをまだ受信していない場合、または_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_パワーオンデマンドユーザである場合は、\"Next\"をクリックすることによりこのインストレーションプロセスを先に進めることができるかもしれません。 しかしながら、依然としてこのインストレーションツールを再度実行し、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションを最終処理する必要があります。
+ChooseFile.257d8095925b.additionalText=メールで_COMPANY_NAME_ _BUSINESS_UNIT_ により提供されるライセンスファイルを選択してください。 ライセンスファイルをまだ受信していない場合、または_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_パワーオンデマンドユーザである場合は、\"Next\"をクリックすることによりこのインストレーションプロセスを先に進めることができます。 しかしながら、依然としてこのインストレーションツールを再度実行し、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_インストレーションを最終処理する必要があります。
 
 # ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
 ChooseFile.257d8095925b.defaultFile=$DEFAULT_LIC_FILE$
@@ -845,7 +845,7 @@ ExecuteScript.36252dedbf0d.title=実行中のcdlmdバージョンのチェック
 ExecuteScript.363e4de0bf0d.title=実行中のcdlmdバージョンのチェック
 
 # ExecuteScript.3644b3a0bf2b.title=Get lmhostid (ethernet)
-ExecuteScript.3644b3a0bf2b.title=Lmhostid を取得(イーサネット)
+ExecuteScript.3644b3a0bf2b.title=lmhostid を取得(イーサネット)
 
 # ExecuteScript.36abef4db1a0.title=Tidy integration desktop refresh
 ExecuteScript.36abef4db1a0.title=統合デスクトップのリフレッシュ
@@ -1100,7 +1100,7 @@ ExecuteScript.a15d24e08d52.title=splm_license_serverを解析
 ExecuteScript.a16603559099.title=.plmrcを解析
 
 # ExecuteScript.a1660355909c.title=parse 
-ExecuteScript.a1660355909c.title=パース
+ExecuteScript.a1660355909c.title=解析
 
 # ExecuteScript.a198b89c8d72.title=create .plmrc
 ExecuteScript.a198b89c8d72.title=.plmrcを作成
@@ -1166,13 +1166,13 @@ ExecuteScript.b13aba5c9824.title=OS認証によるLinuxサービス
 ExecuteScript.b4cb727a9721.title=.flexlmrcを解析
 
 # ExecuteScript.b4cb88b19730.title=parse cdlmd_license_file
-ExecuteScript.b4cb88b19730.title=cdlmd_license_fileをパース
+ExecuteScript.b4cb88b19730.title=cdlmd_license_fileを解析
 
 # ExecuteScript.b75735028bf8.title=parse .flexlmrc
 ExecuteScript.b75735028bf8.title=.flexlmrcを解析
 
 # ExecuteScript.b759e7808dd0.title=parse 
-ExecuteScript.b759e7808dd0.title=パース
+ExecuteScript.b759e7808dd0.title=解析
 
 # ExecuteScript.b8b148f3a4fb.title=extract _CADC_STAR_CAT5_-30
 ExecuteScript.b8b148f3a4fb.title=_CADC_STAR_CAT5_-30を抽出
@@ -2942,7 +2942,7 @@ ProductDialog.Text=インストールするコンポーネントを選択して�
 ProductDialog.Title1=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_コンポーネントを選択
 
 # PromptUserConsole.2d6f494abb0c.message=Insufficient Disk Space Available\n\nNot enough disk space available, $required_Dspace$ are required\nbut only $ava_Dspace$ are available.\n\nPlease select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
-PromptUserConsole.2d6f494abb0c.message=ディスクの空き容量が不足しています\n\nディスクの空き容量が不足しています。必要な容量は$required_Dspace$ですが、\n$ava_Dspace$しかありません。\n\n現在ののインストール場所におけるディスクの空き容量を増やした後で継続を選択して、前へを選択して異なるインストール場所を選択するか、\nキャンセルを選択してインストレーションを中止します。
+PromptUserConsole.2d6f494abb0c.message=ディスクの空き容量が不足しています\n\nディスクの空き容量が不足しています。必要な容量は$required_Dspace$ですが、\n$ava_Dspace$しかありません。\n\n現在のインストール場所におけるディスクの空き容量を増やした後で継続を選択して、前へを選択して異なるインストール場所を選択するか、\nキャンセルを選択してインストレーションを中止します。
 
 # PromptUserConsole.2d6f494abb0c.option0Label=Continue
 PromptUserConsole.2d6f494abb0c.option0Label=続行
@@ -3434,7 +3434,7 @@ ShowDialogAction.2d6e902bbb0c.detailsButtonLabel=キャンセル
 ShowDialogAction.2d6e902bbb0c.label=ディスクの空き容量が不足しています。必要な容量は$required_Dspace$ですが、\n$ava_Dspace$しかありません。
 
 # ShowDialogAction.2d6e902bbb0c.narrative=Please select continue after freeing some disk space in the current installation location, select previous to choose a different\ninstallation location, or select cancel to abort the installation.
-ShowDialogAction.2d6e902bbb0c.narrative=現在ののインストール場所におけるディスクの空き容量を増やした後で継続を選択して、前へを選択して異なるインストール場所を選択するか、\nキャンセルを選択してインストレーションを中止します。
+ShowDialogAction.2d6e902bbb0c.narrative=現在のインストール場所におけるディスクの空き容量を増やした後で継続を選択して、前へを選択して異なるインストール場所を選択するか、\nキャンセルを選択してインストレーションを中止します。
 
 # ShowDialogAction.2d6e902bbb0c.title=Warning: Insufficient Disk Space Available
 ShowDialogAction.2d6e902bbb0c.title=警告: ディスクの空き容量が不足しています
