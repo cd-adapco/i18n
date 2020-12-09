@@ -1,0 +1,8 @@
+{
+    "schemaVersion": "1.0.0",
+    "imports": [
+        "js/ccm-render.directive"
+    ],
+    "data": {},
+    "i18n": {}
+}

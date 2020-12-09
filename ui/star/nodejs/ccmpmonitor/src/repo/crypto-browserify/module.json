@@ -1,0 +1,9 @@
+{
+    "name": "crypto-browserify",
+    "type": [ "repo" ],
+    "npmPaths": [
+        "index.js"
+    ],
+    "karmaInclude": true,
+    "maintainStructure": true
+}

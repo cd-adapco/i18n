@@ -1,0 +1,16 @@
+{
+    "files.trimTrailingWhitespace": true,
+    "files.exclude": {
+        ".git": true
+    },
+    "search.exclude": {
+        ".vscode": true
+    },
+    "css.validate": true,
+    "scss.validate": true,
+    "eslint.enable": true,
+    "eslint.autoFixOnSave": true,
+    "stylelint.enable": true,
+    "search.useIgnoreFiles": false,
+    "search.useRipgrep": false
+}

@@ -1,0 +1,9 @@
+{
+    "name": "resize-observer-polyfill",
+    "type": [ "repo" ],
+    "npmPaths": [
+        "dist/ResizeObserver.js"
+    ],
+    "karmaInclude": true,
+    "maintainStructure": true
+}

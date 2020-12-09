@@ -1,0 +1,9 @@
+{
+    "name": "idtoken-verifier",
+    "type": [ "repo" ],
+    "npmPaths": [
+        "build/idtoken-verifier.js"
+    ],
+    "karmaInclude": true,
+    "maintainStructure": true
+}

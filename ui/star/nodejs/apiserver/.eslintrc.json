@@ -1,0 +1,40 @@
+{
+  "extends": ["airbnb", "plugin:@typescript-eslint/recommended", "plugin:import/typescript"],
+  "parser": "@typescript-eslint/parser",
+  "env": {
+    "mocha": true,
+    "node": true
+  },
+  "root": true,
+  "plugins": [
+    "mocha",
+    "@typescript-eslint",
+    "json"
+  ],
+  "rules": {
+    "@typescript-eslint/indent": [2, 2],
+    "@typescript-eslint/no-var-requires": "off",
+    "max-classes-per-file": "off",
+    "@typescript-eslint/ban-types": ["off"],
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "@typescript-eslint/no-parameter-properties": "off",
+    "@typescript-eslint/explicit-function-return-type": "off",
+    "lines-between-class-members": ["error", "always", {
+      "exceptAfterSingleLine": true
+    }],
+    "camelcase": "off",
+    "@typescript-eslint/camelcase": "off",
+    "mocha/no-exclusive-tests": "error",
+    "import/extensions": ["error", "never", { "config": "always" }],
+    "import/no-unresolved": [2, {"commonjs": true}],
+    "no-underscore-dangle": ["error", { "allow": ["__resolveType", "_transform"] }],
+    "max-len": ["error", 120, {"ignoreComments": true, "ignoreStrings": true}],
+    "import/no-extraneous-dependencies": ["error",
+      {"devDependencies": ["test/**/*.*", "test-int/**/*.*"]}]
+  },
+  "settings": {
+    "react": {
+      "version": "999.999.999"
+    }
+  }
+}

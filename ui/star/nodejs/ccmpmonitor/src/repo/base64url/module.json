@@ -1,0 +1,11 @@
+{
+    "name": "base64url",
+    "type": [ "repo" ],
+    "npmPaths": [
+        "index.js",
+        "dist/base64url.js",
+        "dist/pad-string.js"
+    ],
+    "karmaInclude": true,
+    "maintainStructure": true
+}

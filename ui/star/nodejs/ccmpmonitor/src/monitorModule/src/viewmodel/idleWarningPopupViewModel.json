@@ -1,0 +1,48 @@
+{
+    "schemaVersion": "1.0.0",
+    "imports": [
+        "js/aw-popup.directive",
+        "js/aw-row.directive",
+        "js/aw-panel-body.directive",
+        "js/aw-panel-footer.directive",
+        "js/aw-button.directive",
+        "js/aw-break.directive"
+    ],
+    "actions": {
+        "disconnectJobAction": {
+            "actionType": "JSFunction",
+            "method": "disconnectJob",
+            "inputData": {},
+            "events": {
+                "success": [ {
+                    "name": "awPopup.close",
+                    "eventData": {
+                        "popupId": "idleWarningPopup"
+                    }
+                } ]
+            },
+            "deps": "js/monitorService"
+        },
+        "continueAction": {
+            "actionType": "JSFunction",
+            "method": "continueMonitoring",
+            "inputData": {},
+            "events": {
+                "success": [ {
+                    "name": "awPopup.close",
+                    "eventData": {
+                        "popupId": "idleWarningPopup"
+                    }
+                } ]
+            },
+            "deps": "js/monitorService"
+        }
+    },
+    "i18n": {
+        "idleWarningMessage": [ "monitorModuleMessages" ],
+        "idleWarningQuestion": [ "monitorModuleMessages" ],
+        "idleWarningPopupCaption": [ "monitorModuleMessages" ],
+        "continueText": [ "monitorModuleMessages" ],
+        "quitText": [ "monitorModuleMessages" ]
+    }
+}

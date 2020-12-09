@@ -1,0 +1,20 @@
+{
+    "monitor": {
+        "url": "/monitor",
+        "data": {
+            "headerTitle": {
+                "source": "/i18n/sharedModuleMessages",
+                "key": "productName"
+            },
+            "label": ""
+        },
+        "view": "monitor",
+        "dependencies": [],
+        "parent": "mainPage",
+        "params": {
+            "source":null,
+            "taskId": null,
+            "jobId": null
+        }
+    }
+}

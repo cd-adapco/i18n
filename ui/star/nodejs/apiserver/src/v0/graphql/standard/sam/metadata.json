@@ -1,0 +1,31 @@
+{
+  "metadata": [
+    {
+      "name": "User",
+      "fields": [
+        {
+          "name": "userName",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "displayName",
+          "type": "string"
+        },
+        {
+          "name": "email",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

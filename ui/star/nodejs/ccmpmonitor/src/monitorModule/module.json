@@ -1,0 +1,5 @@
+{
+    "name": "monitorModule",
+    "description": "This module shows scene/plot list, shows selected scene/plot data",
+    "skipTest": false
+}

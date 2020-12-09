@@ -1,0 +1,9 @@
+{
+    "pageTitle": "Login",
+    "loginButtonTitle": "Login",
+    "username": "Username",
+    "password": "Password",
+    "logout": "Logout",
+    "logoutConfirmationMessage": "Are you sure you want to logout?",
+    "cancelText": "Cancel"
+}

@@ -1,0 +1,4 @@
+{
+    "pageTitle": "Log output for Simulation: {0}, Job Id: {1}",
+    "errorLogOutputMsg": "Error fetching log output {0}"
+}

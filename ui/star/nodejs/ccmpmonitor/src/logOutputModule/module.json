@@ -1,0 +1,5 @@
+{
+    "name": "logOutputModule",
+    "description": "This module shows log output",
+    "skipTest": true
+}

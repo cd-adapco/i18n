@@ -1,0 +1,204 @@
+{
+  "metadata": [
+    {
+      "name": "ComputeJob",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "submissionTemplate",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "requestedResources",
+          "type": "ComputeJobRequestedResources",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "submissionId",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "submissionTime",
+          "type": "datetime",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "owner",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "tasks",
+          "type": "[ComputeTask]"
+        }
+      ]
+    },
+    {
+      "name": "ComputeJobRequestedResources",
+      "fields": [
+        {
+          "name": "computeSlots",
+          "type": "int",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "walltime",
+          "type": "float",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ComputeTask",
+      "fields": [
+        {
+          "name": "name",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "parent",
+          "type": "ComputeTask",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "status",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "unifiedStatus",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "application",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "requiredResources",
+          "type": "ComputeTaskRequiredResources",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "appAttributes",
+          "type": "ComputeTaskAppAttributes",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ComputeTaskAppAttributes",
+      "fields": [
+        {
+          "name": "url",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "productVersion",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ComputeTaskRequiredResources",
+      "fields": [
+        {
+          "name": "computeSlots",
+          "type": "int",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

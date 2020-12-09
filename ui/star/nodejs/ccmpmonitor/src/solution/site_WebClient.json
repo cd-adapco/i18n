@@ -1,0 +1,8 @@
+{
+    "name": "WebClient",
+    "solutionName": "WebClient-kit",
+    "kits": [
+        "WebClient-kit"
+    ],
+    "assetsDir": "assets"
+}

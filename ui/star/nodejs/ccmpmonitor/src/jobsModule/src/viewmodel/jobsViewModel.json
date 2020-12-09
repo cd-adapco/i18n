@@ -1,0 +1,362 @@
+{
+    "schemaVersion": "1.0.0",
+    "imports": [
+        "js/aw-row.directive",
+        "js/aw-column.directive",
+        "js/aw-splm-table.directive"
+    ],
+    "data": {},
+    "i18n": {
+        "jobIdColumn": [ "jobsModuleMessages" ],
+        "simNameColumn": [ "jobsModuleMessages" ],
+        "statusColumn": [ "jobsModuleMessages" ],
+        "processesColumn": [ "jobsModuleMessages" ],
+        "terminateText": [ "jobsModuleMessages" ],
+        "logText": [ "jobsModuleMessages" ],
+        "completedJobsTableHeader": [ "jobsModuleMessages" ],
+        "activeJobsTableHeader": [ "jobsModuleMessages" ]
+    },
+    "actions": {
+        "onPageLoad": {
+            "actionType": "JSFunction",
+            "method": "onPageLoad",
+            "inputData": {},
+            "outputData": {},
+            "deps": "js/jobsTableDataService"
+        },
+        "onPageUnload": {
+            "actionType": "JSFunction",
+            "method": "onPageUnload",
+            "inputData": {},
+            "outputData": {},
+            "deps": "js/jobsTableDataService"
+        },
+        "loadJobsTableData": {
+            "actionType": "JSFunctionAsync",
+            "method": "getJobsTableData",
+            "inputData": {},
+            "outputData": {
+                "activeJobResults": "{{function:applySortAndFilterRows}}"
+            },
+            "dataParsers": [ {
+                "id": "jobsTableParser",
+                "responseObjs": "activeJobResults"
+            } ],
+            "deps": "js/jobsTableDataService"
+        },
+        "loadJobsTableInactiveData": {
+            "actionType": "JSFunctionAsync",
+            "method": "getJobsTableInactiveData",
+            "inputData": {},
+            "outputData": {
+                "inactiveJobResults": "{{function:applySortAndFilterRows}}"
+            },
+            "dataParsers": [ {
+                "id": "jobsTableParser",
+                "responseObjs": "inactiveJobResults"
+            } ],
+            "deps": "js/jobsTableDataService"
+        },
+        "loadColumnsAndAddCellRenderer": {
+            "actionType": "JSFunction",
+            "method": "loadJobsColumns",
+            "inputData": {
+                "columnProvider": "{{function:findColumnProvider}}",
+                "dataProvider": "{{function:findDataProvider}}"
+            },
+            "deps": "js/jobsTableDataService"
+        },
+        "applyFilterFacets": {
+            "actionType": "JSFunction",
+            "method": "getCachedActiveJobsDataForFilter",
+            "inputData": {},
+            "outputData": {
+                "filterFacetResults": "{{function:getFilterFacets}}"
+            },
+            "dataParsers": [ {
+                "id": "jobsTableParser",
+                "responseObjs": "filterFacetResults"
+            } ],
+            "deps": "js/jobsTableDataService"
+        },
+        "applyInactiveFilterFacets": {
+            "actionType": "JSFunction",
+            "method": "getCachedInactiveJobsDataForFilter",
+            "inputData": {},
+            "outputData": {
+                "filterFacetResults": "{{function:getFilterFacets}}"
+            },
+            "dataParsers": [ {
+                "id": "jobsTableParser",
+                "responseObjs": "filterFacetResults"
+            } ],
+            "deps": "js/jobsTableDataService"
+        },
+        "getFilterFacetData": {
+            "actionType": "JSFunction",
+            "method": "getFilterFacetData",
+            "inputData": {
+                "filterFacetInput": "{{filterFacetInput}}"
+            },
+            "outputData": {
+                "fullData": ""
+            },
+            "deps": "js/jobsTableDataService"
+        },
+        "filterFacetBatchAction": {
+            "actionType": "batchJob",
+            "steps": [ {
+                    "action": "getFilterFacetData"
+                },
+                {
+                    "action": "applyFilterFacets"
+                }
+            ]
+        },
+        "filterInactiveFacetBatchAction": {
+            "actionType": "batchJob",
+            "steps": [ {
+                    "action": "getFilterFacetData"
+                },
+                {
+                    "action": "applyInactiveFilterFacets"
+                }
+            ]
+        }
+    },
+    "dataParseDefinitions": {
+        "jobsTableParser": {
+            "identifier": "{{response.tasks.id}}",
+            "props": {
+                "id": {
+                    "name": "id",
+                    "value": "{{response.tasks[0].id}}",
+                    "displayValue": "{{response.name}}",
+                    "type": "STRING"
+                },
+                "name": {
+                    "name": "name",
+                    "value": "{{response.tasks[0].name}}",
+                    "displayValue": "{{response.tasks[0].name}}",
+                    "type": "STRING"
+                },
+                "processes": {
+                    "name": "processes",
+                    "value": "{{response.tasks[0].requiredResources.computeSlots}}",
+                    "displayValue": "{{response.tasks[0].requiredResources.computeSlots}}",
+                    "type": "INTEGER"
+                },
+                "status": {
+                    "name": "status",
+                    "value": "{{response.tasks[0].unifiedStatus}}",
+                    "displayValue": "{{response.tasks[0].unifiedStatus}}",
+                    "type": "STRING"
+                },
+                "application": {
+                    "name": "application",
+                    "value": "{{response.tasks[0].application}}",
+                    "displayValue": "{{response.tasks[0].application}}",
+                    "type": "STRING"
+                },
+                "productVersion": {
+                    "name": "productVersion",
+                    "value": "{{response.tasks[0].appAttributes.productVersion}}",
+                    "displayValue": "{{response.tasks[0].appAttributes.productVersion}}",
+                    "type": "STRING"
+                }
+            }
+        }
+    },
+    "dataProviders": {
+        "jobsTableDataProvider": {
+            "action": "loadJobsTableData",
+            "response": "{{data.activeJobResults}}",
+            "totalFound": "{{data.totalFound}}",
+            "filterFacetAction": "filterFacetBatchAction",
+            "filterFacetResults": "{{data.filterFacetResults}}"
+        },
+        "jobsTableInactiveDataProvider": {
+            "action": "loadJobsTableInactiveData",
+            "response": "{{data.inactiveJobResults}}",
+            "totalFound": "{{data.totalFound}}",
+            "filterFacetAction": "filterInactiveFacetBatchAction",
+            "filterFacetResults": "{{data.filterFacetResults}}"
+        }
+    },
+    "columnProviders": {
+        "jobsTableColumnProvider": {
+            "frozenColumnIndex": -1,
+            "loadColumnAction": "loadColumnsAndAddCellRenderer",
+            "columns": [ {
+                    "name": "id",
+                    "displayName": "{{i18n.jobIdColumn}}",
+                    "maxWidth": 300,
+                    "minWidth": 50,
+                    "width": 130,
+                    "propertyName": "id"
+                },
+                {
+                    "name": "status",
+                    "displayName": "{{i18n.statusColumn}}",
+                    "maxWidth": 500,
+                    "minWidth": 50,
+                    "width": 100,
+                    "propertyName": "status"
+                },
+                {
+                    "name": "name",
+                    "displayName": "{{i18n.simNameColumn}}",
+                    "maxWidth": 1000,
+                    "minWidth": 50,
+                    "width": 250,
+                    "propertyName": "name"
+                },
+                {
+                    "name": "processes",
+                    "displayName": "{{i18n.processesColumn}}",
+                    "maxWidth": 800,
+                    "minWidth": 50,
+                    "width": 160,
+                    "dataType": "INTEGER",
+                    "propertyName": "processes"
+                },
+                {
+                    "name": "logAction",
+                    "displayName": "{{i18n.logText}}",
+                    "maxWidth": 300,
+                    "minWidth": 40,
+                    "width": 40,
+                    "propertyName": "logAction",
+                    "enableSorting": false,
+                    "isFilteringEnabled": false
+                },
+                {
+                    "name": "action",
+                    "displayName": "{{i18n.terminateText}}",
+                    "maxWidth": 300,
+                    "minWidth": 50,
+                    "width": 85,
+                    "propertyName": "action",
+                    "enableSorting": false,
+                    "isFilteringEnabled": false
+                }
+            ]
+        },
+        "jobsTableInactiveColumnProvider": {
+            "frozenColumnIndex": -1,
+            "loadColumnAction": "loadColumnsAndAddCellRenderer",
+            "columns": [ {
+                    "name": "id",
+                    "displayName": "{{i18n.jobIdColumn}}",
+                    "maxWidth": 300,
+                    "minWidth": 50,
+                    "width": 130,
+                    "propertyName": "id"
+                },
+                {
+                    "name": "status",
+                    "displayName": "{{i18n.statusColumn}}",
+                    "maxWidth": 500,
+                    "minWidth": 50,
+                    "width": 100,
+                    "propertyName": "status"
+                },
+                {
+                    "name": "name",
+                    "displayName": "{{i18n.simNameColumn}}",
+                    "maxWidth": 1000,
+                    "minWidth": 50,
+                    "width": 250,
+                    "propertyName": "name"
+                },
+                {
+                    "name": "processes",
+                    "displayName": "{{i18n.processesColumn}}",
+                    "maxWidth": 800,
+                    "minWidth": 50,
+                    "width": 160,
+                    "dataType": "INTEGER",
+                    "propertyName": "processes"
+                },
+                {
+                    "name": "logAction",
+                    "displayName": "{{i18n.logText}}",
+                    "maxWidth": 300,
+                    "minWidth": 40,
+                    "width": 40,
+                    "propertyName": "logAction",
+                    "enableSorting": false,
+                    "isFilteringEnabled": false
+                }
+            ]
+        }
+    },
+    "grids": {
+        "jobsTable": {
+            "dataProvider": "jobsTableDataProvider",
+            "columnProvider": "jobsTableColumnProvider",
+            "addIconColumn": false,
+            "selectionOption": "single",
+            "gridOptions": {
+                "enableGridMenu": false,
+                "enableMinHeightCheck": false,
+                "enablePinning": false,
+                "isFilteringEnabled": true,
+                "enableSorting": true
+            }
+        },
+        "jobsTableInactive": {
+            "dataProvider": "jobsTableInactiveDataProvider",
+            "columnProvider": "jobsTableInactiveColumnProvider",
+            "addIconColumn": false,
+            "selectionOption": "single",
+            "gridOptions": {
+                "enableGridMenu": false,
+                "enableMinHeightCheck": false,
+                "enablePinning": false,
+                "isFilteringEnabled": true,
+                "enableSorting": true
+            }
+        }
+    },
+    "functions": {
+        "applySortAndFilterRows": {
+            "functionName": "applySortAndFilterRows",
+            "parameters": [
+                "{{data.columnProviders}}"
+            ]
+        },
+        "getFilterFacets": {
+            "functionName": "getFilterFacets",
+            "parameters": [
+                "{{data.columnProviders}}",
+                "{{data.fullData}}"
+            ]
+        },
+        "findDataProvider": {
+            "functionName": "findDataProvider",
+            "parameters": [
+                "{{gridid}}",
+                "{{data.grids}}",
+                "{{data.dataProviders}}"
+            ]
+        },
+        "findColumnProvider": {
+            "functionName": "findColumnProvider",
+            "parameters": [
+                "{{gridid}}",
+                "{{data.grids}}",
+                "{{data.columnProviders}}"
+            ]
+        }
+    },
+    "onEvent": [ {
+            "eventId": "jobs.contentLoaded",
+            "action": "onPageLoad"
+        },
+        {
+            "eventId": "jobs.contentUnloaded",
+            "action": "onPageUnload"
+        }
+    ]
+}

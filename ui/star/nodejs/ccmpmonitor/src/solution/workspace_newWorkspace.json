@@ -1,0 +1,10 @@
+{
+    "schemaVersion": "1.0.0",
+    "workspaceId": "ccmpWorkspace",
+    "workspaceName": {
+        "source": "/i18n/sharedModuleMessages",
+        "key": "ccmpWorkspaceName"
+    },
+    "workspaceType": "Inclusive",
+    "defaultPage": "jobs"
+}

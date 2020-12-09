@@ -1,0 +1,15 @@
+{
+    "jobs": {
+        "url": "/jobs",
+        "data": {
+            "headerTitle": {
+                "source": "/i18n/sharedModuleMessages",
+                "key": "productName"
+            },
+            "label": ""
+        },
+        "view": "jobs",
+        "dependencies": [],
+        "parent": "mainPage"
+    }
+}

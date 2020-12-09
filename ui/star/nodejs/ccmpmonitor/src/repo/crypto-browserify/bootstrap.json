@@ -1,0 +1,7 @@
+{
+    "config": {
+        "paths": {
+            "crypto-browserify": "lib/crypto-browserify/index"
+        }
+    }
+}

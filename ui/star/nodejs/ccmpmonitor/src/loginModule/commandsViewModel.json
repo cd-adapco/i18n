@@ -1,0 +1,47 @@
+{
+    "actions": {
+        "logoutAction": {
+            "actionType": "JSFunction",
+            "method": "showPopup",
+            "inputData": {
+                "popupId": "logoutConfirmationPopup",
+                "height": "120",
+                "width": "380"
+            },
+            "outputData": {},
+            "deps": "js/popupService"
+        }
+    },
+    "commandHandlers": {
+        "logoutHandler": {
+            "id": "cmdLogout",
+            "action": "logoutAction",
+            "activeWhen": true,
+			"visibleWhen": {
+                "condition": "conditions.logoutVisible"
+            }
+        }
+    },
+    "commandPlacements": {
+        "cmdLogoutUserLink": {
+            "id": "cmdLogout",
+            "uiAnchor": "aw_userLink"
+        }
+    },
+    "commands": {
+        "cmdLogout": {
+            "iconId": "cmdSignOut",
+            "title": "{{i18n.logout}}"
+        }
+    },
+    "conditions": {
+        "logoutVisible": {
+            "expression": "true"
+        }
+    },
+    "i18n": {
+        "logout": [
+            "loginModuleMessages"
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    // See http://go.microsoft.com/fwlink/?LinkId=827846
+    // for the documentation about the extensions.json format
+    "recommendations": [
+        // Extension identifier format: ${publisher}.${name}. Example: vscode.csharp
+        "dbaeumer.vscode-eslint",
+        "mrmlnc.vscode-json5",
+        "yzhang.markdown-all-in-one",
+        "hbenl.vscode-test-explorer",
+        "hbenl.vscode-mocha-test-adapter",
+        "koppt.vscode-view-in-browser",
+        "christian-kohler.path-intellisense",
+        "kumar-harsh.graphql-for-vscode"
+    ]
+}

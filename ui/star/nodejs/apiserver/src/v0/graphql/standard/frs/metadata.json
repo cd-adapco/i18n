@@ -1,0 +1,45 @@
+{
+  "metadata": [
+    {
+      "name": "FrsFileRepository",
+      "fields": [
+        {
+          "name": "urn",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "files",
+          "type": "[FrsFileRepositoryFile]"
+        }
+      ]
+    },
+    {
+      "name": "FrsFileRepositoryFile",
+      "fields": [
+        {
+          "name": "filename",
+          "type": "string",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        },
+        {
+          "name": "size",
+          "type": "int",
+          "annotations": [
+            {
+              "name": "ReadOnly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

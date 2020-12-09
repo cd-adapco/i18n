@@ -1,0 +1,8 @@
+{
+    "name": "siteModule",
+    "description": "Site module for solution.",
+    "pathOffset": ".",
+    "skipJSDoc": true,
+    "skipAudit": false,
+    "skipTest": true
+}

@@ -1,0 +1,12 @@
+{
+    "commonFrameRoot": {
+        "abstract": true,
+        "view": "commonFrameRoot"
+    },
+    "mainPage": {
+        "abstract": true,
+        "data": {},
+        "view": "commonFrameLocation",
+        "parent": "commonFrameRoot"
+    }
+}

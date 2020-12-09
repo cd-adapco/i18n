@@ -1,0 +1,212 @@
+{
+    "commands": {
+        "helpCommand": {
+            "iconId": "cmdHelp",
+            "title": "{{i18n.helpCommandName}}",
+            "isGroup": false
+        },
+        "changeLocaleCmd": {
+            "iconId": "cmdFlatToScreen",
+            "isGroup": true,
+            "title": "{{i18n.changeLocale}}"
+        },
+        "englishLocaleCmd": {
+            "title": "{{i18n.englishLocale}}"
+        },
+        "japaneseLocaleCmd": {
+            "title": "{{i18n.japaneseLocale}}"
+        },
+        "koreanLocaleCmd": {
+            "title": "{{i18n.koreanLocale}}"
+        },
+        "russianLocaleCmd": {
+            "title": "{{i18n.russianLocale}}"
+        },
+        "chineseLocaleCmd": {
+            "title": "{{i18n.chineseLocale}}"
+        }
+    },
+    "commandHandlers": {
+        "awp0GoBackHandler": {
+            "id": "Awp0GoBack",
+            "action": "goBackAction",
+            "activeWhen": true,
+            "visibleWhen": {
+                "condition": "conditions.goToPreviousPageVisible"
+            }
+        },
+        "helpCommandHandler": {
+            "id": "helpCommand",
+            "action": "helpAction",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "changeLocaleCommandHandler": {
+            "id": "changeLocaleCmd",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "englishLocaleCommandHandler": {
+            "id": "englishLocaleCmd",
+            "action": "changeToEnglishLocale",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "japaneseLocaleCommandHandler": {
+            "id": "japaneseLocaleCmd",
+            "action": "changeToJapaneseLocale",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "koreanLocaleCommandHandler": {
+            "id": "koreanLocaleCmd",
+            "action": "changeToKoreanLocale",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "russianLocaleCommandHandler": {
+            "id": "russianLocaleCmd",
+            "action": "changeToRussianLocale",
+            "activeWhen": true,
+            "visibleWhen": true
+        },
+        "chineseLocaleCommandHandler": {
+            "id": "chineseLocaleCmd",
+            "action": "changeToChineseLocale",
+            "activeWhen": true,
+            "visibleWhen": true
+        }
+
+    },
+    "commandPlacements": {
+        "helpCommandPlacement": {
+            "id": "helpCommand",
+            "uiAnchor": "aw_userLink",
+            "priority": 1
+        },
+        "helpCommandPlacementFooter": {
+            "id": "helpCommand",
+            "uiAnchor": "aw_footer",
+            "priority": 1
+        },
+        "changeLocaleCmdPlacement": {
+            "id": "changeLocaleCmd",
+            "uiAnchor": "aw_userLink",
+            "priority": 10
+        },
+        "changeLocaleCmdPlacementFooter": {
+            "id": "changeLocaleCmd",
+            "uiAnchor": "aw_footer",
+            "priority": 10
+        },
+        "EnglishLocaleCmdPlacement": {
+            "id": "englishLocaleCmd",
+            "uiAnchor": "",
+            "parentGroupId": "changeLocaleCmd"
+        },
+        "JapaneseLocaleCmdPlacement": {
+            "id": "japaneseLocaleCmd",
+            "uiAnchor": "",
+            "parentGroupId": "changeLocaleCmd"
+        },
+        "KoreanLocaleCmdPlacement": {
+            "id": "koreanLocaleCmd",
+            "uiAnchor": "",
+            "parentGroupId": "changeLocaleCmd"
+        },
+        "RussianLocaleCmdPlacement": {
+            "id": "russianLocaleCmd",
+            "uiAnchor": "",
+            "parentGroupId": "changeLocaleCmd"
+        },
+        "ChineseLocaleCmdPlacement": {
+            "id": "chineseLocaleCmd",
+            "uiAnchor": "",
+            "parentGroupId": "changeLocaleCmd"
+        }
+    },
+    "actions": {
+        "goBackAction": {
+            "actionType": "JSFunction",
+            "method": "navigateToPreviousPage",
+            "inputData": {},
+            "deps": "js/sharedUtils"
+        },
+        "helpAction": {
+            "actionType": "JSFunction",
+            "method": "showHelp",
+            "inputData": {},
+            "deps": "js/sharedUtils"
+        },
+        "changeToEnglishLocale": {
+            "actionType": "JSFunction",
+            "method": "updateBrowserUrl",
+            "inputData": {
+                "locale": "en"
+            },
+            "deps": "js/browserUtils"
+        },
+        "changeToJapaneseLocale": {
+            "actionType": "JSFunction",
+            "method": "updateBrowserUrl",
+            "inputData": {
+                "locale": "ja"
+            },
+            "deps": "js/browserUtils"
+        },
+        "changeToKoreanLocale": {
+            "actionType": "JSFunction",
+            "method": "updateBrowserUrl",
+            "inputData": {
+                "locale": "ko"
+            },
+            "deps": "js/browserUtils"
+        },
+        "changeToRussianLocale": {
+            "actionType": "JSFunction",
+            "method": "updateBrowserUrl",
+            "inputData": {
+                "locale": "ru"
+            },
+            "deps": "js/browserUtils"
+        },
+        "changeToChineseLocale": {
+            "actionType": "JSFunction",
+            "method": "updateBrowserUrl",
+            "inputData": {
+                "locale": "zh"
+            },
+            "deps": "js/browserUtils"
+        }
+    },
+    "conditions": {
+        "goToPreviousPageVisible": {
+            "expression": "ctx.showGoToPreviousPageButton"
+        }
+    },
+    "i18n": {
+        "helpCommandName": [
+            "sharedModuleLocaleMessages"
+        ],
+        "changeLocale": [
+            "sharedModuleLocaleMessages"
+        ],
+        "englishLocale": [
+            "sharedModuleMessages"
+        ],
+        "chineseLocale": [
+            "sharedModuleMessages"
+        ],
+        "russianLocale": [
+            "sharedModuleMessages"
+        ],
+        "koreanLocale": [
+            "sharedModuleMessages"
+        ],
+        "japaneseLocale": [
+            "sharedModuleMessages"
+        ]
+    },
+    "messages": {},
+    "onEvent": []
+}

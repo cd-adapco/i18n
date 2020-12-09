@@ -1,0 +1,21 @@
+{
+    "logOutput": {
+        "url": "/logOutput",
+        "data": {
+            "headerTitle": {
+                "source": "/i18n/sharedModuleMessages",
+                "key": "productName"
+            },
+            "label": ""
+        },
+        "view": "logOutput",
+        "dependencies": [],
+        "parent": "mainPage",
+        "params": {
+            "taskId": null,
+            "jobName": null,
+            "simName": null,
+            "isJobRunning": null
+        }
+    }
+}

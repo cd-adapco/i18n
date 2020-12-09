@@ -1,0 +1,46 @@
+{
+    "schemaVersion": "1.0.0",
+    "imports": [
+        "js/aw-popup.directive",
+        "js/aw-column.directive",
+        "js/aw-panel-body.directive",
+        "js/aw-panel-footer.directive",
+        "js/aw-button.directive",
+        "js/aw-break.directive"
+    ],
+    "actions": {
+        "stopSimulationAction": {
+            "actionType": "JSFunction",
+            "method": "stopSimulation",
+            "inputData": {},
+            "events": {
+                "success": [ {
+                    "name": "awPopup.close",
+                    "eventData": {
+                        "popupId": "stopSimulationPopup"
+                    }
+                } ]
+            },
+            "deps": "js/monitorService"
+        },
+        "closePopupWindow": {
+            "actionType": "Event",
+            "method": "Event",
+            "inputData": {
+                "events": [ {
+                    "name": "awPopup.close",
+                    "eventData": {
+                        "popupId": "stopSimulationPopup"
+                    }
+                } ]
+            }
+        }
+    },
+    "data": {},
+    "i18n": {
+        "stopSimulationMessage": [ "monitorModuleMessages" ],
+        "stopSimulationPopupCaption": [ "monitorModuleMessages" ],
+        "cancelText": [ "monitorModuleMessages" ],
+        "stopText": [ "monitorModuleMessages" ]
+    }
+}

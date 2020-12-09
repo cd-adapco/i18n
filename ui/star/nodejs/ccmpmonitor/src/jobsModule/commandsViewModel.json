@@ -1,0 +1,57 @@
+{
+    "commands": {
+        "refreshCommand": {
+            "iconId": "cmdRefresh",
+            "title": "{{i18n.refreshCommandName}}",
+            "isGroup": false
+        }
+    },
+    "commandHandlers": {
+        "refreshCommandHandler": {
+            "id": "refreshCommand",
+            "action": "refreshJobsTableData",
+            "activeWhen": true,
+            "visibleWhen": {
+                "condition": "conditions.onJobsPage"
+            }
+        }
+    },
+    "commandPlacements": {
+        "refreshCommandPlacement": {
+            "id": "refreshCommand",
+            "uiAnchor": "aw_globalNavigationbar",
+            "priority": 50
+        },
+        "refreshCommandPlacementFooter": {
+            "id": "refreshCommand",
+            "uiAnchor": "aw_footer",
+            "priority": 0
+        },
+        "cmdLogoutUserLinkFooter": {
+            "id": "cmdLogout",
+            "uiAnchor": "aw_footer",
+            "priority": 100
+        }
+    },
+    "actions": {
+        "refreshJobsTableData": {
+            "actionType": "JSFunction",
+            "method": "reloadJobsTable",
+            "inputData": {},
+            "outputData": {},
+            "deps": "js/jobsTableDataService"
+        }
+    },
+    "conditions": {
+        "onJobsPage": {
+            "expression": "ctx.onJobsPage"
+        }
+    },
+    "i18n": {
+        "refreshCommandName": [
+            "jobsModuleMessages"
+        ]
+    },
+    "messages": {},
+    "onEvent": []
+}

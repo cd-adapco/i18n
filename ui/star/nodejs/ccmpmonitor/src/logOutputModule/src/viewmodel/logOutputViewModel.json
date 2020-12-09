@@ -1,0 +1,35 @@
+{
+    "schemaVersion": "1.0.0",
+    "imports": [],
+    "actions": {
+        "onPageLoad": {
+            "actionType": "JSFunction",
+            "method": "onPageLoad",
+            "inputData": {},
+            "outputData": {},
+            "deps": "js/logOutputService"
+        },
+        "onPageUnload": {
+            "actionType": "JSFunction",
+            "method": "onPageUnload",
+            "inputData": {},
+            "outputData": {},
+            "deps": "js/logOutputService"
+        }
+    },
+    "data": {},
+    "i18n": {
+        "loginButtonTitle": [ "logOutputModuleMessages" ],
+        "username": [ "logOutputModuleMessages" ],
+        "password": [ "logOutputModuleMessages" ]
+    },
+    "onEvent": [ {
+            "eventId": "logOutput.contentLoaded",
+            "action": "onPageLoad"
+        },
+        {
+            "eventId": "logOutput.contentUnloaded",
+            "action": "onPageUnload"
+        }
+    ]
+}

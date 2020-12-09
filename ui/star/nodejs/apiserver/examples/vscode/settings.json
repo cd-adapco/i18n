@@ -1,0 +1,14 @@
+{
+  "eslint.autoFixOnSave": true,
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "typescript",
+      "autoFix": true
+    }
+  ],
+  "mochaExplorer.require": "ts-node/register",
+  "mochaExplorer.files": "test/**/*.test.ts",
+  "mochaExplorer.env": { "NODE_ENV": "test" }
+}
