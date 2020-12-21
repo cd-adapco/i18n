@@ -28,14 +28,44 @@ ASCIIFileManipulator.2c25731d8d77.additionalText=
 # ASCIIFileManipulator.2c3067398d84.additionalText=
 ASCIIFileManipulator.2c3067398d84.additionalText=
 
+# ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NX_LINUX_PATH$\n\n
+ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NX_LINUX_PATH$\n\n
+
+# ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NX_LINUX_PATH$
+
+# ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NX_LINUX_PATH$
+ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NX_LINUX_PATH$
+
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
 
 # ASCIIFileManipulator.49b821459c81.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
 
-# ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$
-ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$
+# ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
+ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
@@ -57,18 +87,6 @@ ChooseFile.257d8095925b.prompt=라이선스 파일을 선택하십시오.
 
 # ChooseFile.257d8095925b.stepTitle=Select license file
 ChooseFile.257d8095925b.stepTitle=라이선스 파일 선택
-
-# ChooseFile.8571f4d08c44.additionalText=The database file is used by the _RT_JOB_MANAGER_'s administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-ChooseFile.8571f4d08c44.additionalText=데이터베이스 파일은 _RT_JOB_MANAGER_ 관리자가 시스템 템플릿 및 사용자 인증 데이터 (필요한 경우)와 같은 데이터를 저장하는 데 사용됩니다.\n\n생성하고자 하는 데이터베이스 파일의 이름을 입력하십시오.\n\n
-
-# ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
-ChooseFile.8571f4d08c44.defaultFile=$DEFAULT_PATH$$DEFAULT_DB_FILE$
-
-# ChooseFile.8571f4d08c44.prompt=Please enter the name of the database file
-ChooseFile.8571f4d08c44.prompt=데이터베이스 파일의 이름을 입력하십시오.
-
-# ChooseFile.8571f4d08c44.stepTitle=Create database file
-ChooseFile.8571f4d08c44.stepTitle=데이터베이스 파일 생성
 
 # ChooseFile.a174655a93b6.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file you may not be able to proceed with this installation.
 ChooseFile.a174655a93b6.additionalText=이메일을 통해 _COMPANY_NAME_ _BUSINESS_UNIT_으로부터 제공 받은 라이선스 파일을 선택하십시오. 아직 라이선스 파일을 받지 않은 경우 이 설치를 진행하지 못할 수도 있습니다.
@@ -99,24 +117,6 @@ CreateDialog.757df82f97fd.prompt=Product Excellence Program은 고객이 _COMPAN
 
 # CreateDialog.757df82f97fd.title=Product Excellence Program
 CreateDialog.757df82f97fd.title=Product Excellence Program
-
-# CreateShortcut.11a5907ba82e.args=
-CreateShortcut.11a5907ba82e.args=
-
-# CreateShortcut.11a5907ba82e.destinationName=HEEDSPost
-CreateShortcut.11a5907ba82e.destinationName=HEEDSPost
-
-# CreateShortcut.11a5907ba82e.workingDir=
-CreateShortcut.11a5907ba82e.workingDir=
-
-# CreateShortcut.11aa3723ab82.args=
-CreateShortcut.11aa3723ab82.args=
-
-# CreateShortcut.11aa3723ab82.destinationName=HEEDSPost
-CreateShortcut.11aa3723ab82.destinationName=HEEDSPost
-
-# CreateShortcut.11aa3723ab82.workingDir=
-CreateShortcut.11aa3723ab82.workingDir=
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -333,24 +333,6 @@ CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP
 
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
-
-# CreateShortcut.9ed4b3f18a8a.args=
-CreateShortcut.9ed4b3f18a8a.args=
-
-# CreateShortcut.9ed4b3f18a8a.destinationName=HEEDSPost
-CreateShortcut.9ed4b3f18a8a.destinationName=HEEDSPost
-
-# CreateShortcut.9ed4b3f18a8a.workingDir=
-CreateShortcut.9ed4b3f18a8a.workingDir=
-
-# CreateShortcut.9ed4fc328a8a.args=
-CreateShortcut.9ed4fc328a8a.args=
-
-# CreateShortcut.9ed4fc328a8a.destinationName=HEEDSPost
-CreateShortcut.9ed4fc328a8a.destinationName=HEEDSPost
-
-# CreateShortcut.9ed4fc328a8a.workingDir=
-CreateShortcut.9ed4fc328a8a.workingDir=
 
 # CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
 CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
@@ -625,18 +607,6 @@ EditEnvironment.bbd4dea2b41c.value=$USER_INSTALL_DIR$/star/bin
 # EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 
-# EditEnvironment.ce9ee3349815.value=disable
-EditEnvironment.ce9ee3349815.value=disable
-
-# EditEnvironment.cea2c2479b24.value=disable
-EditEnvironment.cea2c2479b24.value=disable
-
-# EditEnvironment.cea5a8079ece.value=disable
-EditEnvironment.cea5a8079ece.value=disable
-
-# EditEnvironment.cea5a8079ed2.value=disable
-EditEnvironment.cea5a8079ed2.value=disable
-
 # EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
 EntryAtomBiDi.757df83097fd.label=Product Excellence Program에 참여
 
@@ -664,8 +634,8 @@ Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.30fdba8e94e9.title=attrib +R
 Exec.30fdba8e94e9.title=attrib + R
 
-# Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh
-Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh
+# Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
+Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
 
 # Exec.3cae6520be5f.title=File permissions
 Exec.3cae6520be5f.title=파일 권한
@@ -684,12 +654,6 @@ Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 
 # Exec.b8b20e8da4fb.title=attrib +R
 Exec.b8b20e8da4fb.title=attrib + R
-
-# Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.db620149adce.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B26$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.db620149adce.title=attrib +R
-Exec.db620149adce.title=attrib + R
 
 # Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
 Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
@@ -823,6 +787,9 @@ ExecuteScript.29fb7235a3f7.title=_COMPANY_NAME_ Windows 서비스 제거
 # ExecuteScript.32453f939fe1.title=extract English documentation
 ExecuteScript.32453f939fe1.title=영어 문서 추출
 
+# ExecuteScript.3296cfc8aacc.title=extract _CADC_STAR_NX_lin64
+ExecuteScript.3296cfc8aacc.title=_CADC_STAR_NX_lin64 추출
+
 # ExecuteScript.32a2382db2c9.title=extract Japanese documentation
 ExecuteScript.32a2382db2c9.title=일본어 문서 추출
 
@@ -846,9 +813,6 @@ ExecuteScript.363e4de0bf0d.title=cdlmd 버전 실행 확인
 
 # ExecuteScript.3644b3a0bf2b.title=Get lmhostid (ethernet)
 ExecuteScript.3644b3a0bf2b.title=Lmhostid (이더넷) 가져오기
-
-# ExecuteScript.36abef4db1a0.title=Tidy integration desktop refresh
-ExecuteScript.36abef4db1a0.title=깔끔한 통합 데스크톱 새로고침
 
 # ExecuteScript.36cac8278b76.title=delete protk.dat
 ExecuteScript.36cac8278b76.title=protek.dat 삭제
@@ -907,14 +871,8 @@ ExecuteScript.4834719b95fe.title=_CADC_STAR_INVENTOR_-ALL 추출
 # ExecuteScript.483683ac9bbb.title=extract _CADC_STAR_CREO_-4
 ExecuteScript.483683ac9bbb.title=_CADC_STAR_CREO_-4 추출
 
-# ExecuteScript.4838b698a18e.title=extract _CADC_STAR_NX_-11
-ExecuteScript.4838b698a18e.title=_CADC_STAR_NX_-11 추출
-
 # ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
 ExecuteScript.4838bdf3a1ec.title=_CADC_STAR_NX_-12 추출
-
-# ExecuteScript.483c1cd3ae50.title=extract _CADC_STAR_CAT5_-26
-ExecuteScript.483c1cd3ae50.title=_CADC_STAR_CAT5_-26 추출
 
 # ExecuteScript.483c25ecaeaf.title=extract _CADC_STAR_CAT5_-27
 ExecuteScript.483c25ecaeaf.title=_CADC_STAR_CAT5_-27 추출
@@ -924,6 +882,12 @@ ExecuteScript.483c2db7af11.title=_CADC_STAR_CAT5_-28 추출
 
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=_CADC_STAR_CAT5_-29 추출
+
+# ExecuteScript.4913c7cb974f.title=Tidy Flexlm
+ExecuteScript.4913c7cb974f.title=깔끔한 Flexlm
+
+# ExecuteScript.4913c7cd974d.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
+ExecuteScript.4913c7cd974d.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 폴더 정리
 
 # ExecuteScript.49b821379c52.title=create .flexlmrc
 ExecuteScript.49b821379c52.title=.flexlmrc 생성
@@ -991,17 +955,20 @@ ExecuteScript.4b9dca01b264.title=로컬 사용자 시작 메뉴 64 bit _SOFTWARE
 # ExecuteScript.4b9dca01b265.title=Delete Local User Start Menu sample.sce Shortcut
 ExecuteScript.4b9dca01b265.title=로컬 사용자 시작 메뉴 샘플 .sce 바로가기 삭제
 
-# ExecuteScript.5388b2febaa3.title=Tidy integration remove 7z
-ExecuteScript.5388b2febaa3.title=깔끔한 통합 제거 7z
-
 # ExecuteScript.56f97e549453.title=Configure _COMPANY_NAME_ UGS Linux
 ExecuteScript.56f97e549453.title=_COMPANY_NAME_ UGS Linux 구성
 
-# ExecuteScript.5aac78558549.title=Tidy Flexlm
-ExecuteScript.5aac78558549.title=깔끔한 Flexlm
-
 # ExecuteScript.5f5a0ee5a428.title=ADD/REMOVE Product Name
 ExecuteScript.5f5a0ee5a428.title=제품 이름 추가/제거
+
+# ExecuteScript.641d1e129fe6.title=get user
+ExecuteScript.641d1e129fe6.title=사용자 가져오기
+
+# ExecuteScript.641d1e139fe8.title=Check permission on the folder
+ExecuteScript.641d1e139fe8.title=폴더에 대한 권한 확인
+
+# ExecuteScript.641d1e139fea.title=get group
+ExecuteScript.641d1e139fea.title=그룹 가져오기
 
 # ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions 실행
@@ -1070,7 +1037,7 @@ ExecuteScript.946b6329bb04.title=바탕화면 새로고침
 ExecuteScript.946b87d1bb54.title=바탕화면 새로고침
 
 # ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
-ExecuteScript.9737cae9ae4d.title=\ _RT_JOB_MANAGER_ 제거
+ExecuteScript.9737cae9ae4d.title=_RT_JOB_MANAGER_ 제거
 
 # ExecuteScript.9c4626dc93c4.title=internal authentication with email server
 ExecuteScript.9c4626dc93c4.title=이메일 서버로 내부 인증
@@ -1183,9 +1150,6 @@ ExecuteScript.b9b5b08a8686.title=lm 로그 삭제
 # ExecuteScript.c5c2e0999553.title=delete config.xml
 ExecuteScript.c5c2e0999553.title=config.xml 삭제
 
-# ExecuteScript.cc881ed790de.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
-ExecuteScript.cc881ed790de.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 폴더 정리
-
 # ExecuteScript.cd954092ae6e.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
 ExecuteScript.cd954092ae6e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 등록 취소
 
@@ -1194,9 +1158,6 @@ ExecuteScript.cea5a8089ece.title=win7 + fw 업데이트
 
 # ExecuteScript.cea5a8089ecf.title=Install Intel MPI Hydra service
 ExecuteScript.cea5a8089ecf.title=인텔 MPI Hydra 서비스 설치
-
-# ExecuteScript.cee16638adee.title=Configure STAR-NX 11 for all users
-ExecuteScript.cee16638adee.title=모든 사용자를 위한 STAR-NX 11 구성
 
 # ExecuteScript.d669d3788804.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.d669d3788804.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
@@ -1216,23 +1177,11 @@ ExecuteScript.d674f57c8818.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME
 # ExecuteScript.d674f57c8818.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.d674f57c8818.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 추출
 
-# ExecuteScript.d7fac3568281.title=Tidy integration desktop refresh
-ExecuteScript.d7fac3568281.title=깔끔한 통합 데스크톱 새로고침
-
 # ExecuteScript.d8005aa48281.title=Register Platform-MPI remote launch service...
 ExecuteScript.d8005aa48281.title=플랫폼-MPI 원격 시작 서비스 등록...
 
 # ExecuteScript.d804a4248286.title=Removing PC MPI Installer
 ExecuteScript.d804a4248286.title=PC MPI 설치 제거
-
-# ExecuteScript.d867ad199736.title=Stop current license server to perform upgrade
-ExecuteScript.d867ad199736.title=현재 라이선스 서버를 중지하고 업그레이드 실시
-
-# ExecuteScript.d869c915b42e.title=Stop current license server to perform upgrade
-ExecuteScript.d869c915b42e.title=현재 라이선스 서버를 중지하고 업그레이드 실시
-
-# ExecuteScript.daff1c54b823.title=Tidy integration remove 7z
-ExecuteScript.daff1c54b823.title=깔끔한 통합 제거 7z
 
 # ExecuteScript.e13f0215879a.title=delete custom_dirs.dat
 ExecuteScript.e13f0215879a.title=custom_dirs.dat 삭제
@@ -1297,6 +1246,12 @@ GetUserInput.09531f37b189.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설�
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=추가 작업 선택
 
+# GetUserInput.0be5edeba5c1.prompt=The database file is used by the _RT_JOB_MANAGER_'s administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
+GetUserInput.0be5edeba5c1.prompt=데이터베이스 파일은 _RT_JOB_MANAGER_ 관리자가 시스템 템플릿 및 사용자 인증 데이터 (필요한 경우)와 같은 데이터를 저장하는 데 사용됩니다.\n\n생성하고자 하는 데이터베이스 파일의 이름을 입력하십시오.\n\n
+
+# GetUserInput.0be5edeba5c1.title=Create database file
+GetUserInput.0be5edeba5c1.title=데이터베이스 파일 생성
+
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
 GetUserInput.115461c2a278.prompt=라이선스 서버 소프트웨어에 액세스하려면 통신 채널 또는 포트를 컴퓨터에서 사용할 수 있어야 합니다. FLEXNet 라이선스 서버의 기본 포트 번호는 1999입니다. 이러한 기본값은 아래에 나열되어 있지만 필요한 경우 컴퓨터 설정을 반영하기 위해 다른 포트 번호로 변경할 수 있습니다.
 
@@ -1326,6 +1281,12 @@ GetUserInput.222d858a9bf8.prompt=_COMPANY_NAME_ PLM License Server를 지금 제
 
 # GetUserInput.222d858a9bf8.title=Uninstall _COMPANY_NAME_ PLM License Server
 GetUserInput.222d858a9bf8.title=_COMPANY_NAME_ PLM License Server 제거
+
+# GetUserInput.329ad497800a.prompt=Choose the location and version of the NX installation
+GetUserInput.329ad497800a.prompt=NX 설치 위치 및 버전 선택
+
+# GetUserInput.329ad497800a.title=Select Installation Location for NX
+GetUserInput.329ad497800a.title=NX 설치 위치 선택
 
 # GetUserInput.34e509d0ae8b.prompt=Choose the \"Local path\" where you would like to install $INSTALLER_TITLE$\n
 GetUserInput.34e509d0ae8b.prompt=$INSTALLER_TITLE$을(를) 설치하고자 하는 \"로컬 경로\"를 선택합니다.\n
@@ -1421,7 +1382,7 @@ GetUserInput.8fe4e9e8b4a1.title=관리 사용자 이름
 GetUserInput.9737389d8c0f.prompt=_RT_JOB_MANAGER_를 제거하시겠습니까? 모든 구성 설정이 포함된 데이터베이스 파일이 삭제되며, 삭제시 복구가 불가합니다.
 
 # GetUserInput.9737389d8c0f.title=Uninstall _RT_JOB_MANAGER_
-GetUserInput.9737389d8c0f.title=\ _RT_JOB_MANAGER_ 제거
+GetUserInput.9737389d8c0f.title=_RT_JOB_MANAGER_ 제거
 
 # GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
 GetUserInput.9c427d388ef4.prompt=알림 및 암호 재설정 메시지 발송에 사용되는 발신 이메일 설정을 구성하십시오.\n\n\n
@@ -1543,6 +1504,12 @@ GUIComponentData.09531f47b18f.defaultValue=Not Selected
 # GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
 GUIComponentData.09531f47b18f.label=현재 사용자용 바로가기 만들기
 
+# GUIComponentData.0be5edeca5c5.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
+GUIComponentData.0be5edeca5c5.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
+
+# GUIComponentData.0be5edeca5c5.label=Database file
+GUIComponentData.0be5edeca5c5.label=데이터베이스 파일
+
 # GUIComponentData.115643e1a39b.defaultValue=
 GUIComponentData.115643e1a39b.defaultValue=
 
@@ -1621,6 +1588,90 @@ GUIComponentData.314a9fd58722.defaultValue=8086
 # GUIComponentData.314a9fd58722.label=Application Server (Web Monitor) Port Number
 GUIComponentData.314a9fd58722.label=응용 프로그램 서버(웹 모니터) 포트 번호
 
+# GUIComponentData.329ad497800d.defaultValue=
+GUIComponentData.329ad497800d.defaultValue=
+
+# GUIComponentData.329ad497800d.label=Install Path
+GUIComponentData.329ad497800d.label=설치 경로
+
+# GUIComponentData.33f07db4ba18.defaultValue=Not Selected
+GUIComponentData.33f07db4ba18.defaultValue=Not Selected
+
+# GUIComponentData.33f07db4ba18.label=NX 12
+GUIComponentData.33f07db4ba18.label=NX 12
+
+# GUIComponentData.33f07db4ba19.defaultValue=Not Selected
+GUIComponentData.33f07db4ba19.defaultValue=Not Selected
+
+# GUIComponentData.33f07db4ba19.label=NX 1872 series
+GUIComponentData.33f07db4ba19.label=NX 1872 시리즈
+
+# GUIComponentData.33f07db4ba1a.defaultValue=Not Selected
+GUIComponentData.33f07db4ba1a.defaultValue=Not Selected
+
+# GUIComponentData.33f07db4ba1a.label=NX 1926 series
+GUIComponentData.33f07db4ba1a.label=NX 1926 시리즈
+
+# GUIComponentData.33f07db5ba19.defaultValue=Not Selected
+GUIComponentData.33f07db5ba19.defaultValue=Not Selected
+
+# GUIComponentData.33f07db5ba19.label=NX 1899 series
+GUIComponentData.33f07db5ba19.label=NX 1899 시리즈
+
+# GUIComponentData.33f07db6ba18.defaultValue=Not Selected
+GUIComponentData.33f07db6ba18.defaultValue=Not Selected
+
+# GUIComponentData.33f07db6ba18.label=NX 1847 series
+GUIComponentData.33f07db6ba18.label=NX 1847 시리즈
+
+# GUIComponentData.33f1860fba1a.defaultValue=Not Selected
+GUIComponentData.33f1860fba1a.defaultValue=Not Selected
+
+# GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
+GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
+
+# GUIComponentData.33f1860fba1b.defaultValue=Not Selected
+GUIComponentData.33f1860fba1b.defaultValue=Not Selected
+
+# GUIComponentData.33f1860fba1b.label=Simcenter 3D 2019.2
+GUIComponentData.33f1860fba1b.label=Simcenter 3D 2019.2
+
+# GUIComponentData.33f1860fba1c.defaultValue=Not Selected
+GUIComponentData.33f1860fba1c.defaultValue=Not Selected
+
+# GUIComponentData.33f1860fba1c.label=Simcenter 3D 2020.2
+GUIComponentData.33f1860fba1c.label=Simcenter 3D 2020.2
+
+# GUIComponentData.33f18610ba1b.defaultValue=Not Selected
+GUIComponentData.33f18610ba1b.defaultValue=Not Selected
+
+# GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
+GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
+
+# GUIComponentData.33f18611ba1a.defaultValue=Not Selected
+GUIComponentData.33f18611ba1a.defaultValue=Not Selected
+
+# GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
+GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
+
+# GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
+GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
+
+# GUIComponentData.3435bd21b9e3.label=
+GUIComponentData.3435bd21b9e3.label=
+
+# GUIComponentData.3436e63db9ea.defaultValue=Not Selected
+GUIComponentData.3436e63db9ea.defaultValue=Not Selected
+
+# GUIComponentData.3436e63db9ea.label=Simcenter 3D
+GUIComponentData.3436e63db9ea.label=Simcenter 3D
+
+# GUIComponentData.3436f834b9ea.defaultValue=Not Selected
+GUIComponentData.3436f834b9ea.defaultValue=Not Selected
+
+# GUIComponentData.3436f834b9ea.label=
+GUIComponentData.3436f834b9ea.label=
+
 # GUIComponentData.34e509d0ae8d.defaultValue=Selected
 GUIComponentData.34e509d0ae8d.defaultValue=Selected
 
@@ -1656,6 +1707,12 @@ GUIComponentData.3642fdbebcec.defaultValue=
 
 # GUIComponentData.3642fdbebcec.label=License server 3
 GUIComponentData.3642fdbebcec.label=라이선스 서버 3
+
+# GUIComponentData.370139f38657.defaultValue=Not Selected
+GUIComponentData.370139f38657.defaultValue=Not Selected
+
+# GUIComponentData.370139f38657.label=NX
+GUIComponentData.370139f38657.label=NX
 
 # GUIComponentData.3cd99868ae8b.defaultValue=Selected
 GUIComponentData.3cd99868ae8b.defaultValue=Selected
@@ -2029,6 +2086,12 @@ GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
 # GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
 GUIComponentData.fbd51d66bcc5.label=데스크탑 아이콘 생성
 
+# GUIComponentData.fbd9ca67be5d.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
+GUIComponentData.fbd9ca67be5d.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
+
+# GUIComponentData.fbd9ca67be5d.label=Database file
+GUIComponentData.fbd9ca67be5d.label=데이터베이스 파일
+
 # GUIGroupData.0253755cac41.caption=
 GUIGroupData.0253755cac41.caption=
 
@@ -2041,8 +2104,8 @@ GUIGroupData.07fbb89ebccf.caption=
 # GUIGroupData.09531f37b18d.caption=
 GUIGroupData.09531f37b18d.caption=
 
-# GUIGroupData.0ac91ffebe27.caption=
-GUIGroupData.0ac91ffebe27.caption=
+# GUIGroupData.0be5ededa5c4.caption=
+GUIGroupData.0be5ededa5c4.caption=
 
 # GUIGroupData.115643e0a39b.caption=
 GUIGroupData.115643e0a39b.caption=
@@ -2407,8 +2470,8 @@ InstallerInfoData.850018f28450.productURL=
 # InstallerInfoData.850018f28450.supportURL=
 InstallerInfoData.850018f28450.supportURL=
 
-# InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
-InstallerInfoData.850018f28450.vendorName=$COMPANY_NAME$
+# InstallerInfoData.850018f28450.vendorName=_COMPANY_NAME_
+InstallerInfoData.850018f28450.vendorName=_COMPANY_NAME_
 
 # InstallerInfoData.850018f28450.vendorURL=
 InstallerInfoData.850018f28450.vendorURL=
@@ -2984,7 +3047,7 @@ ShowDialogAction.00ba7f0290e5.detailsButtonLabel=세부 정보...
 ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ 설치가 발견되지 않음
 
 # ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where _RT_JOB_MANAGER_ is installed.
-ShowDialogAction.00ba7f0290e5.narrative=\ _RT_JOB_MANAGER_가 설치된 위치를 다시 선택하십시오.
+ShowDialogAction.00ba7f0290e5.narrative=_RT_JOB_MANAGER_가 설치된 위치를 다시 선택하십시오.
 
 # ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation Not Found
 ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ 설치가 발견되지 않음
@@ -3331,6 +3394,24 @@ ShowDialogAction.114a717da032.narrative=라이선스 서버를 구성하려면 �
 # ShowDialogAction.114a717da032.title=Error
 ShowDialogAction.114a717da032.title=오류
 
+# ShowDialogAction.120f9d519e49.buttonLabel=OK
+ShowDialogAction.120f9d519e49.buttonLabel=확인
+
+# ShowDialogAction.120f9d519e49.cancelButtonLabel=
+ShowDialogAction.120f9d519e49.cancelButtonLabel=
+
+# ShowDialogAction.120f9d519e49.detailsButtonLabel=Details...
+ShowDialogAction.120f9d519e49.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.120f9d519e49.label=No Local path access, please provide a location to install the $INSTALLER_TITLE$.
+ShowDialogAction.120f9d519e49.label=로컬 경로 액세스 권한이 없습니다. $INSTALLER_TITLE$을(를) 설치할 위치를 지정하십시오.
+
+# ShowDialogAction.120f9d519e49.narrative=
+ShowDialogAction.120f9d519e49.narrative=
+
+# ShowDialogAction.120f9d519e49.title=Local path access
+ShowDialogAction.120f9d519e49.title=로컬 경로 액세스
+
 # ShowDialogAction.160d0e4ab6a5.buttonLabel=Yes
 ShowDialogAction.160d0e4ab6a5.buttonLabel=예
 
@@ -3358,8 +3439,8 @@ ShowDialogAction.1ed27f78a4b5.cancelButtonLabel=
 # ShowDialogAction.1ed27f78a4b5.detailsButtonLabel=Details...
 ShowDialogAction.1ed27f78a4b5.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.1ed27f78a4b5.label=The Local path cannot be empty, please provide a location to install the $INSTALLER_TITLE$
-ShowDialogAction.1ed27f78a4b5.label=로컬 경로는 비워 둘 수 없습니다. 위치를 제공하여 $INSTALLER_TITLE$을(를) 설치하십시오.
+# ShowDialogAction.1ed27f78a4b5.label=The Local path cannot be empty, please provide a location to install the $INSTALLER_TITLE$.
+ShowDialogAction.1ed27f78a4b5.label=로컬 경로는 비워 둘 수 없습니다. $INSTALLER_TITLE$을(를) 설치할 위치를 지정하십시오.
 
 # ShowDialogAction.1ed27f78a4b5.narrative=
 ShowDialogAction.1ed27f78a4b5.narrative=
@@ -3456,6 +3537,42 @@ ShowDialogAction.3185b5bf9239.narrative=올바른 응용 프로그램 서버(웹
 
 # ShowDialogAction.3185b5bf9239.title=Warning
 ShowDialogAction.3185b5bf9239.title=경고
+
+# ShowDialogAction.370240c28665.buttonLabel=OK
+ShowDialogAction.370240c28665.buttonLabel=확인
+
+# ShowDialogAction.370240c28665.cancelButtonLabel=No
+ShowDialogAction.370240c28665.cancelButtonLabel=아니요
+
+# ShowDialogAction.370240c28665.detailsButtonLabel=Details...
+ShowDialogAction.370240c28665.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.370240c28665.label=No Selection made
+ShowDialogAction.370240c28665.label=선택한 항목이 없음
+
+# ShowDialogAction.370240c28665.narrative=Please select the version of either NX or Simcenter 3D
+ShowDialogAction.370240c28665.narrative=NX 또는 Simcenter 3D 버전 중 하나를 선택하십시오.
+
+# ShowDialogAction.370240c28665.title=Warning
+ShowDialogAction.370240c28665.title=경고
+
+# ShowDialogAction.37048c4b8667.buttonLabel=OK
+ShowDialogAction.37048c4b8667.buttonLabel=확인
+
+# ShowDialogAction.37048c4b8667.cancelButtonLabel=Cancel
+ShowDialogAction.37048c4b8667.cancelButtonLabel=취소
+
+# ShowDialogAction.37048c4b8667.detailsButtonLabel=Details...
+ShowDialogAction.37048c4b8667.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.37048c4b8667.label=Install Path cannot be empty.
+ShowDialogAction.37048c4b8667.label=설치 경로는 비워 둘 수 없습니다.
+
+# ShowDialogAction.37048c4b8667.narrative=Please enter a valid install Path to proceed.
+ShowDialogAction.37048c4b8667.narrative=계속 진행하려면 유효한 설치 경로를 입력하십시오.
+
+# ShowDialogAction.37048c4b8667.title=Warning
+ShowDialogAction.37048c4b8667.title=경고
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
 ShowDialogAction.386900b8be43.buttonLabel=확인
@@ -3564,6 +3681,42 @@ ShowDialogAction.5f17661a83c5.narrative=솔버 컴포넌트 (_SOFTWARE_FAMILY_NA
 
 # ShowDialogAction.5f17661a83c5.title=Warning
 ShowDialogAction.5f17661a83c5.title=경고
+
+# ShowDialogAction.641d1e129fec.buttonLabel=OK
+ShowDialogAction.641d1e129fec.buttonLabel=확인
+
+# ShowDialogAction.641d1e129fec.cancelButtonLabel=Cancel
+ShowDialogAction.641d1e129fec.cancelButtonLabel=취소
+
+# ShowDialogAction.641d1e129fec.detailsButtonLabel=Details...
+ShowDialogAction.641d1e129fec.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.641d1e129fec.label=No Administrative Privileges
+ShowDialogAction.641d1e129fec.label=관리 권한 없음
+
+# ShowDialogAction.641d1e129fec.narrative=Uninstallation cannot be performed under non-administrative accounts. Please run the uninstaller with administrator privileges.
+ShowDialogAction.641d1e129fec.narrative=관리자가 아닌 계정에서는 제거를 수행할 수 없습니다. 관리자 권한으로 제거 프로그램을 실행해 주십시오.
+
+# ShowDialogAction.641d1e129fec.title=No Administrative Privileges
+ShowDialogAction.641d1e129fec.title=관리 권한 없음
+
+# ShowDialogAction.641d1e129fee.buttonLabel=OK
+ShowDialogAction.641d1e129fee.buttonLabel=확인
+
+# ShowDialogAction.641d1e129fee.cancelButtonLabel=Cancel
+ShowDialogAction.641d1e129fee.cancelButtonLabel=취소
+
+# ShowDialogAction.641d1e129fee.detailsButtonLabel=Details...
+ShowDialogAction.641d1e129fee.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.641d1e129fee.label=Insufficient privileges
+ShowDialogAction.641d1e129fee.label=불충분한 권한
+
+# ShowDialogAction.641d1e129fee.narrative=Uninstallation cannot be performed under this account. Please run the uninstaller with $USER_NAME$.
+ShowDialogAction.641d1e129fee.narrative=이 계정에서는 제거를 수행할 수 없습니다. $USER_NAME$(으)로 제거 프로그램을 실행하십시오.
+
+# ShowDialogAction.641d1e129fee.title=Insufficient privileges
+ShowDialogAction.641d1e129fee.title=불충분한 권한
 
 # ShowDialogAction.653ab69e9640.buttonLabel=Next
 ShowDialogAction.653ab69e9640.buttonLabel=다음
@@ -4078,8 +4231,8 @@ ShowDialogAction.b893f166969d.cancelButtonLabel=취소
 # ShowDialogAction.b893f166969d.detailsButtonLabel=Details...
 ShowDialogAction.b893f166969d.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.b893f166969d.label=The name of database file cannot be empty.
-ShowDialogAction.b893f166969d.label=데이터베이스 파일 이름은 필수 입력 항목입니다.
+# ShowDialogAction.b893f166969d.label=No access to path.
+ShowDialogAction.b893f166969d.label=경로에 대한 액세스 권한이 없습니다.
 
 # ShowDialogAction.b893f166969d.narrative=Please enter the name of the database file you wish to create with a valid path to proceed. 
 ShowDialogAction.b893f166969d.narrative=계속하려면 올바른 경로를 사용해 생성하고자 하는 데이터베이스 파일 이름을 입력하십시오. 
@@ -4100,7 +4253,7 @@ ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=세부 정보...
 ShowDialogAction.c21a9a0faaeb.label=경고
 
 # ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
-ShowDialogAction.c21a9a0faaeb.narrative=\ _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_를 구성하기 위해 UGII_CUSTOM_DIRECTORY_FILE 환경 변수가 업데이트됩니다. \n￼\n￼환경 변수가 현재 다음으로 설정돼 있습니다:\n￼￼$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n￼\n￼UGII_CUSTOM_DIRECTORY_FILE 환경 변수를 위에 표시된 값으로 다시 변경해 이전 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 버전을 가져올 수 있습니다.
+ShowDialogAction.c21a9a0faaeb.narrative=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_를 구성하기 위해 UGII_CUSTOM_DIRECTORY_FILE 환경 변수가 업데이트됩니다. \n￼\n￼환경 변수가 현재 다음으로 설정돼 있습니다:\n￼￼$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n￼\n￼UGII_CUSTOM_DIRECTORY_FILE 환경 변수를 위에 표시된 값으로 다시 변경해 이전 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 버전을 가져올 수 있습니다.
 
 # ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ configuration
 ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 구성
@@ -4264,8 +4417,8 @@ ShowDialogAction.fc266f0ba2cc.label=관리 권한 없음
 # ShowDialogAction.fc266f0ba2cc.narrative=Uninstallation cannot be performed under non-administrative accounts. Please run the uninstaller with administrator privileges.
 ShowDialogAction.fc266f0ba2cc.narrative=관리자가 아닌 계정에서는 제거를 수행할 수 없습니다. 관리자 권한으로 제거 프로그램을 실행해 주십시오.
 
-# ShowDialogAction.fc266f0ba2cc.title=Error
-ShowDialogAction.fc266f0ba2cc.title=오류
+# ShowDialogAction.fc266f0ba2cc.title=No Administrative Privileges
+ShowDialogAction.fc266f0ba2cc.title=관리 권한 없음
 
 # ShowDialogAction.fe8397b0ac84.buttonLabel=Yes
 ShowDialogAction.fe8397b0ac84.buttonLabel=예
