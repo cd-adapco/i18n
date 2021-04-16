@@ -27,6 +27,10 @@
     "updateViewObjectRendererFailedMsg" : "Update viewObject renderer failed, {0}",
     "resetCameraFailedMsg": "Reset camera failed, {0}",
     "mouseEventFailedMsg": "Mouse event failed, {0}",
-    "stopSimulationFailedMsg": "Stop Simulation failed, {0}"
-
+    "stopSimulationFailedMsg": "Stop Simulation failed, {0}",
+    "monitorExpiredMessage": "You're seeing this message because a monitor view is ending.\nYou can reload the monitor view or close this Job Manager window at any time.",
+    "monitorExpiredSaveAndStopMessage": "You're seeing this message because a simulation has stopped and is currently being saved.\nPlease be patient. It will take a while to save this simulation.\nYou can close this Job Manager window at any time.",
+    "reloadMonitorPage": "Reload Monitor",
+    "previousPageName": "Jobs",
+    "timeString": "{0} minutes and {1} seconds"
 }

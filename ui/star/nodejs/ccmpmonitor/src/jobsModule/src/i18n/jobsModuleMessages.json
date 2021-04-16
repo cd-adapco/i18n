@@ -24,5 +24,10 @@
     "TERMINATING": "Terminating",
     "TERMINATED": "Terminated",
     "START_FAILED": "Start Failed",
-    "INTERRUPTED": "Interrupted"
+    "INTERRUPTED": "Interrupted",
+    "viewLogMessage": "View log for {0}",
+    "terminateJobMessage": "Terminate {0}",
+    "simJobMessage": "{0} (Simulation)",
+    "dmJobMessage": "{0} (Design Manager Project)",
+    "monitorJobMessage": "Monitor "
 }
