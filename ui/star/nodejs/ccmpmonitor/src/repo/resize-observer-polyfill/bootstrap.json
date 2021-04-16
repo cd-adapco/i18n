@@ -1,7 +1,0 @@
-{
-    "config": {
-        "paths": {
-            "resize-observer-polyfill": "lib/resize-observer-polyfill/ResizeObserver"
-        }
-    }
-}

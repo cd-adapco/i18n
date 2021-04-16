@@ -1,7 +1,0 @@
-{
-    "config": {
-        "paths": {
-            "base64url": "lib/base64url"
-        }
-    }
-}

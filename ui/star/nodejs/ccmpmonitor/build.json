@@ -1,6 +1,0 @@
-{
-    "srcPaths": [
-        "node_modules/afx/@(repo|src|test)",
-        "src"
-    ]
-}

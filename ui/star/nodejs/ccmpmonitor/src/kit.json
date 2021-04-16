@@ -1,9 +1,0 @@
-{
-    "name": "ccmClientKit",
-    "level": 5,
-    "modules": [
-        "resize-observer-polyfill",
-        "idtoken-verifier",
-        "crypto-browserify"
-    ]
-}

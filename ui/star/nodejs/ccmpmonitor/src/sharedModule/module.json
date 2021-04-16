@@ -1,5 +1,0 @@
-{
-    "name": "sharedModule",
-    "description": "This contains common items (Components, javascripts, i18n messages etc.) which can be used by other modules",
-    "skipTest": true
-}

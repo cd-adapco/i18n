@@ -1,7 +1,0 @@
-{
-    "config": {
-        "paths": {
-            "idtoken-verifier": "lib/idtoken-verifier/idtoken-verifier.js"
-        }
-    }
-}

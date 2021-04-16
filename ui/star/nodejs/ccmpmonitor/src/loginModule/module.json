@@ -1,5 +1,0 @@
-{
-    "name": "loginModule",
-    "description": "This module handles the user authentication",
-    "skipTest": true
-}
