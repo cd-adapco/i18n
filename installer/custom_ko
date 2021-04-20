@@ -22,41 +22,47 @@
 # Generated:    Wed Jul 11 13:45:45 EDT 2018
 
 
+# ASCIIFileManipulator.1b51474e9542.additionalText=InstallDirectoryNX1953Series=$NXPATH$
+ASCIIFileManipulator.1b51474e9542.additionalText=InstallDirectoryNX1953Series=$NXPATH$
+
+# ASCIIFileManipulator.1b7cde5a981c.additionalText=InstallDirectorySC3D2021.1Series=$NXPATH$
+ASCIIFileManipulator.1b7cde5a981c.additionalText=InstallDirectorySC3D2021.1Series=$NXPATH$
+
 # ASCIIFileManipulator.2c25731d8d77.additionalText=
 ASCIIFileManipulator.2c25731d8d77.additionalText=
 
 # ASCIIFileManipulator.2c3067398d84.additionalText=
 ASCIIFileManipulator.2c3067398d84.additionalText=
 
-# ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NX_LINUX_PATH$\n\n
-ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NX_LINUX_PATH$\n\n
+# ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
+ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
 
-# ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
+ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
 
-# ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
+ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
 
-# ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
+ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
 
-# ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
+ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
 
-# ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NXPATH$
+ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NXPATH$
 
-# ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NXPATH$
+ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NXPATH$
 
-# ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NXPATH$
+ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NXPATH$
 
-# ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NXPATH$
+ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NXPATH$
 
-# ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NX_LINUX_PATH$
-ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NX_LINUX_PATH$
+# ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
+ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
@@ -679,9 +685,6 @@ ExecuteScript.0488ae86a57c.title=Linux에서 파일 권한 변경
 # ExecuteScript.0489de5aa5bd.title=Changing permission of files in Windows
 ExecuteScript.0489de5aa5bd.title=Windows에서 파일 권한 변경
 
-# ExecuteScript.09082b168cd8.title=Unregistering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_
-ExecuteScript.09082b168cd8.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 등록 취소
-
 # ExecuteScript.0be7f1eca3d1.title=Checking server 1 cdlmd version
 ExecuteScript.0be7f1eca3d1.title=서버 1 cdlmd 버전 확인
 
@@ -754,9 +757,6 @@ ExecuteScript.0be7f1f0a3f7.title=ccmplite에 대한 서버 2 확인
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=ccmplite에 대한 서버 3 확인
 
-# ExecuteScript.0fae5f3192b2.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
-ExecuteScript.0fae5f3192b2.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 폴더 정리
-
 # ExecuteScript.14b03569831d.title=Register Platform-MPI remote launch service...
 ExecuteScript.14b03569831d.title=플랫폼-MPI 원격 시작 서비스 등록 ...
 
@@ -774,12 +774,6 @@ ExecuteScript.1d6403f68b3f.title=win7 + fw 업데이트
 
 # ExecuteScript.1d9439d39990.title=delete share 
 ExecuteScript.1d9439d39990.title=공유 삭제 
-
-# ExecuteScript.248c4c3ca4a3.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ folder
-ExecuteScript.248c4c3ca4a3.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 폴더 정리
-
-# ExecuteScript.2491afcba765.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ folder
-ExecuteScript.2491afcba765.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 폴더 정리
 
 # ExecuteScript.29fb7235a3f7.title=Remove _COMPANY_NAME_ windows-service
 ExecuteScript.29fb7235a3f7.title=_COMPANY_NAME_ Windows 서비스 제거
@@ -853,17 +847,8 @@ ExecuteScript.3a1c9ff4becd.title=업그레이드 실패로 기존 라이선스 �
 # ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 ExecuteScript.3b6e9ae9bdfb.title=Windows lmadmin 실행 확인
 
-# ExecuteScript.3dac852cae9c.title=Uninstall Java JDK
-ExecuteScript.3dac852cae9c.title=Java JDK 제거
-
 # ExecuteScript.3fc1bbc9835b.title=extract _CADC_STAR_NX_1872
 ExecuteScript.3fc1bbc9835b.title=_CADC_STAR_NX_1872 추출
-
-# ExecuteScript.41fcc8debe2f.title=Uninstall Java JDK
-ExecuteScript.41fcc8debe2f.title=Java JDK 제거
-
-# ExecuteScript.420284278cb9.title=Uninstall Flexlm-linux
-ExecuteScript.420284278cb9.title=Flexlm-linux 제거
 
 # ExecuteScript.4834719b95fe.title=extract _CADC_STAR_INVENTOR_-ALL
 ExecuteScript.4834719b95fe.title=_CADC_STAR_INVENTOR_-ALL 추출
@@ -882,12 +867,6 @@ ExecuteScript.483c2db7af11.title=_CADC_STAR_CAT5_-28 추출
 
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=_CADC_STAR_CAT5_-29 추출
-
-# ExecuteScript.4913c7cb974f.title=Tidy Flexlm
-ExecuteScript.4913c7cb974f.title=깔끔한 Flexlm
-
-# ExecuteScript.4913c7cd974d.title=Tidy empty _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc folders
-ExecuteScript.4913c7cd974d.title=빈 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ doc 폴더 정리
 
 # ExecuteScript.49b821379c52.title=create .flexlmrc
 ExecuteScript.49b821379c52.title=.flexlmrc 생성
@@ -976,9 +955,6 @@ ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions �
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=현재 라이선스 서버를 제거해 업그레이드 실시
 
-# ExecuteScript.6c6dd8e28506.title=Uninstall Flexlm-windows
-ExecuteScript.6c6dd8e28506.title=Flexlm-windows 제거
-
 # ExecuteScript.6d1b9101b4b5.title=Update win7+ fw
 ExecuteScript.6d1b9101b4b5.title=win7 + fw 업데이트
 
@@ -1024,9 +1000,6 @@ ExecuteScript.854f8a30b6da.title=업그레이드
 # ExecuteScript.8572fc4196af.title=get hostname
 ExecuteScript.8572fc4196af.title=호스트네임 가져오기
 
-# ExecuteScript.8a733e5f912b.title=Uninstall Java JDK
-ExecuteScript.8a733e5f912b.title=Java JDK 제거
-
 # ExecuteScript.9469fbb0ba58.title=Refresh Desktop
 ExecuteScript.9469fbb0ba58.title=바탕화면 새로고침
 
@@ -1044,6 +1017,9 @@ ExecuteScript.9c4626dc93c4.title=이메일 서버로 내부 인증
 
 # ExecuteScript.9c47e5cf9937.title=OS authentication with email server
 ExecuteScript.9c47e5cf9937.title=이메일 서버로 OS 인증
+
+# ExecuteScript.9d02213eb948.title=Verify access to $USER_INSTALL_DIR$
+ExecuteScript.9d02213eb948.title=$USER_INSTALL_DIR$에 대한 액세스 확인
 
 # ExecuteScript.9e1c458baa86.title=share install directory
 ExecuteScript.9e1c458baa86.title=설치 디렉터리 공유
@@ -1528,18 +1504,6 @@ GUIComponentData.1220914eae2e.defaultValue=_COMPANY_NAME_
 # GUIComponentData.1220914eae2e.label=
 GUIComponentData.1220914eae2e.label=
 
-# GUIComponentData.12222b9cae2f.defaultValue=Not Selected
-GUIComponentData.12222b9cae2f.defaultValue=Not Selected
-
-# GUIComponentData.12222b9cae2f.label=Network Path
-GUIComponentData.12222b9cae2f.label=네트워크 경로
-
-# GUIComponentData.12227139ae2f.defaultValue=
-GUIComponentData.12227139ae2f.defaultValue=
-
-# GUIComponentData.12227139ae2f.label=
-GUIComponentData.12227139ae2f.label=
-
 # GUIComponentData.146089838e7d.defaultValue=Selected
 GUIComponentData.146089838e7d.defaultValue=Selected
 
@@ -1551,6 +1515,30 @@ GUIComponentData.154af406aa76.defaultValue=$SERVICE_NAME$
 
 # GUIComponentData.154af406aa76.label=Enter the service name
 GUIComponentData.154af406aa76.label=서비스 이름 입력
+
+# GUIComponentData.1b52c8c49547.defaultValue=Not Selected
+GUIComponentData.1b52c8c49547.defaultValue=Not Selected
+
+# GUIComponentData.1b52c8c49547.label=NX 1953 series
+GUIComponentData.1b52c8c49547.label=NX 1953 시리즈
+
+# GUIComponentData.1b7c5655981b.defaultValue=Not Selected
+GUIComponentData.1b7c5655981b.defaultValue=Not Selected
+
+# GUIComponentData.1b7c5655981b.label=Simcenter 3D 2021.1
+GUIComponentData.1b7c5655981b.label=Simcenter 3D 2021.1
+
+# GUIComponentData.1ecd7a72a4b1.defaultValue=Not Selected
+GUIComponentData.1ecd7a72a4b1.defaultValue=Not Selected
+
+# GUIComponentData.1ecd7a72a4b1.label=Network Path
+GUIComponentData.1ecd7a72a4b1.label=네트워크 경로
+
+# GUIComponentData.1ece054ca4b2.defaultValue=
+GUIComponentData.1ece054ca4b2.defaultValue=
+
+# GUIComponentData.1ece054ca4b2.label=
+GUIComponentData.1ece054ca4b2.label=
 
 # GUIComponentData.222df3f99bfb.defaultValue=Not Selected
 GUIComponentData.222df3f99bfb.defaultValue=Not Selected
@@ -2590,17 +2578,17 @@ InstallFinishAction.9741505abaf9.rebootRequiredMessage=설치를 완료하려면
 # InstallFinishAction.9741505abaf9.windowTitle=Install Complete
 InstallFinishAction.9741505abaf9.windowTitle=설치 완료
 
-# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
+InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 오류가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
 
-# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
+InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 심각한 오류가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.bbeaa35cb859.installSuccessMessage=축하합니다.\n￼\n￼￼ $INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$ ￼ 설치가 다음 위치에 성공적으로 완료됐습니다.\n￼\n$USER_INSTALL_DIR$￼￼\n￼\n￼추가 지원이 필요한 경우 현지 지원팀 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 공급업체로 선택해 주셔서 감사합니다.\n￼\n￼설치 관리자를 종료하려면 \"완료\"를 누르십시오.
 
-# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 경고가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
 
 # InstallFinishAction.bbeaa35cb859.launchText=
 InstallFinishAction.bbeaa35cb859.launchText=
@@ -3019,6 +3007,51 @@ PromptUserConsole.2d6f494abb0c.option2Label=취소
 # PromptUserConsole.2d6f494abb0c.title=Warning
 PromptUserConsole.2d6f494abb0c.title=경고
 
+# PromptUserConsole.7ca738249ffd.message=NXVER=$NXVER$ is not a recognized NX version. The installation will exit, please provide a valid NX version.\n
+PromptUserConsole.7ca738249ffd.message=NXVER=$NXVER$은(는) 인식되는 NX 버전이 아니므로 설치가 종료됩니다. 유효한 NX 버전을 제공하십시오.\n
+
+# PromptUserConsole.7ca738249ffd.option0Label=Cancel
+PromptUserConsole.7ca738249ffd.option0Label=취소
+
+# PromptUserConsole.7ca738249ffd.option1Label=Cancel
+PromptUserConsole.7ca738249ffd.option1Label=취소
+
+# PromptUserConsole.7ca738249ffd.option2Label=Cancel
+PromptUserConsole.7ca738249ffd.option2Label=취소
+
+# PromptUserConsole.7ca738249ffd.title=Error
+PromptUserConsole.7ca738249ffd.title=오류
+
+# PromptUserConsole.7ca73825a00e.message=NXVER=$NXVER$ is not a recognized NX version. The installation will exit, please provide a valid NX version.
+PromptUserConsole.7ca73825a00e.message=NXVER=$NXVER$은(는) 인식되는 NX 버전이 아니므로 설치가 종료됩니다. 유효한 NX 버전을 제공하십시오.
+
+# PromptUserConsole.7ca73825a00e.option0Label=Cancel
+PromptUserConsole.7ca73825a00e.option0Label=취소
+
+# PromptUserConsole.7ca73825a00e.option1Label=Cancel
+PromptUserConsole.7ca73825a00e.option1Label=취소
+
+# PromptUserConsole.7ca73825a00e.option2Label=Cancel
+PromptUserConsole.7ca73825a00e.option2Label=취소
+
+# PromptUserConsole.7ca73825a00e.title=Error
+PromptUserConsole.7ca73825a00e.title=오류
+
+# PromptUserConsole.7ca73826a00f.message=NXPATH=$NXPATH$ is not a valid path. The installation will exit, please provide a valid path.
+PromptUserConsole.7ca73826a00f.message=NXPATH=$NXPATH$은(는) 유효한 경로가 아니므로 설치가 종료됩니다. 유효한 경고를 제공하십시오.
+
+# PromptUserConsole.7ca73826a00f.option0Label=Cancel
+PromptUserConsole.7ca73826a00f.option0Label=취소
+
+# PromptUserConsole.7ca73826a00f.option1Label=Previous
+PromptUserConsole.7ca73826a00f.option1Label=이전
+
+# PromptUserConsole.7ca73826a00f.option2Label=Cancel
+PromptUserConsole.7ca73826a00f.option2Label=취소
+
+# PromptUserConsole.7ca73826a00f.title=Error
+PromptUserConsole.7ca73826a00f.title=오류
+
 # PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of _RT_JOB_MANAGER_ in console mode. Please use the standard GUI method of installation.
 PromptUserConsole.ab47a9fa8483.message=설치 관리자가 콘솔 모드에서 _RT_JOB_MANAGER_ 설정 및 구성을 지원하지 않습니다. 표준 GUI 방법을 사용해 설치하십시오.
 
@@ -3403,8 +3436,8 @@ ShowDialogAction.120f9d519e49.cancelButtonLabel=
 # ShowDialogAction.120f9d519e49.detailsButtonLabel=Details...
 ShowDialogAction.120f9d519e49.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.120f9d519e49.label=No Local path access, please provide a location to install the $INSTALLER_TITLE$.
-ShowDialogAction.120f9d519e49.label=로컬 경로 액세스 권한이 없습니다. $INSTALLER_TITLE$을(를) 설치할 위치를 지정하십시오.
+# ShowDialogAction.120f9d519e49.label=You dont have access to install to $USER_INSTALL_DIR$, please provide a location to install the $INSTALLER_TITLE$.
+ShowDialogAction.120f9d519e49.label=$USER_INSTALL_DIR$에 설치할 권한이 없습니다. $INSTALLER_TITLE$을(를) 설치할 위치를 지정하십시오.
 
 # ShowDialogAction.120f9d519e49.narrative=
 ShowDialogAction.120f9d519e49.narrative=
@@ -4096,6 +4129,24 @@ ShowDialogAction.a559a02a89f6.narrative=라이선스 서버를 구성하려면 �
 # ShowDialogAction.a559a02a89f6.title=Warning
 ShowDialogAction.a559a02a89f6.title=경고
 
+# ShowDialogAction.a7537a40b676.buttonLabel=OK
+ShowDialogAction.a7537a40b676.buttonLabel=확인
+
+# ShowDialogAction.a7537a40b676.cancelButtonLabel=Cancel
+ShowDialogAction.a7537a40b676.cancelButtonLabel=취소
+
+# ShowDialogAction.a7537a40b676.detailsButtonLabel=Details...
+ShowDialogAction.a7537a40b676.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.a7537a40b676.label=The database file cannot be empty.
+ShowDialogAction.a7537a40b676.label=데이터베이스 파일은 비워둘 수 없습니다.
+
+# ShowDialogAction.a7537a40b676.narrative=Please enter a valid database file name to proceed.
+ShowDialogAction.a7537a40b676.narrative=계속 진행하려면 유효한 데이터베이스 파일 이름을 입력하십시오.
+
+# ShowDialogAction.a7537a40b676.title=Warning
+ShowDialogAction.a7537a40b676.title=경고
+
 # ShowDialogAction.a9b1812d954e.buttonLabel=OK
 ShowDialogAction.a9b1812d954e.buttonLabel=확인
 
@@ -4231,11 +4282,11 @@ ShowDialogAction.b893f166969d.cancelButtonLabel=취소
 # ShowDialogAction.b893f166969d.detailsButtonLabel=Details...
 ShowDialogAction.b893f166969d.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.b893f166969d.label=No access to path.
-ShowDialogAction.b893f166969d.label=경로에 대한 액세스 권한이 없습니다.
+# ShowDialogAction.b893f166969d.label=The database file cannot be empty.
+ShowDialogAction.b893f166969d.label=데이터베이스 파일은 비워둘 수 없습니다.
 
-# ShowDialogAction.b893f166969d.narrative=Please enter the name of the database file you wish to create with a valid path to proceed. 
-ShowDialogAction.b893f166969d.narrative=계속하려면 올바른 경로를 사용해 생성하고자 하는 데이터베이스 파일 이름을 입력하십시오. 
+# ShowDialogAction.b893f166969d.narrative=Please enter a valid database file name to proceed.
+ShowDialogAction.b893f166969d.narrative=계속 진행하려면 유효한 데이터베이스 파일 이름을 입력하십시오.
 
 # ShowDialogAction.b893f166969d.title=Warning
 ShowDialogAction.b893f166969d.title=경고
