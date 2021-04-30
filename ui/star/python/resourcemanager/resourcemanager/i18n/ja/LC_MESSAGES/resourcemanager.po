@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: resourcemanager 0.1\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2020-07-27 11:16-0700\n"
+"POT-Creation-Date: 2021-04-05 20:42+0000\n"
 "PO-Revision-Date: 2017-09-05 12:08+0200\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: en\n"
@@ -17,12 +17,12 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.4.0\n"
+"Generated-By: Babel 2.8.0\n"
 
 #: resourcemanager/controllers/account.py:28
 #: resourcemanager/controllers/account.py:48
 #: resourcemanager/controllers/account.py:66
-#: resourcemanager/controllers/admin.py:978
+#: resourcemanager/controllers/admin.py:981
 msgid "OK"
 msgstr "OK"
 
@@ -69,7 +69,7 @@ msgid "Reset Password"
 msgstr "パスワードをリセット"
 
 #: resourcemanager/controllers/account.py:71
-#: resourcemanager/controllers/admin.py:752
+#: resourcemanager/controllers/admin.py:755
 msgid "User Name"
 msgstr "ユーザー名"
 
@@ -95,15 +95,15 @@ msgid ""
 "on \"{0}\""
 msgstr "\"{0}\"上のOSにより管理されているため、ここでパスワードを変更またはリセットすることはできません。"
 
-#: resourcemanager/controllers/admin.py:51
+#: resourcemanager/controllers/admin.py:52
 msgid "Import"
 msgstr "インポート"
 
-#: resourcemanager/controllers/admin.py:52
+#: resourcemanager/controllers/admin.py:53
 msgid "Bulk Import Users from the CSV File"
 msgstr "CSVファイルからのユーザの一括インポート"
 
-#: resourcemanager/controllers/admin.py:54
+#: resourcemanager/controllers/admin.py:55
 msgid ""
 "This form allows administrator to import the users in bulk using the CSV "
 "file.\n"
@@ -114,152 +114,152 @@ msgid ""
 "    encoding."
 msgstr "このフォームでは、管理者がCSVファイルを使用してユーザをバルクにインポートすることができます。\n    CSVファイルには、次の列があると予想されます。 ユーザ名、電子メールアドレス、表示名、\n    ユーザがメンバーである必要があるグループ名のセミコロンで区切られたリストです。 UTF-8エンコードを使用しなければなりません。\n"
 
-#: resourcemanager/controllers/admin.py:59
+#: resourcemanager/controllers/admin.py:60
 msgid "CSV Users File"
 msgstr "CSVユーザファイル"
 
-#: resourcemanager/controllers/admin.py:60
+#: resourcemanager/controllers/admin.py:61
 msgid "Must be a valid CSV file"
 msgstr "有効なCSVファイルでなくてはなりません"
 
-#: resourcemanager/controllers/admin.py:62
+#: resourcemanager/controllers/admin.py:63
 msgid "If User with the Name Exists"
 msgstr "その名前のユーザが存在する場合"
 
-#: resourcemanager/controllers/admin.py:63
-#: resourcemanager/controllers/admin.py:70
+#: resourcemanager/controllers/admin.py:64
+#: resourcemanager/controllers/admin.py:71
 msgid "Skip CSV user (don't do anything)"
 msgstr "CSVユーザをスキップ(何もしない)"
 
-#: resourcemanager/controllers/admin.py:64
+#: resourcemanager/controllers/admin.py:65
 msgid "Overwrite the properties and replace the group membership"
 msgstr "プロパティを上書きしてグループメンバーシップを置換"
 
-#: resourcemanager/controllers/admin.py:65
+#: resourcemanager/controllers/admin.py:66
 msgid "Overwrite the properties and merge the group membership"
 msgstr "プロパティを上書きしてグループメンバーシップをマージ"
 
-#: resourcemanager/controllers/admin.py:66
-#: resourcemanager/controllers/admin.py:71
-#: resourcemanager/controllers/admin.py:77
+#: resourcemanager/controllers/admin.py:67
+#: resourcemanager/controllers/admin.py:72
+#: resourcemanager/controllers/admin.py:78
 msgid "Abort the import"
 msgstr "インポートを中止"
 
-#: resourcemanager/controllers/admin.py:69
+#: resourcemanager/controllers/admin.py:70
 msgid "If Different User with the Email Exists"
 msgstr "その電子メールを含む異なるユーザが存在する場合"
 
-#: resourcemanager/controllers/admin.py:74
+#: resourcemanager/controllers/admin.py:75
 msgid "If Group does not Exist"
 msgstr "グループが存在しない場合"
 
-#: resourcemanager/controllers/admin.py:75
+#: resourcemanager/controllers/admin.py:76
 msgid "Skip the group assignment (don't do anything)"
 msgstr "グループ割当てをスキップ(何もしない)"
 
-#: resourcemanager/controllers/admin.py:76
+#: resourcemanager/controllers/admin.py:77
 msgid "Add the new group and add user to it"
 msgstr "新規グループを追加してユーザを追加"
 
-#: resourcemanager/controllers/admin.py:80
+#: resourcemanager/controllers/admin.py:81
 msgid "Skip the first row (heading)"
 msgstr "最初の行(ヘッディング)をスキップ"
 
-#: resourcemanager/controllers/admin.py:90
+#: resourcemanager/controllers/admin.py:91
 msgid "Result of the Bulk User Import"
 msgstr "一括ユーザインポートの結果"
 
-#: resourcemanager/controllers/admin.py:92
+#: resourcemanager/controllers/admin.py:93
 msgid "Operation Log"
 msgstr "オペレーションログ"
 
-#: resourcemanager/controllers/admin.py:133
+#: resourcemanager/controllers/admin.py:134
 #: resourcemanager/model/configuration.py:135
 msgid "Submission Template"
 msgstr "送信テンプレート"
 
-#: resourcemanager/controllers/admin.py:134
+#: resourcemanager/controllers/admin.py:135
 msgid "Enabled"
 msgstr "有効"
 
-#: resourcemanager/controllers/admin.py:135
-#: resourcemanager/controllers/admin.py:138
+#: resourcemanager/controllers/admin.py:136
+#: resourcemanager/controllers/admin.py:139
 msgid "Application"
 msgstr "アプリケーション"
 
-#: resourcemanager/controllers/admin.py:136
-#: resourcemanager/controllers/admin.py:428
+#: resourcemanager/controllers/admin.py:137
+#: resourcemanager/controllers/admin.py:431
 msgid "Command Executable"
 msgstr "コマンド実行可能ファイル"
 
-#: resourcemanager/controllers/admin.py:137
-#: resourcemanager/controllers/admin.py:429
+#: resourcemanager/controllers/admin.py:138
+#: resourcemanager/controllers/admin.py:432
 msgid "Additional Options"
 msgstr "その他のオプション"
 
-#: resourcemanager/controllers/admin.py:154
+#: resourcemanager/controllers/admin.py:155
 msgid "Are you sure?"
 msgstr "本当ですか?"
 
-#: resourcemanager/controllers/admin.py:186
+#: resourcemanager/controllers/admin.py:187
 msgid "equals / contains"
 msgstr "等しい/含む"
 
-#: resourcemanager/controllers/admin.py:223
+#: resourcemanager/controllers/admin.py:224
 msgid "Relative paths are not allowed"
 msgstr "相対パスは許可されません"
 
-#: resourcemanager/controllers/admin.py:224
+#: resourcemanager/controllers/admin.py:225
 msgid "Please enter a value"
 msgstr "値を入力してください"
 
-#: resourcemanager/controllers/admin.py:245
+#: resourcemanager/controllers/admin.py:246
 msgid "Cannot resolve hostname"
 msgstr "ホスト名を解決できません"
 
-#: resourcemanager/controllers/admin.py:261
+#: resourcemanager/controllers/admin.py:262
 msgid "Server Configuration"
 msgstr "サーバ構成"
 
-#: resourcemanager/controllers/admin.py:267
-#: resourcemanager/controllers/admin.py:600
+#: resourcemanager/controllers/admin.py:268
+#: resourcemanager/controllers/admin.py:603
 msgid "Name"
 msgstr "名前"
 
-#: resourcemanager/controllers/admin.py:268
+#: resourcemanager/controllers/admin.py:269
 msgid "Resource Type"
 msgstr "リソースタイプ"
 
-#: resourcemanager/controllers/admin.py:269
+#: resourcemanager/controllers/admin.py:270
 msgid "Login Node"
 msgstr "ログインノード"
 
-#: resourcemanager/controllers/admin.py:270
+#: resourcemanager/controllers/admin.py:271
 msgid "System Service"
 msgstr "システムサービス"
 
-#: resourcemanager/controllers/admin.py:271
+#: resourcemanager/controllers/admin.py:272
 msgid "Application Launch RSH"
 msgstr "アプリケーション起動RSH"
 
-#: resourcemanager/controllers/admin.py:272
+#: resourcemanager/controllers/admin.py:273
 msgid "User Directory Template"
 msgstr "ユーザディレクトリテンプレート"
 
-#: resourcemanager/controllers/admin.py:273
+#: resourcemanager/controllers/admin.py:274
 #: resourcemanager/model/configuration.py:136
 #: resourcemanager/templates/master.xhtml:44
 msgid "Submission Templates"
 msgstr "送信テンプレート"
 
-#: resourcemanager/controllers/admin.py:274
-#: resourcemanager/controllers/admin.py:610
-#: resourcemanager/controllers/admin.py:757
-#: resourcemanager/controllers/admin.py:879
+#: resourcemanager/controllers/admin.py:275
+#: resourcemanager/controllers/admin.py:613
+#: resourcemanager/controllers/admin.py:760
+#: resourcemanager/controllers/admin.py:882
 msgid "Actions"
 msgstr "アクション"
 
-#: resourcemanager/controllers/admin.py:296
+#: resourcemanager/controllers/admin.py:297
 msgid ""
 "User Directory Template (use $HOME variable to substitute \n"
 "                                 the user's home directory and $user_name"
@@ -267,86 +267,96 @@ msgid ""
 "                                 the user name)"
 msgstr "ユーザディレクトリテンプレート($HOME変数を使用して代用するユーザのホームディレクトリと$user_name変数を代用するユーザ名)"
 
-#: resourcemanager/controllers/admin.py:335
+#: resourcemanager/controllers/admin.py:336
 msgid "Resource Group cannot be renamed."
 msgstr "リソースグループの名前を変更することはできません。"
 
-#: resourcemanager/controllers/admin.py:341
+#: resourcemanager/controllers/admin.py:342
 msgid "System Service cannot be changed."
 msgstr "システムサービスを変更することはできません。"
 
-#: resourcemanager/controllers/admin.py:347
+#: resourcemanager/controllers/admin.py:348
 msgid "  "
 msgstr "  "
 
-#: resourcemanager/controllers/admin.py:352
+#: resourcemanager/controllers/admin.py:353
 msgid ""
 "  The reason is that this Resource Group is used for authentication,"
 "                                        original value{} restored."
 msgstr "  理由は、このリソースグループが認証、復元された元の値{}に使用されているためです。"
 
-#: resourcemanager/controllers/admin.py:359
+#: resourcemanager/controllers/admin.py:360
+#, fuzzy
+#| msgid "" "Cannot select SSH with Password for the System Service when Job
+#| Manager " "is                                  configured to use the
+#| Internal " "Authentication Mode.  Original value restored."
 msgid ""
-"Cannot select SSH with Password for the System Service when Job Manager "
-"is                                  configured to use the Internal "
-"Authentication Mode.  Original value restored."
-msgstr "内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
+"Cannot select SSH with Password for the System Service when "
+"{0.RT_JOB_MANAGER} is                                  configured to use "
+"the Internal Authentication Mode.                                  "
+"Original value restored."
+msgstr "内部認証モードを使用するように{0.RT_JOB_MANAGER}が構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
 
-#: resourcemanager/controllers/admin.py:365
+#: resourcemanager/controllers/admin.py:367
 msgid "Resource Group {} successfully updated."
 msgstr "リソースグループ {} は、正常に更新されました。"
 
-#: resourcemanager/controllers/admin.py:381
+#: resourcemanager/controllers/admin.py:383
 msgid "Resource Group {} cannot be deleted because it's used for authentication."
 msgstr "リソースグループ {} は、認証に使用されているため、削除することはできません。"
 
-#: resourcemanager/controllers/admin.py:389
+#: resourcemanager/controllers/admin.py:391
 msgid "Resource Group {} successfully deleted."
 msgstr "リソースグループ {} は、正常に削除されました。"
 
-#: resourcemanager/controllers/admin.py:401
+#: resourcemanager/controllers/admin.py:403
+#, fuzzy
+#| msgid "" "Cannot select SSH with Password for the System Service when Job
+#| Manager " "is                                  configured to use the
+#| Internal " "Authentication Mode.  Original values restored."
 msgid ""
-"Cannot select SSH with Password for the System Service when Job Manager "
-"is                                  configured to use the Internal "
-"Authentication Mode.  Original values restored."
-msgstr "内部認証モードを使用するようにジョブマネージャが構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
+"Cannot select SSH with Password for the System Service when "
+"{0.RT_JOB_MANAGER} is                                  configured to use "
+"the Internal Authentication Mode.                                  "
+"Original values restored."
+msgstr "内部認証モードを使用するように{0.RT_JOB_MANAGER}が構成されているときに、システムサービスのパスワードを使用してSSHを選択することはできません。 元の値が復元されました。"
 
-#: resourcemanager/controllers/admin.py:406
+#: resourcemanager/controllers/admin.py:409
 msgid "Resource Group {} successfully created."
 msgstr "リソースグループ {} は、正常に作成されました。"
 
-#: resourcemanager/controllers/admin.py:446
-#: resourcemanager/controllers/admin.py:604
+#: resourcemanager/controllers/admin.py:449
+#: resourcemanager/controllers/admin.py:607
 msgid "Queue or Partition Name"
 msgstr "キューまたはパーティション名"
 
-#: resourcemanager/controllers/admin.py:491
+#: resourcemanager/controllers/admin.py:494
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                    Submission Template, please try "
 "again."
 msgstr "この送信テンプレートに対して、同じアプリケーションを用いた別のアプリケーション構成が存在します、もう一度やり直してください。"
 
-#: resourcemanager/controllers/admin.py:504
+#: resourcemanager/controllers/admin.py:507
 msgid "Application Config with Application {} successfully created."
 msgstr "アプリケーション構成 {} は、正常に作成されました。"
 
-#: resourcemanager/controllers/admin.py:527
+#: resourcemanager/controllers/admin.py:530
 msgid ""
 "Another Application Config with the same Application exists for this"
 "                                          Submission Template, please try"
 " again."
 msgstr "この送信テンプレートに対して、同じアプリケーションを用いた別のアプリケーション構成が存在します、もう一度やり直してください。"
 
-#: resourcemanager/controllers/admin.py:540
+#: resourcemanager/controllers/admin.py:543
 msgid "Application Config with Application {} successfully updated."
 msgstr "アプリケーション構成 {} は、正常に更新されました。"
 
-#: resourcemanager/controllers/admin.py:552
+#: resourcemanager/controllers/admin.py:555
 msgid "Application Config successfully deleted."
 msgstr "アプリケーション構成は、正常に削除されました。"
 
-#: resourcemanager/controllers/admin.py:561
+#: resourcemanager/controllers/admin.py:564
 msgid ""
 "Please enter number of days (optional) and specify time with format "
 "HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the "
@@ -356,344 +366,344 @@ msgid ""
 "place)"
 msgstr "Please enter number of days (optional) and specify time with format HH:MM:SS.        Examples: 5 days, 00:00:00 (5 days; note that the 00:00:00 is required), 1 day, 20:3:50 (1 day, 20 hrs, 3 min,         50 sec), 00:01:00 (1 min; note the 00 in the hrs place is required), 100:05:0 (100 hrs, 5 min; note a 0 or          00 is required in the sec place)"
 
-#: resourcemanager/controllers/admin.py:601
+#: resourcemanager/controllers/admin.py:604
 #: resourcemanager/model/configuration.py:36
 msgid "Resource Group"
 msgstr "リソースグループ"
 
-#: resourcemanager/controllers/admin.py:602
+#: resourcemanager/controllers/admin.py:605
 msgid "Install Path"
 msgstr "パスのインストール"
 
-#: resourcemanager/controllers/admin.py:603
-#: resourcemanager/controllers/admin.py:641
+#: resourcemanager/controllers/admin.py:606
+#: resourcemanager/controllers/admin.py:644
 msgid "Job Launch Options"
 msgstr "ジョブ起動オプション"
 
-#: resourcemanager/controllers/admin.py:605
+#: resourcemanager/controllers/admin.py:608
 msgid "Parallel Environment"
 msgstr "並列環境"
 
-#: resourcemanager/controllers/admin.py:606
+#: resourcemanager/controllers/admin.py:609
 msgid "Default Walltime"
 msgstr "デフォルトWalltime"
 
-#: resourcemanager/controllers/admin.py:607
+#: resourcemanager/controllers/admin.py:610
 msgid "Script Template"
 msgstr "スクリプトテンプレート"
 
-#: resourcemanager/controllers/admin.py:608
+#: resourcemanager/controllers/admin.py:611
 msgid "Keep Repositories"
 msgstr "リポジトリを保持"
 
-#: resourcemanager/controllers/admin.py:609
+#: resourcemanager/controllers/admin.py:612
 msgid "App. Configs"
 msgstr "App構成"
 
-#: resourcemanager/controllers/admin.py:633
+#: resourcemanager/controllers/admin.py:636
 #: resourcemanager/templates/admin/edit.xhtml:10
 msgid "Edit "
 msgstr "編集 "
 
-#: resourcemanager/controllers/admin.py:636
+#: resourcemanager/controllers/admin.py:639
 msgid "Edit Application Configs"
 msgstr "アプリケーション構成を編集"
 
-#: resourcemanager/controllers/admin.py:637
+#: resourcemanager/controllers/admin.py:640
 msgid ""
 "Script Template (leave empty to get it \n"
 "                                   filled with the default template)"
 msgstr "スクリプトテンプレート(取得するために空のままにするデフォルトのテンプレートで入力)"
 
-#: resourcemanager/controllers/admin.py:639
+#: resourcemanager/controllers/admin.py:642
 msgid ""
 "Keep Job and Task Repositories (for \n"
 "                                    troubleshooting purposes)"
 msgstr "ジョブおよびタスクリポジトリを保持する(トラブルシューティングの目的)"
 
-#: resourcemanager/controllers/admin.py:711
+#: resourcemanager/controllers/admin.py:714
 msgid "Submission Template {} successfully created."
 msgstr "送信テンプレート {} は、正常に作成されました。"
 
-#: resourcemanager/controllers/admin.py:724
+#: resourcemanager/controllers/admin.py:727
 msgid "Submission Template {} successfully updated."
 msgstr "送信テンプレート {} は、正常に更新されました。"
 
-#: resourcemanager/controllers/admin.py:738
+#: resourcemanager/controllers/admin.py:741
 msgid "Submission Template {} successfully deleted."
 msgstr "送信テンプレート {} は、正常に削除されました。"
 
-#: resourcemanager/controllers/admin.py:746
+#: resourcemanager/controllers/admin.py:749
 msgid "Users and Groups"
 msgstr "ユーザおよびグループ"
 
-#: resourcemanager/controllers/admin.py:753
+#: resourcemanager/controllers/admin.py:756
 msgid "Email Address"
 msgstr "電子メールアドレス"
 
-#: resourcemanager/controllers/admin.py:754
+#: resourcemanager/controllers/admin.py:757
 msgid "Display Name"
 msgstr "表示名"
 
-#: resourcemanager/controllers/admin.py:755
+#: resourcemanager/controllers/admin.py:758
 msgid "Created"
 msgstr "作成済み"
 
-#: resourcemanager/controllers/admin.py:756 resourcemanager/model/auth.py:70
+#: resourcemanager/controllers/admin.py:759 resourcemanager/model/auth.py:70
 #: resourcemanager/templates/master.xhtml:47
 msgid "Groups"
 msgstr "グループ"
 
-#: resourcemanager/controllers/admin.py:799
-#: resourcemanager/controllers/admin.py:812
-#: resourcemanager/controllers/admin.py:979
+#: resourcemanager/controllers/admin.py:802
+#: resourcemanager/controllers/admin.py:815
+#: resourcemanager/controllers/admin.py:982
 #: resourcemanager/templates/login.xhtml:24
 msgid "Password"
 msgstr "パスワード"
 
-#: resourcemanager/controllers/admin.py:813
-#: resourcemanager/controllers/admin.py:979
+#: resourcemanager/controllers/admin.py:816
+#: resourcemanager/controllers/admin.py:982
 msgid "Verify Password"
 msgstr "パスワードを確認"
 
-#: resourcemanager/controllers/admin.py:819
+#: resourcemanager/controllers/admin.py:822
 msgid "User {} successfully created."
 msgstr "ユーザ {} は、正常に作成されました。"
 
-#: resourcemanager/controllers/admin.py:836
+#: resourcemanager/controllers/admin.py:839
 msgid ""
 "Cannot remove administrator privilege for yourself.  Original values "
 "restored."
 msgstr "ユーザ自身の管理者権限を除去することはできません。 元の値が復元されました。"
 
-#: resourcemanager/controllers/admin.py:845
+#: resourcemanager/controllers/admin.py:848
 msgid ""
 "Another user with the same email address exists.  Original values "
 "restored."
 msgstr "同じ電子メールアドレスを持つ別のユーザが存在します。 元の値が復元されました。"
 
-#: resourcemanager/controllers/admin.py:851
+#: resourcemanager/controllers/admin.py:854
 msgid "User {} successfully updated."
 msgstr "ユーザ {} は、正常に更新されました。"
 
-#: resourcemanager/controllers/admin.py:860
+#: resourcemanager/controllers/admin.py:863
 msgid "Cannot delete current administrator account."
 msgstr "現在の管理者アカウントを削除することはできません。"
 
-#: resourcemanager/controllers/admin.py:865
+#: resourcemanager/controllers/admin.py:868
 msgid "User {} successfully deleted."
 msgstr "ユーザ {} は、正常に削除されました。"
 
-#: resourcemanager/controllers/admin.py:877
+#: resourcemanager/controllers/admin.py:880
 msgid "Group Name"
 msgstr "グループ名"
 
-#: resourcemanager/controllers/admin.py:878
+#: resourcemanager/controllers/admin.py:881
 msgid "Permissions"
 msgstr "パーミッション"
 
-#: resourcemanager/controllers/admin.py:900
+#: resourcemanager/controllers/admin.py:903
 msgid "Group {} successfully created."
 msgstr "グループ {} は、正常に作成されました。"
 
-#: resourcemanager/controllers/admin.py:906
+#: resourcemanager/controllers/admin.py:909
 msgid "Group {} successfully updated."
 msgstr "グループ {} は、正常に更新されました。"
 
-#: resourcemanager/controllers/admin.py:913
+#: resourcemanager/controllers/admin.py:916
 msgid "Group {} successfully deleted."
 msgstr "グループ {} は、正常に削除されました。"
 
-#: resourcemanager/controllers/admin.py:957
+#: resourcemanager/controllers/admin.py:960
 msgid "Users successfully imported."
 msgstr "ユーザーは正常にインポートされました。"
 
-#: resourcemanager/controllers/admin.py:959
+#: resourcemanager/controllers/admin.py:962
 msgid ""
 "User import failed. All changes were rolled back.\n"
 "Error: {}"
 msgstr "ユーザーインポートに失敗しました。 すべての変更はロールバックされます。\nエラー: {}"
 
-#: resourcemanager/controllers/admin.py:960
+#: resourcemanager/controllers/admin.py:963
 msgid "User import failed."
 msgstr "ユーザーインポートに失敗しました。"
 
-#: resourcemanager/controllers/admin.py:978
+#: resourcemanager/controllers/admin.py:981
 msgid "Save"
 msgstr "保存"
 
-#: resourcemanager/controllers/admin.py:978
+#: resourcemanager/controllers/admin.py:981
 msgid "Cancel"
 msgstr "キャンセル"
 
-#: resourcemanager/controllers/admin.py:978
+#: resourcemanager/controllers/admin.py:981
 msgid "No file chosen"
 msgstr "ファイルが選択されていません。"
 
-#: resourcemanager/controllers/admin.py:978
+#: resourcemanager/controllers/admin.py:981
 msgid "Browse"
 msgstr "確認"
 
-#: resourcemanager/controllers/admin.py:979
+#: resourcemanager/controllers/admin.py:982
 msgid "Create"
 msgstr "作成"
 
-#: resourcemanager/controllers/admin.py:980
+#: resourcemanager/controllers/admin.py:983
 msgid "Please enter an email address"
 msgstr "メールアドレスを入力してください"
 
-#: resourcemanager/controllers/admin.py:981
+#: resourcemanager/controllers/admin.py:984
 msgid "An email address must contain a single @"
 msgstr "メールアドレスは、@を1つ含んでいなければなりません"
 
-#: resourcemanager/controllers/admin.py:982
+#: resourcemanager/controllers/admin.py:985
 #, python-format
 msgid ""
 "The username portion of the email address is invalid (the portion before "
 "the @: %(username)s)"
 msgstr "メールアドレスのユーザー名の部分が無効です(@マークより前の部分: %(username))"
 
-#: resourcemanager/controllers/admin.py:984
+#: resourcemanager/controllers/admin.py:987
 #, python-format
 msgid "An error occured when trying to connect to the server: %(error)s"
 msgstr "サーバへの接続を試行しているときにエラーが発生しました: %(error)"
 
-#: resourcemanager/controllers/admin.py:986
+#: resourcemanager/controllers/admin.py:989
 #, python-format
 msgid ""
 "The domain portion of the email address is invalid (the portion after the"
 " @: %(domain)s)"
 msgstr "メールアドレスのドメイン部分が無効です(@マークより後の部分: %(domain))"
 
-#: resourcemanager/controllers/admin.py:988
+#: resourcemanager/controllers/admin.py:991
 #, python-format
 msgid ""
 "The domain of the email address does not exist (the portion after the @: "
 "%(domain)s)"
 msgstr "メールアドレスのドメインが存在していません(@マークより後の部分: %(domain))"
 
-#: resourcemanager/controllers/admin.py:992
-#: resourcemanager/templates/index.xhtml:3
-#: resourcemanager/templates/master.xhtml:23
-msgid "STAR-CCM+ Job Manager"
-msgstr "STAR-CCM+ ジョブマネージャ"
+#: resourcemanager/controllers/admin.py:995
+msgid "{0.STAR_CCM_PRODUCT_NAME} {0.RT_JOB_MANAGER}"
+msgstr "{0.STAR_CCM_PRODUCT_NAME} {0.RT_JOB_MANAGER}"
 
-#: resourcemanager/controllers/root.py:103
+#: resourcemanager/controllers/root.py:105
 msgid "User not found."
 msgstr "ユーザが見つかりません。"
 
-#: resourcemanager/controllers/root.py:105
+#: resourcemanager/controllers/root.py:107
 msgid "Invalid Password."
 msgstr "パスワードが無効です。"
 
-#: resourcemanager/controllers/root.py:109
+#: resourcemanager/controllers/root.py:111
 msgid "Wrong credentials"
 msgstr "不正な認証"
 
-#: resourcemanager/controllers/root.py:127
+#: resourcemanager/controllers/root.py:129
 msgid "Welcome back, {0}!"
 msgstr "ようこそ、{0}さん!"
 
-#: resourcemanager/controllers/root.py:141
+#: resourcemanager/controllers/root.py:143
 msgid "Logout successful"
 msgstr "ログアウト成功"
 
-#: resourcemanager/lib/authorization.py:23
+#: resourcemanager/lib/authorization.py:22
 msgid "Only POST requests are allowed."
 msgstr "ポスト要求のみが許可されます。"
 
-#: resourcemanager/lib/authorization.py:38
+#: resourcemanager/lib/authorization.py:37
 msgid "You have been logged out, please log in"
 msgstr "ログアウトしている場合は、ログインしてください"
 
-#: resourcemanager/lib/authorization.py:46
-msgid "You have been logged out, please log in to administer Job Manager"
-msgstr "ログアウトされました、管理ジョブマネージャでログインしてください。"
+#: resourcemanager/lib/authorization.py:45
+#, fuzzy
+#| msgid "You have been logged out, please log in to administer Job Manager"
+msgid "You have been logged out, please log in to perform administration tasks."
+msgstr "ログアウトされました、ログインして管理タスクを実行してください。"
 
-#: resourcemanager/lib/authorization.py:57
+#: resourcemanager/lib/authorization.py:56
 msgid "You must be a job manager (with \"manage jobs\" permission)."
 msgstr "ジョブマネージャでなければなりません(「ジョブを管理」権限あり)。"
 
-#: resourcemanager/lib/authorization.py:68
+#: resourcemanager/lib/authorization.py:67
 msgid "You must be a job creator (with \"create jobs\" permission)."
 msgstr "ジョブクリエーターでなければなりません(「ジョブを作成」権限あり)。"
 
-#: resourcemanager/lib/authorization.py:79
+#: resourcemanager/lib/authorization.py:78
 msgid "You must be the job owner."
 msgstr "ジョブ所有者でなければなりません。"
 
-#: resourcemanager/lib/authorization.py:105
+#: resourcemanager/lib/authorization.py:104
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can access the job."
 msgstr "ジョブまたはジョブマネージャの所有者のみが、ジョブにアクセスすることができます(「ジョブを管理」権限あり)。"
 
-#: resourcemanager/lib/authorization.py:122
+#: resourcemanager/lib/authorization.py:121
 msgid "You must be the task owner (owner of the task's job)."
 msgstr "タスク所有者でなければなりません(タスクのジョブの所有者)。"
 
-#: resourcemanager/lib/authorization.py:138
-#: resourcemanager/lib/authorization.py:206
+#: resourcemanager/lib/authorization.py:137
+#: resourcemanager/lib/authorization.py:205
 msgid ""
 "Only owner of the task/job or job manager (with \"manage jobs\" "
 "permission) can access the task."
 msgstr "タスク/ジョブまたはジョブマネージャの所有者のみが(「ジョブを管理」権限あり)、タスクにアクセスすることができます。"
 
-#: resourcemanager/lib/authorization.py:164
+#: resourcemanager/lib/authorization.py:163
 msgid ""
 "You must be a job creator (with \"create jobs\" permission) to create a "
 "new job."
 msgstr "新規ジョブを作成するには、ジョブクリエータ(「ジョブを作成」権限あり)でなければなりません。"
 
-#: resourcemanager/lib/authorization.py:172
+#: resourcemanager/lib/authorization.py:171
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can delete the job."
 msgstr "ジョブまたはジョブマネージャの所有者のみが(「ジョブを管理」権限あり)、ジョブを削除することができます。"
 
-#: resourcemanager/lib/authorization.py:181
+#: resourcemanager/lib/authorization.py:180
 msgid "Only owner of the job can submit the job."
 msgstr "ジョブの所有者のみが、ジョブを送信することができます。"
 
-#: resourcemanager/lib/authorization.py:189
+#: resourcemanager/lib/authorization.py:188
 msgid "Only owner of the job can finish the job."
 msgstr "ジョブの所有者のみがジョブを完了することができます。"
 
-#: resourcemanager/lib/authorization.py:197
+#: resourcemanager/lib/authorization.py:196
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can terminate the job."
 msgstr "ジョブまたはジョブマネージャの所有者のみ(「ジョブを管理」権限あり)が、ジョブを終了することができます。"
 
-#: resourcemanager/lib/authorization.py:215
+#: resourcemanager/lib/authorization.py:214
 msgid ""
 "Only owner of the job or job manager (with \"manage jobs\" permission) "
 "can create a new task for the job."
 msgstr "ジョブまたはジョブマネージャの所有者のみ(「ジョブを管理」権限あり)が、ジョブの新規タスクを作成することができます。"
 
-#: resourcemanager/lib/authorization.py:224
+#: resourcemanager/lib/authorization.py:223
 msgid "Only owner of the task/job can launch the task."
 msgstr "タスク/ジョブの所有者のみがタスクを起動することができます。"
 
-#: resourcemanager/lib/authorization.py:232
+#: resourcemanager/lib/authorization.py:231
 msgid "Only owner of the task/job can terminate the task."
 msgstr "タスク/ジョブの所有者のみがタスクを終了することができます。"
 
-#: resourcemanager/lib/authorization.py:240
+#: resourcemanager/lib/authorization.py:239
 msgid ""
 "Only owner of the task/job or job manager (with \"manage jobs\" "
 "permission) can delete the task."
 msgstr "タスク/ジョブまたはジョブマネージャの所有者のみ(「ジョブを管理」権限あり)が、タスクを削除することができます。"
 
-#: resourcemanager/lib/authorization.py:249
+#: resourcemanager/lib/authorization.py:248
 msgid "Only owner of the task (task's job) can access task files."
 msgstr "タスク(タスクのジョブ)の所有者のみがタスクファイルにアクセスすることができます。"
 
-#: resourcemanager/lib/authorization.py:257
+#: resourcemanager/lib/authorization.py:256
 msgid "Only owner of the task (task's job) can add files to the task."
 msgstr "タスク(タスクのジョブ)の所有者のみがタスクにファイルを追加することができます。"
 
-#: resourcemanager/lib/authorization.py:265
+#: resourcemanager/lib/authorization.py:264
 msgid "You must have the permission to use the template to access it."
 msgstr "テンプレートにアクセスするには、テンプレートを使用する権限が必要です。"
 
@@ -709,78 +719,87 @@ msgstr "ユーザー"
 msgid "Users"
 msgstr "ユーザ"
 
-#: resourcemanager/model/bl.py:61
+#: resourcemanager/model/bl.py:63
 msgid "The job with the given id: {0} could not be found"
 msgstr "指定されたid: {0}のジョブが見つかりませんでした。"
 
-#: resourcemanager/model/bl.py:116
+#: resourcemanager/model/bl.py:118
 msgid "\"requested_resources\" required when creating job for the submission."
 msgstr "送信に対してジョブを作成するときに、requested_resourcesが必要です。"
 
-#: resourcemanager/model/bl.py:122
+#: resourcemanager/model/bl.py:124
 msgid "\"walltime\" must be specified as float number of seconds. Error: {}"
 msgstr "walltimeは、float秒数として指定する必要があります。エラー: {}"
 
-#: resourcemanager/model/bl.py:131
+#: resourcemanager/model/bl.py:133
 msgid ""
 "Creation of the local jobs/tasks is not allowed. Pass the submission "
 "template to create a new job."
 msgstr "ローカルジョブ/タスクの作成は許可されていません。 新規ジョブを作成するために、送信テンプレートを渡します。"
 
-#: resourcemanager/model/bl.py:160
+#: resourcemanager/model/bl.py:162
 msgid "Only the owner can submit the job."
 msgstr "所有者のみがジョブを送信することができます。"
 
-#: resourcemanager/model/bl.py:162
+#: resourcemanager/model/bl.py:164
 msgid ""
 "Job must have the submission template and requested resourcesset before "
 "submission."
 msgstr "ジョブは、送信前に送信テンプレートと要求resourcessetを含んでいなければなりません。"
 
-#: resourcemanager/model/bl.py:165
+#: resourcemanager/model/bl.py:167
 #, python-format
 msgid "Job has already been submitted, submission id: %s"
 msgstr "ジョブは既に送信されています、送信id: %s"
 
-#: resourcemanager/model/bl.py:168
+#: resourcemanager/model/bl.py:170
 #, python-format
 msgid "Only pending job can be submitted. Current job state is %s"
 msgstr "保留中のジョブのみを送信することができます。 現在のジョブの状態は、%sです"
 
-#: resourcemanager/model/bl.py:426
+#: resourcemanager/model/bl.py:431
 #, python-format
 msgid ""
 "Task can be created only for the job with pending, queued, or running "
 "status. Current job status %s."
 msgstr "タスクは、保留、キュー、または実行中のステータスを持つジョブに対してのみ作成することができます。現在のジョブステータスは、%sです。"
 
-#: resourcemanager/model/bl.py:900
+#: resourcemanager/model/bl.py:965
 msgid "Could not find the submission template with the given name: {0}."
 msgstr "指定された名前: {0}の送信テンプレートが見つかりませんでした。"
 
-#: resourcemanager/model/bl_account.py:35
+#: resourcemanager/model/bl_account.py:37
 msgid "Invalid password."
 msgstr "パスワードが無効です。"
 
-#: resourcemanager/model/bl_account.py:49
+#: resourcemanager/model/bl_account.py:51
 msgid "Could not find the user for the given email address."
 msgstr "指定された電子メールアドレスのユーザを見つけることができませんでした。"
 
-#: resourcemanager/model/bl_account.py:62
+#: resourcemanager/model/bl_account.py:64
 msgid "Invalid user name."
 msgstr "無効なユーザ名です。"
 
-#: resourcemanager/model/bl_account.py:110
-msgid "Job Manager password reset request"
-msgstr "ジョブマネージャパスワードリセット要求"
-
 #: resourcemanager/model/bl_account.py:112
+#, fuzzy
+#| msgid "Job Manager password reset request"
+msgid "{0.RT_JOB_MANAGER} password reset request"
+msgstr "{0.RT_JOB_MANAGER}パスワードリセット要求"
+
+#: resourcemanager/model/bl_account.py:114
+#, fuzzy
+#| msgid "" "\n" "    Hello,\n" "\n" "    Request for the password reset was
+#| generated for your Job Manager " "account.\n" "    Follow this link to reset
+#| your password: {0}. The link is only valid " "for {1} hours.\n" "\n" "    If
+#| you did not request the password reset, ignore this message or " "contact
+#| your system\n" "    administrator.\n" "\n" "    Best regards,\n" "    Job
+#| Manager System\n" "    "
 msgid ""
 "\n"
 "    Hello,\n"
 "\n"
-"    Request for the password reset was generated for your Job Manager "
-"account.\n"
+"    Request for the password reset was generated for your "
+"{2.RT_JOB_MANAGER} account.\n"
 "    Follow this link to reset your password: {0}. The link is only valid "
 "for {1} hours.\n"
 "\n"
@@ -789,95 +808,95 @@ msgid ""
 "    administrator.\n"
 "\n"
 "    Best regards,\n"
-"    Job Manager System\n"
+"    {2.RT_JOB_MANAGER} System\n"
 "    "
-msgstr "\n  こんにちは、\n\n  パスワードリセットの要求は、ジョブマネージャアカウントに対して生成されました。\n  このリンクに従って、パスワード{0}をリセットします。 リンクは、{1}時間有効です。\n\n    パスワードリセットを要求しなかった場合は、このメッセージを無視するか、\nシステムに管理者連絡してください。\n\n    敬具、\n    ジョブマネージャシステム\n"
+msgstr "\n    こんにちは、\n\n    パスワードリセットの要求は、{2.RT_JOB_MANAGER}アカウントに対して生成されました。\n    このリンクに従って、パスワード{0}をリセットします。 リンクは、{1}時間有効です。\n\n    パスワードリセットを要求しなかった場合は、このメッセージを無視するか、\n    システムに管理者連絡してください。\n\n    敬具、\n    {2.RT_JOB_MANAGER}システム\n    "
 
-#: resourcemanager/model/bl_account.py:137
+#: resourcemanager/model/bl_account.py:139
 msgid ""
 "Invalid reset password request key. It might have been used already or "
 "you successfully logged in meanwhile. Try to reset the password again."
 msgstr "パスワードのリセット要求キーが無効です。 これは既に使用されているか、またはその一方で正常にログインされている可能性があります。 パスワードを再度リセットしてみてください。"
 
-#: resourcemanager/model/bl_account.py:141
+#: resourcemanager/model/bl_account.py:143
 msgid ""
 "Reset password request key has expired. You have to generate a new "
 "password request."
 msgstr "パスワードのリセット要求キーの期限が切れています。 新しいパスワード要求を生成しなければなりません。"
 
-#: resourcemanager/model/bl_account.py:182
+#: resourcemanager/model/bl_account.py:184
 #, python-format
 msgid "Created a new group %s"
 msgstr "新規グループ%sを作成しました"
 
-#: resourcemanager/model/bl_account.py:184
+#: resourcemanager/model/bl_account.py:186
 #, python-format
 msgid "Group %s does not exist. Aborting import."
 msgstr "グループ%sは存在しません。 インポートを中止します。"
 
-#: resourcemanager/model/bl_account.py:186
+#: resourcemanager/model/bl_account.py:188
 #, python-format
 msgid "Skipped group %s for user %s"
 msgstr "グループ%sは、ユーザ%sに対してスキップされました"
 
-#: resourcemanager/model/bl_account.py:198
+#: resourcemanager/model/bl_account.py:200
 #, python-format
 msgid "Email (%s) for the user %s is invalid. %s"
 msgstr "電子メール(%s)(ユーザ%sに対する)が無効です。 %s"
 
-#: resourcemanager/model/bl_account.py:214
+#: resourcemanager/model/bl_account.py:216
 #, python-format
 msgid "Invalid CSV file on line: %d. Expecting 4 columns, found %d: %s"
 msgstr "行: %dのCSVファイルが無効です。 4列が必要ですが、%d: %sが見つかりました"
 
-#: resourcemanager/model/bl_account.py:219
+#: resourcemanager/model/bl_account.py:221
 #, python-format
 msgid "Skipped empty line %d"
 msgstr "スキップされた空の行 %d"
 
-#: resourcemanager/model/bl_account.py:227
+#: resourcemanager/model/bl_account.py:229
 #, python-format
 msgid "Invalid CSV file on line: %d. User name cannot be empty. Found %d: %s"
 msgstr "行: %dのCSVファイルが無効です。 ユーザ名を空にすることはできません。 %d: %sが見つかりました"
 
-#: resourcemanager/model/bl_account.py:233
+#: resourcemanager/model/bl_account.py:235
 #, python-format
 msgid "User with email %s already exists. Aborting import."
 msgstr "電子メールが%sのユーザは既に存在します。 インポートを中止します。"
 
-#: resourcemanager/model/bl_account.py:236
+#: resourcemanager/model/bl_account.py:238
 #, python-format
 msgid "Skipped user %s because of the duplicate email %s"
 msgstr "ユーザ%sがスキップされました、電子メール%sが重複しているためです"
 
-#: resourcemanager/model/bl_account.py:243
+#: resourcemanager/model/bl_account.py:245
 #, python-format
 msgid "Updated existing user %s and replaced the group membership: %s"
 msgstr "既存のユーザ%sを更新して、グループメンバーシップ: %sを置換しました"
 
-#: resourcemanager/model/bl_account.py:247
+#: resourcemanager/model/bl_account.py:249
 #, python-format
 msgid "Updated existing user %s and merged the group membership: %s"
 msgstr "既存のユーザ%sを更新して、グループメンバーシップ: %sをマージしました"
 
-#: resourcemanager/model/bl_account.py:250
+#: resourcemanager/model/bl_account.py:252
 #, python-format
 msgid "User %s already exists. Aborting import."
 msgstr "ユーザ%sは既に存在します。 インポートを中止します。"
 
-#: resourcemanager/model/bl_account.py:252
+#: resourcemanager/model/bl_account.py:254
 #, python-format
 msgid "Skipped existing user %s"
 msgstr "既存のユーザ%sをスキップしました"
 
-#: resourcemanager/model/bl_account.py:256
+#: resourcemanager/model/bl_account.py:258
 #, python-format
 msgid ""
 "Invalid CSV file on line: %d. User email for the new user cannot be "
 "empty. Found %d: %s"
 msgstr "行: %dのCSVファイルが無効です。 新規ユーザのユーザ電子メールを空にすることはできません。 %d: %sが見つかりました"
 
-#: resourcemanager/model/bl_account.py:265
+#: resourcemanager/model/bl_account.py:267
 #, python-format
 msgid "Created a new user %s with group membership: %s"
 msgstr "新規ユーザ%s(グループメンバーシップ:%s)を作成しました"
@@ -911,12 +930,9 @@ msgstr "ジョブマネージャのヘルプ"
 msgid "Help Link:"
 msgstr "ヘルプのリンク:"
 
-#: resourcemanager/templates/about.xhtml:24
-msgid ""
-"\n"
-"                                Job Manager Documentation\n"
-"                            "
-msgstr "\n                                ジョブマネージャドキュメンテーション\n                            "
+#: resourcemanager/templates/about.xhtml:25
+msgid "Job Manager Documentation"
+msgstr "ジョブマネージャドキュメンテーション"
 
 #: resourcemanager/templates/about.xhtml:35
 msgid "Job Manager Version"
@@ -958,6 +974,11 @@ msgstr "エラーが発生しました"
 msgid "Error "
 msgstr "エラー "
 
+#: resourcemanager/templates/index.xhtml:3
+#: resourcemanager/templates/master.xhtml:23
+msgid "STAR-CCM+ Job Manager"
+msgstr "STAR-CCM+ ジョブマネージャ"
+
 #: resourcemanager/templates/login.xhtml:3
 #: resourcemanager/templates/login.xhtml:14
 #: resourcemanager/templates/login.xhtml:40
@@ -970,13 +991,11 @@ msgid "Username"
 msgstr "ユーザー名"
 
 #: resourcemanager/templates/login.xhtml:33
-msgid ""
-" remember me\n"
-"                        "
-msgstr " 記憶する\n                        "
+msgid "remember me"
+msgstr "記憶する"
 
 #: resourcemanager/templates/login.xhtml:45
-msgid "If you forgot you password you can reset it "
+msgid "If you forgot you password you can reset it"
 msgstr "パスワードを忘れた場合は、"
 
 #: resourcemanager/templates/login.xhtml:46
@@ -1000,11 +1019,9 @@ msgstr "ナビゲーションの切換え"
 msgid "Simcenter STAR-CCM+ Job Manager"
 msgstr "Simcenter STAR-CCM+ ジョブマネージャ"
 
-#: resourcemanager/templates/master.xhtml:37
-msgid ""
-"\n"
-"                    Admin"
-msgstr "\n                    管理"
+#: resourcemanager/templates/master.xhtml:38
+msgid "Admin"
+msgstr "管理"
 
 #: resourcemanager/templates/master.xhtml:41
 msgid "Admin Home"
@@ -1014,21 +1031,17 @@ msgstr "管理ホーム"
 msgid "Bulk Users Import"
 msgstr "バルクユーザインポート"
 
-#: resourcemanager/templates/master.xhtml:55
-msgid ""
-"\n"
-"                    Help"
-msgstr "\n                    ヘルプ"
+#: resourcemanager/templates/master.xhtml:56
+msgid "Help"
+msgstr "ヘルプ"
 
 #: resourcemanager/templates/master.xhtml:59
 msgid "About"
 msgstr "バージョン情報"
 
-#: resourcemanager/templates/master.xhtml:67
-msgid ""
-"\n"
-"                    Account"
-msgstr "\n                    アカウント"
+#: resourcemanager/templates/master.xhtml:68
+msgid "Account"
+msgstr "アカウント"
 
 #: resourcemanager/templates/master.xhtml:75
 msgid "Logout"
@@ -1062,10 +1075,4 @@ msgstr " - 新規作成 "
 #: resourcemanager/templates/tw2/form_page.xhtml:3
 msgid "STAR-CCM+ Job Manager - "
 msgstr "STAR-CCM+ ジョブマネージャ -"
-
-#~ msgid "Application Config"
-#~ msgstr ""
-
-#~ msgid "Queue Name"
-#~ msgstr ""
 
