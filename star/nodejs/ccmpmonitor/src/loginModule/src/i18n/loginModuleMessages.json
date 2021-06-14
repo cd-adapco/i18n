@@ -1,0 +1,10 @@
+{
+    "pageTitle": "Login",
+    "loginButtonTitle": "Login",
+    "username": "Username",
+    "password": "Password",
+    "logout": "Logout",
+    "logoutConfirmationMessage": "Are you sure you want to logout?",
+    "cancelText": "Cancel",
+    "sessionExpiredMessage": "You're seeing this message because you have been automatically logged out.\nYou can close this Job Manager window at any time."
+}
