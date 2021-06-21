@@ -1,0 +1,10 @@
+{
+    "pageTitle": "登录",
+    "loginButtonTitle": "登录",
+    "username": "用户名",
+    "password": "密码",
+    "logout": "退出",
+    "logoutConfirmationMessage": "是否确定要退出？",
+    "cancelText": "取消",
+    "sessionExpiredMessage": "您看到此消息的原因是您已自动注销。\n您随时可以关闭此作业管理器窗口。"
+}
