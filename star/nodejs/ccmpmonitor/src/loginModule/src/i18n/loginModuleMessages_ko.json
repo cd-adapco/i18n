@@ -1,0 +1,10 @@
+{
+    "pageTitle": "로그인",
+    "loginButtonTitle": "로그인",
+    "username": "사용자 이름",
+    "password": "암호",
+    "logout": "로그아웃",
+    "logoutConfirmationMessage": "로그아웃하시겠습니까?",
+    "cancelText": "취소",
+    "sessionExpiredMessage": "사용자가 자동으로 로그아웃되었기 때문에 이 메시지가 표시됩니다.\n이 Job Manager 창은 언제든지 닫을 수 있습니다."
+}
