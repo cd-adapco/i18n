@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: English (en)
+# External strings for locale: Korean (ko)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -19,7 +19,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Thu Mar 05 14:19:23 PST 2020
+# Generated:    Tue Jul 13 13:40:40 PDT 2021
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -232,13 +232,13 @@ GetUserInput.2077f0c7889e.prompt=라이선스 서버 소프트웨어에 액세�
 # GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
 GetUserInput.2077f0c7889e.title=FlexNet 라이선스 서버 구성
 
-# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInput.2077f0c888b2.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되었습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 다른 것으로 변경하려면 제공된 이름을 수정하십시오.
 
 # GetUserInput.2077f0c888b2.title=Service Configuration 
 GetUserInput.2077f0c888b2.title=서비스 구성 
 
-# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.39b459359a2b.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되어 있습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열되어 있습니다.\n\n
 
 # GetUserInput.39b459359a2b.title=Service Configuration 
@@ -262,7 +262,7 @@ GetUserInputConsole.3479ecd19ef9.prompt=이전에 이메일을 통해 _COMPANY_N
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=라이선스 파일 이름 선택
 
-# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInputConsole.34a73bdd9025.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되었습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 다른 것으로 변경하려면 제공된 이름을 수정하십시오.
 
 # GetUserInputConsole.34a73bdd9025.title=Service Name Configuration
@@ -286,7 +286,7 @@ GetUserInputConsole.39bf55a39e93.prompt=지금 $SERVICE_NAME$ License Server Man
 # GetUserInputConsole.39bf55a39e93.title=Stop the Server
 GetUserInputConsole.39bf55a39e93.title=서버 중지
 
-# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n
+# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n
 GetUserInputConsole.39dc75c28e78.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 되어 있습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열되어 있습니다.\n
 
 # GetUserInputConsole.39dc75c28e78.title=Service Name Configuration
@@ -413,10 +413,10 @@ InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$을(를) 어디에 설
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=설치 위치 선택
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=라이선스 파일 선택
+Installer.ad1a5eebb6d5.installLabels.00=파일 선택
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=라이선스 서버 업데이트 
+Installer.ad1a5eebb6d5.installLabels.01=사용자 입력 가져오기
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
 Installer.ad1a5eebb6d5.installLabels.02=서비스 구성 
@@ -434,13 +434,13 @@ Installer.ad1a5eebb6d5.installLabels.05=설치 완료
 Installer.ad1a5eebb6d5.installLabels.06=소개
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=FlexNet 라이선스 서버 구성
+Installer.ad1a5eebb6d5.installLabels.07=사용자 입력 가져오기
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=서비스 구성 
+Installer.ad1a5eebb6d5.installLabels.08=사용자 입력 가져오기
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=설치 위치 선택
+Installer.ad1a5eebb6d5.installLabels.09=설치 폴더 선택
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
 Installer.ad1a5eebb6d5.installLabels.10=라이선스 파일 선택
@@ -514,7 +514,7 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 # InstallerInfoData.ad1a6005b7f8.supportURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+# InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
 InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
@@ -598,25 +598,25 @@ InstallSummaryConsole.ad1a5fa6b72b.title=사전 설치 요약
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
 InstallUninstaller.ad1a6042b859.destinationName=$PRODUCT_NAME$ 제거
 
-# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
 IntroAction.102ce4b4ba3c.message=설치 마법사가 $INSTALLER_TITLE$의 설치를 안내합니다. \n\n이 설치 프로그램을 실행하려면 관리 권한이 필요합니다.\n\n현재 실행 중인 라이선스 서버를 중지해야 합니다. 또한 Windows 서비스로 설치된 라이선스 서버를 중지하고 해당 서비스를 제거해야 합니다.\n\n'다음 '버튼을 클릭하면 다음 화면으로 진행됩니다. 이전 화면의 어떤 사항을 변경하려면 '이전' 버튼을 클릭하십시오.\n\n언제든지 '취소' 버튼을 눌러 설치를 취소할 수 있습니다.
 
 # IntroAction.102ce4b4ba3c.stepTitle=Introduction
 IntroAction.102ce4b4ba3c.stepTitle=소개
 
-# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
+# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
 IntroAction.ad1a5eecb6e5.message=설치 마법사가 $INSTALLER_TITLE$의 설치를 안내합니다. \n\n'다음 '버튼을 클릭하면 다음 화면으로 진행됩니다. 이전 화면의 어떤 사항을 변경하려면 '이전' 버튼을 클릭하십시오\n\n언제든지 '취소' 버튼을 눌러 설치를 취소할 수 있습니다.
 
 # IntroAction.ad1a5eecb6e5.stepTitle=Introduction
 IntroAction.ad1a5eecb6e5.stepTitle=소개
 
-# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.1033584988cf.message=설치 마법사가 $PRODUCT_NAME$의 설치를 안내합니다. \n\n이 설치 프로그램을 실행하려면 관리 권한이 필요합니다.\n\n현재 실행 중인 라이선스 서버를 중지해야 합니다. 또한 Windows 서비스로 설치된 라이선스 서버를 중지하고 해당 서비스를 제거해야 합니다.\n\n설치 중에 각각의 물음에 대답하여 다음 단계로 이동하십시오. 이전 단계의 어떤 사항을 변경하려면 'back'을 입력하십시오.\n\n언제든지 'quit'를 입력하여 이 설치를 취소할 수 있습니다.
 
 # IntroActionConsole.1033584988cf.title=Introduction
 IntroActionConsole.1033584988cf.title=소개
 
-# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.ad1a5eecb6e8.message=설치 마법사가 $PRODUCT_NAME$의 설치를 안내합니다. \n\n설치 중에 각각의 물음에 대답하여 다음 단계로 이동하십시오. 이전 단계의 어떤 사항을 변경하려면 'back'을 입력하십시오. \n\n'언제든지 'quit'를 입력하여 이 설치를 취소할 수 있습니다.
 
 # IntroActionConsole.ad1a5eecb6e8.title=Introduction
@@ -679,7 +679,7 @@ PromptUserConsole.1059efcb80b7.option2Label=세부 정보...
 # PromptUserConsole.1059efcb80b7.title=Error
 PromptUserConsole.1059efcb80b7.title=오류
 
-# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license directory.
 PromptUserConsole.3478cd8998db.message=디렉터리 $CON_LIC_FILE_DIR_1$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 디렉터리를 다시 선택하려면 이전을 선택하십시오.
 
 # PromptUserConsole.3478cd8998db.option0Label=Next
@@ -694,7 +694,7 @@ PromptUserConsole.3478cd8998db.option2Label=세부 정보...
 # PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
 PromptUserConsole.3478cd8998db.title=오류: 잘못된 라이선스 디렉터리 
 
-# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license filename.
 PromptUserConsole.347acbcaa515.message=디렉터리 파일 $NEW_LIC_FILE_1$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일 이름을 다시 선택하려면 이전을 선택하십시오.
 
 # PromptUserConsole.347acbcaa515.option0Label=Next
@@ -724,7 +724,7 @@ PromptUserConsole.347b73c3ab4b.option2Label=세부 정보...
 # PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
 PromptUserConsole.347b73c3ab4b.title=오류: 잘못된 라이선스 파일
 
-# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 PromptUserConsole.347bf180b183.message=파일 $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # PromptUserConsole.347bf180b183.option0Label=Next
@@ -859,7 +859,7 @@ PromptUserConsole.ad1a5fa7b724.option2Label=세부 정보...
 # PromptUserConsole.ad1a5fa7b724.title=Error
 PromptUserConsole.ad1a5fa7b724.title=오류
 
-# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 PromptUserConsole.ad1a6014b809.message=관리자가 아닌 계정에서 제거를 수행할 수 없으며, 제거 프로세스가 중단됩니다. \n관리자 권한으로 제거 프로그램을 실행하십시오.
 
 # PromptUserConsole.ad1a6014b809.option0Label=OK
@@ -887,7 +887,7 @@ ShowDialogAction.109444a18da8.detailsButtonLabel=세부 정보...
 ShowDialogAction.109444a18da8.label=이미 FlexNet 라이선스 서버 관리자가 설치되어 있습니다. 덮어쓰시겠습니까? 
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative= 
+ShowDialogAction.109444a18da8.narrative=
 
 # ShowDialogAction.109444a18da8.title=Error
 ShowDialogAction.109444a18da8.title=오류
@@ -905,7 +905,7 @@ ShowDialogAction.1094478f8dad.detailsButtonLabel=세부 정보...
 ShowDialogAction.1094478f8dad.label=이미 FlexNet 라이선스 서버 관리자가 설치되어 있습니다. 덮어쓰시겠습니까?
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative= 
+ShowDialogAction.1094478f8dad.narrative=
 
 # ShowDialogAction.1094478f8dad.title=Error
 ShowDialogAction.1094478f8dad.title=오류
@@ -958,7 +958,7 @@ ShowDialogAction.2077f0c788a4.detailsButtonLabel=세부 정보...
 # ShowDialogAction.2077f0c788a4.label=Invalid license file.
 ShowDialogAction.2077f0c788a4.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
 ShowDialogAction.2077f0c788a4.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
 
 # ShowDialogAction.2077f0c788a4.title=ERROR
@@ -994,7 +994,7 @@ ShowDialogAction.2077f0c888a7.detailsButtonLabel=세부 정보...
 # ShowDialogAction.2077f0c888a7.label=Invalid license file.
 ShowDialogAction.2077f0c888a7.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.2077f0c888a7.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.2077f0c888a7.title=ERROR
@@ -1121,7 +1121,7 @@ ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=세부 정보...
 ShowDialogAction.ad1a5f0ab714.label=이전 설치 경고 $PREVIOUS_INSTALLATION_PATH$\\conf 폴더에 server.xml 파일이 없습니다. 이전 설치에서 구성 데이터 및 판매업체 데몬을 가져오려면 이전 설치 디렉터리를 지정하십시오.
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative= 
+ShowDialogAction.ad1a5f0ab714.narrative=
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
 ShowDialogAction.ad1a5f0ab714.title=Windows 오류
@@ -1139,7 +1139,7 @@ ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=세부 정보...
 ShowDialogAction.ad1a5f1bb71e.label=이전 설치 경고 $PREVIOUS_INSTALLATION_PATH$\\conf 폴더에 server.xml 파일이 없습니다. 이전 설치에서 구성 데이터 및 판매업체 데몬을 가져오려면 이전 설치 디렉터리를 지정하십시오.
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative= 
+ShowDialogAction.ad1a5f1bb71e.narrative=
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
 ShowDialogAction.ad1a5f1bb71e.title=오류
@@ -1156,7 +1156,7 @@ ShowDialogAction.ad1a6014b806.detailsButtonLabel=세부 정보...
 # ShowDialogAction.ad1a6014b806.label=No Administrative Privileges
 ShowDialogAction.ad1a6014b806.label=관리 권한 없음
 
-# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 ShowDialogAction.ad1a6014b806.narrative=관리자가 아닌 계정에서 제거를 수행할 수 없으며, 제거 프로세스가 중단됩니다. \n관리자 권한으로 제거 프로그램을 실행하십시오.
 
 # ShowDialogAction.ad1a6014b806.title=Error
@@ -1216,13 +1216,13 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$을(를
 # UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
 UninstallCompleteActionConsole.ad1a6034b834.title=제거 완료
 
-# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$ \n
+# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$\n
 UninstallIntroAction.ad1a6014b7ff.message=곧 제거합니다...\n\n$INSTALLER_TITLE$ \n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.ad1a6014b7ff.stepTitle=$INSTALLER_TITLE$ 제거
 
-# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ \n
+# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$\n
 UninstallIntroActionConsole.ad1a6014b801.message=곧 제거합니다...\n\n$PRODUCT_NAME$ \n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$

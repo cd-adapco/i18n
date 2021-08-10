@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: English (en)
+# External strings for locale: Chinese (China) (zh_CN)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -19,7 +19,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Thu Mar 05 14:19:23 PST 2020
+# Generated:    Tue Jul 13 13:40:39 PDT 2021
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -232,13 +232,13 @@ GetUserInput.2077f0c7889e.prompt=要访问许可证服务器软件，您的电�
 # GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
 GetUserInput.2077f0c7889e.title=FlexNet 许可证服务器配置
 
-# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInput.2077f0c888b2.prompt=您现在可以设置许可证管理器服务。\n\n当前的服务名称如下所示。\n\n如果您想将服务名称更改为其他名称，请修改提供的名称。
 
 # GetUserInput.2077f0c888b2.title=Service Configuration 
 GetUserInput.2077f0c888b2.title=服务配置
 
-# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.39b459359a2b.prompt=您现在可以设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n\n
 
 # GetUserInput.39b459359a2b.title=Service Configuration 
@@ -262,7 +262,7 @@ GetUserInputConsole.3479ecd19ef9.prompt=请输入许可证文件名，您之前�
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=选择许可证文件名
 
-# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInputConsole.34a73bdd9025.prompt=您现在可以设置许可证管理器服务。\n\n当前的服务名称如下所示。\n\n如果您想将服务名称更改为其他名称，请修改提供的名称。
 
 # GetUserInputConsole.34a73bdd9025.title=Service Name Configuration
@@ -286,7 +286,7 @@ GetUserInputConsole.39bf55a39e93.prompt=想要立即停止并移除 $SERVICE_NAM
 # GetUserInputConsole.39bf55a39e93.title=Stop the Server
 GetUserInputConsole.39bf55a39e93.title=停止服务器
 
-# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n
+# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n
 GetUserInputConsole.39dc75c28e78.prompt=您现在可以设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n
 
 # GetUserInputConsole.39dc75c28e78.title=Service Name Configuration
@@ -413,10 +413,10 @@ InstallDirActionConsole.ad1a5efab6fc.prompt=想要在哪里安装 $PRODUCT_NAME$
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=选择安装位置
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=选择许可证文件
+Installer.ad1a5eebb6d5.installLabels.00=选择文件
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=更新许可证服务器
+Installer.ad1a5eebb6d5.installLabels.01=获取用户输入
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
 Installer.ad1a5eebb6d5.installLabels.02=服务配置
@@ -431,16 +431,16 @@ Installer.ad1a5eebb6d5.installLabels.04=正在安装...
 Installer.ad1a5eebb6d5.installLabels.05=安装完成
 
 # Installer.ad1a5eebb6d5.installLabels.06=Introduction
-Installer.ad1a5eebb6d5.installLabels.06=介绍
+Installer.ad1a5eebb6d5.installLabels.06=简介
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=FlexNet 许可证服务器配置
+Installer.ad1a5eebb6d5.installLabels.07=获取用户输入
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=服务配置
+Installer.ad1a5eebb6d5.installLabels.08=获取用户输入
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=选择安装位置
+Installer.ad1a5eebb6d5.installLabels.09=选择安装文件夹
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
 Installer.ad1a5eebb6d5.installLabels.10=选择许可证文件
@@ -514,7 +514,7 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 # InstallerInfoData.ad1a6005b7f8.supportURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+# InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
 InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
@@ -598,25 +598,25 @@ InstallSummaryConsole.ad1a5fa6b72b.title=预安装摘要
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
 InstallUninstaller.ad1a6042b859.destinationName=卸载 $PRODUCT_NAME$
 
-# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
 IntroAction.102ce4b4ba3c.message=安装程序向导将指引您完成 $INSTALLER_TITLE$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows 服务安装的任何许可证服务器并移除这些服务\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
 
 # IntroAction.102ce4b4ba3c.stepTitle=Introduction
 IntroAction.102ce4b4ba3c.stepTitle=介绍
 
-# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
+# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
 IntroAction.ad1a5eecb6e5.message=安装程序向导将指引您完成 $INSTALLER_TITLE$ 的安装\n\n单击“下一步”按钮继续前往下一个屏幕。如果您要更改上一个屏幕中的任何内容，请单击“上一步”按钮。\n\n您可以通过单击“取消”按钮随时取消此安装。
 
 # IntroAction.ad1a5eecb6e5.stepTitle=Introduction
 IntroAction.ad1a5eecb6e5.stepTitle=介绍
 
-# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.1033584988cf.message=安装程序向导将指引您完成 $PRODUCT_NAME$ 的安装\n\n您必须具有管理员权限才能运行此安装程序\n\n您必须停止当前正在运行的任何许可证服务器。您还必须停止已作为 Windows S服务安装的任何许可证服务器并移除这些服务\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“退出”按钮随时取消此安装。
 
 # IntroActionConsole.1033584988cf.title=Introduction
 IntroActionConsole.1033584988cf.title=介绍
 
-# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.ad1a5eecb6e8.message=安装程序向导将指引您完成 $PRODUCT_NAME$ 的安装\n\n对每个提示作出响应继续前往安装的下一步。如果您要更改上一步中的任何内容，请输入“返回”。\n\n您可以通过单击“退出”按钮随时取消此安装。
 
 # IntroActionConsole.ad1a5eecb6e8.title=Introduction
@@ -679,7 +679,7 @@ PromptUserConsole.1059efcb80b7.option2Label=详情...
 # PromptUserConsole.1059efcb80b7.title=Error
 PromptUserConsole.1059efcb80b7.title=错误
 
-# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license directory.
 PromptUserConsole.3478cd8998db.message=目录 $CON_LIC_FILE_DIR_1$ 不存在。  \n\n请输入“下一步”继续或输入“上一步”来重新选择您的许可证目录。
 
 # PromptUserConsole.3478cd8998db.option0Label=Next
@@ -694,7 +694,7 @@ PromptUserConsole.3478cd8998db.option2Label=详情...
 # PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
 PromptUserConsole.3478cd8998db.title=错误：许可证目录无效
 
-# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license filename.
 PromptUserConsole.347acbcaa515.message=许可证文件 $NEW_LIC_FILE_1$ 不存在。  \n\n请输入“下一步”继续或输入“上一步”来重新选择您的许可证文件名。
 
 # PromptUserConsole.347acbcaa515.option0Label=Next
@@ -724,7 +724,7 @@ PromptUserConsole.347b73c3ab4b.option2Label=详情...
 # PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
 PromptUserConsole.347b73c3ab4b.title=错误：许可证文件无效。
 
-# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 PromptUserConsole.347bf180b183.message=未针对具有当前 mac 地址的服务器配置文件 $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # PromptUserConsole.347bf180b183.option0Label=Next
@@ -859,7 +859,7 @@ PromptUserConsole.ad1a5fa7b724.option2Label=详情...
 # PromptUserConsole.ad1a5fa7b724.title=Error
 PromptUserConsole.ad1a5fa7b724.title=错误
 
-# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 PromptUserConsole.ad1a6014b809.message=在非管理员帐户下无法执行卸载，卸载流程中断。\n请使用管理员权限运行卸载程序
 
 # PromptUserConsole.ad1a6014b809.option0Label=OK
@@ -887,7 +887,7 @@ ShowDialogAction.109444a18da8.detailsButtonLabel=详情...
 ShowDialogAction.109444a18da8.label=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative= 
+ShowDialogAction.109444a18da8.narrative=
 
 # ShowDialogAction.109444a18da8.title=Error
 ShowDialogAction.109444a18da8.title=错误
@@ -905,7 +905,7 @@ ShowDialogAction.1094478f8dad.detailsButtonLabel=详情...
 ShowDialogAction.1094478f8dad.label=已经安装有 FlexNet 许可证服务器管理器。您要覆盖吗？
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative= 
+ShowDialogAction.1094478f8dad.narrative=
 
 # ShowDialogAction.1094478f8dad.title=Error
 ShowDialogAction.1094478f8dad.title=错误
@@ -958,7 +958,7 @@ ShowDialogAction.2077f0c788a4.detailsButtonLabel=详情...
 # ShowDialogAction.2077f0c788a4.label=Invalid license file.
 ShowDialogAction.2077f0c788a4.label=许可证文件无效。
 
-# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
 ShowDialogAction.2077f0c788a4.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
 
 # ShowDialogAction.2077f0c788a4.title=ERROR
@@ -994,7 +994,7 @@ ShowDialogAction.2077f0c888a7.detailsButtonLabel=详情...
 # ShowDialogAction.2077f0c888a7.label=Invalid license file.
 ShowDialogAction.2077f0c888a7.label=许可证文件无效。
 
-# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.2077f0c888a7.narrative=未针对具有当前 mac 地址的服务器配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.2077f0c888a7.title=ERROR
@@ -1121,7 +1121,7 @@ ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=详情...
 ShowDialogAction.ad1a5f0ab714.label=以前安装路径 $PREVIOUS_INSTALLATION_PATH$\\conf 文件夹未包含 server.xml 文件。如果您要从以前安装路径导入配置数据和供应商守护程序，请指向以前安装的目录。
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative= 
+ShowDialogAction.ad1a5f0ab714.narrative=
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
 ShowDialogAction.ad1a5f0ab714.title=Windows 错误
@@ -1139,7 +1139,7 @@ ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=详情...
 ShowDialogAction.ad1a5f1bb71e.label=以前安装路径 $PREVIOUS_INSTALLATION_PATH$/conf 文件夹未包含 server.xml 文件。如果您要从以前安装路径导入配置数据和供应商守护程序，请指向以前安装的目录。
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative= 
+ShowDialogAction.ad1a5f1bb71e.narrative=
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
 ShowDialogAction.ad1a5f1bb71e.title=错误
@@ -1156,7 +1156,7 @@ ShowDialogAction.ad1a6014b806.detailsButtonLabel=详情...
 # ShowDialogAction.ad1a6014b806.label=No Administrative Privileges
 ShowDialogAction.ad1a6014b806.label=无管理员权限
 
-# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 ShowDialogAction.ad1a6014b806.narrative=在非管理员帐户下无法执行卸载，卸载流程中断。\n请使用管理员权限运行卸载程序
 
 # ShowDialogAction.ad1a6014b806.title=Error
@@ -1216,13 +1216,13 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=无法卸载 $PRODUCT
 # UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
 UninstallCompleteActionConsole.ad1a6034b834.title=卸载完成
 
-# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$ \n
+# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$\n
 UninstallIntroAction.ad1a6014b7ff.message=即将卸载...\n\n$INSTALLER_TITLE$ \n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.ad1a6014b7ff.stepTitle=卸载 $INSTALLER_TITLE$
 
-# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ \n
+# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$\n
 UninstallIntroActionConsole.ad1a6014b801.message=即将卸载...\n\n$PRODUCT_NAME$ \n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$

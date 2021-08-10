@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: English (en)
+# External strings for locale: Japanese (ja)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -19,7 +19,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Thu Mar 05 14:19:23 PST 2020
+# Generated:    Tue Jul 13 13:40:40 PDT 2021
 
 
 # ASCIIFileManipulator.1faba93ebf1e.additionalText=
@@ -232,13 +232,13 @@ GetUserInput.2077f0c7889e.prompt=ライセンスサーバーソフトウェア�
 # GetUserInput.2077f0c7889e.title=FlexNet License Server Configuration
 GetUserInput.2077f0c7889e.title=FlexNetライセンスサーバー構成
 
-# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInput.2077f0c888b2.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInput.2077f0c888b2.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。
 
 # GetUserInput.2077f0c888b2.title=Service Configuration 
 GetUserInput.2077f0c888b2.title=サービス構成 
 
-# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+# GetUserInput.39b459359a2b.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.39b459359a2b.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n\n
 
 # GetUserInput.39b459359a2b.title=Service Configuration 
@@ -262,7 +262,7 @@ GetUserInputConsole.3479ecd19ef9.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_から電�
 # GetUserInputConsole.3479ecd19ef9.title=Select license filename
 GetUserInputConsole.3479ecd19ef9.title=ライセンスファイル名を選択
 
-# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
+# GetUserInputConsole.34a73bdd9025.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.
 GetUserInputConsole.34a73bdd9025.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\n現在のサービス名は以下に示されています。\n\nサービス名を他の名前に変更するには、指定されている名前を変更してください。
 
 # GetUserInputConsole.34a73bdd9025.title=Service Name Configuration
@@ -286,7 +286,7 @@ GetUserInputConsole.39bf55a39e93.prompt=$SERVICE_NAME$のライセンスサー�
 # GetUserInputConsole.39bf55a39e93.title=Stop the Server
 GetUserInputConsole.39bf55a39e93.title=サーバーを停止
 
-# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n
+# GetUserInputConsole.39dc75c28e78.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n
 GetUserInputConsole.39dc75c28e78.prompt=ライセンスマネージャーサービスのセットアップの準備ができました。\n\nこのサービスには名前が必要です。デフォルト名は以下に示されています。\n
 
 # GetUserInputConsole.39dc75c28e78.title=Service Name Configuration
@@ -377,7 +377,7 @@ GUIGroupData.ad1a5f0ab70c.caption=
 GUIGroupData.ad1a5f0ab70e.caption=
 
 # Help.ad1a5eecb6e6.helpText=\n\n
-Help.ad1a5eecb6e6.helpText=\  \n \n
+Help.ad1a5eecb6e6.helpText=\n \n
 
 # Help.ad1a5eecb6e6.title=
 Help.ad1a5eecb6e6.title=
@@ -413,16 +413,16 @@ InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$をインストール�
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=インストールフォルダを選択
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=ライセンスファイルを選択
+Installer.ad1a5eebb6d5.installLabels.00=ファイルを選択
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=ライセンスサーバーを更新
+Installer.ad1a5eebb6d5.installLabels.01=ユーザー入力を取得
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
 Installer.ad1a5eebb6d5.installLabels.02=サービス構成 
 
 # Installer.ad1a5eebb6d5.installLabels.03=Pre-Installation Summary
-Installer.ad1a5eebb6d5.installLabels.03=プリインストールの要約
+Installer.ad1a5eebb6d5.installLabels.03=インストール前の要約
 
 # Installer.ad1a5eebb6d5.installLabels.04=Installing...
 Installer.ad1a5eebb6d5.installLabels.04=インストール中...
@@ -431,16 +431,16 @@ Installer.ad1a5eebb6d5.installLabels.04=インストール中...
 Installer.ad1a5eebb6d5.installLabels.05=インストール完了
 
 # Installer.ad1a5eebb6d5.installLabels.06=Introduction
-Installer.ad1a5eebb6d5.installLabels.06=はじめに
+Installer.ad1a5eebb6d5.installLabels.06=開始画面
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=FlexNetライセンスサーバー構成
+Installer.ad1a5eebb6d5.installLabels.07=ユーザー入力を取得
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=サービス構成 
+Installer.ad1a5eebb6d5.installLabels.08=ユーザー入力を取得
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=インストールフォルダを選択
+Installer.ad1a5eebb6d5.installLabels.09=インストール フォルダーを選択
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
 Installer.ad1a5eebb6d5.installLabels.10=ライセンスファイルを選択
@@ -514,7 +514,7 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 # InstallerInfoData.ad1a6005b7f8.supportURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
-# InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+# InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
 InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
@@ -598,25 +598,25 @@ InstallSummaryConsole.ad1a5fa6b72b.title=プリインストールの要約
 # InstallUninstaller.ad1a6042b859.destinationName=Uninstall $PRODUCT_NAME$
 InstallUninstaller.ad1a6042b859.destinationName=$PRODUCT_NAME$をアンインストール
 
-# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
+# IntroAction.102ce4b4ba3c.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button.
 IntroAction.102ce4b4ba3c.message=インストーラー･ウィザードに、$INSTALLER_TITLE$のインストール手順が説明されます。\n\nこのインストーラーを実行するには管理者権限が必要です。\n\n現在実行中のライセンスサーバーは停止する必要があります。また Windows サービスとしてインストールされているライセンスサーバーがあれば停止して、それらのサービスを削除する必要があります。\n\n[次へ]ボタンをクリックして次の画面に進みます。前の画面で変更を行なう必要がある場合は、[戻る]ボタンをクリックします。\n\n[キャンセル]ボタンをクリックすると、このインストールをいつでもキャンセルすることができます。
 
 # IntroAction.102ce4b4ba3c.stepTitle=Introduction
 IntroAction.102ce4b4ba3c.stepTitle=はじめに
 
-# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$ \n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
+# IntroAction.ad1a5eecb6e5.message=The installer wizard will guide you through the installation of the $INSTALLER_TITLE$\n\nClick the 'Next' button to proceed to the next screen. If you want to change something on a previous screen, click the 'Previous' button.\n\nYou may cancel this installation at any time by clicking the 'Cancel' button
 IntroAction.ad1a5eecb6e5.message=インストーラー･ウィザードに、$INSTALLER_TITLE$のインストール手順が説明されます。\n\n[次へ]ボタンをクリックして次の画面に進みます。前の画面で変更を行なう必要がある場合は、[戻る]ボタンをクリックします。\n\n[キャンセル]ボタンをクリックすると、このインストールをいつでもキャンセルすることができます。
 
 # IntroAction.ad1a5eecb6e5.stepTitle=Introduction
 IntroAction.ad1a5eecb6e5.stepTitle=はじめに
 
-# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.1033584988cf.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nYou need to have admin privileges to run this installer\n\nYou need to stop any current running License server. You also need to stop any License Servers installed as Windows Services and remove those services\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.1033584988cf.message=インストーラー･ウィザードに、$PRODUCT_NAME$のインストール手順が説明されます。\n\nこのインストーラーを実行するには管理者権限が必要です。\n\n現在実行中のライセンスサーバーは停止する必要があります。また Windows サービスとしてインストールされているライセンスサーバーがあれば停止して、それらのサービスを削除する必要があります。\n\n各プロンプトに応答してインストールの次のステップに進みます。前の画面で変更を行なう必要がある場合は、「戻る」と入力します。\n\n「終了」と入力すると、このインストールをいつでもキャンセルすることができます。
 
 # IntroActionConsole.1033584988cf.title=Introduction
 IntroActionConsole.1033584988cf.title=はじめに
 
-# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$ \n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
+# IntroActionConsole.ad1a5eecb6e8.message=The installer wizard will guide you through the installation of the $PRODUCT_NAME$\n\nRespond to each prompt to proceed to the next step in the installation.  If you want to change something on a previous step, type 'back'.\n\nYou may cancel this installation at any time by typing 'quit'.
 IntroActionConsole.ad1a5eecb6e8.message=インストーラー･ウィザードに、$PRODUCT_NAME$のインストール手順が説明されます。\n\n各プロンプトに応答してインストールの次のステップに進みます。前の画面で変更を行なう必要がある場合は、「戻る」と入力します。\n\n「終了」と入力すると、このインストールをいつでもキャンセルすることができます。
 
 # IntroActionConsole.ad1a5eecb6e8.title=Introduction
@@ -679,7 +679,7 @@ PromptUserConsole.1059efcb80b7.option2Label=詳細...
 # PromptUserConsole.1059efcb80b7.title=Error
 PromptUserConsole.1059efcb80b7.title=エラー
 
-# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license directory.
+# PromptUserConsole.3478cd8998db.message=The  directory $CON_LIC_FILE_DIR_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license directory.
 PromptUserConsole.3478cd8998db.message=ディレクトリ $CON_LIC_FILE_DIR_1$ は存在しません。\n\n［次へ］と入力して操作を続けるか、［戻る］と入力してライセンスディレクトリを選択し直してください。
 
 # PromptUserConsole.3478cd8998db.option0Label=Next
@@ -694,7 +694,7 @@ PromptUserConsole.3478cd8998db.option2Label=詳細...
 # PromptUserConsole.3478cd8998db.title=ERROR: Invalid license directory 
 PromptUserConsole.3478cd8998db.title=エラー: 無効なライセンスディレクトリ
 
-# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.  \n\nPlease enter Next to continue or Previous to reselect your license filename.
+# PromptUserConsole.347acbcaa515.message=The  license file $NEW_LIC_FILE_1$ does not exist.\n\nPlease enter Next to continue or Previous to reselect your license filename.
 PromptUserConsole.347acbcaa515.message=ライセンスファイル $NEW_LIC_FILE_1$ は存在しません。\n\n［次へ］と入力して操作を続けるか、［戻る］と入力してライセンスファイル名を選択し直してください。
 
 # PromptUserConsole.347acbcaa515.option0Label=Next
@@ -724,7 +724,7 @@ PromptUserConsole.347b73c3ab4b.option2Label=詳細...
 # PromptUserConsole.347b73c3ab4b.title=ERROR : Invalid license file.
 PromptUserConsole.347b73c3ab4b.title=エラー: 無効なライセンスファイル
 
-# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# PromptUserConsole.347bf180b183.message=The  file $CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 PromptUserConsole.347bf180b183.message=ファイル$CON_LIC_FILE_DIR_1$\\$NEW_LIC_FILE_1$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択してライセンスファイルを選択し直してください。
 
 # PromptUserConsole.347bf180b183.option0Label=Next
@@ -859,7 +859,7 @@ PromptUserConsole.ad1a5fa7b724.option2Label=詳細...
 # PromptUserConsole.ad1a5fa7b724.title=Error
 PromptUserConsole.ad1a5fa7b724.title=エラー
 
-# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# PromptUserConsole.ad1a6014b809.message=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 PromptUserConsole.ad1a6014b809.message=管理者以外のアカウントでアンインストールを実行することはできません。アンインストールプロセスを中断します。\n管理者権限を持つアカウントでアンインストーラを実行してください
 
 # PromptUserConsole.ad1a6014b809.option0Label=OK
@@ -887,7 +887,7 @@ ShowDialogAction.109444a18da8.detailsButtonLabel=詳細...
 ShowDialogAction.109444a18da8.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか?
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative= 
+ShowDialogAction.109444a18da8.narrative=
 
 # ShowDialogAction.109444a18da8.title=Error
 ShowDialogAction.109444a18da8.title=エラー
@@ -905,7 +905,7 @@ ShowDialogAction.1094478f8dad.detailsButtonLabel=詳細...
 ShowDialogAction.1094478f8dad.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか?
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative= 
+ShowDialogAction.1094478f8dad.narrative=
 
 # ShowDialogAction.1094478f8dad.title=Error
 ShowDialogAction.1094478f8dad.title=エラー
@@ -958,7 +958,7 @@ ShowDialogAction.2077f0c788a4.detailsButtonLabel=詳細...
 # ShowDialogAction.2077f0c788a4.label=Invalid license file.
 ShowDialogAction.2077f0c788a4.label=無効なライセンスファイルです。
 
-# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+# ShowDialogAction.2077f0c788a4.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
 ShowDialogAction.2077f0c788a4.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は存在しません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c788a4.title=ERROR
@@ -994,7 +994,7 @@ ShowDialogAction.2077f0c888a7.detailsButtonLabel=詳細...
 # ShowDialogAction.2077f0c888a7.label=Invalid license file.
 ShowDialogAction.2077f0c888a7.label=無効なライセンスファイルです。
 
-# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.2077f0c888a7.narrative=ファイル$NEW_LIC_FILE_DIR$$NEW_LIC_FILE$は、サーバーの現在のMACアドレスに設定されていません。\n\n［次へ］を選択して操作を続けるか、［戻る］を選択して\nライセンスファイルを選択し直してください。
 
 # ShowDialogAction.2077f0c888a7.title=ERROR
@@ -1121,7 +1121,7 @@ ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=詳細...
 ShowDialogAction.ad1a5f0ab714.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$\\conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative= 
+ShowDialogAction.ad1a5f0ab714.narrative=
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
 ShowDialogAction.ad1a5f0ab714.title=Windows のエラー
@@ -1139,7 +1139,7 @@ ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=詳細...
 ShowDialogAction.ad1a5f1bb71e.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$/conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative= 
+ShowDialogAction.ad1a5f1bb71e.narrative=
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
 ShowDialogAction.ad1a5f1bb71e.title=エラー
@@ -1156,7 +1156,7 @@ ShowDialogAction.ad1a6014b806.detailsButtonLabel=詳細...
 # ShowDialogAction.ad1a6014b806.label=No Administrative Privileges
 ShowDialogAction.ad1a6014b806.label=管理者権限がありません
 
-# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted. \nPlease run the uninstaller with administrative privileges
+# ShowDialogAction.ad1a6014b806.narrative=uninstallation can't be performed under non-administrator accounts, the process of uninstallation is interrupted.\nPlease run the uninstaller with administrative privileges
 ShowDialogAction.ad1a6014b806.narrative=管理者以外のアカウントでアンインストールを実行することはできません。アンインストールプロセスを中断します。\n管理者権限を持つアカウントでアンインストーラを実行してください
 
 # ShowDialogAction.ad1a6014b806.title=Error
@@ -1216,13 +1216,13 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$をア�
 # UninstallCompleteActionConsole.ad1a6034b834.title=Uninstall Complete
 UninstallCompleteActionConsole.ad1a6034b834.title=アンインストール完了
 
-# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$ \n
+# UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$\n
 UninstallIntroAction.ad1a6014b7ff.message=アンインストールしようとしています...\n\n$INSTALLER_TITLE$ \n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.ad1a6014b7ff.stepTitle=$INSTALLER_TITLE$をアンインストール
 
-# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$ \n
+# UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$\n
 UninstallIntroActionConsole.ad1a6014b801.message=アンインストールしようとしています...\n\n$PRODUCT_NAME$ \n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$

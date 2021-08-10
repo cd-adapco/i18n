@@ -20,7 +20,7 @@
 #
 # Product Name: FlexNet License Server $FLEX_VERSION_NUMBER$
 # Project File: /u/xeons11/people/dabrol/Installer_Work/Standalone/Flexlm/Workspace/star/config/ia-installer/flexlm/Flexserver.iap_xml
-# Generated:    Wed Oct 24 14:50:00 PDT 2018
+# Generated:    Tue Jul 13 13:40:40 PDT 2021
 
 
 ---- PRE-INSTALL ACTIONS ----
@@ -37,11 +37,9 @@
        |-- PlugInAction.2f67f2cdabeb (NoEP)
        |-- PlugInAction.2f67f2ceabeb (NoEP)
 -- ActionGroup.0f0a8094967e (NoEP)
-   |-- EditVariableTable.04c09d34b903 (NoEP)
+   |-- EditMultipleVariables.afdacff78856 (NoEP)
    |-- EditVariableTable.0623482cbc97 (NoEP)
-   |-- EditVariableTable.0acca0d88dfb (NoEP)
    |-- EditVariableTable.0b244415b84d (NoEP)
-   |-- EditVariableTable.a1e7f26d9276 (NoEP)
    |-- EditVariableTable.bb200d77926b (NoEP)
 -- ActionGroup.0f0ba24f9912 (NoEP)
    |-- CustomAction.06209ebabc8e (NoEP)
@@ -110,10 +108,6 @@
    |-- PromptUserConsole.1059980780b1
    |-- ShowDialogAction.1094478f8dad
    |-- PromptUserConsole.1059efcb80b7
-   |-- ShowDialogAction.34545c2196a8
-   |-- PromptUserConsole.34bc8b0a9d6a
-   |-- ShowDialogAction.34551595a0b2
-   |-- PromptUserConsole.34bd6f509d6c
    |-- ActionGroup.7dbf805c9947 (NoEP)
        |-- GetUserInput.ad1a5f0ab70b
        |   +-- GUIGroupData.ad1a5f0ab70c
@@ -216,6 +210,7 @@
    +-- VariablePropertyDataNonBiDi.07575a6c8fc1
 -- EditVariableTable.06109602a9e8 (NoEP)
 -- EditVariableTable.bb75a33d9272 (NoEP)
+-- EditVariableTable.e9d7e29a926a (NoEP)
 
 
 ---- POST-INSTALL ACTIONS ----
@@ -254,6 +249,7 @@
    +-- Help.ad1a6015b7fd
    +-- InstallFrameConfigurator.ad1a6004b7f1
    +-- InstallerInfoData.ad1a6005b7f8
+   +-- InstallerUpdateSettings.736ba0308163
    |-- InstallSet.ad1a6043b852
    |-- InstallBundle.ad1a6043b853
    |-- OSHost.ad1a6063b8ad (NoEP)
