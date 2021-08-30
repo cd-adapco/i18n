@@ -64,6 +64,12 @@ ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Serie
 # ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 
+# ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
+ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
+
+# ASCIIFileManipulator.48b2ba9eaa24.additionalText=InstallDirectorySC3D2021.2Series=$NXPATH$
+ASCIIFileManipulator.48b2ba9eaa24.additionalText=InstallDirectorySC3D2021.2Series=$NXPATH$
+
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
 
@@ -105,6 +111,18 @@ ChooseFile.a174655a93b6.prompt=请选择许可证文件：
 
 # ChooseFile.a174655a93b6.stepTitle=Select license file
 ChooseFile.a174655a93b6.stepTitle=选择许可证文件
+
+# ChooseFile.e5d0a320b269.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.e5d0a320b269.additionalText=请选择 _COMPANY_NAME_ _BUSINESS_UNIT_ 通过电子邮件提供给您的许可证文件。如果尚未收到许可证文件，则可能无法继续进行此安装。
+
+# ChooseFile.e5d0a320b269.defaultFile=$DEFAULT_SALT_LIC_FILE$
+ChooseFile.e5d0a320b269.defaultFile=$DEFAULT_SALT_LIC_FILE$
+
+# ChooseFile.e5d0a320b269.prompt=Please choose the license File:
+ChooseFile.e5d0a320b269.prompt=请选择许可证文件：
+
+# ChooseFile.e5d0a320b269.stepTitle=Select license file
+ChooseFile.e5d0a320b269.stepTitle=选择许可证文件
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
 ChooseFolder.85678ebc8c0d.additionalText=请找到将充当升级源的现有 _RT_JOB_MANAGER_ 实例。它通常可以在 star/bin 文件夹下的预先存在的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装目录中找到。
@@ -613,6 +631,27 @@ EditEnvironment.bbd4dea2b41c.value=$USER_INSTALL_DIR$/star/bin
 # EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 
+# EditEnvironment.ec53fa85a908.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa85a908.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa85a909.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa85a909.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a90b.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a90b.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a90f.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a90f.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a910.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a910.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
+
 # EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
 EntryAtomBiDi.757df83097fd.label=参加产品卓越计划
 
@@ -640,8 +679,8 @@ Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.30fdba8e94e9.title=attrib +R
 Exec.30fdba8e94e9.title=attrib +R
 
-# Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
-Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
+# Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
+Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
 
 # Exec.3cae6520be5f.title=File permissions
 Exec.3cae6520be5f.title=文件权限
@@ -654,6 +693,12 @@ Exec.545df2008320.dialogLabel=正在卸载远程启动服务...
 
 # Exec.545df2008320.title=Unregister Platform MPI SMPID
 Exec.545df2008320.title=注销平台 MPI SMPID
+
+# Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.7f8d22128268.title=attrib +R
+Exec.7f8d22128268.title=attrib +R
 
 # Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -976,6 +1021,9 @@ ExecuteScript.7d08ee059041.dialogLabel=正在安装 _SOFTWARE_FAMILY_NAME_  _STA
 # ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.7d08ee059041.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 
+# ExecuteScript.7f8ca8528268.title=extract _CADC_STAR_CAT5_-31
+ExecuteScript.7f8ca8528268.title=提取 _CADC_STAR_CAT5_-31
+
 # ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
 ExecuteScript.80940cd987b6.title=提取 _CADC_STAR_NX_-1847
 
@@ -1011,6 +1059,9 @@ ExecuteScript.946b87d1bb54.title=刷新桌面
 
 # ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
 ExecuteScript.9737cae9ae4d.title=卸载 _RT_JOB_MANAGER_
+
+# ExecuteScript.99c16c1895f6.title=extract _CADC_STAR_CREO_-7
+ExecuteScript.99c16c1895f6.title=提取 _CADC_STAR_CREO_-7
 
 # ExecuteScript.9c4626dc93c4.title=internal authentication with email server
 ExecuteScript.9c4626dc93c4.title=使用电子邮件服务器进行内部身份验证
@@ -1162,8 +1213,41 @@ ExecuteScript.d804a4248286.title=正在移除 PC MPI 安装程序
 # ExecuteScript.e13f0215879a.title=delete custom_dirs.dat
 ExecuteScript.e13f0215879a.title=删除 custom_dirs.dat
 
+# ExecuteScript.e5ce3dec80f3.title=parse .plmrc
+ExecuteScript.e5ce3dec80f3.title=解析 .plmrc
+
+# ExecuteScript.e5ce3def80f4.title=parse splm_license_server
+ExecuteScript.e5ce3def80f4.title=解析 splm_license_server
+
+# ExecuteScript.e5d0a31eb24a.title=parse .plmrc
+ExecuteScript.e5d0a31eb24a.title=解析 .plmrc
+
+# ExecuteScript.e5d0a31eb24c.title=parse 
+ExecuteScript.e5d0a31eb24c.title=解析
+
+# ExecuteScript.e736af57bb14.title=Remove _COMPANY_NAME_ SALT-windows service
+ExecuteScript.e736af57bb14.title=移除 _COMPANY_NAME_ SALT-windows 服务
+
+# ExecuteScript.e736af57bb15.title=Remove _COMPANY_NAME_ SALT-linux service
+ExecuteScript.e736af57bb15.title=移除 _COMPANY_NAME_ SALT-linux 服务
+
 # ExecuteScript.eab32fc2b934.title=Removing PC MPI Installer
 ExecuteScript.eab32fc2b934.title=正在移除 PC MPI 安装程序
+
+# ExecuteScript.ec53fa86a90c.title=create .plmrc
+ExecuteScript.ec53fa86a90c.title=创建 .plmrc
+
+# ExecuteScript.ec53fa86a911.title=create .plmrc
+ExecuteScript.ec53fa86a911.title=创建 .plmrc
+
+# ExecuteScript.ec53fa86a912.title=Configure _COMPANY_NAME_ SALT windows
+ExecuteScript.ec53fa86a912.title=配置 _COMPANY_NAME_ SALT windows
+
+# ExecuteScript.ec53fa86a915.title=Configure _COMPANY_NAME_ SALT Linux
+ExecuteScript.ec53fa86a915.title=配置 _COMPANY_NAME_ SALT Linux
+
+# ExecuteScript.ec53fa87a91d.title=create .plmrc
+ExecuteScript.ec53fa87a91d.title=创建 .plmrc
 
 # ExecuteScript.f4fe59f891fe.title=extract English release notes
 ExecuteScript.f4fe59f891fe.title=提取英语发行说明
@@ -1210,12 +1294,6 @@ GetUserInput.07762bd5ba98.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=选择更多任务
 
-# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration now?
-GetUserInput.07fbb89ebccd.prompt=想要立即卸载 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 吗？
-
-# GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
-GetUserInput.07fbb89ebccd.title=卸载 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 集成
-
 # GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 GetUserInput.09531f37b189.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务。
 
@@ -1240,7 +1318,7 @@ GetUserInput.121e4071ae24.prompt=选择您要安装 $INSTALLER_TITLE$ 的“本�
 # GetUserInput.121e4071ae24.title=Select Installation Location
 GetUserInput.121e4071ae24.title=选择安装位置
 
-# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.154a0b5aaa67.prompt=您现在可以设置许可证管理器服务。\n\n此服务需要名称，默认名称如下所列。\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
@@ -1306,8 +1384,8 @@ GetUserInput.5f8d10b48f40.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=选择更多任务
 
-# GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
-GetUserInput.61df1e08b39a.prompt=您现在可以设置许可证管理器服务。\n\n当前的服务名称如下所示。\n如果您想将服务名称更改为其他名称，请修改提供的名称。
+# GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
+GetUserInput.61df1e08b39a.prompt=您现在可以设置许可证管理器服务。\n\n当前的服务名称如下所示。\n\n如果您想将服务名称更改为其他名称，请修改提供的名称。\n\n
 
 # GetUserInput.61df1e08b39a.title=Service Configuration 
 GetUserInput.61df1e08b39a.title=服务配置
@@ -1324,13 +1402,13 @@ GetUserInput.8209d5e08fc6.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=选择更多任务
 
-# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
+# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
 GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_ 的用户必须在操作系统上拥有帐户。_RT_JOB_MANAGER_ 能够使用储存在自身数据库中的用户密码进行身份验证，也可以将身份验证委派给操作系统。\n\n您想使用哪种方法？
 
 # GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
 GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 配置
 
-# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_. \n\n
+# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_.\n\n
 GetUserInput.8575cd2c96c8.prompt=请输入有关 _RT_JOB_MANAGER_ 将在哪里运行的信息。\n\n在任何要连接到 _RT_JOB_MANAGER_ 的客户端上，主机名必须是可解析的。\n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
@@ -1384,7 +1462,7 @@ GetUserInput.a166035790bd.prompt=要访问许可证服务器软件，您的电�
 # GetUserInput.a166035790bd.title=_COMPANY_NAME_ License Server Configuration
 GetUserInput.a166035790bd.title=_COMPANY_NAME_ 许可证服务器配置
 
-# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server or a local license server. \n\nPlease select the licensing method you wish to use:
+# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server or a local license server.\n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ 通过我们的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_“按需授权”许可证服务器或本地许可证服务器提供许可。\n\n请选择想要使用的许可方法：
 
 # GetUserInput.a53ed862b666.title=Choose License Type
@@ -1402,11 +1480,41 @@ GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_ 通过本地许可证服务器�
 # GetUserInput.d833413bb48e.title=Choose License Type
 GetUserInput.d833413bb48e.title=选择许可证类型
 
-# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.\n\nPlease select the licensing method you wish to use:
 GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 产品使用 _COMPANY_NAME_ Software 提供的 PLM 许可证服务器 $UGS_VERSION$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n选择想要使用的许可方法：
 
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=选择许可证类型
+
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
+
+# GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
+GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ 许可证客户端配置
+
+# GetUserInput.e5d0a321b260.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the _COMPANY_NAME_ License Server is 29000. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.e5d0a321b260.prompt=要访问许可证服务器软件，您的电脑上要有可用的通信通道或端口。_COMPANY_NAME_ 许可证服务器的默认端口号是 29000。这些默认值如下所列，但可根据需要更改为与您的电脑设置相对应的其他端口号。
+
+# GetUserInput.e5d0a321b260.title=_COMPANY_NAME_ License Server Configuration
+GetUserInput.e5d0a321b260.title=_COMPANY_NAME_ 许可证服务器配置
+
+# GetUserInput.e5f58074a953.prompt=_COMPANY_NAME_ provides License Server $SALT_VERSION$ via a local license server.
+GetUserInput.e5f58074a953.prompt=_COMPANY_NAME_ 通过本地许可证服务器提供许可证服务器 $SALT_VERSION$。
+
+# GetUserInput.e5f58074a953.title=Choose License Type
+GetUserInput.e5f58074a953.title=选择许可证类型
+
+# GetUserInput.e5f7458283b4.prompt=_COMPANY_NAME_ products use the License Server $SALT_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e5f7458283b4.prompt=_COMPANY_NAME_ 产品使用 _COMPANY_NAME_ Software 提供的许可证服务器 $SALT_VERSION$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。\n\n选择想要使用的许可方法：
+
+# GetUserInput.e5f7458283b4.title=Choose License Type
+GetUserInput.e5f7458283b4.title=选择许可证类型
+
+# GetUserInput.e736af59bb0f.prompt=Do you want to uninstall the _COMPANY_NAME_ License Server now?
+GetUserInput.e736af59bb0f.prompt=是否要立即卸载 _COMPANY_NAME_ 许可证服务器？
+
+# GetUserInput.e736af59bb0f.title=Uninstall _COMPANY_NAME_ License Server
+GetUserInput.e736af59bb0f.title=卸载 _COMPANY_NAME_ 许可证服务器
 
 # GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. It allows the software to access a license file either locally (on this computer) or via a network.  If desired, our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
 GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ 产品使用 Flexera Software 提供的 FLEXNet Publisher 许可工具包 $FLEX_VER_NUM$ 管理产品许可。利用此许可工具包，软件可以从本地（此电脑）或通过网络访问许可证文件。如果需要，我们的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_“按需授权”许可证服务器可配置为您的许可证服务器。\n\n请选择想要使用的许可方法：
@@ -1744,6 +1852,18 @@ GUIComponentData.4206afe69796.defaultValue=Not Selected
 # GUIComponentData.4206afe69796.label=No
 GUIComponentData.4206afe69796.label=否
 
+# GUIComponentData.489ddcf3aa1d.defaultValue=Not Selected
+GUIComponentData.489ddcf3aa1d.defaultValue=Not Selected
+
+# GUIComponentData.489ddcf3aa1d.label=NX 1980 series
+GUIComponentData.489ddcf3aa1d.label=NX 1980 系列
+
+# GUIComponentData.489e49fdaa21.defaultValue=Not Selected
+GUIComponentData.489e49fdaa21.defaultValue=Not Selected
+
+# GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
+GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
+
 # GUIComponentData.4dbc5b3fb838.defaultValue=Selected
 GUIComponentData.4dbc5b3fb838.defaultValue=Selected
 
@@ -2050,6 +2170,66 @@ GUIComponentData.d8b757c7aba9.defaultValue=Selected
 # GUIComponentData.d8b757c7aba9.label=Local: Configure this machine to access local license server
 GUIComponentData.d8b757c7aba9.label=本地：将此电脑配置为可以访问本地许可证服务器
 
+# GUIComponentData.e5ce3dee80f7.defaultValue=
+GUIComponentData.e5ce3dee80f7.defaultValue=
+
+# GUIComponentData.e5ce3dee80f7.label=
+GUIComponentData.e5ce3dee80f7.label=
+
+# GUIComponentData.e5ce3dee80f8.defaultValue=$DEF_SERVER1$
+GUIComponentData.e5ce3dee80f8.defaultValue=$DEF_SERVER1$
+
+# GUIComponentData.e5ce3dee80f8.label=License server 1 ( REQUIRED )
+GUIComponentData.e5ce3dee80f8.label=许可证服务器 1（必需）
+
+# GUIComponentData.e5ce3dee80f9.defaultValue=
+GUIComponentData.e5ce3dee80f9.defaultValue=
+
+# GUIComponentData.e5ce3dee80f9.label=License server 2
+GUIComponentData.e5ce3dee80f9.label=许可证服务器 2
+
+# GUIComponentData.e5ce3dee80fa.defaultValue=
+GUIComponentData.e5ce3dee80fa.defaultValue=
+
+# GUIComponentData.e5ce3dee80fa.label=License server 3
+GUIComponentData.e5ce3dee80fa.label=许可证服务器 3
+
+# GUIComponentData.e5ce3dee80fb.defaultValue=Not Selected
+GUIComponentData.e5ce3dee80fb.defaultValue=Not Selected
+
+# GUIComponentData.e5ce3dee80fb.label=Three Machine redundant license server
+GUIComponentData.e5ce3dee80fb.label=三机冗余许可证服务器
+
+# GUIComponentData.e5d0a320b262.defaultValue=
+GUIComponentData.e5d0a320b262.defaultValue=
+
+# GUIComponentData.e5d0a320b262.label=
+GUIComponentData.e5d0a320b262.label=
+
+# GUIComponentData.e5d0a320b263.defaultValue=$SALT_PORT_NUMBER$
+GUIComponentData.e5d0a320b263.defaultValue=$SALT_PORT_NUMBER$
+
+# GUIComponentData.e5d0a320b263.label=Enter the License port number:
+GUIComponentData.e5d0a320b263.label=输入许可证端口号：
+
+# GUIComponentData.e5f58075a956.defaultValue=Selected
+GUIComponentData.e5f58075a956.defaultValue=Selected
+
+# GUIComponentData.e5f58075a956.label=Local: Configure this machine to access local license server
+GUIComponentData.e5f58075a956.label=本地：将此电脑配置为可以访问本地许可证服务器
+
+# GUIComponentData.e5f7458383b7.defaultValue=Not Selected
+GUIComponentData.e5f7458383b7.defaultValue=Not Selected
+
+# GUIComponentData.e5f7458383b7.label=Network: Configure this machine to access a network license server
+GUIComponentData.e5f7458383b7.label=网络：将此电脑配置为可以访问网络许可证服务器
+
+# GUIComponentData.e5f7458483b7.defaultValue=Selected
+GUIComponentData.e5f7458483b7.defaultValue=Selected
+
+# GUIComponentData.e5f7458483b7.label=Local: Install and configure _COMPANY_NAME_ License Server on this machine 
+GUIComponentData.e5f7458483b7.label=本地：在此电脑上安装并配置 _COMPANY_NAME_ 许可证服务器
+
 # GUIComponentData.e6e769628c38.defaultValue=$HOST$
 GUIComponentData.e6e769628c38.defaultValue=$HOST$
 
@@ -2335,11 +2515,17 @@ InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVE
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=安装完成
 
-# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office.\n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
 InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参见 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
+
+# InstallCompleteActionConsole.e73c0c7192d4.message=Congratulations:\n\nThe installation of _COMPANY_NAME_ License Server $SALT_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_19$\n\nThe installation log can be found at $USER_MAGIC_FOLDER_19$\\log folder.\n\n\n
+InstallCompleteActionConsole.e73c0c7192d4.message=祝贺您：\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$ 已成功安装至 $USER_MAGIC_FOLDER_19$。\n\n安装日志位于 $USER_MAGIC_FOLDER_19$\\log 文件夹中。\n\n\n
+
+# InstallCompleteActionConsole.e73c0c7192d4.title=Install Complete
+InstallCompleteActionConsole.e73c0c7192d4.title=安装完成
 
 # InstallDirAction.a48f6af3a8f7.additionalText=Choose the path where you would like to install $INSTALLER_TITLE$
 InstallDirAction.a48f6af3a8f7.additionalText=选择想要安装 $INSTALLER_TITLE$ 的路径
@@ -2504,7 +2690,7 @@ InstallFinishAction.149435d5a001.installErrorMessage=$INSTALLER_TITLE$ 安装已
 InstallFinishAction.149435d5a001.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
 # InstallFinishAction.149435d5a001.installSuccessMessage=Congratulations:\n\nThe installation of _COMPANY_NAME_ PLM License Server $UGS_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_16$\n\nThe installation log (install.log) and the server log (spm_ugslmd.log) can be found at the above location.\n\nPress \"Done\" to quit the installer..
-InstallFinishAction.149435d5a001.installSuccessMessage=祝贺您：\n\n_COMPANY_NAME_ PLM 许可证服务器 $UGS_VERSION$ 已成功地安装至 $USER_MAGIC_FOLDER_16$\n\n安装日志 (install.log) 和服务器日志 (spm_ugslmd.log) 可在上述位置查看。\n\n\n按“完成”按钮以退出安装程序。
+InstallFinishAction.149435d5a001.installSuccessMessage=祝贺您：\n\n_COMPANY_NAME_ PLM 许可证服务器 $UGS_VERSION$ 已成功地安装至 $USER_MAGIC_FOLDER_16$\n\n安装日志 (install.log) 和服务器日志 (spm_ugslmd.log) 可在上述位置查看。\n\n按“完成”按钮以退出安装程序。
 
 # InstallFinishAction.149435d5a001.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.149435d5a001.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -2551,17 +2737,17 @@ InstallFinishAction.850018e3843a.rebootRequiredMessage=需要重启系统以完�
 # InstallFinishAction.850018e3843a.windowTitle=Install Complete
 InstallFinishAction.850018e3843a.windowTitle=安装完成
 
-# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
-# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些严重错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
 # InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured with URL http://$HOST$:$PORT$ and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.9741505abaf9.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n作为 Linux 服务的安装程序 Setup _RT_JOB_MANAGER_ 已配置有 URL http://$HOST$:$PORT$，且将在重启时自动启动。\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
-# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些警告。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
 # InstallFinishAction.9741505abaf9.launchText=
 InstallFinishAction.9741505abaf9.launchText=
@@ -2578,17 +2764,17 @@ InstallFinishAction.9741505abaf9.rebootRequiredMessage=需要重启系统以完�
 # InstallFinishAction.9741505abaf9.windowTitle=Install Complete
 InstallFinishAction.9741505abaf9.windowTitle=安装完成
 
-# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。请参见安装程序的安装日志 $USER_INSTALL_LOG_LOCATION$，作业管理器日志位于 $USER_INSTALL_DIR$ 下。
+# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
-# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。请参见安装程序的安装日志 $USER_INSTALL_LOG_LOCATION$，作业管理器日志位于 $USER_INSTALL_DIR$ 下。
+# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些严重错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
 
-# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。请参见安装程序的安装日志 $USER_INSTALL_LOG_LOCATION$，作业管理器日志位于 $USER_INSTALL_DIR$ 下。
+# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些警告。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
 
 # InstallFinishAction.bbeaa35cb859.launchText=
 InstallFinishAction.bbeaa35cb859.launchText=
@@ -2604,6 +2790,33 @@ InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=需要重启系统以完�
 
 # InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
 InstallFinishAction.bbeaa35cb859.windowTitle=安装完成
+
+# InstallFinishAction.e73c82dcaad2.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.e73c82dcaad2.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.e73c82dcaad2.installSuccessMessage=Congratulations:\n\nThe installation of _COMPANY_NAME_ License Server $SALT_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_19$\n\nThe installation log can be found at $USER_MAGIC_FOLDER_19$\\log folder.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.e73c82dcaad2.installSuccessMessage=祝贺您：\n\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$ 已成功安装至 $USER_MAGIC_FOLDER_19$。\n\n安装日志位于 $USER_MAGIC_FOLDER_19$\\log 文件夹中\n\n按“完成”退出安装程序。
+
+# InstallFinishAction.e73c82dcaad2.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
+
+# InstallFinishAction.e73c82dcaad2.launchText=
+InstallFinishAction.e73c82dcaad2.launchText=
+
+# InstallFinishAction.e73c82dcaad2.rebootNotNeededMessage=
+InstallFinishAction.e73c82dcaad2.rebootNotNeededMessage=
+
+# InstallFinishAction.e73c82dcaad2.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.e73c82dcaad2.rebootRecommendedMessage=应重启系统以完成安装。
+
+# InstallFinishAction.e73c82dcaad2.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.e73c82dcaad2.rebootRequiredMessage=需要重启系统以完成安装。
+
+# InstallFinishAction.e73c82dcaad2.windowTitle=Install Complete
+InstallFinishAction.e73c82dcaad2.windowTitle=安装完成
 
 # InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall $INSTALLER_TITLE$
 InstallFrameConfigurator.850018f38449.maintModeTitle=卸载 $INSTALLER_TITLE$
@@ -2680,6 +2893,12 @@ InstallSummary.d8669dc1baea.stepPrompt=请首先预览以下内容，然后继�
 # InstallSummary.d8669dc1baea.title=Pre-Installation Summary
 InstallSummary.d8669dc1baea.title=预安装摘要
 
+# InstallSummary.e5e0a98a8e81.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.e5e0a98a8e81.stepPrompt=请首先预览以下内容，然后继续：
+
+# InstallSummary.e5e0a98a8e81.title=Pre-Installation Summary
+InstallSummary.e5e0a98a8e81.title=预安装摘要
+
 # InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
 InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
 
@@ -2700,6 +2919,12 @@ IntroActionConsole.c7e016579491.message=将要卸载...\n\n_SOFTWARE_FAMILY_NAME
 
 # IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
 IntroActionConsole.c7e016579491.title=卸载 _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
+
+# IntroActionConsole.e736af57bb13.message=About to uninstall...\n\n_COMPANY_NAME_ License Server $SALT_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.e736af57bb13.message=将要卸载...\n\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$\n\n这会移除通过 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。选择“取消”可退出卸载程序。
+
+# IntroActionConsole.e736af57bb13.title=Uninstall _COMPANY_NAME_ License Server
+IntroActionConsole.e736af57bb13.title=卸载 _COMPANY_NAME_ 许可证服务器
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
@@ -2940,6 +3165,15 @@ MakeRegEntry.ec53371b90cd.value=$USER_MAGIC_FOLDER_5$\\bin\\starview+.exe
 
 # MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
 MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
+
+# MakeRegEntry.ec53fa85a903.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec53fa85a903.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.ec53fa85a903.value=$USER_MAGIC_FOLDER_19$\\starfish.ico
+MakeRegEntry.ec53fa85a903.value=$USER_MAGIC_FOLDER_19$\\starfish.ico
+
+# MakeRegEntry.ec53fa85a903.valueName=DisplayIcon
+MakeRegEntry.ec53fa85a903.valueName=DisplayIcon
 
 # MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -3529,8 +3763,8 @@ ShowDialogAction.25820b1c92f3.detailsButtonLabel=详情...
 # ShowDialogAction.25820b1c92f3.label=Invalid license file.
 ShowDialogAction.25820b1c92f3.label=许可证文件无效。
 
-# ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
-ShowDialogAction.25820b1c92f3.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
+# ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
+ShowDialogAction.25820b1c92f3.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
 
 # ShowDialogAction.25820b1c92f3.title=ERROR
 ShowDialogAction.25820b1c92f3.title=错误
@@ -3764,7 +3998,7 @@ ShowDialogAction.653ab69e9640.detailsButtonLabel=详情...
 ShowDialogAction.653ab69e9640.label=许可证文件无效。
 
 # ShowDialogAction.653ab69e9640.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server  $LICHOSTNAMEFOUND$\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.653ab69e9640.narrative=未针对服务器 $LICHOSTNAMEFOUND$配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
+ShowDialogAction.653ab69e9640.narrative=未针对服务器 $LICHOSTNAMEFOUND$ 配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.653ab69e9640.title=ERROR
 ShowDialogAction.653ab69e9640.title=错误
@@ -3781,7 +4015,7 @@ ShowDialogAction.653c263b9ee1.detailsButtonLabel=详情...
 # ShowDialogAction.653c263b9ee1.label=Invalid license file.
 ShowDialogAction.653c263b9ee1.label=许可证文件无效。
 
-# ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.653c263b9ee1.narrative=未针对具有当前 mac 地址的服务器配置文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.653c263b9ee1.title=ERROR
@@ -3877,24 +4111,6 @@ ShowDialogAction.7e4d4aee9257.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
 
-# ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
-ShowDialogAction.7e8620e4a2ee.buttonLabel=确定
-
-# ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=Cancel
-ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=取消
-
-# ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
-ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=详情...
-
-# ShowDialogAction.7e8620e4a2ee.label=No Component Selected
-ShowDialogAction.7e8620e4a2ee.label=无选定组件
-
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件和 $UGS_OR_FLEX$。\n按“确定”返回组件选择对话框。\n
-
-# ShowDialogAction.7e8620e4a2ee.title=Warning
-ShowDialogAction.7e8620e4a2ee.title=警告
-
 # ShowDialogAction.812ff9fd8bc2.buttonLabel=OK
 ShowDialogAction.812ff9fd8bc2.buttonLabel=确定
 
@@ -3949,24 +4165,6 @@ ShowDialogAction.81357f99b1bc.narrative=请使用 'root' 权限进行升级。
 # ShowDialogAction.81357f99b1bc.title=Error
 ShowDialogAction.81357f99b1bc.title=错误
 
-# ShowDialogAction.85b5743ab480.buttonLabel=OK
-ShowDialogAction.85b5743ab480.buttonLabel=确定
-
-# ShowDialogAction.85b5743ab480.cancelButtonLabel=Cancel
-ShowDialogAction.85b5743ab480.cancelButtonLabel=取消
-
-# ShowDialogAction.85b5743ab480.detailsButtonLabel=Details...
-ShowDialogAction.85b5743ab480.detailsButtonLabel=详情...
-
-# ShowDialogAction.85b5743ab480.label=No Component Selected
-ShowDialogAction.85b5743ab480.label=无选定组件
-
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件和 $UGS_OR_FLEX$。\n按“确定”返回组件选择对话框。\n
-
-# ShowDialogAction.85b5743ab480.title=Warning
-ShowDialogAction.85b5743ab480.title=警告
-
 # ShowDialogAction.8b658fda8e4e.buttonLabel=OK
 ShowDialogAction.8b658fda8e4e.buttonLabel=确定
 
@@ -4016,7 +4214,7 @@ ShowDialogAction.935897e9965b.detailsButtonLabel=详情...
 ShowDialogAction.935897e9965b.label=许可证文件无效。
 
 # ShowDialogAction.935897e9965b.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ has been modified, please set the port number to 1999.\n\nPlease select Next to continue or Previous to reselect your  license file.
-ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$已被修改，请将端口号设置为 1999。\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
+ShowDialogAction.935897e9965b.narrative=文件 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ 已被修改，请将端口号设置为 1999。\n\n请选择“下一步”继续，或选择“上一步”重新选择许可证文件。
 
 # ShowDialogAction.935897e9965b.title=ERROR
 ShowDialogAction.935897e9965b.title=错误
@@ -4069,8 +4267,8 @@ ShowDialogAction.a166035790c3.detailsButtonLabel=详情...
 # ShowDialogAction.a166035790c3.label=Invalid license file.
 ShowDialogAction.a166035790c3.label=许可证文件无效。
 
-# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
-ShowDialogAction.a166035790c3.narrative=文件 $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
+# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
+ShowDialogAction.a166035790c3.narrative=文件 $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ 不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
 
 # ShowDialogAction.a166035790c3.title=ERROR
 ShowDialogAction.a166035790c3.title=错误
@@ -4303,7 +4501,7 @@ ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=详情...
 # ShowDialogAction.c21a9a0faaeb.label=Warning
 ShowDialogAction.c21a9a0faaeb.label=警告
 
-# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated.\n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
 ShowDialogAction.c21a9a0faaeb.narrative=要配置 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_，UGII_CUSTOM_DIRECTORY_FILE 环境变量将会更新。\n\n环境变量目前设置为：\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\n也可以通过修改 UGII_CUSTOM_DIRECTORY_FILE 环境变量为上述值恢复以前的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 版本。
 
 # ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ configuration
@@ -4318,7 +4516,7 @@ ShowDialogAction.cefd463a8fab.cancelButtonLabel=
 # ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
 ShowDialogAction.cefd463a8fab.detailsButtonLabel=详情...
 
-# ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+# ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist.\n\nWould you like to create it?
 ShowDialogAction.cefd463a8fab.label=您所选的安装目录 $USER_INSTALL_DIR$ 不存在。\n\n要创建它吗？
 
 # ShowDialogAction.cefd463a8fab.narrative=
@@ -4336,7 +4534,7 @@ ShowDialogAction.cefdc0cba92d.cancelButtonLabel=
 # ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
 ShowDialogAction.cefdc0cba92d.detailsButtonLabel=详情...
 
-# ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+# ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist.\n\nWould you like to create it?
 ShowDialogAction.cefdc0cba92d.label=您所选的安装目录 $USER_INSTALL_DIR$ 不存在。\n\n要创建它吗？
 
 # ShowDialogAction.cefdc0cba92d.narrative=
@@ -4417,6 +4615,168 @@ ShowDialogAction.e261f38cb277.narrative=请使用管理员权限重新运行 _SO
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=错误
 
+# ShowDialogAction.e5ce3ded80fe.buttonLabel=OK
+ShowDialogAction.e5ce3ded80fe.buttonLabel=确定
+
+# ShowDialogAction.e5ce3ded80fe.cancelButtonLabel=Cancel
+ShowDialogAction.e5ce3ded80fe.cancelButtonLabel=取消
+
+# ShowDialogAction.e5ce3ded80fe.detailsButtonLabel=Details...
+ShowDialogAction.e5ce3ded80fe.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5ce3ded80fe.label=Invalid Port@Host Entered
+ShowDialogAction.e5ce3ded80fe.label=输入的端口@主机无效
+
+# ShowDialogAction.e5ce3ded80fe.narrative=$ERR_OUT_STRING$
+ShowDialogAction.e5ce3ded80fe.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.e5ce3ded80fe.title=Invalid Input
+ShowDialogAction.e5ce3ded80fe.title=无效输入
+
+# ShowDialogAction.e5d0a31fb25d.buttonLabel=OK
+ShowDialogAction.e5d0a31fb25d.buttonLabel=确定
+
+# ShowDialogAction.e5d0a31fb25d.cancelButtonLabel=Cancel
+ShowDialogAction.e5d0a31fb25d.cancelButtonLabel=取消
+
+# ShowDialogAction.e5d0a31fb25d.detailsButtonLabel=Details...
+ShowDialogAction.e5d0a31fb25d.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5d0a31fb25d.label=No Administrative Privileges
+ShowDialogAction.e5d0a31fb25d.label=无管理员权限
+
+# ShowDialogAction.e5d0a31fb25d.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.e5d0a31fb25d.narrative=需要拥有管理员权限才能配置许可证服务器。请用管理员权限运行此安装程序
+
+# ShowDialogAction.e5d0a31fb25d.title=Error
+ShowDialogAction.e5d0a31fb25d.title=错误
+
+# ShowDialogAction.e5d0a320b26a.buttonLabel=Next
+ShowDialogAction.e5d0a320b26a.buttonLabel=下一步
+
+# ShowDialogAction.e5d0a320b26a.cancelButtonLabel=Previous
+ShowDialogAction.e5d0a320b26a.cancelButtonLabel=上一步
+
+# ShowDialogAction.e5d0a320b26a.detailsButtonLabel=Details...
+ShowDialogAction.e5d0a320b26a.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5d0a320b26a.label=Invalid license file.
+ShowDialogAction.e5d0a320b26a.label=许可证文件无效。
+
+# ShowDialogAction.e5d0a320b26a.narrative=The  file $NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
+ShowDialogAction.e5d0a320b26a.narrative=文件 $NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$ 不存在。\n\n请选择“下一步”继续，或选择“上一步”重新选择 \n许可证文件。
+
+# ShowDialogAction.e5d0a320b26a.title=ERROR
+ShowDialogAction.e5d0a320b26a.title=错误
+
+# ShowDialogAction.e5ec8d9cb2d4.buttonLabel=OK
+ShowDialogAction.e5ec8d9cb2d4.buttonLabel=确定
+
+# ShowDialogAction.e5ec8d9cb2d4.cancelButtonLabel=Cancel
+ShowDialogAction.e5ec8d9cb2d4.cancelButtonLabel=取消
+
+# ShowDialogAction.e5ec8d9cb2d4.detailsButtonLabel=Details...
+ShowDialogAction.e5ec8d9cb2d4.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5ec8d9cb2d4.label=No Component Selected
+ShowDialogAction.e5ec8d9cb2d4.label=无选定组件
+
+# ShowDialogAction.e5ec8d9cb2d4.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX_OR_SALT$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.e5ec8d9cb2d4.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件和 $UGS_OR_FLEX_OR_SALT$。\n按“确定”返回组件选择对话框。\n
+
+# ShowDialogAction.e5ec8d9cb2d4.title=Warning
+ShowDialogAction.e5ec8d9cb2d4.title=警告
+
+# ShowDialogAction.e5ed1f768aa6.buttonLabel=OK
+ShowDialogAction.e5ed1f768aa6.buttonLabel=确定
+
+# ShowDialogAction.e5ed1f768aa6.cancelButtonLabel=Cancel
+ShowDialogAction.e5ed1f768aa6.cancelButtonLabel=取消
+
+# ShowDialogAction.e5ed1f768aa6.detailsButtonLabel=Details...
+ShowDialogAction.e5ed1f768aa6.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5ed1f768aa6.label=No Component Selected
+ShowDialogAction.e5ed1f768aa6.label=无选定组件
+
+# ShowDialogAction.e5ed1f768aa6.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX_OR_SALT$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.e5ed1f768aa6.narrative=您已取消选择所有 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 组件和 $UGS_OR_FLEX_OR_SALT$。\n按“确定”返回组件选择对话框。\n
+
+# ShowDialogAction.e5ed1f768aa6.title=Warning
+ShowDialogAction.e5ed1f768aa6.title=警告
+
+# ShowDialogAction.e5f03427a253.buttonLabel=Yes
+ShowDialogAction.e5f03427a253.buttonLabel=是
+
+# ShowDialogAction.e5f03427a253.cancelButtonLabel=No
+ShowDialogAction.e5f03427a253.cancelButtonLabel=否
+
+# ShowDialogAction.e5f03427a253.detailsButtonLabel=Details...
+ShowDialogAction.e5f03427a253.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5f03427a253.label=_COMPANY_NAME_ License Manager exists
+ShowDialogAction.e5f03427a253.label=_COMPANY_NAME_ 许可证管理器存在
+
+# ShowDialogAction.e5f03427a253.narrative=Setup has detected that _COMPANY_NAME_ License server is already installed on this system. Do you want to replace the license file?
+ShowDialogAction.e5f03427a253.narrative=安装程序检测到此系统上已安装 _COMPANY_NAME_ 许可证服务器。是否要替换许可证文件？
+
+# ShowDialogAction.e5f03427a253.title=Information
+ShowDialogAction.e5f03427a253.title=信息
+
+# ShowDialogAction.e5f31526ba14.buttonLabel=Yes
+ShowDialogAction.e5f31526ba14.buttonLabel=是
+
+# ShowDialogAction.e5f31526ba14.cancelButtonLabel=No
+ShowDialogAction.e5f31526ba14.cancelButtonLabel=否
+
+# ShowDialogAction.e5f31526ba14.detailsButtonLabel=Details...
+ShowDialogAction.e5f31526ba14.detailsButtonLabel=详情...
+
+# ShowDialogAction.e5f31526ba14.label=FLEXlm License server already exists
+ShowDialogAction.e5f31526ba14.label=FLEXlm 许可证服务器已存在
+
+# ShowDialogAction.e5f31526ba14.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to install _COMPANY_NAME_ License server?
+ShowDialogAction.e5f31526ba14.narrative=安装程序检测到此系统上已安装 FLEXlm 许可证服务器。是否要安装 _COMPANY_NAME_ 许可证服务器？
+
+# ShowDialogAction.e5f31526ba14.title=Information
+ShowDialogAction.e5f31526ba14.title=信息
+
+# ShowDialogAction.ec53fa86a914.buttonLabel=OK
+ShowDialogAction.ec53fa86a914.buttonLabel=确定
+
+# ShowDialogAction.ec53fa86a914.cancelButtonLabel=Cancel
+ShowDialogAction.ec53fa86a914.cancelButtonLabel=取消
+
+# ShowDialogAction.ec53fa86a914.detailsButtonLabel=Details...
+ShowDialogAction.ec53fa86a914.detailsButtonLabel=详情...
+
+# ShowDialogAction.ec53fa86a914.label=Error occurred while configuring _COMPANY_NAME_ License Service.
+ShowDialogAction.ec53fa86a914.label=在配置 _COMPANY_NAME_ 许可证服务时发生错误。
+
+# ShowDialogAction.ec53fa86a914.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ec53fa86a914.narrative=配置 _COMPANY_NAME_ 许可证服务时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+
+# ShowDialogAction.ec53fa86a914.title=Error
+ShowDialogAction.ec53fa86a914.title=错误
+
+# ShowDialogAction.ec53fa86a916.buttonLabel=OK
+ShowDialogAction.ec53fa86a916.buttonLabel=确定
+
+# ShowDialogAction.ec53fa86a916.cancelButtonLabel=Cancel
+ShowDialogAction.ec53fa86a916.cancelButtonLabel=取消
+
+# ShowDialogAction.ec53fa86a916.detailsButtonLabel=Details...
+ShowDialogAction.ec53fa86a916.detailsButtonLabel=详情...
+
+# ShowDialogAction.ec53fa86a916.label=Error occurred while configuring _COMPANY_NAME_ License Service.
+ShowDialogAction.ec53fa86a916.label=在配置 _COMPANY_NAME_ 许可证服务时发生错误。
+
+# ShowDialogAction.ec53fa86a916.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ec53fa86a916.narrative=配置 _COMPANY_NAME_ 许可证服务时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
+
+# ShowDialogAction.ec53fa86a916.title=Error
+ShowDialogAction.ec53fa86a916.title=错误
+
 # ShowDialogAction.f388bcb88e95.buttonLabel=OK
 ShowDialogAction.f388bcb88e95.buttonLabel=确定
 
@@ -4447,7 +4807,7 @@ ShowDialogAction.f71886e6923d.detailsButtonLabel=详情...
 # ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
 ShowDialogAction.f71886e6923d.label=未安装 Windows 修补程序
 
-# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer.\n\nIf installer integration is required, please follow link below before running the installer again.\n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
 ShowDialogAction.f71886e6923d.narrative=在 Windows 上使用 Windows 集成 Catia 需要 Microsoft 修补程序，安装程序不会执行 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ 集成。\n\n如果需要安装程序集成，请在运行安装程序前按以下链接操作。\n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
@@ -4603,6 +4963,12 @@ UninstallIntroAction.850018f38454.message=正要卸载...\n\n$INSTALLER_TITLE$$W
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.850018f38454.stepTitle=卸载 $INSTALLER_TITLE$
 
+# UninstallIntroAction.e736af57bb12.message=About to uninstall...\n\n_COMPANY_NAME_ License Server $SALT_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.e736af57bb12.message=将要卸载...\n\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$\n\n这会移除通过 InstallAnywhere 安装的功能。请注意，卸载程序不会移除安装后创建或修改的任何文件和文件夹。选择“取消”可退出卸载程序。
+
+# UninstallIntroAction.e736af57bb12.stepTitle=Uninstall _COMPANY_NAME_ License Server
+UninstallIntroAction.e736af57bb12.stepTitle=卸载 _COMPANY_NAME_ 许可证服务器
+
 # VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
 VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=产品名称：
 
@@ -4650,6 +5016,24 @@ VariablePropertyDataBiDi.d8669dc1baed.propertyName=安装目录：
 
 # VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.e5e0a98b8e84.propertyName=Installation directory:
+VariablePropertyDataBiDi.e5e0a98b8e84.propertyName=安装目录：
+
+# VariablePropertyDataBiDi.e5e0a98b8e84.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataBiDi.e5e0a98b8e84.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.e5e0a98c8e83.propertyName=Product name:
+VariablePropertyDataBiDi.e5e0a98c8e83.propertyName=产品名称：
+
+# VariablePropertyDataBiDi.e5e0a98c8e83.propertyValue=_COMPANY_NAME_ License Server $SALT_VERSION$
+VariablePropertyDataBiDi.e5e0a98c8e83.propertyValue=_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$
+
+# VariablePropertyDataBiDi.e5e0a98c8e84.propertyName=License file:
+VariablePropertyDataBiDi.e5e0a98c8e84.propertyName=许可证文件：
+
+# VariablePropertyDataBiDi.e5e0a98c8e84.propertyValue=$NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$
+VariablePropertyDataBiDi.e5e0a98c8e84.propertyValue=$NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=许可证服务器 1 port@host：\n
