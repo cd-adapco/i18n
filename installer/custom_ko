@@ -64,6 +64,12 @@ ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Serie
 # ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 
+# ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
+ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
+
+# ASCIIFileManipulator.48b2ba9eaa24.additionalText=InstallDirectorySC3D2021.2Series=$NXPATH$
+ASCIIFileManipulator.48b2ba9eaa24.additionalText=InstallDirectorySC3D2021.2Series=$NXPATH$
+
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
 
@@ -105,6 +111,18 @@ ChooseFile.a174655a93b6.prompt=라이선스 파일을 선택하십시오.
 
 # ChooseFile.a174655a93b6.stepTitle=Select license file
 ChooseFile.a174655a93b6.stepTitle=라이선스 파일 선택
+
+# ChooseFile.e5d0a320b269.additionalText=Please choose the license file provided to you by _COMPANY_NAME_ _BUSINESS_UNIT_ via email. If you have not yet received a license file you may not be able to proceed with this installation.
+ChooseFile.e5d0a320b269.additionalText=이메일을 통해 _COMPANY_NAME_ _BUSINESS_UNIT_으로부터 제공 받은 라이선스 파일을 선택하십시오. 아직 라이선스 파일을 받지 않은 경우 이 설치를 진행하지 못할 수도 있습니다.
+
+# ChooseFile.e5d0a320b269.defaultFile=$DEFAULT_SALT_LIC_FILE$
+ChooseFile.e5d0a320b269.defaultFile=$DEFAULT_SALT_LIC_FILE$
+
+# ChooseFile.e5d0a320b269.prompt=Please choose the license File:
+ChooseFile.e5d0a320b269.prompt=라이선스 파일을 선택하십시오.
+
+# ChooseFile.e5d0a320b269.stepTitle=Select license file
+ChooseFile.e5d0a320b269.stepTitle=라이선스 파일 선택
 
 # ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
 ChooseFolder.85678ebc8c0d.additionalText=업그레이드를 위한 소스 역할을 할 기존_RT_JOB_MANAGER_ 인스턴스를 찾으십시오. star/bin 폴더 아래 기존 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설치 디렉터리에서 찾을 수 있습니다.
@@ -613,6 +631,27 @@ EditEnvironment.bbd4dea2b41c.value=$USER_INSTALL_DIR$/star/bin
 # EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 EditEnvironment.c206bedda777.value=$USER_MAGIC_FOLDER_1$\\STAR-NX\\custom_dirs.dat
 
+# EditEnvironment.ec53fa85a908.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa85a908.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa85a909.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa85a909.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a90b.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a90b.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a90f.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a90f.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa86a910.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa86a910.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
+
+# EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
+EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
+
 # EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
 EntryAtomBiDi.757df83097fd.label=Product Excellence Program에 참여
 
@@ -640,8 +679,8 @@ Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.30fdba8e94e9.title=attrib +R
 Exec.30fdba8e94e9.title=attrib + R
 
-# Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
-Exec.3cae6520be5f.commandLineArgs=chmod 755 $INSTALLER_TEMP_DIR$/lmutil $INSTALLER_TEMP_DIR$/lmhostid $INSTALLER_TEMP_DIR$/licpath $INSTALLER_TEMP_DIR$/find_cdlmd.sh $INSTALLER_TEMP_DIR$/find_ccmp.sh $INSTALLER_TEMP_DIR$/verifypermissions.sh $INSTALLER_TEMP_DIR$/7za
+# Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
+Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
 
 # Exec.3cae6520be5f.title=File permissions
 Exec.3cae6520be5f.title=파일 권한
@@ -654,6 +693,12 @@ Exec.545df2008320.dialogLabel=원격 실행 서비스 제거 중...
 
 # Exec.545df2008320.title=Unregister Platform MPI SMPID
 Exec.545df2008320.title=플랫폼 MPI SMPID 등록 취소
+
+# Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.7f8d22128268.title=attrib +R
+Exec.7f8d22128268.title=attrib + R
 
 # Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -976,6 +1021,9 @@ ExecuteScript.7d08ee059041.dialogLabel=_SOFTWARE_FAMILY_NAME_  _STAR_CCM_APP_NAM
 # ExecuteScript.7d08ee059041.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.7d08ee059041.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 추출
 
+# ExecuteScript.7f8ca8528268.title=extract _CADC_STAR_CAT5_-31
+ExecuteScript.7f8ca8528268.title=_CADC_STAR_CAT5_-31 추출
+
 # ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
 ExecuteScript.80940cd987b6.title=_CADC_STAR_NX_-1847 추출
 
@@ -1011,6 +1059,9 @@ ExecuteScript.946b87d1bb54.title=바탕화면 새로고침
 
 # ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
 ExecuteScript.9737cae9ae4d.title=_RT_JOB_MANAGER_ 제거
+
+# ExecuteScript.99c16c1895f6.title=extract _CADC_STAR_CREO_-7
+ExecuteScript.99c16c1895f6.title=_CADC_STAR_CREO_-7 추출
 
 # ExecuteScript.9c4626dc93c4.title=internal authentication with email server
 ExecuteScript.9c4626dc93c4.title=이메일 서버로 내부 인증
@@ -1162,8 +1213,41 @@ ExecuteScript.d804a4248286.title=PC MPI 설치 제거
 # ExecuteScript.e13f0215879a.title=delete custom_dirs.dat
 ExecuteScript.e13f0215879a.title=custom_dirs.dat 삭제
 
+# ExecuteScript.e5ce3dec80f3.title=parse .plmrc
+ExecuteScript.e5ce3dec80f3.title=.plmrc 분석
+
+# ExecuteScript.e5ce3def80f4.title=parse splm_license_server
+ExecuteScript.e5ce3def80f4.title=splm_license_server 분석
+
+# ExecuteScript.e5d0a31eb24a.title=parse .plmrc
+ExecuteScript.e5d0a31eb24a.title=.plmrc 분석
+
+# ExecuteScript.e5d0a31eb24c.title=parse 
+ExecuteScript.e5d0a31eb24c.title=분석 
+
+# ExecuteScript.e736af57bb14.title=Remove _COMPANY_NAME_ SALT-windows service
+ExecuteScript.e736af57bb14.title=_COMPANY_NAME_ SALT-windows 서비스 제거
+
+# ExecuteScript.e736af57bb15.title=Remove _COMPANY_NAME_ SALT-linux service
+ExecuteScript.e736af57bb15.title=_COMPANY_NAME_ SALT-linux 서비스 제거
+
 # ExecuteScript.eab32fc2b934.title=Removing PC MPI Installer
 ExecuteScript.eab32fc2b934.title=PC MPI 설치 제거
+
+# ExecuteScript.ec53fa86a90c.title=create .plmrc
+ExecuteScript.ec53fa86a90c.title=.plmrc 생성
+
+# ExecuteScript.ec53fa86a911.title=create .plmrc
+ExecuteScript.ec53fa86a911.title=.plmrc 생성
+
+# ExecuteScript.ec53fa86a912.title=Configure _COMPANY_NAME_ SALT windows
+ExecuteScript.ec53fa86a912.title=_COMPANY_NAME_ SALT windows 구성
+
+# ExecuteScript.ec53fa86a915.title=Configure _COMPANY_NAME_ SALT Linux
+ExecuteScript.ec53fa86a915.title=_COMPANY_NAME_ SALT Linux 구성
+
+# ExecuteScript.ec53fa87a91d.title=create .plmrc
+ExecuteScript.ec53fa87a91d.title=.plmrc 생성
 
 # ExecuteScript.f4fe59f891fe.title=extract English release notes
 ExecuteScript.f4fe59f891fe.title=영어 릴리스 노트 추출
@@ -1210,12 +1294,6 @@ GetUserInput.07762bd5ba98.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 # GetUserInput.07762bd5ba98.title=Select Additional Tasks
 GetUserInput.07762bd5ba98.title=추가 작업 선택
 
-# GetUserInput.07fbb89ebccd.prompt=Do you want to uninstall the _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration now?
-GetUserInput.07fbb89ebccd.prompt=지금  _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration을 제거하시겠습니까?
-
-# GetUserInput.07fbb89ebccd.title=Uninstall _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration
-GetUserInput.07fbb89ebccd.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ Integration 제거
-
 # GetUserInput.09531f37b189.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 GetUserInput.09531f37b189.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설치 중에 설치 프로그램에서 수행하게 할 추가 작업을 선택합니다.
 
@@ -1240,7 +1318,7 @@ GetUserInput.121e4071ae24.prompt=$INSTALLER_TITLE$을(를) 설치하고자 하�
 # GetUserInput.121e4071ae24.title=Select Installation Location
 GetUserInput.121e4071ae24.title=설치 위치 선택
 
-# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service. \n\nThis service requires a name and a default name is listed below.\n\n
+# GetUserInput.154a0b5aaa67.prompt=You are now ready to set up the License Manager service.\n\nThis service requires a name and a default name is listed below.\n\n
 GetUserInput.154a0b5aaa67.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 됐습니다. \n\n이 서비스에는 이름이 필요하며 기본 이름은 아래에 나열돼 있습니다.\n\n
 
 # GetUserInput.154a0b5aaa67.title=Service Configuration 
@@ -1306,7 +1384,7 @@ GetUserInput.5f8d10b48f40.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설�
 # GetUserInput.5f8d10b48f40.title=Select Additional Tasks
 GetUserInput.5f8d10b48f40.title=추가 작업 선택
 
-# GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service. \n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
+# GetUserInput.61df1e08b39a.prompt=You are now ready to set up the License Manager service.\n\nThe current service name is listed below.\n\nIf you wish to change the service name to something else, then please modify the name provided.\n\n
 GetUserInput.61df1e08b39a.prompt=이제 라이선스 관리자 서비스를 설정할 준비가 됐습니다. \n\n현재 서비스 이름이 아래에 나열되어 있습니다.\n\n서비스 이름을 변경하시려면 제공된 이름을 수정하십시오.\n\n
 
 # GetUserInput.61df1e08b39a.title=Service Configuration 
@@ -1324,13 +1402,13 @@ GetUserInput.8209d5e08fc6.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설�
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=추가 작업 선택
 
-# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system. \n\nWhich method would you like to use?
+# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
 GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_ 사용자는 운영 체제에 계정이 있어야 합니다. _RT_JOB_MANAGER_에서는 자체 데이터베이스에 저장된 사용자 암호를 사용해 자체 인증하거나 운영 체제에 인증을 위임할 수 있습니다. \n\n어떤 방법을 사용하시겠습니까?
 
 # GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
 GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 구성
 
-# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_. \n\n
+# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_.\n\n
 GetUserInput.8575cd2c96c8.prompt=_RT_JOB_MANAGER_가 실행될 위치 정보를 입력하십시오.\n\n_RT_JOB_MANAGER_에 연결하려는 클라이언트에서 호스트네임을 확인할 수 있어야 합니다_. \n\n
 
 # GetUserInput.8575cd2c96c8.title=Server selection
@@ -1384,7 +1462,7 @@ GetUserInput.a166035790bd.prompt=라이선스 서버 소프트웨어에 액세�
 # GetUserInput.a166035790bd.title=_COMPANY_NAME_ License Server Configuration
 GetUserInput.a166035790bd.title=_COMPANY_NAME_ 라이선스 서버 구성
 
-# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server or a local license server. \n\nPlease select the licensing method you wish to use:
+# GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_ provides licensing via our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server or a local license server.\n\nPlease select the licensing method you wish to use:
 GetUserInput.a53ed862b666.prompt=_COMPANY_NAME_에서는 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand 라이선스 서버 또는 로컬 라이선스 서버를 통해 라이선스를 제공합니다. \n\n사용하고자 하는 라이선스 방법을 선택하십시오.
 
 # GetUserInput.a53ed862b666.title=Choose License Type
@@ -1402,11 +1480,41 @@ GetUserInput.d833413bb48e.prompt=_COMPANY_NAME_은(는) 로컬 라이선스 서�
 # GetUserInput.d833413bb48e.title=Choose License Type
 GetUserInput.d833413bb48e.title=라이선스 유형 선택
 
-# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network. \n\nPlease select the licensing method you wish to use:
+# GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Server $UGS_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.\n\nPlease select the licensing method you wish to use:
 GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 제품은  Software의 PLM 라이선스 서버 $UGS_VERSION$를 사용해 _COMPANY_NAME_제품 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어에서 로컬 (이 컴퓨터) 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다. \n\n사용할 라이선스 방법을 선택하십시오.
 
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=라이선스 유형 선택
+
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=\"port@host\" 형식을 사용해 _COMPANY_NAME_ 라이선스 서버의 TCP/IP 포트와 호스트네임을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 세 개 장치에 중복 라이선스 서버를 설치하시려면 그에 알맞게 선택하십시오.
+
+# GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
+GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ 라이선스 클라이언트 구성 
+
+# GetUserInput.e5d0a321b260.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the _COMPANY_NAME_ License Server is 29000. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
+GetUserInput.e5d0a321b260.prompt=라이선스 서버 소프트웨어에 액세스하려면 통신 채널 또는 포트를 컴퓨터에서 사용할 수 있어야 합니다. _COMPANY_NAME_ 라이선스 서버의 기본 포트 번호는 29000입니다. 이러한 기본값은 아래에 나열되어 있지만 필요한 경우 컴퓨터 설정을 반영하기 위해 다른 포트 번호로 변경할 수 있습니다.
+
+# GetUserInput.e5d0a321b260.title=_COMPANY_NAME_ License Server Configuration
+GetUserInput.e5d0a321b260.title=_COMPANY_NAME_ 라이선스 서버 구성
+
+# GetUserInput.e5f58074a953.prompt=_COMPANY_NAME_ provides License Server $SALT_VERSION$ via a local license server.
+GetUserInput.e5f58074a953.prompt=_COMPANY_NAME_은(는) 로컬 라이선스 서버를 통해 라이선스 서버 $SALT_VERSION$을(를) 제공합니다.
+
+# GetUserInput.e5f58074a953.title=Choose License Type
+GetUserInput.e5f58074a953.title=라이선스 유형 선택
+
+# GetUserInput.e5f7458283b4.prompt=_COMPANY_NAME_ products use the License Server $SALT_VERSION$ from _COMPANY_NAME_ Software to manage licensing of our products. The licensing toolkit allows the software to access a license file either locally (on this computer) or via a network.\n\nPlease select the licensing method you wish to use:
+GetUserInput.e5f7458283b4.prompt=_COMPANY_NAME_ 제품은 _COMPANY_NAME_ Software의 라이선스 서버 $SALT_VERSION$을(를) 사용하여 제품의 라이선스를 관리합니다. 라이선스 툴킷을 사용하면 소프트웨어에서 로컬(이 컴퓨터)로 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.
+
+# GetUserInput.e5f7458283b4.title=Choose License Type
+GetUserInput.e5f7458283b4.title=라이선스 유형 선택
+
+# GetUserInput.e736af59bb0f.prompt=Do you want to uninstall the _COMPANY_NAME_ License Server now?
+GetUserInput.e736af59bb0f.prompt=_COMPANY_NAME_ 라이선스 서버를 지금 제거하시겠습니까?
+
+# GetUserInput.e736af59bb0f.title=Uninstall _COMPANY_NAME_ License Server
+GetUserInput.e736af59bb0f.title=_COMPANY_NAME_ 라이선스 서버 제거
 
 # GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ products use the FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$ from Flexera Software to manage licensing of our products. It allows the software to access a license file either locally (on this computer) or via a network.  If desired, our _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand license server may be configured as your license server.\n\nPlease select the licensing method you wish to use:
 GetUserInput.e821a5059d90.prompt=_COMPANY_NAME_ 제품은 Flexera Software의 FLEXNet Publisher Licensing Toolkit $FLEX_VER_NUM$을(를) 사용하여 제품의 라이선스를 관리합니다. 이 툴킷을 통해 소프트웨어에서 로컬(이 컴퓨터)로 또는 네트워크를 통해 라이선스 파일에 액세스할 수 있습니다. 필요한 경우 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ Power on Demand 라이선스 서버를 사용자의 라이선스 서버로 구성할 수도 있습니다.\n\n사용할 라이선스 방법을 선택하십시오.
@@ -1744,6 +1852,18 @@ GUIComponentData.4206afe69796.defaultValue=Not Selected
 # GUIComponentData.4206afe69796.label=No
 GUIComponentData.4206afe69796.label=아니요
 
+# GUIComponentData.489ddcf3aa1d.defaultValue=Not Selected
+GUIComponentData.489ddcf3aa1d.defaultValue=Not Selected
+
+# GUIComponentData.489ddcf3aa1d.label=NX 1980 series
+GUIComponentData.489ddcf3aa1d.label=NX 1980 시리즈
+
+# GUIComponentData.489e49fdaa21.defaultValue=Not Selected
+GUIComponentData.489e49fdaa21.defaultValue=Not Selected
+
+# GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
+GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
+
 # GUIComponentData.4dbc5b3fb838.defaultValue=Selected
 GUIComponentData.4dbc5b3fb838.defaultValue=Selected
 
@@ -2050,6 +2170,66 @@ GUIComponentData.d8b757c7aba9.defaultValue=Selected
 # GUIComponentData.d8b757c7aba9.label=Local: Configure this machine to access local license server
 GUIComponentData.d8b757c7aba9.label=로컬: 로컬 라이선스 서버에 액세스하도록 이 시스템 구성
 
+# GUIComponentData.e5ce3dee80f7.defaultValue=
+GUIComponentData.e5ce3dee80f7.defaultValue=
+
+# GUIComponentData.e5ce3dee80f7.label=
+GUIComponentData.e5ce3dee80f7.label=
+
+# GUIComponentData.e5ce3dee80f8.defaultValue=$DEF_SERVER1$
+GUIComponentData.e5ce3dee80f8.defaultValue=$DEF_SERVER1$
+
+# GUIComponentData.e5ce3dee80f8.label=License server 1 ( REQUIRED )
+GUIComponentData.e5ce3dee80f8.label=라이선스 서버 1 (필수)
+
+# GUIComponentData.e5ce3dee80f9.defaultValue=
+GUIComponentData.e5ce3dee80f9.defaultValue=
+
+# GUIComponentData.e5ce3dee80f9.label=License server 2
+GUIComponentData.e5ce3dee80f9.label=라이선스 서버 2
+
+# GUIComponentData.e5ce3dee80fa.defaultValue=
+GUIComponentData.e5ce3dee80fa.defaultValue=
+
+# GUIComponentData.e5ce3dee80fa.label=License server 3
+GUIComponentData.e5ce3dee80fa.label=라이선스 서버 3
+
+# GUIComponentData.e5ce3dee80fb.defaultValue=Not Selected
+GUIComponentData.e5ce3dee80fb.defaultValue=Not Selected
+
+# GUIComponentData.e5ce3dee80fb.label=Three Machine redundant license server
+GUIComponentData.e5ce3dee80fb.label=세 대 컴퓨터 중복 라이선스 서버
+
+# GUIComponentData.e5d0a320b262.defaultValue=
+GUIComponentData.e5d0a320b262.defaultValue=
+
+# GUIComponentData.e5d0a320b262.label=
+GUIComponentData.e5d0a320b262.label=
+
+# GUIComponentData.e5d0a320b263.defaultValue=$SALT_PORT_NUMBER$
+GUIComponentData.e5d0a320b263.defaultValue=$SALT_PORT_NUMBER$
+
+# GUIComponentData.e5d0a320b263.label=Enter the License port number:
+GUIComponentData.e5d0a320b263.label=라이선스 포트 번호 입력:
+
+# GUIComponentData.e5f58075a956.defaultValue=Selected
+GUIComponentData.e5f58075a956.defaultValue=Selected
+
+# GUIComponentData.e5f58075a956.label=Local: Configure this machine to access local license server
+GUIComponentData.e5f58075a956.label=로컬: 로컬 라이선스 서버에 액세스하도록 이 시스템 구성
+
+# GUIComponentData.e5f7458383b7.defaultValue=Not Selected
+GUIComponentData.e5f7458383b7.defaultValue=Not Selected
+
+# GUIComponentData.e5f7458383b7.label=Network: Configure this machine to access a network license server
+GUIComponentData.e5f7458383b7.label=네트워크: 네트워크 라이선스 서버에 액세스하도록 이 시스템 구성
+
+# GUIComponentData.e5f7458483b7.defaultValue=Selected
+GUIComponentData.e5f7458483b7.defaultValue=Selected
+
+# GUIComponentData.e5f7458483b7.label=Local: Install and configure _COMPANY_NAME_ License Server on this machine 
+GUIComponentData.e5f7458483b7.label=로컬: 이 시스템에 _COMPANY_NAME_ 라이선스 서버 설치 및 구성 
+
 # GUIComponentData.e6e769628c38.defaultValue=$HOST$
 GUIComponentData.e6e769628c38.defaultValue=$HOST$
 
@@ -2335,11 +2515,17 @@ InstallCompleteActionConsole.bd93643ba2ed.message=축하합니다.\n\nFLEXNet $F
 # InstallCompleteActionConsole.bd93643ba2ed.title=Install Complete
 InstallCompleteActionConsole.bd93643ba2ed.title=설치 완료
 
-# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office. \n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
+# InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office.\n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
 InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 소프트웨어 $WINDOWS_TYPE$ 설치가 성공적으로 완료되었으나 설치 중 경고 또는 오류가 발생했습니다.\n\n자세한 사항은 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오.\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=설치 실패
+
+# InstallCompleteActionConsole.e73c0c7192d4.message=Congratulations:\n\nThe installation of _COMPANY_NAME_ License Server $SALT_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_19$\n\nThe installation log can be found at $USER_MAGIC_FOLDER_19$\\log folder.\n\n\n
+InstallCompleteActionConsole.e73c0c7192d4.message=축하합니다.\n\n_COMPANY_NAME_ 라이선스 서버 $SALT_VERSION$이(가) $USER_MAGIC_FOLDER_19$에 성공적으로 설치되었습니다.\n\n설치 로그는 $USER_MAGIC_FOLDER_19$\\log 폴더에서 찾을 수 있습니다.\n\n\n
+
+# InstallCompleteActionConsole.e73c0c7192d4.title=Install Complete
+InstallCompleteActionConsole.e73c0c7192d4.title=설치 완료
 
 # InstallDirAction.a48f6af3a8f7.additionalText=Choose the path where you would like to install $INSTALLER_TITLE$
 InstallDirAction.a48f6af3a8f7.additionalText=$INSTALLER_TITLE$을(를) 설치하고자 하는 경로를 선택합니다.
@@ -2551,17 +2737,17 @@ InstallFinishAction.850018e3843a.rebootRequiredMessage=설치를 완료하려면
 # InstallFinishAction.850018e3843a.windowTitle=Install Complete
 InstallFinishAction.850018e3843a.windowTitle=설치 완료
 
-# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$의 설치가 완료됐으나 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 일부 오류가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
-# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$의 설치가 완료됐으나 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 심각한 오류가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
 # InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured with URL http://$HOST$:$PORT$ and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.9741505abaf9.installSuccessMessage=축하합니다.\n\n다음에 $INSTALLER_TITLE$소프트웨어$WINDOWS_TYPE$를 설치했습니다.\n\n$USER_INSTALL_DIR$\n\nLinux 서비스로서 _RT_JOB_MANAGER_ 설정은 URL http://$HOST$:$PORT$(으)로 구성되며 재부팅 시에 자동 시작됩니다.\n\n추가 지원이 필요한 경우 현지 지원 사무소에 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
-# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
-InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 일부 경고가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
 # InstallFinishAction.9741505abaf9.launchText=
 InstallFinishAction.9741505abaf9.launchText=
@@ -2578,17 +2764,17 @@ InstallFinishAction.9741505abaf9.rebootRequiredMessage=설치를 완료하려면
 # InstallFinishAction.9741505abaf9.windowTitle=Install Complete
 InstallFinishAction.9741505abaf9.windowTitle=설치 완료
 
-# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 오류가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
+# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 일부 오류가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
-# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 심각한 오류가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
+# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 심각한 오류가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
 # InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
 InstallFinishAction.bbeaa35cb859.installSuccessMessage=축하합니다.\n￼\n￼￼ $INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$ ￼ 설치가 다음 위치에 성공적으로 완료됐습니다.\n￼\n$USER_INSTALL_DIR$￼￼\n￼\n￼추가 지원이 필요한 경우 현지 지원팀 문의하십시오. _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 공급업체로 선택해 주셔서 감사합니다.\n￼\n￼설치 관리자를 종료하려면 \"완료\"를 누르십시오.
 
-# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for installer and Job Manager log can be found in $USER_INSTALL_DIR$.
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$의 설치가 완료되었지만 설치 중 경고가 발생했습니다. 설치 프로그램에 대한 설치 로그($USER_INSTALL_LOG_LOCATION$)를 참조하십시오. Job Manager 로그는 $USER_INSTALL_DIR$에서 찾을 수 있습니다.
+# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
+InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료되었지만 설치 중에 일부 경고가 발생했습니다. 설치 관리자($USER_INSTALL_LOG_LOCATION$) 및 Job Manager($USER_INSTALL_DIR$)에 대한 로그 파일을 확인하십시오.
 
 # InstallFinishAction.bbeaa35cb859.launchText=
 InstallFinishAction.bbeaa35cb859.launchText=
@@ -2604,6 +2790,33 @@ InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=설치를 완료하려면
 
 # InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
 InstallFinishAction.bbeaa35cb859.windowTitle=설치 완료
+
+# InstallFinishAction.e73c82dcaad2.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installErrorMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+
+# InstallFinishAction.e73c82dcaad2.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installFatalMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 심각한 오류가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+
+# InstallFinishAction.e73c82dcaad2.installSuccessMessage=Congratulations:\n\nThe installation of _COMPANY_NAME_ License Server $SALT_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_19$\n\nThe installation log can be found at $USER_MAGIC_FOLDER_19$\\log folder.\n\nPress \"Done\" to quit the installer..
+InstallFinishAction.e73c82dcaad2.installSuccessMessage=축하합니다.\n\n_COMPANY_NAME_ 라이선스 서버 $SALT_VERSION$이(가) $USER_MAGIC_FOLDER_19$에 성공적으로 설치되었습니다.\n\n설치 로그는 $USER_MAGIC_FOLDER_19$\\log 폴더에서 찾을 수 있습니다.\n\n설치 관리자를 종료하려면 \"완료\"를 누르십시오.
+
+# InstallFinishAction.e73c82dcaad2.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
+InstallFinishAction.e73c82dcaad2.installWarningMessage=$INSTALLER_TITLE$ 설치가 완료됐으나 설치 중 일부 경고가 발생했습니다. 자세한 내용은 설치 로그 $USER_INSTALL_LOG_LOCATION$을(를) 참조하십시오.
+
+# InstallFinishAction.e73c82dcaad2.launchText=
+InstallFinishAction.e73c82dcaad2.launchText=
+
+# InstallFinishAction.e73c82dcaad2.rebootNotNeededMessage=
+InstallFinishAction.e73c82dcaad2.rebootNotNeededMessage=
+
+# InstallFinishAction.e73c82dcaad2.rebootRecommendedMessage=You should restart the system to complete the installation.
+InstallFinishAction.e73c82dcaad2.rebootRecommendedMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# InstallFinishAction.e73c82dcaad2.rebootRequiredMessage=You need to restart the system to complete the installation.
+InstallFinishAction.e73c82dcaad2.rebootRequiredMessage=설치를 완료하기 위해 시스템을 다시 시작해야 합니다.
+
+# InstallFinishAction.e73c82dcaad2.windowTitle=Install Complete
+InstallFinishAction.e73c82dcaad2.windowTitle=설치 완료
 
 # InstallFrameConfigurator.850018f38449.maintModeTitle=Uninstall $INSTALLER_TITLE$
 InstallFrameConfigurator.850018f38449.maintModeTitle=$INSTALLER_TITLE$ 제거
@@ -2680,6 +2893,12 @@ InstallSummary.d8669dc1baea.stepPrompt=계속하기 전 다음 사항을 검토�
 # InstallSummary.d8669dc1baea.title=Pre-Installation Summary
 InstallSummary.d8669dc1baea.title=사전 설치 요약
 
+# InstallSummary.e5e0a98a8e81.stepPrompt=Please Review the Following Before Continuing:
+InstallSummary.e5e0a98a8e81.stepPrompt=계속하기 전에 다음 사항을 검토하십시오.
+
+# InstallSummary.e5e0a98a8e81.title=Pre-Installation Summary
+InstallSummary.e5e0a98a8e81.title=사전 설치 요약
+
 # InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
 InstallUninstaller.85001a1b8498.destinationName=$UNINSTALLER_NAME$
 
@@ -2700,6 +2919,12 @@ IntroActionConsole.c7e016579491.message=제거 준비 중...\n\n_SOFTWARE_FAMILY
 
 # IntroActionConsole.c7e016579491.title=Uninstall _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_
 IntroActionConsole.c7e016579491.title=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 제거
+
+# IntroActionConsole.e736af57bb13.message=About to uninstall...\n\n_COMPANY_NAME_ License Server $SALT_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+IntroActionConsole.e736af57bb13.message=제거 준비 중...\n\n_COMPANY_NAME_ 라이선스 서버 $SALT_VERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 생성 또는 수정된 파일과 폴더를 제거하지 않습니다. 제거를 종료하려면 [취소]를 선택하십시오.
+
+# IntroActionConsole.e736af57bb13.title=Uninstall _COMPANY_NAME_ License Server
+IntroActionConsole.e736af57bb13.title=_COMPANY_NAME_ 라이선스 서버 제거
 
 # LicenseAgrAction.43ff93b98f68.existingFilePath=
 LicenseAgrAction.43ff93b98f68.existingFilePath=
@@ -2940,6 +3165,15 @@ MakeRegEntry.ec53371b90cd.value=$USER_MAGIC_FOLDER_5$\\bin\\starview+.exe
 
 # MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
 MakeRegEntry.ec53371b90cd.valueName=DisplayIcon
+
+# MakeRegEntry.ec53fa85a903.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+MakeRegEntry.ec53fa85a903.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
+
+# MakeRegEntry.ec53fa85a903.value=$USER_MAGIC_FOLDER_19$\\starfish.ico
+MakeRegEntry.ec53fa85a903.value=$USER_MAGIC_FOLDER_19$\\starfish.ico
+
+# MakeRegEntry.ec53fa85a903.valueName=DisplayIcon
+MakeRegEntry.ec53fa85a903.valueName=DisplayIcon
 
 # MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
 MakeRegEntry.ec562b3b90cd.key=HKEY_LOCAL_MACHINE\\SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Uninstall\\$PRODUCT_NAME$
@@ -3529,7 +3763,7 @@ ShowDialogAction.25820b1c92f3.detailsButtonLabel=세부 정보...
 # ShowDialogAction.25820b1c92f3.label=Invalid license file.
 ShowDialogAction.25820b1c92f3.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+# ShowDialogAction.25820b1c92f3.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
 ShowDialogAction.25820b1c92f3.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
 
 # ShowDialogAction.25820b1c92f3.title=ERROR
@@ -3781,7 +4015,7 @@ ShowDialogAction.653c263b9ee1.detailsButtonLabel=세부 정보...
 # ShowDialogAction.653c263b9ee1.label=Invalid license file.
 ShowDialogAction.653c263b9ee1.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address \n\nPlease select Next to continue or Previous to reselect your license file.
+# ShowDialogAction.653c263b9ee1.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
 ShowDialogAction.653c263b9ee1.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 구성되지 않았습니다.  \n\n계속하려면 다음을, 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.653c263b9ee1.title=ERROR
@@ -3877,24 +4111,6 @@ ShowDialogAction.7e4d4aee9257.narrative=솔버 구성 요소(_SOFTWARE_FAMILY_NA
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=경고
 
-# ShowDialogAction.7e8620e4a2ee.buttonLabel=OK
-ShowDialogAction.7e8620e4a2ee.buttonLabel=확인
-
-# ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=Cancel
-ShowDialogAction.7e8620e4a2ee.cancelButtonLabel=취소
-
-# ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=Details...
-ShowDialogAction.7e8620e4a2ee.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.7e8620e4a2ee.label=No Component Selected
-ShowDialogAction.7e8620e4a2ee.label=선택된 구성 요소 없음
-
-# ShowDialogAction.7e8620e4a2ee.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
-ShowDialogAction.7e8620e4a2ee.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 구성 요소 및 $UGS_OR_FLEX$을(를) 선택 취소했습니다.\n확인을 눌러 구성 요소 선택 대화 상자로 돌아가십시오.\n
-
-# ShowDialogAction.7e8620e4a2ee.title=Warning
-ShowDialogAction.7e8620e4a2ee.title=경고
-
 # ShowDialogAction.812ff9fd8bc2.buttonLabel=OK
 ShowDialogAction.812ff9fd8bc2.buttonLabel=확인
 
@@ -3948,24 +4164,6 @@ ShowDialogAction.81357f99b1bc.narrative='루트' 권한으로 업그레이드하
 
 # ShowDialogAction.81357f99b1bc.title=Error
 ShowDialogAction.81357f99b1bc.title=오류
-
-# ShowDialogAction.85b5743ab480.buttonLabel=OK
-ShowDialogAction.85b5743ab480.buttonLabel=확인
-
-# ShowDialogAction.85b5743ab480.cancelButtonLabel=Cancel
-ShowDialogAction.85b5743ab480.cancelButtonLabel=취소
-
-# ShowDialogAction.85b5743ab480.detailsButtonLabel=Details...
-ShowDialogAction.85b5743ab480.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.85b5743ab480.label=No Component Selected
-ShowDialogAction.85b5743ab480.label=선택된 구성 요소 없음
-
-# ShowDialogAction.85b5743ab480.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX$.\nPress OK to return to the component selection dialog.\n
-ShowDialogAction.85b5743ab480.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 구성 요소 및 $UGS_OR_FLEX$을(를) 선택 취소했습니다.\n확인을 눌러 구성 요소 선택 대화 상자로 돌아가십시오.\n
-
-# ShowDialogAction.85b5743ab480.title=Warning
-ShowDialogAction.85b5743ab480.title=경고
 
 # ShowDialogAction.8b658fda8e4e.buttonLabel=OK
 ShowDialogAction.8b658fda8e4e.buttonLabel=확인
@@ -4069,7 +4267,7 @@ ShowDialogAction.a166035790c3.detailsButtonLabel=세부 정보...
 # ShowDialogAction.a166035790c3.label=Invalid license file.
 ShowDialogAction.a166035790c3.label=잘못된 라이선스 파일입니다.
 
-# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.  \n\nPlease select Next to continue or Previous to reselect your \nlicense file.
+# ShowDialogAction.a166035790c3.narrative=The  file $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
 ShowDialogAction.a166035790c3.narrative=파일 $NEW_UGS_LIC_FILE_DIR$$NEW_UGS_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
 
 # ShowDialogAction.a166035790c3.title=ERROR
@@ -4303,7 +4501,7 @@ ShowDialogAction.c21a9a0faaeb.detailsButtonLabel=세부 정보...
 # ShowDialogAction.c21a9a0faaeb.label=Warning
 ShowDialogAction.c21a9a0faaeb.label=경고
 
-# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated. \n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
+# ShowDialogAction.c21a9a0faaeb.narrative=To configure _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_, the UGII_CUSTOM_DIRECTORY_FILE environment variable  will be updated.\n\nThe environment variable is currently set to :\n$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n\nYou can retrieve the previous _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ version by changing the UGII_CUSTOM_DIRECTORY_FILE environment variable back to the value shown above.
 ShowDialogAction.c21a9a0faaeb.narrative=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_를 구성하기 위해 UGII_CUSTOM_DIRECTORY_FILE 환경 변수가 업데이트됩니다. \n￼\n￼환경 변수가 현재 다음으로 설정돼 있습니다:\n￼￼$OLD_UGII_CUSTOM_DIRECTORY_FILE$\n￼\n￼UGII_CUSTOM_DIRECTORY_FILE 환경 변수를 위에 표시된 값으로 다시 변경해 이전 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 버전을 가져올 수 있습니다.
 
 # ShowDialogAction.c21a9a0faaeb.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ configuration
@@ -4318,7 +4516,7 @@ ShowDialogAction.cefd463a8fab.cancelButtonLabel=
 # ShowDialogAction.cefd463a8fab.detailsButtonLabel=Details...
 ShowDialogAction.cefd463a8fab.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+# ShowDialogAction.cefd463a8fab.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist.\n\nWould you like to create it?
 ShowDialogAction.cefd463a8fab.label=선택한 설치 디렉터리 $USER_INSTALL_DIR$이(가) 존재하지 않습니다. \n\n생성하시겠습니까?
 
 # ShowDialogAction.cefd463a8fab.narrative=
@@ -4336,7 +4534,7 @@ ShowDialogAction.cefdc0cba92d.cancelButtonLabel=
 # ShowDialogAction.cefdc0cba92d.detailsButtonLabel=Details...
 ShowDialogAction.cefdc0cba92d.detailsButtonLabel=세부 정보...
 
-# ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist. \n\nWould you like to create it?
+# ShowDialogAction.cefdc0cba92d.label=The installation directory that you have chosen $USER_INSTALL_DIR$ does not exist.\n\nWould you like to create it?
 ShowDialogAction.cefdc0cba92d.label=선택한 설치 디렉터리 $USER_INSTALL_DIR$이(가) 존재하지 않습니다. \n\n생성하시겠습니까?
 
 # ShowDialogAction.cefdc0cba92d.narrative=
@@ -4417,6 +4615,168 @@ ShowDialogAction.e261f38cb277.narrative=관리자 권한으로 _SOFTWARE_FAMILY_
 # ShowDialogAction.e261f38cb277.title=Error
 ShowDialogAction.e261f38cb277.title=오류
 
+# ShowDialogAction.e5ce3ded80fe.buttonLabel=OK
+ShowDialogAction.e5ce3ded80fe.buttonLabel=확인
+
+# ShowDialogAction.e5ce3ded80fe.cancelButtonLabel=Cancel
+ShowDialogAction.e5ce3ded80fe.cancelButtonLabel=취소
+
+# ShowDialogAction.e5ce3ded80fe.detailsButtonLabel=Details...
+ShowDialogAction.e5ce3ded80fe.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5ce3ded80fe.label=Invalid Port@Host Entered
+ShowDialogAction.e5ce3ded80fe.label=잘못된 Port@Host 입력됨
+
+# ShowDialogAction.e5ce3ded80fe.narrative=$ERR_OUT_STRING$
+ShowDialogAction.e5ce3ded80fe.narrative=$ERR_OUT_STRING$
+
+# ShowDialogAction.e5ce3ded80fe.title=Invalid Input
+ShowDialogAction.e5ce3ded80fe.title=잘못된 입력
+
+# ShowDialogAction.e5d0a31fb25d.buttonLabel=OK
+ShowDialogAction.e5d0a31fb25d.buttonLabel=확인
+
+# ShowDialogAction.e5d0a31fb25d.cancelButtonLabel=Cancel
+ShowDialogAction.e5d0a31fb25d.cancelButtonLabel=취소
+
+# ShowDialogAction.e5d0a31fb25d.detailsButtonLabel=Details...
+ShowDialogAction.e5d0a31fb25d.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5d0a31fb25d.label=No Administrative Privileges
+ShowDialogAction.e5d0a31fb25d.label=관리 권한 없음
+
+# ShowDialogAction.e5d0a31fb25d.narrative=You need to have admin privilages to configure a license server. Please run this installer with administrative privileges
+ShowDialogAction.e5d0a31fb25d.narrative=라이선스 서버를 구성하려면 관리자 권한이 있어야 합니다. 관리자 권한으로 이 설치 프로그램을 실행하십시오.
+
+# ShowDialogAction.e5d0a31fb25d.title=Error
+ShowDialogAction.e5d0a31fb25d.title=오류
+
+# ShowDialogAction.e5d0a320b26a.buttonLabel=Next
+ShowDialogAction.e5d0a320b26a.buttonLabel=다음
+
+# ShowDialogAction.e5d0a320b26a.cancelButtonLabel=Previous
+ShowDialogAction.e5d0a320b26a.cancelButtonLabel=이전
+
+# ShowDialogAction.e5d0a320b26a.detailsButtonLabel=Details...
+ShowDialogAction.e5d0a320b26a.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5d0a320b26a.label=Invalid license file.
+ShowDialogAction.e5d0a320b26a.label=잘못된 라이선스 파일입니다.
+
+# ShowDialogAction.e5d0a320b26a.narrative=The  file $NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$ does not exist.\n\nPlease select Next to continue or Previous to reselect your\nlicense file.
+ShowDialogAction.e5d0a320b26a.narrative=파일 $NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$이(가) 존재하지 않습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 \n선택하십시오.
+
+# ShowDialogAction.e5d0a320b26a.title=ERROR
+ShowDialogAction.e5d0a320b26a.title=오류
+
+# ShowDialogAction.e5ec8d9cb2d4.buttonLabel=OK
+ShowDialogAction.e5ec8d9cb2d4.buttonLabel=확인
+
+# ShowDialogAction.e5ec8d9cb2d4.cancelButtonLabel=Cancel
+ShowDialogAction.e5ec8d9cb2d4.cancelButtonLabel=취소
+
+# ShowDialogAction.e5ec8d9cb2d4.detailsButtonLabel=Details...
+ShowDialogAction.e5ec8d9cb2d4.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5ec8d9cb2d4.label=No Component Selected
+ShowDialogAction.e5ec8d9cb2d4.label=선택된 구성 요소 없음
+
+# ShowDialogAction.e5ec8d9cb2d4.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX_OR_SALT$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.e5ec8d9cb2d4.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 구성 요소 및 $UGS_OR_FLEX_OR_SALT$을(를) 선택 취소했습니다.\n확인을 눌러 구성 요소 선택 대화 상자로 돌아가십시오.\n
+
+# ShowDialogAction.e5ec8d9cb2d4.title=Warning
+ShowDialogAction.e5ec8d9cb2d4.title=경고
+
+# ShowDialogAction.e5ed1f768aa6.buttonLabel=OK
+ShowDialogAction.e5ed1f768aa6.buttonLabel=확인
+
+# ShowDialogAction.e5ed1f768aa6.cancelButtonLabel=Cancel
+ShowDialogAction.e5ed1f768aa6.cancelButtonLabel=취소
+
+# ShowDialogAction.e5ed1f768aa6.detailsButtonLabel=Details...
+ShowDialogAction.e5ed1f768aa6.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5ed1f768aa6.label=No Component Selected
+ShowDialogAction.e5ed1f768aa6.label=선택된 구성 요소 없음
+
+# ShowDialogAction.e5ed1f768aa6.narrative=You have deselected all _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ components and $UGS_OR_FLEX_OR_SALT$.\nPress OK to return to the component selection dialog.\n
+ShowDialogAction.e5ed1f768aa6.narrative=모든 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 구성 요소 및 $UGS_OR_FLEX_OR_SALT$을(를) 선택 취소했습니다.\n확인을 눌러 구성 요소 선택 대화 상자로 돌아가십시오.\n
+
+# ShowDialogAction.e5ed1f768aa6.title=Warning
+ShowDialogAction.e5ed1f768aa6.title=경고
+
+# ShowDialogAction.e5f03427a253.buttonLabel=Yes
+ShowDialogAction.e5f03427a253.buttonLabel=예
+
+# ShowDialogAction.e5f03427a253.cancelButtonLabel=No
+ShowDialogAction.e5f03427a253.cancelButtonLabel=아니요
+
+# ShowDialogAction.e5f03427a253.detailsButtonLabel=Details...
+ShowDialogAction.e5f03427a253.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5f03427a253.label=_COMPANY_NAME_ License Manager exists
+ShowDialogAction.e5f03427a253.label=_COMPANY_NAME_ 라이선스 관리자 있음
+
+# ShowDialogAction.e5f03427a253.narrative=Setup has detected that _COMPANY_NAME_ License server is already installed on this system. Do you want to replace the license file?
+ShowDialogAction.e5f03427a253.narrative=이 시스템에 _COMPANY_NAME_ 라이선스 서버가 이미 설치되어 있습니다. 라이선스 파일을 교체하시겠습니까?
+
+# ShowDialogAction.e5f03427a253.title=Information
+ShowDialogAction.e5f03427a253.title=정보
+
+# ShowDialogAction.e5f31526ba14.buttonLabel=Yes
+ShowDialogAction.e5f31526ba14.buttonLabel=예
+
+# ShowDialogAction.e5f31526ba14.cancelButtonLabel=No
+ShowDialogAction.e5f31526ba14.cancelButtonLabel=아니요
+
+# ShowDialogAction.e5f31526ba14.detailsButtonLabel=Details...
+ShowDialogAction.e5f31526ba14.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.e5f31526ba14.label=FLEXlm License server already exists
+ShowDialogAction.e5f31526ba14.label=FLEXlm 라이선스 서버가 이미 있음
+
+# ShowDialogAction.e5f31526ba14.narrative=Setup has detected that FLEXlm License server is already installed on this system. Do you want to install _COMPANY_NAME_ License server?
+ShowDialogAction.e5f31526ba14.narrative=이 시스템에 FLEXlm 라이선스 서버가 이미 설치되어 있습니다. _COMPANY_NAME_ 라이선스 서버를 설치하시겠습니까?
+
+# ShowDialogAction.e5f31526ba14.title=Information
+ShowDialogAction.e5f31526ba14.title=정보
+
+# ShowDialogAction.ec53fa86a914.buttonLabel=OK
+ShowDialogAction.ec53fa86a914.buttonLabel=확인
+
+# ShowDialogAction.ec53fa86a914.cancelButtonLabel=Cancel
+ShowDialogAction.ec53fa86a914.cancelButtonLabel=취소
+
+# ShowDialogAction.ec53fa86a914.detailsButtonLabel=Details...
+ShowDialogAction.ec53fa86a914.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ec53fa86a914.label=Error occurred while configuring _COMPANY_NAME_ License Service.
+ShowDialogAction.ec53fa86a914.label=_COMPANY_NAME_ 라이선스 서비스 구성 중 오류가 발생했습니다.
+
+# ShowDialogAction.ec53fa86a914.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ec53fa86a914.narrative=_COMPANY_NAME_ 라이선스 서비스 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
+
+# ShowDialogAction.ec53fa86a914.title=Error
+ShowDialogAction.ec53fa86a914.title=오류
+
+# ShowDialogAction.ec53fa86a916.buttonLabel=OK
+ShowDialogAction.ec53fa86a916.buttonLabel=확인
+
+# ShowDialogAction.ec53fa86a916.cancelButtonLabel=Cancel
+ShowDialogAction.ec53fa86a916.cancelButtonLabel=취소
+
+# ShowDialogAction.ec53fa86a916.detailsButtonLabel=Details...
+ShowDialogAction.ec53fa86a916.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.ec53fa86a916.label=Error occurred while configuring _COMPANY_NAME_ License Service.
+ShowDialogAction.ec53fa86a916.label=_COMPANY_NAME_ 라이선스 서비스 구성 중 오류가 발생했습니다.
+
+# ShowDialogAction.ec53fa86a916.narrative=A problem was encountered during the configuration of _COMPANY_NAME_ License Service. Please check the log file in $USER_INSTALL_DIR$ for details.
+ShowDialogAction.ec53fa86a916.narrative=_COMPANY_NAME_ 라이선스 서비스 구성 중 문제가 발생했습니다. 자세한 내용은 $USER_INSTALL_DIR$의 로그 파일을 확인하십시오.
+
+# ShowDialogAction.ec53fa86a916.title=Error
+ShowDialogAction.ec53fa86a916.title=오류
+
 # ShowDialogAction.f388bcb88e95.buttonLabel=OK
 ShowDialogAction.f388bcb88e95.buttonLabel=확인
 
@@ -4447,7 +4807,7 @@ ShowDialogAction.f71886e6923d.detailsButtonLabel=세부 정보...
 # ShowDialogAction.f71886e6923d.label=Windows Hotfix Not installed
 ShowDialogAction.f71886e6923d.label=Windows 핫픽스 설치 안 됨
 
-# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer. \n\nIf installer integration is required, please follow link below before running the installer again. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
+# ShowDialogAction.f71886e6923d.narrative=Microsoft hotfix required to Integrate Catia using Windows on Windows, _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ integration will not be performed by the installer.\n\nIf installer integration is required, please follow link below before running the installer again.\n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
 ShowDialogAction.f71886e6923d.narrative=Windows에서 Windows를 사용해 Catia를 통합하려면 Microsoft 핫픽스가 필요하며 설치 프로그램은 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_CAT5_ 통합을 수행하지 않습니다. \n\n설치 프로그램 통합이 필요한 경우 설치 프로그램 재실행에 앞서 아래 링크를 참조하십시오. \n\nhttp://support.microsoft.com/hotfix/KBHotfix.aspx?kbnum=942589&kbln=en-us 
 
 # ShowDialogAction.f71886e6923d.title=Invalid Action
@@ -4603,6 +4963,12 @@ UninstallIntroAction.850018f38454.message=제거 준비 중...\n\n$INSTALLER_TIT
 # UninstallIntroAction.850018f38454.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.850018f38454.stepTitle=$INSTALLER_TITLE$ 제거
 
+# UninstallIntroAction.e736af57bb12.message=About to uninstall...\n\n_COMPANY_NAME_ License Server $SALT_VERSION$\n\nThis will remove features installed by InstallAnywhere. Please note the uninstaller will not remove any files and folders created or modified after the installation, select cancel to exit uninstallation.
+UninstallIntroAction.e736af57bb12.message=제거 준비 중...\n\n_COMPANY_NAME_ 라이선스 서버 $SALT_VERSION$\n\nInstallAnywhere로 설치한 기능을 제거합니다. 제거 프로그램은 설치 후 생성 또는 수정된 파일과 폴더를 제거하지 않습니다. 제거를 종료하려면 [취소]를 선택하십시오.
+
+# UninstallIntroAction.e736af57bb12.stepTitle=Uninstall _COMPANY_NAME_ License Server
+UninstallIntroAction.e736af57bb12.stepTitle=_COMPANY_NAME_ 라이선스 서버 제거
+
 # VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=Product name:
 VariablePropertyDataBiDi.0a4455ee8d9c.propertyName=제품 이름:
 
@@ -4650,6 +5016,24 @@ VariablePropertyDataBiDi.d8669dc1baed.propertyName=설치 디렉터리:
 
 # VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
 VariablePropertyDataBiDi.d8669dc1baed.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.e5e0a98b8e84.propertyName=Installation directory:
+VariablePropertyDataBiDi.e5e0a98b8e84.propertyName=설치 디렉터리:
+
+# VariablePropertyDataBiDi.e5e0a98b8e84.propertyValue=$STAR_DIRTMP$
+VariablePropertyDataBiDi.e5e0a98b8e84.propertyValue=$STAR_DIRTMP$
+
+# VariablePropertyDataBiDi.e5e0a98c8e83.propertyName=Product name:
+VariablePropertyDataBiDi.e5e0a98c8e83.propertyName=제품 이름:
+
+# VariablePropertyDataBiDi.e5e0a98c8e83.propertyValue=_COMPANY_NAME_ License Server $SALT_VERSION$
+VariablePropertyDataBiDi.e5e0a98c8e83.propertyValue=_COMPANY_NAME_ 라이선스 서버 $SALT_VERSION$
+
+# VariablePropertyDataBiDi.e5e0a98c8e84.propertyName=License file:
+VariablePropertyDataBiDi.e5e0a98c8e84.propertyName=라이선스 파일:
+
+# VariablePropertyDataBiDi.e5e0a98c8e84.propertyValue=$NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$
+VariablePropertyDataBiDi.e5e0a98c8e84.propertyValue=$NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
 _ia.validateFlex.LicSrv1=라이선스 서버 1 port@host: \n

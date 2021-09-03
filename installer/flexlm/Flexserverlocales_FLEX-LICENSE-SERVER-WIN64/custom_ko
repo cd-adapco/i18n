@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Korean (ko)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -413,10 +413,10 @@ InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$을(를) 어디에 설
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=설치 위치 선택
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=파일 선택
+Installer.ad1a5eebb6d5.installLabels.00=라이선스 파일 선택
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=사용자 입력 가져오기
+Installer.ad1a5eebb6d5.installLabels.01=라이선스 서버 업데이트 
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
 Installer.ad1a5eebb6d5.installLabels.02=서비스 구성 
@@ -434,13 +434,13 @@ Installer.ad1a5eebb6d5.installLabels.05=설치 완료
 Installer.ad1a5eebb6d5.installLabels.06=소개
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=사용자 입력 가져오기
+Installer.ad1a5eebb6d5.installLabels.07=FlexNet 라이선스 서버 구성
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=사용자 입력 가져오기
+Installer.ad1a5eebb6d5.installLabels.08=서비스 구성 
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=설치 폴더 선택
+Installer.ad1a5eebb6d5.installLabels.09=설치 위치 선택
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
 Installer.ad1a5eebb6d5.installLabels.10=라이선스 파일 선택
@@ -515,7 +515,7 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
 # InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
-InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
 InstallerInfoData.ad1a6005b7f8.vendorURL=
@@ -887,7 +887,7 @@ ShowDialogAction.109444a18da8.detailsButtonLabel=세부 정보...
 ShowDialogAction.109444a18da8.label=이미 FlexNet 라이선스 서버 관리자가 설치되어 있습니다. 덮어쓰시겠습니까? 
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative=
+ShowDialogAction.109444a18da8.narrative= 
 
 # ShowDialogAction.109444a18da8.title=Error
 ShowDialogAction.109444a18da8.title=오류
@@ -905,7 +905,7 @@ ShowDialogAction.1094478f8dad.detailsButtonLabel=세부 정보...
 ShowDialogAction.1094478f8dad.label=이미 FlexNet 라이선스 서버 관리자가 설치되어 있습니다. 덮어쓰시겠습니까?
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative=
+ShowDialogAction.1094478f8dad.narrative= 
 
 # ShowDialogAction.1094478f8dad.title=Error
 ShowDialogAction.1094478f8dad.title=오류
@@ -995,7 +995,7 @@ ShowDialogAction.2077f0c888a7.detailsButtonLabel=세부 정보...
 ShowDialogAction.2077f0c888a7.label=잘못된 라이선스 파일입니다.
 
 # ShowDialogAction.2077f0c888a7.narrative=The  file $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$ is not configured for server with current mac address\n\nPlease select Next to continue or Previous to reselect your license file.
-ShowDialogAction.2077f0c888a7.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 대해 구성되지 않았습니다.  \n\n계속하려면 다음을 선택하고 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
+ShowDialogAction.2077f0c888a7.narrative=파일 $NEW_LIC_FILE_DIR$$NEW_LIC_FILE$이(가) 현재 mac 주소에 구성되지 않았습니다.  \n\n계속하려면 다음을, 라이선스 파일을 다시 선택하려면 이전을 선택하십시오.
 
 # ShowDialogAction.2077f0c888a7.title=ERROR
 ShowDialogAction.2077f0c888a7.title=오류
@@ -1121,7 +1121,7 @@ ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=세부 정보...
 ShowDialogAction.ad1a5f0ab714.label=이전 설치 경고 $PREVIOUS_INSTALLATION_PATH$\\conf 폴더에 server.xml 파일이 없습니다. 이전 설치에서 구성 데이터 및 판매업체 데몬을 가져오려면 이전 설치 디렉터리를 지정하십시오.
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative=
+ShowDialogAction.ad1a5f0ab714.narrative= 
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
 ShowDialogAction.ad1a5f0ab714.title=Windows 오류
@@ -1139,7 +1139,7 @@ ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=세부 정보...
 ShowDialogAction.ad1a5f1bb71e.label=이전 설치 경고 $PREVIOUS_INSTALLATION_PATH$\\conf 폴더에 server.xml 파일이 없습니다. 이전 설치에서 구성 데이터 및 판매업체 데몬을 가져오려면 이전 설치 디렉터리를 지정하십시오.
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative=
+ShowDialogAction.ad1a5f1bb71e.narrative= 
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
 ShowDialogAction.ad1a5f1bb71e.title=오류
@@ -1217,13 +1217,13 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$을(를
 UninstallCompleteActionConsole.ad1a6034b834.title=제거 완료
 
 # UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$\n
-UninstallIntroAction.ad1a6014b7ff.message=곧 제거합니다...\n\n$INSTALLER_TITLE$ \n
+UninstallIntroAction.ad1a6014b7ff.message=곧 제거합니다...\n\n$INSTALLER_TITLE$\n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.ad1a6014b7ff.stepTitle=$INSTALLER_TITLE$ 제거
 
 # UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$\n
-UninstallIntroActionConsole.ad1a6014b801.message=곧 제거합니다...\n\n$PRODUCT_NAME$ \n
+UninstallIntroActionConsole.ad1a6014b801.message=곧 제거합니다...\n\n$PRODUCT_NAME$\n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
 UninstallIntroActionConsole.ad1a6014b801.stepTitle=$PRODUCT_NAME$ 제거
