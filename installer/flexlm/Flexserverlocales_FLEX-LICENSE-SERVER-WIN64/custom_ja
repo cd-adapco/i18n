@@ -1,6 +1,6 @@
 # InstallAnywhere Localization File
 #
-# External strings for locale: Japanese (ja)
+# External strings for locale: English (en)
 # See the 'ProjectLocalizationInfo.txt' file in this same directory for information 
 #     regarding mappings between the properties shown below and your InstallAnywhere
 #     project.
@@ -377,7 +377,7 @@ GUIGroupData.ad1a5f0ab70c.caption=
 GUIGroupData.ad1a5f0ab70e.caption=
 
 # Help.ad1a5eecb6e6.helpText=\n\n
-Help.ad1a5eecb6e6.helpText=\n \n
+Help.ad1a5eecb6e6.helpText=\  \n \n
 
 # Help.ad1a5eecb6e6.title=
 Help.ad1a5eecb6e6.title=
@@ -413,16 +413,16 @@ InstallDirActionConsole.ad1a5efab6fc.prompt=$PRODUCT_NAME$をインストール�
 InstallDirActionConsole.ad1a5efab6fc.stepTitle=インストールフォルダを選択
 
 # Installer.ad1a5eebb6d5.installLabels.00=Select license file
-Installer.ad1a5eebb6d5.installLabels.00=ファイルを選択
+Installer.ad1a5eebb6d5.installLabels.00=ライセンスファイルを選択
 
 # Installer.ad1a5eebb6d5.installLabels.01=Update License Server 
-Installer.ad1a5eebb6d5.installLabels.01=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.01=ライセンスサーバーを更新
 
 # Installer.ad1a5eebb6d5.installLabels.02=Service Configuration 
 Installer.ad1a5eebb6d5.installLabels.02=サービス構成 
 
 # Installer.ad1a5eebb6d5.installLabels.03=Pre-Installation Summary
-Installer.ad1a5eebb6d5.installLabels.03=インストール前の要約
+Installer.ad1a5eebb6d5.installLabels.03=プリインストールの要約
 
 # Installer.ad1a5eebb6d5.installLabels.04=Installing...
 Installer.ad1a5eebb6d5.installLabels.04=インストール中...
@@ -431,16 +431,16 @@ Installer.ad1a5eebb6d5.installLabels.04=インストール中...
 Installer.ad1a5eebb6d5.installLabels.05=インストール完了
 
 # Installer.ad1a5eebb6d5.installLabels.06=Introduction
-Installer.ad1a5eebb6d5.installLabels.06=開始画面
+Installer.ad1a5eebb6d5.installLabels.06=はじめに
 
 # Installer.ad1a5eebb6d5.installLabels.07=FlexNet License Server Configuration
-Installer.ad1a5eebb6d5.installLabels.07=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.07=FlexNetライセンスサーバー構成
 
 # Installer.ad1a5eebb6d5.installLabels.08=Service Configuration 
-Installer.ad1a5eebb6d5.installLabels.08=ユーザー入力を取得
+Installer.ad1a5eebb6d5.installLabels.08=サービス構成 
 
 # Installer.ad1a5eebb6d5.installLabels.09=Select Install Location
-Installer.ad1a5eebb6d5.installLabels.09=インストール フォルダーを選択
+Installer.ad1a5eebb6d5.installLabels.09=インストールフォルダを選択
 
 # Installer.ad1a5eebb6d5.installLabels.10=Select license file
 Installer.ad1a5eebb6d5.installLabels.10=ライセンスファイルを選択
@@ -515,7 +515,7 @@ InstallerInfoData.ad1a6005b7f8.productURL=
 InstallerInfoData.ad1a6005b7f8.supportURL=
 
 # InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
-InstallerInfoData.ad1a6005b7f8.vendorName=$COMPANY_NAME$
+InstallerInfoData.ad1a6005b7f8.vendorName=_COMPANY_NAME_
 
 # InstallerInfoData.ad1a6005b7f8.vendorURL=
 InstallerInfoData.ad1a6005b7f8.vendorURL=
@@ -887,7 +887,7 @@ ShowDialogAction.109444a18da8.detailsButtonLabel=詳細...
 ShowDialogAction.109444a18da8.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか?
 
 # ShowDialogAction.109444a18da8.narrative= 
-ShowDialogAction.109444a18da8.narrative=
+ShowDialogAction.109444a18da8.narrative= 
 
 # ShowDialogAction.109444a18da8.title=Error
 ShowDialogAction.109444a18da8.title=エラー
@@ -905,7 +905,7 @@ ShowDialogAction.1094478f8dad.detailsButtonLabel=詳細...
 ShowDialogAction.1094478f8dad.label=FlexNet ライセンスサーバーマネージャは既にインストールされています。上書きしますか?
 
 # ShowDialogAction.1094478f8dad.narrative= 
-ShowDialogAction.1094478f8dad.narrative=
+ShowDialogAction.1094478f8dad.narrative= 
 
 # ShowDialogAction.1094478f8dad.title=Error
 ShowDialogAction.1094478f8dad.title=エラー
@@ -1121,7 +1121,7 @@ ShowDialogAction.ad1a5f0ab714.detailsButtonLabel=詳細...
 ShowDialogAction.ad1a5f0ab714.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$\\conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f0ab714.narrative= 
-ShowDialogAction.ad1a5f0ab714.narrative=
+ShowDialogAction.ad1a5f0ab714.narrative= 
 
 # ShowDialogAction.ad1a5f0ab714.title=Windows Error
 ShowDialogAction.ad1a5f0ab714.title=Windows のエラー
@@ -1139,7 +1139,7 @@ ShowDialogAction.ad1a5f1bb71e.detailsButtonLabel=詳細...
 ShowDialogAction.ad1a5f1bb71e.label=以前のインストールパス$PREVIOUS_INSTALLATION_PATH$/conf フォルダにサーバー.xml ファイルが含まれていません。以前のインストールから構成データおよびベンダーデーモンをインポートしたい場合は、以前のインストールディレクトリを指定してください。
 
 # ShowDialogAction.ad1a5f1bb71e.narrative= 
-ShowDialogAction.ad1a5f1bb71e.narrative=
+ShowDialogAction.ad1a5f1bb71e.narrative= 
 
 # ShowDialogAction.ad1a5f1bb71e.title=Error
 ShowDialogAction.ad1a5f1bb71e.title=エラー
@@ -1217,13 +1217,13 @@ UninstallCompleteActionConsole.ad1a6034b834.skippedMessage=$PRODUCT_NAME$をア�
 UninstallCompleteActionConsole.ad1a6034b834.title=アンインストール完了
 
 # UninstallIntroAction.ad1a6014b7ff.message=About to uninstall...\n\n$INSTALLER_TITLE$\n
-UninstallIntroAction.ad1a6014b7ff.message=アンインストールしようとしています...\n\n$INSTALLER_TITLE$ \n
+UninstallIntroAction.ad1a6014b7ff.message=アンインストールしようとしています...\n\n$INSTALLER_TITLE$\n
 
 # UninstallIntroAction.ad1a6014b7ff.stepTitle=Uninstall $INSTALLER_TITLE$
 UninstallIntroAction.ad1a6014b7ff.stepTitle=$INSTALLER_TITLE$をアンインストール
 
 # UninstallIntroActionConsole.ad1a6014b801.message=About to uninstall...\n\n$PRODUCT_NAME$\n
-UninstallIntroActionConsole.ad1a6014b801.message=アンインストールしようとしています...\n\n$PRODUCT_NAME$ \n
+UninstallIntroActionConsole.ad1a6014b801.message=アンインストールしようとしています...\n\n$PRODUCT_NAME$\n
 
 # UninstallIntroActionConsole.ad1a6014b801.stepTitle=Uninstall $PRODUCT_NAME$
 UninstallIntroActionConsole.ad1a6014b801.stepTitle=$PRODUCT_NAME$をアンインストール
