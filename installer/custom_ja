@@ -137,7 +137,7 @@ ChooseFolder.85678ebc8c0d.prompt=フォルダを選択してください:
 ChooseFolder.85678ebc8c0d.stepTitle=既存の_RT_JOB_MANAGER_の場所を選択
 
 # CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-CreateDialog.757df82f97fd.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は自由意思です。
+CreateDialog.757df82f97fd.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は任意です。
 
 # CreateDialog.757df82f97fd.title=Product Excellence Program
 CreateDialog.757df82f97fd.title=製品機能向上プログラム
@@ -1535,7 +1535,7 @@ GetUserInput.fbd51d65bcc1.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 GetUserInput.fbd51d65bcc1.title=追加タスクの選択
 
 # GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-GetUserInputConsole.757df82f97fe.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は自由意思です。
+GetUserInputConsole.757df82f97fe.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は任意です。
 
 # GetUserInputConsole.757df82f97fe.title=Product Excellence Program
 GetUserInputConsole.757df82f97fe.title=製品機能向上プログラム
