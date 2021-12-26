@@ -1,0 +1,10 @@
+{
+    "pageTitle": "Вход",
+    "loginButtonTitle": "Вход",
+    "username": "Имя",
+    "password": "Пароль",
+    "logout": "Выход",
+    "logoutConfirmationMessage": "Вы хотите выйти?",
+    "cancelText": "Отменить",
+    "sessionExpiredMessage": "Вы видите это сообщение, потому что вы автоматически вышли из системы.\nВы можете закрыть это окно диспетчера заданий в любое время."
+}
