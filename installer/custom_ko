@@ -76,6 +76,12 @@ ASCIIFileManipulator.48e31cf08bb3.additionalText=
 # ASCIIFileManipulator.49b821459c81.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
 
+# ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$NXPATH$
+ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$NXPATH$
+
+# ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
+ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
@@ -685,15 +691,6 @@ Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$I
 # Exec.3cae6520be5f.title=File permissions
 Exec.3cae6520be5f.title=파일 권한
 
-# Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-Exec.545df2008320.commandLineArgs= $USER_MAGIC_FOLDER_9$$/$platform$/$$PMPI_VER$$/$windows$/$sbin$/$PCMPIWin32Service.exe -u
-
-# Exec.545df2008320.dialogLabel=Uninstalling remote launch service...
-Exec.545df2008320.dialogLabel=원격 실행 서비스 제거 중...
-
-# Exec.545df2008320.title=Unregister Platform MPI SMPID
-Exec.545df2008320.title=플랫폼 MPI SMPID 등록 취소
-
 # Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B31$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
@@ -706,8 +703,8 @@ Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.b8b20e8da4fb.title=attrib +R
 Exec.b8b20e8da4fb.title=attrib + R
 
-# Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
-Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$intel64$/$bin$/$hydra_service.exe\" -uninstall
+# Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$bin$/$hydra_service.exe\" -uninstall
+Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$bin$/$hydra_service.exe\" -uninstall
 
 # Exec.fd261c999d36.dialogLabel=Uninstalling remote launch service...
 Exec.fd261c999d36.dialogLabel=원격 실행 서비스 제거 중...
@@ -723,6 +720,9 @@ ExecuteScript.00cab266a1e7.title=SMTP 서버 주소가 유효한지 확인하기
 
 # ExecuteScript.01c8cd6d9a52.title=Update win7+ fw
 ExecuteScript.01c8cd6d9a52.title=win7 + fw 업데이트
+
+# ExecuteScript.0370a7688f33.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ExecuteScript.0370a7688f33.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ 등록 중...
 
 # ExecuteScript.0488ae86a57c.title=Changing permission of files in Linux
 ExecuteScript.0488ae86a57c.title=Linux에서 파일 권한 변경
@@ -801,9 +801,6 @@ ExecuteScript.0be7f1f0a3f7.title=ccmplite에 대한 서버 2 확인
 
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=ccmplite에 대한 서버 3 확인
-
-# ExecuteScript.14b03569831d.title=Register Platform-MPI remote launch service...
-ExecuteScript.14b03569831d.title=플랫폼-MPI 원격 시작 서비스 등록 ...
 
 # ExecuteScript.1ce4d224b707.title=Delete All Users Start Menu FLEXnet License Administration Tools
 ExecuteScript.1ce4d224b707.title=모든 사용자 삭제 시작 메뉴 FLEXnet 라이선스 관리 도구
@@ -1000,9 +997,6 @@ ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions �
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=현재 라이선스 서버를 제거해 업그레이드 실시
 
-# ExecuteScript.6d1b9101b4b5.title=Update win7+ fw
-ExecuteScript.6d1b9101b4b5.title=win7 + fw 업데이트
-
 # ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.740378ec942f.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
 
@@ -1081,9 +1075,6 @@ ExecuteScript.9e399d10a6f2.title=win7 + fw 업데이트
 # ExecuteScript.9e4a02a28975.title=Update win7+ fw
 ExecuteScript.9e4a02a28975.title=win7 + fw 업데이트
 
-# ExecuteScript.9e6a8fdf9720.title=Update win7+ fw
-ExecuteScript.9e6a8fdf9720.title=win7 + fw 업데이트
-
 # ExecuteScript.a15d24e08d50.title=parse .plmrc
 ExecuteScript.a15d24e08d50.title=.plmrc 분석
 
@@ -1132,14 +1123,8 @@ ExecuteScript.a80c38ba8193.title=모든 사용자 시작 메뉴 64 bit _SOFTWARE
 # ExecuteScript.a80c38ba8196.title=Delete Local User Start Menu 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ Shortcut
 ExecuteScript.a80c38ba8196.title=로컬 사용자 시작 메뉴 64 bit _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 바로가기 삭제
 
-# ExecuteScript.a9b1812d954f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_...
-ExecuteScript.a9b1812d954f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ 등록 중...
-
 # ExecuteScript.a9b1812d9552.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocx...
 ExecuteScript.a9b1812d9552.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ Ocx 등록 중...
-
-# ExecuteScript.aa090b60ab1f.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
-ExecuteScript.aa090b60ab1f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ 등록 중...
 
 # ExecuteScript.aa563306a4fb.title=extract _CADC_STAR_NX_-1926
 ExecuteScript.aa563306a4fb.title=_CADC_STAR_NX_-1926 추출
@@ -1204,12 +1189,6 @@ ExecuteScript.d674f57c8818.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME
 # ExecuteScript.d674f57c8818.title=extract _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_
 ExecuteScript.d674f57c8818.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VIEWER_ 추출
 
-# ExecuteScript.d8005aa48281.title=Register Platform-MPI remote launch service...
-ExecuteScript.d8005aa48281.title=플랫폼-MPI 원격 시작 서비스 등록...
-
-# ExecuteScript.d804a4248286.title=Removing PC MPI Installer
-ExecuteScript.d804a4248286.title=PC MPI 설치 제거
-
 # ExecuteScript.e13f0215879a.title=delete custom_dirs.dat
 ExecuteScript.e13f0215879a.title=custom_dirs.dat 삭제
 
@@ -1230,9 +1209,6 @@ ExecuteScript.e736af57bb14.title=_COMPANY_NAME_ SALT-windows 서비스 제거
 
 # ExecuteScript.e736af57bb15.title=Remove _COMPANY_NAME_ SALT-linux service
 ExecuteScript.e736af57bb15.title=_COMPANY_NAME_ SALT-linux 서비스 제거
-
-# ExecuteScript.eab32fc2b934.title=Removing PC MPI Installer
-ExecuteScript.eab32fc2b934.title=PC MPI 설치 제거
 
 # ExecuteScript.ec53fa86a90c.title=create .plmrc
 ExecuteScript.ec53fa86a90c.title=.plmrc 생성
@@ -1287,6 +1263,9 @@ ExecuteScript.f7ce86aba575.title=네트워크 설치에 제품 아이콘 추가/
 
 # ExecuteScript.fd24625e9457.title=Install Intel MPI Hydra service
 ExecuteScript.fd24625e9457.title=인텔 MPI Hydra 서비스 설치
+
+# ExecuteScript.fda00a8ca29c.title=Registering _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_...
+ExecuteScript.fda00a8ca29c.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_ 등록 중...
 
 # GetUserInput.07762bd5ba98.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_.
 GetUserInput.07762bd5ba98.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVIZ_VR_ 설치 중에 설치 프로그램에서 수행하게 할 추가 작업을 선택합니다.
@@ -1863,6 +1842,18 @@ GUIComponentData.489e49fdaa21.defaultValue=Not Selected
 
 # GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
 GUIComponentData.489e49fdaa21.label=Simcenter 3D 2021.2
+
+# GUIComponentData.4b3a5ba8849a.defaultValue=Not Selected
+GUIComponentData.4b3a5ba8849a.defaultValue=Not Selected
+
+# GUIComponentData.4b3a5ba8849a.label=NX 2007 series
+GUIComponentData.4b3a5ba8849a.label=NX 2007 시리즈
+
+# GUIComponentData.4b3b193a849e.defaultValue=Not Selected
+GUIComponentData.4b3b193a849e.defaultValue=Not Selected
+
+# GUIComponentData.4b3b193a849e.label=Simcenter 3D 2022.1
+GUIComponentData.4b3b193a849e.label=Simcenter 3D 2022.1
 
 # GUIComponentData.4dbc5b3fb838.defaultValue=Selected
 GUIComponentData.4dbc5b3fb838.defaultValue=Selected
@@ -4345,24 +4336,6 @@ ShowDialogAction.a7537a40b676.narrative=계속 진행하려면 유효한 데이�
 # ShowDialogAction.a7537a40b676.title=Warning
 ShowDialogAction.a7537a40b676.title=경고
 
-# ShowDialogAction.a9b1812d954e.buttonLabel=OK
-ShowDialogAction.a9b1812d954e.buttonLabel=확인
-
-# ShowDialogAction.a9b1812d954e.cancelButtonLabel=Cancel
-ShowDialogAction.a9b1812d954e.cancelButtonLabel=취소
-
-# ShowDialogAction.a9b1812d954e.detailsButtonLabel=Details...
-ShowDialogAction.a9b1812d954e.detailsButtonLabel=세부 정보...
-
-# ShowDialogAction.a9b1812d954e.label=File not found.
-ShowDialogAction.a9b1812d954e.label=파일을 찾을 수 없음.
-
-# ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
-ShowDialogAction.a9b1812d954e.narrative=star-inventor.dll을 찾을 수 없습니다.\n\n이 파일을 찾아 수동으로 등록하십시오.
-
-# ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
-ShowDialogAction.a9b1812d954e.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
-
 # ShowDialogAction.a9b1812e9550.buttonLabel=OK
 ShowDialogAction.a9b1812e9550.buttonLabel=확인
 
@@ -4830,6 +4803,24 @@ ShowDialogAction.fc266f0ba2cc.narrative=관리자가 아닌 계정에서는 제�
 
 # ShowDialogAction.fc266f0ba2cc.title=No Administrative Privileges
 ShowDialogAction.fc266f0ba2cc.title=관리 권한 없음
+
+# ShowDialogAction.fd9d47a28f5f.buttonLabel=OK
+ShowDialogAction.fd9d47a28f5f.buttonLabel=확인
+
+# ShowDialogAction.fd9d47a28f5f.cancelButtonLabel=Cancel
+ShowDialogAction.fd9d47a28f5f.cancelButtonLabel=취소
+
+# ShowDialogAction.fd9d47a28f5f.detailsButtonLabel=Details...
+ShowDialogAction.fd9d47a28f5f.detailsButtonLabel=세부 정보...
+
+# ShowDialogAction.fd9d47a28f5f.label=File not found.
+ShowDialogAction.fd9d47a28f5f.label=파일을 찾을 수 없음.
+
+# ShowDialogAction.fd9d47a28f5f.narrative=star-inventor.dll not found.\n\nPlease find this file and register it manually.
+ShowDialogAction.fd9d47a28f5f.narrative=star-inventor.dll을 찾을 수 없습니다.\n\n이 파일을 찾아 수동으로 등록하십시오.
+
+# ShowDialogAction.fd9d47a28f5f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
+ShowDialogAction.fd9d47a28f5f.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 
 # ShowDialogAction.fe8397b0ac84.buttonLabel=Yes
 ShowDialogAction.fe8397b0ac84.buttonLabel=예
