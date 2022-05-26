@@ -667,23 +667,11 @@ EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
 # EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
 EntryAtomNonBiDi.757df83097fe.label=Product Excellence Program에 참여하시겠습니까? (Y/N)
 
-# Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.1361c07eb669.title=attrib +R
-Exec.1361c07eb669.title=attrib + R
-
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.18b37afd926a.title=attrib +R
 Exec.18b37afd926a.title=attrib + R
-
-# Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.30fdba8e94e9.title=attrib +R
-Exec.30fdba8e94e9.title=attrib + R
 
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
 Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
@@ -802,6 +790,9 @@ ExecuteScript.0be7f1f0a3f7.title=ccmplite에 대한 서버 2 확인
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=ccmplite에 대한 서버 3 확인
 
+# ExecuteScript.12be96598b65.title=Deleting the file association registry keys
+ExecuteScript.12be96598b65.title=파일 연결 레지스트리 키 삭제
+
 # ExecuteScript.1ce4d224b707.title=Delete All Users Start Menu FLEXnet License Administration Tools
 ExecuteScript.1ce4d224b707.title=모든 사용자 삭제 시작 메뉴 FLEXnet 라이선스 관리 도구
 
@@ -901,12 +892,6 @@ ExecuteScript.483683ac9bbb.title=_CADC_STAR_CREO_-4 추출
 # ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
 ExecuteScript.4838bdf3a1ec.title=_CADC_STAR_NX_-12 추출
 
-# ExecuteScript.483c25ecaeaf.title=extract _CADC_STAR_CAT5_-27
-ExecuteScript.483c25ecaeaf.title=_CADC_STAR_CAT5_-27 추출
-
-# ExecuteScript.483c2db7af11.title=extract _CADC_STAR_CAT5_-28
-ExecuteScript.483c2db7af11.title=_CADC_STAR_CAT5_-28 추출
-
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=_CADC_STAR_CAT5_-29 추출
 
@@ -990,6 +975,12 @@ ExecuteScript.641d1e139fe8.title=폴더에 대한 권한 확인
 
 # ExecuteScript.641d1e139fea.title=get group
 ExecuteScript.641d1e139fea.title=그룹 가져오기
+
+# ExecuteScript.6636beadb7fa.title=Deleting the sce file association registry keys
+ExecuteScript.6636beadb7fa.title=sce 파일 연결 레지스트리 키 삭제
+
+# ExecuteScript.663c75ffb7fa.title=Deleting the sce file association registry keys
+ExecuteScript.663c75ffb7fa.title=sce 파일 연결 레지스트리 키 삭제
 
 # ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions 실행
