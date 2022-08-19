@@ -34,6 +34,12 @@ ASCIIFileManipulator.2c25731d8d77.additionalText=
 # ASCIIFileManipulator.2c3067398d84.additionalText=
 ASCIIFileManipulator.2c3067398d84.additionalText=
 
+# ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$NXPATH$
+ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$NXPATH$
+
+# ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
+ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
+
 # ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
 ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
 
@@ -1648,6 +1654,12 @@ GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
 GUIComponentData.2d3e5e7fad37.label=3台のマシンによる冗長ライセンスサーバー
 
+# GUIComponentData.2d93e396871c.defaultValue=Not Selected
+GUIComponentData.2d93e396871c.defaultValue=Not Selected
+
+# GUIComponentData.2d93e396871c.label=NX 2206 series
+GUIComponentData.2d93e396871c.label=NX 2206シリーズ
+
 # GUIComponentData.314a9fd58722.defaultValue=8086
 GUIComponentData.314a9fd58722.defaultValue=8086
 
@@ -2133,6 +2145,12 @@ GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=システムパスにアプリケーションのディレクトリを追加する
+
+# GUIComponentData.c5d3afe1b17b.defaultValue=Not Selected
+GUIComponentData.c5d3afe1b17b.defaultValue=Not Selected
+
+# GUIComponentData.c5d3afe1b17b.label=Simcenter 3D 2206
+GUIComponentData.c5d3afe1b17b.label=Simcenter 3D 2206
 
 # GUIComponentData.d8387e0c8953.defaultValue=Not Selected
 GUIComponentData.d8387e0c8953.defaultValue=Not Selected
@@ -4794,6 +4812,24 @@ ShowDialogAction.fc266f0ba2cc.narrative=非管理者アカウント下ではア�
 
 # ShowDialogAction.fc266f0ba2cc.title=No Administrative Privileges
 ShowDialogAction.fc266f0ba2cc.title=管理者権限がありません
+
+# ShowDialogAction.fc65c82db73f.buttonLabel=OK
+ShowDialogAction.fc65c82db73f.buttonLabel=OK
+
+# ShowDialogAction.fc65c82db73f.cancelButtonLabel=
+ShowDialogAction.fc65c82db73f.cancelButtonLabel=
+
+# ShowDialogAction.fc65c82db73f.detailsButtonLabel=Details...
+ShowDialogAction.fc65c82db73f.detailsButtonLabel=詳細...
+
+# ShowDialogAction.fc65c82db73f.label=The installation drive that you have chosen $USER_INSTALL_DIR$ does not exist. Please provide a valid drive to install the $INSTALLER_TITLE$.
+ShowDialogAction.fc65c82db73f.label=選択したインストールドライブ$USER_INSTALL_DIR$は、存在しません。 $INSTALLER_TITLE$をインストールするための有効なドライブを入力してください。
+
+# ShowDialogAction.fc65c82db73f.narrative=
+ShowDialogAction.fc65c82db73f.narrative=
+
+# ShowDialogAction.fc65c82db73f.title=Invalid drive
+ShowDialogAction.fc65c82db73f.title=無効なドライブ
 
 # ShowDialogAction.fd9d47a28f5f.buttonLabel=OK
 ShowDialogAction.fd9d47a28f5f.buttonLabel=OK
