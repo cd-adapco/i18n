@@ -34,6 +34,12 @@ ASCIIFileManipulator.2c25731d8d77.additionalText=
 # ASCIIFileManipulator.2c3067398d84.additionalText=
 ASCIIFileManipulator.2c3067398d84.additionalText=
 
+# ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$NXPATH$
+ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$NXPATH$
+
+# ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
+ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
+
 # ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
 ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
 
@@ -667,23 +673,11 @@ EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
 # EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
 EntryAtomNonBiDi.757df83097fe.label=参加产品卓越计划？（是/否）
 
-# Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.1361c07eb669.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B27$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.1361c07eb669.title=attrib +R
-Exec.1361c07eb669.title=attrib +R
-
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.18b37afd926a.title=attrib +R
 Exec.18b37afd926a.title=attrib +R
-
-# Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-Exec.30fdba8e94e9.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B28$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
-
-# Exec.30fdba8e94e9.title=attrib +R
-Exec.30fdba8e94e9.title=attrib +R
 
 # Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
 Exec.3cae6520be5f.commandLineArgs=chmod 755 \"$INSTALLER_TEMP_DIR$/lmutil\" \"$INSTALLER_TEMP_DIR$/lmhostid\" \"$INSTALLER_TEMP_DIR$/licpath\" \"$INSTALLER_TEMP_DIR$/find_cdlmd.sh\" \"$INSTALLER_TEMP_DIR$/find_ccmp.sh\" \"$INSTALLER_TEMP_DIR$/verifypermissions.sh\" \"$INSTALLER_TEMP_DIR$/7za\"
@@ -802,6 +796,9 @@ ExecuteScript.0be7f1f0a3f7.title=正在检查 ccmplite 的服务器 2
 # ExecuteScript.0be7f1f0a3f8.title=Checking server 3 for ccmplite
 ExecuteScript.0be7f1f0a3f8.title=正在检查 ccmplite 的服务器 3
 
+# ExecuteScript.12be96598b65.title=Deleting the file association registry keys
+ExecuteScript.12be96598b65.title=删除文件关联注册表项
+
 # ExecuteScript.1ce4d224b707.title=Delete All Users Start Menu FLEXnet License Administration Tools
 ExecuteScript.1ce4d224b707.title=删除所有用户开始菜单的 FLEXnet 许可证管理工具
 
@@ -901,12 +898,6 @@ ExecuteScript.483683ac9bbb.title=提取 _CADC_STAR_CREO_-4
 # ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
 ExecuteScript.4838bdf3a1ec.title=提取 _CADC_STAR_NX_-12
 
-# ExecuteScript.483c25ecaeaf.title=extract _CADC_STAR_CAT5_-27
-ExecuteScript.483c25ecaeaf.title=提取 _CADC_STAR_CAT5_-27
-
-# ExecuteScript.483c2db7af11.title=extract _CADC_STAR_CAT5_-28
-ExecuteScript.483c2db7af11.title=提取 _CADC_STAR_CAT5_-28
-
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=提取 _CADC_STAR_CAT5_-29
 
@@ -990,6 +981,12 @@ ExecuteScript.641d1e139fe8.title=检查文件夹的权限
 
 # ExecuteScript.641d1e139fea.title=get group
 ExecuteScript.641d1e139fea.title=获取组
+
+# ExecuteScript.6636beadb7fa.title=Deleting the sce file association registry keys
+ExecuteScript.6636beadb7fa.title=删除 sce 文件关联注册表项
+
+# ExecuteScript.663c75ffb7fa.title=Deleting the sce file association registry keys
+ExecuteScript.663c75ffb7fa.title=删除 sce 文件关联注册表项
 
 # ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 ExecuteScript.6879117bb0d1.title=正在运行 verifypermissions 以安装服务
@@ -1657,6 +1654,12 @@ GUIComponentData.2d3e5e7fad37.defaultValue=Not Selected
 # GUIComponentData.2d3e5e7fad37.label=Three Machine redundant license server
 GUIComponentData.2d3e5e7fad37.label=三机冗余许可证服务器
 
+# GUIComponentData.2d93e396871c.defaultValue=Not Selected
+GUIComponentData.2d93e396871c.defaultValue=Not Selected
+
+# GUIComponentData.2d93e396871c.label=NX 2206 series
+GUIComponentData.2d93e396871c.label=NX 2206 系列
+
 # GUIComponentData.314a9fd58722.defaultValue=8086
 GUIComponentData.314a9fd58722.defaultValue=8086
 
@@ -2142,6 +2145,12 @@ GUIComponentData.c58f4202a8d3.defaultValue=Selected
 
 # GUIComponentData.c58f4202a8d3.label=Add application directory to your system path
 GUIComponentData.c58f4202a8d3.label=将应用程序目录添加至系统路径
+
+# GUIComponentData.c5d3afe1b17b.defaultValue=Not Selected
+GUIComponentData.c5d3afe1b17b.defaultValue=Not Selected
+
+# GUIComponentData.c5d3afe1b17b.label=Simcenter 3D 2206
+GUIComponentData.c5d3afe1b17b.label=Simcenter 3D 2206
 
 # GUIComponentData.d8387e0c8953.defaultValue=Not Selected
 GUIComponentData.d8387e0c8953.defaultValue=Not Selected
@@ -4803,6 +4812,24 @@ ShowDialogAction.fc266f0ba2cc.narrative=在非管理员帐户下无法执行卸�
 
 # ShowDialogAction.fc266f0ba2cc.title=No Administrative Privileges
 ShowDialogAction.fc266f0ba2cc.title=无管理员权限
+
+# ShowDialogAction.fc65c82db73f.buttonLabel=OK
+ShowDialogAction.fc65c82db73f.buttonLabel=确定
+
+# ShowDialogAction.fc65c82db73f.cancelButtonLabel=
+ShowDialogAction.fc65c82db73f.cancelButtonLabel=
+
+# ShowDialogAction.fc65c82db73f.detailsButtonLabel=Details...
+ShowDialogAction.fc65c82db73f.detailsButtonLabel=详情...
+
+# ShowDialogAction.fc65c82db73f.label=The installation drive that you have chosen $USER_INSTALL_DIR$ does not exist. Please provide a valid drive to install the $INSTALLER_TITLE$.
+ShowDialogAction.fc65c82db73f.label=您所选的安装驱动器 $USER_INSTALL_DIR$ 不存在。请提供有效的驱动器来安装 $INSTALLER_TITLE$。
+
+# ShowDialogAction.fc65c82db73f.narrative=
+ShowDialogAction.fc65c82db73f.narrative=
+
+# ShowDialogAction.fc65c82db73f.title=Invalid drive
+ShowDialogAction.fc65c82db73f.title=驱动器无效
 
 # ShowDialogAction.fd9d47a28f5f.buttonLabel=OK
 ShowDialogAction.fd9d47a28f5f.buttonLabel=确定
