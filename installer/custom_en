@@ -88,6 +88,12 @@ ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$N
 # ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 
+# ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+
+# ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
@@ -148,11 +154,11 @@ ChooseFolder.85678ebc8c0d.prompt=Please Choose a Folder:
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
 
-# CreateDialog.757df82f97fd.title=Product Excellence Program
-CreateDialog.757df82f97fd.title=Product Excellence Program
+# CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
+CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -664,14 +670,14 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
-EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
+# EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
+EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
 
-# EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
-EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
+# EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
+EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
 
-# EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
-EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
+# EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
+EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -993,6 +999,9 @@ ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
 
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
+
+# ExecuteScript.7115f3be82ee.title=extract _CADC_STAR_NX_-2212
+ExecuteScript.7115f3be82ee.title=extract _CADC_STAR_NX_-2212
 
 # ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
@@ -1324,8 +1333,8 @@ GetUserInput.34e509d0ae8b.prompt=Choose the \"Local path\" where you would like 
 # GetUserInput.34e509d0ae8b.title=Select Installation Location
 GetUserInput.34e509d0ae8b.title=Select Installation Location
 
-# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
@@ -1426,8 +1435,8 @@ GetUserInput.9c455b20b168.prompt=Please select the port number for the SMTP conn
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTP port number
 
-# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 
 # GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
@@ -1462,8 +1471,8 @@ GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ products use the PLM License Ser
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=Choose License Type
 
-# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 
 # GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
@@ -1510,11 +1519,11 @@ GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setu
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
+# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
 
-# GetUserInputConsole.757df82f97fe.title=Product Excellence Program
-GetUserInputConsole.757df82f97fe.title=Product Excellence Program
+# GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
+GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
 
 # GUIComponentData.0253755dac41.defaultValue=$HOST$
 GUIComponentData.0253755dac41.defaultValue=$HOST$
@@ -1935,6 +1944,18 @@ GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
 
 # GUIComponentData.68778197b0d0.label=Service working directory
 GUIComponentData.68778197b0d0.label=Service working directory
+
+# GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+
+# GUIComponentData.7113ac7c8023.label=NX 2212 series
+GUIComponentData.7113ac7c8023.label=NX 2212 series
+
+# GUIComponentData.71141c1f8028.defaultValue=Not Selected
+GUIComponentData.71141c1f8028.defaultValue=Not Selected
+
+# GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
+GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
 GUIComponentData.79ae52d48b3f.defaultValue=Selected
@@ -2557,8 +2578,8 @@ Installer.850018e38424.installLabels.02=Installing...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=Pre-Installation Summary
 
-# Installer.850018e38424.installLabels.05=Product Excellence Program
-Installer.850018e38424.installLabels.05=Product Excellence Program
+# Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
+Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=Install Complete
