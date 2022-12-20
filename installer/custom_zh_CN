@@ -88,6 +88,12 @@ ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$N
 # ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 
+# ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+
+# ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
@@ -148,11 +154,11 @@ ChooseFolder.85678ebc8c0d.prompt=请选择文件夹：
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=选择现有 _RT_JOB_MANAGER_ 位置
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-CreateDialog.757df82f97fd.prompt=产品卓越计划收集客户如何使用 _COMPANY_NAME_ _BUSINESS_UNIT_ 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。
+# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+CreateDialog.757df82f97fd.prompt=此功能使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提供个性化用户体验，如入门培训、导览、应用内通知、电子邮件提醒等。它还使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提高其产品质量，从而更好地根据用户需求定制功能。了解有关数据收集和隐私的更多信息，请参见 https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience。数字化客户成功和支持体验是可选的。如果您不想使用此功能，可取消选中下方的复选框。\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ 隐私声明请参见：https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html。\n
 
-# CreateDialog.757df82f97fd.title=Product Excellence Program
-CreateDialog.757df82f97fd.title=产品卓越计划
+# CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
+CreateDialog.757df82f97fd.title=数字化客户成功和支持体验
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -664,14 +670,14 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
-EntryAtomBiDi.757df83097fd.label=参加产品卓越计划
+# EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
+EntryAtomBiDi.7424f168b166.label=参与数字化客户成功和支持体验
 
-# EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
-EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
+# EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
+EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
 
-# EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
-EntryAtomNonBiDi.757df83097fe.label=参加产品卓越计划？（是/否）
+# EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
+EntryAtomNonBiDi.98421ea1b42d.label=是否参与数字化客户成功和支持体验？（是/否）
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -993,6 +999,9 @@ ExecuteScript.6879117bb0d1.title=正在运行 verifypermissions 以安装服务
 
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=移除当前许可证服务器以执行升级
+
+# ExecuteScript.7115f3be82ee.title=extract _CADC_STAR_NX_-2212
+ExecuteScript.7115f3be82ee.title=提取 _CADC_STAR_NX_-2212
 
 # ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.740378ec942f.dialogLabel=正在安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ... 请稍等片刻
@@ -1324,8 +1333,8 @@ GetUserInput.34e509d0ae8b.prompt=选择安装 $INSTALLER_TITLE$ 的“本地路�
 # GetUserInput.34e509d0ae8b.title=Select Installation Location
 GetUserInput.34e509d0ae8b.title=选择安装位置
 
-# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=请输入 TCP/IP 端口和 FLEXNet 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.3642fdbebce8.prompt=请输入 TCP/IP 端口和 FLEXNet 许可证服务器主机名，格式为 \"port@host\"。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNet 客户端配置
@@ -1426,8 +1435,8 @@ GetUserInput.9c455b20b168.prompt=请选择 SMTP 连接的端口号。\n\n如果�
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTP 端口号
 
-# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.a15d24e18d56.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为 \"port@host\"。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
 
 # GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ 许可证客户端配置
@@ -1462,8 +1471,8 @@ GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 产品使用 _COMPANY_NAME_ Soft
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=选择许可证类型
 
-# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.e5ce3dee80f6.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为“port@host”。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为 \"port@host\"。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
 
 # GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ 许可证客户端配置
@@ -1510,11 +1519,11 @@ GetUserInput.fbd51d65bcc1.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=选择更多任务
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-GetUserInputConsole.757df82f97fe.prompt=产品卓越计划收集客户如何使用 _COMPANY_NAME_ _BUSINESS_UNIT_ 的有关信息。这些信息可帮助我们提高产品特性和功能，以更好地满足客户的需求。该计划不会收集或共享任何个人或知识产权信息，不会影响产品的性能，而且参与该计划是自愿的。
+# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+GetUserInputConsole.757df82f97fe.prompt=此功能使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提供个性化用户体验，如入门培训、导览、应用内通知、电子邮件提醒等。它还使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提高其产品质量，从而更好地根据用户需求定制功能。了解有关数据收集和隐私的更多信息，请参见 https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience。数字化客户成功和支持体验是可选的。如果您不想使用此功能，可取消选中下方的复选框。\n_COMPANY_NAME_ _BUSINESS_UNIT_ 隐私声明请参见：https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html。\n
 
-# GetUserInputConsole.757df82f97fe.title=Product Excellence Program
-GetUserInputConsole.757df82f97fe.title=产品卓越计划
+# GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
+GetUserInputConsole.757df82f97fe.title=数字化客户成功和支持体验
 
 # GUIComponentData.0253755dac41.defaultValue=$HOST$
 GUIComponentData.0253755dac41.defaultValue=$HOST$
@@ -1935,6 +1944,18 @@ GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
 
 # GUIComponentData.68778197b0d0.label=Service working directory
 GUIComponentData.68778197b0d0.label=服务工作目录
+
+# GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+
+# GUIComponentData.7113ac7c8023.label=NX 2212 series
+GUIComponentData.7113ac7c8023.label=NX 2212 系列
+
+# GUIComponentData.71141c1f8028.defaultValue=Not Selected
+GUIComponentData.71141c1f8028.defaultValue=Not Selected
+
+# GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
+GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
 GUIComponentData.79ae52d48b3f.defaultValue=Selected
@@ -2522,7 +2543,7 @@ InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGI
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
 
 # InstallCompleteActionConsole.e73c0c7192d4.message=Congratulations:\n\nThe installation of _COMPANY_NAME_ License Server $SALT_VERSION$ has been completed successfully to $USER_MAGIC_FOLDER_19$\n\nThe installation log can be found at $USER_MAGIC_FOLDER_19$\\log folder.\n\n\n
-InstallCompleteActionConsole.e73c0c7192d4.message=祝贺您：\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$ 已成功安装至 $USER_MAGIC_FOLDER_19$。\n\n安装日志位于 $USER_MAGIC_FOLDER_19$\\log 文件夹中。\n\n\n
+InstallCompleteActionConsole.e73c0c7192d4.message=祝贺您：\n\n_COMPANY_NAME_ 许可证服务器 $SALT_VERSION$ 已成功安装至 $USER_MAGIC_FOLDER_19$。\n\n安装日志位于 $USER_MAGIC_FOLDER_19$\\log 文件夹中。\n\n\n
 
 # InstallCompleteActionConsole.e73c0c7192d4.title=Install Complete
 InstallCompleteActionConsole.e73c0c7192d4.title=安装完成
@@ -2557,8 +2578,8 @@ Installer.850018e38424.installLabels.02=正在安装...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=预安装摘要
 
-# Installer.850018e38424.installLabels.05=Product Excellence Program
-Installer.850018e38424.installLabels.05=产品卓越计划
+# Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
+Installer.850018e38424.installLabels.05=数字化客户成功和支持体验
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=安装完成
@@ -4943,7 +4964,7 @@ UninstallCompleteAction.fbc110b185a8.rebootRequiredMessage=需要重启系统才
 UninstallCompleteAction.fbc110b185a8.stepTitle=卸载完成
 
 # UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=The uninstallation is finished.\n\nAs requested, some files were not removed.\n
-UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=卸载完成。\n\n按照请求，未移除一些文件。
+UninstallCompleteAction.fbc110b185a8.uninstallIncompleteMessage=卸载完成。\n\n按照请求，未移除一些文件。\n
 
 # UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=Unable to uninstall $INSTALLER_TITLE$.
 UninstallCompleteAction.fbc110b185a8.uninstallSkippedMessage=无法卸载 $INSTALLER_TITLE$。
