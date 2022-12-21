@@ -88,6 +88,12 @@ ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$N
 # ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 
+# ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+
+# ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
@@ -148,11 +154,11 @@ ChooseFolder.85678ebc8c0d.prompt=フォルダを選択してください:
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=既存の_RT_JOB_MANAGER_の場所を選択
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-CreateDialog.757df82f97fd.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は任意です。
+# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+CreateDialog.757df82f97fd.prompt=この機能により、 _COMPANY_NAME_ _BUSINESS_UNIT_ が、「はじめに」トレーニング、ガイド付きツアー、アプリ内通知、電子メールリマインダなど、パーソナライズされたユーザエクスペリエンスを提供することを可能にします。 それはまた、 _COMPANY_NAME_ _BUSINESS_UNIT_ が、それらのオファーの品質を改善して、ユーザのニーズに合わせて機能をより良く調整することができます。 データ収集およびプライバシーについての詳細は、https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperienceをご覧ください。 デジタルカスタマーサクセスおよびとサポートエクスペリエンスは任意です。 この機能を使用しない場合は、以下のチェックを解除します。\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ プライバシーに関する通知は、https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.htmlを参照してください。\n\n
 
-# CreateDialog.757df82f97fd.title=Product Excellence Program
-CreateDialog.757df82f97fd.title=製品機能向上プログラム
+# CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
+CreateDialog.757df82f97fd.title=デジタルカスタマーサクセスおよびサポートエクスペリエンス
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -664,14 +670,14 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
-EntryAtomBiDi.757df83097fd.label=製品機能向上プログラムに参加する
+# EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
+EntryAtomBiDi.7424f168b166.label=デジタルカスタマーサクセスおよびサポートエクスペリエンスへの参加
 
-# EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
-EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
+# EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
+EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
 
-# EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
-EntryAtomNonBiDi.757df83097fe.label=製品機能向上プログラムに参加しますか? (Y/N)
+# EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
+EntryAtomNonBiDi.98421ea1b42d.label=デジタルカスタマーサクセスおよびサポートエクスペリエンスに参加しますか?(Y/N)
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -993,6 +999,9 @@ ExecuteScript.6879117bb0d1.title=サービスをインストールするVerifype
 
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=現在のライセンスサーバを除去してアップグレードを実行
+
+# ExecuteScript.7115f3be82ee.title=extract _CADC_STAR_NX_-2212
+ExecuteScript.7115f3be82ee.title=_CADC_STAR_NX_-2212を抽出
 
 # ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.740378ec942f.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$をインストールしています ..しばらくお待ちください
@@ -1324,8 +1333,8 @@ GetUserInput.34e509d0ae8b.prompt=$INSTALLER_TITLE$をインストールしたい
 # GetUserInput.34e509d0ae8b.title=Select Installation Location
 GetUserInput.34e509d0ae8b.title=インストールの場所を選択
 
-# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.3642fdbebce8.prompt=FLEXNetライセンスサーバーのTCP/IPポートとホスト名を、「port@host」の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.3642fdbebce8.prompt=FLEXNetライセンスサーバーのTCP/IPポートとホスト名を、\"port@host\"の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。 追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。 3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
 GetUserInput.3642fdbebce8.title=FlexNetクライアント構成 
@@ -1426,8 +1435,8 @@ GetUserInput.9c455b20b168.prompt=SMTP接続のポート番号を選択してく�
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTPポート番号
 
-# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.a15d24e18d56.prompt=_COMPANY_NAME_ライセンスサーバーのTCP/IPポートとホスト名を、「port@host」の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=_COMPANY_NAME_ライセンスサーバーのTCP/IPポートとホスト名を、\"port@host\"の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。 追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。 3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
 
 # GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ライセンスクライアント構成
@@ -1462,8 +1471,8 @@ GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_製品は、PLMライセンスサ
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=ライセンスタイプの選択
 
-# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.e5ce3dee80f6.prompt=_COMPANY_NAME_ライセンスサーバーのTCP/IPポートとホスト名を、「port@host」の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=_COMPANY_NAME_ライセンスサーバーのTCP/IPポートとホスト名を、\"port@host\"の形式で入力してください。\n\n通常は、1台のライセンスサーバーのみが使用されます。 追加のライセンスサーバーがある場合は、オプションフィールドに入力してください。 3台のマシンによる冗長ライセンスサーバーのセットアップが必要な場合は、適宜選択してください。
 
 # GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ライセンスクライアント構成
@@ -1510,11 +1519,11 @@ GetUserInput.fbd51d65bcc1.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=追加タスクの選択
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-GetUserInputConsole.757df82f97fe.prompt=製品機能向上プログラムは、お客様がどのように_COMPANY_NAME_ _BUSINESS_UNIT_を使用するかについての情報を収集します。この情報は、我々の製品の機能を改善してお客様のご要望に応える手助けとなります。 個人または知的所有権情報は収集されず共有もされません。 製品のパフォーマンスには影響を与えず、プログラムへの参加は任意です。
+# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+GetUserInputConsole.757df82f97fe.prompt=この機能により、 _COMPANY_NAME_ _BUSINESS_UNIT_ が、「はじめに」トレーニング、ガイド付きツアー、アプリ内通知、電子メールリマインダなど、パーソナライズされたユーザエクスペリエンスを提供することを可能にします。 それはまた、 _COMPANY_NAME_ _BUSINESS_UNIT_ が、それらのオファーの品質を改善して、ユーザのニーズに合わせて機能をより良く調整することができます。 データ収集およびプライバシーについての詳細は、https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperienceをご覧ください。 デジタルカスタマーサクセスおよびとサポートエクスペリエンスは任意です。 この機能を使用しない場合は、以下のチェックを解除します。\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ プライバシーに関する通知は、https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.htmlを参照してください。
 
-# GetUserInputConsole.757df82f97fe.title=Product Excellence Program
-GetUserInputConsole.757df82f97fe.title=製品機能向上プログラム
+# GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
+GetUserInputConsole.757df82f97fe.title=デジタルカスタマーサクセスおよびサポートエクスペリエンス
 
 # GUIComponentData.0253755dac41.defaultValue=$HOST$
 GUIComponentData.0253755dac41.defaultValue=$HOST$
@@ -1935,6 +1944,18 @@ GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
 
 # GUIComponentData.68778197b0d0.label=Service working directory
 GUIComponentData.68778197b0d0.label=サービス作業ディレクトリ
+
+# GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+
+# GUIComponentData.7113ac7c8023.label=NX 2212 series
+GUIComponentData.7113ac7c8023.label=NX 2212シリーズ
+
+# GUIComponentData.71141c1f8028.defaultValue=Not Selected
+GUIComponentData.71141c1f8028.defaultValue=Not Selected
+
+# GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
+GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
 GUIComponentData.79ae52d48b3f.defaultValue=Selected
@@ -2557,8 +2578,8 @@ Installer.850018e38424.installLabels.02=インストール中...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=プリインストールの要約
 
-# Installer.850018e38424.installLabels.05=Product Excellence Program
-Installer.850018e38424.installLabels.05=製品機能向上プログラム
+# Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
+Installer.850018e38424.installLabels.05=デジタルカスタマーサクセスおよびサポートエクスペリエンス
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=インストール完了
