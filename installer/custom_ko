@@ -88,6 +88,12 @@ ASCIIFileManipulator.4b3809578492.additionalText=InstallDirectoryNX2007Series=$N
 # ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 ASCIIFileManipulator.4b38d26c8494.additionalText=InstallDirectorySC3D2022.1Series=$NXPATH$
 
+# ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$NXPATH$
+
+# ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
 
@@ -148,11 +154,11 @@ ChooseFolder.85678ebc8c0d.prompt=폴더를 선택하십시오:
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=기존 _RT_JOB_MANAGER_ 위치 선택
 
-# CreateDialog.757df82f97fd.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-CreateDialog.757df82f97fd.prompt=Product Excellence Program은 고객이 _COMPANY_NAME_ _BUSINESS_UNIT_을(를) 사용하는 방식과 관련한 정보를 수집합니다. 이 정보는 고객 요구사항을 더욱 잘 충족시킬 수 있도록 제품 기능을 개선하는데 사용됩니다. 개인 정보나 지식 자산 정보는 일절 수집 또는 공유되지 않습니다. 제품 성능에 영향을 미치지 않으며, 프로그램 참여는 자발적으로 이뤄집니다.
+# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+CreateDialog.757df82f97fd.prompt=이 기능을 사용하면 _COMPANY_NAME_ _BUSINESS_UNIT_에서 교육 시작하기, 가이드형 자습서, 앱 내 알림, 이메일 알림 등의 맞춤형 사용자 환경을 제공할 수 있습니다. 또한 _COMPANY_NAME_ _BUSINESS_UNIT_에서 사용자 요구 사항에 맞게 기능을 개선할 수 있도록 제품 품질을 향상시킬 수 있습니다. https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience에서 데이터 수집 및 개인 정보 보호에 대해 알아보십시오. [디지털 고객 성공 및 지원 경험]은 선택 사항입니다. 이 기능을 사용하지 않으려면 아래 항목을 선택 취소하십시오.\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ 개인 정보 보호 공지사항은 https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html에서 찾을 수 있습니다.\n\n
 
-# CreateDialog.757df82f97fd.title=Product Excellence Program
-CreateDialog.757df82f97fd.title=Product Excellence Program
+# CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
+CreateDialog.757df82f97fd.title=디지털 고객 성공 및 지원 경험
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -664,14 +670,14 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.757df83097fd.label=Participate in the Product Excellence Program
-EntryAtomBiDi.757df83097fd.label=Product Excellence Program에 참여
+# EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
+EntryAtomBiDi.7424f168b166.label=디지털 고객 성공 및 지원 경험에 참여
 
-# EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
-EntryAtomNonBiDi.757df83097fe.defaultValue=Yes
+# EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
+EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
 
-# EntryAtomNonBiDi.757df83097fe.label=Participate in the Product Excellence Program? (Y/N)
-EntryAtomNonBiDi.757df83097fe.label=Product Excellence Program에 참여하시겠습니까? (Y/N)
+# EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
+EntryAtomNonBiDi.98421ea1b42d.label=디지털 고객 성공 및 지원 경험에 참여하시겠습니까? (Y/N)
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -993,6 +999,9 @@ ExecuteScript.6879117bb0d1.title=서비스 설치를 위한 verifypermissions �
 
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=현재 라이선스 서버를 제거해 업그레이드 실시
+
+# ExecuteScript.7115f3be82ee.title=extract _CADC_STAR_NX_-2212
+ExecuteScript.7115f3be82ee.title=_CADC_STAR_NX_-2212 추출
 
 # ExecuteScript.740378ec942f.dialogLabel=Installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ ..Please wait a moment
 ExecuteScript.740378ec942f.dialogLabel=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_$STARCCMPLUS_VERSION$ 설치 중... 잠시 기다려 주십시오.
@@ -1324,7 +1333,7 @@ GetUserInput.34e509d0ae8b.prompt=$INSTALLER_TITLE$을(를) 설치하고자 하�
 # GetUserInput.34e509d0ae8b.title=Select Installation Location
 GetUserInput.34e509d0ae8b.title=설치 위치 선택
 
-# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+# GetUserInput.3642fdbebce8.prompt=Please enter the TCP/IP port and Hostname of the FLEXNet license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 GetUserInput.3642fdbebce8.prompt=\"port@host\" 형식을 사용해 FLEXNet 라이선스 서버의 TCP/IP 포트와 호스트네임을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 세 개 장치에 중복 라이선스 서버를 설치하시려면 그에 알맞게 선택하십시오.
 
 # GetUserInput.3642fdbebce8.title=FlexNet client Configuration 
@@ -1426,8 +1435,8 @@ GetUserInput.9c455b20b168.prompt=SMTP 연결을 위한 포트 번호를 선택�
 # GetUserInput.9c455b20b168.title=SMTP port number
 GetUserInput.9c455b20b168.title=SMTP 포트 번호
 
-# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.a15d24e18d56.prompt=\"port@host\" 형식을 사용해 _COMPANY_NAME_ 라이선스 서버의 TCP/IP 포트와 호스트네임을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 세 개 장치에 중복 라이선스 서버를 설치하시려면 그에 알맞게 선택하십시오.
+# GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.a15d24e18d56.prompt=\"port@host\" 형식을 사용하여 _COMPANY_NAME_ 라이선스 서버의 TCP/IP 포트와 호스트 이름을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택적 필드를 채우십시오. 세 대 컴퓨터 중복 라이선스 서버를 설정하려면 적절한 항목을 선택하십시오.
 
 # GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.a15d24e18d56.title=_COMPANY_NAME_ 라이선스 클라이언트 구성 
@@ -1462,8 +1471,8 @@ GetUserInput.d8387e0c8950.prompt=_COMPANY_NAME_ 제품은  Software의 PLM 라�
 # GetUserInput.d8387e0c8950.title=Choose License Type
 GetUserInput.d8387e0c8950.title=라이선스 유형 선택
 
-# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: “port@host”.\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
-GetUserInput.e5ce3dee80f6.prompt=\"port@host\" 형식을 사용해 _COMPANY_NAME_ 라이선스 서버의 TCP/IP 포트와 호스트네임을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택 필드를 채우십시오. 세 개 장치에 중복 라이선스 서버를 설치하시려면 그에 알맞게 선택하십시오.
+# GetUserInput.e5ce3dee80f6.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
+GetUserInput.e5ce3dee80f6.prompt=\"port@host\" 형식을 사용하여 _COMPANY_NAME_ 라이선스 서버의 TCP/IP 포트와 호스트 이름을 입력하십시오.\n\n일반적으로 하나의 라이선스 서버만 사용됩니다. 추가 라이선스 서버가 있는 경우 선택적 필드를 채우십시오. 세 대 컴퓨터 중복 라이선스 서버를 설정하려면 적절한 항목을 선택하십시오.
 
 # GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ License client Configuration 
 GetUserInput.e5ce3dee80f6.title=_COMPANY_NAME_ 라이선스 클라이언트 구성 
@@ -1510,11 +1519,11 @@ GetUserInput.fbd51d65bcc1.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=추가 작업 선택
 
-# GetUserInputConsole.757df82f97fe.prompt=The Product Excellence Program collects information about how our customers use _COMPANY_NAME_ _BUSINESS_UNIT_. This information helps us improve our product features and functionality to better meet customer needs. No personal or intellectual property information is collected or shared. Product performance is not affected and participation in the program is voluntary.
-GetUserInputConsole.757df82f97fe.prompt=Product Excellence Program은 고객이 _COMPANY_NAME_ _BUSINESS_UNIT_을(를) 사용하는 방식과 관련한 정보를 수집합니다. 이 정보는 고객 요구사항을 더욱 잘 충족시킬 수 있도록 제품 기능을 개선하는데 사용됩니다. 개인 정보나 지식 자산 정보는 일절 수집 또는 공유되지 않습니다. 제품 성능에 영향을 미치지 않으며, 프로그램 참여는 자발적으로 이뤄집니다.
+# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+GetUserInputConsole.757df82f97fe.prompt=이 기능을 사용하면 _COMPANY_NAME_ _BUSINESS_UNIT_에서 교육 시작하기, 가이드형 자습서, 앱 내 알림, 이메일 알림 등의 맞춤형 사용자 환경을 제공할 수 있습니다. 또한 _COMPANY_NAME_ _BUSINESS_UNIT_에서 사용자 요구 사항에 맞게 기능을 개선할 수 있도록 제품 품질을 향상시킬 수 있습니다. https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience에서 데이터 수집 및 개인 정보 보호에 대해 알아보십시오. [디지털 고객 성공 및 지원 경험]은 선택 사항입니다. 이 기능을 사용하지 않으려면 아래 항목을 선택 취소하십시오.\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ 개인 정보 보호 공지사항은 https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html에서 찾을 수 있습니다.
 
-# GetUserInputConsole.757df82f97fe.title=Product Excellence Program
-GetUserInputConsole.757df82f97fe.title=Product Excellence Program
+# GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
+GetUserInputConsole.757df82f97fe.title=디지털 고객 성공 및 지원 경험
 
 # GUIComponentData.0253755dac41.defaultValue=$HOST$
 GUIComponentData.0253755dac41.defaultValue=$HOST$
@@ -1935,6 +1944,18 @@ GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
 
 # GUIComponentData.68778197b0d0.label=Service working directory
 GUIComponentData.68778197b0d0.label=서비스 작업 디렉터리
+
+# GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+GUIComponentData.7113ac7c8023.defaultValue=Not Selected
+
+# GUIComponentData.7113ac7c8023.label=NX 2212 series
+GUIComponentData.7113ac7c8023.label=NX 2212 시리즈
+
+# GUIComponentData.71141c1f8028.defaultValue=Not Selected
+GUIComponentData.71141c1f8028.defaultValue=Not Selected
+
+# GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
+GUIComponentData.71141c1f8028.label=Simcenter 3D 2212
 
 # GUIComponentData.79ae52d48b3f.defaultValue=Selected
 GUIComponentData.79ae52d48b3f.defaultValue=Selected
@@ -2557,8 +2578,8 @@ Installer.850018e38424.installLabels.02=설치 중...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=사전 설치 요약
 
-# Installer.850018e38424.installLabels.05=Product Excellence Program
-Installer.850018e38424.installLabels.05=Product Excellence Program
+# Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
+Installer.850018e38424.installLabels.05=디지털 고객 성공 및 지원 경험
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=설치 완료
