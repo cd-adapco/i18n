@@ -70,6 +70,12 @@ ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Serie
 # ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 ASCIIFileManipulator.33fadcbdbcdd.additionalText=InstallDirectoryNX1926Series=$NXPATH$
 
+# ASCIIFileManipulator.3f92964393b9.additionalText=InstallDirectoryNX2306Series=$NXPATH$
+ASCIIFileManipulator.3f92964393b9.additionalText=InstallDirectoryNX2306Series=$NXPATH$
+
+# ASCIIFileManipulator.3f92d1aa93ba.additionalText=InstallDirectorySC3D2306Series=$NXPATH$
+ASCIIFileManipulator.3f92d1aa93ba.additionalText=InstallDirectorySC3D2306Series=$NXPATH$
+
 # ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
 ASCIIFileManipulator.48b29b9eaa22.additionalText=InstallDirectoryNX1980Series=$NXPATH$
 
@@ -154,11 +160,11 @@ ChooseFolder.85678ebc8c0d.prompt=Please Choose a Folder:
 # ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
 
-# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
-CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
+CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
 
-# CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
-CreateDialog.757df82f97fd.title=Digital Customer Success and Support Experience
+# CreateDialog.757df82f97fd.title=Digital Product Experience
+CreateDialog.757df82f97fd.title=Digital Product Experience
 
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
@@ -670,14 +676,14 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
-EntryAtomBiDi.7424f168b166.label=Participate in the Digital Customer Success and Support Experience
+# EntryAtomBiDi.b4594866b5d9.label=Participate in the Digital Product Experience
+EntryAtomBiDi.b4594866b5d9.label=Participate in the Digital Product Experience
 
-# EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
-EntryAtomNonBiDi.98421ea1b42d.defaultValue=Yes
+# EntryAtomNonBiDi.b6ad371db59c.defaultValue=$DIGITALPRODUCTEXPERIENCE$
+EntryAtomNonBiDi.b6ad371db59c.defaultValue=$DIGITALPRODUCTEXPERIENCE$
 
-# EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
-EntryAtomNonBiDi.98421ea1b42d.label=Participate in the Digital Customer Success and Support Experience? (Y/N)
+# EntryAtomNonBiDi.b6ad371db59c.label=Participate in the Digital Product Experience? (Y/N)
+EntryAtomNonBiDi.b6ad371db59c.label=Participate in the Digital Product Experience? (Y/N)
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -702,6 +708,12 @@ Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 
 # Exec.b8b20e8da4fb.title=attrib +R
 Exec.b8b20e8da4fb.title=attrib +R
+
+# Exec.bb7e0eae800f.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B32$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.bb7e0eae800f.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B32$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.bb7e0eae800f.title=attrib +R
+Exec.bb7e0eae800f.title=attrib +R
 
 # Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$bin$/$hydra_service.exe\" -uninstall
 Exec.fd261c999d36.commandLineArgs=\"$USER_MAGIC_FOLDER_9$$/$intel$/$$IMPI_VER$$/$$PORT_NAME$$/$bin$/$hydra_service.exe\" -uninstall
@@ -1165,6 +1177,9 @@ ExecuteScript.b8b148f3a4fb.title=extract _CADC_STAR_CAT5_-30
 # ExecuteScript.b9b5b08a8686.title=delete lm logs
 ExecuteScript.b9b5b08a8686.title=delete lm logs
 
+# ExecuteScript.bb7d5479800f.title=extract _CADC_STAR_CAT5_-32
+ExecuteScript.bb7d5479800f.title=extract _CADC_STAR_CAT5_-32
+
 # ExecuteScript.c5c2e0999553.title=delete config.xml
 ExecuteScript.c5c2e0999553.title=delete config.xml
 
@@ -1519,11 +1534,11 @@ GetUserInput.fbd51d65bcc1.prompt=Select the additional tasks you would like Setu
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 
-# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
-GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digitalcustomersuccessandsupportexperience. The Digital Customer Success and Support Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
+GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
 
-# GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
-GetUserInputConsole.757df82f97fe.title=Digital Customer Success and Support Experience
+# GetUserInputConsole.757df82f97fe.title=Digital Product Experience
+GetUserInputConsole.757df82f97fe.title=Digital Product Experience
 
 # GUIComponentData.0253755dac41.defaultValue=$HOST$
 GUIComponentData.0253755dac41.defaultValue=$HOST$
@@ -1818,6 +1833,18 @@ GUIComponentData.3cd99869ae8b.defaultValue=Not Selected
 
 # GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
 GUIComponentData.3cd99869ae8b.label=Create shortcuts for current user only
+
+# GUIComponentData.3f866fa185b7.defaultValue=Not Selected
+GUIComponentData.3f866fa185b7.defaultValue=Not Selected
+
+# GUIComponentData.3f866fa185b7.label=NX 2306 series
+GUIComponentData.3f866fa185b7.label=NX 2306 series
+
+# GUIComponentData.3f871ee185bc.defaultValue=Not Selected
+GUIComponentData.3f871ee185bc.defaultValue=Not Selected
+
+# GUIComponentData.3f871ee185bc.label=Simcenter 3D 2306
+GUIComponentData.3f871ee185bc.label=Simcenter 3D 2306
 
 # GUIComponentData.411f00519f69.defaultValue=Not Selected
 GUIComponentData.411f00519f69.defaultValue=Not Selected
@@ -2578,8 +2605,8 @@ Installer.850018e38424.installLabels.02=Installing...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=Pre-Installation Summary
 
-# Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
-Installer.850018e38424.installLabels.05=Digital Customer Success and Support Experience
+# Installer.850018e38424.installLabels.05=Digital Product Experience
+Installer.850018e38424.installLabels.05=Digital Product Experience
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=Install Complete
@@ -2623,20 +2650,20 @@ Installer.850018e38424.splashScreenGUIConfirm=OK
 # Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 Installer.850018e38424.splashScreenGUIImageName=starccm-splash.png
 
-# Installer.850018e38424.splashScreenGUIImageName1=SplashNew.png
-Installer.850018e38424.splashScreenGUIImageName1=SplashNew.png
+# Installer.850018e38424.splashScreenGUIImageName1=starccm-splash.png
+Installer.850018e38424.splashScreenGUIImageName1=starccm-splash.png
 
-# Installer.850018e38424.splashScreenGUIImageName2=SplashNew.png
-Installer.850018e38424.splashScreenGUIImageName2=SplashNew.png
+# Installer.850018e38424.splashScreenGUIImageName2=starccm-splash.png
+Installer.850018e38424.splashScreenGUIImageName2=starccm-splash.png
 
 # Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 Installer.850018e38424.splashScreenGUIImagePath=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
-# Installer.850018e38424.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
-Installer.850018e38424.splashScreenGUIImagePath1=com/zerog/ia/installer/images/
+# Installer.850018e38424.splashScreenGUIImagePath1=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+Installer.850018e38424.splashScreenGUIImagePath1=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
-# Installer.850018e38424.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
-Installer.850018e38424.splashScreenGUIImagePath2=com/zerog/ia/installer/images/
+# Installer.850018e38424.splashScreenGUIImagePath2=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
+Installer.850018e38424.splashScreenGUIImagePath2=$IA_PROJECT_DIR$/com/zerog/ia/installer/images/
 
 # Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
 Installer.850018e38424.splashScreenGUIInstructions=Select the language to use during installation
