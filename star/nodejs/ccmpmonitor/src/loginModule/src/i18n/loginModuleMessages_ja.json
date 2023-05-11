@@ -1,0 +1,10 @@
+{
+    "pageTitle": "ログイン",
+    "loginButtonTitle": "ログイン",
+    "username": "ユーザー名",
+    "password": "パスワード",
+    "logout": "ログアウト",
+    "logoutConfirmationMessage": "本当にログアウトしますか?",
+    "cancelText": "キャンセル",
+    "sessionExpiredMessage": "自動でログアウトされたため、このメッセージが表示されています。\nこのジョブマネージャウィンドウをいつでも閉じることができます。"
+}

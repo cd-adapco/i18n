@@ -1,0 +1,5 @@
+{
+    "pageTitle": "シミュレーションのログ出力: {0}、ジョブID: {1}",
+    "errorLogOutputMsg": "ログ出力{0}の取得中にエラーが発生しました",
+    "previousPageName": "ジョブ"
+}
