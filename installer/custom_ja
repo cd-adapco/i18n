@@ -40,18 +40,6 @@ ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$N
 # ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 
-# ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
-ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
-
-# ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
-ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
-
-# ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
-ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
-
-# ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
-ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
-
 # ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
 ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
 
@@ -100,8 +88,8 @@ ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$N
 # ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 
-# ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
-ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
+# ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
+ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
@@ -346,8 +334,8 @@ CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
 
-# CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -355,8 +343,8 @@ CreateShortcut.9d61b24aac76.destinationName=リリースノート_REL_PRESENTATI
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
 
-# CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -382,8 +370,8 @@ CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
 
-# CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed750578a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed750578a8a.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -391,8 +379,8 @@ CreateShortcut.9ed750578a8a.destinationName=リリースノート_REL_PRESENTATI
 # CreateShortcut.9ed750578a8a.workingDir=
 CreateShortcut.9ed750578a8a.workingDir=
 
-# CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed7805c8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed7805c8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed7805c8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed7805c8a8a.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -400,8 +388,8 @@ CreateShortcut.9ed7805c8a8a.destinationName=リリースノート_REL_PRESENTATI
 # CreateShortcut.9ed7805c8a8a.workingDir=
 CreateShortcut.9ed7805c8a8a.workingDir=
 
-# CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed79bb88a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed79bb88a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed79bb88a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed79bb88a8a.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -409,8 +397,8 @@ CreateShortcut.9ed79bb88a8a.destinationName=リリースノート_REL_PRESENTATI
 # CreateShortcut.9ed79bb88a8a.workingDir=
 CreateShortcut.9ed79bb88a8a.workingDir=
 
-# CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed7b4ce8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed7b4ce8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed7b4ce8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed7b4ce8a8a.destinationName=リリースノート_REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -913,9 +901,6 @@ ExecuteScript.4834719b95fe.title=_CADC_STAR_INVENTOR_-ALLを抽出
 # ExecuteScript.483683ac9bbb.title=extract _CADC_STAR_CREO_-4
 ExecuteScript.483683ac9bbb.title=_CADC_STAR_CREO_-4を抽出
 
-# ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
-ExecuteScript.4838bdf3a1ec.title=_CADC_STAR_NX_-12を抽出
-
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=_CADC_STAR_CAT5_-29を抽出
 
@@ -1035,9 +1020,6 @@ ExecuteScript.7d08ee059041.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 
 # ExecuteScript.7f8ca8528268.title=extract _CADC_STAR_CAT5_-31
 ExecuteScript.7f8ca8528268.title=_CADC_STAR_CAT5_-31を抽出
-
-# ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
-ExecuteScript.80940cd987b6.title=_CADC_STAR_NX_-1847を抽出
 
 # ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
 ExecuteScript.8134e3c18f85.title=_RT_JOB_MANAGER_をアップグレードするにはパーミッションの検証を実行します
@@ -1402,8 +1384,8 @@ GetUserInput.8209d5e08fc6.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ を�
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=追加タスクの選択
 
-# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_のユーザーには、オペレーティングシステムのアカウントが必要です。 _RT_JOB_MANAGER_は、ユーザーのデータベースに格納されているパスワードを使って認証されるか、オペレーティングシステムに認証を委任できます。 \n\nどちらの方法を使用しますか?
+# GetUserInput.856fd80c8c32.prompt=Job Manager installer has been deprecated starting in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310 and is planned to be removed in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402. Please contact your Simcenter customer support representative for further information.\n\nUsers of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
+GetUserInput.856fd80c8c32.prompt=ジョブマネージャインストーラは、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310から廃止されていて、_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402で除去される予定です。 追加情報については、Simcenterカスタマサポート担当者に連絡してください。\n\n_RT_JOB_MANAGER_ のユーザは、オペレーティングシステム上にアカウントがなければなりません。 _RT_JOB_MANAGER_ は、それ固有のデータベースに保管されたパスワードを使用して、それ自身を認証するか、またはオペレーティングシステムに認証を委任することができます。\n\nどの方法を使用しますか?
 
 # GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
 GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_構成
@@ -1696,12 +1678,6 @@ GUIComponentData.329ad497800d.defaultValue=
 # GUIComponentData.329ad497800d.label=Install Path
 GUIComponentData.329ad497800d.label=パスのインストール
 
-# GUIComponentData.33f07db4ba18.defaultValue=Not Selected
-GUIComponentData.33f07db4ba18.defaultValue=Not Selected
-
-# GUIComponentData.33f07db4ba18.label=NX 12
-GUIComponentData.33f07db4ba18.label=NX 12
-
 # GUIComponentData.33f07db4ba19.defaultValue=Not Selected
 GUIComponentData.33f07db4ba19.defaultValue=Not Selected
 
@@ -1720,18 +1696,6 @@ GUIComponentData.33f07db5ba19.defaultValue=Not Selected
 # GUIComponentData.33f07db5ba19.label=NX 1899 series
 GUIComponentData.33f07db5ba19.label=NX 1899シリーズ
 
-# GUIComponentData.33f07db6ba18.defaultValue=Not Selected
-GUIComponentData.33f07db6ba18.defaultValue=Not Selected
-
-# GUIComponentData.33f07db6ba18.label=NX 1847 series
-GUIComponentData.33f07db6ba18.label=NX 1847シリーズ
-
-# GUIComponentData.33f1860fba1a.defaultValue=Not Selected
-GUIComponentData.33f1860fba1a.defaultValue=Not Selected
-
-# GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
-GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
-
 # GUIComponentData.33f1860fba1b.defaultValue=Not Selected
 GUIComponentData.33f1860fba1b.defaultValue=Not Selected
 
@@ -1749,12 +1713,6 @@ GUIComponentData.33f18610ba1b.defaultValue=Not Selected
 
 # GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
 GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
-
-# GUIComponentData.33f18611ba1a.defaultValue=Not Selected
-GUIComponentData.33f18611ba1a.defaultValue=Not Selected
-
-# GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
-GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
 
 # GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
 GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
