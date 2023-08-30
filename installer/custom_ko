@@ -40,18 +40,6 @@ ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$N
 # ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 
-# ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
-ASCIIFileManipulator.33eadf16ba17.additionalText=InstallDirectoryNX12.0Series=$NXPATH$\n\n
-
-# ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
-ASCIIFileManipulator.33f499a1ba1c.additionalText=InstallDirectorySC3D12.0Series=$NXPATH$
-
-# ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
-ASCIIFileManipulator.33f530eaba1c.additionalText=InstallDirectorySC3D2019.1Series=$NXPATH$
-
-# ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
-ASCIIFileManipulator.33f54647ba1c.additionalText=InstallDirectoryNX1847Series=$NXPATH$
-
 # ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
 ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
 
@@ -100,8 +88,8 @@ ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$N
 # ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 
-# ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
-ASCIIFileManipulator.7bb72e2999c6.additionalText=ProductExcellenceProgram=$PEP_ENABLED$\n\n
+# ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
+ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
@@ -346,8 +334,8 @@ CreateShortcut.946795c9ade2.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP
 # CreateShortcut.946795c9ade2.workingDir=
 CreateShortcut.946795c9ade2.workingDir=
 
-# CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d61b24aac76.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9d61b24aac76.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9d61b24aac76.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -355,8 +343,8 @@ CreateShortcut.9d61b24aac76.destinationName=릴리스 노트 _REL_PRESENTATION_V
 # CreateShortcut.9d61b24aac76.workingDir=
 CreateShortcut.9d61b24aac76.workingDir=
 
-# CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9d83036eb16c.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9d83036eb16c.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9d83036eb16c.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9d83036eb16c.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -382,8 +370,8 @@ CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP
 # CreateShortcut.9ed06f718a8a.workingDir=
 CreateShortcut.9ed06f718a8a.workingDir=
 
-# CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed750578a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed750578a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed750578a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -391,8 +379,8 @@ CreateShortcut.9ed750578a8a.destinationName=릴리스 노트 _REL_PRESENTATION_V
 # CreateShortcut.9ed750578a8a.workingDir=
 CreateShortcut.9ed750578a8a.workingDir=
 
-# CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed7805c8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed7805c8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed7805c8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed7805c8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed7805c8a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -400,8 +388,8 @@ CreateShortcut.9ed7805c8a8a.destinationName=릴리스 노트 _REL_PRESENTATION_V
 # CreateShortcut.9ed7805c8a8a.workingDir=
 CreateShortcut.9ed7805c8a8a.workingDir=
 
-# CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed79bb88a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_zh/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed79bb88a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed79bb88a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed79bb88a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed79bb88a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -409,8 +397,8 @@ CreateShortcut.9ed79bb88a8a.destinationName=릴리스 노트 _REL_PRESENTATION_V
 # CreateShortcut.9ed79bb88a8a.workingDir=
 CreateShortcut.9ed79bb88a8a.workingDir=
 
-# CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
-CreateShortcut.9ed7b4ce8a8a.args=$ONLINE_DOC_ROOT_URL$/starccmplus_$ONLINE_DOC_VERSION$_$DOC_LANGUAGE$/wwhelp/wwhimpl/api.htm?context=RELEASENOTES&topic=releaseNotesTop
+# CreateShortcut.9ed7b4ce8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
+CreateShortcut.9ed7b4ce8a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 
 # CreateShortcut.9ed7b4ce8a8a.destinationName=Release Notes _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed7b4ce8a8a.destinationName=릴리스 노트 _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
@@ -602,7 +590,7 @@ CreateShortcut.eba4b7c1a520.workingDir=
 CustomAction.6e63a0d1af3d.dialogLabel=사용자 정의 코드를 실행합니다...
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=축하합니다.\n￼\n￼￼ $INSTALLER_TITLE$ 소프트웨어 ￼설치 $WINDOWS_TYPE$가 성공적으로 이뤄졌습니다. 기본 설치를 수행한 경우, 본 설치 도구를 종료하면 바탕화면에 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 소프트웨어 시작용 바로가기가 생성됩니다. 추가 지원이 필요하시면 현지 지원팀에 문의하십시오.  _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n￼\n￼\"완료\"를 눌러 설치 프로그램을 종료하십시오.
+DisplayMessage.731d4085b4cc.message=축하합니다.\n\n$INSTALLER_TITLE$ 소프트웨어 $WINDOWS_TYPE$의 설치가 완료되었습니다. 기본 설치를 수행한 경우, 본 설치 도구를 종료하면 바탕화면에 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 소프트웨어 시작용 바로가기가 생성됩니다. 추가 지원이 필요하시면 현지 지원팀에 문의하십시오.  _COMPANY_NAME_ _BUSINESS_UNIT_ Inc.를 CAE 제공업체로 선택해 주셔서 감사합니다.\n\n\"완료\"를 눌러 설치 프로그램을 종료하십시오.
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=설치 완료
@@ -913,9 +901,6 @@ ExecuteScript.4834719b95fe.title=_CADC_STAR_INVENTOR_-ALL 추출
 # ExecuteScript.483683ac9bbb.title=extract _CADC_STAR_CREO_-4
 ExecuteScript.483683ac9bbb.title=_CADC_STAR_CREO_-4 추출
 
-# ExecuteScript.4838bdf3a1ec.title=extract _CADC_STAR_NX_-12
-ExecuteScript.4838bdf3a1ec.title=_CADC_STAR_NX_-12 추출
-
 # ExecuteScript.483cf16eafe3.title=extract _CADC_STAR_CAT5_-29
 ExecuteScript.483cf16eafe3.title=_CADC_STAR_CAT5_-29 추출
 
@@ -1035,9 +1020,6 @@ ExecuteScript.7d08ee059041.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _PVI
 
 # ExecuteScript.7f8ca8528268.title=extract _CADC_STAR_CAT5_-31
 ExecuteScript.7f8ca8528268.title=_CADC_STAR_CAT5_-31 추출
-
-# ExecuteScript.80940cd987b6.title=extract _CADC_STAR_NX_-1847
-ExecuteScript.80940cd987b6.title=_CADC_STAR_NX_-1847 추출
 
 # ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
 ExecuteScript.8134e3c18f85.title=verifypermissions을 실행해 _RT_JOB_MANAGER_ 업그레이드
@@ -1402,8 +1384,8 @@ GetUserInput.8209d5e08fc6.prompt=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 설�
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=추가 작업 선택
 
-# GetUserInput.856fd80c8c32.prompt=Users of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=_RT_JOB_MANAGER_ 사용자는 운영 체제에 계정이 있어야 합니다. _RT_JOB_MANAGER_에서는 자체 데이터베이스에 저장된 사용자 암호를 사용해 자체 인증하거나 운영 체제에 인증을 위임할 수 있습니다. \n\n어떤 방법을 사용하시겠습니까?
+# GetUserInput.856fd80c8c32.prompt=Job Manager installer has been deprecated starting in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310 and is planned to be removed in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402. Please contact your Simcenter customer support representative for further information.\n\nUsers of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
+GetUserInput.856fd80c8c32.prompt=Job Manager 설치 관리자는 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310부터 더 이상 사용되지 않으며 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402에서 제거될 계획입니다. 자세한 내용은 Simcenter 고객 지원 담당자에게 문의하십시오.\n\n_RT_JOB_MANAGER_의 사용자는 운영 체제에 계정이 있어야 합니다. _RT_JOB_MANAGER_는 자체 데이터베이스에 저장된 사용자 암호를 사용하여 인증하거나, 운영 체제에 인증을 위임할 수 있습니다.\n\n어떤 방법을 사용하시겠습니까?
 
 # GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
 GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_NX_ 구성
@@ -1696,12 +1678,6 @@ GUIComponentData.329ad497800d.defaultValue=
 # GUIComponentData.329ad497800d.label=Install Path
 GUIComponentData.329ad497800d.label=설치 경로
 
-# GUIComponentData.33f07db4ba18.defaultValue=Not Selected
-GUIComponentData.33f07db4ba18.defaultValue=Not Selected
-
-# GUIComponentData.33f07db4ba18.label=NX 12
-GUIComponentData.33f07db4ba18.label=NX 12
-
 # GUIComponentData.33f07db4ba19.defaultValue=Not Selected
 GUIComponentData.33f07db4ba19.defaultValue=Not Selected
 
@@ -1720,18 +1696,6 @@ GUIComponentData.33f07db5ba19.defaultValue=Not Selected
 # GUIComponentData.33f07db5ba19.label=NX 1899 series
 GUIComponentData.33f07db5ba19.label=NX 1899 시리즈
 
-# GUIComponentData.33f07db6ba18.defaultValue=Not Selected
-GUIComponentData.33f07db6ba18.defaultValue=Not Selected
-
-# GUIComponentData.33f07db6ba18.label=NX 1847 series
-GUIComponentData.33f07db6ba18.label=NX 1847 시리즈
-
-# GUIComponentData.33f1860fba1a.defaultValue=Not Selected
-GUIComponentData.33f1860fba1a.defaultValue=Not Selected
-
-# GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
-GUIComponentData.33f1860fba1a.label=Simcenter 3D 12
-
 # GUIComponentData.33f1860fba1b.defaultValue=Not Selected
 GUIComponentData.33f1860fba1b.defaultValue=Not Selected
 
@@ -1749,12 +1713,6 @@ GUIComponentData.33f18610ba1b.defaultValue=Not Selected
 
 # GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
 GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
-
-# GUIComponentData.33f18611ba1a.defaultValue=Not Selected
-GUIComponentData.33f18611ba1a.defaultValue=Not Selected
-
-# GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
-GUIComponentData.33f18611ba1a.label=Simcenter 3D 2019.1
 
 # GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
 GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
