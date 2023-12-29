@@ -29,5 +29,5 @@
     "terminateJobMessage": "终止 {0}",
     "simJobMessage": "{0}（模拟）",
     "dmJobMessage": "{0}（设计管理器项目）",
-    "monitorJobMessage": "监控器 "
+    "monitorJobMessage": "监视器"
 }
