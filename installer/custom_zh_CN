@@ -40,18 +40,6 @@ ASCIIFileManipulator.2dbb757e8cc2.additionalText=InstallDirectoryNX2206Series=$N
 # ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 ASCIIFileManipulator.2dbb938c8cc4.additionalText=InstallDirectorySC3D2206Series=$NXPATH$
 
-# ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
-ASCIIFileManipulator.33f7612bbcdd.additionalText=InstallDirectoryNX1872Series=$NXPATH$
-
-# ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NXPATH$
-ASCIIFileManipulator.33f771bcbcdd.additionalText=InstallDirectorySC3D2019.2Series=$NXPATH$
-
-# ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NXPATH$
-ASCIIFileManipulator.33f94ea5bcdd.additionalText=InstallDirectoryNX1899Series=$NXPATH$
-
-# ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NXPATH$
-ASCIIFileManipulator.33f97a9fbcdd.additionalText=InstallDirectorySC3D2020.1Series=$NXPATH$
-
 # ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NXPATH$
 ASCIIFileManipulator.33facbd6bcdd.additionalText=InstallDirectorySC3D2020.2Series=$NXPATH$
 
@@ -73,6 +61,9 @@ ASCIIFileManipulator.48b2ba9eaa24.additionalText=InstallDirectorySC3D2021.2Serie
 # ASCIIFileManipulator.48e31cf08bb3.additionalText=
 ASCIIFileManipulator.48e31cf08bb3.additionalText=
 
+# ASCIIFileManipulator.48ffc0b29782.additionalText=
+ASCIIFileManipulator.48ffc0b29782.additionalText=
+
 # ASCIIFileManipulator.49b821459c81.additionalText=
 ASCIIFileManipulator.49b821459c81.additionalText=
 
@@ -91,8 +82,17 @@ ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 
+# ASCIIFileManipulator.a004e95cb309.additionalText=InstallDirectoryNX2312Series=$NXPATH$
+ASCIIFileManipulator.a004e95cb309.additionalText=InstallDirectoryNX2312Series=$NXPATH$
+
+# ASCIIFileManipulator.a00549b5b30b.additionalText=InstallDirectorySC3D2312Series=$NXPATH$
+ASCIIFileManipulator.a00549b5b30b.additionalText=InstallDirectorySC3D2312Series=$NXPATH$
+
 # ASCIIFileManipulator.c34ef1fd84f0.additionalText=
 ASCIIFileManipulator.c34ef1fd84f0.additionalText=
+
+# ASCIIFileManipulator.da294f6f86a4.additionalText=
+ASCIIFileManipulator.da294f6f86a4.additionalText=
 
 # Billboard.850018f38468.imageName=billboard_default.png
 Billboard.850018f38468.imageName=billboard_default.png
@@ -136,24 +136,6 @@ ChooseFile.e5d0a320b269.prompt=请选择许可证文件：
 # ChooseFile.e5d0a320b269.stepTitle=Select license file
 ChooseFile.e5d0a320b269.stepTitle=选择许可证文件
 
-# ChooseFolder.85678ebc8c0d.additionalText=Please locate the existing _RT_JOB_MANAGER_ instance that will act as the source for the upgrade. It can usually be found in a pre-existing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ install directory under the star/bin folder.
-ChooseFolder.85678ebc8c0d.additionalText=请找到将充当升级源的现有 _RT_JOB_MANAGER_ 实例。它通常可以在 star/bin 文件夹下的预先存在的 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 安装目录中找到。
-
-# ChooseFolder.85678ebc8c0d.defaultFile=
-ChooseFolder.85678ebc8c0d.defaultFile=
-
-# ChooseFolder.85678ebc8c0d.prompt=Please Choose a Folder:
-ChooseFolder.85678ebc8c0d.prompt=请选择文件夹：
-
-# ChooseFolder.85678ebc8c0d.stepTitle=Select existing _RT_JOB_MANAGER_ location
-ChooseFolder.85678ebc8c0d.stepTitle=选择现有 _RT_JOB_MANAGER_ 位置
-
-# CreateDialog.757df82f97fd.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.\n\n
-CreateDialog.757df82f97fd.prompt=此功能使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提供个性化用户体验，如入门培训、导览、应用内通知、电子邮件提醒等。它还使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提高其产品质量，从而更好地根据用户需求定制功能。想要了解有关数据收集和隐私的更多信息，请参见 https://www.sw.siemens.com/zh-CN/trust-center/digital-product-experience。数字化客户成功和支持体验是可选的。如果您不想使用此功能，可取消选中下方的复选框。\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ 隐私声明请参见：https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html。\n\n
-
-# CreateDialog.757df82f97fd.title=Digital Product Experience
-CreateDialog.757df82f97fd.title=数字化产品体验
-
 # CreateShortcut.1aa89e179716.args=
 CreateShortcut.1aa89e179716.args=
 
@@ -178,8 +160,8 @@ CreateShortcut.2de0b8dc9238.args=
 # CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.2de0b8dc9238.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.2de0b8dc9238.workingDir=
-CreateShortcut.2de0b8dc9238.workingDir=
+# CreateShortcut.2de0b8dc9238.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.2de0b8dc9238.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.2de4337e8b03.args=
 CreateShortcut.2de4337e8b03.args=
@@ -187,8 +169,8 @@ CreateShortcut.2de4337e8b03.args=
 # CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.2de4337e8b03.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.2de4337e8b03.workingDir=
-CreateShortcut.2de4337e8b03.workingDir=
+# CreateShortcut.2de4337e8b03.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.2de4337e8b03.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.412245f8a3db.args=
 CreateShortcut.412245f8a3db.args=
@@ -358,8 +340,8 @@ CreateShortcut.9ecf1c648a8a.args=
 # CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ecf1c648a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.9ecf1c648a8a.workingDir=
-CreateShortcut.9ecf1c648a8a.workingDir=
+# CreateShortcut.9ecf1c648a8a.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.9ecf1c648a8a.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.9ed06f718a8a.args=
 CreateShortcut.9ed06f718a8a.args=
@@ -367,8 +349,8 @@ CreateShortcut.9ed06f718a8a.args=
 # CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9ed06f718a8a.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.9ed06f718a8a.workingDir=
-CreateShortcut.9ed06f718a8a.workingDir=
+# CreateShortcut.9ed06f718a8a.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.9ed06f718a8a.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
 CreateShortcut.9ed750578a8a.args=_ONLINE_DOC_ROOT_URL_/$DOC_LANGUAGE$/_DOC_PATH_TO_FILE_
@@ -448,8 +430,8 @@ CreateShortcut.9edb511b8e74.args=
 # CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9edb511b8e74.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.9edb511b8e74.workingDir=
-CreateShortcut.9edb511b8e74.workingDir=
+# CreateShortcut.9edb511b8e74.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.9edb511b8e74.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.9eded2c68e76.args=
 CreateShortcut.9eded2c68e76.args=
@@ -457,8 +439,8 @@ CreateShortcut.9eded2c68e76.args=
 # CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.9eded2c68e76.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.9eded2c68e76.workingDir=
-CreateShortcut.9eded2c68e76.workingDir=
+# CreateShortcut.9eded2c68e76.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.9eded2c68e76.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.caa364a8a2b0.args=
 CreateShortcut.caa364a8a2b0.args=
@@ -466,8 +448,8 @@ CreateShortcut.caa364a8a2b0.args=
 # CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.caa364a8a2b0.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.caa364a8a2b0.workingDir=
-CreateShortcut.caa364a8a2b0.workingDir=
+# CreateShortcut.caa364a8a2b0.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.caa364a8a2b0.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.cb11e682a2c8.args=
 CreateShortcut.cb11e682a2c8.args=
@@ -475,8 +457,8 @@ CreateShortcut.cb11e682a2c8.args=
 # CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.cb11e682a2c8.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.cb11e682a2c8.workingDir=
-CreateShortcut.cb11e682a2c8.workingDir=
+# CreateShortcut.cb11e682a2c8.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.cb11e682a2c8.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.cce9256a9c03.args=
 CreateShortcut.cce9256a9c03.args=
@@ -502,8 +484,8 @@ CreateShortcut.cfd2e50abbfc.args=
 # CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.cfd2e50abbfc.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.cfd2e50abbfc.workingDir=
-CreateShortcut.cfd2e50abbfc.workingDir=
+# CreateShortcut.cfd2e50abbfc.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.cfd2e50abbfc.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.d138a370858c.args=
 CreateShortcut.d138a370858c.args=
@@ -511,8 +493,8 @@ CreateShortcut.d138a370858c.args=
 # CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 CreateShortcut.d138a370858c.destinationName=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _REL_PRESENTATION_VERSION_ ($STARCCMPLUS_VERSION$)
 
-# CreateShortcut.d138a370858c.workingDir=
-CreateShortcut.d138a370858c.workingDir=
+# CreateShortcut.d138a370858c.workingDir=%HOMEDRIVE%%HOMEPATH%
+CreateShortcut.d138a370858c.workingDir=%HOMEDRIVE%%HOMEPATH%
 
 # CreateShortcut.d5cf21bb9aa3.args=
 CreateShortcut.d5cf21bb9aa3.args=
@@ -664,14 +646,11 @@ EditEnvironment.ec53fa87a91b.value=$SALT_LICENSE_FILE$
 # EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 EditEnvironment.ec53fa87a91c.value=$SALT_LICENSE_FILE$
 
-# EntryAtomBiDi.b4594866b5d9.label=Participate in the Digital Product Experience
-EntryAtomBiDi.b4594866b5d9.label=参与数字化产品体验
+# EntryAtomNonBiDi.815f4aa98302.defaultValue=
+EntryAtomNonBiDi.815f4aa98302.defaultValue=
 
-# EntryAtomNonBiDi.b6ad371db59c.defaultValue=$DIGITALPRODUCTEXPERIENCE$
-EntryAtomNonBiDi.b6ad371db59c.defaultValue=$DIGITALPRODUCTEXPERIENCE$
-
-# EntryAtomNonBiDi.b6ad371db59c.label=Participate in the Digital Product Experience? (Y/N)
-EntryAtomNonBiDi.b6ad371db59c.label=参与数字化产品体验？(Y/N)
+# EntryAtomNonBiDi.815f4aa98302.label=Participate in the Product Excellence Program? (Y/N)
+EntryAtomNonBiDi.815f4aa98302.label=参加产品创优计划？（是/否）
 
 # Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.18b37afd926a.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B29$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
@@ -712,12 +691,6 @@ Exec.fd261c999d36.dialogLabel=正在卸载远程启动服务...
 # Exec.fd261c999d36.title=Unregister Intel MPI
 Exec.fd261c999d36.title=注销 Intel MPI
 
-# ExecuteScript.00c21a869971.title=To check if the hostname is valid
-ExecuteScript.00c21a869971.title=检查主机名是否有效
-
-# ExecuteScript.00cab266a1e7.title=To check if SMTP server address is valid
-ExecuteScript.00cab266a1e7.title=检查 SMTP 服务器地址是否有效
-
 # ExecuteScript.01c8cd6d9a52.title=Update win7+ fw
 ExecuteScript.01c8cd6d9a52.title=更新 win7+ fw
 
@@ -729,6 +702,9 @@ ExecuteScript.0488ae86a57c.title=正在更改 Linux 中文件的权限
 
 # ExecuteScript.0489de5aa5bd.title=Changing permission of files in Windows
 ExecuteScript.0489de5aa5bd.title=正在更改 Windows 中文件的权限
+
+# ExecuteScript.090d8a2cb0a2.title=extract _CADC_STAR_NX_-2312
+ExecuteScript.090d8a2cb0a2.title=提取 _CADC_STAR_NX_-2312
 
 # ExecuteScript.0be7f1eca3d1.title=Checking server 1 cdlmd version
 ExecuteScript.0be7f1eca3d1.title=正在检查 server 1 cdlmd 版本
@@ -892,9 +868,6 @@ ExecuteScript.3a1c9ff4becd.title=由于升级失败而恢复上一个许可证�
 # ExecuteScript.3b6e9ae9bdfb.title=Checking for running Windows lmadmin
 ExecuteScript.3b6e9ae9bdfb.title=正在检查运行中的 Windows lmadmin
 
-# ExecuteScript.3fc1bbc9835b.title=extract _CADC_STAR_NX_1872
-ExecuteScript.3fc1bbc9835b.title=提取 _CADC_STAR_NX_1872
-
 # ExecuteScript.4834719b95fe.title=extract _CADC_STAR_INVENTOR_-ALL
 ExecuteScript.4834719b95fe.title=提取 _CADC_STAR_INVENTOR_-ALL
 
@@ -991,9 +964,6 @@ ExecuteScript.6636beadb7fa.title=删除 sce 文件关联注册表项
 # ExecuteScript.663c75ffb7fa.title=Deleting the sce file association registry keys
 ExecuteScript.663c75ffb7fa.title=删除 sce 文件关联注册表项
 
-# ExecuteScript.6879117bb0d1.title=Running verifypermissions to install service
-ExecuteScript.6879117bb0d1.title=正在运行 verifypermissions 以安装服务
-
 # ExecuteScript.699c2366be5e.title=Remove current license server to perform upgrade
 ExecuteScript.699c2366be5e.title=移除当前许可证服务器以执行升级
 
@@ -1021,26 +991,11 @@ ExecuteScript.7d08ee059041.title=提取 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAM
 # ExecuteScript.7f8ca8528268.title=extract _CADC_STAR_CAT5_-31
 ExecuteScript.7f8ca8528268.title=提取 _CADC_STAR_CAT5_-31
 
-# ExecuteScript.8134e3c18f85.title=Running verifypermissions to upgrade _RT_JOB_MANAGER_
-ExecuteScript.8134e3c18f85.title=正在运行 verifypermissions 以升级 _RT_JOB_MANAGER_
-
 # ExecuteScript.82f2d07fb6b7.title=Delete All Users Start Menu 64 bit Shortcut
 ExecuteScript.82f2d07fb6b7.title=删除所有用户开始菜单的 64 位快捷方式
 
 # ExecuteScript.82f33f5db6b7.title=Delete All Users Start Menu 64 bit Shortcut
 ExecuteScript.82f33f5db6b7.title=删除所有用户开始菜单的 64 位快捷方式
-
-# ExecuteScript.854c9db7b5ab.title=internal authentication
-ExecuteScript.854c9db7b5ab.title=内部身份验证
-
-# ExecuteScript.854f0fd0b645.title=OS authentication
-ExecuteScript.854f0fd0b645.title=OS 身份验证
-
-# ExecuteScript.854f8a30b6da.title=upgrade
-ExecuteScript.854f8a30b6da.title=升级
-
-# ExecuteScript.8572fc4196af.title=get hostname
-ExecuteScript.8572fc4196af.title=获取主机名
 
 # ExecuteScript.9469fbb0ba58.title=Refresh Desktop
 ExecuteScript.9469fbb0ba58.title=刷新桌面
@@ -1051,17 +1006,8 @@ ExecuteScript.946b6329bb04.title=刷新桌面
 # ExecuteScript.946b87d1bb54.title=Refresh Desktop
 ExecuteScript.946b87d1bb54.title=刷新桌面
 
-# ExecuteScript.9737cae9ae4d.title=Uninstall _RT_JOB_MANAGER_
-ExecuteScript.9737cae9ae4d.title=卸载 _RT_JOB_MANAGER_
-
 # ExecuteScript.99c16c1895f6.title=extract _CADC_STAR_CREO_-7
 ExecuteScript.99c16c1895f6.title=提取 _CADC_STAR_CREO_-7
-
-# ExecuteScript.9c4626dc93c4.title=internal authentication with email server
-ExecuteScript.9c4626dc93c4.title=使用电子邮件服务器进行内部身份验证
-
-# ExecuteScript.9c47e5cf9937.title=OS authentication with email server
-ExecuteScript.9c47e5cf9937.title=使用电子邮件服务器进行 OS 身份验证
 
 # ExecuteScript.9d02213eb948.title=Verify access to $USER_INSTALL_DIR$
 ExecuteScript.9d02213eb948.title=验证对 $USER_INSTALL_DIR$ 的访问权限
@@ -1128,18 +1074,6 @@ ExecuteScript.a9b1812d9552.title=正在注册 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 
 # ExecuteScript.aa563306a4fb.title=extract _CADC_STAR_NX_-1926
 ExecuteScript.aa563306a4fb.title=提取 _CADC_STAR_NX_-1926
-
-# ExecuteScript.ac73774487e9.title=Linux service with internal authentication with email server
-ExecuteScript.ac73774487e9.title=使用电子邮件服务器进行内部身份验证的 Linux 服务
-
-# ExecuteScript.ae41049487fc.title=Linux service with internal authentication
-ExecuteScript.ae41049487fc.title=具有内部身份验证的 Linux 服务
-
-# ExecuteScript.b134d9c594d7.title=Linux service with OS authentication with email server
-ExecuteScript.b134d9c594d7.title=使用电子邮件服务器进行 OS 身份验证的 Linux 服务
-
-# ExecuteScript.b13aba5c9824.title=Linux service with OS authentication
-ExecuteScript.b13aba5c9824.title=具有 OS 身份验证的 Linux 服务
 
 # ExecuteScript.b4cb727a9721.title=parse .flexlmrc
 ExecuteScript.b4cb727a9721.title=解析 .flexlmrc
@@ -1282,12 +1216,6 @@ GetUserInput.09531f37b189.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.09531f37b189.title=Select Additional Tasks
 GetUserInput.09531f37b189.title=选择更多任务
 
-# GetUserInput.0be5edeba5c1.prompt=The database file is used by the _RT_JOB_MANAGER_'s administrator to store data such as system templates and user authentication data (when required).\n\nPlease enter the name of the database file you wish to create:\n\n
-GetUserInput.0be5edeba5c1.prompt=_RT_JOB_MANAGER_ 的管理员根据需要使用数据库文件来存储系统模板和用户认证数据等数据。\n\n请输入您希望创建的数据库文件的名称：\n\n
-
-# GetUserInput.0be5edeba5c1.title=Create database file
-GetUserInput.0be5edeba5c1.title=创建数据库文件
-
 # GetUserInput.115461c2a278.prompt=To access the license server software, communication channels, or ports, are required to be made available on your computer. The default port number for the FLEXNet license server is 1999. These defaults are listed below, but can be changed to other port numbers to reflect your computer set-up, if required.
 GetUserInput.115461c2a278.prompt=要访问许可证服务器软件，您的电脑上要有可用的通信通道或端口。FLEXNet 许可证服务器的默认端口号是 1999。这些默认值如下所列，但可根据需要更改为与您的电脑设置相对应的其他端口号。
 
@@ -1372,65 +1300,17 @@ GetUserInput.61df1e08b39a.prompt=您现在可以设置许可证管理器服务�
 # GetUserInput.61df1e08b39a.title=Service Configuration 
 GetUserInput.61df1e08b39a.title=服务配置
 
-# GetUserInput.687423f6b0cd.prompt=Please specify the user account the Linux service should run under\n\n
-GetUserInput.687423f6b0cd.prompt=请指定应该运行 Linux 服务的用户账户\n\n
+# GetUserInput.815f4aaa82fc.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_ collects information about the use of our offerings by its users. This information helps us to improve our product features and functionality to better meet our customers' needs.\nAll data collected under the Product Excellence Program will be aggregated and pseudonymized. No intellectual property information is collected or sent. Product performance is not affected.\nThe details regarding the types of data and the third parties engaged are described in the Siemens Trust Center (https://www.sw.siemens.com/en-US/trust-center/product-excellence-program/).\nPlease click on \"AGREE\" to consent to _COMPANY_NAME_ _BUSINESS_UNIT_ data collection under the Product Excellence Program in order to support us to improve our offerings.\n\nYou can also stop any data processing under the Product Excellence Program by withdrawing your consent:\n- for Simcenter STAR-CCM+ in the \"sitesettings.props\" file, which can be found in your installation folder in the \"star\\config\" folder\n- for Simcenter STAR-CCM+ Virtual Reality and Simcenter STAR-CCM+ Viewer in the \"StarviewSiteSettings.props\" file, which can be found in your installation folder in the \"bin\\config\" folder.
+GetUserInput.815f4aaa82fc.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_ 收集有关用户使用我们产品的信息。这些信息有助于我们改进产品特征和功能，从而更好地满足客户需求。根据产品创优计划收集的所有数据都将进行汇总和假名化。我们不会收集或发送任何知识产权信息。产品性能不受影响。有关数据类型和参与的第三方的详细信息，请参见 Siemens 信任中心 (https://www.sw.siemens.com/zh-CN/trust-center/product-excellence-program/)。请点击“同意”以同意 _COMPANY_NAME_ _BUSINESS_UNIT_ 根据产品创优计划收集数据，以支持我们改进产品。\n也可以通过撤回同意来停止根据产品创新计划处理任何数据：\n- 对于 Simcenter STAR-CCM+，在 \"sitesettings.props\" 文件中撤回，该文件位于安装文件夹的 \"star\\config\" 文件夹中\n- 对于 Simcenter STAR-CCM+ 虚拟现实和 Simcenter STAR-CCM+ 查看器，在 \"StarviewSiteSettings.props\" 文件中撤回，该文件位于安装文件夹的 \"bin\\config\" 文件夹中。
 
-# GetUserInput.687423f6b0cd.title=Linux service
-GetUserInput.687423f6b0cd.title=Linux 服务
+# GetUserInput.815f4aaa82fc.title=Product Excellence Program
+GetUserInput.815f4aaa82fc.title=产品创优计划
 
 # GetUserInput.8209d5e08fc6.prompt=Select the additional tasks you would like Setup to perform while installing _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_.
 GetUserInput.8209d5e08fc6.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 时希望安装程序执行的更多任务。
 
 # GetUserInput.8209d5e08fc6.title=Select Additional Tasks
 GetUserInput.8209d5e08fc6.title=选择更多任务
-
-# GetUserInput.856fd80c8c32.prompt=Job Manager installer has been deprecated starting in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310 and is planned to be removed in _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402. Please contact your Simcenter customer support representative for further information.\n\nUsers of _RT_JOB_MANAGER_ must have an account on the operating system. _RT_JOB_MANAGER_ is able to authenticate itself using passwords stored for the users in its own database, or it can delegate authentication to the operating system.\n\nWhich method would you like to use?
-GetUserInput.856fd80c8c32.prompt=作业管理器安装程序从 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2310 中开始弃用，计划在 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 2402 中移除，有关详细信息，请联系 Simcenter 客户支持代表。\n\n_RT_JOB_MANAGER_ 的用户必须在操作系统上拥有帐户。_RT_JOB_MANAGER_ 能够使用储存在自身数据库中的用户密码进行身份验证，也可以将身份验证委派给操作系统。\n\n您想使用哪种方法？
-
-# GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _RT_JOB_MANAGER_ Configuration
-GetUserInput.856fd80c8c32.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 配置
-
-# GetUserInput.8575cd2c96c8.prompt=Please enter information about where the _RT_JOB_MANAGER_ will be running.\n\nThe hostname needs to be resolvable on any client that expects to connect to the _RT_JOB_MANAGER_.\n\n
-GetUserInput.8575cd2c96c8.prompt=请输入有关 _RT_JOB_MANAGER_ 将在哪里运行的信息。\n\n在任何要连接到 _RT_JOB_MANAGER_ 的客户端上，主机名必须是可解析的。\n\n
-
-# GetUserInput.8575cd2c96c8.title=Server selection
-GetUserInput.8575cd2c96c8.title=服务器选择
-
-# GetUserInput.85775f8d96d5.prompt=Please enter the Login Node and the Resource Group Name
-GetUserInput.85775f8d96d5.prompt=请输入登录节点和资源组名称
-
-# GetUserInput.85775f8d96d5.title=Login Node Name
-GetUserInput.85775f8d96d5.title=登录节点名称
-
-# GetUserInput.8578411b96e0.prompt=To ensure data (including user's passwords) sent between Design Manager and _RT_JOB_MANAGER_ is encrypted, it is necessary to install a SSL Certificate with _RT_JOB_MANAGER_. When the certificate is signed by a trusted Certificate Authority, clients can also verify the identity of the _RT_JOB_MANAGER_ server.\nIt is strongly recommended that _RT_JOB_MANAGER_ is installed with a SSL Certificate to maximize security.
-GetUserInput.8578411b96e0.prompt=为了确保设计管理器和 _RT_JOB_MANAGER_ 之间发送的数据（包括用户密码）加密，有必要在 _RT_JOB_MANAGER_ 中安装 SSL 证书。当该证书由受信任的证书颁发机构签署，客户端还可以验证 _RT_JOB_MANAGER_ 服务器的身份。\n强烈建议在 _RT_JOB_MANAGER_ 中安装 SSL 证书，以最大程度地保证安全性。
-
-# GetUserInput.8578411b96e0.title=SSL certificate selection
-GetUserInput.8578411b96e0.title=SSL 证书选择
-
-# GetUserInput.8fe4e9e8b4a1.prompt=Please enter the user name of the account that will administer _RT_JOB_MANAGER_:
-GetUserInput.8fe4e9e8b4a1.prompt=请输入将用于管理 _RT_JOB_MANAGER_ 的帐户的用户名：
-
-# GetUserInput.8fe4e9e8b4a1.title=Admin user name
-GetUserInput.8fe4e9e8b4a1.title=管理员用户名
-
-# GetUserInput.9737389d8c0f.prompt=Do you want to uninstall the _RT_JOB_MANAGER_? This will also delete your database file which contains all the configuration settings, and once removed this cannot be recovered.
-GetUserInput.9737389d8c0f.prompt=要卸载 _RT_JOB_MANAGER_ 吗？这还会移除包含所有配置设置的数据库文件，且一旦移除，将无法恢复。
-
-# GetUserInput.9737389d8c0f.title=Uninstall _RT_JOB_MANAGER_
-GetUserInput.9737389d8c0f.title=卸载 _RT_JOB_MANAGER_
-
-# GetUserInput.9c427d388ef4.prompt=Please configure the outgoing email settings used to send the notifications and password reset messages\n\n\n
-GetUserInput.9c427d388ef4.prompt=请配置用于发送通知和密码重置消息的传出电子邮件设置\n\n\n
-
-# GetUserInput.9c427d388ef4.title=Email specification
-GetUserInput.9c427d388ef4.title=电子邮件指定
-
-# GetUserInput.9c455b20b168.prompt=Please select the port number for the SMTP connection.\n\nYou should change the port number if TLS is enabled\n\n
-GetUserInput.9c455b20b168.prompt=请选择 SMTP 连接的端口号。\n\n如果已启用 TLS，则您应更改该端口号\n\n
-
-# GetUserInput.9c455b20b168.title=SMTP port number
-GetUserInput.9c455b20b168.title=SMTP 端口号
 
 # GetUserInput.a15d24e18d56.prompt=Please enter the TCP/IP port and Hostname of the _COMPANY_NAME_ license server using the format: \"port@host\".\n\nNormally only one license server is used. If you have additional license servers, please fill in the optional fields. If you wish to set up a three machine redundant license server, please make the appropriate selection.
 GetUserInput.a15d24e18d56.prompt=请输入 TCP/IP 端口和 _COMPANY_NAME_ 许可证服务器主机名，格式为 \"port@host\"。\n\n通常只使用一个许可证服务器。如果您有其他许可证服务器，请填入可选字段。如果要设置三机冗余许可证服务器，请进行相应的选择。
@@ -1516,17 +1396,11 @@ GetUserInput.fbd51d65bcc1.prompt=选择安装 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_A
 # GetUserInput.fbd51d65bcc1.title=Select Additional Tasks
 GetUserInput.fbd51d65bcc1.title=选择更多任务
 
-# GetUserInputConsole.757df82f97fe.prompt=This feature allows _COMPANY_NAME_ _BUSINESS_UNIT_ to provide a personalized user experience, such as getting started training, guided tours, in-app notifications, email reminders, and more. It also allows _COMPANY_NAME_ _BUSINESS_UNIT_ to improve the quality of its offerings to better tailor the functionality to users' needs. Learn more about data collection and privacy at https://www.sw.siemens.com/en-US/trust-center/digital-product-experience. The Digital Product Experience is optional. If you do not wish to use this feature, uncheck below.\n\nThe _COMPANY_NAME_ _BUSINESS_UNIT_ Privacy Notice may be found here: https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html.
-GetUserInputConsole.757df82f97fe.prompt=此功能使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提供个性化用户体验，如入门培训、导览、应用内通知、电子邮件提醒等。它还使 _COMPANY_NAME_ _BUSINESS_UNIT_ 能够提高其产品质量，从而更好地根据用户需求定制功能。想要了解有关数据收集和隐私的更多信息，请参见 https://www.sw.siemens.com/zh-CN/trust-center/digital-product-experience。数字化客户成功和支持体验是可选的。如果您不想使用此功能，可取消选中下方的复选框。\n\n_COMPANY_NAME_ _BUSINESS_UNIT_ 隐私声明请参见：https://www.plm.automation.siemens.com/global/en/legal/privacy-policy.html。\n
+# GetUserInputConsole.815f4aa98301.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_ collects information about the use of our offerings by its users. This information helps us to improve our product features and functionality to better meet our customers' needs.\nAll data collected under the Product Excellence Program will be aggregated and pseudonymized. No intellectual property information is collected or sent. Product performance is not affected.\nThe details regarding the types of data and the third parties engaged are described in the Siemens Trust Center (https://www.sw.siemens.com/en-US/trust-center/product-excellence-program/).\nPlease choose yes to \"AGREE\" to consent to _COMPANY_NAME_ _BUSINESS_UNIT_ data collection under the Product Excellence Program in order to support us to improve our offerings.\n\nYou can also stop any data processing under the Product Excellence Program by withdrawing your consent:\n- for Simcenter STAR-CCM+ in the \"sitesettings.props\" file, which can be found in your installation folder in the \"star\\config\" folder\n- for Simcenter STAR-CCM+ Virtual Reality and Simcenter STAR-CCM+ Viewer in the \"StarviewSiteSettings.props\" file, which can be found in your installation folder in the \"bin\\config\" folder.
+GetUserInputConsole.815f4aa98301.prompt=_COMPANY_NAME_ _BUSINESS_UNIT_ 收集有关用户使用我们产品的信息。这些信息有助于我们改进产品特征和功能，从而更好地满足客户需求。根据产品创优计划收集的所有数据都将进行汇总和假名化。我们不会收集或发送任何知识产权信息。产品性能不受影响。有关数据类型和参与的第三方的详细信息，请参见 Siemens 信任中心 (https://www.sw.siemens.com/zh-CN/trust-center/product-excellence-program/)。请选择“同意”以同意 _COMPANY_NAME_ _BUSINESS_UNIT_ 根据产品创优计划收集数据，以支持我们改进产品。\n也可以通过撤回同意来停止根据产品创新计划处理任何数据：\n- 对于 Simcenter STAR-CCM+，在 \"sitesettings.props\" 文件中撤回，该文件位于安装文件夹的 \"star\\config\" 文件夹中\n- 对于 Simcenter STAR-CCM+ 虚拟现实和 Simcenter STAR-CCM+ 查看器，在 \"StarviewSiteSettings.props\" 文件中撤回，该文件位于安装文件夹的 \"bin\\config\" 文件夹中。
 
-# GetUserInputConsole.757df82f97fe.title=Digital Product Experience
-GetUserInputConsole.757df82f97fe.title=数字化产品体验
-
-# GUIComponentData.0253755dac41.defaultValue=$HOST$
-GUIComponentData.0253755dac41.defaultValue=$HOST$
-
-# GUIComponentData.0253755dac41.label=Internal hostname
-GUIComponentData.0253755dac41.label=内部主机名
+# GetUserInputConsole.815f4aa98301.title=Product Excellence Program
+GetUserInputConsole.815f4aa98301.title=产品创优计划
 
 # GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
 GUIComponentData.07762bd5ba9c.defaultValue=Not Selected
@@ -1539,18 +1413,6 @@ GUIComponentData.07762bd6ba9b.defaultValue=Not Selected
 
 # GUIComponentData.07762bd6ba9b.label=Create a desktop icon
 GUIComponentData.07762bd6ba9b.label=创建桌面图标
-
-# GUIComponentData.07ff15fd855d.defaultValue=Selected
-GUIComponentData.07ff15fd855d.defaultValue=Selected
-
-# GUIComponentData.07ff15fd855d.label=Yes
-GUIComponentData.07ff15fd855d.label=是
-
-# GUIComponentData.07ff15fe855d.defaultValue=Not Selected
-GUIComponentData.07ff15fe855d.defaultValue=Not Selected
-
-# GUIComponentData.07ff15fe855d.label=No
-GUIComponentData.07ff15fe855d.label=否
 
 # GUIComponentData.09531f37b18f.defaultValue=Selected
 GUIComponentData.09531f37b18f.defaultValue=Selected
@@ -1569,12 +1431,6 @@ GUIComponentData.09531f47b18f.defaultValue=Not Selected
 
 # GUIComponentData.09531f47b18f.label=Create shortcuts for current user only
 GUIComponentData.09531f47b18f.label=仅为当前用户创建快捷方式
-
-# GUIComponentData.0be5edeca5c5.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
-GUIComponentData.0be5edeca5c5.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
-
-# GUIComponentData.0be5edeca5c5.label=Database file
-GUIComponentData.0be5edeca5c5.label=数据库文件
 
 # GUIComponentData.115643e1a39b.defaultValue=
 GUIComponentData.115643e1a39b.defaultValue=
@@ -1666,23 +1522,11 @@ GUIComponentData.2d93e396871c.defaultValue=Not Selected
 # GUIComponentData.2d93e396871c.label=NX 2206 series
 GUIComponentData.2d93e396871c.label=NX 2206 系列
 
-# GUIComponentData.314a9fd58722.defaultValue=8086
-GUIComponentData.314a9fd58722.defaultValue=8086
-
-# GUIComponentData.314a9fd58722.label=Application Server (Web Monitor) Port Number
-GUIComponentData.314a9fd58722.label=应用程序服务器（Web 监视器）端口号
-
 # GUIComponentData.329ad497800d.defaultValue=
 GUIComponentData.329ad497800d.defaultValue=
 
 # GUIComponentData.329ad497800d.label=Install Path
 GUIComponentData.329ad497800d.label=安装路径
-
-# GUIComponentData.33f07db4ba19.defaultValue=Not Selected
-GUIComponentData.33f07db4ba19.defaultValue=Not Selected
-
-# GUIComponentData.33f07db4ba19.label=NX 1872 series
-GUIComponentData.33f07db4ba19.label=NX 1872 系列
 
 # GUIComponentData.33f07db4ba1a.defaultValue=Not Selected
 GUIComponentData.33f07db4ba1a.defaultValue=Not Selected
@@ -1690,29 +1534,11 @@ GUIComponentData.33f07db4ba1a.defaultValue=Not Selected
 # GUIComponentData.33f07db4ba1a.label=NX 1926 series
 GUIComponentData.33f07db4ba1a.label=NX 1926 系列
 
-# GUIComponentData.33f07db5ba19.defaultValue=Not Selected
-GUIComponentData.33f07db5ba19.defaultValue=Not Selected
-
-# GUIComponentData.33f07db5ba19.label=NX 1899 series
-GUIComponentData.33f07db5ba19.label=NX 1899 系列
-
-# GUIComponentData.33f1860fba1b.defaultValue=Not Selected
-GUIComponentData.33f1860fba1b.defaultValue=Not Selected
-
-# GUIComponentData.33f1860fba1b.label=Simcenter 3D 2019.2
-GUIComponentData.33f1860fba1b.label=Simcenter 3D 2019.2
-
 # GUIComponentData.33f1860fba1c.defaultValue=Not Selected
 GUIComponentData.33f1860fba1c.defaultValue=Not Selected
 
 # GUIComponentData.33f1860fba1c.label=Simcenter 3D 2020.2
 GUIComponentData.33f1860fba1c.label=Simcenter 3D 2020.2
-
-# GUIComponentData.33f18610ba1b.defaultValue=Not Selected
-GUIComponentData.33f18610ba1b.defaultValue=Not Selected
-
-# GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
-GUIComponentData.33f18610ba1b.label=Simcenter 3D 2020.1
 
 # GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
 GUIComponentData.3435bd21b9e3.defaultValue=Not Selected
@@ -1906,30 +1732,6 @@ GUIComponentData.65d07a0498ce.defaultValue=Selected
 # GUIComponentData.65d07a0498ce.label=Start license server now 
 GUIComponentData.65d07a0498ce.label=立即启动许可证服务器
 
-# GUIComponentData.687002f7b0cb.defaultValue=Not Selected
-GUIComponentData.687002f7b0cb.defaultValue=Not Selected
-
-# GUIComponentData.687002f7b0cb.label=Install as a Linux service
-GUIComponentData.687002f7b0cb.label=作为 Linux 服务安装
-
-# GUIComponentData.687423f6b0cf.defaultValue=
-GUIComponentData.687423f6b0cf.defaultValue=
-
-# GUIComponentData.687423f6b0cf.label=Service User Name
-GUIComponentData.687423f6b0cf.label=服务用户名
-
-# GUIComponentData.68770cc6b0d0.defaultValue=
-GUIComponentData.68770cc6b0d0.defaultValue=
-
-# GUIComponentData.68770cc6b0d0.label=Service group
-GUIComponentData.68770cc6b0d0.label=服务组
-
-# GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
-GUIComponentData.68778197b0d0.defaultValue=$DEFAULT_PATH$
-
-# GUIComponentData.68778197b0d0.label=Service working directory
-GUIComponentData.68778197b0d0.label=服务工作目录
-
 # GUIComponentData.7113ac7c8023.defaultValue=Not Selected
 GUIComponentData.7113ac7c8023.defaultValue=Not Selected
 
@@ -1954,6 +1756,18 @@ GUIComponentData.79bdef348e8b.defaultValue=Selected
 # GUIComponentData.79bdef348e8b.label=Create a desktop icon
 GUIComponentData.79bdef348e8b.label=创建桌面图标
 
+# GUIComponentData.815f4aa982fe.defaultValue=$AGREE$
+GUIComponentData.815f4aa982fe.defaultValue=$AGREE$
+
+# GUIComponentData.815f4aa982fe.label=AGREE
+GUIComponentData.815f4aa982fe.label=同意
+
+# GUIComponentData.815f4aaa82fe.defaultValue=$DECLINE$
+GUIComponentData.815f4aaa82fe.defaultValue=$DECLINE$
+
+# GUIComponentData.815f4aaa82fe.label=DECLINE
+GUIComponentData.815f4aaa82fe.label=拒绝
+
 # GUIComponentData.8209d5e08fca.defaultValue=Not Selected
 GUIComponentData.8209d5e08fca.defaultValue=Not Selected
 
@@ -1966,125 +1780,17 @@ GUIComponentData.8209d5e18fc9.defaultValue=Not Selected
 # GUIComponentData.8209d5e18fc9.label=Create a desktop icon
 GUIComponentData.8209d5e18fc9.label=创建桌面图标
 
-# GUIComponentData.857693fb96d1.defaultValue=
-GUIComponentData.857693fb96d1.defaultValue=
+# GUIComponentData.9ffe9adcb304.defaultValue=Not Selected
+GUIComponentData.9ffe9adcb304.defaultValue=Not Selected
 
-# GUIComponentData.857693fb96d1.label=Hostname
-GUIComponentData.857693fb96d1.label=主机名
+# GUIComponentData.9ffe9adcb304.label=NX 2312 series
+GUIComponentData.9ffe9adcb304.label=NX 2312 系列
 
-# GUIComponentData.8576994396d1.defaultValue=8085
-GUIComponentData.8576994396d1.defaultValue=8085
+# GUIComponentData.9fff6d51b308.defaultValue=Not Selected
+GUIComponentData.9fff6d51b308.defaultValue=Not Selected
 
-# GUIComponentData.8576994396d1.label=_RT_JOB_MANAGER_ Port Number
-GUIComponentData.8576994396d1.label=_RT_JOB_MANAGER_ 端口号
-
-# GUIComponentData.8578c06b96e9.defaultValue=cert.pem
-GUIComponentData.8578c06b96e9.defaultValue=cert.pem
-
-# GUIComponentData.8578c06b96e9.label=SSL Certificate
-GUIComponentData.8578c06b96e9.label=SSL 证书
-
-# GUIComponentData.8578c23396e9.defaultValue=key.pem
-GUIComponentData.8578c23396e9.defaultValue=key.pem
-
-# GUIComponentData.8578c23396e9.label=SSL Private Key
-GUIComponentData.8578c23396e9.label=SSL 私钥
-
-# GUIComponentData.857a41eba144.defaultValue=
-GUIComponentData.857a41eba144.defaultValue=
-
-# GUIComponentData.857a41eba144.label=Resource Group Name
-GUIComponentData.857a41eba144.label=资源组名称
-
-# GUIComponentData.8fe1749ab49d.defaultValue=Selected
-GUIComponentData.8fe1749ab49d.defaultValue=Selected
-
-# GUIComponentData.8fe1749ab49d.label=Configure new _RT_JOB_MANAGER_
-GUIComponentData.8fe1749ab49d.label=配置新的 _RT_JOB_MANAGER_
-
-# GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
-GUIComponentData.8fe180d9b49d.defaultValue=Not Selected
-
-# GUIComponentData.8fe180d9b49d.label=Upgrade existing _RT_JOB_MANAGER_
-GUIComponentData.8fe180d9b49d.label=升级现有 _RT_JOB_MANAGER_
-
-# GUIComponentData.8fe1ee61b49d.defaultValue=Selected
-GUIComponentData.8fe1ee61b49d.defaultValue=Selected
-
-# GUIComponentData.8fe1ee61b49d.label=Using operating system authentication
-GUIComponentData.8fe1ee61b49d.label=使用操作系统验证
-
-# GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
-GUIComponentData.8fe24b41b49d.defaultValue=Not Selected
-
-# GUIComponentData.8fe24b41b49d.label=Using internal authentication
-GUIComponentData.8fe24b41b49d.label=使用内部身份验证
-
-# GUIComponentData.8fe4e9eab4a2.defaultValue=
-GUIComponentData.8fe4e9eab4a2.defaultValue=
-
-# GUIComponentData.8fe4e9eab4a2.label=Admin User Name
-GUIComponentData.8fe4e9eab4a2.label=管理员用户名
-
-# GUIComponentData.9737389d8c11.defaultValue=Not Selected
-GUIComponentData.9737389d8c11.defaultValue=Not Selected
-
-# GUIComponentData.9737389d8c11.label=No
-GUIComponentData.9737389d8c11.label=否
-
-# GUIComponentData.9737389e8c10.defaultValue=Selected
-GUIComponentData.9737389e8c10.defaultValue=Selected
-
-# GUIComponentData.9737389e8c10.label=Yes
-GUIComponentData.9737389e8c10.label=是
-
-# GUIComponentData.9c427d388ef6.defaultValue=
-GUIComponentData.9c427d388ef6.defaultValue=
-
-# GUIComponentData.9c427d388ef6.label=Display Name
-GUIComponentData.9c427d388ef6.label=显示名称
-
-# GUIComponentData.9c427d3a8ef7.defaultValue=
-GUIComponentData.9c427d3a8ef7.defaultValue=
-
-# GUIComponentData.9c427d3a8ef7.label=SMTP server
-GUIComponentData.9c427d3a8ef7.label=SMTP 服务器
-
-# GUIComponentData.9c427d3a8ef8.defaultValue=
-GUIComponentData.9c427d3a8ef8.defaultValue=
-
-# GUIComponentData.9c427d3a8ef8.label=Username
-GUIComponentData.9c427d3a8ef8.label=用户名
-
-# GUIComponentData.9c427d3a8ef9.defaultValue=
-GUIComponentData.9c427d3a8ef9.defaultValue=
-
-# GUIComponentData.9c427d3a8ef9.label=Password
-GUIComponentData.9c427d3a8ef9.label=密码
-
-# GUIComponentData.9c427d3b8ef6.defaultValue=
-GUIComponentData.9c427d3b8ef6.defaultValue=
-
-# GUIComponentData.9c427d3b8ef6.label=Email address
-GUIComponentData.9c427d3b8ef6.label=电子邮件地址
-
-# GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
-GUIComponentData.9c43d5ae9b6c.defaultValue=Not Selected
-
-# GUIComponentData.9c43d5ae9b6c.label=Configure email server
-GUIComponentData.9c43d5ae9b6c.label=配置电子邮件服务器
-
-# GUIComponentData.9c455b20b16a.defaultValue=587
-GUIComponentData.9c455b20b16a.defaultValue=587
-
-# GUIComponentData.9c455b20b16a.label=SMTP Port number
-GUIComponentData.9c455b20b16a.label=SMTP 端口号
-
-# GUIComponentData.9c455b20b16b.defaultValue=Not Selected
-GUIComponentData.9c455b20b16b.defaultValue=Not Selected
-
-# GUIComponentData.9c455b20b16b.label=TLS
-GUIComponentData.9c455b20b16b.label=TLS
+# GUIComponentData.9fff6d51b308.label=Simcenter 3D 2312
+GUIComponentData.9fff6d51b308.label=Simcenter 3D 2312
 
 # GUIComponentData.a15d24e08d58.defaultValue=
 GUIComponentData.a15d24e08d58.defaultValue=
@@ -2236,11 +1942,17 @@ GUIComponentData.e5f7458483b7.defaultValue=Selected
 # GUIComponentData.e5f7458483b7.label=Local: Install and configure _COMPANY_NAME_ License Server on this machine 
 GUIComponentData.e5f7458483b7.label=本地：在此电脑上安装并配置 _COMPANY_NAME_ 许可证服务器
 
-# GUIComponentData.e6e769628c38.defaultValue=$HOST$
-GUIComponentData.e6e769628c38.defaultValue=$HOST$
+# GUIComponentData.e736af57bb11.defaultValue=Selected
+GUIComponentData.e736af57bb11.defaultValue=Selected
 
-# GUIComponentData.e6e769628c38.label=Login Node
-GUIComponentData.e6e769628c38.label=登录节点
+# GUIComponentData.e736af57bb11.label=Yes
+GUIComponentData.e736af57bb11.label=是
+
+# GUIComponentData.e736af58bb11.defaultValue=Not Selected
+GUIComponentData.e736af58bb11.defaultValue=Not Selected
+
+# GUIComponentData.e736af58bb11.label=No
+GUIComponentData.e736af58bb11.label=否
 
 # GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
 GUIComponentData.ebfc5e7990d5.defaultValue=Not Selected
@@ -2260,26 +1972,11 @@ GUIComponentData.fbd51d66bcc5.defaultValue=Not Selected
 # GUIComponentData.fbd51d66bcc5.label=Create a desktop icon
 GUIComponentData.fbd51d66bcc5.label=创建桌面图标
 
-# GUIComponentData.fbd9ca67be5d.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
-GUIComponentData.fbd9ca67be5d.defaultValue=$USER_MAGIC_FOLDER_17$$/$$DEFAULT_FILE_PATH$
-
-# GUIComponentData.fbd9ca67be5d.label=Database file
-GUIComponentData.fbd9ca67be5d.label=数据库文件
-
-# GUIGroupData.0253755cac41.caption=
-GUIGroupData.0253755cac41.caption=
-
 # GUIGroupData.07762bd5ba9b.caption=
 GUIGroupData.07762bd5ba9b.caption=
 
-# GUIGroupData.07fbb89ebccf.caption=
-GUIGroupData.07fbb89ebccf.caption=
-
 # GUIGroupData.09531f37b18d.caption=
 GUIGroupData.09531f37b18d.caption=
-
-# GUIGroupData.0be5ededa5c4.caption=
-GUIGroupData.0be5ededa5c4.caption=
 
 # GUIGroupData.115643e0a39b.caption=
 GUIGroupData.115643e0a39b.caption=
@@ -2292,15 +1989,6 @@ GUIGroupData.121f44f7ae2d.caption=
 
 # GUIGroupData.1220914dae2e.caption=
 GUIGroupData.1220914dae2e.caption=
-
-# GUIGroupData.12227138ae2f.caption=
-GUIGroupData.12227138ae2f.caption=
-
-# GUIGroupData.1460f8cf8e83.caption=
-GUIGroupData.1460f8cf8e83.caption=
-
-# GUIGroupData.146298ec8e86.caption=
-GUIGroupData.146298ec8e86.caption=
 
 # GUIGroupData.154af405aa76.caption=
 GUIGroupData.154af405aa76.caption=
@@ -2323,8 +2011,17 @@ GUIGroupData.222d858b9bf9.caption=
 # GUIGroupData.2d3e5676ad37.caption=
 GUIGroupData.2d3e5676ad37.caption=
 
-# GUIGroupData.314a9fd48722.caption=
-GUIGroupData.314a9fd48722.caption=
+# GUIGroupData.3111caeaaaed.caption=
+GUIGroupData.3111caeaaaed.caption=
+
+# GUIGroupData.3113205caaed.caption=
+GUIGroupData.3113205caaed.caption=
+
+# GUIGroupData.329ad496800d.caption=
+GUIGroupData.329ad496800d.caption=
+
+# GUIGroupData.329ad498800d.caption=
+GUIGroupData.329ad498800d.caption=
 
 # GUIGroupData.34e509d1ae8c.caption=
 GUIGroupData.34e509d1ae8c.caption=
@@ -2368,71 +2065,11 @@ GUIGroupData.61df1e0ab39a.caption=
 # GUIGroupData.61df1e0ab39b.caption=
 GUIGroupData.61df1e0ab39b.caption=
 
-# GUIGroupData.686ffc2fb0cb.caption=
-GUIGroupData.686ffc2fb0cb.caption=
-
-# GUIGroupData.687423f7b0ce.caption=
-GUIGroupData.687423f7b0ce.caption=
-
-# GUIGroupData.68770cc5b0d0.caption=
-GUIGroupData.68770cc5b0d0.caption=
-
-# GUIGroupData.68778196b0d0.caption=
-GUIGroupData.68778196b0d0.caption=
+# GUIGroupData.815f4aaa82fd.caption=
+GUIGroupData.815f4aaa82fd.caption=
 
 # GUIGroupData.8209d5e18fc7.caption=
 GUIGroupData.8209d5e18fc7.caption=
-
-# GUIGroupData.857693fa96d1.caption=
-GUIGroupData.857693fa96d1.caption=
-
-# GUIGroupData.8576994296d1.caption=
-GUIGroupData.8576994296d1.caption=
-
-# GUIGroupData.8578c06a96e9.caption=
-GUIGroupData.8578c06a96e9.caption=
-
-# GUIGroupData.8578c23296e9.caption=
-GUIGroupData.8578c23296e9.caption=
-
-# GUIGroupData.857a41eaa144.caption=
-GUIGroupData.857a41eaa144.caption=
-
-# GUIGroupData.8592092dbfca.caption=
-GUIGroupData.8592092dbfca.caption=
-
-# GUIGroupData.85932125bfca.caption=
-GUIGroupData.85932125bfca.caption=
-
-# GUIGroupData.8fe4e9e9b4a2.caption=
-GUIGroupData.8fe4e9e9b4a2.caption=
-
-# GUIGroupData.9737389d8c10.caption=
-GUIGroupData.9737389d8c10.caption=
-
-# GUIGroupData.9c427d398ef5.caption=
-GUIGroupData.9c427d398ef5.caption=
-
-# GUIGroupData.9c427d398ef6.caption=
-GUIGroupData.9c427d398ef6.caption=
-
-# GUIGroupData.9c427d398ef7.caption=
-GUIGroupData.9c427d398ef7.caption=
-
-# GUIGroupData.9c427d398ef8.caption=
-GUIGroupData.9c427d398ef8.caption=
-
-# GUIGroupData.9c427d398ef9.caption=
-GUIGroupData.9c427d398ef9.caption=
-
-# GUIGroupData.9c43d23e9b6c.caption=
-GUIGroupData.9c43d23e9b6c.caption=
-
-# GUIGroupData.9c455b21b169.caption=
-GUIGroupData.9c455b21b169.caption=
-
-# GUIGroupData.9c455b21b16a.caption=
-GUIGroupData.9c455b21b16a.caption=
 
 # GUIGroupData.a15d24e18d57.caption=
 GUIGroupData.a15d24e18d57.caption=
@@ -2467,8 +2104,35 @@ GUIGroupData.d833413cb490.caption=
 # GUIGroupData.d8387e0d8952.caption=
 GUIGroupData.d8387e0d8952.caption=
 
-# GUIGroupData.e6e769618c38.caption=
-GUIGroupData.e6e769618c38.caption=
+# GUIGroupData.e5ce3ded80f7.caption=
+GUIGroupData.e5ce3ded80f7.caption=
+
+# GUIGroupData.e5ce3ded80f8.caption=
+GUIGroupData.e5ce3ded80f8.caption=
+
+# GUIGroupData.e5ce3ded80f9.caption=
+GUIGroupData.e5ce3ded80f9.caption=
+
+# GUIGroupData.e5ce3ded80fa.caption=
+GUIGroupData.e5ce3ded80fa.caption=
+
+# GUIGroupData.e5ce3ded80fb.caption=
+GUIGroupData.e5ce3ded80fb.caption=
+
+# GUIGroupData.e5d0a321b261.caption=
+GUIGroupData.e5d0a321b261.caption=
+
+# GUIGroupData.e5d0a321b262.caption=
+GUIGroupData.e5d0a321b262.caption=
+
+# GUIGroupData.e5f58074a956.caption=
+GUIGroupData.e5f58074a956.caption=
+
+# GUIGroupData.e5f7458583b6.caption=
+GUIGroupData.e5f7458583b6.caption=
+
+# GUIGroupData.e736af58bb10.caption=
+GUIGroupData.e736af58bb10.caption=
 
 # GUIGroupData.e82310a19e2b.caption=
 GUIGroupData.e82310a19e2b.caption=
@@ -2563,8 +2227,8 @@ Installer.850018e38424.installLabels.02=正在安装...
 # Installer.850018e38424.installLabels.04=Pre-Installation Summary
 Installer.850018e38424.installLabels.04=预安装摘要
 
-# Installer.850018e38424.installLabels.05=Digital Product Experience
-Installer.850018e38424.installLabels.05=数字化产品体验
+# Installer.850018e38424.installLabels.05=Product Excellence Program
+Installer.850018e38424.installLabels.05=产品创优计划
 
 # Installer.850018e38424.installLabels.06=Install Complete
 Installer.850018e38424.installLabels.06=安装完成
@@ -2742,60 +2406,6 @@ InstallFinishAction.850018e3843a.rebootRequiredMessage=需要重启系统以完�
 
 # InstallFinishAction.850018e3843a.windowTitle=Install Complete
 InstallFinishAction.850018e3843a.windowTitle=安装完成
-
-# InstallFinishAction.9741505abaf9.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.9741505abaf9.installErrorMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.9741505abaf9.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.9741505abaf9.installFatalMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些严重错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.9741505abaf9.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nSetup _RT_JOB_MANAGER_ as a Linux service is configured with URL http://$HOST$:$PORT$ and will auto start on reboot.\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.9741505abaf9.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n作为 Linux 服务的安装程序 Setup _RT_JOB_MANAGER_ 已配置有 URL http://$HOST$:$PORT$，且将在重启时自动启动。\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
-
-# InstallFinishAction.9741505abaf9.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.9741505abaf9.installWarningMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些警告。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.9741505abaf9.launchText=
-InstallFinishAction.9741505abaf9.launchText=
-
-# InstallFinishAction.9741505abaf9.rebootNotNeededMessage=
-InstallFinishAction.9741505abaf9.rebootNotNeededMessage=
-
-# InstallFinishAction.9741505abaf9.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.9741505abaf9.rebootRecommendedMessage=应重启系统以完成安装。
-
-# InstallFinishAction.9741505abaf9.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.9741505abaf9.rebootRequiredMessage=需要重启系统以完成安装。
-
-# InstallFinishAction.9741505abaf9.windowTitle=Install Complete
-InstallFinishAction.9741505abaf9.windowTitle=安装完成
-
-# InstallFinishAction.bbeaa35cb859.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.bbeaa35cb859.installErrorMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.bbeaa35cb859.installFatalMessage=The installation of $INSTALLER_TITLE$ is finished, but some serious errors occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.bbeaa35cb859.installFatalMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些严重错误。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.bbeaa35cb859.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.bbeaa35cb859.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$软件 $WINDOWS_TYPE$ 已经成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
-
-# InstallFinishAction.bbeaa35cb859.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install. Please see the log files for the installer ($USER_INSTALL_LOG_LOCATION$) and for the Job Manager ($USER_INSTALL_DIR$).
-InstallFinishAction.bbeaa35cb859.installWarningMessage=$INSTALLER_TITLE$ 的安装已完成，但安装过程中发生了一些警告。请参见安装程序 ($USER_INSTALL_LOG_LOCATION$) 和作业管理器 ($USER_INSTALL_DIR$) 的日志文件。
-
-# InstallFinishAction.bbeaa35cb859.launchText=
-InstallFinishAction.bbeaa35cb859.launchText=
-
-# InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
-InstallFinishAction.bbeaa35cb859.rebootNotNeededMessage=
-
-# InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=You should restart the system to complete the installation.
-InstallFinishAction.bbeaa35cb859.rebootRecommendedMessage=应重启系统以完成安装。
-
-# InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=You need to restart the system to complete the installation.
-InstallFinishAction.bbeaa35cb859.rebootRequiredMessage=需要重启系统以完成安装。
-
-# InstallFinishAction.bbeaa35cb859.windowTitle=Install Complete
-InstallFinishAction.bbeaa35cb859.windowTitle=安装完成
 
 # InstallFinishAction.e73c82dcaad2.installErrorMessage=The installation of $INSTALLER_TITLE$ is finished, but some errors occurred during the install. Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.e73c82dcaad2.installErrorMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -3214,15 +2824,6 @@ PreInstall.Text6=可用：
 # PreInstall.Text7=Required: 
 PreInstall.Text7=必需：
 
-# PreInstall.Text8=Participation in Product Excellence Program:
-PreInstall.Text8=参加产品卓越计划：
-
-# PreInstall.Text8No=No
-PreInstall.Text8No=否
-
-# PreInstall.Text8Yes=Yes
-PreInstall.Text8Yes=是
-
 # PreInstall.Title=Pre-Installation Summary
 PreInstall.Title=预安装摘要
 
@@ -3291,345 +2892,6 @@ PromptUserConsole.7ca73826a00f.option2Label=取消
 
 # PromptUserConsole.7ca73826a00f.title=Error
 PromptUserConsole.7ca73826a00f.title=错误
-
-# PromptUserConsole.ab47a9fa8483.message=The installer does not support setup and configuration of _RT_JOB_MANAGER_ in console mode. Please use the standard GUI method of installation.
-PromptUserConsole.ab47a9fa8483.message=安装程序不支持在控制台模式下设置和配置 _RT_JOB_MANAGER_。请使用标准 GUI 安装方法。
-
-# PromptUserConsole.ab47a9fa8483.option0Label=OK
-PromptUserConsole.ab47a9fa8483.option0Label=确定
-
-# PromptUserConsole.ab47a9fa8483.option1Label=Cancel
-PromptUserConsole.ab47a9fa8483.option1Label=取消
-
-# PromptUserConsole.ab47a9fa8483.option2Label=Details...
-PromptUserConsole.ab47a9fa8483.option2Label=详情...
-
-# PromptUserConsole.ab47a9fa8483.title=Information
-PromptUserConsole.ab47a9fa8483.title=信息
-
-# ShowDialogAction.00ba7f0290e5.buttonLabel=OK
-ShowDialogAction.00ba7f0290e5.buttonLabel=确定
-
-# ShowDialogAction.00ba7f0290e5.cancelButtonLabel=Cancel
-ShowDialogAction.00ba7f0290e5.cancelButtonLabel=取消
-
-# ShowDialogAction.00ba7f0290e5.detailsButtonLabel=Details...
-ShowDialogAction.00ba7f0290e5.detailsButtonLabel=详情...
-
-# ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ Installation Not Found
-ShowDialogAction.00ba7f0290e5.label=_RT_JOB_MANAGER_ Installation 未找到
-
-# ShowDialogAction.00ba7f0290e5.narrative=Please reselect location where _RT_JOB_MANAGER_ is installed.
-ShowDialogAction.00ba7f0290e5.narrative=请重新选择安装 _RT_JOB_MANAGER_ 的位置。
-
-# ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation Not Found
-ShowDialogAction.00ba7f0290e5.title=_RT_JOB_MANAGER_ Installation 未找到
-
-# ShowDialogAction.00be631590fb.buttonLabel=OK
-ShowDialogAction.00be631590fb.buttonLabel=确定
-
-# ShowDialogAction.00be631590fb.cancelButtonLabel=Cancel
-ShowDialogAction.00be631590fb.cancelButtonLabel=取消
-
-# ShowDialogAction.00be631590fb.detailsButtonLabel=Details...
-ShowDialogAction.00be631590fb.detailsButtonLabel=详情...
-
-# ShowDialogAction.00be631590fb.label=SMTP Port number cannot be $SMTP_PORT$.
-ShowDialogAction.00be631590fb.label=SMTP 端口号不能为 $SMTP_PORT$。
-
-# ShowDialogAction.00be631590fb.narrative=Please provide the correct SMTP Port number.
-ShowDialogAction.00be631590fb.narrative=请提供正确的 SMTP 端口号。
-
-# ShowDialogAction.00be631590fb.title=Warning
-ShowDialogAction.00be631590fb.title=警告
-
-# ShowDialogAction.00c0b1bd9968.buttonLabel=OK
-ShowDialogAction.00c0b1bd9968.buttonLabel=确定
-
-# ShowDialogAction.00c0b1bd9968.cancelButtonLabel=Cancel
-ShowDialogAction.00c0b1bd9968.cancelButtonLabel=取消
-
-# ShowDialogAction.00c0b1bd9968.detailsButtonLabel=Details...
-ShowDialogAction.00c0b1bd9968.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c0b1bd9968.label=Hostname, Internal hostname, _RT_JOB_MANAGER_ Port Number or Application Server (Web Monitor) Port Number cannot be empty.
-ShowDialogAction.00c0b1bd9968.label=主机名、内部主机名、_RT_JOB_MANAGER_ 端口号或应用程序服务器（Web 监视器）端口号不能为空。
-
-# ShowDialogAction.00c0b1bd9968.narrative=Please enter valid hostname, Internal hostname, _RT_JOB_MANAGER_ Port Number and Application Server (Web Monitor) Port Number to proceed.
-ShowDialogAction.00c0b1bd9968.narrative=请输入有效的主机名、内部主机名、_RT_JOB_MANAGER_ 端口号或应用程序服务器（Web 监视器）端口号以继续。
-
-# ShowDialogAction.00c0b1bd9968.title=Warning
-ShowDialogAction.00c0b1bd9968.title=警告
-
-# ShowDialogAction.00c313aa997a.buttonLabel=OK
-ShowDialogAction.00c313aa997a.buttonLabel=确定
-
-# ShowDialogAction.00c313aa997a.cancelButtonLabel=Cancel
-ShowDialogAction.00c313aa997a.cancelButtonLabel=取消
-
-# ShowDialogAction.00c313aa997a.detailsButtonLabel=Details...
-ShowDialogAction.00c313aa997a.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c313aa997a.label=Hostname can't be found.
-ShowDialogAction.00c313aa997a.label=无法找到主机名。
-
-# ShowDialogAction.00c313aa997a.narrative=Please enter valid Hostname to proceed.
-ShowDialogAction.00c313aa997a.narrative=请输入有效的主机名以继续。
-
-# ShowDialogAction.00c313aa997a.title=Warning
-ShowDialogAction.00c313aa997a.title=警告
-
-# ShowDialogAction.00c4b058a1e0.buttonLabel=OK
-ShowDialogAction.00c4b058a1e0.buttonLabel=确定
-
-# ShowDialogAction.00c4b058a1e0.cancelButtonLabel=Cancel
-ShowDialogAction.00c4b058a1e0.cancelButtonLabel=取消
-
-# ShowDialogAction.00c4b058a1e0.detailsButtonLabel=Details...
-ShowDialogAction.00c4b058a1e0.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c4b058a1e0.label=Admin user name cannot be empty.
-ShowDialogAction.00c4b058a1e0.label=管理员用户名不能为空。
-
-# ShowDialogAction.00c4b058a1e0.narrative=Please enter a valid admin user name to proceed.
-ShowDialogAction.00c4b058a1e0.narrative=请输入有效的管理员用户名以继续。
-
-# ShowDialogAction.00c4b058a1e0.title=Warning
-ShowDialogAction.00c4b058a1e0.title=警告
-
-# ShowDialogAction.00c59e7fa1e2.buttonLabel=OK
-ShowDialogAction.00c59e7fa1e2.buttonLabel=确定
-
-# ShowDialogAction.00c59e7fa1e2.cancelButtonLabel=Cancel
-ShowDialogAction.00c59e7fa1e2.cancelButtonLabel=取消
-
-# ShowDialogAction.00c59e7fa1e2.detailsButtonLabel=Details...
-ShowDialogAction.00c59e7fa1e2.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c59e7fa1e2.label=Login Node or Resource Group Name cannot be empty.
-ShowDialogAction.00c59e7fa1e2.label=登录节点或资源组名称不能为空。
-
-# ShowDialogAction.00c59e7fa1e2.narrative=Please enter valid Login Node and Resource Group Name to proceed.
-ShowDialogAction.00c59e7fa1e2.narrative=请输入有效的登录节点和资源组名称以继续。
-
-# ShowDialogAction.00c59e7fa1e2.title=Warning
-ShowDialogAction.00c59e7fa1e2.title=警告
-
-# ShowDialogAction.00c67e1fa1e4.buttonLabel=OK
-ShowDialogAction.00c67e1fa1e4.buttonLabel=确定
-
-# ShowDialogAction.00c67e1fa1e4.cancelButtonLabel=Cancel
-ShowDialogAction.00c67e1fa1e4.cancelButtonLabel=取消
-
-# ShowDialogAction.00c67e1fa1e4.detailsButtonLabel=Details...
-ShowDialogAction.00c67e1fa1e4.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c67e1fa1e4.label=Display name cannot be empty.
-ShowDialogAction.00c67e1fa1e4.label=显示名称不能为空。
-
-# ShowDialogAction.00c67e1fa1e4.narrative=Please enter valid Display name to proceed.
-ShowDialogAction.00c67e1fa1e4.narrative=请输入有效的显示名称以继续。
-
-# ShowDialogAction.00c67e1fa1e4.title=Warning
-ShowDialogAction.00c67e1fa1e4.title=警告
-
-# ShowDialogAction.00c71b56a1e5.buttonLabel=OK
-ShowDialogAction.00c71b56a1e5.buttonLabel=确定
-
-# ShowDialogAction.00c71b56a1e5.cancelButtonLabel=Cancel
-ShowDialogAction.00c71b56a1e5.cancelButtonLabel=取消
-
-# ShowDialogAction.00c71b56a1e5.detailsButtonLabel=Details...
-ShowDialogAction.00c71b56a1e5.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c71b56a1e5.label=Email address is not valid.
-ShowDialogAction.00c71b56a1e5.label=电子邮件地址无效。
-
-# ShowDialogAction.00c71b56a1e5.narrative=Please enter valid email address to proceed.
-ShowDialogAction.00c71b56a1e5.narrative=请输入有效的电子邮件地址以继续。
-
-# ShowDialogAction.00c71b56a1e5.title=Warning
-ShowDialogAction.00c71b56a1e5.title=警告
-
-# ShowDialogAction.00c8ab0ea1e5.buttonLabel=OK
-ShowDialogAction.00c8ab0ea1e5.buttonLabel=确定
-
-# ShowDialogAction.00c8ab0ea1e5.cancelButtonLabel=Cancel
-ShowDialogAction.00c8ab0ea1e5.cancelButtonLabel=取消
-
-# ShowDialogAction.00c8ab0ea1e5.detailsButtonLabel=Details...
-ShowDialogAction.00c8ab0ea1e5.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c8ab0ea1e5.label=Email address cannot be empty.
-ShowDialogAction.00c8ab0ea1e5.label=电子邮件地址不能为空。
-
-# ShowDialogAction.00c8ab0ea1e5.narrative=Please enter valid Email address to proceed.
-ShowDialogAction.00c8ab0ea1e5.narrative=请输入有效的电子邮件地址以继续。
-
-# ShowDialogAction.00c8ab0ea1e5.title=Warning
-ShowDialogAction.00c8ab0ea1e5.title=警告
-
-# ShowDialogAction.00c9a3b6a1e6.buttonLabel=OK
-ShowDialogAction.00c9a3b6a1e6.buttonLabel=确定
-
-# ShowDialogAction.00c9a3b6a1e6.cancelButtonLabel=Cancel
-ShowDialogAction.00c9a3b6a1e6.cancelButtonLabel=取消
-
-# ShowDialogAction.00c9a3b6a1e6.detailsButtonLabel=Details...
-ShowDialogAction.00c9a3b6a1e6.detailsButtonLabel=详情...
-
-# ShowDialogAction.00c9a3b6a1e6.label=SMTP server cannot be empty.
-ShowDialogAction.00c9a3b6a1e6.label=SMTP 服务器不能为空。
-
-# ShowDialogAction.00c9a3b6a1e6.narrative=Please enter valid SMTP server to proceed.
-ShowDialogAction.00c9a3b6a1e6.narrative=请输入有效的 SMTP 服务器以继续。
-
-# ShowDialogAction.00c9a3b6a1e6.title=Warning
-ShowDialogAction.00c9a3b6a1e6.title=警告
-
-# ShowDialogAction.00cb845ea1e9.buttonLabel=OK
-ShowDialogAction.00cb845ea1e9.buttonLabel=确定
-
-# ShowDialogAction.00cb845ea1e9.cancelButtonLabel=Cancel
-ShowDialogAction.00cb845ea1e9.cancelButtonLabel=取消
-
-# ShowDialogAction.00cb845ea1e9.detailsButtonLabel=Details...
-ShowDialogAction.00cb845ea1e9.detailsButtonLabel=详情...
-
-# ShowDialogAction.00cb845ea1e9.label=SMTP server can't be found.
-ShowDialogAction.00cb845ea1e9.label=无法找到 SMTP 服务器。
-
-# ShowDialogAction.00cb845ea1e9.narrative=Please enter valid SMTP server to proceed.
-ShowDialogAction.00cb845ea1e9.narrative=请输入有效的 SMTP 服务器以继续。
-
-# ShowDialogAction.00cb845ea1e9.title=Warning
-ShowDialogAction.00cb845ea1e9.title=警告
-
-# ShowDialogAction.00cc6ab6a1eb.buttonLabel=OK
-ShowDialogAction.00cc6ab6a1eb.buttonLabel=确定
-
-# ShowDialogAction.00cc6ab6a1eb.cancelButtonLabel=Cancel
-ShowDialogAction.00cc6ab6a1eb.cancelButtonLabel=取消
-
-# ShowDialogAction.00cc6ab6a1eb.detailsButtonLabel=Details...
-ShowDialogAction.00cc6ab6a1eb.detailsButtonLabel=详情...
-
-# ShowDialogAction.00cc6ab6a1eb.label=Username or Password cannot be empty.
-ShowDialogAction.00cc6ab6a1eb.label=用户名或密码不能为空。
-
-# ShowDialogAction.00cc6ab6a1eb.narrative=Please enter valid Username and Password to proceed.
-ShowDialogAction.00cc6ab6a1eb.narrative=请输入有效的用户名和密码以继续。
-
-# ShowDialogAction.00cc6ab6a1eb.title=Warning
-ShowDialogAction.00cc6ab6a1eb.title=警告
-
-# ShowDialogAction.026fc1a8b518.buttonLabel=OK
-ShowDialogAction.026fc1a8b518.buttonLabel=确定
-
-# ShowDialogAction.026fc1a8b518.cancelButtonLabel=Cancel
-ShowDialogAction.026fc1a8b518.cancelButtonLabel=取消
-
-# ShowDialogAction.026fc1a8b518.detailsButtonLabel=Details...
-ShowDialogAction.026fc1a8b518.detailsButtonLabel=详情...
-
-# ShowDialogAction.026fc1a8b518.label=Error occurred while installing the service with operating system authentication.
-ShowDialogAction.026fc1a8b518.label=通过操作系统身份验证安装服务时出错。
-
-# ShowDialogAction.026fc1a8b518.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.026fc1a8b518.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.026fc1a8b518.title=Error
-ShowDialogAction.026fc1a8b518.title=错误
-
-# ShowDialogAction.0667c733a78a.buttonLabel=OK
-ShowDialogAction.0667c733a78a.buttonLabel=确定
-
-# ShowDialogAction.0667c733a78a.cancelButtonLabel=Cancel
-ShowDialogAction.0667c733a78a.cancelButtonLabel=取消
-
-# ShowDialogAction.0667c733a78a.detailsButtonLabel=Details...
-ShowDialogAction.0667c733a78a.detailsButtonLabel=详情...
-
-# ShowDialogAction.0667c733a78a.label=Error occurred while performing upgrade to _RT_JOB_MANAGER_
-ShowDialogAction.0667c733a78a.label=升级 _RT_JOB_MANAGER_ 时出错
-
-# ShowDialogAction.0667c733a78a.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0667c733a78a.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.0667c733a78a.title=Error
-ShowDialogAction.0667c733a78a.title=错误
-
-# ShowDialogAction.066cf8f2a78c.buttonLabel=OK
-ShowDialogAction.066cf8f2a78c.buttonLabel=确定
-
-# ShowDialogAction.066cf8f2a78c.cancelButtonLabel=Cancel
-ShowDialogAction.066cf8f2a78c.cancelButtonLabel=取消
-
-# ShowDialogAction.066cf8f2a78c.detailsButtonLabel=Details...
-ShowDialogAction.066cf8f2a78c.detailsButtonLabel=详情...
-
-# ShowDialogAction.066cf8f2a78c.label=Error occurred while using operating system authentication.
-ShowDialogAction.066cf8f2a78c.label=使用操作系统验证时出错。
-
-# ShowDialogAction.066cf8f2a78c.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.066cf8f2a78c.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.066cf8f2a78c.title=Error
-ShowDialogAction.066cf8f2a78c.title=错误
-
-# ShowDialogAction.0670a5c0a794.buttonLabel=OK
-ShowDialogAction.0670a5c0a794.buttonLabel=确定
-
-# ShowDialogAction.0670a5c0a794.cancelButtonLabel=Cancel
-ShowDialogAction.0670a5c0a794.cancelButtonLabel=取消
-
-# ShowDialogAction.0670a5c0a794.detailsButtonLabel=Details...
-ShowDialogAction.0670a5c0a794.detailsButtonLabel=详情...
-
-# ShowDialogAction.0670a5c0a794.label=Error occurred while using operating system authentication with email specification.
-ShowDialogAction.0670a5c0a794.label=通过电子邮件指定使用操作系统验证时出错。
-
-# ShowDialogAction.0670a5c0a794.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0670a5c0a794.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.0670a5c0a794.title=Error
-ShowDialogAction.0670a5c0a794.title=错误
-
-# ShowDialogAction.0672cc40affb.buttonLabel=OK
-ShowDialogAction.0672cc40affb.buttonLabel=确定
-
-# ShowDialogAction.0672cc40affb.cancelButtonLabel=Cancel
-ShowDialogAction.0672cc40affb.cancelButtonLabel=取消
-
-# ShowDialogAction.0672cc40affb.detailsButtonLabel=Details...
-ShowDialogAction.0672cc40affb.detailsButtonLabel=详情...
-
-# ShowDialogAction.0672cc40affb.label=Error occurred while using internal authentication.
-ShowDialogAction.0672cc40affb.label=使用内部身份验证时出错。
-
-# ShowDialogAction.0672cc40affb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0672cc40affb.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.0672cc40affb.title=Error
-ShowDialogAction.0672cc40affb.title=错误
-
-# ShowDialogAction.0673d489afff.buttonLabel=OK
-ShowDialogAction.0673d489afff.buttonLabel=确定
-
-# ShowDialogAction.0673d489afff.cancelButtonLabel=Cancel
-ShowDialogAction.0673d489afff.cancelButtonLabel=取消
-
-# ShowDialogAction.0673d489afff.detailsButtonLabel=Details...
-ShowDialogAction.0673d489afff.detailsButtonLabel=详情...
-
-# ShowDialogAction.0673d489afff.label=Error occurred while using internal authentication with email specification.
-ShowDialogAction.0673d489afff.label=通过电子邮件指定使用内部身份验证时出错。
-
-# ShowDialogAction.0673d489afff.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.0673d489afff.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.0673d489afff.title=Error
-ShowDialogAction.0673d489afff.title=错误
 
 # ShowDialogAction.0be7f1f1a400.buttonLabel=Next
 ShowDialogAction.0be7f1f1a400.buttonLabel=下一步
@@ -3793,42 +3055,6 @@ ShowDialogAction.2d6e902bbb0c.narrative=释放当前安装位置中的某些磁�
 # ShowDialogAction.2d6e902bbb0c.title=Warning: Insufficient Disk Space Available
 ShowDialogAction.2d6e902bbb0c.title=警告：可用磁盘空间不足
 
-# ShowDialogAction.3185b5bf9239.buttonLabel=OK
-ShowDialogAction.3185b5bf9239.buttonLabel=确定
-
-# ShowDialogAction.3185b5bf9239.cancelButtonLabel=Cancel
-ShowDialogAction.3185b5bf9239.cancelButtonLabel=取消
-
-# ShowDialogAction.3185b5bf9239.detailsButtonLabel=Details...
-ShowDialogAction.3185b5bf9239.detailsButtonLabel=详情...
-
-# ShowDialogAction.3185b5bf9239.label=Application Server (Web Monitor) Port Number cannot be $APPSERVER_PORT$.
-ShowDialogAction.3185b5bf9239.label=应用程序服务器（Web 监视器）端口号不能为 $APPSERVER_PORT$。
-
-# ShowDialogAction.3185b5bf9239.narrative=Please provide the correct Application Server (Web Monitor) Port Number.
-ShowDialogAction.3185b5bf9239.narrative=请提供正确的应用程序服务器（Web 监视器）端口号。
-
-# ShowDialogAction.3185b5bf9239.title=Warning
-ShowDialogAction.3185b5bf9239.title=警告
-
-# ShowDialogAction.370240c28665.buttonLabel=OK
-ShowDialogAction.370240c28665.buttonLabel=确定
-
-# ShowDialogAction.370240c28665.cancelButtonLabel=No
-ShowDialogAction.370240c28665.cancelButtonLabel=否
-
-# ShowDialogAction.370240c28665.detailsButtonLabel=Details...
-ShowDialogAction.370240c28665.detailsButtonLabel=详情...
-
-# ShowDialogAction.370240c28665.label=No Selection made
-ShowDialogAction.370240c28665.label=未进行选择
-
-# ShowDialogAction.370240c28665.narrative=Please select the version of either NX or Simcenter 3D
-ShowDialogAction.370240c28665.narrative=请选择 NX 或 Simcenter 3D 的版本
-
-# ShowDialogAction.370240c28665.title=Warning
-ShowDialogAction.370240c28665.title=警告
-
 # ShowDialogAction.37048c4b8667.buttonLabel=OK
 ShowDialogAction.37048c4b8667.buttonLabel=确定
 
@@ -3846,6 +3072,24 @@ ShowDialogAction.37048c4b8667.narrative=请输入有效的安装路径以继续�
 
 # ShowDialogAction.37048c4b8667.title=Warning
 ShowDialogAction.37048c4b8667.title=警告
+
+# ShowDialogAction.371be9508dcb.buttonLabel=OK
+ShowDialogAction.371be9508dcb.buttonLabel=确定
+
+# ShowDialogAction.371be9508dcb.cancelButtonLabel=No
+ShowDialogAction.371be9508dcb.cancelButtonLabel=否
+
+# ShowDialogAction.371be9508dcb.detailsButtonLabel=Details...
+ShowDialogAction.371be9508dcb.detailsButtonLabel=详情...
+
+# ShowDialogAction.371be9508dcb.label=No Selection made
+ShowDialogAction.371be9508dcb.label=未进行选择
+
+# ShowDialogAction.371be9508dcb.narrative=Please select the version of either NX or Simcenter 3D
+ShowDialogAction.371be9508dcb.narrative=请选择 NX 或 Simcenter 3D 的版本
+
+# ShowDialogAction.371be9508dcb.title=Warning
+ShowDialogAction.371be9508dcb.title=警告
 
 # ShowDialogAction.386900b8be43.buttonLabel=OK
 ShowDialogAction.386900b8be43.buttonLabel=确定
@@ -4045,42 +3289,6 @@ ShowDialogAction.684ff5beac22.narrative=$ERR_OUT_STRING$
 # ShowDialogAction.684ff5beac22.title=Invalid Input
 ShowDialogAction.684ff5beac22.title=无效输入
 
-# ShowDialogAction.687a9707b0d3.buttonLabel=OK
-ShowDialogAction.687a9707b0d3.buttonLabel=确定
-
-# ShowDialogAction.687a9707b0d3.cancelButtonLabel=Cancel
-ShowDialogAction.687a9707b0d3.cancelButtonLabel=取消
-
-# ShowDialogAction.687a9707b0d3.detailsButtonLabel=Details...
-ShowDialogAction.687a9707b0d3.detailsButtonLabel=详情...
-
-# ShowDialogAction.687a9707b0d3.label=A Linux service 'job manager' already exists. Cannot install as a Linux service.
-ShowDialogAction.687a9707b0d3.label=Linux 服务“作业管理器”已存在。无法作为 Linux 服务安装。
-
-# ShowDialogAction.687a9707b0d3.narrative=Please select the upgrade option or uninstall the existing 'job manager' service.
-ShowDialogAction.687a9707b0d3.narrative=请选择升级选项或卸载现有的“作业管理器”服务。
-
-# ShowDialogAction.687a9707b0d3.title=Error
-ShowDialogAction.687a9707b0d3.title=错误
-
-# ShowDialogAction.6d9251ddb0c8.buttonLabel=Yes
-ShowDialogAction.6d9251ddb0c8.buttonLabel=是
-
-# ShowDialogAction.6d9251ddb0c8.cancelButtonLabel=No
-ShowDialogAction.6d9251ddb0c8.cancelButtonLabel=否
-
-# ShowDialogAction.6d9251ddb0c8.detailsButtonLabel=Details...
-ShowDialogAction.6d9251ddb0c8.detailsButtonLabel=详情...
-
-# ShowDialogAction.6d9251ddb0c8.label=SSL certificate selection is empty
-ShowDialogAction.6d9251ddb0c8.label=SSL 证书选择为空
-
-# ShowDialogAction.6d9251ddb0c8.narrative=You have elected to proceed without enabling SSL for _RT_JOB_MANAGER_. Please confirm this selection.
-ShowDialogAction.6d9251ddb0c8.narrative=您已选择继续，而不启用 _RT_JOB_MANAGER_ 的 SSL。请确认此选择。
-
-# ShowDialogAction.6d9251ddb0c8.title=Warning
-ShowDialogAction.6d9251ddb0c8.title=警告
-
 # ShowDialogAction.7dc4c98fb7ea.buttonLabel=Yes
 ShowDialogAction.7dc4c98fb7ea.buttonLabel=是
 
@@ -4117,77 +3325,23 @@ ShowDialogAction.7e4d4aee9257.narrative=求解器组件 (_SOFTWARE_FAMILY_NAME_ 
 # ShowDialogAction.7e4d4aee9257.title=Warning
 ShowDialogAction.7e4d4aee9257.title=警告
 
-# ShowDialogAction.812ff9fd8bc2.buttonLabel=OK
-ShowDialogAction.812ff9fd8bc2.buttonLabel=确定
+# ShowDialogAction.815f4aa982ff.buttonLabel=OK
+ShowDialogAction.815f4aa982ff.buttonLabel=确定
 
-# ShowDialogAction.812ff9fd8bc2.cancelButtonLabel=Cancel
-ShowDialogAction.812ff9fd8bc2.cancelButtonLabel=取消
+# ShowDialogAction.815f4aa982ff.cancelButtonLabel=Decline
+ShowDialogAction.815f4aa982ff.cancelButtonLabel=拒绝
 
-# ShowDialogAction.812ff9fd8bc2.detailsButtonLabel=Details...
-ShowDialogAction.812ff9fd8bc2.detailsButtonLabel=详情...
+# ShowDialogAction.815f4aa982ff.detailsButtonLabel=Details...
+ShowDialogAction.815f4aa982ff.detailsButtonLabel=详情...
 
-# ShowDialogAction.812ff9fd8bc2.label=Upgrade option 
-ShowDialogAction.812ff9fd8bc2.label=升级选项
+# ShowDialogAction.815f4aa982ff.label=Product Excellence Program
+ShowDialogAction.815f4aa982ff.label=产品创优计划
 
-# ShowDialogAction.812ff9fd8bc2.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server. This option would require you to be an admin.
-ShowDialogAction.812ff9fd8bc2.narrative=升级选项将停止现有 _RT_JOB_MANAGER_，并升级至新的服务器。此选项要求您是管理员。
+# ShowDialogAction.815f4aa982ff.narrative=Please make a selection in order to continue with the installation process
+ShowDialogAction.815f4aa982ff.narrative=请做出选择以继续安装过程
 
-# ShowDialogAction.812ff9fd8bc2.title=Information
-ShowDialogAction.812ff9fd8bc2.title=信息
-
-# ShowDialogAction.81340c83adaa.buttonLabel=OK
-ShowDialogAction.81340c83adaa.buttonLabel=确定
-
-# ShowDialogAction.81340c83adaa.cancelButtonLabel=Cancel
-ShowDialogAction.81340c83adaa.cancelButtonLabel=取消
-
-# ShowDialogAction.81340c83adaa.detailsButtonLabel=Details...
-ShowDialogAction.81340c83adaa.detailsButtonLabel=详情...
-
-# ShowDialogAction.81340c83adaa.label=Upgrade option
-ShowDialogAction.81340c83adaa.label=升级选项
-
-# ShowDialogAction.81340c83adaa.narrative=Upgrade option will stop the existing _RT_JOB_MANAGER_ and upgrade to new server.
-ShowDialogAction.81340c83adaa.narrative=升级选项将停止现有 _RT_JOB_MANAGER_，并升级至新的服务器。
-
-# ShowDialogAction.81340c83adaa.title=Information
-ShowDialogAction.81340c83adaa.title=信息
-
-# ShowDialogAction.81357f99b1bc.buttonLabel=OK
-ShowDialogAction.81357f99b1bc.buttonLabel=确定
-
-# ShowDialogAction.81357f99b1bc.cancelButtonLabel=Cancel
-ShowDialogAction.81357f99b1bc.cancelButtonLabel=取消
-
-# ShowDialogAction.81357f99b1bc.detailsButtonLabel=Details...
-ShowDialogAction.81357f99b1bc.detailsButtonLabel=详情...
-
-# ShowDialogAction.81357f99b1bc.label=A Linux service 'jobmanager' already exists but insufficient privileges exist to upgrade the service.
-ShowDialogAction.81357f99b1bc.label=Linux 服务 'jobmanager' 已存在，但升级该服务的权限不足。
-
-# ShowDialogAction.81357f99b1bc.narrative=Please upgrade with 'root' privileges.
-ShowDialogAction.81357f99b1bc.narrative=请使用 'root' 权限进行升级。
-
-# ShowDialogAction.81357f99b1bc.title=Error
-ShowDialogAction.81357f99b1bc.title=错误
-
-# ShowDialogAction.8b658fda8e4e.buttonLabel=OK
-ShowDialogAction.8b658fda8e4e.buttonLabel=确定
-
-# ShowDialogAction.8b658fda8e4e.cancelButtonLabel=Cancel
-ShowDialogAction.8b658fda8e4e.cancelButtonLabel=取消
-
-# ShowDialogAction.8b658fda8e4e.detailsButtonLabel=Details...
-ShowDialogAction.8b658fda8e4e.detailsButtonLabel=详情...
-
-# ShowDialogAction.8b658fda8e4e.label=_RT_JOB_MANAGER_ Port Number cannot be $PORT$.
-ShowDialogAction.8b658fda8e4e.label=_RT_JOB_MANAGER_ 端口号不能为 $PORT$。
-
-# ShowDialogAction.8b658fda8e4e.narrative=Please provide the correct _RT_JOB_MANAGER_ Port Number.
-ShowDialogAction.8b658fda8e4e.narrative=请提供正确的 _RT_JOB_MANAGER_ 端口号。
-
-# ShowDialogAction.8b658fda8e4e.title=Warning
-ShowDialogAction.8b658fda8e4e.title=警告
+# ShowDialogAction.815f4aa982ff.title=Product Excellence Program Selection
+ShowDialogAction.815f4aa982ff.title=选择产品创优计划
 
 # ShowDialogAction.8d01b100a261.buttonLabel=Yes
 ShowDialogAction.8d01b100a261.buttonLabel=是
@@ -4333,24 +3487,6 @@ ShowDialogAction.a559a02a89f6.narrative=需要拥有管理员权限才能配置�
 # ShowDialogAction.a559a02a89f6.title=Warning
 ShowDialogAction.a559a02a89f6.title=警告
 
-# ShowDialogAction.a7537a40b676.buttonLabel=OK
-ShowDialogAction.a7537a40b676.buttonLabel=确定
-
-# ShowDialogAction.a7537a40b676.cancelButtonLabel=Cancel
-ShowDialogAction.a7537a40b676.cancelButtonLabel=取消
-
-# ShowDialogAction.a7537a40b676.detailsButtonLabel=Details...
-ShowDialogAction.a7537a40b676.detailsButtonLabel=详情...
-
-# ShowDialogAction.a7537a40b676.label=The database file cannot be empty.
-ShowDialogAction.a7537a40b676.label=数据库文件不能为空。
-
-# ShowDialogAction.a7537a40b676.narrative=Please enter a valid database file name to proceed.
-ShowDialogAction.a7537a40b676.narrative=请输入有效的数据库文件名以继续。
-
-# ShowDialogAction.a7537a40b676.title=Warning
-ShowDialogAction.a7537a40b676.title=警告
-
 # ShowDialogAction.a9b1812e9550.buttonLabel=OK
 ShowDialogAction.a9b1812e9550.buttonLabel=确定
 
@@ -4368,114 +3504,6 @@ ShowDialogAction.a9b1812e9550.narrative=未找到 StarInventorFMTree.ocx。\n\n�
 
 # ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
 ShowDialogAction.a9b1812e9550.title=_SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ _CADC_STAR_INVENTOR_
-
-# ShowDialogAction.ac738a0e87eb.buttonLabel=OK
-ShowDialogAction.ac738a0e87eb.buttonLabel=确定
-
-# ShowDialogAction.ac738a0e87eb.cancelButtonLabel=Cancel
-ShowDialogAction.ac738a0e87eb.cancelButtonLabel=取消
-
-# ShowDialogAction.ac738a0e87eb.detailsButtonLabel=Details...
-ShowDialogAction.ac738a0e87eb.detailsButtonLabel=详情...
-
-# ShowDialogAction.ac738a0e87eb.label=Error occurred while installing the service with internal authentication along with email specification.
-ShowDialogAction.ac738a0e87eb.label=通过电子邮件指定进行内部身份验证安装服务时出错。
-
-# ShowDialogAction.ac738a0e87eb.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ac738a0e87eb.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.ac738a0e87eb.title=Error
-ShowDialogAction.ac738a0e87eb.title=错误
-
-# ShowDialogAction.ae41167387fe.buttonLabel=OK
-ShowDialogAction.ae41167387fe.buttonLabel=确定
-
-# ShowDialogAction.ae41167387fe.cancelButtonLabel=Cancel
-ShowDialogAction.ae41167387fe.cancelButtonLabel=取消
-
-# ShowDialogAction.ae41167387fe.detailsButtonLabel=Details...
-ShowDialogAction.ae41167387fe.detailsButtonLabel=详情...
-
-# ShowDialogAction.ae41167387fe.label=Error occurred while installing the service with internal authentication.
-ShowDialogAction.ae41167387fe.label=通过内部身份验证安装服务时出错。
-
-# ShowDialogAction.ae41167387fe.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.ae41167387fe.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.ae41167387fe.title=Error
-ShowDialogAction.ae41167387fe.title=错误
-
-# ShowDialogAction.b133105b93cd.buttonLabel=OK
-ShowDialogAction.b133105b93cd.buttonLabel=确定
-
-# ShowDialogAction.b133105b93cd.cancelButtonLabel=Cancel
-ShowDialogAction.b133105b93cd.cancelButtonLabel=取消
-
-# ShowDialogAction.b133105b93cd.detailsButtonLabel=Details...
-ShowDialogAction.b133105b93cd.detailsButtonLabel=详情...
-
-# ShowDialogAction.b133105b93cd.label=Error occurred while installing the service with operating system authentication along with email specification.
-ShowDialogAction.b133105b93cd.label=通过电子邮件指定进行操作系统身份验证安装服务时出错。
-
-# ShowDialogAction.b133105b93cd.narrative=A problem was encountered during the configuration of _RT_JOB_MANAGER_. Please check the log file in $USER_INSTALL_DIR$ for details.
-ShowDialogAction.b133105b93cd.narrative=配置 _RT_JOB_MANAGER_ 时遇到问题。有关详情，请检查 $USER_INSTALL_DIR$ 中的日志文件。
-
-# ShowDialogAction.b133105b93cd.title=Error
-ShowDialogAction.b133105b93cd.title=错误
-
-# ShowDialogAction.b1714b5b9abd.buttonLabel=OK
-ShowDialogAction.b1714b5b9abd.buttonLabel=确定
-
-# ShowDialogAction.b1714b5b9abd.cancelButtonLabel=Cancel
-ShowDialogAction.b1714b5b9abd.cancelButtonLabel=取消
-
-# ShowDialogAction.b1714b5b9abd.detailsButtonLabel=Details...
-ShowDialogAction.b1714b5b9abd.detailsButtonLabel=详情...
-
-# ShowDialogAction.b1714b5b9abd.label=Service User Name cannot be empty and it cannot be \"root\".
-ShowDialogAction.b1714b5b9abd.label=服务用户名不能为空，且不能为 \"root\"。
-
-# ShowDialogAction.b1714b5b9abd.narrative=Please enter valid Service User Name to proceed.
-ShowDialogAction.b1714b5b9abd.narrative=请输入有效的服务用户名以继续。
-
-# ShowDialogAction.b1714b5b9abd.title=Warning
-ShowDialogAction.b1714b5b9abd.title=警告
-
-# ShowDialogAction.b1cdf8e58828.buttonLabel=OK
-ShowDialogAction.b1cdf8e58828.buttonLabel=确定
-
-# ShowDialogAction.b1cdf8e58828.cancelButtonLabel=Cancel
-ShowDialogAction.b1cdf8e58828.cancelButtonLabel=取消
-
-# ShowDialogAction.b1cdf8e58828.detailsButtonLabel=Details...
-ShowDialogAction.b1cdf8e58828.detailsButtonLabel=详情...
-
-# ShowDialogAction.b1cdf8e58828.label=Service working directory cannot be empty.
-ShowDialogAction.b1cdf8e58828.label=服务工作目录不能为空。
-
-# ShowDialogAction.b1cdf8e58828.narrative=Please enter valid Service working directory to proceed.
-ShowDialogAction.b1cdf8e58828.narrative=请输入有效的服务工作目录以继续。
-
-# ShowDialogAction.b1cdf8e58828.title=Warning
-ShowDialogAction.b1cdf8e58828.title=警告
-
-# ShowDialogAction.b893f166969d.buttonLabel=OK
-ShowDialogAction.b893f166969d.buttonLabel=确定
-
-# ShowDialogAction.b893f166969d.cancelButtonLabel=Cancel
-ShowDialogAction.b893f166969d.cancelButtonLabel=取消
-
-# ShowDialogAction.b893f166969d.detailsButtonLabel=Details...
-ShowDialogAction.b893f166969d.detailsButtonLabel=详情...
-
-# ShowDialogAction.b893f166969d.label=The database file cannot be empty.
-ShowDialogAction.b893f166969d.label=数据库文件不能为空。
-
-# ShowDialogAction.b893f166969d.narrative=Please enter a valid database file name to proceed.
-ShowDialogAction.b893f166969d.narrative=请输入有效的数据库文件名以继续。
-
-# ShowDialogAction.b893f166969d.title=Warning
-ShowDialogAction.b893f166969d.title=警告
 
 # ShowDialogAction.c21a9a0faaeb.buttonLabel=OK
 ShowDialogAction.c21a9a0faaeb.buttonLabel=确定
@@ -4531,24 +3559,6 @@ ShowDialogAction.cefdc0cba92d.narrative=
 # ShowDialogAction.cefdc0cba92d.title=Installation directory
 ShowDialogAction.cefdc0cba92d.title=安装目录
 
-# ShowDialogAction.d006d826a7d6.buttonLabel=OK
-ShowDialogAction.d006d826a7d6.buttonLabel=确定
-
-# ShowDialogAction.d006d826a7d6.cancelButtonLabel=Cancel
-ShowDialogAction.d006d826a7d6.cancelButtonLabel=取消
-
-# ShowDialogAction.d006d826a7d6.detailsButtonLabel=Details...
-ShowDialogAction.d006d826a7d6.detailsButtonLabel=详情...
-
-# ShowDialogAction.d006d826a7d6.label=Uninstall the Linux service
-ShowDialogAction.d006d826a7d6.label=卸载 Linux 服务
-
-# ShowDialogAction.d006d826a7d6.narrative=Uninstalling the Linux service would require you to be an admin. Please uninstall with root privileges. 
-ShowDialogAction.d006d826a7d6.narrative=您必须是管理员才能卸载 Linux 服务。请使用 root 权限进行卸载。
-
-# ShowDialogAction.d006d826a7d6.title=Warning
-ShowDialogAction.d006d826a7d6.title=警告
-
 # ShowDialogAction.d834db1390ec.buttonLabel=Yes
 ShowDialogAction.d834db1390ec.buttonLabel=是
 
@@ -4566,24 +3576,6 @@ ShowDialogAction.d834db1390ec.narrative=安装程序检测到此系统上已安�
 
 # ShowDialogAction.d834db1390ec.title=Information
 ShowDialogAction.d834db1390ec.title=信息
-
-# ShowDialogAction.dfa3cf219aa5.buttonLabel=OK
-ShowDialogAction.dfa3cf219aa5.buttonLabel=确定
-
-# ShowDialogAction.dfa3cf219aa5.cancelButtonLabel=Cancel
-ShowDialogAction.dfa3cf219aa5.cancelButtonLabel=取消
-
-# ShowDialogAction.dfa3cf219aa5.detailsButtonLabel=Details...
-ShowDialogAction.dfa3cf219aa5.detailsButtonLabel=详情...
-
-# ShowDialogAction.dfa3cf219aa5.label=Install as a Linux service
-ShowDialogAction.dfa3cf219aa5.label=作为 Linux 服务安装
-
-# ShowDialogAction.dfa3cf219aa5.narrative=Installing the Linux service would require you to be an admin. Please install with root privileges. 
-ShowDialogAction.dfa3cf219aa5.narrative=您必须是管理员才能安装 Linux 服务。请使用 root 权限进行安装。
-
-# ShowDialogAction.dfa3cf219aa5.title=Information
-ShowDialogAction.dfa3cf219aa5.title=信息
 
 # ShowDialogAction.e261f38cb277.buttonLabel=OK
 ShowDialogAction.e261f38cb277.buttonLabel=确定
