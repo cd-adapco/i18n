@@ -79,6 +79,12 @@ ASCIIFileManipulator.712274008b40.additionalText=InstallDirectoryNX2212Series=$N
 # ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 ASCIIFileManipulator.712334dd8b42.additionalText=InstallDirectorySC3D2212Series=$NXPATH$
 
+# ASCIIFileManipulator.7ad508c49763.additionalText=InstallDirectoryNX2406Series=$NXPATH$
+ASCIIFileManipulator.7ad508c49763.additionalText=InstallDirectoryNX2406Series=$NXPATH$
+
+# ASCIIFileManipulator.7ad52f1e9764.additionalText=InstallDirectorySC3D2406Series=$NXPATH$
+ASCIIFileManipulator.7ad52f1e9764.additionalText=InstallDirectorySC3D2406Series=$NXPATH$
+
 # ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 ASCIIFileManipulator.7bb72e2999c6.additionalText=\n\n
 
@@ -670,6 +676,12 @@ Exec.7f8d22128268.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\
 # Exec.7f8d22128268.title=attrib +R
 Exec.7f8d22128268.title=attrib +R
 
+# Exec.8ecb48b48c01.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B33$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+Exec.8ecb48b48c01.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B33$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
+
+# Exec.8ecb48b48c01.title=attrib +R
+Exec.8ecb48b48c01.title=属性 +R
+
 # Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
@@ -996,6 +1008,9 @@ ExecuteScript.82f2d07fb6b7.title=删除所有用户开始菜单的 64 位快捷�
 
 # ExecuteScript.82f33f5db6b7.title=Delete All Users Start Menu 64 bit Shortcut
 ExecuteScript.82f33f5db6b7.title=删除所有用户开始菜单的 64 位快捷方式
+
+# ExecuteScript.8eca94f48c01.title=extract _CADC_STAR_CAT5_-33
+ExecuteScript.8eca94f48c01.title=提取 _CADC_STAR_CAT5_-33
 
 # ExecuteScript.9469fbb0ba58.title=Refresh Desktop
 ExecuteScript.9469fbb0ba58.title=刷新桌面
@@ -1731,6 +1746,18 @@ GUIComponentData.65d07a0498ce.defaultValue=Selected
 
 # GUIComponentData.65d07a0498ce.label=Start license server now 
 GUIComponentData.65d07a0498ce.label=立即启动许可证服务器
+
+# GUIComponentData.665833219a26.defaultValue=Not Selected
+GUIComponentData.665833219a26.defaultValue=Not Selected
+
+# GUIComponentData.665833219a26.label=NX 2406 series
+GUIComponentData.665833219a26.label=NX 2406 系列
+
+# GUIComponentData.66597b809a2a.defaultValue=Not Selected
+GUIComponentData.66597b809a2a.defaultValue=Not Selected
+
+# GUIComponentData.66597b809a2a.label=Simcenter 3D 2406
+GUIComponentData.66597b809a2a.label=Simcenter 3D 2406
 
 # GUIComponentData.7113ac7c8023.defaultValue=Not Selected
 GUIComponentData.7113ac7c8023.defaultValue=Not Selected
