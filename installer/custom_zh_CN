@@ -680,7 +680,7 @@ Exec.7f8d22128268.title=attrib +R
 Exec.8ecb48b48c01.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B33$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 
 # Exec.8ecb48b48c01.title=attrib +R
-Exec.8ecb48b48c01.title=属性 +R
+Exec.8ecb48b48c01.title=attrib +R
 
 # Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
 Exec.b8b20e8da4fb.commandLineArgs=attrib +R $USER_MAGIC_FOLDER_1$$\\$STAR-CAT5$\\$win64$\\$bin$\\$B30$\\$win_b64$\\$resources$\\$graphic$\\$CDA*.CAT*
