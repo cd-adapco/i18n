@@ -293,7 +293,7 @@ GetUserInputConsole.39dc75c28e78.prompt=您现在可以设置许可证管理器�
 GetUserInputConsole.39dc75c28e78.title=服务名称配置
 
 # GetUserInputConsole.ad1a5f0ab711.prompt=Please provide the path to the previous cdlmd installation? 
-GetUserInputConsole.ad1a5f0ab711.prompt=请提供以前 cdlmd 安装的路径？ 
+GetUserInputConsole.ad1a5f0ab711.prompt=请提供以前 cdlmd 安装的路径？
 
 # GetUserInputConsole.ad1a5f0ab711.title=Update License Server 
 GetUserInputConsole.ad1a5f0ab711.title=更新许可证服务器
