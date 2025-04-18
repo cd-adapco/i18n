@@ -578,7 +578,7 @@ CreateShortcut.eba4b7c1a520.workingDir=
 CustomAction.6e63a0d1af3d.dialogLabel=正在执行自定义代码...
 
 # DisplayMessage.731d4085b4cc.message=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+DisplayMessage.731d4085b4cc.message=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。\n\n按“已完成”退出安装程序。
 
 # DisplayMessage.731d4085b4cc.stepTitle=Install Complete
 DisplayMessage.731d4085b4cc.stepTitle=安装完成
@@ -2189,19 +2189,19 @@ InstallCompleteActionConsole.030e309c8b60.message=祝贺您：\n\n_COMPANY_NAME_
 InstallCompleteActionConsole.030e309c8b60.title=安装完成
 
 # InstallCompleteActionConsole.7317fed1a37e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.7317fed1a37e.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式。退出此安装工具后，可以使用此快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
+InstallCompleteActionConsole.7317fed1a37e.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式。退出此安装工具后，可以使用此快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。
 
 # InstallCompleteActionConsole.7317fed1a37e.title=Install Complete
 InstallCompleteActionConsole.7317fed1a37e.title=安装完成
 
 # InstallCompleteActionConsole.bd89f531898a.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.bd89f531898a.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式。退出此安装工具后，可以使用此快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
+InstallCompleteActionConsole.bd89f531898a.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式。退出此安装工具后，可以使用此快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。
 
 # InstallCompleteActionConsole.bd89f531898a.title=Install Complete
 InstallCompleteActionConsole.bd89f531898a.title=安装完成
 
 # InstallCompleteActionConsole.bd8f22d0980e.message=Congratulations:\n\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ has been completed successfully to:\n\n$USER_INSTALL_DIR$\n\nIf you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.bd8f22d0980e.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
+InstallCompleteActionConsole.bd8f22d0980e.message=祝贺您：\n\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 已成功安装至：\n\n$USER_INSTALL_DIR$\n\n如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。
 
 # InstallCompleteActionConsole.bd8f22d0980e.title=Install Complete
 InstallCompleteActionConsole.bd8f22d0980e.title=安装完成
@@ -2213,7 +2213,7 @@ InstallCompleteActionConsole.bd93643ba2ed.message=恭喜：\n\nFLEXNet $FLEXlmVE
 InstallCompleteActionConsole.bd93643ba2ed.title=安装完成
 
 # InstallCompleteActionConsole.c7d43b9c899d.message=\nThe installation of _SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ software $WINDOWS_TYPE$ is complete, but some warnings or errors occurred during the install.\n\nPlease see $USER_INSTALL_LOG_LOCATION$ for details.\n\nIf you require further assistance, then please contact your local support office.\n\nThank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.
-InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参见 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。
+InstallCompleteActionConsole.c7d43b9c899d.message=\n_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_ 软件 $WINDOWS_TYPE$ 安装已完成，但在安装过程中出现一些警告或错误。\n\n有关详情，请参见 $USER_INSTALL_LOG_LOCATION$。\n\n如需更多帮助，请联系当地的支持办公室。\n\n感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。
 
 # InstallCompleteActionConsole.c7d43b9c899d.title=Install Failed
 InstallCompleteActionConsole.c7d43b9c899d.title=安装失败
@@ -2414,7 +2414,7 @@ InstallFinishAction.850018e3843a.installErrorMessage=$INSTALLER_TITLE$ 安装已
 InstallFinishAction.850018e3843a.installFatalMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些严重错误。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
 
 # InstallFinishAction.850018e3843a.installSuccessMessage=Congratulations:\n\nThe installation of $INSTALLER_TITLE$ software $WINDOWS_TYPE$ has been completed successfully. If a default installation was performed, a shortcut has been placed on your desktop which can be used to start _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ software once you exit this installation tool. If you require further assistance, then please contact your local support office. Thank you for choosing _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. as your CAE provider.\n\nPress \"Done\" to quit the installer.
-InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供商。\n\n按“已完成”退出安装程序。
+InstallFinishAction.850018e3843a.installSuccessMessage=恭喜：\n\n$INSTALLER_TITLE$ 软件 $WINDOWS_TYPE$ 安装已成功完成。如果执行的是默认安装，则会在桌面上放置快捷方式，退出此安装工具后，可以使用快捷方式启动 _SOFTWARE_FAMILY_NAME_ _STAR_CCM_APP_NAME_ 软件。如需更多帮助，请联系当地的支持办公室。感谢您选择 _COMPANY_NAME_ _BUSINESS_UNIT_ Inc. 作为 CAE 提供器。\n\n按“已完成”退出安装程序。
 
 # InstallFinishAction.850018e3843a.installWarningMessage=The installation of $INSTALLER_TITLE$ is finished, but some warnings occurred during the install.  Please see the installation log $USER_INSTALL_LOG_LOCATION$ for details.
 InstallFinishAction.850018e3843a.installWarningMessage=$INSTALLER_TITLE$ 安装已完成，但在安装过程中出现一些警告。有关详情，请参阅安装日志 $USER_INSTALL_LOG_LOCATION$。
@@ -4079,16 +4079,16 @@ VariablePropertyDataBiDi.e5e0a98c8e84.propertyName=许可证文件：
 VariablePropertyDataBiDi.e5e0a98c8e84.propertyValue=$NEW_SALT_LIC_FILE_DIR$$NEW_SALT_LIC_FILE$
 
 # _ia.validateFlex.LicSrv1=License server 1 port@host: \n
-_ia.validateFlex.LicSrv1=许可证服务器 1 port@host：\n
+_ia.validateFlex.LicSrv1=许可证服务器 1 端口@主机：\n
 
 # _ia.validateFlex.LicSrv2=License server 2 port@host: \n
-_ia.validateFlex.LicSrv2=许可证服务器 2 port@host：\n
+_ia.validateFlex.LicSrv2=许可证服务器 2 端口@主机：\n
 
 # _ia.validateFlex.LicSrv3=License server 3 port@host: \n
-_ia.validateFlex.LicSrv3=许可证服务器 3 port@host：\n
+_ia.validateFlex.LicSrv3=许可证服务器 3 端口@主机：\n
 
 # _ia.validateFlex.LicSrvGeneric=License server port@host: \n
-_ia.validateFlex.LicSrvGeneric=许可证服务器 port@host：\n
+_ia.validateFlex.LicSrvGeneric=许可证服务器端口@主机：\n
 
 # _ia.validateFlex.Lic1NeedSet=License server 1 must be set.
 _ia.validateFlex.Lic1NeedSet=必须设置许可证服务器 1。
