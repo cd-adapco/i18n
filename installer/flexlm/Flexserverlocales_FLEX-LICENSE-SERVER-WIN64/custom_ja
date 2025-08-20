@@ -1250,7 +1250,7 @@ VariablePropertyDataBiDi.0755afcb8d2d.propertyValue=FLEXNet ライセンスサ�
 VariablePropertyDataNonBiDi.07575a6c8fc1.propertyName=製品名:
 
 # VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FLEXNet License Server v$FLEX_VERSION_NUMBER$ 
-VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FlexNet ライセンスサーバー v$FLEX_VERSION_NUMBER$
+VariablePropertyDataNonBiDi.07575a6c8fc1.propertyValue=FLEXNet ライセンスサーバー v$FLEX_VERSION_NUMBER$ 
 
 # VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=Installation directory:
 VariablePropertyDataNonBiDi.075837aa8fc6.propertyName=インストールディレクトリ:

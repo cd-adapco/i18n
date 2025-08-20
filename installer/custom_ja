@@ -2240,7 +2240,7 @@ InstallDirActionConsole.b90620fd80f1.additionalText=
 InstallDirActionConsole.b90620fd80f1.prompt=_SOFTWARE_FAMILY_NAME_ _REGISTRY_PRODUCT_NAME_ _REL_PRESENTATION_VERSION_をインストールする場所をどこにしますか?
 
 # InstallDirActionConsole.b90620fd80f1.stepTitle=Select Installation Location
-InstallDirActionConsole.b90620fd80f1.stepTitle=インストールフォルダを選択
+InstallDirActionConsole.b90620fd80f1.stepTitle=インストールの場所を選択
 
 # Installer.850018e38424.installLabels.00=Select Install Location
 Installer.850018e38424.installLabels.00=インストールフォルダを選択
