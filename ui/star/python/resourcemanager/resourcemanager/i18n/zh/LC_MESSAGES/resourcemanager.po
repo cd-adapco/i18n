@@ -180,7 +180,7 @@ msgstr "提交模板"
 
 #: resourcemanager/controllers/admin.py:135
 msgid "Enabled"
-msgstr "已启用"
+msgstr "启用"
 
 #: resourcemanager/controllers/admin.py:136
 #: resourcemanager/controllers/admin.py:139
