@@ -16,7 +16,7 @@
     "unsupportedVersionMsg": "このバージョンのジョブは、クライアントでサポートされていません",
     "terminateTaskFailedMsg": "タスクの終了に失敗しました、{0}",
     "PENDING": "保留中",
-    "QUEUED": "キューに入っています",
+    "QUEUED": "待機中",
     "STARTING": "開始中",
     "EXECUTING": "実行中",
     "COMPLETE": "完了",

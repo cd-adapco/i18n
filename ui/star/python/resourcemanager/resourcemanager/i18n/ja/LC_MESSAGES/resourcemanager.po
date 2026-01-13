@@ -762,7 +762,7 @@ msgstr "保留中のジョブのみを送信することができます。 現�
 msgid ""
 "Task can be created only for the job with pending, queued, or running "
 "status. Current job status %s."
-msgstr "タスクは、保留、キュー、または実行中のステータスを持つジョブに対してのみ作成することができます。現在のジョブステータスは、%sです。"
+msgstr "タスクは、保留、待機中、または実行中のステータスを持つジョブに対してのみ作成することができます。現在のジョブのステータスは、%sです。"
 
 #: resourcemanager/model/bl.py:965
 msgid "Could not find the submission template with the given name: {0}."
