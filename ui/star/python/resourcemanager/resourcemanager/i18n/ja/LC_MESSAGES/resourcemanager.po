@@ -596,7 +596,7 @@ msgstr "パスワードが無効です。"
 
 #: resourcemanager/controllers/root.py:111
 msgid "Wrong credentials"
-msgstr "不正な認証"
+msgstr "不正な資格情報"
 
 #: resourcemanager/controllers/root.py:129
 msgid "Welcome back, {0}!"
